@@ -11,6 +11,7 @@
 .edge:hover polygon { stroke: red; fill: red; }
 .edge path { stroke: white; }
 .edge polygon { stroke: white; fill: white; }
+.node polygon { fill: white; }
 ]]></style>
 <script type="text/javascript"><![CDATA[
 var edges = document.getElementsByTagName('g');
