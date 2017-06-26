@@ -8,14 +8,14 @@
  viewBox="0.00 0.00 276.00 235.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 231)">
 <title>obe::System::Cursor::handleTriggers</title>
-<!-- Node110 -->
-<g id="node1" class="node"><title>Node110</title>
+<!-- Node113 -->
+<g id="node1" class="node"><title>Node113</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-98.5 0,-128.5 107,-128.5 107,-98.5 0,-98.5"/>
 <text text-anchor="start" x="8" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::System::Cursor</text>
 <text text-anchor="middle" x="53.5" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">::handleTriggers</text>
 </g>
-<!-- Node111 -->
-<g id="node2" class="node"><title>Node111</title>
+<!-- Node114 -->
+<g id="node2" class="node"><title>Node114</title>
 <g id="a_node2"><a xlink:href="classobe_1_1_system_1_1_cursor.html#a6d7d78a74dde527c776ae728db40fbf8" target="_top" xlink:title="obe::System::Cursor\l::getClicked">
 <polygon fill="none" stroke="black" points="152,-196.5 152,-226.5 259,-226.5 259,-196.5 152,-196.5"/>
 <text text-anchor="start" x="160" y="-214.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::System::Cursor</text>
@@ -23,13 +23,13 @@
 </a>
 </g>
 </g>
-<!-- Node110&#45;&gt;Node111 -->
-<g id="edge1" class="edge"><title>Node110&#45;&gt;Node111</title>
+<!-- Node113&#45;&gt;Node114 -->
+<g id="edge1" class="edge"><title>Node113&#45;&gt;Node114</title>
 <path fill="none" stroke="midnightblue" d="M69.3164,-128.525C86.0151,-144.796 114.558,-170.673 143,-187.5 145.676,-189.083 148.475,-190.6 151.341,-192.047"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="150.117,-195.339 160.656,-196.427 153.096,-189.004 150.117,-195.339"/>
 </g>
-<!-- Node112 -->
-<g id="node3" class="node"><title>Node112</title>
+<!-- Node115 -->
+<g id="node3" class="node"><title>Node115</title>
 <g id="a_node3"><a xlink:href="classobe_1_1_script_1_1_trigger_group.html#a52338daf925e1d99ba9ab451adc59b79" target="_top" xlink:title="obe::Script::TriggerGroup\l::pushParameter">
 <polygon fill="none" stroke="black" points="143,-147.5 143,-177.5 268,-177.5 268,-147.5 143,-147.5"/>
 <text text-anchor="start" x="151" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Script::TriggerGroup</text>
@@ -37,27 +37,27 @@
 </a>
 </g>
 </g>
-<!-- Node110&#45;&gt;Node112 -->
-<g id="edge2" class="edge"><title>Node110&#45;&gt;Node112</title>
+<!-- Node113&#45;&gt;Node115 -->
+<g id="edge2" class="edge"><title>Node113&#45;&gt;Node115</title>
 <path fill="none" stroke="midnightblue" d="M100.729,-128.601C115.913,-133.562 132.951,-139.127 148.764,-144.293"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="147.831,-147.67 158.424,-147.448 150.005,-141.016 147.831,-147.67"/>
 </g>
-<!-- Node113 -->
-<g id="node4" class="node"><title>Node113</title>
-<g id="a_node4"><a xlink:href="classobe_1_1_script_1_1_trigger_group.html#a922f0023931d7fae15a30a751a11478d" target="_top" xlink:title="obe::Script::TriggerGroup\l::enableTrigger">
+<!-- Node116 -->
+<g id="node4" class="node"><title>Node116</title>
+<g id="a_node4"><a xlink:href="classobe_1_1_script_1_1_trigger_group.html#a395c3fe732fc5d7cf81e16dbf744b993" target="_top" xlink:title="obe::Script::TriggerGroup\l::enableTrigger">
 <polygon fill="none" stroke="black" points="143,-98.5 143,-128.5 268,-128.5 268,-98.5 143,-98.5"/>
 <text text-anchor="start" x="151" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Script::TriggerGroup</text>
 <text text-anchor="middle" x="205.5" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">::enableTrigger</text>
 </a>
 </g>
 </g>
-<!-- Node110&#45;&gt;Node113 -->
-<g id="edge3" class="edge"><title>Node110&#45;&gt;Node113</title>
+<!-- Node113&#45;&gt;Node116 -->
+<g id="edge3" class="edge"><title>Node113&#45;&gt;Node116</title>
 <path fill="none" stroke="midnightblue" d="M107.384,-113.5C115.629,-113.5 124.266,-113.5 132.844,-113.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="132.86,-117 142.86,-113.5 132.86,-110 132.86,-117"/>
 </g>
-<!-- Node114 -->
-<g id="node5" class="node"><title>Node114</title>
+<!-- Node117 -->
+<g id="node5" class="node"><title>Node117</title>
 <g id="a_node5"><a xlink:href="classobe_1_1_system_1_1_cursor.html#a3254567f23967394b905e3b53dcce2ab" target="_top" xlink:title="obe::System::Cursor\l::getPressed">
 <polygon fill="none" stroke="black" points="152,-49.5 152,-79.5 259,-79.5 259,-49.5 152,-49.5"/>
 <text text-anchor="start" x="160" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::System::Cursor</text>
@@ -65,13 +65,13 @@
 </a>
 </g>
 </g>
-<!-- Node110&#45;&gt;Node114 -->
-<g id="edge4" class="edge"><title>Node110&#45;&gt;Node114</title>
+<!-- Node113&#45;&gt;Node117 -->
+<g id="edge4" class="edge"><title>Node113&#45;&gt;Node117</title>
 <path fill="none" stroke="midnightblue" d="M100.729,-98.3986C115.913,-93.4385 132.951,-87.8726 148.764,-82.7071"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="150.005,-85.9838 158.424,-79.5516 147.831,-79.3298 150.005,-85.9838"/>
 </g>
-<!-- Node115 -->
-<g id="node6" class="node"><title>Node115</title>
+<!-- Node118 -->
+<g id="node6" class="node"><title>Node118</title>
 <g id="a_node6"><a xlink:href="classobe_1_1_system_1_1_cursor.html#aae5921889461c773745f178d91864e88" target="_top" xlink:title="obe::System::Cursor\l::getReleased">
 <polygon fill="none" stroke="black" points="152,-0.5 152,-30.5 259,-30.5 259,-0.5 152,-0.5"/>
 <text text-anchor="start" x="160" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::System::Cursor</text>
@@ -79,8 +79,8 @@
 </a>
 </g>
 </g>
-<!-- Node110&#45;&gt;Node115 -->
-<g id="edge5" class="edge"><title>Node110&#45;&gt;Node115</title>
+<!-- Node113&#45;&gt;Node118 -->
+<g id="edge5" class="edge"><title>Node113&#45;&gt;Node118</title>
 <path fill="none" stroke="midnightblue" d="M69.7057,-98.4765C86.5177,-82.4876 114.949,-57.2351 143,-40.5 146.356,-38.4978 149.902,-36.5875 153.528,-34.7797"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="155.079,-37.9183 162.647,-30.5037 152.107,-31.5805 155.079,-37.9183"/>
 </g>

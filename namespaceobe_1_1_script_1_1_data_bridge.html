@@ -71,6 +71,9 @@ $(function() {
 <div class="title">obe::Script::DataBridge Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><a class="el" href="namespaceobe_1_1_functions.html">Functions</a> that allow the conversion of Vili elements to Lua elements.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -79,19 +82,29 @@ Functions</h2></td></tr>
 <tr class="memitem:abffcea7e301c976f2464efd54af9ad04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvili_1_1_attribute.html">vili::Attribute</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script_1_1_data_bridge.html#abffcea7e301c976f2464efd54af9ad04">luaToData</a> (kaguya::LuaRef &amp;convert)</td></tr>
 <tr class="separator:abffcea7e301c976f2464efd54af9ad04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7665f07e695293bf14db6460cd45c80f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script_1_1_data_bridge.html#a7665f07e695293bf14db6460cd45c80f">complexAttributeToLuaTable</a> (kaguya::LuaTable &amp;target, <a class="el" href="classvili_1_1_complex_attribute.html">vili::ComplexAttribute</a> &amp;convert)</td></tr>
+<tr class="memdesc:a7665f07e695293bf14db6460cd45c80f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a converted Vili ComplexAttribute to a Lua Table The key of the newly converted element in the table will be the ComplexAttribute's id.  <a href="#a7665f07e695293bf14db6460cd45c80f">More...</a><br /></td></tr>
 <tr class="separator:a7665f07e695293bf14db6460cd45c80f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9816b580653df39ab7ff7f6de35962dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script_1_1_data_bridge.html#a9816b580653df39ab7ff7f6de35962dd">baseAttributeToLuaElement</a> (kaguya::LuaTable &amp;target, <a class="el" href="classvili_1_1_base_attribute.html">vili::BaseAttribute</a> &amp;convert)</td></tr>
+<tr class="memdesc:a9816b580653df39ab7ff7f6de35962dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a Vili BaseAttribute in a Lua Table The key of the newly converted element in the table will be the BaseAttribute's id.  <a href="#a9816b580653df39ab7ff7f6de35962dd">More...</a><br /></td></tr>
 <tr class="separator:a9816b580653df39ab7ff7f6de35962dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01e6b5bd8b76281d537194710497dce9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script_1_1_data_bridge.html#a01e6b5bd8b76281d537194710497dce9">listAttributeToLuaTable</a> (kaguya::LuaTable &amp;target, <a class="el" href="classvili_1_1_list_attribute.html">vili::ListAttribute</a> &amp;convert)</td></tr>
+<tr class="memdesc:a01e6b5bd8b76281d537194710497dce9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a converted Vili ListAttribute to a Lua Table. <br />
+ Index of the List will start at 0 (unlike default Lua lists which starts at 1). <br />
+ The key of the newly converted element in the table will be the ListAttribute's id.  <a href="#a01e6b5bd8b76281d537194710497dce9">More...</a><br /></td></tr>
 <tr class="separator:a01e6b5bd8b76281d537194710497dce9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae5a1ef843dcd226fbdc26e1e06f1dd8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvili_1_1_complex_attribute.html">vili::ComplexAttribute</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script_1_1_data_bridge.html#aae5a1ef843dcd226fbdc26e1e06f1dd8">luaTableToComplexAttribute</a> (std::string id, kaguya::LuaRef &amp;convert)</td></tr>
+<tr class="memdesc:aae5a1ef843dcd226fbdc26e1e06f1dd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a Lua Table to a Vili ComplexAttribute.  <a href="#aae5a1ef843dcd226fbdc26e1e06f1dd8">More...</a><br /></td></tr>
 <tr class="separator:aae5a1ef843dcd226fbdc26e1e06f1dd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bb8520d9932644c087a56ad3c661088"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvili_1_1_base_attribute.html">vili::BaseAttribute</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script_1_1_data_bridge.html#a2bb8520d9932644c087a56ad3c661088">luaElementToBaseAttribute</a> (std::string id, kaguya::LuaRef &amp;convert)</td></tr>
+<tr class="memdesc:a2bb8520d9932644c087a56ad3c661088"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a Lua Variable to a Vili BaseAttribute.  <a href="#a2bb8520d9932644c087a56ad3c661088">More...</a><br /></td></tr>
 <tr class="separator:a2bb8520d9932644c087a56ad3c661088"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f4baa93efcf63e0f03ccbbdbb215763"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvili_1_1_list_attribute.html">vili::ListAttribute</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script_1_1_data_bridge.html#a5f4baa93efcf63e0f03ccbbdbb215763">luaTableToListAttribute</a> (std::string id, kaguya::LuaTable &amp;convert)</td></tr>
+<tr class="memdesc:a5f4baa93efcf63e0f03ccbbdbb215763"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a Lua Table to a Vili ListAttribute.  <a href="#a5f4baa93efcf63e0f03ccbbdbb215763">More...</a><br /></td></tr>
 <tr class="separator:a5f4baa93efcf63e0f03ccbbdbb215763"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p><a class="el" href="namespaceobe_1_1_functions.html">Functions</a> that allow the conversion of Vili elements to Lua elements. </p>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="a9816b580653df39ab7ff7f6de35962dd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9816b580653df39ab7ff7f6de35962dd">&#9670;&nbsp;</a></span>baseAttributeToLuaElement()</h2>
 
@@ -117,17 +130,24 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Add a Vili BaseAttribute in a Lua Table The key of the newly converted element in the table will be the BaseAttribute's id. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">target</td><td>The Lua Table you want to write the Vili element in </td></tr>
+    <tr><td class="paramname">convert</td><td>The Vili BaseAttribute you want to add in the Lua Table </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_script_1_1_data_bridge_a9816b580653df39ab7ff7f6de35962dd_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_script_1_1_data_bridge_a9816b580653df39ab7ff7f6de35962dd_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_script_1_1_data_bridge_a9816b580653df39ab7ff7f6de35962dd_icgraph.svg" width="100%" height="481"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_script_1_1_data_bridge_a9816b580653df39ab7ff7f6de35962dd_icgraph.svg" width="100%" height="481"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -157,17 +177,24 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Adds a converted Vili ComplexAttribute to a Lua Table The key of the newly converted element in the table will be the ComplexAttribute's id. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">target</td><td>The Lua Table you want to add the converted ComplexAttribute </td></tr>
+    <tr><td class="paramname">convert</td><td>The Vili ComplexAttribute you want to get the data from </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_script_1_1_data_bridge_a7665f07e695293bf14db6460cd45c80f_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_script_1_1_data_bridge_a7665f07e695293bf14db6460cd45c80f_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_script_1_1_data_bridge_a7665f07e695293bf14db6460cd45c80f_icgraph.svg" width="100%" height="481"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_script_1_1_data_bridge_a7665f07e695293bf14db6460cd45c80f_icgraph.svg" width="100%" height="481"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -225,17 +252,26 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Adds a converted Vili ListAttribute to a Lua Table. <br />
+ Index of the List will start at 0 (unlike default Lua lists which starts at 1). <br />
+ The key of the newly converted element in the table will be the ListAttribute's id. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">target</td><td>The Lua Table you want to add the converted ListAttribute </td></tr>
+    <tr><td class="paramname">convert</td><td>The Vili ComplexAttribute you want to get the data from </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_script_1_1_data_bridge_a01e6b5bd8b76281d537194710497dce9_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_script_1_1_data_bridge_a01e6b5bd8b76281d537194710497dce9_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_script_1_1_data_bridge_a01e6b5bd8b76281d537194710497dce9_icgraph.svg" width="100%" height="481"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_script_1_1_data_bridge_a01e6b5bd8b76281d537194710497dce9_icgraph.svg" width="100%" height="481"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -265,17 +301,25 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Converts a Lua Variable to a Vili BaseAttribute. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>Id of the newly created BaseAttribute </td></tr>
+    <tr><td class="paramname">convert</td><td>The LuaVar you want to convert to a BaseAttribute </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The converted Lua Element in BaseAttribute form </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_script_1_1_data_bridge_a2bb8520d9932644c087a56ad3c661088_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_script_1_1_data_bridge_a2bb8520d9932644c087a56ad3c661088_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_script_1_1_data_bridge_a2bb8520d9932644c087a56ad3c661088_icgraph.svg" width="100%" height="463"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_script_1_1_data_bridge_a2bb8520d9932644c087a56ad3c661088_icgraph.svg" width="100%" height="463"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -305,17 +349,25 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Converts a Lua Table to a Vili ComplexAttribute. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>Id of the newly created ComplexAttribute </td></tr>
+    <tr><td class="paramname">convert</td><td>The LuaTable you want to convert to a ComplexAttribute </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The converted Lua Table in ComplexAttribute form </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_script_1_1_data_bridge_aae5a1ef843dcd226fbdc26e1e06f1dd8_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_script_1_1_data_bridge_aae5a1ef843dcd226fbdc26e1e06f1dd8_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_script_1_1_data_bridge_aae5a1ef843dcd226fbdc26e1e06f1dd8_icgraph.svg" width="100%" height="463"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_script_1_1_data_bridge_aae5a1ef843dcd226fbdc26e1e06f1dd8_icgraph.svg" width="100%" height="463"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -345,6 +397,16 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Converts a Lua Table to a Vili ListAttribute. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>Id of the newly created ListAttribute </td></tr>
+    <tr><td class="paramname">convert</td><td>The Lua Table you want to convert to a ListAttribute </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The converted Lua Table in ListAttribute form </dd></dl>
 
 </div>
 </div>

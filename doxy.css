@@ -399,7 +399,7 @@ span.keywordtype
 
 span.stringliteral
 {
-  color: #337733;
+  color: #0140ff;
 }
 
 #powerTip
@@ -683,6 +683,10 @@ span.comment {
 
 span.preprocessor {
 	color: #806020
+}
+
+span.stringliteral {
+	color: #002080
 }
 
 span.charliteral {

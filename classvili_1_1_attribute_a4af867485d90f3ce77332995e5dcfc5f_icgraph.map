@@ -6,13 +6,13 @@
 <area shape="rect" id="node17" href="$classvili_1_1_data_parser.html#a9608c9c66d1526081a5ab86045a20f1b" title="vili::DataParser::generate\lTemplate" alt="" coords="930,1525,1097,1566"/>
 <area shape="rect" id="node22" href="$classvili_1_1_complex_attribute.html#adb309539a0f8cb36240339f14e3e2f25" title="vili::ComplexAttribute\l::extractElement" alt="" coords="441,511,585,553"/>
 <area shape="rect" id="node26" href="$classvili_1_1_complex_attribute.html#a01d8c568b84d99e3547f79fd1c3989a9" title="vili::ComplexAttribute\l::heritage" alt="" coords="687,74,831,115"/>
-<area shape="rect" id="node32" href="$namespaceobe_1_1_script_1_1_data_bridge.html#a7665f07e695293bf14db6460cd45c80f" title="obe::Script::DataBridge\l::complexAttributeToLuaTable" alt="" coords="916,1693,1111,1734"/>
-<area shape="rect" id="node42" href="$namespaceobe_1_1_script_1_1_data_bridge.html#a01e6b5bd8b76281d537194710497dce9" title="obe::Script::DataBridge\l::listAttributeToLuaTable" alt="" coords="678,2157,841,2198"/>
+<area shape="rect" id="node32" href="$namespaceobe_1_1_script_1_1_data_bridge.html#a7665f07e695293bf14db6460cd45c80f" title="Adds a converted Vili ComplexAttribute to a Lua Table The key of the newly converted element in the t..." alt="" coords="916,1693,1111,1734"/>
+<area shape="rect" id="node42" href="$namespaceobe_1_1_script_1_1_data_bridge.html#a01e6b5bd8b76281d537194710497dce9" title="Adds a converted Vili ListAttribute to a Lua Table. &#160;&#160;Index of the List will start at 0 (unlike defau..." alt="" coords="678,2157,841,2198"/>
 <area shape="rect" id="node45" href="$classvili_1_1_complex_attribute.html#a6cd7ad2e8c23bc551e357437424308bb" title="vili::ComplexAttribute\l::pushBaseAttribute" alt="" coords="441,343,585,385"/>
 <area shape="rect" id="node47" href="$classvili_1_1_complex_attribute.html#abe26f538e23f183048716df39ca834db" title="vili::ComplexAttribute\l::pushListAttribute" alt="" coords="687,562,831,603"/>
 <area shape="rect" id="node48" href="$classvili_1_1_complex_attribute.html#a0e84ce350ff94cf291b103936d9aaabe" title="vili::ComplexAttribute\l::pushComplexAttribute" alt="" coords="433,261,592,302"/>
 <area shape="rect" id="node49" href="$classvili_1_1_complex_attribute.html#a9d191cd359dfd1be1f59cbd58fcc13d1" title="vili::ComplexAttribute\l::pushLinkAttribute" alt="" coords="207,570,351,611"/>
-<area shape="rect" id="node50" href="$namespaceobe_1_1_script_1_1_data_bridge.html#a9816b580653df39ab7ff7f6de35962dd" title="obe::Script::DataBridge\l::baseAttributeToLuaElement" alt="" coords="184,2274,375,2315"/>
+<area shape="rect" id="node50" href="$namespaceobe_1_1_script_1_1_data_bridge.html#a9816b580653df39ab7ff7f6de35962dd" title="Add a Vili BaseAttribute in a Lua Table The key of the newly converted element in the table will be t..." alt="" coords="184,2274,375,2315"/>
 <area shape="rect" id="node3" href="$classvili_1_1_attribute.html#ac82d3332b743dbea7b3ae3bdab98cd52" title="vili::Attribute::removeParent" alt="" coords="423,1584,603,1611"/>
 <area shape="rect" id="node4" href="$classvili_1_1_attribute.html#a0669bd5af7169dba160c189885ae341d" title="vili::Attribute::setParent" alt="" coords="434,1767,591,1793"/>
 <area shape="rect" id="node6" href="$classvili_1_1_attribute.html#a639e035af59176c57c9bdc5e077849fd" title="vili::Attribute::setID" alt="" coords="447,1533,578,1560"/>
@@ -47,5 +47,5 @@
 <area shape="rect" id="node27" href="$classvili_1_1_complex_attribute.html#a258b113befce838b80a5d6a6ab495fd3" title="vili::ComplexAttribute\l::ComplexAttribute" alt="" coords="941,74,1085,115"/>
 <area shape="rect" id="node31" href="$classvili_1_1_complex_attribute.html#a7effbea21d8995576687efb28c60fac9" title="vili::ComplexAttribute::at" alt="" coords="932,949,1095,976"/>
 <area shape="rect" id="node34" href="$classobe_1_1_world_1_1_world.html#ad3f98425ed3917caead79559247695f1" title="obe::World::World::\lsaveData" alt="" coords="946,491,1081,533"/>
-<area shape="rect" id="node46" href="$namespaceobe_1_1_script_1_1_data_bridge.html#aae5a1ef843dcd226fbdc26e1e06f1dd8" title="obe::Script::DataBridge\l::luaTableToComplexAttribute" alt="" coords="663,242,855,283"/>
+<area shape="rect" id="node46" href="$namespaceobe_1_1_script_1_1_data_bridge.html#aae5a1ef843dcd226fbdc26e1e06f1dd8" title="Converts a Lua Table to a Vili ComplexAttribute. " alt="" coords="663,242,855,283"/>
 </map>

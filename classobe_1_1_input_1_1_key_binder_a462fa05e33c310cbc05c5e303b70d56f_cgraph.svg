@@ -8,14 +8,14 @@
  viewBox="0.00 0.00 279.00 235.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 231)">
 <title>obe::Input::KeyBinder::handleTriggers</title>
-<!-- Node18 -->
-<g id="node1" class="node"><title>Node18</title>
+<!-- Node17 -->
+<g id="node1" class="node"><title>Node17</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-98.5 0,-128.5 110,-128.5 110,-98.5 0,-98.5"/>
 <text text-anchor="start" x="8" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Input::KeyBinder</text>
 <text text-anchor="middle" x="55" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">::handleTriggers</text>
 </g>
-<!-- Node19 -->
-<g id="node2" class="node"><title>Node19</title>
+<!-- Node18 -->
+<g id="node2" class="node"><title>Node18</title>
 <g id="a_node2"><a xlink:href="classobe_1_1_input_1_1_key_binder.html#a877650096bdc9ffce3d10574b895890d" target="_top" xlink:title="obe::Input::KeyBinder\l::isActionToggled">
 <polygon fill="none" stroke="black" points="153.5,-196.5 153.5,-226.5 263.5,-226.5 263.5,-196.5 153.5,-196.5"/>
 <text text-anchor="start" x="161.5" y="-214.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Input::KeyBinder</text>
@@ -23,13 +23,13 @@
 </a>
 </g>
 </g>
-<!-- Node18&#45;&gt;Node19 -->
-<g id="edge1" class="edge"><title>Node18&#45;&gt;Node19</title>
+<!-- Node17&#45;&gt;Node18 -->
+<g id="edge1" class="edge"><title>Node17&#45;&gt;Node18</title>
 <path fill="none" stroke="midnightblue" d="M71.1159,-128.507C88.1399,-144.761 117.204,-170.624 146,-187.5 148.682,-189.072 151.486,-190.58 154.357,-192.021"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="153.14,-195.315 163.68,-196.385 156.108,-188.976 153.14,-195.315"/>
 </g>
-<!-- Node20 -->
-<g id="node3" class="node"><title>Node20</title>
+<!-- Node19 -->
+<g id="node3" class="node"><title>Node19</title>
 <g id="a_node3"><a xlink:href="classobe_1_1_input_1_1_key_binder.html#a8355051ab052cc8fce0f86453dec990e" target="_top" xlink:title="obe::Input::KeyBinder\l::isActionPressed">
 <polygon fill="none" stroke="black" points="153.5,-147.5 153.5,-177.5 263.5,-177.5 263.5,-147.5 153.5,-147.5"/>
 <text text-anchor="start" x="161.5" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Input::KeyBinder</text>
@@ -37,13 +37,13 @@
 </a>
 </g>
 </g>
-<!-- Node18&#45;&gt;Node20 -->
-<g id="edge2" class="edge"><title>Node18&#45;&gt;Node20</title>
+<!-- Node17&#45;&gt;Node19 -->
+<g id="edge2" class="edge"><title>Node17&#45;&gt;Node19</title>
 <path fill="none" stroke="midnightblue" d="M102.691,-128.601C118.027,-133.562 135.236,-139.127 151.207,-144.293"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="150.371,-147.701 160.963,-147.448 152.525,-141.041 150.371,-147.701"/>
 </g>
-<!-- Node21 -->
-<g id="node4" class="node"><title>Node21</title>
+<!-- Node20 -->
+<g id="node4" class="node"><title>Node20</title>
 <g id="a_node4"><a xlink:href="classobe_1_1_input_1_1_key_binder.html#ad81ea459187e3ae401e839a91a94e8a7" target="_top" xlink:title="obe::Input::KeyBinder\l::isActionReleased">
 <polygon fill="none" stroke="black" points="153.5,-98.5 153.5,-128.5 263.5,-128.5 263.5,-98.5 153.5,-98.5"/>
 <text text-anchor="start" x="161.5" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Input::KeyBinder</text>
@@ -51,13 +51,13 @@
 </a>
 </g>
 </g>
-<!-- Node18&#45;&gt;Node21 -->
-<g id="edge3" class="edge"><title>Node18&#45;&gt;Node21</title>
+<!-- Node17&#45;&gt;Node20 -->
+<g id="edge3" class="edge"><title>Node17&#45;&gt;Node20</title>
 <path fill="none" stroke="midnightblue" d="M110.267,-113.5C120.883,-113.5 132.114,-113.5 143.025,-113.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="143.357,-117 153.357,-113.5 143.357,-110 143.357,-117"/>
 </g>
-<!-- Node22 -->
-<g id="node5" class="node"><title>Node22</title>
+<!-- Node21 -->
+<g id="node5" class="node"><title>Node21</title>
 <g id="a_node5"><a xlink:href="classobe_1_1_script_1_1_trigger_group.html#a52338daf925e1d99ba9ab451adc59b79" target="_top" xlink:title="obe::Script::TriggerGroup\l::pushParameter">
 <polygon fill="none" stroke="black" points="146,-49.5 146,-79.5 271,-79.5 271,-49.5 146,-49.5"/>
 <text text-anchor="start" x="154" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Script::TriggerGroup</text>
@@ -65,22 +65,22 @@
 </a>
 </g>
 </g>
-<!-- Node18&#45;&gt;Node22 -->
-<g id="edge4" class="edge"><title>Node18&#45;&gt;Node22</title>
+<!-- Node17&#45;&gt;Node21 -->
+<g id="edge4" class="edge"><title>Node17&#45;&gt;Node21</title>
 <path fill="none" stroke="midnightblue" d="M102.691,-98.3986C118.027,-93.4385 135.236,-87.8726 151.207,-82.7071"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="152.525,-85.9592 160.963,-79.5516 150.371,-79.2989 152.525,-85.9592"/>
 </g>
-<!-- Node23 -->
-<g id="node6" class="node"><title>Node23</title>
-<g id="a_node6"><a xlink:href="classobe_1_1_script_1_1_trigger_group.html#a922f0023931d7fae15a30a751a11478d" target="_top" xlink:title="obe::Script::TriggerGroup\l::enableTrigger">
+<!-- Node22 -->
+<g id="node6" class="node"><title>Node22</title>
+<g id="a_node6"><a xlink:href="classobe_1_1_script_1_1_trigger_group.html#a395c3fe732fc5d7cf81e16dbf744b993" target="_top" xlink:title="obe::Script::TriggerGroup\l::enableTrigger">
 <polygon fill="none" stroke="black" points="146,-0.5 146,-30.5 271,-30.5 271,-0.5 146,-0.5"/>
 <text text-anchor="start" x="154" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Script::TriggerGroup</text>
 <text text-anchor="middle" x="208.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::enableTrigger</text>
 </a>
 </g>
 </g>
-<!-- Node18&#45;&gt;Node23 -->
-<g id="edge5" class="edge"><title>Node18&#45;&gt;Node23</title>
+<!-- Node17&#45;&gt;Node22 -->
+<g id="edge5" class="edge"><title>Node17&#45;&gt;Node22</title>
 <path fill="none" stroke="midnightblue" d="M71.5108,-98.4968C88.6482,-82.5254 117.595,-57.2877 146,-40.5 149.364,-38.5117 152.916,-36.6115 156.547,-34.811"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="158.095,-37.9512 165.673,-30.5473 155.132,-31.6092 158.095,-37.9512"/>
 </g>

@@ -1,7 +1,7 @@
 <map id="vili::BaseAttribute::set" name="vili::BaseAttribute::set">
 <area shape="rect" id="node2" href="$classvili_1_1_base_attribute.html#a27b7f17214e2b9708f4f8fb9847aaa95" title="vili::BaseAttribute\l::copy" alt="" coords="214,583,337,625"/>
 <area shape="rect" id="node46" href="$classvili_1_1_complex_attribute.html#a647bd817cec3fc6ba4437ad21209b586" title="vili::ComplexAttribute\l::createBaseAttribute" alt="" coords="203,783,348,825"/>
-<area shape="rect" id="node47" href="$namespaceobe_1_1_script_1_1_data_bridge.html#a2bb8520d9932644c087a56ad3c661088" title="obe::Script::DataBridge\l::luaElementToBaseAttribute" alt="" coords="396,842,584,883"/>
+<area shape="rect" id="node47" href="$namespaceobe_1_1_script_1_1_data_bridge.html#a2bb8520d9932644c087a56ad3c661088" title="Converts a Lua Variable to a Vili BaseAttribute. " alt="" coords="396,842,584,883"/>
 <area shape="rect" id="node50" href="$namespaceobe_1_1_script_1_1_core_lib.html#a144f31cc8b37c8d19a05138691229059" title="obe::Script::CoreLib\l::loadVili" alt="" coords="421,933,559,974"/>
 <area shape="rect" id="node3" href="$classvili_1_1_base_attribute.html#a637dd7d2977f7a453f06065d5d441495" title="vili::BaseAttribute::get" alt="" coords="415,456,565,483"/>
 <area shape="rect" id="node4" href="$namespacevili.html#a8aa0ddde27e2ef4a978e50aa8253008d" title="vili::LoadErrors" alt="" coords="674,5,781,32"/>
@@ -10,11 +10,11 @@
 <area shape="rect" id="node17" href="$classvili_1_1_link_attribute.html#a34a9f7a668c2eb5333932ae31842536b" title="vili::LinkAttribute\l::getFullPath" alt="" coords="669,325,786,366"/>
 <area shape="rect" id="node20" href="$classobe_1_1_animation_1_1_animation.html#a672d106427b224e31b2dfe1489d8c075" title="Configure an Animation using the Animation configuration file (Vili file) " alt="" coords="640,390,815,431"/>
 <area shape="rect" id="node22" href="$classobe_1_1_animation_1_1_animation.html#a4e6e5f2ea8cbccd0bfe3df99052c01f9" title="Apply global Animation parameters (Sprite offset and priority) " alt="" coords="640,507,815,549"/>
-<area shape="rect" id="node23" href="$namespaceobe_1_1_script_1_1_data_bridge.html#a9816b580653df39ab7ff7f6de35962dd" title="obe::Script::DataBridge\l::baseAttributeToLuaElement" alt="" coords="632,690,823,731"/>
+<area shape="rect" id="node23" href="$namespaceobe_1_1_script_1_1_data_bridge.html#a9816b580653df39ab7ff7f6de35962dd" title="Add a Vili BaseAttribute in a Lua Table The key of the newly converted element in the table will be t..." alt="" coords="632,690,823,731"/>
 <area shape="rect" id="node26" href="$classobe_1_1_world_1_1_world.html#afb1d1ba4e0ae0ab5f741f413b793ba7e" title="obe::World::World::\lloadFromFile" alt="" coords="1421,677,1556,718"/>
 <area shape="rect" id="node33" href="$classobe_1_1_script_1_1_game_object.html#aa0d58bd1ef0fa2fe9f7567729b2d291e" title="obe::Script::GameObject\l::loadGameObject" alt="" coords="644,625,811,666"/>
 <area shape="rect" id="node34" href="$classobe_1_1_input_1_1_key_binder.html#ad2d418093127720f22242b2c667d0275" title="obe::Input::KeyBinder\l::loadFromFile" alt="" coords="654,765,801,806"/>
-<area shape="rect" id="node42" href="$namespaceobe_1_1_editor_tools.html#a7f3c018ecab267dafc823111edcf7e9c" title="obe::EditorTools::buildRequires\lObjectTab" alt="" coords="1121,507,1323,549"/>
+<area shape="rect" id="node42" href="$namespaceobe_1_1_editor.html#ab548dfe02b4323438bcf9caedd01d696" title="obe::Editor::buildRequires\lObjectTab" alt="" coords="1137,507,1307,549"/>
 <area shape="rect" id="node44" href="$namespaceobe_1_1_modes.html#a906551a475a12bc7acee6673e997ff89" title="obe::Modes::chooseMapAddMaps" alt="" coords="1379,56,1599,83"/>
 <area shape="rect" id="node5" href="$_ob_engine_8cpp.html#a9d635b351804b55a321adfe42be36dda" title="LoadErrors" alt="" coords="2157,64,2242,91"/>
 <area shape="rect" id="node6" href="$_ob_engine_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="2336,584,2387,611"/>
@@ -29,7 +29,7 @@
 <area shape="rect" id="node18" href="$classvili_1_1_attribute_constraint_manager.html#a1ac3d86120fa04d84d7b6f9885611a4d" title="vili::AttributeConstraint\lManager::getArgumentPath" alt="" coords="877,339,1059,381"/>
 <area shape="rect" id="node19" href="$classvili_1_1_link_attribute.html#a6b473daf48eb44f716bfc45ef9b70874" title="vili::LinkAttribute\l::operator==" alt="" coords="909,274,1027,315"/>
 <area shape="rect" id="node21" href="$classobe_1_1_graphics_1_1_renderers_1_1_visual_novel.html#a57413ea17f40729ac2c7031deabf80be" title="obe::Graphics::Renderers\l::VisualNovel::VisualNovel" alt="" coords="882,457,1054,498"/>
-<area shape="rect" id="node24" href="$namespaceobe_1_1_script_1_1_data_bridge.html#a7665f07e695293bf14db6460cd45c80f" title="obe::Script::DataBridge\l::complexAttributeToLuaTable" alt="" coords="871,625,1065,666"/>
+<area shape="rect" id="node24" href="$namespaceobe_1_1_script_1_1_data_bridge.html#a7665f07e695293bf14db6460cd45c80f" title="Adds a converted Vili ComplexAttribute to a Lua Table The key of the newly converted element in the t..." alt="" coords="871,625,1065,666"/>
 <area shape="rect" id="node25" href="$classobe_1_1_script_1_1_game_object_requires.html#accdee3131343022cdee1fd2827780a67" title="obe::Script::GameObjectRequires\l::ApplyRequirements" alt="" coords="1113,625,1331,666"/>
 <area shape="rect" id="node27" href="$namespaceobe_1_1_editor.html#a508e767d732debdb65e63c7bffa50623" title="obe::Editor::editMap" alt="" coords="1663,629,1801,656"/>
 <area shape="rect" id="node29" href="$namespaceobe_1_1_world.html#af739dc1887d2fa99eeded5b208cf66f5" title="obe::World::loadWorldLib" alt="" coords="1648,735,1816,761"/>
@@ -44,8 +44,8 @@
 <area shape="rect" id="node39" href="$namespaceobe_1_1_script.html#a5e992c0efb0543e7c934bc1065f08b01" title="obe::Script::loadLibBridge" alt="" coords="1647,988,1817,1015"/>
 <area shape="rect" id="node40" href="$namespaceobe_1_1_script.html#aad6ef67388e6d16eb01853f208da410f" title="obe::Script::loadBaseLib" alt="" coords="1650,887,1814,913"/>
 <area shape="rect" id="node41" href="$namespaceobe_1_1_modes.html#a1e38c0d9a2ca0230f0de79c298f53ab9" title="A mode that will start the Toolkit. " alt="" coords="1867,831,2061,857"/>
-<area shape="rect" id="node43" href="$namespaceobe_1_1_editor_tools.html#ae87fed69e1ccf251630077dffc3552ab" title="obe::EditorTools::buildObjectTab" alt="" coords="1383,544,1594,571"/>
+<area shape="rect" id="node43" href="$namespaceobe_1_1_editor.html#a24423ada9fd467ae78ebf9d21e64db0b" title="obe::Editor::buildObjectTab" alt="" coords="1399,544,1578,571"/>
 <area shape="rect" id="node45" href="$namespaceobe_1_1_modes.html#a3f3265818dfb12925bf614e517346f73" title="obe::Modes::chooseMapMenu" alt="" coords="1865,56,2063,83"/>
-<area shape="rect" id="node48" href="$namespaceobe_1_1_script_1_1_data_bridge.html#aae5a1ef843dcd226fbdc26e1e06f1dd8" title="obe::Script::DataBridge\l::luaTableToComplexAttribute" alt="" coords="1126,742,1318,783"/>
+<area shape="rect" id="node48" href="$namespaceobe_1_1_script_1_1_data_bridge.html#aae5a1ef843dcd226fbdc26e1e06f1dd8" title="Converts a Lua Table to a Vili ComplexAttribute. " alt="" coords="1126,742,1318,783"/>
 <area shape="rect" id="node49" href="$classobe_1_1_world_1_1_world.html#ad3f98425ed3917caead79559247695f1" title="obe::World::World::\lsaveData" alt="" coords="1421,742,1556,783"/>
 </map>

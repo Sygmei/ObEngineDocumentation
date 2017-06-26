@@ -66,7 +66,10 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">Triggers.cpp File Reference</div>  </div>
 </div><!--header-->
@@ -75,8 +78,7 @@ $(function() {
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for Triggers.cpp:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="_triggers_8cpp__incl.svg" width="100%" height="563"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="_triggers_8cpp__incl.svg" width="100%" height="563"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -85,7 +87,110 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceobe_1_1_script"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html">obe::Script</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a151bb54f652676ec7ec536ed79fe1542"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_triggers_8cpp.html#a151bb54f652676ec7ec536ed79fe1542">StartCheck</a>&#160;&#160;&#160;if (false) {}</td></tr>
+<tr class="separator:a151bb54f652676ec7ec536ed79fe1542"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19e0cc17a928150e3e36aa1b2b4f0c8b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_triggers_8cpp.html#a19e0cc17a928150e3e36aa1b2b4f0c8b">AffectIfCorrectType</a>(type)&#160;&#160;&#160;else if(affectIfCorrectType&lt;type&gt;(lua,parameter)){}</td></tr>
+<tr class="separator:a19e0cc17a928150e3e36aa1b2b4f0c8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a696210b4d754fae7e9c1bf6b7173f103"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_triggers_8cpp.html#a696210b4d754fae7e9c1bf6b7173f103">_AffectIfCorrectType</a>(type,  ntype)&#160;&#160;&#160;else if(affectIfCorrectType&lt;type, ntype&gt;(lua,parameter)){}</td></tr>
+<tr class="separator:a696210b4d754fae7e9c1bf6b7173f103"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82f9fb610e992b225c726c5dad29749c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_triggers_8cpp.html#a82f9fb610e992b225c726c5dad29749c">EndCheck</a>&#160;&#160;&#160;else { return false; }</td></tr>
+<tr class="separator:a82f9fb610e992b225c726c5dad29749c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:acba87ced8174ec07323a7f4ffc745822"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:acba87ced8174ec07323a7f4ffc745822"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#acba87ced8174ec07323a7f4ffc745822">obe::Script::affectIfCorrectType</a> (kaguya::State &amp;lua, const std::pair&lt; std::string, std::pair&lt; std::string, Types::any &gt;&gt; &amp;parameter)</td></tr>
+<tr class="separator:acba87ced8174ec07323a7f4ffc745822"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c225c326f4c2acb6ae9a6f35f3b80f4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#a1c225c326f4c2acb6ae9a6f35f3b80f4">obe::Script::injectParameters</a> (Trigger &amp;trigger, kaguya::State &amp;lua)</td></tr>
+<tr class="separator:a1c225c326f4c2acb6ae9a6f35f3b80f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d6777d3c99e1c316b23827eb0346136"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#a8d6777d3c99e1c316b23827eb0346136">obe::Script::if</a> (this-&gt;getTrigger(triggerName) -&gt;m_toDisable) this -&gt; getTrigger(triggerName) -&gt;m_toDisable=false</td></tr>
+<tr class="separator:a8d6777d3c99e1c316b23827eb0346136"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ab7b610c31b1bd8a655f5817dee71e824"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::pair&lt; std::string, Types::any)) *Trigger::getParameters() { return &amp;m_triggerParameters;} void Trigger::clearParameters() { m_triggerParameters.clear();} TriggerDelay::TriggerDelay(Trigger *trg, int del, bool sta) { m_trigger=trg;m_delay=del;m_state=sta;} TriggerGroup::TriggerGroup(std::string triggerGroupName) { m_fromNsp=&quot;&quot;;m_triggerGroupName=triggerGroupName;} TriggerGroup::TriggerGroup(std::string triggerGroupNamespace, std::string triggerGroupName) { m_fromNsp=triggerGroupNamespace;m_triggerGroupName=triggerGroupName;} Trigger *TriggerGroup::getTrigger(std::string triggerName) { if(m_triggerMap.find(triggerName) !=m_triggerMap.end()) { return m_triggerMap[triggerName];} throw <a class="el" href="classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b">aube::ErrorHandler::Raise</a>(&quot;ObEngine.Trigger.TriggerGroup.UnknownTrigger&quot;, {{&quot;trigger&quot;, triggerName}, {&quot;group&quot;, m_triggerGroupName}});} TriggerGroup *TriggerGroup::addTrigger(std::string triggerName) { m_triggerMap[triggerName]=new Trigger(*this, triggerName);return this;} TriggerGroup *TriggerGroup::delayTriggerState(std::string triggerName, int delay, bool state) { m_delayedTriggers.push_back(new TriggerDelay(getTrigger(triggerName), delay, state));return this;} TriggerGroup *TriggerGroup::enableTrigger(std::string triggerName) { this-&gt;getTrigger(triggerName) -&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#ab7b610c31b1bd8a655f5817dee71e824">obe::Script::m_toEnable</a> = true</td></tr>
+<tr class="separator:ab7b610c31b1bd8a655f5817dee71e824"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae058cd856d8da446af953fbbd8a25724"><td class="memItemLeft" align="right" valign="top">return&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#ae058cd856d8da446af953fbbd8a25724">obe::Script::this</a></td></tr>
+<tr class="separator:ae058cd856d8da446af953fbbd8a25724"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a696210b4d754fae7e9c1bf6b7173f103"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a696210b4d754fae7e9c1bf6b7173f103">&#9670;&nbsp;</a></span>_AffectIfCorrectType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define _AffectIfCorrectType</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">type, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ntype&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;else if(affectIfCorrectType&lt;type, ntype&gt;(lua,parameter)){}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a19e0cc17a928150e3e36aa1b2b4f0c8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19e0cc17a928150e3e36aa1b2b4f0c8b">&#9670;&nbsp;</a></span>AffectIfCorrectType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define AffectIfCorrectType</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">type</td><td>)</td>
+          <td>&#160;&#160;&#160;else if(affectIfCorrectType&lt;type&gt;(lua,parameter)){}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a82f9fb610e992b225c726c5dad29749c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82f9fb610e992b225c726c5dad29749c">&#9670;&nbsp;</a></span>EndCheck</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EndCheck&#160;&#160;&#160;else { return false; }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a151bb54f652676ec7ec536ed79fe1542"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a151bb54f652676ec7ec536ed79fe1542">&#9670;&nbsp;</a></span>StartCheck</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define StartCheck&#160;&#160;&#160;if (false) {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

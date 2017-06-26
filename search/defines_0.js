@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['_5faffectifcorrecttype',['_AffectIfCorrectType',['../_triggers_8cpp.html#a696210b4d754fae7e9c1bf6b7173f103',1,'Triggers.cpp']]],
   ['_5ftinydir_5ffilename_5fmax',['_TINYDIR_FILENAME_MAX',['../include_2elzip_2tinydir_8h.html#aa391292d8689f984ca8ce3d70feecdcb',1,'_TINYDIR_FILENAME_MAX():&#160;tinydir.h'],['../build_2elzip_2src_2tinydir_8h.html#aa391292d8689f984ca8ce3d70feecdcb',1,'_TINYDIR_FILENAME_MAX():&#160;tinydir.h']]],
   ['_5ftinydir_5ffree',['_TINYDIR_FREE',['../include_2elzip_2tinydir_8h.html#a9b3cd15e3e9df4a81baa22a516ee6b11',1,'_TINYDIR_FREE():&#160;tinydir.h'],['../build_2elzip_2src_2tinydir_8h.html#a9b3cd15e3e9df4a81baa22a516ee6b11',1,'_TINYDIR_FREE():&#160;tinydir.h']]],
   ['_5ftinydir_5ffunc',['_TINYDIR_FUNC',['../include_2elzip_2tinydir_8h.html#abf91aae9fbcefee29cc03d29a0d4625d',1,'_TINYDIR_FUNC():&#160;tinydir.h'],['../build_2elzip_2src_2tinydir_8h.html#abf91aae9fbcefee29cc03d29a0d4625d',1,'_TINYDIR_FUNC():&#160;tinydir.h']]],

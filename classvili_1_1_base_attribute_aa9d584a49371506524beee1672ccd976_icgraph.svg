@@ -92,7 +92,7 @@ var sectionId = 'dynsection-20';
 </g>
 <!-- Node451 -->
 <g id="node47" class="node"><title>Node451</title>
-<g id="a_node47"><a xlink:href="namespaceobe_1_1_script_1_1_data_bridge.html#a2bb8520d9932644c087a56ad3c661088" target="_top" xlink:title="obe::Script::DataBridge\l::luaElementToBaseAttribute">
+<g id="a_node47"><a xlink:href="namespaceobe_1_1_script_1_1_data_bridge.html#a2bb8520d9932644c087a56ad3c661088" target="_top" xlink:title="Converts a Lua Variable to a Vili BaseAttribute. ">
 <polygon fill="none" stroke="black" points="293,-122.527 293,-152.527 434,-152.527 434,-122.527 293,-122.527"/>
 <text text-anchor="start" x="301" y="-140.527" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Script::DataBridge</text>
 <text text-anchor="middle" x="363.5" y="-129.527" font-family="Helvetica,sans-Serif" font-size="10.00">::luaElementToBaseAttribute</text>
@@ -216,7 +216,7 @@ var sectionId = 'dynsection-20';
 </g>
 <!-- Node437 -->
 <g id="node23" class="node"><title>Node437</title>
-<g id="a_node23"><a xlink:href="namespaceobe_1_1_script_1_1_data_bridge.html#a9816b580653df39ab7ff7f6de35962dd" target="_top" xlink:title="obe::Script::DataBridge\l::baseAttributeToLuaElement">
+<g id="a_node23"><a xlink:href="namespaceobe_1_1_script_1_1_data_bridge.html#a9816b580653df39ab7ff7f6de35962dd" target="_top" xlink:title="Add a Vili BaseAttribute in a Lua Table The key of the newly converted element in the table will be t...">
 <polygon fill="none" stroke="black" points="470,-236.527 470,-266.527 613,-266.527 613,-236.527 470,-236.527"/>
 <text text-anchor="start" x="478" y="-254.527" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Script::DataBridge</text>
 <text text-anchor="middle" x="541.5" y="-243.527" font-family="Helvetica,sans-Serif" font-size="10.00">::baseAttributeToLuaElement</text>
@@ -272,16 +272,16 @@ var sectionId = 'dynsection-20';
 </g>
 <!-- Node447 -->
 <g id="node42" class="node"><title>Node447</title>
-<g id="a_node42"><a xlink:href="namespaceobe_1_1_editor_tools.html#a7f3c018ecab267dafc823111edcf7e9c" target="_top" xlink:title="obe::EditorTools::buildRequires\lObjectTab">
-<polygon fill="none" stroke="black" points="836.5,-373.527 836.5,-403.527 988.5,-403.527 988.5,-373.527 836.5,-373.527"/>
-<text text-anchor="start" x="844.5" y="-391.527" font-family="Helvetica,sans-Serif" font-size="10.00">obe::EditorTools::buildRequires</text>
+<g id="a_node42"><a xlink:href="namespaceobe_1_1_editor.html#ab548dfe02b4323438bcf9caedd01d696" target="_top" xlink:title="obe::Editor::buildRequires\lObjectTab">
+<polygon fill="none" stroke="black" points="848.5,-373.527 848.5,-403.527 976.5,-403.527 976.5,-373.527 848.5,-373.527"/>
+<text text-anchor="start" x="856.5" y="-391.527" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Editor::buildRequires</text>
 <text text-anchor="middle" x="912.5" y="-380.527" font-family="Helvetica,sans-Serif" font-size="10.00">ObjectTab</text>
 </a>
 </g>
 </g>
 <!-- Node404&#45;&gt;Node447 -->
 <g id="edge57" class="edge"><title>Node404&#45;&gt;Node447</title>
-<path fill="none" stroke="midnightblue" d="M429.851,-431.119C480.269,-429.107 551.547,-424.245 613,-412.527 629.434,-409.393 632.52,-404.407 649,-401.527 711.477,-390.608 783.497,-387.714 836.277,-387.349"/>
+<path fill="none" stroke="midnightblue" d="M429.851,-431.119C480.269,-429.107 551.547,-424.245 613,-412.527 629.434,-409.393 632.52,-404.407 649,-401.527 716.421,-389.744 794.955,-387.306 848.432,-387.307"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="429.601,-427.625 419.738,-431.495 429.861,-434.621 429.601,-427.625"/>
 </g>
 <!-- Node449 -->
@@ -493,7 +493,7 @@ var sectionId = 'dynsection-20';
 </g>
 <!-- Node438 -->
 <g id="node24" class="node"><title>Node438</title>
-<g id="a_node24"><a xlink:href="namespaceobe_1_1_script_1_1_data_bridge.html#a7665f07e695293bf14db6460cd45c80f" target="_top" xlink:title="obe::Script::DataBridge\l::complexAttributeToLuaTable">
+<g id="a_node24"><a xlink:href="namespaceobe_1_1_script_1_1_data_bridge.html#a7665f07e695293bf14db6460cd45c80f" target="_top" xlink:title="Adds a converted Vili ComplexAttribute to a Lua Table The key of the newly converted element in the t...">
 <polygon fill="none" stroke="black" points="649,-285.527 649,-315.527 795,-315.527 795,-285.527 649,-285.527"/>
 <text text-anchor="start" x="657" y="-303.527" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Script::DataBridge</text>
 <text text-anchor="middle" x="722" y="-292.527" font-family="Helvetica,sans-Serif" font-size="10.00">::complexAttributeToLuaTable</text>
@@ -759,16 +759,16 @@ var sectionId = 'dynsection-20';
 </g>
 <!-- Node448 -->
 <g id="node43" class="node"><title>Node448</title>
-<g id="a_node43"><a xlink:href="namespaceobe_1_1_editor_tools.html#ae87fed69e1ccf251630077dffc3552ab" target="_top" xlink:title="obe::EditorTools::buildObjectTab">
-<polygon fill="none" stroke="black" points="1033.5,-357.027 1033.5,-376.027 1191.5,-376.027 1191.5,-357.027 1033.5,-357.027"/>
-<text text-anchor="middle" x="1112.5" y="-364.027" font-family="Helvetica,sans-Serif" font-size="10.00">obe::EditorTools::buildObjectTab</text>
+<g id="a_node43"><a xlink:href="namespaceobe_1_1_editor.html#a24423ada9fd467ae78ebf9d21e64db0b" target="_top" xlink:title="obe::Editor::buildObjectTab">
+<polygon fill="none" stroke="black" points="1045.5,-357.027 1045.5,-376.027 1179.5,-376.027 1179.5,-357.027 1045.5,-357.027"/>
+<text text-anchor="middle" x="1112.5" y="-364.027" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Editor::buildObjectTab</text>
 </a>
 </g>
 </g>
 <!-- Node447&#45;&gt;Node448 -->
 <g id="edge58" class="edge"><title>Node447&#45;&gt;Node448</title>
-<path fill="none" stroke="midnightblue" d="M998.7,-379.06C1010.24,-377.778 1022.04,-376.467 1033.45,-375.199"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="998.19,-375.595 988.638,-380.178 998.963,-382.553 998.19,-375.595"/>
+<path fill="none" stroke="midnightblue" d="M986.633,-380.401C1005.92,-378.258 1026.61,-375.959 1045.5,-373.861"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="986.245,-376.923 976.693,-381.506 987.018,-383.88 986.245,-376.923"/>
 </g>
 <!-- Node448&#45;&gt;Node441 -->
 <g id="edge59" class="edge"><title>Node448&#45;&gt;Node441</title>
@@ -800,7 +800,7 @@ var sectionId = 'dynsection-20';
 </g>
 <!-- Node452 -->
 <g id="node48" class="node"><title>Node452</title>
-<g id="a_node48"><a xlink:href="namespaceobe_1_1_script_1_1_data_bridge.html#aae5a1ef843dcd226fbdc26e1e06f1dd8" target="_top" xlink:title="obe::Script::DataBridge\l::luaTableToComplexAttribute">
+<g id="a_node48"><a xlink:href="namespaceobe_1_1_script_1_1_data_bridge.html#aae5a1ef843dcd226fbdc26e1e06f1dd8" target="_top" xlink:title="Converts a Lua Table to a Vili ComplexAttribute. ">
 <polygon fill="none" stroke="black" points="840.5,-197.527 840.5,-227.527 984.5,-227.527 984.5,-197.527 840.5,-197.527"/>
 <text text-anchor="start" x="848.5" y="-215.527" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Script::DataBridge</text>
 <text text-anchor="middle" x="912.5" y="-204.527" font-family="Helvetica,sans-Serif" font-size="10.00">::luaTableToComplexAttribute</text>

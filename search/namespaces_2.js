@@ -8,7 +8,6 @@ var searchData=
   ['corelib',['CoreLib',['../namespaceobe_1_1_script_1_1_core_lib.html',1,'obe::Script']]],
   ['databridge',['DataBridge',['../namespaceobe_1_1_script_1_1_data_bridge.html',1,'obe::Script']]],
   ['editor',['Editor',['../namespaceobe_1_1_editor.html',1,'obe']]],
-  ['editortools',['EditorTools',['../namespaceobe_1_1_editor_tools.html',1,'obe']]],
   ['file',['File',['../namespaceobe_1_1_functions_1_1_file.html',1,'obe::Functions']]],
   ['functions',['Functions',['../namespaceobe_1_1_functions.html',1,'obe']]],
   ['graphics',['Graphics',['../namespaceobe_1_1_graphics.html',1,'obe']]],

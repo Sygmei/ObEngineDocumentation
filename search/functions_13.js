@@ -20,7 +20,7 @@ var searchData=
   ['tostring',['toString',['../classobe_1_1_system_1_1_path.html#aab439649ec875cd45a99a18e9c9beda8',1,'obe::System::Path']]],
   ['transformable',['Transformable',['../classobe_1_1_graphics_1_1_transformable.html#a3d6596aae092bbbc5a4bf2fe6063c774',1,'obe::Graphics::Transformable']]],
   ['transformref',['transformRef',['../classobe_1_1_coord_1_1_rect.html#a98ad75675d1ca85f18f38345b70f04b9',1,'obe::Coord::Rect']]],
-  ['trigger',['Trigger',['../classobe_1_1_script_1_1_trigger.html#add1bcf60e688a70e3abbb09ee5f26669',1,'obe::Script::Trigger::Trigger(std::string group, std::string triggerName, bool startState=false, bool permanent=false)'],['../classobe_1_1_script_1_1_trigger.html#ad8866446420e7d10ab1f073999ba124c',1,'obe::Script::Trigger::Trigger(std::string nsp, std::string group, std::string triggerName, bool startState=false, bool permanent=false)']]],
+  ['trigger',['Trigger',['../classobe_1_1_script_1_1_trigger.html#a7a7b82c51ea5050632847ca44e960830',1,'obe::Script::Trigger']]],
   ['triggerdelay',['TriggerDelay',['../classobe_1_1_script_1_1_trigger_delay.html#ac132e01f8594ef046f65436a2b2dbd73',1,'obe::Script::TriggerDelay']]],
   ['triggergroup',['TriggerGroup',['../classobe_1_1_script_1_1_trigger_group.html#a85c6352398e45cd784954ecd5b8e7c5e',1,'obe::Script::TriggerGroup::TriggerGroup(std::string triggerGroupName)'],['../classobe_1_1_script_1_1_trigger_group.html#a9d03300a25dd98a5ebd5d448c98aea07',1,'obe::Script::TriggerGroup::TriggerGroup(std::string triggerGroupNamespace, std::string triggerGroupName)']]],
   ['type',['type',['../classobe_1_1_types_1_1any.html#a225b88915f8ba3499d53a578362ace4c',1,'obe::Types::any']]]

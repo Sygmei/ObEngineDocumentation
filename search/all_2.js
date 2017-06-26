@@ -17,7 +17,7 @@ var searchData=
   ['bufsize',['BUFSIZE',['../namespaceziputils.html#af52daa436ac3191c4290d45582c09bf6',1,'ziputils']]],
   ['build',['build',['../classobe_1_1_animation_1_1_animation_group.html#a18b3fb4215633d458e343ca9ed60d00e',1,'obe::Animation::AnimationGroup::build()'],['../classvili_1_1_data_template.html#a3b1b4345950d341c0206b19b46fe09a0',1,'vili::DataTemplate::build()']]],
   ['buildmathexp',['buildMathExp',['../classobe_1_1_math_1_1_math_exp.html#a88e2760fa53ae5b693b654afad7bd149',1,'obe::Math::MathExp']]],
-  ['buildobjecttab',['buildObjectTab',['../namespaceobe_1_1_editor_tools.html#ae87fed69e1ccf251630077dffc3552ab',1,'obe::EditorTools']]],
-  ['buildobjectthroughrequire',['buildObjectThroughRequire',['../namespaceobe_1_1_editor_tools.html#a454f2cf4b317bcbf817a4e27645c317a',1,'obe::EditorTools']]],
-  ['buildrequiresobjecttab',['buildRequiresObjectTab',['../namespaceobe_1_1_editor_tools.html#a7f3c018ecab267dafc823111edcf7e9c',1,'obe::EditorTools']]]
+  ['buildobjecttab',['buildObjectTab',['../namespaceobe_1_1_editor.html#a24423ada9fd467ae78ebf9d21e64db0b',1,'obe::Editor']]],
+  ['buildobjectthroughrequire',['buildObjectThroughRequire',['../namespaceobe_1_1_editor.html#a4a7fb0b670f18cdbc1c6858344f77a86',1,'obe::Editor']]],
+  ['buildrequiresobjecttab',['buildRequiresObjectTab',['../namespaceobe_1_1_editor.html#ab548dfe02b4323438bcf9caedd01d696',1,'obe::Editor']]]
 ];
