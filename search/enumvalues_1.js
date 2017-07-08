@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['baseattribute',['BaseAttribute',['../namespacevili_1_1_types.html#a848fdcc4a7a5fe2bcd7e42e495eb9a5cab0f651c230855f4cd4283b7e53de2ceb',1,'vili::Types']]],
-  ['bool',['Bool',['../namespacevili_1_1_types.html#af159082cfccd2644db0b9645d5b7b2e0ab4a1a4feea6fcb40202008b0b76b7b9e',1,'vili::Types']]],
-  ['bottom',['Bottom',['../classobe_1_1_coord_1_1_rect.html#a365a51719106ceb0f5145ae60ad232cca6644d20de22d344520966209e9132cf6',1,'obe::Coord::Rect']]],
-  ['bottomleft',['BottomLeft',['../classobe_1_1_coord_1_1_rect.html#a365a51719106ceb0f5145ae60ad232ccacf2f153fabfaf4487f79adfe3f186420',1,'obe::Coord::Rect']]],
-  ['bottomright',['BottomRight',['../classobe_1_1_coord_1_1_rect.html#a365a51719106ceb0f5145ae60ad232ccac9aa441209ae09c0ce386cce3a8dcab6',1,'obe::Coord::Rect']]]
+  ['baseattribute',['BaseAttribute',['../namespacevili.html#ae0922a8f6b6d3f64c5d0aeba38ec6ec4a8e29338da9e1a71d65841e793e3c8200',1,'vili']]],
+  ['bool',['Bool',['../namespacevili.html#ad7068bc2e5364f41b58e140dafbb1e1fac26f15e86e3de4c398a8273272aba034',1,'vili']]],
+  ['bottom',['Bottom',['../namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728a2ad9d63b69c4a10a5cc9cad923133bc4',1,'obe::Transform']]],
+  ['bottomleft',['BottomLeft',['../namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728a98e5a1c44509157ebcaf46c515c78875',1,'obe::Transform']]],
+  ['bottomright',['BottomRight',['../namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728a9146bfc669fddc88db2c4d89297d0e9a',1,'obe::Transform']]]
 ];

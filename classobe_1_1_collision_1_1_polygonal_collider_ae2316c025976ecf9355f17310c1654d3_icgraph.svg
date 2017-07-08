@@ -51,59 +51,59 @@ if (edges && edges.length) {
 <script type="text/javascript">
 var viewWidth = 547;
 var viewHeight = 53;
-var sectionId = 'dynsection-35';
+var sectionId = 'dynsection-31';
 </script>
 <script xlink:href="svgpan.js"/>
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>obe::Collision::PolygonalCollider::getMasterPointPosition</title>
-<!-- Node392 -->
-<g id="node1" class="node"><title>Node392</title>
+<!-- Node364 -->
+<g id="node1" class="node"><title>Node364</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-0.5 0,-30.5 156,-30.5 156,-0.5 0,-0.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Collision::Polygonal</text>
 <text text-anchor="middle" x="78" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Collider::getMasterPointPosition</text>
 </g>
-<!-- Node393 -->
-<g id="node2" class="node"><title>Node393</title>
-<g id="a_node2"><a xlink:href="namespaceobe_1_1_editor.html#a508e767d732debdb65e63c7bffa50623" target="_top" xlink:title="obe::Editor::editMap">
+<!-- Node365 -->
+<g id="node2" class="node"><title>Node365</title>
+<g id="a_node2"><a xlink:href="namespaceobe_1_1_editor.html#a9009207671e71dccb68a31ea2362e9ef" target="_top" xlink:title="obe::Editor::editMap">
 <polygon fill="none" stroke="black" points="192,-6 192,-25 296,-25 296,-6 192,-6"/>
 <text text-anchor="middle" x="244" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Editor::editMap</text>
 </a>
 </g>
 </g>
-<!-- Node392&#45;&gt;Node393 -->
-<g id="edge1" class="edge"><title>Node392&#45;&gt;Node393</title>
+<!-- Node364&#45;&gt;Node365 -->
+<g id="edge1" class="edge"><title>Node364&#45;&gt;Node365</title>
 <path fill="none" stroke="midnightblue" d="M166.442,-15.5C175.156,-15.5 183.788,-15.5 191.942,-15.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="166.198,-12.0001 156.198,-15.5 166.198,-19.0001 166.198,-12.0001"/>
 </g>
-<!-- Node394 -->
-<g id="node3" class="node"><title>Node394</title>
+<!-- Node366 -->
+<g id="node3" class="node"><title>Node366</title>
 <g id="a_node3"><a xlink:href="namespaceobe_1_1_modes.html#a6a8b08eee511d4895c4da96d4ba223a6" target="_top" xlink:title="obe::Modes::startDevMenu">
 <polygon fill="none" stroke="black" points="332,-25 332,-44 465,-44 465,-25 332,-25"/>
 <text text-anchor="middle" x="398.5" y="-32" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Modes::startDevMenu</text>
 </a>
 </g>
 </g>
-<!-- Node393&#45;&gt;Node394 -->
-<g id="edge2" class="edge"><title>Node393&#45;&gt;Node394</title>
+<!-- Node365&#45;&gt;Node366 -->
+<g id="edge2" class="edge"><title>Node365&#45;&gt;Node366</title>
 <path fill="none" stroke="midnightblue" d="M306.292,-23.1364C314.688,-24.1824 323.336,-25.2599 331.806,-26.3152"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="306.561,-19.6429 296.205,-21.8796 305.695,-26.5892 306.561,-19.6429"/>
 </g>
-<!-- Node395 -->
-<g id="node4" class="node"><title>Node395</title>
+<!-- Node367 -->
+<g id="node4" class="node"><title>Node367</title>
 <g id="a_node4"><a xlink:href="_ob_engine_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" target="_top" xlink:title="main">
 <polygon fill="none" stroke="black" points="501,-6 501,-25 539,-25 539,-6 501,-6"/>
 <text text-anchor="middle" x="520" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">main</text>
 </a>
 </g>
 </g>
-<!-- Node393&#45;&gt;Node395 -->
-<g id="edge4" class="edge"><title>Node393&#45;&gt;Node395</title>
+<!-- Node365&#45;&gt;Node367 -->
+<g id="edge4" class="edge"><title>Node365&#45;&gt;Node367</title>
 <path fill="none" stroke="midnightblue" d="M306.356,-15.5C368.863,-15.5 461.971,-15.5 500.885,-15.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="306.216,-12.0001 296.216,-15.5 306.216,-19.0001 306.216,-12.0001"/>
 </g>
-<!-- Node394&#45;&gt;Node395 -->
-<g id="edge3" class="edge"><title>Node394&#45;&gt;Node395</title>
+<!-- Node366&#45;&gt;Node367 -->
+<g id="edge3" class="edge"><title>Node366&#45;&gt;Node367</title>
 <path fill="none" stroke="midnightblue" d="M469.822,-23.3192C481.345,-21.4869 492.327,-19.7409 500.978,-18.3654"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="468.926,-19.9174 459.6,-24.9443 470.026,-26.8306 468.926,-19.9174"/>
 </g>

@@ -51,96 +51,96 @@ if (edges && edges.length) {
 <script type="text/javascript">
 var viewWidth = 504;
 var viewHeight = 176;
-var sectionId = 'dynsection-59';
+var sectionId = 'dynsection-48';
 </script>
 <script xlink:href="svgpan.js"/>
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>obe::Collision::PolygonalCollider::joinPolygonalColliders</title>
-<!-- Node645 -->
-<g id="node1" class="node"><title>Node645</title>
+<!-- Node556 -->
+<g id="node1" class="node"><title>Node556</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-71.5 0,-101.5 150,-101.5 150,-71.5 0,-71.5"/>
 <text text-anchor="start" x="8" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Collision::Polygonal</text>
 <text text-anchor="middle" x="75" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">Collider::joinPolygonalColliders</text>
 </g>
-<!-- Node646 -->
-<g id="node2" class="node"><title>Node646</title>
-<g id="a_node2"><a xlink:href="classobe_1_1_collision_1_1_polygonal_collider.html#aa5b7c9f68e408e8ab1c09804377c89d5" target="_top" xlink:title="obe::Collision::Polygonal\lCollider::getAllPoints">
+<!-- Node557 -->
+<g id="node2" class="node"><title>Node557</title>
+<g id="a_node2"><a xlink:href="classobe_1_1_collision_1_1_polygonal_collider.html#aa5b7c9f68e408e8ab1c09804377c89d5" target="_top" xlink:title="Get all the Points of the Polygon. ">
 <polygon fill="none" stroke="black" points="188,-137.5 188,-167.5 312,-167.5 312,-137.5 188,-137.5"/>
 <text text-anchor="start" x="196" y="-155.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Collision::Polygonal</text>
 <text text-anchor="middle" x="250" y="-144.5" font-family="Helvetica,sans-Serif" font-size="10.00">Collider::getAllPoints</text>
 </a>
 </g>
 </g>
-<!-- Node645&#45;&gt;Node646 -->
-<g id="edge1" class="edge"><title>Node645&#45;&gt;Node646</title>
+<!-- Node556&#45;&gt;Node557 -->
+<g id="edge1" class="edge"><title>Node556&#45;&gt;Node557</title>
 <path fill="none" stroke="midnightblue" d="M115.69,-101.642C140.744,-111.2 173.297,-123.619 199.962,-133.792"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="198.904,-137.134 209.495,-137.429 201.399,-130.594 198.904,-137.134"/>
 </g>
-<!-- Node647 -->
-<g id="node3" class="node"><title>Node647</title>
+<!-- Node558 -->
+<g id="node3" class="node"><title>Node558</title>
 <g id="a_node3"><a xlink:href="namespaceobe_1_1_collision.html#ad84b108b17b313c09418c88f3d1ab689" target="_top" xlink:title="obe::Collision::convexHull">
 <polygon fill="none" stroke="black" points="186,-99 186,-118 314,-118 314,-99 186,-99"/>
 <text text-anchor="middle" x="250" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Collision::convexHull</text>
 </a>
 </g>
 </g>
-<!-- Node645&#45;&gt;Node647 -->
-<g id="edge2" class="edge"><title>Node645&#45;&gt;Node647</title>
+<!-- Node556&#45;&gt;Node558 -->
+<g id="edge2" class="edge"><title>Node556&#45;&gt;Node558</title>
 <path fill="none" stroke="midnightblue" d="M150.12,-95.9257C158.69,-97.0154 167.424,-98.1262 175.978,-99.214"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="175.555,-102.688 185.917,-100.478 176.438,-95.7442 175.555,-102.688"/>
 </g>
-<!-- Node650 -->
-<g id="node6" class="node"><title>Node650</title>
-<g id="a_node6"><a xlink:href="classobe_1_1_collision_1_1_polygonal_collider.html#a8640e1c470fc71de32485544d5eb4237" target="_top" xlink:title="obe::Collision::Polygonal\lCollider::addPoint">
+<!-- Node561 -->
+<g id="node6" class="node"><title>Node561</title>
+<g id="a_node6"><a xlink:href="classobe_1_1_collision_1_1_polygonal_collider.html#a8640e1c470fc71de32485544d5eb4237" target="_top" xlink:title="Adds a new Point to the Polygon at Position (x, y) ">
 <polygon fill="none" stroke="black" points="188,-49.5 188,-79.5 312,-79.5 312,-49.5 188,-49.5"/>
 <text text-anchor="start" x="196" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Collision::Polygonal</text>
 <text text-anchor="middle" x="250" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">Collider::addPoint</text>
 </a>
 </g>
 </g>
-<!-- Node645&#45;&gt;Node650 -->
-<g id="edge5" class="edge"><title>Node645&#45;&gt;Node650</title>
+<!-- Node556&#45;&gt;Node561 -->
+<g id="edge5" class="edge"><title>Node556&#45;&gt;Node561</title>
 <path fill="none" stroke="midnightblue" d="M150.12,-77.0743C159.249,-75.9134 168.566,-74.7287 177.652,-73.5732"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="178.312,-77.0175 187.79,-72.2839 177.429,-70.0735 178.312,-77.0175"/>
 </g>
-<!-- Node651 -->
-<g id="node7" class="node"><title>Node651</title>
-<g id="a_node7"><a xlink:href="namespaceobe_1_1_functions_1_1_vector.html#a8adc81831e6ac5c91887cf1c1089561a" target="_top" xlink:title="obe::Functions::Vector\l::isInList">
-<polygon fill="none" stroke="black" points="192,-0.5 192,-30.5 308,-30.5 308,-0.5 192,-0.5"/>
-<text text-anchor="start" x="200" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Functions::Vector</text>
+<!-- Node562 -->
+<g id="node7" class="node"><title>Node562</title>
+<g id="a_node7"><a xlink:href="namespaceobe_1_1_utils_1_1_vector.html#a636b7f465d67c2bf42a297f221af9cfe" target="_top" xlink:title="obe::Utils::Vector\l::isInList">
+<polygon fill="none" stroke="black" points="204,-0.5 204,-30.5 296,-30.5 296,-0.5 204,-0.5"/>
+<text text-anchor="start" x="212" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Utils::Vector</text>
 <text text-anchor="middle" x="250" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::isInList</text>
 </a>
 </g>
 </g>
-<!-- Node645&#45;&gt;Node651 -->
-<g id="edge6" class="edge"><title>Node645&#45;&gt;Node651</title>
+<!-- Node556&#45;&gt;Node562 -->
+<g id="edge6" class="edge"><title>Node556&#45;&gt;Node562</title>
 <path fill="none" stroke="midnightblue" d="M111.6,-71.4185C133.103,-62.3577 161.08,-50.6542 186,-40.5 190.848,-38.5248 195.913,-36.4811 200.974,-34.4525"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="202.653,-37.5507 210.642,-30.5917 200.057,-31.0498 202.653,-37.5507"/>
 </g>
-<!-- Node648 -->
-<g id="node4" class="node"><title>Node648</title>
+<!-- Node559 -->
+<g id="node4" class="node"><title>Node559</title>
 <g id="a_node4"><a xlink:href="namespaceobe_1_1_collision.html#af5f3a0b184cb5e706ade5fa1b129a607" target="_top" xlink:title="obe::Collision::pointsCompare">
 <polygon fill="none" stroke="black" points="350,-118 350,-137 496,-137 496,-118 350,-118"/>
 <text text-anchor="middle" x="423" y="-125" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Collision::pointsCompare</text>
 </a>
 </g>
 </g>
-<!-- Node647&#45;&gt;Node648 -->
-<g id="edge3" class="edge"><title>Node647&#45;&gt;Node648</title>
+<!-- Node558&#45;&gt;Node559 -->
+<g id="edge3" class="edge"><title>Node558&#45;&gt;Node559</title>
 <path fill="none" stroke="midnightblue" d="M314.188,-115.521C322.531,-116.448 331.178,-117.409 339.781,-118.365"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="339.513,-121.856 349.839,-119.482 340.287,-114.899 339.513,-121.856"/>
 </g>
-<!-- Node649 -->
-<g id="node5" class="node"><title>Node649</title>
+<!-- Node560 -->
+<g id="node5" class="node"><title>Node560</title>
 <g id="a_node5"><a xlink:href="namespaceobe_1_1_collision.html#acf02beadb1577b36fd62b3c8c6f5038b" target="_top" xlink:title="obe::Collision::cross">
 <polygon fill="none" stroke="black" points="370.5,-80 370.5,-99 475.5,-99 475.5,-80 370.5,-80"/>
 <text text-anchor="middle" x="423" y="-87" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Collision::cross</text>
 </a>
 </g>
 </g>
-<!-- Node647&#45;&gt;Node649 -->
-<g id="edge4" class="edge"><title>Node647&#45;&gt;Node649</title>
+<!-- Node558&#45;&gt;Node560 -->
+<g id="edge4" class="edge"><title>Node558&#45;&gt;Node560</title>
 <path fill="none" stroke="midnightblue" d="M314.188,-101.479C329.185,-99.8128 345.166,-98.0371 360.104,-96.3774"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="360.702,-99.8326 370.254,-95.2496 359.929,-92.8754 360.702,-99.8326"/>
 </g>

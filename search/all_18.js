@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['y',['y',['../structobe_1_1_coord_1_1_view_struct.html#a66d7f95e162a3621040741080db19728',1,'obe::Coord::ViewStruct::y()'],['../classobe_1_1_coord_1_1_unit_vector.html#a045ef6f97042c1e48910733f6c3671ac',1,'obe::Coord::UnitVector::y()'],['../classobe_1_1_light_1_1_point_light.html#a004e88f244bdf8c414ca0c119bacd71d',1,'obe::Light::PointLight::y()']]]
+  ['y',['y',['../structobe_1_1_transform_1_1_view_struct.html#a89fa1de0a90c16381d1c139c9c28dea7',1,'obe::Transform::ViewStruct::y()'],['../classobe_1_1_transform_1_1_unit_vector.html#a54bd8acd573145985f1e78e24405b528',1,'obe::Transform::UnitVector::y()']]]
 ];

@@ -49,7 +49,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 638;
+var viewWidth = 614;
 var viewHeight = 88;
 var sectionId = 'dynsection-2';
 </script>
@@ -65,7 +65,7 @@ var sectionId = 'dynsection-2';
 </g>
 <!-- Node3 -->
 <g id="node2" class="node"><title>Node3</title>
-<g id="a_node2"><a xlink:href="classobe_1_1_collision_1_1_polygonal_collider.html#a1bb3222c86fb2efb276ba3f184732616" target="_top" xlink:title="obe::Collision::Polygonal\lCollider::clearOriginChildren">
+<g id="a_node2"><a xlink:href="classobe_1_1_collision_1_1_polygonal_collider.html#a1bb3222c86fb2efb276ba3f184732616" target="_top" xlink:title="Removes all children of the Collider. ">
 <polygon fill="none" stroke="black" points="172,-49.5 172,-79.5 309,-79.5 309,-49.5 172,-49.5"/>
 <text text-anchor="start" x="180" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Collision::Polygonal</text>
 <text text-anchor="middle" x="240.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">Collider::clearOriginChildren</text>
@@ -79,7 +79,7 @@ var sectionId = 'dynsection-2';
 </g>
 <!-- Node4 -->
 <g id="node3" class="node"><title>Node4</title>
-<g id="a_node3"><a xlink:href="classobe_1_1_collision_1_1_polygonal_collider.html#a394db9c018b64245471f37a4c223a96c" target="_top" xlink:title="obe::Collision::Polygonal\lCollider::removeOrigin">
+<g id="a_node3"><a xlink:href="classobe_1_1_collision_1_1_polygonal_collider.html#a394db9c018b64245471f37a4c223a96c" target="_top" xlink:title="Removes the origin reference of the Collider. ">
 <polygon fill="none" stroke="black" points="178.5,-0.5 178.5,-30.5 302.5,-30.5 302.5,-0.5 178.5,-0.5"/>
 <text text-anchor="start" x="186.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Collision::Polygonal</text>
 <text text-anchor="middle" x="240.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Collider::removeOrigin</text>
@@ -93,7 +93,7 @@ var sectionId = 'dynsection-2';
 </g>
 <!-- Node5 -->
 <g id="node4" class="node"><title>Node5</title>
-<g id="a_node4"><a xlink:href="classobe_1_1_collision_1_1_polygonal_collider.html#afe45fcf7131fcb50b82ba37ba3ae30cf" target="_top" xlink:title="obe::Collision::Polygonal\lCollider::removeOriginChild">
+<g id="a_node4"><a xlink:href="classobe_1_1_collision_1_1_polygonal_collider.html#afe45fcf7131fcb50b82ba37ba3ae30cf" target="_top" xlink:title="Removes a child Collider which use the current one as origin. ">
 <polygon fill="none" stroke="black" points="345,-0.5 345,-30.5 478,-30.5 478,-0.5 345,-0.5"/>
 <text text-anchor="start" x="353" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Collision::Polygonal</text>
 <text text-anchor="middle" x="411.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Collider::removeOriginChild</text>
@@ -107,17 +107,17 @@ var sectionId = 'dynsection-2';
 </g>
 <!-- Node6 -->
 <g id="node5" class="node"><title>Node6</title>
-<g id="a_node5"><a xlink:href="namespaceobe_1_1_functions_1_1_vector.html#a8adc81831e6ac5c91887cf1c1089561a" target="_top" xlink:title="obe::Functions::Vector\l::isInList">
-<polygon fill="none" stroke="black" points="514,-0.5 514,-30.5 630,-30.5 630,-0.5 514,-0.5"/>
-<text text-anchor="start" x="522" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Functions::Vector</text>
-<text text-anchor="middle" x="572" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::isInList</text>
+<g id="a_node5"><a xlink:href="namespaceobe_1_1_utils_1_1_vector.html#a636b7f465d67c2bf42a297f221af9cfe" target="_top" xlink:title="obe::Utils::Vector\l::isInList">
+<polygon fill="none" stroke="black" points="514,-0.5 514,-30.5 606,-30.5 606,-0.5 514,-0.5"/>
+<text text-anchor="start" x="522" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Utils::Vector</text>
+<text text-anchor="middle" x="560" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::isInList</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node6 -->
 <g id="edge4" class="edge"><title>Node5&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M478.341,-15.5C486.686,-15.5 495.235,-15.5 503.603,-15.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="503.696,-19.0001 513.696,-15.5 503.696,-12.0001 503.696,-19.0001"/>
+<path fill="none" stroke="midnightblue" d="M478.037,-15.5C486.595,-15.5 495.294,-15.5 503.662,-15.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="503.672,-19.0001 513.672,-15.5 503.672,-12.0001 503.672,-19.0001"/>
 </g>
 </g>
 </svg>

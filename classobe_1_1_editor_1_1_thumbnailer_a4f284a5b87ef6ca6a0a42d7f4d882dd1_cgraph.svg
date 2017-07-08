@@ -49,7 +49,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 558;
+var viewWidth = 571;
 var viewHeight = 186;
 var sectionId = 'dynsection-2';
 </script>
@@ -59,121 +59,120 @@ var sectionId = 'dynsection-2';
 <title>obe::Editor::Thumbnailer::GetSpriteThumbnail</title>
 <!-- Node7 -->
 <g id="node1" class="node"><title>Node7</title>
-<polygon fill="#bfbfbf" stroke="black" points="0,-73.5 0,-103.5 122,-103.5 122,-73.5 0,-73.5"/>
-<text text-anchor="start" x="8" y="-91.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Editor::Thumbnailer</text>
-<text text-anchor="middle" x="61" y="-80.5" font-family="Helvetica,sans-Serif" font-size="10.00">::GetSpriteThumbnail</text>
+<polygon fill="#bfbfbf" stroke="black" points="0,-70.5 0,-100.5 122,-100.5 122,-70.5 0,-70.5"/>
+<text text-anchor="start" x="8" y="-88.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Editor::Thumbnailer</text>
+<text text-anchor="middle" x="61" y="-77.5" font-family="Helvetica,sans-Serif" font-size="10.00">::GetSpriteThumbnail</text>
 </g>
 <!-- Node8 -->
 <g id="node2" class="node"><title>Node8</title>
 <g id="a_node2"><a xlink:href="classobe_1_1_system_1_1_path.html#a096ad4fa7397aa42fd73661b08f50e2a" target="_top" xlink:title="obe::System::Path::\lloadResource">
-<polygon fill="none" stroke="black" points="162.5,-98.5 162.5,-128.5 266.5,-128.5 266.5,-98.5 162.5,-98.5"/>
-<text text-anchor="start" x="170.5" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::System::Path::</text>
-<text text-anchor="middle" x="214.5" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">loadResource</text>
+<polygon fill="none" stroke="black" points="158,-95.5 158,-125.5 262,-125.5 262,-95.5 158,-95.5"/>
+<text text-anchor="start" x="166" y="-113.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::System::Path::</text>
+<text text-anchor="middle" x="210" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00">loadResource</text>
 </a>
 </g>
 </g>
 <!-- Node7&#45;&gt;Node8 -->
 <g id="edge1" class="edge"><title>Node7&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M122.312,-98.4525C132.111,-100.069 142.27,-101.746 152.094,-103.367"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="151.746,-106.857 162.183,-105.032 152.886,-99.9503 151.746,-106.857"/>
+<path fill="none" stroke="midnightblue" d="M122.215,-95.7406C130.557,-97.1594 139.136,-98.6184 147.502,-100.041"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="147.125,-103.527 157.57,-101.753 148.299,-96.6263 147.125,-103.527"/>
 </g>
 <!-- Node15 -->
 <g id="node9" class="node"><title>Node15</title>
-<g id="a_node9"><a xlink:href="namespaceobe_1_1_functions_1_1_string.html#aeae2b259a93c4d51a7151d92aabdc85a" target="_top" xlink:title="obe::Functions::String\l::split">
-<polygon fill="none" stroke="black" points="158,-49.5 158,-79.5 271,-79.5 271,-49.5 158,-49.5"/>
-<text text-anchor="start" x="166" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Functions::String</text>
-<text text-anchor="middle" x="214.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::split</text>
+<g id="a_node9"><a xlink:href="namespaceobe_1_1_utils_1_1_string.html#a074d624ca5936545dc32c0b5e423050d" target="_top" xlink:title="obe::Utils::String\l::split">
+<polygon fill="none" stroke="black" points="165.5,-46.5 165.5,-76.5 254.5,-76.5 254.5,-46.5 165.5,-46.5"/>
+<text text-anchor="start" x="173.5" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Utils::String</text>
+<text text-anchor="middle" x="210" y="-53.5" font-family="Helvetica,sans-Serif" font-size="10.00">::split</text>
 </a>
 </g>
 </g>
 <!-- Node7&#45;&gt;Node15 -->
 <g id="edge8" class="edge"><title>Node7&#45;&gt;Node15</title>
-<path fill="none" stroke="midnightblue" d="M122.312,-78.9456C130.734,-77.6115 139.422,-76.2352 147.935,-74.8866"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="148.492,-78.342 157.821,-73.3204 147.397,-71.4282 148.492,-78.342"/>
+<path fill="none" stroke="midnightblue" d="M122.215,-75.669C133.15,-73.8836 144.492,-72.0319 155.227,-70.2792"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="155.996,-73.7002 165.301,-68.6345 154.868,-66.7917 155.996,-73.7002"/>
 </g>
 <!-- Node9 -->
 <g id="node3" class="node"><title>Node9</title>
-<g id="a_node3"><a xlink:href="namespaceobe_1_1_functions_1_1_file.html#a5e850093b89dad14d6040f188c2f600c" target="_top" xlink:title="obe::Functions::File\l::fileExists">
-<polygon fill="none" stroke="black" points="307,-122.5 307,-152.5 410,-152.5 410,-122.5 307,-122.5"/>
-<text text-anchor="start" x="315" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Functions::File</text>
-<text text-anchor="middle" x="358.5" y="-129.5" font-family="Helvetica,sans-Serif" font-size="10.00">::fileExists</text>
+<g id="a_node3"><a xlink:href="namespaceobe_1_1_utils_1_1_file.html#a1095626f5495edc7b8692073dd25cceb" target="_top" xlink:title="obe::Utils::File::fileExists">
+<polygon fill="none" stroke="black" points="298,-123 298,-142 423,-142 423,-123 298,-123"/>
+<text text-anchor="middle" x="360.5" y="-130" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Utils::File::fileExists</text>
 </a>
 </g>
 </g>
 <!-- Node8&#45;&gt;Node9 -->
 <g id="edge2" class="edge"><title>Node8&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M266.765,-122.165C276.537,-123.816 286.85,-125.559 296.88,-127.254"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="296.343,-130.713 306.786,-128.929 297.509,-123.811 296.343,-130.713"/>
+<path fill="none" stroke="midnightblue" d="M262.105,-118.071C270.367,-119.295 279.053,-120.582 287.695,-121.862"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="287.386,-125.355 297.791,-123.358 288.412,-118.43 287.386,-125.355"/>
 </g>
 <!-- Node10 -->
 <g id="node4" class="node"><title>Node10</title>
 <g id="a_node4"><a xlink:href="classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b" target="_top" xlink:title="aube::ErrorHandler\l::Raise">
-<polygon fill="none" stroke="black" points="309.5,-73.5 309.5,-103.5 407.5,-103.5 407.5,-73.5 309.5,-73.5"/>
-<text text-anchor="start" x="317.5" y="-91.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorHandler</text>
-<text text-anchor="middle" x="358.5" y="-80.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Raise</text>
+<polygon fill="none" stroke="black" points="311.5,-73.5 311.5,-103.5 409.5,-103.5 409.5,-73.5 311.5,-73.5"/>
+<text text-anchor="start" x="319.5" y="-91.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorHandler</text>
+<text text-anchor="middle" x="360.5" y="-80.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Raise</text>
 </a>
 </g>
 </g>
 <!-- Node8&#45;&gt;Node10 -->
 <g id="edge3" class="edge"><title>Node8&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M266.765,-104.474C277.24,-102.63 288.338,-100.676 299.043,-98.7917"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="299.911,-102.193 309.153,-97.0118 298.697,-95.2988 299.911,-102.193"/>
+<path fill="none" stroke="midnightblue" d="M262.105,-102.929C274.683,-101.065 288.246,-99.0561 301.138,-97.1462"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="301.923,-100.568 311.302,-95.6404 300.897,-93.6438 301.923,-100.568"/>
 </g>
 <!-- Node11 -->
 <g id="node5" class="node"><title>Node11</title>
 <g id="a_node5"><a xlink:href="classaube_1_1_error_message.html#a3a39b6fcd8fdb12eaf6383123535b8ca" target="_top" xlink:title="aube::ErrorMessage\l::getFile">
-<polygon fill="none" stroke="black" points="446,-147.5 446,-177.5 550,-177.5 550,-147.5 446,-147.5"/>
-<text text-anchor="start" x="454" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
-<text text-anchor="middle" x="498" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getFile</text>
+<polygon fill="none" stroke="black" points="459,-147.5 459,-177.5 563,-177.5 563,-147.5 459,-147.5"/>
+<text text-anchor="start" x="467" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
+<text text-anchor="middle" x="511" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getFile</text>
 </a>
 </g>
 </g>
 <!-- Node10&#45;&gt;Node11 -->
 <g id="edge4" class="edge"><title>Node10&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M391.667,-103.537C397.839,-106.67 404.187,-110.068 410,-113.5 426.774,-123.404 429.128,-128.763 446,-138.5 448.503,-139.944 451.107,-141.375 453.756,-142.776"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="452.35,-145.987 462.85,-147.399 455.522,-139.747 452.35,-145.987"/>
+<path fill="none" stroke="midnightblue" d="M402.119,-103.523C409.206,-106.563 416.413,-109.931 423,-113.5 440.127,-122.78 442.128,-128.763 459,-138.5 461.503,-139.944 464.107,-141.375 466.756,-142.776"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="465.35,-145.987 475.85,-147.399 468.522,-139.747 465.35,-145.987"/>
 </g>
 <!-- Node12 -->
 <g id="node6" class="node"><title>Node12</title>
 <g id="a_node6"><a xlink:href="classaube_1_1_error_message.html#a9184cc96589578f434351c105b0cd5f7" target="_top" xlink:title="aube::ErrorMessage\l::getLocation">
-<polygon fill="none" stroke="black" points="446,-98.5 446,-128.5 550,-128.5 550,-98.5 446,-98.5"/>
-<text text-anchor="start" x="454" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
-<text text-anchor="middle" x="498" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getLocation</text>
+<polygon fill="none" stroke="black" points="459,-98.5 459,-128.5 563,-128.5 563,-98.5 459,-98.5"/>
+<text text-anchor="start" x="467" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
+<text text-anchor="middle" x="511" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getLocation</text>
 </a>
 </g>
 </g>
 <!-- Node10&#45;&gt;Node12 -->
 <g id="edge5" class="edge"><title>Node10&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M407.591,-97.2438C416.69,-98.8983 426.322,-100.65 435.763,-102.366"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="435.433,-105.863 445.898,-104.209 436.685,-98.9762 435.433,-105.863"/>
+<path fill="none" stroke="midnightblue" d="M409.714,-96.6168C422.266,-98.73 435.956,-101.035 449.072,-103.243"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="448.519,-106.699 458.961,-104.908 449.681,-99.796 448.519,-106.699"/>
 </g>
 <!-- Node13 -->
 <g id="node7" class="node"><title>Node13</title>
 <g id="a_node7"><a xlink:href="classaube_1_1_error_message.html#a07927cb3e2d0712c459cc9e2b5f52696" target="_top" xlink:title="aube::ErrorMessage\l::getMessage">
-<polygon fill="none" stroke="black" points="446,-49.5 446,-79.5 550,-79.5 550,-49.5 446,-49.5"/>
-<text text-anchor="start" x="454" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
-<text text-anchor="middle" x="498" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getMessage</text>
+<polygon fill="none" stroke="black" points="459,-49.5 459,-79.5 563,-79.5 563,-49.5 459,-49.5"/>
+<text text-anchor="start" x="467" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
+<text text-anchor="middle" x="511" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getMessage</text>
 </a>
 </g>
 </g>
 <!-- Node10&#45;&gt;Node13 -->
 <g id="edge6" class="edge"><title>Node10&#45;&gt;Node13</title>
-<path fill="none" stroke="midnightblue" d="M407.591,-80.106C416.69,-78.5177 426.322,-76.8365 435.763,-75.1886"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="436.649,-78.5871 445.898,-73.4197 435.445,-71.6913 436.649,-78.5871"/>
+<path fill="none" stroke="midnightblue" d="M409.714,-80.7079C422.266,-78.6792 435.956,-76.4668 449.072,-74.347"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="449.648,-77.7994 458.961,-72.7487 448.531,-70.8891 449.648,-77.7994"/>
 </g>
 <!-- Node14 -->
 <g id="node8" class="node"><title>Node14</title>
 <g id="a_node8"><a xlink:href="classaube_1_1_error_message.html#a77c2f9b7e93542c958173b52da267989" target="_top" xlink:title="aube::ErrorMessage\l::getHints">
-<polygon fill="none" stroke="black" points="446,-0.5 446,-30.5 550,-30.5 550,-0.5 446,-0.5"/>
-<text text-anchor="start" x="454" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
-<text text-anchor="middle" x="498" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getHints</text>
+<polygon fill="none" stroke="black" points="459,-0.5 459,-30.5 563,-30.5 563,-0.5 459,-0.5"/>
+<text text-anchor="start" x="467" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
+<text text-anchor="middle" x="511" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getHints</text>
 </a>
 </g>
 </g>
 <!-- Node10&#45;&gt;Node14 -->
 <g id="edge7" class="edge"><title>Node10&#45;&gt;Node14</title>
-<path fill="none" stroke="midnightblue" d="M385.812,-73.4436C402.856,-63.8037 425.599,-51.1516 446,-40.5 449.343,-38.7543 452.826,-36.9722 456.332,-35.2034"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="458.201,-38.1827 465.587,-30.5871 455.076,-31.9188 458.201,-38.1827"/>
+<path fill="none" stroke="midnightblue" d="M392.232,-73.3537C411.423,-63.8996 436.647,-51.481 459,-40.5 462.582,-38.7405 466.305,-36.9125 470.037,-35.0817"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="471.814,-38.1083 479.251,-30.5624 468.732,-31.8235 471.814,-38.1083"/>
 </g>
 </g>
 </svg>

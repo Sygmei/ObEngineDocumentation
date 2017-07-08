@@ -8,83 +8,83 @@
  viewBox="0.00 0.00 331.00 142.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 138)">
 <title>tinydir_file_open</title>
-<!-- Node114 -->
-<g id="node1" class="node"><title>Node114</title>
+<!-- Node56 -->
+<g id="node1" class="node"><title>Node56</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-57.5 0,-76.5 86,-76.5 86,-57.5 0,-57.5"/>
 <text text-anchor="middle" x="43" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00">tinydir_file_open</text>
 </g>
-<!-- Node115 -->
-<g id="node2" class="node"><title>Node115</title>
+<!-- Node57 -->
+<g id="node2" class="node"><title>Node57</title>
 <g id="a_node2"><a xlink:href="include_2elzip_2tinydir_8h.html#a344f085761e41431e24c8c998805ba3f" target="_top" xlink:title="tinydir_open">
 <polygon fill="none" stroke="black" points="127,-114.5 127,-133.5 196,-133.5 196,-114.5 127,-114.5"/>
 <text text-anchor="middle" x="161.5" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">tinydir_open</text>
 </a>
 </g>
 </g>
-<!-- Node114&#45;&gt;Node115 -->
-<g id="edge1" class="edge"><title>Node114&#45;&gt;Node115</title>
+<!-- Node56&#45;&gt;Node57 -->
+<g id="edge1" class="edge"><title>Node56&#45;&gt;Node57</title>
 <path fill="none" stroke="midnightblue" d="M63.4995,-76.5405C82.1486,-85.665 110.496,-99.5344 131.738,-109.927"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="130.416,-113.177 140.937,-114.428 133.493,-106.89 130.416,-113.177"/>
 </g>
-<!-- Node116 -->
-<g id="node3" class="node"><title>Node116</title>
+<!-- Node58 -->
+<g id="node3" class="node"><title>Node58</title>
 <g id="a_node3"><a xlink:href="include_2elzip_2tinydir_8h.html#a05c4a9ee5c32f36ed3e5c5c7d00ae714" target="_top" xlink:title="tinydir_close">
 <polygon fill="none" stroke="black" points="244.5,-76.5 244.5,-95.5 315.5,-95.5 315.5,-76.5 244.5,-76.5"/>
 <text text-anchor="middle" x="280" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">tinydir_close</text>
 </a>
 </g>
 </g>
-<!-- Node114&#45;&gt;Node116 -->
-<g id="edge7" class="edge"><title>Node114&#45;&gt;Node116</title>
+<!-- Node56&#45;&gt;Node58 -->
+<g id="edge7" class="edge"><title>Node56&#45;&gt;Node58</title>
 <path fill="none" stroke="midnightblue" d="M86.0133,-70.3968C127.725,-73.7693 191.446,-78.9212 234.129,-82.3722"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="233.985,-85.8718 244.234,-83.1891 234.549,-78.8946 233.985,-85.8718"/>
 </g>
-<!-- Node117 -->
-<g id="node4" class="node"><title>Node117</title>
+<!-- Node59 -->
+<g id="node4" class="node"><title>Node59</title>
 <g id="a_node4"><a xlink:href="include_2elzip_2tinydir_8h.html#a61b7dcb5bf8b9d410f8d54e1d2f3e0d4" target="_top" xlink:title="tinydir_readfile">
 <polygon fill="none" stroke="black" points="122,-0.5 122,-19.5 201,-19.5 201,-0.5 122,-0.5"/>
 <text text-anchor="middle" x="161.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">tinydir_readfile</text>
 </a>
 </g>
 </g>
-<!-- Node114&#45;&gt;Node117 -->
-<g id="edge3" class="edge"><title>Node114&#45;&gt;Node117</title>
+<!-- Node56&#45;&gt;Node59 -->
+<g id="edge3" class="edge"><title>Node56&#45;&gt;Node59</title>
 <path fill="none" stroke="midnightblue" d="M63.4995,-57.4595C82.1486,-48.335 110.496,-34.4656 131.738,-24.0726"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="133.493,-27.1104 140.937,-19.5716 130.416,-20.8227 133.493,-27.1104"/>
 </g>
-<!-- Node119 -->
-<g id="node6" class="node"><title>Node119</title>
+<!-- Node61 -->
+<g id="node6" class="node"><title>Node61</title>
 <g id="a_node6"><a xlink:href="include_2elzip_2tinydir_8h.html#a699d0deef9ffde1d9fa75379d32714f9" target="_top" xlink:title="tinydir_next">
 <polygon fill="none" stroke="black" points="128,-38.5 128,-57.5 195,-57.5 195,-38.5 128,-38.5"/>
 <text text-anchor="middle" x="161.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">tinydir_next</text>
 </a>
 </g>
 </g>
-<!-- Node114&#45;&gt;Node119 -->
-<g id="edge5" class="edge"><title>Node114&#45;&gt;Node119</title>
+<!-- Node56&#45;&gt;Node61 -->
+<g id="edge5" class="edge"><title>Node56&#45;&gt;Node61</title>
 <path fill="none" stroke="midnightblue" d="M86.0592,-60.1406C96.3244,-58.4664 107.318,-56.6734 117.621,-54.9931"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="118.335,-58.423 127.641,-53.3589 117.208,-51.5143 118.335,-58.423"/>
 </g>
-<!-- Node115&#45;&gt;Node116 -->
-<g id="edge2" class="edge"><title>Node115&#45;&gt;Node116</title>
+<!-- Node57&#45;&gt;Node58 -->
+<g id="edge2" class="edge"><title>Node57&#45;&gt;Node58</title>
 <path fill="none" stroke="midnightblue" d="M191.898,-114.411C206.385,-109.686 224.058,-103.921 239.689,-98.8226"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="241.19,-102.014 249.612,-95.5859 239.019,-95.3595 241.19,-102.014"/>
 </g>
-<!-- Node118 -->
-<g id="node5" class="node"><title>Node118</title>
+<!-- Node60 -->
+<g id="node5" class="node"><title>Node60</title>
 <g id="a_node5"><a xlink:href="include_2elzip_2tinydir_8h.html#af0bcd377e6e5712d292d22406b38a656" target="_top" xlink:title="_tinydir_get_ext">
 <polygon fill="none" stroke="black" points="237,-0.5 237,-19.5 323,-19.5 323,-0.5 237,-0.5"/>
 <text text-anchor="middle" x="280" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">_tinydir_get_ext</text>
 </a>
 </g>
 </g>
-<!-- Node117&#45;&gt;Node118 -->
-<g id="edge4" class="edge"><title>Node117&#45;&gt;Node118</title>
+<!-- Node59&#45;&gt;Node60 -->
+<g id="edge4" class="edge"><title>Node59&#45;&gt;Node60</title>
 <path fill="none" stroke="midnightblue" d="M201.293,-10C209.387,-10 218.047,-10 226.541,-10"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="226.771,-13.5001 236.771,-10 226.771,-6.5001 226.771,-13.5001"/>
 </g>
-<!-- Node119&#45;&gt;Node116 -->
-<g id="edge6" class="edge"><title>Node119&#45;&gt;Node116</title>
+<!-- Node61&#45;&gt;Node58 -->
+<g id="edge6" class="edge"><title>Node61&#45;&gt;Node58</title>
 <path fill="none" stroke="midnightblue" d="M191.898,-57.589C206.385,-62.3144 224.058,-68.0789 239.689,-73.1774"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="239.019,-76.6405 249.612,-76.4141 241.19,-69.9855 239.019,-76.6405"/>
 </g>

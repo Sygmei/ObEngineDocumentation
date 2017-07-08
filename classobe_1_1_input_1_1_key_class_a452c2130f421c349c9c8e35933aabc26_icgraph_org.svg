@@ -44,28 +44,28 @@
 </g>
 <!-- Node28 -->
 <g id="node4" class="node"><title>Node28</title>
-<g id="a_node4"><a xlink:href="namespaceobe_1_1_modes.html#a5f4a1008892030350b06282b8dee1a89" target="_top" xlink:title="obe::Modes::startGame">
-<polygon fill="none" stroke="black" points="289,-38.5 289,-57.5 408,-57.5 408,-38.5 289,-38.5"/>
-<text text-anchor="middle" x="348.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Modes::startGame</text>
+<g id="a_node4"><a xlink:href="namespaceobe_1_1_editor.html#a9009207671e71dccb68a31ea2362e9ef" target="_top" xlink:title="obe::Editor::editMap">
+<polygon fill="none" stroke="black" points="296.5,-38.5 296.5,-57.5 400.5,-57.5 400.5,-38.5 296.5,-38.5"/>
+<text text-anchor="middle" x="348.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Editor::editMap</text>
 </a>
 </g>
 </g>
 <!-- Node27&#45;&gt;Node28 -->
 <g id="edge3" class="edge"><title>Node27&#45;&gt;Node28</title>
-<path fill="none" stroke="midnightblue" d="M263.041,-37.1938C271.665,-38.2972 280.477,-39.4246 288.998,-40.5149"/>
+<path fill="none" stroke="midnightblue" d="M263.089,-37.2C274.166,-38.6172 285.55,-40.0738 296.231,-41.4403"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="263.395,-33.7107 253.032,-35.9132 262.507,-40.6541 263.395,-33.7107"/>
 </g>
 <!-- Node31 -->
 <g id="node7" class="node"><title>Node31</title>
-<g id="a_node7"><a xlink:href="namespaceobe_1_1_editor.html#a508e767d732debdb65e63c7bffa50623" target="_top" xlink:title="obe::Editor::editMap">
-<polygon fill="none" stroke="black" points="296.5,-0.5 296.5,-19.5 400.5,-19.5 400.5,-0.5 296.5,-0.5"/>
-<text text-anchor="middle" x="348.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Editor::editMap</text>
+<g id="a_node7"><a xlink:href="namespaceobe_1_1_modes.html#a5f4a1008892030350b06282b8dee1a89" target="_top" xlink:title="obe::Modes::startGame">
+<polygon fill="none" stroke="black" points="289,-0.5 289,-19.5 408,-19.5 408,-0.5 289,-0.5"/>
+<text text-anchor="middle" x="348.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Modes::startGame</text>
 </a>
 </g>
 </g>
 <!-- Node27&#45;&gt;Node31 -->
 <g id="edge7" class="edge"><title>Node27&#45;&gt;Node31</title>
-<path fill="none" stroke="midnightblue" d="M263.089,-20.8C274.166,-19.3828 285.55,-17.9262 296.231,-16.5597"/>
+<path fill="none" stroke="midnightblue" d="M263.041,-20.8062C271.665,-19.7028 280.477,-18.5754 288.998,-17.4851"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="262.507,-17.3459 253.032,-22.0868 263.395,-24.2893 262.507,-17.3459"/>
 </g>
 <!-- Node29 -->
@@ -78,8 +78,8 @@
 </g>
 <!-- Node28&#45;&gt;Node29 -->
 <g id="edge4" class="edge"><title>Node28&#45;&gt;Node29</title>
-<path fill="none" stroke="midnightblue" d="M418.36,-39.8229C426.804,-38.8202 435.417,-37.7974 443.812,-36.8004"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="417.687,-36.3781 408.17,-41.033 418.513,-43.3293 417.687,-36.3781"/>
+<path fill="none" stroke="midnightblue" d="M410.804,-40.7201C421.669,-39.4299 433.022,-38.0818 443.997,-36.7785"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="410.082,-37.2812 400.565,-41.936 410.908,-44.2323 410.082,-37.2812"/>
 </g>
 <!-- Node30 -->
 <g id="node6" class="node"><title>Node30</title>
@@ -91,8 +91,8 @@
 </g>
 <!-- Node28&#45;&gt;Node30 -->
 <g id="edge6" class="edge"><title>Node28&#45;&gt;Node30</title>
-<path fill="none" stroke="midnightblue" d="M418.431,-54.0015C463.808,-56.4839 524.336,-56.9947 577,-48 589.344,-45.8918 602.618,-41.2561 612.917,-37.0917"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="418.595,-50.5052 408.405,-53.4078 418.181,-57.493 418.595,-50.5052"/>
+<path fill="none" stroke="midnightblue" d="M410.638,-53.5478C456.709,-56.3918 521.259,-57.5202 577,-48 589.344,-45.8918 602.618,-41.2561 612.917,-37.0917"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="410.723,-50.0459 400.514,-52.877 410.26,-57.0306 410.723,-50.0459"/>
 </g>
 <!-- Node29&#45;&gt;Node30 -->
 <g id="edge5" class="edge"><title>Node29&#45;&gt;Node30</title>
@@ -101,13 +101,13 @@
 </g>
 <!-- Node31&#45;&gt;Node29 -->
 <g id="edge8" class="edge"><title>Node31&#45;&gt;Node29</title>
-<path fill="none" stroke="midnightblue" d="M410.804,-17.2799C421.669,-18.5701 433.022,-19.9182 443.997,-21.2215"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="410.908,-13.7677 400.565,-16.064 410.082,-20.7188 410.908,-13.7677"/>
+<path fill="none" stroke="midnightblue" d="M418.36,-18.1771C426.804,-19.1798 435.417,-20.2026 443.812,-21.1996"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="418.513,-14.6707 408.17,-16.967 417.687,-21.6219 418.513,-14.6707"/>
 </g>
 <!-- Node31&#45;&gt;Node30 -->
 <g id="edge9" class="edge"><title>Node31&#45;&gt;Node30</title>
-<path fill="none" stroke="midnightblue" d="M410.638,-4.45219C456.709,-1.60824 521.259,-0.479808 577,-10 589.344,-12.1082 602.618,-16.7439 612.917,-20.9083"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="410.26,-0.969437 400.514,-5.12303 410.723,-7.95412 410.26,-0.969437"/>
+<path fill="none" stroke="midnightblue" d="M418.431,-3.99845C463.808,-1.51611 524.336,-1.00527 577,-10 589.344,-12.1082 602.618,-16.7439 612.917,-20.9083"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="418.181,-0.507043 408.405,-4.59225 418.595,-7.4948 418.181,-0.507043"/>
 </g>
 </g>
 </svg>

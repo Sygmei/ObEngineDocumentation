@@ -80,7 +80,7 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespaceobe_1_1_script_1_1_core_lib"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script_1_1_core_lib.html">CoreLib</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceobe_1_1_script_1_1_data_bridge"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script_1_1_data_bridge.html">DataBridge</a></td></tr>
-<tr class="memdesc:namespaceobe_1_1_script_1_1_data_bridge"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespaceobe_1_1_functions.html">Functions</a> that allow the conversion of Vili elements to Lua elements. <br /></td></tr>
+<tr class="memdesc:namespaceobe_1_1_script_1_1_data_bridge"><td class="mdescLeft">&#160;</td><td class="mdescRight">Functions that allow the conversion of Vili elements to Lua elements. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -90,14 +90,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_game_object.html">GameObject</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_game_object_requires.html">GameObjectRequires</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_trigger.html">Trigger</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_trigger_database.html">TriggerDatabase</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_trigger_delay.html">TriggerDelay</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_trigger_group.html">TriggerGroup</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -116,51 +108,42 @@ Functions</h2></td></tr>
 <tr class="separator:a4e6ee77032cf7f66544f9b08464a60b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93f11dc0cdd5fc4a7ff54cb89f54c877"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#a93f11dc0cdd5fc4a7ff54cb89f54c877">loadHook</a> (kaguya::State *lua, std::string hookname)</td></tr>
 <tr class="separator:a93f11dc0cdd5fc4a7ff54cb89f54c877"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a633c629c5a54da2b5d4930730983121c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#a633c629c5a54da2b5d4930730983121c">loadCoreLib</a> (kaguya::State *lua, std::vector&lt; std::string &gt; lib)</td></tr>
-<tr class="separator:a633c629c5a54da2b5d4930730983121c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdb81ec0976f1097cef6711415b8fac3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#abdb81ec0976f1097cef6711415b8fac3">loadCoreLib</a> (kaguya::State *lua, std::vector&lt; std::string &gt; lib, bool alreadyImportedWarning=true)</td></tr>
+<tr class="separator:abdb81ec0976f1097cef6711415b8fac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9582bae7b61bf604c2a68a8a016356ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#a9582bae7b61bf604c2a68a8a016356ec">registerLib</a> (kaguya::State *lua, std::string lib)</td></tr>
 <tr class="separator:a9582bae7b61bf604c2a68a8a016356ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad6ef67388e6d16eb01853f208da410f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#aad6ef67388e6d16eb01853f208da410f">loadBaseLib</a> (kaguya::State *lua)</td></tr>
 <tr class="separator:aad6ef67388e6d16eb01853f208da410f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c225c326f4c2acb6ae9a6f35f3b80f4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#a1c225c326f4c2acb6ae9a6f35f3b80f4">injectParameters</a> (<a class="el" href="classobe_1_1_script_1_1_trigger.html">Trigger</a> &amp;trigger, kaguya::State &amp;lua)</td></tr>
-<tr class="separator:a1c225c326f4c2acb6ae9a6f35f3b80f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a693e94bba1739aff313696a126a19253"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#a693e94bba1739aff313696a126a19253">checkIfAlreadyImported</a> (kaguya::State *lua, std::string lib)</td></tr>
+<tr class="separator:a693e94bba1739aff313696a126a19253"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8f90c1197ae57edaaa817d6c828febe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#ae8f90c1197ae57edaaa817d6c828febe">KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE</a> (useExternalTriggerProxy, <a class="el" href="classobe_1_1_script_1_1_game_object.html">GameObject</a>, useExternalTrigger, 3, 4, void(GameObject::*)(std::string, std::string, std::string, std::string))</td></tr>
 <tr class="separator:ae8f90c1197ae57edaaa817d6c828febe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acba87ced8174ec07323a7f4ffc745822"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:acba87ced8174ec07323a7f4ffc745822"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#acba87ced8174ec07323a7f4ffc745822">affectIfCorrectType</a> (kaguya::State &amp;lua, const std::pair&lt; std::string, std::pair&lt; std::string, <a class="el" href="classobe_1_1_types_1_1any.html">Types::any</a> &gt;&gt; &amp;parameter)</td></tr>
-<tr class="separator:acba87ced8174ec07323a7f4ffc745822"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d6777d3c99e1c316b23827eb0346136"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#a8d6777d3c99e1c316b23827eb0346136">if</a> (<a class="el" href="namespaceobe_1_1_script.html#ae058cd856d8da446af953fbbd8a25724">this</a>-&gt;getTrigger(triggerName) -&gt;m_toDisable) <a class="el" href="namespaceobe_1_1_script.html#ae058cd856d8da446af953fbbd8a25724">this</a> -&gt; getTrigger(triggerName) -&gt;m_toDisable=false</td></tr>
-<tr class="separator:a8d6777d3c99e1c316b23827eb0346136"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ccd5b381e73804412e03c58021f9878"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#a5ccd5b381e73804412e03c58021f9878">checkIfAlreadyImported</a> (kaguya::State *lua, std::vector&lt; std::string &gt; lib)</td></tr>
+<tr class="separator:a5ccd5b381e73804412e03c58021f9878"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a1116049066154574387bd18826919514"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_script_1_1_core_hook.html">CoreHook</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#a1116049066154574387bd18826919514">hookCore</a></td></tr>
 <tr class="separator:a1116049066154574387bd18826919514"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7b610c31b1bd8a655f5817dee71e824"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::pair&lt; std::string, <a class="el" href="classobe_1_1_types_1_1any.html">Types::any</a>)) *<a class="el" href="classobe_1_1_script_1_1_trigger.html#abe793d7ad08c765fdc0c71025a67f8b0">Trigger::getParameters</a>() { return &amp;m_triggerParameters;} void Trigger::clearParameters() { m_triggerParameters.clear();} <a class="el" href="classobe_1_1_script_1_1_trigger_delay.html#ac132e01f8594ef046f65436a2b2dbd73">TriggerDelay::TriggerDelay</a>(<a class="el" href="classobe_1_1_script_1_1_trigger.html">Trigger</a> *trg, int del, bool sta) { m_trigger=trg;m_delay=del;m_state=sta;} <a class="el" href="classobe_1_1_script_1_1_trigger_group.html#a85c6352398e45cd784954ecd5b8e7c5e">TriggerGroup::TriggerGroup</a>(std::string triggerGroupName) { m_fromNsp=&quot;&quot;;m_triggerGroupName=triggerGroupName;} <a class="el" href="classobe_1_1_script_1_1_trigger_group.html#a85c6352398e45cd784954ecd5b8e7c5e">TriggerGroup::TriggerGroup</a>(std::string triggerGroupNamespace, std::string triggerGroupName) { m_fromNsp=triggerGroupNamespace;m_triggerGroupName=triggerGroupName;} <a class="el" href="classobe_1_1_script_1_1_trigger.html">Trigger</a> *<a class="el" href="classobe_1_1_script_1_1_trigger_group.html#a7b20e8e912445c11b7d2f35327e0ff1f">TriggerGroup::getTrigger</a>(std::string triggerName) { <a class="el" href="namespaceobe_1_1_script.html#a8d6777d3c99e1c316b23827eb0346136">if</a>(m_triggerMap.find(triggerName) !=m_triggerMap.end()) { return m_triggerMap[triggerName];} throw <a class="el" href="classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b">aube::ErrorHandler::Raise</a>(&quot;ObEngine.Trigger.TriggerGroup.UnknownTrigger&quot;, {{&quot;trigger&quot;, triggerName}, {&quot;group&quot;, m_triggerGroupName}});} <a class="el" href="classobe_1_1_script_1_1_trigger_group.html">TriggerGroup</a> *<a class="el" href="classobe_1_1_script_1_1_trigger_group.html#a7c0ea74bcddac3ce2ca8f8946be3c041">TriggerGroup::addTrigger</a>(std::string triggerName) { m_triggerMap[triggerName]=new <a class="el" href="classobe_1_1_script_1_1_trigger.html">Trigger</a>(*<a class="el" href="namespaceobe_1_1_script.html#ae058cd856d8da446af953fbbd8a25724">this</a>, triggerName);return <a class="el" href="namespaceobe_1_1_script.html#ae058cd856d8da446af953fbbd8a25724">this</a>;} <a class="el" href="classobe_1_1_script_1_1_trigger_group.html">TriggerGroup</a> *<a class="el" href="classobe_1_1_script_1_1_trigger_group.html#a272bcb48daafd477599d8d300c1999bb">TriggerGroup::delayTriggerState</a>(std::string triggerName, int delay, bool state) { m_delayedTriggers.push_back(new <a class="el" href="classobe_1_1_script_1_1_trigger_delay.html">TriggerDelay</a>(getTrigger(triggerName), delay, state));return <a class="el" href="namespaceobe_1_1_script.html#ae058cd856d8da446af953fbbd8a25724">this</a>;} <a class="el" href="classobe_1_1_script_1_1_trigger_group.html">TriggerGroup</a> *<a class="el" href="classobe_1_1_script_1_1_trigger_group.html#a395c3fe732fc5d7cf81e16dbf744b993">TriggerGroup::enableTrigger</a>(std::string triggerName) { <a class="el" href="namespaceobe_1_1_script.html#ae058cd856d8da446af953fbbd8a25724">this</a>-&gt;getTrigger(triggerName) -&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#ab7b610c31b1bd8a655f5817dee71e824">m_toEnable</a> = true</td></tr>
-<tr class="separator:ab7b610c31b1bd8a655f5817dee71e824"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae058cd856d8da446af953fbbd8a25724"><td class="memItemLeft" align="right" valign="top">return&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#ae058cd856d8da446af953fbbd8a25724">this</a></td></tr>
-<tr class="separator:ae058cd856d8da446af953fbbd8a25724"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="acba87ced8174ec07323a7f4ffc745822"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acba87ced8174ec07323a7f4ffc745822">&#9670;&nbsp;</a></span>affectIfCorrectType()</h2>
+<a id="a693e94bba1739aff313696a126a19253"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a693e94bba1739aff313696a126a19253">&#9670;&nbsp;</a></span>checkIfAlreadyImported() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">bool obe::Script::affectIfCorrectType </td>
+          <td class="memname">bool obe::Script::checkIfAlreadyImported </td>
           <td>(</td>
-          <td class="paramtype">kaguya::State &amp;&#160;</td>
+          <td class="paramtype">kaguya::State *&#160;</td>
           <td class="paramname"><em>lua</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::pair&lt; std::string, std::pair&lt; std::string, <a class="el" href="classobe_1_1_types_1_1any.html">Types::any</a> &gt;&gt; &amp;&#160;</td>
-          <td class="paramname"><em>parameter</em>&#160;</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>lib</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -169,50 +152,31 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8d6777d3c99e1c316b23827eb0346136"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d6777d3c99e1c316b23827eb0346136">&#9670;&nbsp;</a></span>if()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">obe::Script::if </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceobe_1_1_script.html#ae058cd856d8da446af953fbbd8a25724">this</a>-&gt;getTrigger(triggerName) -&gt;&#160;</td>
-          <td class="paramname"><em>m_toDisable</em></td><td>)</td>
-          <td> -&gt;  getTrigger(triggerName) -&gt;m_toDisable=false</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_script_a8d6777d3c99e1c316b23827eb0346136_icgraph.svg" width="264" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_script_a693e94bba1739aff313696a126a19253_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
-<a id="a1c225c326f4c2acb6ae9a6f35f3b80f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c225c326f4c2acb6ae9a6f35f3b80f4">&#9670;&nbsp;</a></span>injectParameters()</h2>
+<a id="a5ccd5b381e73804412e03c58021f9878"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ccd5b381e73804412e03c58021f9878">&#9670;&nbsp;</a></span>checkIfAlreadyImported() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool obe::Script::injectParameters </td>
+          <td class="memname">bool obe::Script::checkIfAlreadyImported </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classobe_1_1_script_1_1_trigger.html">Trigger</a> &amp;&#160;</td>
-          <td class="paramname"><em>trigger</em>, </td>
+          <td class="paramtype">kaguya::State *&#160;</td>
+          <td class="paramname"><em>lua</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">kaguya::State &amp;&#160;</td>
-          <td class="paramname"><em>lua</em>&#160;</td>
+          <td class="paramtype">std::vector&lt; std::string &gt;&#160;</td>
+          <td class="paramname"><em>lib</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -224,8 +188,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_script_a1c225c326f4c2acb6ae9a6f35f3b80f4_cgraph.svg" width="382" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_script_a5ccd5b381e73804412e03c58021f9878_cgraph.svg" width="356" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -312,8 +275,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a633c629c5a54da2b5d4930730983121c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a633c629c5a54da2b5d4930730983121c">&#9670;&nbsp;</a></span>loadCoreLib()</h2>
+<a id="abdb81ec0976f1097cef6711415b8fac3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdb81ec0976f1097cef6711415b8fac3">&#9670;&nbsp;</a></span>loadCoreLib()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -328,7 +291,13 @@ Here is the caller graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">std::vector&lt; std::string &gt;&#160;</td>
-          <td class="paramname"><em>lib</em>&#160;</td>
+          <td class="paramname"><em>lib</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>alreadyImportedWarning</em> = <code>true</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -340,13 +309,13 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_script_a633c629c5a54da2b5d4930730983121c_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_script_abdb81ec0976f1097cef6711415b8fac3_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_script_a633c629c5a54da2b5d4930730983121c_icgraph.svg" width="100%" height="497"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_script_abdb81ec0976f1097cef6711415b8fac3_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -386,7 +355,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_script_a93f11dc0cdd5fc4a7ff54cb89f54c877_icgraph.svg" width="100%" height="427"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_script_a93f11dc0cdd5fc4a7ff54cb89f54c877_icgraph.svg" width="100%" height="446"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -466,7 +435,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_script_a4e6ee77032cf7f66544f9b08464a60b7_icgraph.svg" width="100%" height="497"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_script_a4e6ee77032cf7f66544f9b08464a60b7_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -576,7 +545,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_script_a12bbe1b0049ef8e99e1bfdba550b041e_icgraph.svg" width="631" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_script_a12bbe1b0049ef8e99e1bfdba550b041e_icgraph.svg" width="634" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -616,7 +585,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_script_a8fdc3bc2fd1dd10cdb99256dbc1f8b0a_icgraph.svg" width="100%" height="471"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_script_a8fdc3bc2fd1dd10cdb99256dbc1f8b0a_icgraph.svg" width="100%" height="450"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -665,34 +634,6 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classobe_1_1_script_1_1_core_hook.html">CoreHook</a> obe::Script::hookCore</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab7b610c31b1bd8a655f5817dee71e824"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7b610c31b1bd8a655f5817dee71e824">&#9670;&nbsp;</a></span>m_toEnable</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::map&lt;std::string, std::pair&lt;std::string, <a class="el" href="classobe_1_1_types_1_1any.html">Types::any</a>))* <a class="el" href="classobe_1_1_script_1_1_trigger.html#abe793d7ad08c765fdc0c71025a67f8b0">Trigger::getParameters</a>() { return &amp;m_triggerParameters; } void Trigger::clearParameters() { m_triggerParameters.clear(); } <a class="el" href="classobe_1_1_script_1_1_trigger_delay.html#ac132e01f8594ef046f65436a2b2dbd73">TriggerDelay::TriggerDelay</a>(<a class="el" href="classobe_1_1_script_1_1_trigger.html">Trigger</a>* trg, int del, bool sta) { m_trigger = trg; m_delay = del; m_state = sta; } <a class="el" href="classobe_1_1_script_1_1_trigger_group.html#a85c6352398e45cd784954ecd5b8e7c5e">TriggerGroup::TriggerGroup</a>(std::string triggerGroupName) { m_fromNsp = &quot;&quot;; m_triggerGroupName = triggerGroupName; } <a class="el" href="classobe_1_1_script_1_1_trigger_group.html#a85c6352398e45cd784954ecd5b8e7c5e">TriggerGroup::TriggerGroup</a>(std::string triggerGroupNamespace, std::string triggerGroupName) { m_fromNsp = triggerGroupNamespace; m_triggerGroupName = triggerGroupName; } <a class="el" href="classobe_1_1_script_1_1_trigger.html">Trigger</a>* <a class="el" href="classobe_1_1_script_1_1_trigger_group.html#a7b20e8e912445c11b7d2f35327e0ff1f">TriggerGroup::getTrigger</a>(std::string triggerName) { <a class="el" href="namespaceobe_1_1_script.html#a8d6777d3c99e1c316b23827eb0346136">if</a> (m_triggerMap.find(triggerName) != m_triggerMap.end()) { return m_triggerMap[triggerName]; } throw <a class="el" href="classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b">aube::ErrorHandler::Raise</a>(&quot;ObEngine.Trigger.TriggerGroup.UnknownTrigger&quot;, {{&quot;trigger&quot;, triggerName}, {&quot;group&quot;, m_triggerGroupName}}); } <a class="el" href="classobe_1_1_script_1_1_trigger_group.html">TriggerGroup</a>* <a class="el" href="classobe_1_1_script_1_1_trigger_group.html#a7c0ea74bcddac3ce2ca8f8946be3c041">TriggerGroup::addTrigger</a>(std::string triggerName) { m_triggerMap[triggerName] = new <a class="el" href="classobe_1_1_script_1_1_trigger.html">Trigger</a>(*<a class="el" href="namespaceobe_1_1_script.html#ae058cd856d8da446af953fbbd8a25724">this</a>, triggerName); return <a class="el" href="namespaceobe_1_1_script.html#ae058cd856d8da446af953fbbd8a25724">this</a>; } <a class="el" href="classobe_1_1_script_1_1_trigger_group.html">TriggerGroup</a>* <a class="el" href="classobe_1_1_script_1_1_trigger_group.html#a272bcb48daafd477599d8d300c1999bb">TriggerGroup::delayTriggerState</a>(std::string triggerName, int delay, bool state) { m_delayedTriggers.push_back(new <a class="el" href="classobe_1_1_script_1_1_trigger_delay.html">TriggerDelay</a>(getTrigger(triggerName), delay, state)); return <a class="el" href="namespaceobe_1_1_script.html#ae058cd856d8da446af953fbbd8a25724">this</a>; } <a class="el" href="classobe_1_1_script_1_1_trigger_group.html">TriggerGroup</a>* <a class="el" href="classobe_1_1_script_1_1_trigger_group.html#a395c3fe732fc5d7cf81e16dbf744b993">TriggerGroup::enableTrigger</a>(std::string triggerName) { <a class="el" href="namespaceobe_1_1_script.html#ae058cd856d8da446af953fbbd8a25724">this</a>-&gt;getTrigger(triggerName)-&gt; obe::Script::m_toEnable = true</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae058cd856d8da446af953fbbd8a25724"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae058cd856d8da446af953fbbd8a25724">&#9670;&nbsp;</a></span>this</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">return obe::Script::this</td>
         </tr>
       </table>
 </div><div class="memdoc">

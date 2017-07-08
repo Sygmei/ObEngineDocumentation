@@ -1,12 +1,22 @@
 <map id="obe::System::Cursor::update" name="obe::System::Cursor::update">
-<area shape="rect" id="node2" href="$classobe_1_1_animation_1_1_animator.html#ac335331eb08fe4d3151505780a3a30fa" title="Set the Animation to play by name. " alt="" coords="196,39,365,80"/>
-<area shape="rect" id="node8" href="$classobe_1_1_animation_1_1_animator.html#a55671134e7608fa71f46cc2ae3aa51a6" title="Get the name of the currently played Animation. " alt="" coords="196,104,365,145"/>
-<area shape="rect" id="node9" href="$classobe_1_1_animation_1_1_animator.html#ad84c05c7f7743a98d4e11ba674f07b6d" title="Updates the Animator and the currently played Animation. " alt="" coords="196,169,365,211"/>
-<area shape="rect" id="node10" href="$classobe_1_1_animation_1_1_animator.html#ad710964804f5673b13e3628590f93665" title="Return if the Texture changed since the last call to getTexture() " alt="" coords="196,235,365,276"/>
-<area shape="rect" id="node11" href="$classobe_1_1_animation_1_1_animator.html#aad51a478744d9528b0402177c4c1cb63" title="Get the current sf::Sprite of the current Animation. " alt="" coords="196,300,365,341"/>
-<area shape="rect" id="node3" href="$classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b" title="aube::ErrorHandler\l::Raise" alt="" coords="413,104,544,145"/>
-<area shape="rect" id="node4" href="$classaube_1_1_error_message.html#a3a39b6fcd8fdb12eaf6383123535b8ca" title="aube::ErrorMessage\l::getFile" alt="" coords="592,5,731,47"/>
-<area shape="rect" id="node5" href="$classaube_1_1_error_message.html#a9184cc96589578f434351c105b0cd5f7" title="aube::ErrorMessage\l::getLocation" alt="" coords="592,71,731,112"/>
-<area shape="rect" id="node6" href="$classaube_1_1_error_message.html#a07927cb3e2d0712c459cc9e2b5f52696" title="aube::ErrorMessage\l::getMessage" alt="" coords="592,136,731,177"/>
-<area shape="rect" id="node7" href="$classaube_1_1_error_message.html#a77c2f9b7e93542c958173b52da267989" title="aube::ErrorMessage\l::getHints" alt="" coords="592,201,731,243"/>
+<area shape="rect" id="node2" href="$classobe_1_1_animation_1_1_animator.html#ac335331eb08fe4d3151505780a3a30fa" title="Set the Animation to play by name. " alt="" coords="196,332,365,373"/>
+<area shape="rect" id="node11" href="$classobe_1_1_animation_1_1_animator.html#a55671134e7608fa71f46cc2ae3aa51a6" title="Get the name of the currently played Animation. " alt="" coords="196,397,365,439"/>
+<area shape="rect" id="node12" href="$classobe_1_1_animation_1_1_animator.html#ad84c05c7f7743a98d4e11ba674f07b6d" title="Updates the Animator and the currently played Animation. " alt="" coords="196,201,365,243"/>
+<area shape="rect" id="node19" href="$classobe_1_1_animation_1_1_animator.html#ad710964804f5673b13e3628590f93665" title="Return if the Texture changed since the last call to getTexture() " alt="" coords="196,528,365,569"/>
+<area shape="rect" id="node21" href="$classobe_1_1_animation_1_1_animator.html#aad51a478744d9528b0402177c4c1cb63" title="Get the current sf::Sprite of the current Animation. " alt="" coords="196,463,365,504"/>
+<area shape="rect" id="node3" href="$classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b" title="aube::ErrorHandler\l::Raise" alt="" coords="435,267,566,308"/>
+<area shape="rect" id="node8" href="$classobe_1_1_system_1_1_path.html#aab439649ec875cd45a99a18e9c9beda8" title="Get the current path in string form. " alt="" coords="431,332,570,373"/>
+<area shape="rect" id="node9" href="$classobe_1_1_animation_1_1_animation.html#a9b0b22318eac4b384f9a7fbe3f3cbf4f" title="Return whether the Animation is over or not. " alt="" coords="413,463,588,504"/>
+<area shape="rect" id="node10" href="$classobe_1_1_animation_1_1_animation.html#aa5c71967c0484463123b1a4cd7ad497c" title="Returns the Animation priority. " alt="" coords="413,397,588,439"/>
+<area shape="rect" id="node4" href="$classaube_1_1_error_message.html#a3a39b6fcd8fdb12eaf6383123535b8ca" title="aube::ErrorMessage\l::getFile" alt="" coords="666,201,805,243"/>
+<area shape="rect" id="node5" href="$classaube_1_1_error_message.html#a9184cc96589578f434351c105b0cd5f7" title="aube::ErrorMessage\l::getLocation" alt="" coords="666,267,805,308"/>
+<area shape="rect" id="node6" href="$classaube_1_1_error_message.html#a07927cb3e2d0712c459cc9e2b5f52696" title="aube::ErrorMessage\l::getMessage" alt="" coords="666,332,805,373"/>
+<area shape="rect" id="node7" href="$classaube_1_1_error_message.html#a77c2f9b7e93542c958173b52da267989" title="aube::ErrorMessage\l::getHints" alt="" coords="666,397,805,439"/>
+<area shape="rect" id="node13" href="$classobe_1_1_animation_1_1_animation.html#a43bee4799871d1c9e47ffe438f875782" title="Get the Animation Status. " alt="" coords="413,201,588,243"/>
+<area shape="rect" id="node14" href="$classobe_1_1_animation_1_1_animation.html#a163d69319c82e90bfea4ea0b9768306e" title="Resets the Animation (Unselect current AnimationGroup and restart AnimationCode) " alt="" coords="413,5,588,47"/>
+<area shape="rect" id="node15" href="$classobe_1_1_animation_1_1_animation.html#af197b177144ff76951ff7fb8745b5e44" title="Get the name of the Animation to call when the AnimationStatus of the Animation is equal to Animation..." alt="" coords="413,71,588,112"/>
+<area shape="rect" id="node16" href="$classobe_1_1_animation_1_1_animation.html#aae247711ecb729409e436e7a40448088" title="Updates the Animation (Updates the current AnimationGroup, executes the AnimationCode) ..." alt="" coords="413,136,588,177"/>
+<area shape="rect" id="node17" href="$namespaceobe_1_1_time.html#a8ae76b1e66dea054aced3ab86ecb6d3f" title="Get the amount of milliseconds elapsed since Epoch. " alt="" coords="636,85,835,111"/>
+<area shape="rect" id="node18" href="$namespaceobe_1_1_utils_1_1_string.html#ab84a7456dcd06eb140fd5c867a546383" title="obe::Utils::String\l::replaceStringInPlace" alt="" coords="661,136,810,177"/>
+<area shape="rect" id="node20" href="$classobe_1_1_animation_1_1_animation.html#ac0fdc6d04307112e2de050e62b8df8dd" title="Get the Sprite containing the current texture in the Animation. " alt="" coords="413,528,588,569"/>
 </map>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ObEngine: E:/Dev/ObEngine/Git/include/Animation.hpp File Reference</title>
+<title>ObEngine: E:/Dev/ObEngine/Git/include/Animation/Animation.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_501bdb11da9e3ff85a05ee91b220e720.html">Git</a></li><li class="navelem"><a class="el" href="dir_0a1a91c36bfdfd5095813f1c67b0e889.html">include</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_501bdb11da9e3ff85a05ee91b220e720.html">Git</a></li><li class="navelem"><a class="el" href="dir_0a1a91c36bfdfd5095813f1c67b0e889.html">include</a></li><li class="navelem"><a class="el" href="dir_11126059a3b602a0671935ef208f6bce.html">Animation</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -74,18 +74,9 @@ $(function() {
 <div class="title">Animation.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Various Animation Classes.  
-<a href="#details">More...</a></p>
-<div class="textblock"><code>#include &lt;fstream&gt;</code><br />
-<code>#include &lt;memory&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
-<code>#include &lt;SFML/Graphics.hpp&gt;</code><br />
-<code>#include &lt;<a class="el" href="_vili_8hpp_source.html">vili/Vili.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_error_handler_8hpp_source.html">vili/ErrorHandler.hpp</a>&gt;</code><br />
-<code>#include &quot;<a class="el" href="include_2_functions_8hpp_source.html">Functions.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_time_manager_8hpp_source.html">TimeManager.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_path_resolver_8hpp_source.html">PathResolver.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="_vili_8hpp_source.html">vili/Vili.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_animation_group_8hpp_source.html">Animation/AnimationGroup.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_path_8hpp_source.html">System/Path.hpp</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for Animation.hpp:</div>
 <div class="dyncontent">
@@ -101,18 +92,8 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_animation_1_1_animation_group.html">obe::Animation::AnimationGroup</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A subpart of an <a class="el" href="classobe_1_1_animation_1_1_animation.html" title="A whole Animation that contains one or more AnimationGroup. ">Animation</a> containing the Textures to display.  <a href="classobe_1_1_animation_1_1_animation_group.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_animation_1_1_ressource_manager.html">obe::Animation::RessourceManager</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Singleton Class that manages sf::Texture used in <a class="el" href="classobe_1_1_animation_1_1_animation_group.html" title="A subpart of an Animation containing the Textures to display. ">AnimationGroup</a>.  <a href="classobe_1_1_animation_1_1_ressource_manager.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_animation_1_1_animation.html">obe::Animation::Animation</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A whole <a class="el" href="classobe_1_1_animation_1_1_animation.html" title="A whole Animation that contains one or more AnimationGroup. ">Animation</a> that contains one or more <a class="el" href="classobe_1_1_animation_1_1_animation_group.html" title="A subpart of an Animation containing the Textures to display. ">AnimationGroup</a>.  <a href="classobe_1_1_animation_1_1_animation.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_animation_1_1_animator.html">obe::Animation::Animator</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A Class that will manage a set of <a class="el" href="classobe_1_1_animation_1_1_animation.html" title="A whole Animation that contains one or more AnimationGroup. ">Animation</a>.<br />
-Example :  <a href="classobe_1_1_animation_1_1_animator.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -125,15 +106,15 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a346c6729e9af989f6b063e6086637fbb"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_animation.html#a346c6729e9af989f6b063e6086637fbb">obe::Animation::AnimationPlayMode</a> { <a class="el" href="namespaceobe_1_1_animation.html#a346c6729e9af989f6b063e6086637fbba4e0bc659a182e74c980d5f6fd08bfba7">obe::Animation::OneTime</a>, 
-<a class="el" href="namespaceobe_1_1_animation.html#a346c6729e9af989f6b063e6086637fbbac6eecb89c1d428a7c0ed088e4c512028">obe::Animation::Loop</a>, 
-<a class="el" href="namespaceobe_1_1_animation.html#a346c6729e9af989f6b063e6086637fbba0903a54450aca256e8e87a558a712812">obe::Animation::Force</a>
+<tr class="memitem:a346c6729e9af989f6b063e6086637fbb"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_animation.html#a346c6729e9af989f6b063e6086637fbb">obe::Animation::AnimationPlayMode</a> { <a class="el" href="namespaceobe_1_1_animation.html#a346c6729e9af989f6b063e6086637fbbaef01a357e0efe7452a8aaf4fcf9df1c8">obe::Animation::AnimationPlayMode::OneTime</a>, 
+<a class="el" href="namespaceobe_1_1_animation.html#a346c6729e9af989f6b063e6086637fbba89d7b10cb4238977d2b523dfd9ea7745">obe::Animation::AnimationPlayMode::Loop</a>, 
+<a class="el" href="namespaceobe_1_1_animation.html#a346c6729e9af989f6b063e6086637fbba9eb6b78a99cdb6ffd3d40d18621d9f80">obe::Animation::AnimationPlayMode::Force</a>
  }<tr class="memdesc:a346c6729e9af989f6b063e6086637fbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Play Mode of an Animation.<br />
  It indicates whether an Animation can be interrupted or not and what to do when the Animation is over.  <a href="namespaceobe_1_1_animation.html#a346c6729e9af989f6b063e6086637fbb">More...</a><br /></td></tr>
 </td></tr>
 <tr class="separator:a346c6729e9af989f6b063e6086637fbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade1d37c9a3b741730d422de4b0e6bb31"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_animation.html#ade1d37c9a3b741730d422de4b0e6bb31">obe::Animation::AnimationStatus</a> { <a class="el" href="namespaceobe_1_1_animation.html#ade1d37c9a3b741730d422de4b0e6bb31a572d4a2b094700c6502cd05b26972306">obe::Animation::Play</a>, 
-<a class="el" href="namespaceobe_1_1_animation.html#ade1d37c9a3b741730d422de4b0e6bb31af53d23f88cfed402065f26f24c92feeb">obe::Animation::Call</a>
+<tr class="memitem:ade1d37c9a3b741730d422de4b0e6bb31"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_animation.html#ade1d37c9a3b741730d422de4b0e6bb31">obe::Animation::AnimationStatus</a> { <a class="el" href="namespaceobe_1_1_animation.html#ade1d37c9a3b741730d422de4b0e6bb31ade3c731be5633838089a07179d301d7b">obe::Animation::AnimationStatus::Play</a>, 
+<a class="el" href="namespaceobe_1_1_animation.html#ade1d37c9a3b741730d422de4b0e6bb31ac3755e61202abd74da5885d2e9c9160e">obe::Animation::AnimationStatus::Call</a>
  }<tr class="memdesc:ade1d37c9a3b741730d422de4b0e6bb31"><td class="mdescLeft">&#160;</td><td class="mdescRight">The AnimationStatus indicates whether the current Animation should continue to play or call another one.  <a href="namespaceobe_1_1_animation.html#ade1d37c9a3b741730d422de4b0e6bb31">More...</a><br /></td></tr>
 </td></tr>
 <tr class="separator:ade1d37c9a3b741730d422de4b0e6bb31"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -144,11 +125,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a31f69a90eac3672f7317e2936a516b92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a std::string containing an AnimationPlayMode in string form to an AnimationPlayMode enum value.  <a href="namespaceobe_1_1_animation.html#a31f69a90eac3672f7317e2936a516b92">More...</a><br /></td></tr>
 <tr class="separator:a31f69a90eac3672f7317e2936a516b92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Various Animation Classes. </p>
-<dl class="section author"><dt>Author</dt><dd>Sygmei </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>1.0 </dd></dl>
-</div></div><!-- contents -->
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

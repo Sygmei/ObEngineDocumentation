@@ -67,6 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">obe::Collision Namespace Reference</div>  </div>
@@ -76,7 +77,17 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">PolygonalCollider</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class used for all Collisions in the engine, it's a Polygon containing n points.  <a href="classobe_1_1_collision_1_1_polygonal_collider.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:aa8080687fb294144f0bc8de1423b3f3d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_collision.html#aa8080687fb294144f0bc8de1423b3f3d">ColliderTagType</a> { <a class="el" href="namespaceobe_1_1_collision.html#aa8080687fb294144f0bc8de1423b3f3dac101058e7ea21bbbf2a5ac893088e90b">ColliderTagType::Tag</a>, 
+<a class="el" href="namespaceobe_1_1_collision.html#aa8080687fb294144f0bc8de1423b3f3da382ab522931673c11e398ead1b7b1678">ColliderTagType::Accepted</a>, 
+<a class="el" href="namespaceobe_1_1_collision.html#aa8080687fb294144f0bc8de1423b3f3dad37b1f6c0512e2118cee17fea015b699">ColliderTagType::Rejected</a>
+ }<tr class="memdesc:aa8080687fb294144f0bc8de1423b3f3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enum used when manipulating tags in the Collider.  <a href="namespaceobe_1_1_collision.html#aa8080687fb294144f0bc8de1423b3f3d">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:aa8080687fb294144f0bc8de1423b3f3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -89,6 +100,39 @@ Functions</h2></td></tr>
 <tr class="memitem:acf02beadb1577b36fd62b3c8c6f5038b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_collision.html#acf02beadb1577b36fd62b3c8c6f5038b">cross</a> (ClipperLib::IntPoint *O, ClipperLib::IntPoint *A, ClipperLib::IntPoint *B)</td></tr>
 <tr class="separator:acf02beadb1577b36fd62b3c8c6f5038b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="aa8080687fb294144f0bc8de1423b3f3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8080687fb294144f0bc8de1423b3f3d">&#9670;&nbsp;</a></span>ColliderTagType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespaceobe_1_1_collision.html#aa8080687fb294144f0bc8de1423b3f3d">obe::Collision::ColliderTagType</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Enum used when manipulating tags in the Collider. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa8080687fb294144f0bc8de1423b3f3dac101058e7ea21bbbf2a5ac893088e90b"></a>Tag&#160;</td><td class="fielddoc"><p>Tags of the Collider. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa8080687fb294144f0bc8de1423b3f3da382ab522931673c11e398ead1b7b1678"></a>Accepted&#160;</td><td class="fielddoc"><p>Tags the Collider should accept (Will reject when tag is not in accepted list) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa8080687fb294144f0bc8de1423b3f3dad37b1f6c0512e2118cee17fea015b699"></a>Rejected&#160;</td><td class="fielddoc"><p>Tags the Collider should reject. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ad84b108b17b313c09418c88f3d1ab689"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad84b108b17b313c09418c88f3d1ab689">&#9670;&nbsp;</a></span>convexHull()</h2>
@@ -113,7 +157,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_collision_ad84b108b17b313c09418c88f3d1ab689_icgraph.svg" width="100%" height="497"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_collision_ad84b108b17b313c09418c88f3d1ab689_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -152,7 +196,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_collision_acf02beadb1577b36fd62b3c8c6f5038b_icgraph.svg" width="100%" height="497"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_collision_acf02beadb1577b36fd62b3c8c6f5038b_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -185,7 +229,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_collision_af5f3a0b184cb5e706ade5fa1b129a607_icgraph.svg" width="100%" height="497"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_collision_af5f3a0b184cb5e706ade5fa1b129a607_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

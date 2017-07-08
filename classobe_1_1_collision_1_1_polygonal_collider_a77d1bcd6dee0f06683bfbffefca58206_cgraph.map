@@ -1,13 +1,12 @@
 <map id="obe::Collision::PolygonalCollider::doesCollide" name="obe::Collision::PolygonalCollider::doesCollide">
-<area shape="rect" id="node2" href="$classobe_1_1_collision_1_1_polygonal_collider.html#abdc6f9d207b65d5a6bf79bb58ee01cca" title="obe::Collision::Polygonal\lCollider::isATagExcluded" alt="" coords="239,5,406,47"/>
-<area shape="rect" id="node4" href="$classobe_1_1_collision_1_1_polygonal_collider.html#a8a4211aadf7a5e8bced2fe87651e0212" title="obe::Collision::Polygonal\lCollider::getAllTags" alt="" coords="240,71,405,112"/>
-<area shape="rect" id="node5" href="$classobe_1_1_collision_1_1_polygonal_collider.html#a02b72d53bd07384d0c9b72506af05928" title="obe::Collision::Polygonal\lCollider::isATagAccepted" alt="" coords="239,136,407,177"/>
-<area shape="rect" id="node6" href="$classobe_1_1_collision_1_1_polygonal_collider.html#aa5b7c9f68e408e8ab1c09804377c89d5" title="obe::Collision::Polygonal\lCollider::getAllPoints" alt="" coords="240,201,405,243"/>
-<area shape="rect" id="node7" href="$classobe_1_1_collision_1_1_polygonal_collider.html#aa6af540369863706dbe5a91b8fcb3a72" title="obe::Collision::Polygonal\lCollider::clearHighlights" alt="" coords="240,267,405,308"/>
-<area shape="rect" id="node8" href="$classobe_1_1_collision_1_1_polygonal_collider.html#a58fa67d8f1eb7609e990d76dc68ffffb" title="obe::Collision::Polygonal\lCollider::highlightLine" alt="" coords="240,332,405,373"/>
-<area shape="rect" id="node9" href="$classobe_1_1_collision_1_1_polygonal_collider.html#adf3d1cd440bafc922498e6ce862e2aff" title="obe::Collision::Polygonal\lCollider::getSideContainingPoint" alt="" coords="219,397,427,439"/>
-<area shape="rect" id="node3" href="$namespaceobe_1_1_functions_1_1_vector.html#a8adc81831e6ac5c91887cf1c1089561a" title="obe::Functions::Vector\l::isInList" alt="" coords="499,71,653,112"/>
-<area shape="rect" id="node10" href="$classobe_1_1_collision_1_1_polygonal_collider.html#a683abe088e85053645e32c6457983f93" title="obe::Collision::Polygonal\lCollider::getDistanceFromPoint" alt="" coords="475,332,677,373"/>
-<area shape="rect" id="node11" href="$classobe_1_1_collision_1_1_polygonal_collider.html#ae45f352630947b803382a66b6d23b39d" title="obe::Collision::Polygonal\lCollider::getPointPosition" alt="" coords="492,397,660,439"/>
-<area shape="rect" id="node12" href="$namespaceobe_1_1_functions_1_1_math.html#ace2502ece9d05e44fc5b4f22a6d3fcfc" title="obe::Functions::Math\l::isBetween" alt="" coords="503,463,649,504"/>
+<area shape="rect" id="node2" href="$classobe_1_1_collision_1_1_polygonal_collider.html#a33cdd3d9e22ca7661bff0e39b9056a49" title="Check if the Collider contains one of the Tag in parameter. " alt="" coords="236,5,409,47"/>
+<area shape="rect" id="node4" href="$classobe_1_1_collision_1_1_polygonal_collider.html#ab00569a98c8d2f5c106983f04f61a9ac" title="Gets all the Tags from one of the Lists. " alt="" coords="240,71,405,112"/>
+<area shape="rect" id="node5" href="$classobe_1_1_collision_1_1_polygonal_collider.html#aa5b7c9f68e408e8ab1c09804377c89d5" title="Get all the Points of the Polygon. " alt="" coords="240,136,405,177"/>
+<area shape="rect" id="node6" href="$classobe_1_1_collision_1_1_polygonal_collider.html#aa6af540369863706dbe5a91b8fcb3a72" title="Removes all Highlights. " alt="" coords="240,201,405,243"/>
+<area shape="rect" id="node7" href="$classobe_1_1_collision_1_1_polygonal_collider.html#ac19d98c42e5b577d9644b1f724049803" title="Highlight a Side of the Polygon (Changes its color when the Polygon is drawn) " alt="" coords="240,267,405,308"/>
+<area shape="rect" id="node8" href="$classobe_1_1_collision_1_1_polygonal_collider.html#adf3d1cd440bafc922498e6ce862e2aff" title="Get if the Position (x, y) is on one of the side of the Polygon. " alt="" coords="219,332,427,373"/>
+<area shape="rect" id="node3" href="$namespaceobe_1_1_utils_1_1_vector.html#a636b7f465d67c2bf42a297f221af9cfe" title="obe::Utils::Vector\l::isInList" alt="" coords="515,5,637,47"/>
+<area shape="rect" id="node9" href="$classobe_1_1_collision_1_1_polygonal_collider.html#abee3a2723d3e9ba81c23179fbc006c6a" title="Get the distance between a Point of the Polygon and the given Position(x, y) " alt="" coords="475,267,677,308"/>
+<area shape="rect" id="node10" href="$classobe_1_1_collision_1_1_polygonal_collider.html#ae45f352630947b803382a66b6d23b39d" title="obe::Collision::Polygonal\lCollider::getPointPosition" alt="" coords="492,332,660,373"/>
+<area shape="rect" id="node11" href="$namespaceobe_1_1_utils_1_1_math.html#a24f8d3bc663fb3e51ddb114f09adf202" title="obe::Utils::Math::isBetween" alt="" coords="485,398,667,425"/>
 </map>

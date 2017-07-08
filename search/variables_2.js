@@ -1,9 +1,4 @@
 var searchData=
 [
-  ['b',['b',['../classobe_1_1_light_1_1_point_light.html#a5e5f3a1bbd3d262c18b42f75535aa10b',1,'obe::Light::PointLight']]],
-  ['basepath',['basePath',['../classobe_1_1_system_1_1_priorized_path.html#ac7ed0594862f77722b21df9349a2460e',1,'obe::System::PriorizedPath']]],
-  ['basepaths',['basePaths',['../classobe_1_1_system_1_1_path.html#ab747692ea34ea0d5d3d7912902c0ed70',1,'obe::System::Path']]],
-  ['behind',['behind',['../classobe_1_1_light_1_1_point_light.html#a6a6d9a587ef5e84dfb717e16d61dae58',1,'obe::Light::PointLight']]],
-  ['bool',['Bool',['../classvili_1_1_base_attribute.html#ae4e0a0fa3f9fb45dee4b5dd8645be1aa',1,'vili::BaseAttribute']]],
-  ['bufsize',['BUFSIZE',['../namespaceziputils.html#af52daa436ac3191c4290d45582c09bf6',1,'ziputils']]]
+  ['classtype',['ClassType',['../classvili_1_1_attribute.html#a1f24724ab2d38c7edd4e68836fce5195',1,'vili::Attribute::ClassType()'],['../classvili_1_1_base_attribute.html#ac05a671f499428160503b9a81eb67723',1,'vili::BaseAttribute::ClassType()'],['../classvili_1_1_complex_attribute.html#aab24a927837c52fcff8bbfae62daf4f1',1,'vili::ComplexAttribute::ClassType()'],['../classvili_1_1_container_attribute.html#a941072f9edb1d27b14555fed90c26114',1,'vili::ContainerAttribute::ClassType()'],['../classvili_1_1_link_attribute.html#aa2d7242cdc8c39760483b64bb84577c0',1,'vili::LinkAttribute::ClassType()'],['../classvili_1_1_list_attribute.html#a0a4f56d6555e82a0d50d5df3caf40d11',1,'vili::ListAttribute::ClassType()']]]
 ];

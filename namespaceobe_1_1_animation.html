@@ -89,21 +89,18 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A Class that will manage a set of <a class="el" href="classobe_1_1_animation_1_1_animation.html" title="A whole Animation that contains one or more AnimationGroup. ">Animation</a>.<br />
 Example :  <a href="classobe_1_1_animation_1_1_animator.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_animation_1_1_ressource_manager.html">RessourceManager</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Singleton Class that manages sf::Texture used in <a class="el" href="classobe_1_1_animation_1_1_animation_group.html" title="A subpart of an Animation containing the Textures to display. ">AnimationGroup</a>.  <a href="classobe_1_1_animation_1_1_ressource_manager.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a346c6729e9af989f6b063e6086637fbb"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_animation.html#a346c6729e9af989f6b063e6086637fbb">AnimationPlayMode</a> { <a class="el" href="namespaceobe_1_1_animation.html#a346c6729e9af989f6b063e6086637fbba4e0bc659a182e74c980d5f6fd08bfba7">OneTime</a>, 
-<a class="el" href="namespaceobe_1_1_animation.html#a346c6729e9af989f6b063e6086637fbbac6eecb89c1d428a7c0ed088e4c512028">Loop</a>, 
-<a class="el" href="namespaceobe_1_1_animation.html#a346c6729e9af989f6b063e6086637fbba0903a54450aca256e8e87a558a712812">Force</a>
+<tr class="memitem:a346c6729e9af989f6b063e6086637fbb"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_animation.html#a346c6729e9af989f6b063e6086637fbb">AnimationPlayMode</a> { <a class="el" href="namespaceobe_1_1_animation.html#a346c6729e9af989f6b063e6086637fbbaef01a357e0efe7452a8aaf4fcf9df1c8">AnimationPlayMode::OneTime</a>, 
+<a class="el" href="namespaceobe_1_1_animation.html#a346c6729e9af989f6b063e6086637fbba89d7b10cb4238977d2b523dfd9ea7745">AnimationPlayMode::Loop</a>, 
+<a class="el" href="namespaceobe_1_1_animation.html#a346c6729e9af989f6b063e6086637fbba9eb6b78a99cdb6ffd3d40d18621d9f80">AnimationPlayMode::Force</a>
  }<tr class="memdesc:a346c6729e9af989f6b063e6086637fbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Play Mode of an Animation.<br />
  It indicates whether an Animation can be interrupted or not and what to do when the Animation is over.  <a href="namespaceobe_1_1_animation.html#a346c6729e9af989f6b063e6086637fbb">More...</a><br /></td></tr>
 </td></tr>
 <tr class="separator:a346c6729e9af989f6b063e6086637fbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade1d37c9a3b741730d422de4b0e6bb31"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_animation.html#ade1d37c9a3b741730d422de4b0e6bb31">AnimationStatus</a> { <a class="el" href="namespaceobe_1_1_animation.html#ade1d37c9a3b741730d422de4b0e6bb31a572d4a2b094700c6502cd05b26972306">Play</a>, 
-<a class="el" href="namespaceobe_1_1_animation.html#ade1d37c9a3b741730d422de4b0e6bb31af53d23f88cfed402065f26f24c92feeb">Call</a>
+<tr class="memitem:ade1d37c9a3b741730d422de4b0e6bb31"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_animation.html#ade1d37c9a3b741730d422de4b0e6bb31">AnimationStatus</a> { <a class="el" href="namespaceobe_1_1_animation.html#ade1d37c9a3b741730d422de4b0e6bb31ade3c731be5633838089a07179d301d7b">AnimationStatus::Play</a>, 
+<a class="el" href="namespaceobe_1_1_animation.html#ade1d37c9a3b741730d422de4b0e6bb31ac3755e61202abd74da5885d2e9c9160e">AnimationStatus::Call</a>
  }<tr class="memdesc:ade1d37c9a3b741730d422de4b0e6bb31"><td class="mdescLeft">&#160;</td><td class="mdescRight">The AnimationStatus indicates whether the current Animation should continue to play or call another one.  <a href="namespaceobe_1_1_animation.html#ade1d37c9a3b741730d422de4b0e6bb31">More...</a><br /></td></tr>
 </td></tr>
 <tr class="separator:ade1d37c9a3b741730d422de4b0e6bb31"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -122,21 +119,29 @@ Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">enum <a class="el" href="namespaceobe_1_1_animation.html#a346c6729e9af989f6b063e6086637fbb">obe::Animation::AnimationPlayMode</a></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>The Play Mode of an <a class="el" href="classobe_1_1_animation_1_1_animation.html" title="A whole Animation that contains one or more AnimationGroup. ">Animation</a>.<br />
  It indicates whether an <a class="el" href="classobe_1_1_animation_1_1_animation.html" title="A whole Animation that contains one or more AnimationGroup. ">Animation</a> can be interrupted or not and what to do when the <a class="el" href="classobe_1_1_animation_1_1_animation.html" title="A whole Animation that contains one or more AnimationGroup. ">Animation</a> is over. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a346c6729e9af989f6b063e6086637fbba4e0bc659a182e74c980d5f6fd08bfba7"></a>OneTime&#160;</td><td class="fielddoc"><p>The <a class="el" href="classobe_1_1_animation_1_1_animation.html" title="A whole Animation that contains one or more AnimationGroup. ">Animation</a> will play once and stay at last texture. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a346c6729e9af989f6b063e6086637fbbaef01a357e0efe7452a8aaf4fcf9df1c8"></a>OneTime&#160;</td><td class="fielddoc"><p>The <a class="el" href="classobe_1_1_animation_1_1_animation.html" title="A whole Animation that contains one or more AnimationGroup. ">Animation</a> will play once and stay at last texture. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a346c6729e9af989f6b063e6086637fbbac6eecb89c1d428a7c0ed088e4c512028"></a>Loop&#160;</td><td class="fielddoc"><p>The <a class="el" href="classobe_1_1_animation_1_1_animation.html" title="A whole Animation that contains one or more AnimationGroup. ">Animation</a> will play in loop and can be interrupted at any time. </p>
+<tr><td class="fieldname"><a id="a346c6729e9af989f6b063e6086637fbba89d7b10cb4238977d2b523dfd9ea7745"></a>Loop&#160;</td><td class="fielddoc"><p>The <a class="el" href="classobe_1_1_animation_1_1_animation.html" title="A whole Animation that contains one or more AnimationGroup. ">Animation</a> will play in loop and can be interrupted at any time. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a346c6729e9af989f6b063e6086637fbba0903a54450aca256e8e87a558a712812"></a>Force&#160;</td><td class="fielddoc"><p>The <a class="el" href="classobe_1_1_animation_1_1_animation.html" title="A whole Animation that contains one or more AnimationGroup. ">Animation</a> will be played Once and can't be interrupted. </p>
+<tr><td class="fieldname"><a id="a346c6729e9af989f6b063e6086637fbba9eb6b78a99cdb6ffd3d40d18621d9f80"></a>Force&#160;</td><td class="fielddoc"><p>The <a class="el" href="classobe_1_1_animation_1_1_animation.html" title="A whole Animation that contains one or more AnimationGroup. ">Animation</a> will be played Once and can't be interrupted. </p>
 </td></tr>
 </table>
 
@@ -147,18 +152,26 @@ Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">enum <a class="el" href="namespaceobe_1_1_animation.html#ade1d37c9a3b741730d422de4b0e6bb31">obe::Animation::AnimationStatus</a></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>The AnimationStatus indicates whether the current <a class="el" href="classobe_1_1_animation_1_1_animation.html" title="A whole Animation that contains one or more AnimationGroup. ">Animation</a> should continue to play or call another one. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ade1d37c9a3b741730d422de4b0e6bb31a572d4a2b094700c6502cd05b26972306"></a>Play&#160;</td><td class="fielddoc"><p>The <a class="el" href="classobe_1_1_animation_1_1_animation.html" title="A whole Animation that contains one or more AnimationGroup. ">Animation</a> continues to play. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ade1d37c9a3b741730d422de4b0e6bb31ade3c731be5633838089a07179d301d7b"></a>Play&#160;</td><td class="fielddoc"><p>The <a class="el" href="classobe_1_1_animation_1_1_animation.html" title="A whole Animation that contains one or more AnimationGroup. ">Animation</a> continues to play. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ade1d37c9a3b741730d422de4b0e6bb31af53d23f88cfed402065f26f24c92feeb"></a>Call&#160;</td><td class="fielddoc"><p>The <a class="el" href="classobe_1_1_animation_1_1_animation.html" title="A whole Animation that contains one or more AnimationGroup. ">Animation</a> will call another one.<br />
+<tr><td class="fieldname"><a id="ade1d37c9a3b741730d422de4b0e6bb31ac3755e61202abd74da5885d2e9c9160e"></a>Call&#160;</td><td class="fielddoc"><p>The <a class="el" href="classobe_1_1_animation_1_1_animation.html" title="A whole Animation that contains one or more AnimationGroup. ">Animation</a> will call another one.<br />
  The name of the <a class="el" href="classobe_1_1_animation_1_1_animation.html" title="A whole Animation that contains one or more AnimationGroup. ">Animation</a> to call is stored in m_animationToCall.<br />
  You can also get the <a class="el" href="classobe_1_1_animation_1_1_animation.html" title="A whole Animation that contains one or more AnimationGroup. ">Animation</a> name to call by using Animation::getCalledAnimation(). </p>
 </td></tr>
@@ -199,7 +212,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_animation_a31f69a90eac3672f7317e2936a516b92_icgraph.svg" width="616" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_animation_a31f69a90eac3672f7317e2936a516b92_icgraph.svg" width="396" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>

@@ -8,28 +8,28 @@
  viewBox="0.00 0.00 629.00 88.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 84)">
 <title>obe::Graphics::Circle::update</title>
-<!-- Node17 -->
-<g id="node1" class="node"><title>Node17</title>
+<!-- Node18 -->
+<g id="node1" class="node"><title>Node18</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-24.5 0,-54.5 108,-54.5 108,-24.5 0,-24.5"/>
 <text text-anchor="start" x="8" y="-42.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Graphics::Circle</text>
 <text text-anchor="middle" x="54" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">::update</text>
 </g>
-<!-- Node18 -->
-<g id="node2" class="node"><title>Node18</title>
-<g id="a_node2"><a xlink:href="classobe_1_1_graphics_1_1_transformable.html#a3b16db5eeca77ba68300f9656e527173" target="_top" xlink:title="obe::Graphics::Transformable\l::update">
+<!-- Node19 -->
+<g id="node2" class="node"><title>Node19</title>
+<g id="a_node2"><a xlink:href="classobe_1_1_graphics_1_1_transformable.html#abca614507b3a96689ad8ad76d7d1e11e" target="_top" xlink:title="obe::Graphics::Transformable\l::update">
 <polygon fill="none" stroke="black" points="304,-49.5 304,-79.5 448,-79.5 448,-49.5 304,-49.5"/>
 <text text-anchor="start" x="312" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Graphics::Transformable</text>
 <text text-anchor="middle" x="376" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::update</text>
 </a>
 </g>
 </g>
-<!-- Node17&#45;&gt;Node18 -->
-<g id="edge1" class="edge"><title>Node17&#45;&gt;Node18</title>
+<!-- Node18&#45;&gt;Node19 -->
+<g id="edge1" class="edge"><title>Node18&#45;&gt;Node19</title>
 <path fill="none" stroke="midnightblue" d="M108.201,-43.6563C158.749,-47.6054 235.469,-53.5992 293.686,-58.1473"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="293.72,-61.6605 303.962,-58.9501 294.265,-54.6818 293.72,-61.6605"/>
 </g>
-<!-- Node20 -->
-<g id="node4" class="node"><title>Node20</title>
+<!-- Node21 -->
+<g id="node4" class="node"><title>Node21</title>
 <g id="a_node4"><a xlink:href="classobe_1_1_graphics_1_1_colorable.html#a83e2011dfde7d663a0c0f61386e65336" target="_top" xlink:title="obe::Graphics::Colorable\l::update">
 <polygon fill="none" stroke="black" points="144,-2.5 144,-32.5 268,-32.5 268,-2.5 144,-2.5"/>
 <text text-anchor="start" x="152" y="-20.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Graphics::Colorable</text>
@@ -37,13 +37,13 @@
 </a>
 </g>
 </g>
-<!-- Node17&#45;&gt;Node20 -->
-<g id="edge3" class="edge"><title>Node17&#45;&gt;Node20</title>
+<!-- Node18&#45;&gt;Node21 -->
+<g id="edge3" class="edge"><title>Node18&#45;&gt;Node21</title>
 <path fill="none" stroke="midnightblue" d="M108.307,-31.6817C116.599,-30.4655 125.277,-29.1926 133.888,-27.9298"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="134.551,-31.3701 143.937,-26.4559 133.535,-24.4442 134.551,-31.3701"/>
 </g>
-<!-- Node19 -->
-<g id="node3" class="node"><title>Node19</title>
+<!-- Node20 -->
+<g id="node3" class="node"><title>Node20</title>
 <g id="a_node3"><a xlink:href="classobe_1_1_graphics_1_1_configurable.html#a53b5a81892b395c0326625dca2aa2d49" target="_top" xlink:title="obe::Graphics::Configurable\l::update">
 <polygon fill="none" stroke="black" points="484,-24.5 484,-54.5 621,-54.5 621,-24.5 484,-24.5"/>
 <text text-anchor="start" x="492" y="-42.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Graphics::Configurable</text>
@@ -51,13 +51,13 @@
 </a>
 </g>
 </g>
-<!-- Node18&#45;&gt;Node19 -->
-<g id="edge2" class="edge"><title>Node18&#45;&gt;Node19</title>
+<!-- Node19&#45;&gt;Node20 -->
+<g id="edge2" class="edge"><title>Node19&#45;&gt;Node20</title>
 <path fill="none" stroke="midnightblue" d="M448.228,-54.2955C456.694,-53.0825 465.37,-51.8396 473.92,-50.6146"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="474.477,-54.0707 483.879,-49.1878 473.484,-47.1414 474.477,-54.0707"/>
 </g>
-<!-- Node21 -->
-<g id="node5" class="node"><title>Node21</title>
+<!-- Node22 -->
+<g id="node5" class="node"><title>Node22</title>
 <g id="a_node5"><a xlink:href="classobe_1_1_graphics_1_1_drawable.html#a12a2977ef07f89f6645fb79b09026862" target="_top" xlink:title="obe::Graphics::Drawable\l::update">
 <polygon fill="none" stroke="black" points="314.5,-0.5 314.5,-30.5 437.5,-30.5 437.5,-0.5 314.5,-0.5"/>
 <text text-anchor="start" x="322.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Graphics::Drawable</text>
@@ -65,13 +65,13 @@
 </a>
 </g>
 </g>
-<!-- Node20&#45;&gt;Node21 -->
-<g id="edge4" class="edge"><title>Node20&#45;&gt;Node21</title>
+<!-- Node21&#45;&gt;Node22 -->
+<g id="edge4" class="edge"><title>Node21&#45;&gt;Node22</title>
 <path fill="none" stroke="midnightblue" d="M268.127,-16.7723C279.928,-16.6318 292.38,-16.4836 304.452,-16.3399"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="304.523,-19.8394 314.481,-16.2205 304.44,-12.8399 304.523,-19.8394"/>
 </g>
-<!-- Node21&#45;&gt;Node19 -->
-<g id="edge5" class="edge"><title>Node21&#45;&gt;Node19</title>
+<!-- Node22&#45;&gt;Node20 -->
+<g id="edge5" class="edge"><title>Node22&#45;&gt;Node20</title>
 <path fill="none" stroke="midnightblue" d="M437.542,-23.8267C449.231,-25.4344 461.629,-27.1395 473.776,-28.8102"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="473.517,-32.3075 483.901,-30.2027 474.471,-25.3728 473.517,-32.3075"/>
 </g>

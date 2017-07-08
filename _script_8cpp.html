@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ObEngine: E:/Dev/ObEngine/Git/src/Script.cpp File Reference</title>
+<title>ObEngine: E:/Dev/ObEngine/Git/src/Script/Script.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_501bdb11da9e3ff85a05ee91b220e720.html">Git</a></li><li class="navelem"><a class="el" href="dir_ff363349ba5524c061bbe1f991af8b3b.html">src</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_501bdb11da9e3ff85a05ee91b220e720.html">Git</a></li><li class="navelem"><a class="el" href="dir_ff363349ba5524c061bbe1f991af8b3b.html">src</a></li><li class="navelem"><a class="el" href="dir_f8be1e488d5be96f217ad90645b4c89f.html">Script</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -72,7 +72,29 @@ $(function() {
 <div class="title">Script.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="_script_8hpp_source.html">Script.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;SFML/Audio.hpp&gt;</code><br />
+<code>#include &lt;SFML/Graphics.hpp&gt;</code><br />
+<code>#include &lt;<a class="el" href="_vili_8hpp_source.html">vili/Vili.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_polygonal_collider_8hpp_source.html">Collision/PolygonalCollider.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_console_8hpp_source.html">Debug/Console.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_canvas_8hpp_source.html">Graphics/Canvas.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_level_sprite_8hpp_source.html">Graphics/LevelSprite.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_key_bind_8hpp_source.html">Input/KeyBind.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_camera_8hpp_source.html">Scene/Camera.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_script_8hpp_source.html">Script/Script.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_music_8hpp_source.html">Sound/Music.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_sound_8hpp_source.html">Sound/Sound.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_cursor_8hpp_source.html">System/Cursor.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_loaders_8hpp_source.html">System/Loaders.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_package_8hpp_source.html">System/Package.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_path_8hpp_source.html">System/Path.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_unit_vector_8hpp_source.html">Transform/UnitVector.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_trigger_8hpp_source.html">Triggers/Trigger.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_trigger_group_8hpp_source.html">Triggers/TriggerGroup.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_trigger_database_8hpp_source.html">Triggers/TriggerDatabase.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_selectable_8hpp_source.html">Types/Selectable.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_math_utils_8hpp_source.html">Utils/MathUtils.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_type_utils_8hpp_source.html">Utils/TypeUtils.hpp</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for Script.cpp:</div>
 <div class="dyncontent">
@@ -92,8 +114,10 @@ Functions</h2></td></tr>
 <tr class="separator:a4e6ee77032cf7f66544f9b08464a60b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93f11dc0cdd5fc4a7ff54cb89f54c877"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#a93f11dc0cdd5fc4a7ff54cb89f54c877">obe::Script::loadHook</a> (kaguya::State *lua, std::string hookname)</td></tr>
 <tr class="separator:a93f11dc0cdd5fc4a7ff54cb89f54c877"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a633c629c5a54da2b5d4930730983121c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#a633c629c5a54da2b5d4930730983121c">obe::Script::loadCoreLib</a> (kaguya::State *lua, std::vector&lt; std::string &gt; lib)</td></tr>
-<tr class="separator:a633c629c5a54da2b5d4930730983121c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ccd5b381e73804412e03c58021f9878"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#a5ccd5b381e73804412e03c58021f9878">obe::Script::checkIfAlreadyImported</a> (kaguya::State *lua, std::vector&lt; std::string &gt; lib)</td></tr>
+<tr class="separator:a5ccd5b381e73804412e03c58021f9878"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdb81ec0976f1097cef6711415b8fac3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#abdb81ec0976f1097cef6711415b8fac3">obe::Script::loadCoreLib</a> (kaguya::State *lua, std::vector&lt; std::string &gt; lib, bool alreadyImportedWarning=true)</td></tr>
+<tr class="separator:abdb81ec0976f1097cef6711415b8fac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9582bae7b61bf604c2a68a8a016356ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#a9582bae7b61bf604c2a68a8a016356ec">obe::Script::registerLib</a> (kaguya::State *lua, std::string lib)</td></tr>
 <tr class="separator:a9582bae7b61bf604c2a68a8a016356ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad6ef67388e6d16eb01853f208da410f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#aad6ef67388e6d16eb01853f208da410f">obe::Script::loadBaseLib</a> (kaguya::State *lua)</td></tr>

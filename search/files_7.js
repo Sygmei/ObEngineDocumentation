@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['keybind_2ecpp',['KeyBind.cpp',['../_key_bind_8cpp.html',1,'']]],
-  ['keybind_2ehpp',['KeyBind.hpp',['../_key_bind_8hpp.html',1,'']]]
+  ['identifiable_2ecpp',['Identifiable.cpp',['../_identifiable_8cpp.html',1,'']]],
+  ['identifiable_2ehpp',['Identifiable.hpp',['../_identifiable_8hpp.html',1,'']]]
 ];
