@@ -1,6 +1,6 @@
 <map id="obe::System::Package::Install" name="obe::System::Package::Install">
-<area shape="rect" id="node2" href="$namespaceobe_1_1_utils_1_1_vector.html#a636b7f465d67c2bf42a297f221af9cfe" title="obe::Utils::Vector\l::isInList" alt="" coords="234,93,357,135"/>
-<area shape="rect" id="node3" href="$namespaceobe_1_1_utils_1_1_file.html#aed4e3a97fa7f09edf214a40ec4fa69ee" title="obe::Utils::File::getFileList" alt="" coords="208,159,383,186"/>
+<area shape="rect" id="node2" href="$namespaceobe_1_1_utils_1_1_vector.html#a636b7f465d67c2bf42a297f221af9cfe" title="Check if a given item is in the given std::vector. " alt="" coords="234,93,357,135"/>
+<area shape="rect" id="node3" href="$namespaceobe_1_1_utils_1_1_file.html#aed4e3a97fa7f09edf214a40ec4fa69ee" title="Get a list of files. " alt="" coords="208,159,383,186"/>
 <area shape="rect" id="node9" href="$classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b" title="aube::ErrorHandler\l::Raise" alt="" coords="1084,211,1215,252"/>
 <area shape="rect" id="node14" href="$namespaceobe_1_1_system_1_1_package.html#add24fafa3071d024fb622b4be0c083da" title="Get if the Package exists or not. " alt="" coords="218,857,373,899"/>
 <area shape="rect" id="node16" href="$namespaceelz.html#a2f9a470fe7cfc780818ac0264d1176ec" title="elz::extractFile" alt="" coords="241,953,349,979"/>
@@ -18,7 +18,7 @@
 <area shape="rect" id="node11" href="$classaube_1_1_error_message.html#a9184cc96589578f434351c105b0cd5f7" title="aube::ErrorMessage\l::getLocation" alt="" coords="1307,71,1445,112"/>
 <area shape="rect" id="node12" href="$classaube_1_1_error_message.html#a07927cb3e2d0712c459cc9e2b5f52696" title="aube::ErrorMessage\l::getMessage" alt="" coords="1307,136,1445,177"/>
 <area shape="rect" id="node13" href="$classaube_1_1_error_message.html#a77c2f9b7e93542c958173b52da267989" title="aube::ErrorMessage\l::getHints" alt="" coords="1307,201,1445,243"/>
-<area shape="rect" id="node15" href="$namespaceobe_1_1_utils_1_1_string.html#a3dd6c64630cb7a8525f6ce804bda8ee6" title="obe::Utils::String\l::contains" alt="" coords="461,857,580,899"/>
+<area shape="rect" id="node15" href="$namespaceobe_1_1_utils_1_1_string.html#a3dd6c64630cb7a8525f6ce804bda8ee6" title="Check if a string contains another one. " alt="" coords="461,857,580,899"/>
 <area shape="rect" id="node17" href="$classziputils_1_1unzipper.html#a28986b626865a75ec75a77a0ba311e34" title="ziputils::unzipper\l::open" alt="" coords="461,975,581,1016"/>
 <area shape="rect" id="node21" href="$classziputils_1_1unzipper.html#a1087113e5ba7ec8c88597d4d3acae023" title="ziputils::unzipper\l::openEntry" alt="" coords="680,965,800,1007"/>
 <area shape="rect" id="node22" href="$classziputils_1_1unzipper.html#a9c5e92214152f38152f29dc7e73a9a8d" title="ziputils::unzipper\l::dump" alt="" coords="461,1092,581,1133"/>
@@ -29,7 +29,7 @@
 <area shape="rect" id="node24" href="$classziputils_1_1unzipper.html#ae713ea29f2dab127c6df27a7554aeb91" title="ziputils::unzipper\l::getEntrySize" alt="" coords="680,1083,800,1124"/>
 <area shape="rect" id="node26" href="$namespacevili_1_1_functions_1_1_string.html#ad7421099a2ab911f64f06d89abc7d7cf" title="vili::Functions::String\l::extract" alt="" coords="1078,587,1221,628"/>
 <area shape="rect" id="node28" href="$classziputils_1_1unzipper.html#a32af229bfd511fe4b7a267b2dc94605c" title="ziputils::unzipper\l::getFilenames" alt="" coords="461,1157,581,1199"/>
-<area shape="rect" id="node30" href="$namespacevili_1_1_functions_1_1_vector.html#aa9f0dd6b1c4be1e3d86846944329d9f2" title="vili::Functions::Vector\l::isInList" alt="" coords="1303,747,1449,788"/>
+<area shape="rect" id="node30" href="$namespacevili_1_1_functions_1_1_vector.html#aa9f0dd6b1c4be1e3d86846944329d9f2" title="Check if a given item is in the given std::vector. " alt="" coords="1303,747,1449,788"/>
 <area shape="rect" id="node32" href="$classvili_1_1_complex_attribute.html#a7031eabef8547fe00efb455c75b5e28e" title="vili::ComplexAttribute\l::getBaseAttribute" alt="" coords="869,287,1013,328"/>
 <area shape="rect" id="node38" href="$classvili_1_1_base_attribute.html#a90ccd428f7465b44a490c2f007b1262d" title="vili::BaseAttribute\l::autoset" alt="" coords="880,352,1003,393"/>
 <area shape="rect" id="node33" href="$classvili_1_1_attribute.html#a14b2534c1250d36bb0c02f7e5c25b40b" title="vili::Attribute::getNodePath" alt="" coords="1061,359,1237,386"/>
@@ -38,12 +38,12 @@
 <area shape="rect" id="node36" href="$classvili_1_1_attribute.html#a1ec7ebd0bd596dd848151d37bba8c1b4" title="vili::Attribute::getAnnotation" alt="" coords="1285,318,1467,345"/>
 <area shape="rect" id="node37" href="$namespacevili_1_1_functions_1_1_vector.html#a10836e1fe04648534cfc59d9de9acd72" title="vili::Functions::Vector\l::join" alt="" coords="1303,420,1449,461"/>
 <area shape="rect" id="node39" href="$namespacevili_1_1_types.html#a954a0d867af2b4d9b5aba4a5e9ce3603" title="vili::Types::getVarType" alt="" coords="1073,485,1226,511"/>
-<area shape="rect" id="node40" href="$namespacevili_1_1_functions_1_1_string.html#a1fbc6d2a04846beafb94140e7f0e7ed2" title="vili::Functions::String\l::occurencesInString" alt="" coords="1305,616,1447,657"/>
-<area shape="rect" id="node41" href="$namespacevili_1_1_functions_1_1_string.html#a47cfebfa3355133cfbf43f9f2e435bf4" title="vili::Functions::String\l::isStringInt" alt="" coords="1305,485,1447,527"/>
-<area shape="rect" id="node42" href="$namespacevili_1_1_functions_1_1_string.html#a9133ec632cc286cede9c5403c5b593b2" title="vili::Functions::String\l::split" alt="" coords="1305,681,1447,723"/>
-<area shape="rect" id="node43" href="$namespacevili_1_1_functions_1_1_string.html#a531ad73fd3a5a004a5430dc7476dc805" title="vili::Functions::String\l::isStringFloat" alt="" coords="1305,551,1447,592"/>
-<area shape="rect" id="node44" href="$namespaceobe_1_1_utils_1_1_string.html#a6304ccfbd6a3bf086bd3189609381f70" title="obe::Utils::String\l::occurencesInString" alt="" coords="1525,517,1667,559"/>
-<area shape="rect" id="node45" href="$namespaceobe_1_1_utils_1_1_string.html#aac8ef67f1e755130c6b2eebaffb47038" title="obe::Utils::String\l::removeCharFromString" alt="" coords="1515,583,1677,624"/>
+<area shape="rect" id="node40" href="$namespacevili_1_1_functions_1_1_string.html#a1fbc6d2a04846beafb94140e7f0e7ed2" title="Count of the occurences of occur in string str. " alt="" coords="1305,616,1447,657"/>
+<area shape="rect" id="node41" href="$namespacevili_1_1_functions_1_1_string.html#a47cfebfa3355133cfbf43f9f2e435bf4" title="Get if the string is an integer. " alt="" coords="1305,485,1447,527"/>
+<area shape="rect" id="node42" href="$namespacevili_1_1_functions_1_1_string.html#a9133ec632cc286cede9c5403c5b593b2" title="Splits a std::string using a delimited. " alt="" coords="1305,681,1447,723"/>
+<area shape="rect" id="node43" href="$namespacevili_1_1_functions_1_1_string.html#a531ad73fd3a5a004a5430dc7476dc805" title="Get if the string is a float. " alt="" coords="1305,551,1447,592"/>
+<area shape="rect" id="node44" href="$namespaceobe_1_1_utils_1_1_string.html#a6304ccfbd6a3bf086bd3189609381f70" title="Count of the occurences of occur in string str. " alt="" coords="1525,517,1667,559"/>
+<area shape="rect" id="node45" href="$namespacevili_1_1_functions_1_1_string.html#a8d1e845c06f563c1a18e8c9d2adc34af" title="vili::Functions::String\l::removeCharFromString" alt="" coords="1515,583,1677,624"/>
 <area shape="rect" id="node47" href="$classvili_1_1_data_parser.html#a951539097a656fddc55837d956874bd3" title="vili::DataParser::getAmount\lOfFlags" alt="" coords="431,727,611,768"/>
 <area shape="rect" id="node48" href="$classvili_1_1_data_parser.html#a13a0a45fdaf2b95050ad0bf5093aca64" title="vili::DataParser::getFlag\lAtIndex" alt="" coords="441,661,601,703"/>
 <area shape="rect" id="node49" href="$classvili_1_1_complex_attribute.html#aaf50f533fe932a90780931ad62b4e69e" title="vili::ComplexAttribute::at" alt="" coords="659,637,821,663"/>

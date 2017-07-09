@@ -70,17 +70,17 @@
 <path fill="none" stroke="midnightblue" d="M72.1171,-377.55C98.6837,-400.246 149.146,-443.357 179.812,-469.554"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="177.65,-472.311 187.527,-476.146 182.197,-466.989 177.65,-472.311"/>
 </g>
-<!-- Node168 -->
-<g id="node28" class="node"><title>Node168</title>
-<g id="a_node28"><a xlink:href="classobe_1_1_animation_1_1_animator.html#aad51a478744d9528b0402177c4c1cb63" target="_top" xlink:title="Get the current sf::Sprite of the current Animation. ">
+<!-- Node169 -->
+<g id="node29" class="node"><title>Node169</title>
+<g id="a_node29"><a xlink:href="classobe_1_1_animation_1_1_animator.html#ada6c0858d3fd693de9ae05350f56ef23" target="_top" xlink:title="Get the current sf::Sprite of the current Animation. ">
 <polygon fill="none" stroke="black" points="143,-64.5 143,-94.5 270,-94.5 270,-64.5 143,-64.5"/>
 <text text-anchor="start" x="151" y="-82.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Animation::Animator</text>
-<text text-anchor="middle" x="206.5" y="-71.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getSprite</text>
+<text text-anchor="middle" x="206.5" y="-71.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getTexture</text>
 </a>
 </g>
 </g>
-<!-- Node141&#45;&gt;Node168 -->
-<g id="edge31" class="edge"><title>Node141&#45;&gt;Node168</title>
+<!-- Node141&#45;&gt;Node169 -->
+<g id="edge32" class="edge"><title>Node141&#45;&gt;Node169</title>
 <path fill="none" stroke="midnightblue" d="M60.0879,-347.499C72.8161,-314.006 105.761,-231.008 143,-166.5 156.064,-143.869 173.616,-119.872 186.793,-102.826"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="189.832,-104.622 193.238,-94.5898 184.319,-100.308 189.832,-104.622"/>
 </g>
@@ -100,7 +100,7 @@
 </g>
 <!-- Node151 -->
 <g id="node11" class="node"><title>Node151</title>
-<g id="a_node11"><a xlink:href="namespaceobe_1_1_utils_1_1_vector.html#a636b7f465d67c2bf42a297f221af9cfe" target="_top" xlink:title="obe::Utils::Vector\l::isInList">
+<g id="a_node11"><a xlink:href="namespaceobe_1_1_utils_1_1_vector.html#a636b7f465d67c2bf42a297f221af9cfe" target="_top" xlink:title="Check if a given item is in the given std::vector. ">
 <polygon fill="none" stroke="black" points="325.5,-88.5 325.5,-118.5 417.5,-118.5 417.5,-88.5 325.5,-88.5"/>
 <text text-anchor="start" x="333.5" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Utils::Vector</text>
 <text text-anchor="middle" x="371.5" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00">::isInList</text>
@@ -168,7 +168,7 @@
 </g>
 <!-- Node145 -->
 <g id="node5" class="node"><title>Node145</title>
-<g id="a_node5"><a xlink:href="namespaceobe_1_1_utils_1_1_file.html#a1095626f5495edc7b8692073dd25cceb" target="_top" xlink:title="obe::Utils::File::fileExists">
+<g id="a_node5"><a xlink:href="namespaceobe_1_1_utils_1_1_file.html#a1095626f5495edc7b8692073dd25cceb" target="_top" xlink:title="Check if the file at the given path exists. ">
 <polygon fill="none" stroke="black" points="485,-182 485,-201 610,-201 610,-182 485,-182"/>
 <text text-anchor="middle" x="547.5" y="-189" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Utils::File::fileExists</text>
 </a>
@@ -196,58 +196,58 @@
 <!-- Node147 -->
 <g id="node7" class="node"><title>Node147</title>
 <g id="a_node7"><a xlink:href="classaube_1_1_error_message.html#a3a39b6fcd8fdb12eaf6383123535b8ca" target="_top" xlink:title="aube::ErrorMessage\l::getFile">
-<polygon fill="none" stroke="black" points="658,-490.5 658,-520.5 762,-520.5 762,-490.5 658,-490.5"/>
-<text text-anchor="start" x="666" y="-508.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
-<text text-anchor="middle" x="710" y="-497.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getFile</text>
+<polygon fill="none" stroke="black" points="658,-392.5 658,-422.5 762,-422.5 762,-392.5 658,-392.5"/>
+<text text-anchor="start" x="666" y="-410.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
+<text text-anchor="middle" x="710" y="-399.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getFile</text>
 </a>
 </g>
 </g>
 <!-- Node146&#45;&gt;Node147 -->
 <g id="edge6" class="edge"><title>Node146&#45;&gt;Node147</title>
-<path fill="none" stroke="midnightblue" d="M581.367,-446.654C606.225,-458.114 640.532,-473.932 667.319,-486.282"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="665.905,-489.485 676.452,-490.493 668.836,-483.128 665.905,-489.485"/>
+<path fill="none" stroke="midnightblue" d="M596.655,-424.299C612.637,-421.909 630.651,-419.216 647.498,-416.697"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="648.436,-420.095 657.808,-415.155 647.401,-413.172 648.436,-420.095"/>
 </g>
 <!-- Node148 -->
 <g id="node8" class="node"><title>Node148</title>
 <g id="a_node8"><a xlink:href="classaube_1_1_error_message.html#a9184cc96589578f434351c105b0cd5f7" target="_top" xlink:title="aube::ErrorMessage\l::getLocation">
-<polygon fill="none" stroke="black" points="658,-441.5 658,-471.5 762,-471.5 762,-441.5 658,-441.5"/>
-<text text-anchor="start" x="666" y="-459.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
-<text text-anchor="middle" x="710" y="-448.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getLocation</text>
+<polygon fill="none" stroke="black" points="658,-343.5 658,-373.5 762,-373.5 762,-343.5 658,-343.5"/>
+<text text-anchor="start" x="666" y="-361.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
+<text text-anchor="middle" x="710" y="-350.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getLocation</text>
 </a>
 </g>
 </g>
 <!-- Node146&#45;&gt;Node148 -->
 <g id="edge7" class="edge"><title>Node146&#45;&gt;Node148</title>
-<path fill="none" stroke="midnightblue" d="M596.655,-439.001C612.637,-441.49 630.651,-444.296 647.498,-446.92"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="647.389,-450.445 657.808,-448.526 648.466,-443.529 647.389,-450.445"/>
+<path fill="none" stroke="midnightblue" d="M581.756,-416.374C606.289,-405.216 639.869,-389.943 666.372,-377.888"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="668.133,-380.932 675.787,-373.606 665.235,-374.561 668.133,-380.932"/>
 </g>
 <!-- Node149 -->
 <g id="node9" class="node"><title>Node149</title>
 <g id="a_node9"><a xlink:href="classaube_1_1_error_message.html#a07927cb3e2d0712c459cc9e2b5f52696" target="_top" xlink:title="aube::ErrorMessage\l::getMessage">
-<polygon fill="none" stroke="black" points="658,-392.5 658,-422.5 762,-422.5 762,-392.5 658,-392.5"/>
-<text text-anchor="start" x="666" y="-410.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
-<text text-anchor="middle" x="710" y="-399.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getMessage</text>
+<polygon fill="none" stroke="black" points="658,-490.5 658,-520.5 762,-520.5 762,-490.5 658,-490.5"/>
+<text text-anchor="start" x="666" y="-508.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
+<text text-anchor="middle" x="710" y="-497.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getMessage</text>
 </a>
 </g>
 </g>
 <!-- Node146&#45;&gt;Node149 -->
 <g id="edge8" class="edge"><title>Node146&#45;&gt;Node149</title>
-<path fill="none" stroke="midnightblue" d="M596.655,-424.299C612.637,-421.909 630.651,-419.216 647.498,-416.697"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="648.436,-420.095 657.808,-415.155 647.401,-413.172 648.436,-420.095"/>
+<path fill="none" stroke="midnightblue" d="M581.367,-446.654C606.225,-458.114 640.532,-473.932 667.319,-486.282"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="665.905,-489.485 676.452,-490.493 668.836,-483.128 665.905,-489.485"/>
 </g>
 <!-- Node150 -->
 <g id="node10" class="node"><title>Node150</title>
 <g id="a_node10"><a xlink:href="classaube_1_1_error_message.html#a77c2f9b7e93542c958173b52da267989" target="_top" xlink:title="aube::ErrorMessage\l::getHints">
-<polygon fill="none" stroke="black" points="658,-343.5 658,-373.5 762,-373.5 762,-343.5 658,-343.5"/>
-<text text-anchor="start" x="666" y="-361.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
-<text text-anchor="middle" x="710" y="-350.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getHints</text>
+<polygon fill="none" stroke="black" points="658,-441.5 658,-471.5 762,-471.5 762,-441.5 658,-441.5"/>
+<text text-anchor="start" x="666" y="-459.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
+<text text-anchor="middle" x="710" y="-448.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getHints</text>
 </a>
 </g>
 </g>
 <!-- Node146&#45;&gt;Node150 -->
 <g id="edge9" class="edge"><title>Node146&#45;&gt;Node150</title>
-<path fill="none" stroke="midnightblue" d="M581.756,-416.374C606.289,-405.216 639.869,-389.943 666.372,-377.888"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="668.133,-380.932 675.787,-373.606 665.235,-374.561 668.133,-380.932"/>
+<path fill="none" stroke="midnightblue" d="M596.655,-439.001C612.637,-441.49 630.651,-444.296 647.498,-446.92"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="647.389,-450.445 657.808,-448.526 648.466,-443.529 647.389,-450.445"/>
 </g>
 <!-- Node154 -->
 <g id="node14" class="node"><title>Node154</title>
@@ -395,29 +395,43 @@
 </g>
 <!-- Node167 -->
 <g id="node27" class="node"><title>Node167</title>
-<g id="a_node27"><a xlink:href="namespaceobe_1_1_utils_1_1_string.html#ab84a7456dcd06eb140fd5c867a546383" target="_top" xlink:title="obe::Utils::String\l::replaceStringInPlace">
-<polygon fill="none" stroke="black" points="491.5,-623.5 491.5,-653.5 603.5,-653.5 603.5,-623.5 491.5,-623.5"/>
-<text text-anchor="start" x="499.5" y="-641.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Utils::String</text>
-<text text-anchor="middle" x="547.5" y="-630.5" font-family="Helvetica,sans-Serif" font-size="10.00">::replaceStringInPlace</text>
+<g id="a_node27"><a xlink:href="namespaceobe_1_1_utils_1_1_string.html#ad9d5afbd60c8e3c6894ad5c782de001a" target="_top" xlink:title="Replace all the occurences of search to replace in the string subject in place. ">
+<polygon fill="none" stroke="black" points="503,-623.5 503,-653.5 592,-653.5 592,-623.5 503,-623.5"/>
+<text text-anchor="start" x="511" y="-641.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Utils::String</text>
+<text text-anchor="middle" x="547.5" y="-630.5" font-family="Helvetica,sans-Serif" font-size="10.00">::replaceInPlace</text>
 </a>
 </g>
 </g>
 <!-- Node165&#45;&gt;Node167 -->
 <g id="edge30" class="edge"><title>Node165&#45;&gt;Node167</title>
-<path fill="none" stroke="midnightblue" d="M437.291,-652.308C451.597,-650.499 466.762,-648.582 481.093,-646.77"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="481.874,-650.199 491.356,-645.472 480.996,-643.254 481.874,-650.199"/>
+<path fill="none" stroke="midnightblue" d="M437.291,-652.308C455.545,-650 475.197,-647.515 492.73,-645.298"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="493.3,-648.754 502.782,-644.028 492.422,-641.81 493.3,-648.754"/>
 </g>
-<!-- Node169 -->
-<g id="node29" class="node"><title>Node169</title>
-<g id="a_node29"><a xlink:href="classobe_1_1_animation_1_1_animation.html#ac0fdc6d04307112e2de050e62b8df8dd" target="_top" xlink:title="Get the Sprite containing the current texture in the Animation. ">
-<polygon fill="none" stroke="black" points="306,-0.5 306,-30.5 437,-30.5 437,-0.5 306,-0.5"/>
-<text text-anchor="start" x="314" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Animation::Animation</text>
-<text text-anchor="middle" x="371.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getSprite</text>
+<!-- Node168 -->
+<g id="node28" class="node"><title>Node168</title>
+<g id="a_node28"><a xlink:href="namespaceobe_1_1_utils_1_1_string.html#ad648e63a60e1fce71a321037fbee4e30" target="_top" xlink:title="Replace all the occurences of search to replace in the string subject. ">
+<polygon fill="none" stroke="black" points="665.5,-623.5 665.5,-653.5 754.5,-653.5 754.5,-623.5 665.5,-623.5"/>
+<text text-anchor="start" x="673.5" y="-641.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Utils::String</text>
+<text text-anchor="middle" x="710" y="-630.5" font-family="Helvetica,sans-Serif" font-size="10.00">::replace</text>
 </a>
 </g>
 </g>
-<!-- Node168&#45;&gt;Node169 -->
-<g id="edge32" class="edge"><title>Node168&#45;&gt;Node169</title>
+<!-- Node167&#45;&gt;Node168 -->
+<g id="edge31" class="edge"><title>Node167&#45;&gt;Node168</title>
+<path fill="none" stroke="midnightblue" d="M592.357,-638.5C611.81,-638.5 634.883,-638.5 655.352,-638.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="655.474,-642 665.474,-638.5 655.474,-635 655.474,-642"/>
+</g>
+<!-- Node170 -->
+<g id="node30" class="node"><title>Node170</title>
+<g id="a_node30"><a xlink:href="classobe_1_1_animation_1_1_animation.html#a42881a9b7928324532448d43571d7771" target="_top" xlink:title="Get the sf::Texture containing the current texture in the Animation. ">
+<polygon fill="none" stroke="black" points="306,-0.5 306,-30.5 437,-30.5 437,-0.5 306,-0.5"/>
+<text text-anchor="start" x="314" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Animation::Animation</text>
+<text text-anchor="middle" x="371.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getTexture</text>
+</a>
+</g>
+</g>
+<!-- Node169&#45;&gt;Node170 -->
+<g id="edge33" class="edge"><title>Node169&#45;&gt;Node170</title>
 <path fill="none" stroke="midnightblue" d="M245.362,-64.4349C263.667,-57.1703 285.964,-48.3495 306,-40.5 311.172,-38.4739 316.58,-36.3639 321.971,-34.2665"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="323.546,-37.4094 331.6,-30.5254 321.011,-30.8845 323.546,-37.4094"/>
 </g>

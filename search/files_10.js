@@ -3,6 +3,8 @@ var searchData=
   ['timeutils_2ecpp',['TimeUtils.cpp',['../_time_utils_8cpp.html',1,'']]],
   ['timeutils_2ehpp',['TimeUtils.hpp',['../_time_utils_8hpp.html',1,'']]],
   ['tinydir_2eh',['tinydir.h',['../include_2elzip_2tinydir_8h.html',1,'(Global Namespace)'],['../build_2elzip_2src_2tinydir_8h.html',1,'(Global Namespace)']]],
+  ['togglable_2ecpp',['Togglable.cpp',['../_togglable_8cpp.html',1,'']]],
+  ['togglable_2ehpp',['Togglable.hpp',['../_togglable_8hpp.html',1,'']]],
   ['toolkit_2ecpp',['Toolkit.cpp',['../_toolkit_8cpp.html',1,'']]],
   ['toolkit_2ehpp',['Toolkit.hpp',['../_toolkit_8hpp.html',1,'']]],
   ['trigger_2ecpp',['Trigger.cpp',['../_trigger_8cpp.html',1,'']]],

@@ -74,44 +74,16 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:abb208e5793ed070e3526e23bb42bce9c"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U &gt; </td></tr>
-<tr class="memitem:abb208e5793ed070e3526e23bb42bce9c"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_utils_1_1_map.html#abb208e5793ed070e3526e23bb42bce9c">isInMap</a> (T item, std::map&lt; U, T &gt; &amp;map)</td></tr>
-<tr class="separator:abb208e5793ed070e3526e23bb42bce9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8286047054ade49b04b28712516c0f13"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U &gt; </td></tr>
+<tr class="memitem:a8286047054ade49b04b28712516c0f13"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_utils_1_1_map.html#a8286047054ade49b04b28712516c0f13">valueInMap</a> (T item, std::map&lt; U, T &gt; &amp;map)</td></tr>
+<tr class="memdesc:a8286047054ade49b04b28712516c0f13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the given value is found in the std::map.  <a href="#a8286047054ade49b04b28712516c0f13">More...</a><br /></td></tr>
+<tr class="separator:a8286047054ade49b04b28712516c0f13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06f60a13c805a6e46297b2e46e9f67ac"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U &gt; </td></tr>
 <tr class="memitem:a06f60a13c805a6e46297b2e46e9f67ac"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_utils_1_1_map.html#a06f60a13c805a6e46297b2e46e9f67ac">keyInMap</a> (T item, std::map&lt; T, U &gt; &amp;map)</td></tr>
+<tr class="memdesc:a06f60a13c805a6e46297b2e46e9f67ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the given key is found in the std::map.  <a href="#a06f60a13c805a6e46297b2e46e9f67ac">More...</a><br /></td></tr>
 <tr class="separator:a06f60a13c805a6e46297b2e46e9f67ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="abb208e5793ed070e3526e23bb42bce9c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb208e5793ed070e3526e23bb42bce9c">&#9670;&nbsp;</a></span>isInMap()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T , typename U &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">bool obe::Utils::Map::isInMap </td>
-          <td>(</td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>item</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::map&lt; U, T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>map</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a06f60a13c805a6e46297b2e46e9f67ac"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a06f60a13c805a6e46297b2e46e9f67ac">&#9670;&nbsp;</a></span>keyInMap()</h2>
 
@@ -139,11 +111,76 @@ template&lt;typename T , typename U &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Check if the given key is found in the std::map. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td><a class="el" href="namespaceobe_1_1_utils_1_1_type.html">Type</a> of the std::map values </td></tr>
+    <tr><td class="paramname">U</td><td><a class="el" href="namespaceobe_1_1_utils_1_1_type.html">Type</a> of the std::map keys </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">item</td><td>key to search in the map </td></tr>
+    <tr><td class="paramname">map</td><td>Reference to the map you want to search the key in </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the key has been found, false otherwise </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_utils_1_1_map_a06f60a13c805a6e46297b2e46e9f67ac_icgraph.svg" width="100%" height="585"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_utils_1_1_map_a06f60a13c805a6e46297b2e46e9f67ac_icgraph.svg" width="100%" height="585"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
+</div>
+
+</div>
+</div>
+<a id="a8286047054ade49b04b28712516c0f13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8286047054ade49b04b28712516c0f13">&#9670;&nbsp;</a></span>valueInMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename U &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool obe::Utils::Map::valueInMap </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::map&lt; U, T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>map</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check if the given value is found in the std::map. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td><a class="el" href="namespaceobe_1_1_utils_1_1_type.html">Type</a> of the std::map values </td></tr>
+    <tr><td class="paramname">U</td><td><a class="el" href="namespaceobe_1_1_utils_1_1_type.html">Type</a> of the std::map keys </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">item</td><td>Value to search in the map </td></tr>
+    <tr><td class="paramname">map</td><td>Reference to the map you want to search the value in </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the value has been found, false otherwise </dd></dl>
 
 </div>
 </div>

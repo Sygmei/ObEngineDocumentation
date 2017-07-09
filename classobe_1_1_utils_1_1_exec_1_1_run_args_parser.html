@@ -73,20 +73,28 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>Parses the execution arguments.  
+ <a href="classobe_1_1_utils_1_1_exec_1_1_run_args_parser.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_exec_utils_8hpp_source.html">ExecUtils.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad705c38760ba4812792f5b4aaa242ca3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_utils_1_1_exec_1_1_run_args_parser.html#ad705c38760ba4812792f5b4aaa242ca3">RunArgsParser</a> (char **start, int size)</td></tr>
-<tr class="separator:ad705c38760ba4812792f5b4aaa242ca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1a429f50cbeba080981ed78384c6998"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_utils_1_1_exec_1_1_run_args_parser.html#aa1a429f50cbeba080981ed78384c6998">RunArgsParser</a> (int size, char **start)</td></tr>
+<tr class="memdesc:aa1a429f50cbeba080981ed78384c6998"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor of <a class="el" href="classobe_1_1_utils_1_1_exec_1_1_run_args_parser.html" title="Parses the execution arguments. ">RunArgsParser</a> takes argc and argv in parameters.  <a href="#aa1a429f50cbeba080981ed78384c6998">More...</a><br /></td></tr>
+<tr class="separator:aa1a429f50cbeba080981ed78384c6998"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5719673b5131b13995c48ca9446bfb7b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_utils_1_1_exec_1_1_run_args_parser.html#a5719673b5131b13995c48ca9446bfb7b">argumentExists</a> (const std::string &amp;arg) const</td></tr>
+<tr class="memdesc:a5719673b5131b13995c48ca9446bfb7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a argument has been entered.  <a href="#a5719673b5131b13995c48ca9446bfb7b">More...</a><br /></td></tr>
 <tr class="separator:a5719673b5131b13995c48ca9446bfb7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4781a959cd4bdc069370ec19d81d27b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_utils_1_1_exec_1_1_run_args_parser.html#ab4781a959cd4bdc069370ec19d81d27b">getArgumentValue</a> (const std::string &amp;arg) const</td></tr>
+<tr class="memdesc:ab4781a959cd4bdc069370ec19d81d27b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the given argument's value.  <a href="#ab4781a959cd4bdc069370ec19d81d27b">More...</a><br /></td></tr>
 <tr class="separator:ab4781a959cd4bdc069370ec19d81d27b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ad705c38760ba4812792f5b4aaa242ca3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad705c38760ba4812792f5b4aaa242ca3">&#9670;&nbsp;</a></span>RunArgsParser()</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Parses the execution arguments. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aa1a429f50cbeba080981ed78384c6998"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1a429f50cbeba080981ed78384c6998">&#9670;&nbsp;</a></span>RunArgsParser()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -94,14 +102,14 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">obe::Utils::Exec::RunArgsParser::RunArgsParser </td>
           <td>(</td>
-          <td class="paramtype">char **&#160;</td>
-          <td class="paramname"><em>start</em>, </td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>size</em>&#160;</td>
+          <td class="paramtype">char **&#160;</td>
+          <td class="paramname"><em>start</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -110,6 +118,15 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Constructor of <a class="el" href="classobe_1_1_utils_1_1_exec_1_1_run_args_parser.html" title="Parses the execution arguments. ">RunArgsParser</a> takes argc and argv in parameters. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">size</td><td>This is argc </td></tr>
+    <tr><td class="paramname">start</td><td>This is argv </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -130,6 +147,15 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Check if a argument has been entered. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">arg</td><td>Name of the argument you want to check existence </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the argument exists, false otherwise </dd></dl>
+
 </div>
 </div>
 <a id="ab4781a959cd4bdc069370ec19d81d27b"></a>
@@ -147,6 +173,15 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get the given argument's value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">arg</td><td>Name of the argument you want to retrieve the value </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The value of the argument </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">

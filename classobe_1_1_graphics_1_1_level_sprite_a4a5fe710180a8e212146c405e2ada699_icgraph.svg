@@ -57,14 +57,14 @@ var sectionId = 'dynsection-14';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>obe::Graphics::LevelSprite::getTexture</title>
-<!-- Node70 -->
-<g id="node1" class="node"><title>Node70</title>
+<!-- Node66 -->
+<g id="node1" class="node"><title>Node66</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-0.5 0,-30.5 131,-30.5 131,-0.5 0,-0.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Graphics::LevelSprite</text>
 <text text-anchor="middle" x="65.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getTexture</text>
 </g>
-<!-- Node71 -->
-<g id="node2" class="node"><title>Node71</title>
+<!-- Node67 -->
+<g id="node2" class="node"><title>Node67</title>
 <g id="a_node2"><a xlink:href="namespaceobe_1_1_editor.html#a98df387085b87692b2458ada49d8c8a3" target="_top" xlink:title="obe::Editor::addSpriteTo\lWorld">
 <polygon fill="none" stroke="black" points="167,-0.5 167,-30.5 289,-30.5 289,-0.5 167,-0.5"/>
 <text text-anchor="start" x="175" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Editor::addSpriteTo</text>
@@ -72,65 +72,65 @@ var sectionId = 'dynsection-14';
 </a>
 </g>
 </g>
-<!-- Node70&#45;&gt;Node71 -->
-<g id="edge1" class="edge"><title>Node70&#45;&gt;Node71</title>
+<!-- Node66&#45;&gt;Node67 -->
+<g id="edge1" class="edge"><title>Node66&#45;&gt;Node67</title>
 <path fill="none" stroke="midnightblue" d="M141.593,-15.5C150.069,-15.5 158.622,-15.5 166.871,-15.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="141.319,-12.0001 131.319,-15.5 141.319,-19.0001 141.319,-12.0001"/>
 </g>
-<!-- Node72 -->
-<g id="node3" class="node"><title>Node72</title>
+<!-- Node68 -->
+<g id="node3" class="node"><title>Node68</title>
 <g id="a_node3"><a xlink:href="namespaceobe_1_1_editor.html#a75bc94b8c9152749d28e9e3927522e4a" target="_top" xlink:title="obe::Editor::loadSpriteFolder">
 <polygon fill="none" stroke="black" points="325,-6 325,-25 465,-25 465,-6 325,-6"/>
 <text text-anchor="middle" x="395" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Editor::loadSpriteFolder</text>
 </a>
 </g>
 </g>
-<!-- Node71&#45;&gt;Node72 -->
-<g id="edge2" class="edge"><title>Node71&#45;&gt;Node72</title>
+<!-- Node67&#45;&gt;Node68 -->
+<g id="edge2" class="edge"><title>Node67&#45;&gt;Node68</title>
 <path fill="none" stroke="midnightblue" d="M299.24,-15.5C307.698,-15.5 316.331,-15.5 324.774,-15.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="299.036,-12.0001 289.036,-15.5 299.036,-19.0001 299.036,-12.0001"/>
 </g>
-<!-- Node73 -->
-<g id="node4" class="node"><title>Node73</title>
-<g id="a_node4"><a xlink:href="namespaceobe_1_1_editor.html#a9009207671e71dccb68a31ea2362e9ef" target="_top" xlink:title="obe::Editor::editMap">
+<!-- Node69 -->
+<g id="node4" class="node"><title>Node69</title>
+<g id="a_node4"><a xlink:href="namespaceobe_1_1_editor.html#a9009207671e71dccb68a31ea2362e9ef" target="_top" xlink:title="Starts the map edition. ">
 <polygon fill="none" stroke="black" points="501,-6 501,-25 605,-25 605,-6 501,-6"/>
 <text text-anchor="middle" x="553" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Editor::editMap</text>
 </a>
 </g>
 </g>
-<!-- Node72&#45;&gt;Node73 -->
-<g id="edge3" class="edge"><title>Node72&#45;&gt;Node73</title>
+<!-- Node68&#45;&gt;Node69 -->
+<g id="edge3" class="edge"><title>Node68&#45;&gt;Node69</title>
 <path fill="none" stroke="midnightblue" d="M475.396,-15.5C483.982,-15.5 492.544,-15.5 500.668,-15.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="475.332,-12.0001 465.332,-15.5 475.332,-19.0001 475.332,-12.0001"/>
 </g>
-<!-- Node74 -->
-<g id="node5" class="node"><title>Node74</title>
-<g id="a_node5"><a xlink:href="namespaceobe_1_1_modes.html#a6a8b08eee511d4895c4da96d4ba223a6" target="_top" xlink:title="obe::Modes::startDevMenu">
+<!-- Node70 -->
+<g id="node5" class="node"><title>Node70</title>
+<g id="a_node5"><a xlink:href="namespaceobe_1_1_modes.html#a6a8b08eee511d4895c4da96d4ba223a6" target="_top" xlink:title="Starts the development Menu where you can starts other menus from. ">
 <polygon fill="none" stroke="black" points="641,-25 641,-44 774,-44 774,-25 641,-25"/>
 <text text-anchor="middle" x="707.5" y="-32" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Modes::startDevMenu</text>
 </a>
 </g>
 </g>
-<!-- Node73&#45;&gt;Node74 -->
-<g id="edge4" class="edge"><title>Node73&#45;&gt;Node74</title>
+<!-- Node69&#45;&gt;Node70 -->
+<g id="edge4" class="edge"><title>Node69&#45;&gt;Node70</title>
 <path fill="none" stroke="midnightblue" d="M615.292,-23.1364C623.688,-24.1824 632.336,-25.2599 640.806,-26.3152"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="615.561,-19.6429 605.205,-21.8796 614.695,-26.5892 615.561,-19.6429"/>
 </g>
-<!-- Node75 -->
-<g id="node6" class="node"><title>Node75</title>
+<!-- Node71 -->
+<g id="node6" class="node"><title>Node71</title>
 <g id="a_node6"><a xlink:href="_ob_engine_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" target="_top" xlink:title="main">
 <polygon fill="none" stroke="black" points="810,-6 810,-25 848,-25 848,-6 810,-6"/>
 <text text-anchor="middle" x="829" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">main</text>
 </a>
 </g>
 </g>
-<!-- Node73&#45;&gt;Node75 -->
-<g id="edge6" class="edge"><title>Node73&#45;&gt;Node75</title>
+<!-- Node69&#45;&gt;Node71 -->
+<g id="edge6" class="edge"><title>Node69&#45;&gt;Node71</title>
 <path fill="none" stroke="midnightblue" d="M615.356,-15.5C677.863,-15.5 770.971,-15.5 809.885,-15.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="615.216,-12.0001 605.216,-15.5 615.216,-19.0001 615.216,-12.0001"/>
 </g>
-<!-- Node74&#45;&gt;Node75 -->
-<g id="edge5" class="edge"><title>Node74&#45;&gt;Node75</title>
+<!-- Node70&#45;&gt;Node71 -->
+<g id="edge5" class="edge"><title>Node70&#45;&gt;Node71</title>
 <path fill="none" stroke="midnightblue" d="M778.822,-23.3192C790.345,-21.4869 801.327,-19.7409 809.978,-18.3654"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="777.926,-19.9174 768.6,-24.9443 779.026,-26.8306 777.926,-19.9174"/>
 </g>

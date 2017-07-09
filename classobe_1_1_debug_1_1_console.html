@@ -68,6 +68,7 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classobe_1_1_debug_1_1_console-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">obe::Debug::Console Class Reference</div>  </div>
@@ -86,43 +87,62 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a6120ea12f472acf98bd67f65864e1dc3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_debug_1_1_console.html#a6120ea12f472acf98bd67f65864e1dc3">Console</a> ()</td></tr>
+<tr class="memdesc:a6120ea12f472acf98bd67f65864e1dc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new <a class="el" href="classobe_1_1_debug_1_1_console.html">Console</a>.  <a href="#a6120ea12f472acf98bd67f65864e1dc3">More...</a><br /></td></tr>
 <tr class="separator:a6120ea12f472acf98bd67f65864e1dc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a42f6c40d4b2ffd8f651ff2b867876a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_debug_1_1_console.html#a0a42f6c40d4b2ffd8f651ff2b867876a">handleCommands</a> (std::string text)</td></tr>
-<tr class="separator:a0a42f6c40d4b2ffd8f651ff2b867876a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18203cbd191a53e6253923f7052ae73e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_debug_1_1_console.html#a18203cbd191a53e6253923f7052ae73e">getCommand</a> ()</td></tr>
-<tr class="separator:a18203cbd191a53e6253923f7052ae73e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c28e7251ae19b99856a07456ffdf53a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_debug_1_1_console.html#a0c28e7251ae19b99856a07456ffdf53a">hasCommand</a> ()</td></tr>
-<tr class="separator:a0c28e7251ae19b99856a07456ffdf53a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2afb2eb73b15e82c0b5facddbc30a686"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_debug_1_1_console.html#a2afb2eb73b15e82c0b5facddbc30a686">handleCommand</a> (const std::string &amp;text)</td></tr>
+<tr class="memdesc:a2afb2eb73b15e82c0b5facddbc30a686"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes a command (Sent to the <a class="el" href="namespaceobe_1_1_script.html#a90d73c6b8ff9bcb7caa1289cc62edbae">Script::ScriptEngine</a>)  <a href="#a2afb2eb73b15e82c0b5facddbc30a686">More...</a><br /></td></tr>
+<tr class="separator:a2afb2eb73b15e82c0b5facddbc30a686"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae06933282fbd3a5b4721a24eeb1f2f66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_debug_1_1_console.html#ae06933282fbd3a5b4721a24eeb1f2f66">scroll</a> (int power)</td></tr>
+<tr class="memdesc:ae06933282fbd3a5b4721a24eeb1f2f66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scrolls in the <a class="el" href="classobe_1_1_debug_1_1_console.html">Console</a> content.  <a href="#ae06933282fbd3a5b4721a24eeb1f2f66">More...</a><br /></td></tr>
 <tr class="separator:ae06933282fbd3a5b4721a24eeb1f2f66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac547e1d449df4bf73aba0849b6bf2c1d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_debug_1_1_console_1_1_message.html">Message</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_debug_1_1_console.html#ac547e1d449df4bf73aba0849b6bf2c1d">pushMessage</a> (std::string headerName, std::string message, int r=255, int g=255, int b=255, int a=255, std::string type=&quot;DEFAULT&quot;, bool disableTimestamp=false)</td></tr>
-<tr class="separator:ac547e1d449df4bf73aba0849b6bf2c1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6457182d58e5ddfd8053529bb43345fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_debug_1_1_console_1_1_message.html">Message</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_debug_1_1_console.html#a6457182d58e5ddfd8053529bb43345fc">pushMessage</a> (const std::string &amp;headerName, const std::string &amp;message, const sf::Color &amp;color)</td></tr>
+<tr class="memdesc:a6457182d58e5ddfd8053529bb43345fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Push a new <a class="el" href="classobe_1_1_debug_1_1_console_1_1_message.html">Message</a> to the <a class="el" href="classobe_1_1_debug_1_1_console.html">Console</a>.  <a href="#a6457182d58e5ddfd8053529bb43345fc">More...</a><br /></td></tr>
+<tr class="separator:a6457182d58e5ddfd8053529bb43345fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a127eda3c0eae398decbbd710122390de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_debug_1_1_console.html#a127eda3c0eae398decbbd710122390de">inputKey</a> (int keyCode)</td></tr>
+<tr class="memdesc:a127eda3c0eae398decbbd710122390de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new character to the input buffer.  <a href="#a127eda3c0eae398decbbd710122390de">More...</a><br /></td></tr>
 <tr class="separator:a127eda3c0eae398decbbd710122390de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5772da657dc7e9ae977b5614b3f913e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_debug_1_1_console.html#aa5772da657dc7e9ae977b5614b3f913e">clearInputBuffer</a> ()</td></tr>
+<tr class="memdesc:aa5772da657dc7e9ae977b5614b3f913e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the input.  <a href="#aa5772da657dc7e9ae977b5614b3f913e">More...</a><br /></td></tr>
 <tr class="separator:aa5772da657dc7e9ae977b5614b3f913e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4f1479b4ece23f6c14d854fbf32130f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_debug_1_1_console.html#af4f1479b4ece23f6c14d854fbf32130f">getInputBufferContent</a> ()</td></tr>
-<tr class="separator:af4f1479b4ece23f6c14d854fbf32130f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad529e1db308506114bfabcdd709d9104"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_debug_1_1_console.html#ad529e1db308506114bfabcdd709d9104">setInputBufferContent</a> (std::string content)</td></tr>
-<tr class="separator:ad529e1db308506114bfabcdd709d9104"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26d10e5d487cc94d2a0a883f7579aef2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_debug_1_1_console.html#a26d10e5d487cc94d2a0a883f7579aef2">insertInputBufferContent</a> (std::string content)</td></tr>
-<tr class="separator:a26d10e5d487cc94d2a0a883f7579aef2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31855579392d1de913b14bd0d75caec5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_debug_1_1_console_1_1_stream.html">Stream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_debug_1_1_console.html#a31855579392d1de913b14bd0d75caec5">createStream</a> (std::string streamName, bool enabled=true)</td></tr>
-<tr class="separator:a31855579392d1de913b14bd0d75caec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad173a70bfee528ef59c60aac557d44e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_debug_1_1_console_1_1_stream.html">Stream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_debug_1_1_console.html#ad173a70bfee528ef59c60aac557d44e6">getStream</a> (std::string streamName)</td></tr>
-<tr class="separator:ad173a70bfee528ef59c60aac557d44e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f9a99c73ea8e0d4a02124ff9a1f3bcf"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_debug_1_1_console.html#a0f9a99c73ea8e0d4a02124ff9a1f3bcf">getInputBufferContent</a> () const</td></tr>
+<tr class="memdesc:a0f9a99c73ea8e0d4a02124ff9a1f3bcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current entered text.  <a href="#a0f9a99c73ea8e0d4a02124ff9a1f3bcf">More...</a><br /></td></tr>
+<tr class="separator:a0f9a99c73ea8e0d4a02124ff9a1f3bcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadbad8e289ec82fe4a1545bef5aee75f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_debug_1_1_console.html#aadbad8e289ec82fe4a1545bef5aee75f">setInputBufferContent</a> (const std::string &amp;content)</td></tr>
+<tr class="memdesc:aadbad8e289ec82fe4a1545bef5aee75f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the content of the input.  <a href="#aadbad8e289ec82fe4a1545bef5aee75f">More...</a><br /></td></tr>
+<tr class="separator:aadbad8e289ec82fe4a1545bef5aee75f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30853cf306ef9e3c563e0d7b7b85b84f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_debug_1_1_console.html#a30853cf306ef9e3c563e0d7b7b85b84f">insertInputBufferContent</a> (const std::string &amp;content)</td></tr>
+<tr class="memdesc:a30853cf306ef9e3c563e0d7b7b85b84f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Insert content to the input.  <a href="#a30853cf306ef9e3c563e0d7b7b85b84f">More...</a><br /></td></tr>
+<tr class="separator:a30853cf306ef9e3c563e0d7b7b85b84f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fa21f5269b39878cd509d48a734f9b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_debug_1_1_console_1_1_stream.html">Stream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_debug_1_1_console.html#a5fa21f5269b39878cd509d48a734f9b5">createStream</a> (const std::string &amp;id, bool enabled=true)</td></tr>
+<tr class="memdesc:a5fa21f5269b39878cd509d48a734f9b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new <a class="el" href="classobe_1_1_debug_1_1_console_1_1_stream.html">Stream</a> to use in the <a class="el" href="classobe_1_1_debug_1_1_console.html">Console</a>.  <a href="#a5fa21f5269b39878cd509d48a734f9b5">More...</a><br /></td></tr>
+<tr class="separator:a5fa21f5269b39878cd509d48a734f9b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dbf7ab9d5f85a228ebeb2146fcb7533"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_debug_1_1_console_1_1_stream.html">Stream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_debug_1_1_console.html#a8dbf7ab9d5f85a228ebeb2146fcb7533">getStream</a> (const std::string &amp;id)</td></tr>
+<tr class="memdesc:a8dbf7ab9d5f85a228ebeb2146fcb7533"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an existing <a class="el" href="classobe_1_1_debug_1_1_console_1_1_stream.html">Stream</a>.  <a href="#a8dbf7ab9d5f85a228ebeb2146fcb7533">More...</a><br /></td></tr>
+<tr class="separator:a8dbf7ab9d5f85a228ebeb2146fcb7533"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5d6eb8b4f5a83435ff80fc6985d5769"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_debug_1_1_console.html#aa5d6eb8b4f5a83435ff80fc6985d5769">downHistory</a> ()</td></tr>
+<tr class="memdesc:aa5d6eb8b4f5a83435ff80fc6985d5769"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill the buffer with the previous command.  <a href="#aa5d6eb8b4f5a83435ff80fc6985d5769">More...</a><br /></td></tr>
 <tr class="separator:aa5d6eb8b4f5a83435ff80fc6985d5769"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1466e57076ff9f0316347e617c7f02e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_debug_1_1_console.html#a1466e57076ff9f0316347e617c7f02e5">upHistory</a> ()</td></tr>
+<tr class="memdesc:a1466e57076ff9f0316347e617c7f02e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill the buffer with the next command.  <a href="#a1466e57076ff9f0316347e617c7f02e5">More...</a><br /></td></tr>
 <tr class="separator:a1466e57076ff9f0316347e617c7f02e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af99242e3af21d55270a8ab7b7477b783"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_debug_1_1_console.html#af99242e3af21d55270a8ab7b7477b783">display</a> (sf::RenderWindow *surf)</td></tr>
-<tr class="separator:af99242e3af21d55270a8ab7b7477b783"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87e150f94edd3184fc356c9c5d38794a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_debug_1_1_console.html#a87e150f94edd3184fc356c9c5d38794a">isConsoleVisible</a> ()</td></tr>
-<tr class="separator:a87e150f94edd3184fc356c9c5d38794a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fa3a050a1b70270e39ed955f72f15b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_debug_1_1_console.html#a1fa3a050a1b70270e39ed955f72f15b9">display</a> (sf::RenderWindow &amp;target)</td></tr>
+<tr class="memdesc:a1fa3a050a1b70270e39ed955f72f15b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays the <a class="el" href="classobe_1_1_debug_1_1_console.html">Console</a> on the screen.  <a href="#a1fa3a050a1b70270e39ed955f72f15b9">More...</a><br /></td></tr>
+<tr class="separator:a1fa3a050a1b70270e39ed955f72f15b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac482836445d1a66f2470ec899766c7b1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_debug_1_1_console.html#ac482836445d1a66f2470ec899766c7b1">isConsoleVisible</a> () const</td></tr>
+<tr class="memdesc:ac482836445d1a66f2470ec899766c7b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check the visibility of the <a class="el" href="classobe_1_1_debug_1_1_console.html">Console</a>.  <a href="#ac482836445d1a66f2470ec899766c7b1">More...</a><br /></td></tr>
+<tr class="separator:ac482836445d1a66f2470ec899766c7b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab706b8d712363902c59e0af9f5f3f228"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_debug_1_1_console.html#ab706b8d712363902c59e0af9f5f3f228">setConsoleVisibility</a> (bool enabled)</td></tr>
+<tr class="memdesc:ab706b8d712363902c59e0af9f5f3f228"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set if the <a class="el" href="classobe_1_1_debug_1_1_console.html">Console</a> is visible or not.  <a href="#ab706b8d712363902c59e0af9f5f3f228">More...</a><br /></td></tr>
 <tr class="separator:ab706b8d712363902c59e0af9f5f3f228"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05ac7d449136e895d93d98c3a7bc6d4b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_debug_1_1_console.html#a05ac7d449136e895d93d98c3a7bc6d4b">moveCursor</a> (int move)</td></tr>
-<tr class="separator:a05ac7d449136e895d93d98c3a7bc6d4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab3ebe98bb9d202216a42eeb50c2617e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_debug_1_1_console.html#aab3ebe98bb9d202216a42eeb50c2617e">moveCursor</a> (int position)</td></tr>
+<tr class="memdesc:aab3ebe98bb9d202216a42eeb50c2617e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves the virtual cursor.  <a href="#aab3ebe98bb9d202216a42eeb50c2617e">More...</a><br /></td></tr>
+<tr class="separator:aab3ebe98bb9d202216a42eeb50c2617e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a63abd459cae48d1b530376862ccf7495"><td class="memItemLeft" align="right" valign="top">static const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_debug_1_1_console.html#a63abd459cae48d1b530376862ccf7495">Timestamped</a> = true</td></tr>
+<tr class="memdesc:a63abd459cae48d1b530376862ccf7495"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a timestamp to every message if equals to true.  <a href="#a63abd459cae48d1b530376862ccf7495">More...</a><br /></td></tr>
+<tr class="separator:a63abd459cae48d1b530376862ccf7495"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a6120ea12f472acf98bd67f65864e1dc3"></a>
@@ -139,10 +159,13 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Creates a new <a class="el" href="classobe_1_1_debug_1_1_console.html">Console</a>. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_a6120ea12f472acf98bd67f65864e1dc3_cgraph.svg" width="380" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_a6120ea12f472acf98bd67f65864e1dc3_cgraph.svg" width="100%" height="486"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -162,16 +185,19 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Clears the input. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_aa5772da657dc7e9ae977b5614b3f913e_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_aa5772da657dc7e9ae977b5614b3f913e_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
 </div>
-<a id="a31855579392d1de913b14bd0d75caec5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a31855579392d1de913b14bd0d75caec5">&#9670;&nbsp;</a></span>createStream()</h2>
+<a id="a5fa21f5269b39878cd509d48a734f9b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fa21f5269b39878cd509d48a734f9b5">&#9670;&nbsp;</a></span>createStream()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -179,8 +205,8 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname"><a class="el" href="classobe_1_1_debug_1_1_console_1_1_stream.html">Console::Stream</a> * obe::Debug::Console::createStream </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>streamName</em>, </td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -195,16 +221,33 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Creates a new <a class="el" href="classobe_1_1_debug_1_1_console_1_1_stream.html">Stream</a> to use in the <a class="el" href="classobe_1_1_debug_1_1_console.html">Console</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>Id of the new <a class="el" href="classobe_1_1_debug_1_1_console_1_1_stream.html">Stream</a> to create </td></tr>
+    <tr><td class="paramname">enabled</td><td>Is the <a class="el" href="classobe_1_1_debug_1_1_console_1_1_stream.html">Stream</a> enabled at creation ? </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A pointed to the new <a class="el" href="classobe_1_1_debug_1_1_console_1_1_stream.html">Stream</a> </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_a5fa21f5269b39878cd509d48a734f9b5_cgraph.svg" width="100%" height="486"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_a31855579392d1de913b14bd0d75caec5_icgraph.svg" width="100%" height="585"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_a5fa21f5269b39878cd509d48a734f9b5_icgraph.svg" width="100%" height="585"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
 </div>
-<a id="af99242e3af21d55270a8ab7b7477b783"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af99242e3af21d55270a8ab7b7477b783">&#9670;&nbsp;</a></span>display()</h2>
+<a id="a1fa3a050a1b70270e39ed955f72f15b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fa3a050a1b70270e39ed955f72f15b9">&#9670;&nbsp;</a></span>display()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -212,16 +255,25 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void obe::Debug::Console::display </td>
           <td>(</td>
-          <td class="paramtype">sf::RenderWindow *&#160;</td>
-          <td class="paramname"><em>surf</em></td><td>)</td>
+          <td class="paramtype">sf::RenderWindow &amp;&#160;</td>
+          <td class="paramname"><em>target</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Displays the <a class="el" href="classobe_1_1_debug_1_1_console.html">Console</a> on the screen. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">target</td><td>sf::RenderWindow where to display the <a class="el" href="classobe_1_1_debug_1_1_console.html">Console</a> </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_af99242e3af21d55270a8ab7b7477b783_icgraph.svg" width="664" height="71"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_a1fa3a050a1b70270e39ed955f72f15b9_icgraph.svg" width="664" height="71"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -240,38 +292,19 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Fill the buffer with the previous command. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_aa5d6eb8b4f5a83435ff80fc6985d5769_icgraph.svg" width="664" height="71"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_aa5d6eb8b4f5a83435ff80fc6985d5769_icgraph.svg" width="664" height="71"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
 </div>
-<a id="a18203cbd191a53e6253923f7052ae73e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18203cbd191a53e6253923f7052ae73e">&#9670;&nbsp;</a></span>getCommand()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string obe::Debug::Console::getCommand </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_a18203cbd191a53e6253923f7052ae73e_icgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="af4f1479b4ece23f6c14d854fbf32130f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af4f1479b4ece23f6c14d854fbf32130f">&#9670;&nbsp;</a></span>getInputBufferContent()</h2>
+<a id="a0f9a99c73ea8e0d4a02124ff9a1f3bcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f9a99c73ea8e0d4a02124ff9a1f3bcf">&#9670;&nbsp;</a></span>getInputBufferContent()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -280,20 +313,24 @@ Here is the caller graph for this function:</div>
           <td class="memname">std::string obe::Debug::Console::getInputBufferContent </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get the current entered text. </p>
+<dl class="section return"><dt>Returns</dt><dd>A std::string containing the current text in the input </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_af4f1479b4ece23f6c14d854fbf32130f_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_a0f9a99c73ea8e0d4a02124ff9a1f3bcf_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
 </div>
-<a id="ad173a70bfee528ef59c60aac557d44e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad173a70bfee528ef59c60aac557d44e6">&#9670;&nbsp;</a></span>getStream()</h2>
+<a id="a8dbf7ab9d5f85a228ebeb2146fcb7533"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8dbf7ab9d5f85a228ebeb2146fcb7533">&#9670;&nbsp;</a></span>getStream()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -301,66 +338,64 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname"><a class="el" href="classobe_1_1_debug_1_1_console_1_1_stream.html">Console::Stream</a> * obe::Debug::Console::getStream </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>streamName</em></td><td>)</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get an existing <a class="el" href="classobe_1_1_debug_1_1_console_1_1_stream.html">Stream</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>Id of the <a class="el" href="classobe_1_1_debug_1_1_console_1_1_stream.html">Stream</a> to get </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A pointer to the <a class="el" href="classobe_1_1_debug_1_1_console_1_1_stream.html">Stream</a> </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_ad173a70bfee528ef59c60aac557d44e6_cgraph.svg" width="519" height="248"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_a8dbf7ab9d5f85a228ebeb2146fcb7533_cgraph.svg" width="519" height="248"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
 </div>
-<a id="a0a42f6c40d4b2ffd8f651ff2b867876a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a42f6c40d4b2ffd8f651ff2b867876a">&#9670;&nbsp;</a></span>handleCommands()</h2>
+<a id="a2afb2eb73b15e82c0b5facddbc30a686"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2afb2eb73b15e82c0b5facddbc30a686">&#9670;&nbsp;</a></span>handleCommand()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void obe::Debug::Console::handleCommands </td>
+          <td class="memname">void obe::Debug::Console::handleCommand </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>text</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Executes a command (Sent to the <a class="el" href="namespaceobe_1_1_script.html#a90d73c6b8ff9bcb7caa1289cc62edbae">Script::ScriptEngine</a>) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">text</td><td>A std::string containing the command to execute </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_a0a42f6c40d4b2ffd8f651ff2b867876a_cgraph.svg" width="534" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_a2afb2eb73b15e82c0b5facddbc30a686_cgraph.svg" width="534" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_a0a42f6c40d4b2ffd8f651ff2b867876a_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_a2afb2eb73b15e82c0b5facddbc30a686_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
-
-</div>
-</div>
-<a id="a0c28e7251ae19b99856a07456ffdf53a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c28e7251ae19b99856a07456ffdf53a">&#9670;&nbsp;</a></span>hasCommand()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool obe::Debug::Console::hasCommand </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_a0c28e7251ae19b99856a07456ffdf53a_icgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -380,21 +415,31 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Add a new character to the input buffer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">keyCode</td><td>ASCII number of the character to add </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_a127eda3c0eae398decbbd710122390de_cgraph.svg" width="100%" height="437"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_a127eda3c0eae398decbbd710122390de_cgraph.svg" width="100%" height="413"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_a127eda3c0eae398decbbd710122390de_icgraph.svg" width="664" height="71"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_a127eda3c0eae398decbbd710122390de_icgraph.svg" width="664" height="71"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
 </div>
-<a id="a26d10e5d487cc94d2a0a883f7579aef2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26d10e5d487cc94d2a0a883f7579aef2">&#9670;&nbsp;</a></span>insertInputBufferContent()</h2>
+<a id="a30853cf306ef9e3c563e0d7b7b85b84f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30853cf306ef9e3c563e0d7b7b85b84f">&#9670;&nbsp;</a></span>insertInputBufferContent()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -402,22 +447,31 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void obe::Debug::Console::insertInputBufferContent </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>content</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Insert content to the input. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">content</td><td>A std::stirng to insert in the input buffer </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_a26d10e5d487cc94d2a0a883f7579aef2_icgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_a30853cf306ef9e3c563e0d7b7b85b84f_icgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
 </div>
-<a id="a87e150f94edd3184fc356c9c5d38794a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a87e150f94edd3184fc356c9c5d38794a">&#9670;&nbsp;</a></span>isConsoleVisible()</h2>
+<a id="ac482836445d1a66f2470ec899766c7b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac482836445d1a66f2470ec899766c7b1">&#9670;&nbsp;</a></span>isConsoleVisible()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -426,20 +480,24 @@ Here is the caller graph for this function:</div>
           <td class="memname">bool obe::Debug::Console::isConsoleVisible </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Check the visibility of the <a class="el" href="classobe_1_1_debug_1_1_console.html">Console</a>. </p>
+<dl class="section return"><dt>Returns</dt><dd>true if the <a class="el" href="classobe_1_1_debug_1_1_console.html">Console</a> is visible, false otherwise </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_a87e150f94edd3184fc356c9c5d38794a_icgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_ac482836445d1a66f2470ec899766c7b1_icgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
 </div>
-<a id="a05ac7d449136e895d93d98c3a7bc6d4b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05ac7d449136e895d93d98c3a7bc6d4b">&#9670;&nbsp;</a></span>moveCursor()</h2>
+<a id="aab3ebe98bb9d202216a42eeb50c2617e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab3ebe98bb9d202216a42eeb50c2617e">&#9670;&nbsp;</a></span>moveCursor()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -448,21 +506,30 @@ Here is the caller graph for this function:</div>
           <td class="memname">void obe::Debug::Console::moveCursor </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>move</em></td><td>)</td>
+          <td class="paramname"><em>position</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Moves the virtual cursor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">position</td><td>Offset to move the virtual cursor </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_a05ac7d449136e895d93d98c3a7bc6d4b_icgraph.svg" width="664" height="71"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_aab3ebe98bb9d202216a42eeb50c2617e_icgraph.svg" width="664" height="71"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
 </div>
-<a id="ac547e1d449df4bf73aba0849b6bf2c1d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac547e1d449df4bf73aba0849b6bf2c1d">&#9670;&nbsp;</a></span>pushMessage()</h2>
+<a id="a6457182d58e5ddfd8053529bb43345fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6457182d58e5ddfd8053529bb43345fc">&#9670;&nbsp;</a></span>pushMessage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -470,50 +537,20 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname"><a class="el" href="classobe_1_1_debug_1_1_console_1_1_message.html">Console::Message</a> * obe::Debug::Console::pushMessage </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>headerName</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>message</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>r</em> = <code>255</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>g</em> = <code>255</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>b</em> = <code>255</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>a</em> = <code>255</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>type</em> = <code>&quot;DEFAULT&quot;</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>disableTimestamp</em> = <code>false</code>&#160;</td>
+          <td class="paramtype">const sf::Color &amp;&#160;</td>
+          <td class="paramname"><em>color</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -522,15 +559,28 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Push a new <a class="el" href="classobe_1_1_debug_1_1_console_1_1_message.html">Message</a> to the <a class="el" href="classobe_1_1_debug_1_1_console.html">Console</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">headerName</td><td>Name of the Category of the <a class="el" href="classobe_1_1_debug_1_1_console_1_1_message.html">Message</a> you want to display </td></tr>
+    <tr><td class="paramname">message</td><td>Text of the <a class="el" href="classobe_1_1_debug_1_1_console_1_1_message.html">Message</a> you want to display </td></tr>
+    <tr><td class="paramname">color</td><td>Color of the <a class="el" href="classobe_1_1_debug_1_1_console_1_1_message.html">Message</a> you want to display </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A pointer to the newly created <a class="el" href="classobe_1_1_debug_1_1_console_1_1_message.html">Message</a> </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_ac547e1d449df4bf73aba0849b6bf2c1d_cgraph.svg" width="343" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_a6457182d58e5ddfd8053529bb43345fc_cgraph.svg" width="343" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_ac547e1d449df4bf73aba0849b6bf2c1d_icgraph.svg" width="100%" height="361"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_a6457182d58e5ddfd8053529bb43345fc_icgraph.svg" width="100%" height="427"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -550,10 +600,19 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Scrolls in the <a class="el" href="classobe_1_1_debug_1_1_console.html">Console</a> content. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">power</td><td>Amount of lines to scroll (Positive integer = Scrolling down, Negative integer = Scrolling up) </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_ae06933282fbd3a5b4721a24eeb1f2f66_icgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_ae06933282fbd3a5b4721a24eeb1f2f66_icgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -573,16 +632,25 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Set if the <a class="el" href="classobe_1_1_debug_1_1_console.html">Console</a> is visible or not. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">enabled</td><td>Boolean containing if the <a class="el" href="classobe_1_1_debug_1_1_console.html">Console</a> should be displayed or not </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_ab706b8d712363902c59e0af9f5f3f228_icgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_ab706b8d712363902c59e0af9f5f3f228_icgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
 </div>
-<a id="ad529e1db308506114bfabcdd709d9104"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad529e1db308506114bfabcdd709d9104">&#9670;&nbsp;</a></span>setInputBufferContent()</h2>
+<a id="aadbad8e289ec82fe4a1545bef5aee75f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadbad8e289ec82fe4a1545bef5aee75f">&#9670;&nbsp;</a></span>setInputBufferContent()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -590,16 +658,25 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void obe::Debug::Console::setInputBufferContent </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>content</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Set the content of the input. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">content</td><td>A std::string to put in the input buffer </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_ad529e1db308506114bfabcdd709d9104_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_aadbad8e289ec82fe4a1545bef5aee75f_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -618,11 +695,39 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Fill the buffer with the next command. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_a1466e57076ff9f0316347e617c7f02e5_icgraph.svg" width="664" height="71"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_debug_1_1_console_a1466e57076ff9f0316347e617c7f02e5_icgraph.svg" width="664" height="71"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a63abd459cae48d1b530376862ccf7495"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63abd459cae48d1b530376862ccf7495">&#9670;&nbsp;</a></span>Timestamped</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const bool obe::Debug::Console::Timestamped = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Adds a timestamp to every message if equals to true. </p>
 
 </div>
 </div>

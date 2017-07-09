@@ -1,7 +1,7 @@
 <map id="obe::Editor::buildObjectTab" name="obe::Editor::buildObjectTab">
 <area shape="rect" id="node2" href="$classobe_1_1_system_1_1_path.html#a096ad4fa7397aa42fd73661b08f50e2a" title="obe::System::Path::\lloadResource" alt="" coords="728,166,867,207"/>
 <area shape="rect" id="node9" href="$namespaceobe_1_1_editor.html#ab548dfe02b4323438bcf9caedd01d696" title="obe::Editor::buildRequires\lObjectTab" alt="" coords="232,425,403,466"/>
-<area shape="rect" id="node3" href="$namespaceobe_1_1_utils_1_1_file.html#a1095626f5495edc7b8692073dd25cceb" title="obe::Utils::File::fileExists" alt="" coords="927,195,1093,221"/>
+<area shape="rect" id="node3" href="$namespaceobe_1_1_utils_1_1_file.html#a1095626f5495edc7b8692073dd25cceb" title="Check if the file at the given path exists. " alt="" coords="927,195,1093,221"/>
 <area shape="rect" id="node4" href="$classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b" title="aube::ErrorHandler\l::Raise" alt="" coords="1392,539,1523,581"/>
 <area shape="rect" id="node5" href="$classaube_1_1_error_message.html#a3a39b6fcd8fdb12eaf6383123535b8ca" title="aube::ErrorMessage\l::getFile" alt="" coords="1615,442,1753,483"/>
 <area shape="rect" id="node6" href="$classaube_1_1_error_message.html#a9184cc96589578f434351c105b0cd5f7" title="aube::ErrorMessage\l::getLocation" alt="" coords="1615,507,1753,549"/>
@@ -19,10 +19,10 @@
 <area shape="rect" id="node38" href="$classvili_1_1_list_attribute.html#ad541b2709368be3dc486f4075345f526" title="vili::ListAttribute::get" alt="" coords="1161,547,1301,573"/>
 <area shape="rect" id="node39" href="$classvili_1_1_base_attribute.html#a637dd7d2977f7a453f06065d5d441495" title="vili::BaseAttribute::get" alt="" coords="723,625,872,652"/>
 <area shape="rect" id="node45" href="$namespaceobe_1_1_editor.html#a4a7fb0b670f18cdbc1c6858344f77a86" title="obe::Editor::buildObject\lThroughRequire" alt="" coords="480,239,639,281"/>
-<area shape="rect" id="node46" href="$namespaceobe_1_1_utils_1_1_string.html#add6961e54527ea7e0a08d1fbba754ff3" title="obe::Utils::String\l::getRandomKey" alt="" coords="500,43,619,85"/>
+<area shape="rect" id="node46" href="$namespaceobe_1_1_utils_1_1_string.html#a29c76645ca98b28a4f885016514fa7fd" title="Generates a random string witch characters from the given set. " alt="" coords="500,43,619,85"/>
 <area shape="rect" id="node49" href="$classobe_1_1_script_1_1_core_hook.html#abfb4f2a09d40cf0d54e22aea701e597c" title="obe::Script::CoreHook\l::getPointer" alt="" coords="484,174,635,215"/>
 <area shape="rect" id="node50" href="$classobe_1_1_types_1_1_any.html#a46759ea1523dd908b7acc6b143727fed" title="obe::Types::Any::as" alt="" coords="490,356,629,383"/>
-<area shape="rect" id="node12" href="$namespaceobe_1_1_utils_1_1_vector.html#a636b7f465d67c2bf42a297f221af9cfe" title="obe::Utils::Vector\l::isInList" alt="" coords="736,975,859,1017"/>
+<area shape="rect" id="node12" href="$namespaceobe_1_1_utils_1_1_vector.html#a636b7f465d67c2bf42a297f221af9cfe" title="Check if a given item is in the given std::vector. " alt="" coords="736,975,859,1017"/>
 <area shape="rect" id="node14" href="$classobe_1_1_system_1_1_path.html#ab3b53b3bb2e98d5e23c35692a52eb66c" title="Returns a new Path which is the current one concatened with the given string. " alt="" coords="717,783,877,809"/>
 <area shape="rect" id="node17" href="$classvili_1_1_data_parser.html#ac2744d454c122cb1adff342be588bc8d" title="vili::DataParser::at" alt="" coords="733,575,861,601"/>
 <area shape="rect" id="node19" href="$classvili_1_1_complex_attribute.html#adb309539a0f8cb36240339f14e3e2f25" title="vili::ComplexAttribute\l::extractElement" alt="" coords="725,910,869,951"/>
@@ -30,11 +30,11 @@
 <area shape="rect" id="node30" href="$classvili_1_1_complex_attribute.html#a0e84ce350ff94cf291b103936d9aaabe" title="vili::ComplexAttribute\l::pushComplexAttribute" alt="" coords="718,1041,877,1082"/>
 <area shape="rect" id="node15" href="$classobe_1_1_system_1_1_path.html#afce5029aa92ba41d0f201f1ac67a21e0" title="Default constructor of Path. " alt="" coords="927,757,1093,784"/>
 <area shape="rect" id="node18" href="$namespacevili_1_1_functions_1_1_string.html#ad7421099a2ab911f64f06d89abc7d7cf" title="vili::Functions::String\l::extract" alt="" coords="1160,481,1303,522"/>
-<area shape="rect" id="node20" href="$namespacevili_1_1_functions_1_1_vector.html#aa9f0dd6b1c4be1e3d86846944329d9f2" title="vili::Functions::Vector\l::isInList" alt="" coords="937,1143,1083,1185"/>
+<area shape="rect" id="node20" href="$namespacevili_1_1_functions_1_1_vector.html#aa9f0dd6b1c4be1e3d86846944329d9f2" title="Check if a given item is in the given std::vector. " alt="" coords="937,1143,1083,1185"/>
 <area shape="rect" id="node21" href="$classvili_1_1_attribute.html#a4af867485d90f3ce77332995e5dcfc5f" title="vili::Attribute::getID" alt="" coords="1619,1092,1749,1119"/>
 <area shape="rect" id="node22" href="$classvili_1_1_container_attribute.html#adefa325bb124a74c90b28a91f8a5fe3b" title="vili::ContainerAttribute\l::removeOwnership" alt="" coords="936,910,1084,951"/>
 <area shape="rect" id="node24" href="$classvili_1_1_attribute.html#a14b2534c1250d36bb0c02f7e5c25b40b" title="vili::Attribute::getNodePath" alt="" coords="1369,791,1545,817"/>
-<area shape="rect" id="node28" href="$namespacevili_1_1_functions_1_1_vector.html#a0454c8e5ff5eef5cc9bb4977316a3c33" title="vili::Functions::Vector\l::eraseAll" alt="" coords="937,975,1083,1017"/>
+<area shape="rect" id="node28" href="$namespacevili_1_1_functions_1_1_vector.html#a0454c8e5ff5eef5cc9bb4977316a3c33" title="Erases all occurences of a given element in the std::vector. " alt="" coords="937,975,1083,1017"/>
 <area shape="rect" id="node23" href="$classvili_1_1_attribute.html#ac82d3332b743dbea7b3ae3bdab98cd52" title="vili::Attribute::removeParent" alt="" coords="1141,917,1321,944"/>
 <area shape="rect" id="node25" href="$classvili_1_1_attribute.html#a1ed7aaea237378cc2b3ab767a864ced8" title="vili::Attribute::getParent" alt="" coords="1605,849,1763,876"/>
 <area shape="rect" id="node26" href="$classvili_1_1_attribute.html#a1ec7ebd0bd596dd848151d37bba8c1b4" title="vili::Attribute::getAnnotation" alt="" coords="1593,732,1775,759"/>
@@ -46,6 +46,6 @@
 <area shape="rect" id="node41" href="$classvili_1_1_attribute.html#a3a59cd36c4317ab0af2139a9db0f4c9b" title="vili::Attribute::getType" alt="" coords="1158,664,1305,691"/>
 <area shape="rect" id="node42" href="$classvili_1_1_base_attribute.html#aa9d584a49371506524beee1672ccd976" title="vili::BaseAttribute::set" alt="" coords="1157,765,1306,792"/>
 <area shape="rect" id="node44" href="$classvili_1_1_base_attribute.html#a020cdacac377615d95728677256ecc4d" title="vili::BaseAttribute\l::returnData" alt="" coords="1170,598,1293,639"/>
-<area shape="rect" id="node47" href="$namespaceobe_1_1_utils_1_1_math.html#af79008fea1a281ec434372d59249e7d4" title="obe::Utils::Math::randint" alt="" coords="717,43,878,69"/>
+<area shape="rect" id="node47" href="$namespaceobe_1_1_utils_1_1_math.html#af79008fea1a281ec434372d59249e7d4" title="Get a random integer between the given bound. " alt="" coords="717,43,878,69"/>
 <area shape="rect" id="node48" href="$namespaceobe_1_1_utils_1_1_math.html#a675729380c54b579e88c541098a50258" title="obe::Utils::Math::rng" alt="" coords="940,43,1080,69"/>
 </map>

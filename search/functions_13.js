@@ -2,7 +2,7 @@ var searchData=
 [
   ['terminate',['terminate',['../classvili_1_1_node_iterator.html#a044fe7a2f1d6faf89bce55e2a2f74356',1,'vili::NodeIterator']]],
   ['testallcolliders',['testAllColliders',['../classobe_1_1_collision_1_1_polygonal_collider.html#af37dad690ea1c82c605761b1d6218d14',1,'obe::Collision::PolygonalCollider']]],
-  ['text',['Text',['../classobe_1_1_graphics_1_1_text.html#a640b0252de7fcceedf243cb3f587088c',1,'obe::Graphics::Text::Text()'],['../classobe_1_1_graphics_1_1_canvas.html#a67460518414d6b0e0b4a9bdafec87359',1,'obe::Graphics::Canvas::text()']]],
+  ['text',['text',['../classobe_1_1_graphics_1_1_canvas.html#a67460518414d6b0e0b4a9bdafec87359',1,'obe::Graphics::Canvas::text()'],['../classobe_1_1_graphics_1_1_text.html#a640b0252de7fcceedf243cb3f587088c',1,'obe::Graphics::Text::Text()']]],
   ['texturechanged',['textureChanged',['../classobe_1_1_animation_1_1_animator.html#ad710964804f5673b13e3628590f93665',1,'obe::Animation::Animator']]],
   ['tick',['tick',['../classobe_1_1_time_1_1_f_p_s_counter.html#a566d3fc89be18bdca3d5c3bff744157c',1,'obe::Time::FPSCounter']]],
   ['tinydir_5fclose',['tinydir_close',['../include_2elzip_2tinydir_8h.html#a05c4a9ee5c32f36ed3e5c5c7d00ae714',1,'tinydir_close(tinydir_dir *dir):&#160;tinydir.h'],['../build_2elzip_2src_2tinydir_8h.html#a05c4a9ee5c32f36ed3e5c5c7d00ae714',1,'tinydir_close(tinydir_dir *dir):&#160;tinydir.h']]],
@@ -14,6 +14,8 @@ var searchData=
   ['tinydir_5freadfile',['tinydir_readfile',['../include_2elzip_2tinydir_8h.html#a61b7dcb5bf8b9d410f8d54e1d2f3e0d4',1,'tinydir_readfile(const tinydir_dir *dir, tinydir_file *file):&#160;tinydir.h'],['../build_2elzip_2src_2tinydir_8h.html#a61b7dcb5bf8b9d410f8d54e1d2f3e0d4',1,'tinydir_readfile(const tinydir_dir *dir, tinydir_file *file):&#160;tinydir.h']]],
   ['tinydir_5freadfile_5fn',['tinydir_readfile_n',['../include_2elzip_2tinydir_8h.html#a4f943bf19a9a0b2b4dbd94cf956337bb',1,'tinydir_readfile_n(const tinydir_dir *dir, tinydir_file *file, size_t i):&#160;tinydir.h'],['../build_2elzip_2src_2tinydir_8h.html#a4f943bf19a9a0b2b4dbd94cf956337bb',1,'tinydir_readfile_n(const tinydir_dir *dir, tinydir_file *file, size_t i):&#160;tinydir.h']]],
   ['to',['to',['../classobe_1_1_transform_1_1_unit_vector.html#ac3baab00050c329e70453fd646224a0d',1,'obe::Transform::UnitVector::to() const'],['../classobe_1_1_transform_1_1_unit_vector.html#aa76c4cc869459016db4befd159ae4032',1,'obe::Transform::UnitVector::to(Units pUnit) const']]],
+  ['togglable',['Togglable',['../classobe_1_1_types_1_1_togglable.html#a32711565a3f76f022345ed8251fe9375',1,'obe::Types::Togglable']]],
+  ['toggle',['toggle',['../classobe_1_1_types_1_1_togglable.html#a17b7791a118f1612ad7805b90745f0dd',1,'obe::Types::Togglable']]],
   ['toggleselected',['toggleSelected',['../classobe_1_1_types_1_1_selectable.html#ae151bd12d316aaaf340ac8cc0ace5332',1,'obe::Types::Selectable']]],
   ['tostring',['toString',['../classobe_1_1_system_1_1_path.html#aab439649ec875cd45a99a18e9c9beda8',1,'obe::System::Path']]],
   ['transformable',['Transformable',['../classobe_1_1_graphics_1_1_transformable.html#aaba5ff63fbd312b5f12517976de1b385',1,'obe::Graphics::Transformable']]],

@@ -29,7 +29,7 @@
 </g>
 <!-- Node2 -->
 <g id="node3" class="node"><title>Node2</title>
-<g id="a_node3"><a xlink:href="namespaceobe_1_1_utils_1_1_vector.html#a964ff22524706c50e054f29d98b8ba6d" target="_top" xlink:title="obe::Utils::Vector\l::join">
+<g id="a_node3"><a xlink:href="namespaceobe_1_1_utils_1_1_vector.html#a964ff22524706c50e054f29d98b8ba6d" target="_top" xlink:title="Join all elements of a std::string into a std::string using a separator. ">
 <polygon fill="none" stroke="black" points="166.5,-1605.5 166.5,-1635.5 258.5,-1635.5 258.5,-1605.5 166.5,-1605.5"/>
 <text text-anchor="start" x="174.5" y="-1623.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Utils::Vector</text>
 <text text-anchor="middle" x="212.5" y="-1612.5" font-family="Helvetica,sans-Serif" font-size="10.00">::join</text>
@@ -393,7 +393,7 @@
 </g>
 <!-- Node34 -->
 <g id="node35" class="node"><title>Node34</title>
-<g id="a_node35"><a xlink:href="classobe_1_1_animation_1_1_animator.html#ae10105112a54370cebc98a72f4e0069a" target="_top" xlink:title="Get the contained Animation pointer by Animation name. ">
+<g id="a_node35"><a xlink:href="classobe_1_1_animation_1_1_animator.html#a6dc4d7317a42647f9353c48d66f2c9d0" target="_top" xlink:title="Get the contained Animation pointer by Animation name. ">
 <polygon fill="none" stroke="black" points="149,-694.5 149,-724.5 276,-724.5 276,-694.5 149,-694.5"/>
 <text text-anchor="start" x="157" y="-712.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Animation::Animator</text>
 <text text-anchor="middle" x="212.5" y="-701.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getAnimation</text>
@@ -532,10 +532,10 @@
 </g>
 <!-- Node14 -->
 <g id="node15" class="node"><title>Node14</title>
-<g id="a_node15"><a xlink:href="classobe_1_1_animation_1_1_animation_group.html#ac9b02b28b85055fd35a57846eed1e578" target="_top" xlink:title="Updates the Sprite to display (Done automatically after previous / next) ">
+<g id="a_node15"><a xlink:href="classobe_1_1_animation_1_1_animation_group.html#a2fa68140f6d5f397cac7c07cc2f1f6df" target="_top" xlink:title="Updates the Texture to display (Done automatically after previous / next) ">
 <polygon fill="none" stroke="black" points="331,-1067.5 331,-1097.5 462,-1097.5 462,-1067.5 331,-1067.5"/>
 <text text-anchor="start" x="339" y="-1085.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Animation::Animation</text>
-<text text-anchor="middle" x="396.5" y="-1074.5" font-family="Helvetica,sans-Serif" font-size="10.00">Group::updateSprite</text>
+<text text-anchor="middle" x="396.5" y="-1074.5" font-family="Helvetica,sans-Serif" font-size="10.00">Group::update</text>
 </a>
 </g>
 </g>
@@ -655,7 +655,7 @@
 </g>
 <!-- Node40 -->
 <g id="node40" class="node"><title>Node40</title>
-<g id="a_node40"><a xlink:href="namespaceobe_1_1_utils_1_1_vector.html#a636b7f465d67c2bf42a297f221af9cfe" target="_top" xlink:title="obe::Utils::Vector\l::isInList">
+<g id="a_node40"><a xlink:href="namespaceobe_1_1_utils_1_1_vector.html#a636b7f465d67c2bf42a297f221af9cfe" target="_top" xlink:title="Check if a given item is in the given std::vector. ">
 <polygon fill="none" stroke="black" points="350.5,-782.5 350.5,-812.5 442.5,-812.5 442.5,-782.5 350.5,-782.5"/>
 <text text-anchor="start" x="358.5" y="-800.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Utils::Vector</text>
 <text text-anchor="middle" x="396.5" y="-789.5" font-family="Helvetica,sans-Serif" font-size="10.00">::isInList</text>
@@ -734,10 +734,10 @@
 </g>
 <!-- Node49 -->
 <g id="node47" class="node"><title>Node49</title>
-<g id="a_node47"><a xlink:href="classobe_1_1_animation_1_1_animation.html#ac0fdc6d04307112e2de050e62b8df8dd" target="_top" xlink:title="Get the Sprite containing the current texture in the Animation. ">
+<g id="a_node47"><a xlink:href="classobe_1_1_animation_1_1_animation.html#a42881a9b7928324532448d43571d7771" target="_top" xlink:title="Get the sf::Texture containing the current texture in the Animation. ">
 <polygon fill="none" stroke="black" points="331,-49.5 331,-79.5 462,-79.5 462,-49.5 331,-49.5"/>
 <text text-anchor="start" x="339" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Animation::Animation</text>
-<text text-anchor="middle" x="396.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getSprite</text>
+<text text-anchor="middle" x="396.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getTexture</text>
 </a>
 </g>
 </g>

@@ -76,14 +76,17 @@ $(function() {
 Functions</h2></td></tr>
 <tr class="memitem:aa9f0dd6b1c4be1e3d86846944329d9f2"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
 <tr class="memitem:aa9f0dd6b1c4be1e3d86846944329d9f2"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacevili_1_1_functions_1_1_vector.html#aa9f0dd6b1c4be1e3d86846944329d9f2">isInList</a> (V item, const std::vector&lt; V &gt; &amp;vector)</td></tr>
+<tr class="memdesc:aa9f0dd6b1c4be1e3d86846944329d9f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a given item is in the given std::vector.  <a href="#aa9f0dd6b1c4be1e3d86846944329d9f2">More...</a><br /></td></tr>
 <tr class="separator:aa9f0dd6b1c4be1e3d86846944329d9f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f11b4d9b535b580a613a064d18b9caa"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
 <tr class="memitem:a9f11b4d9b535b580a613a064d18b9caa"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacevili_1_1_functions_1_1_vector.html#a9f11b4d9b535b580a613a064d18b9caa">indexOfElement</a> (V item, const std::vector&lt; V &gt; &amp;vector)</td></tr>
+<tr class="memdesc:a9f11b4d9b535b580a613a064d18b9caa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the index of an item in a std::vector.  <a href="#a9f11b4d9b535b580a613a064d18b9caa">More...</a><br /></td></tr>
 <tr class="separator:a9f11b4d9b535b580a613a064d18b9caa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10836e1fe04648534cfc59d9de9acd72"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacevili_1_1_functions_1_1_vector.html#a10836e1fe04648534cfc59d9de9acd72">join</a> (const std::vector&lt; std::string &gt; &amp;vector, const std::string &amp;sep=&quot;&quot;, int start=0, int end=0)</td></tr>
 <tr class="separator:a10836e1fe04648534cfc59d9de9acd72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0454c8e5ff5eef5cc9bb4977316a3c33"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
 <tr class="memitem:a0454c8e5ff5eef5cc9bb4977316a3c33"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacevili_1_1_functions_1_1_vector.html#a0454c8e5ff5eef5cc9bb4977316a3c33">eraseAll</a> (std::vector&lt; V &gt; &amp;vector, V elem)</td></tr>
+<tr class="memdesc:a0454c8e5ff5eef5cc9bb4977316a3c33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erases all occurences of a given element in the std::vector.  <a href="#a0454c8e5ff5eef5cc9bb4977316a3c33">More...</a><br /></td></tr>
 <tr class="separator:a0454c8e5ff5eef5cc9bb4977316a3c33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace60a93fefad7812e94f95d55a7b56a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacevili_1_1_functions_1_1_vector.html#ace60a93fefad7812e94f95d55a7b56a9">joinBetween</a> (std::vector&lt; std::string &gt; &amp;vector, const std::string &amp;joinValue, const std::string &amp;sep=&quot;&quot;)</td></tr>
 <tr class="separator:ace60a93fefad7812e94f95d55a7b56a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -94,6 +97,7 @@ Functions</h2></td></tr>
 <tr class="separator:acd48da64ad5d8c23cb96662066d30ac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add00f1aed7cb4dd7f967330150867182"><td class="memTemplParams" colspan="2">template&lt;typename V &gt; </td></tr>
 <tr class="memitem:add00f1aed7cb4dd7f967330150867182"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; V &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacevili_1_1_functions_1_1_vector.html#add00f1aed7cb4dd7f967330150867182">getSubVector</a> (const std::vector&lt; V &gt; &amp;vector, int start=0, int end=0)</td></tr>
+<tr class="memdesc:add00f1aed7cb4dd7f967330150867182"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a subpart of the given std::vector.  <a href="#add00f1aed7cb4dd7f967330150867182">More...</a><br /></td></tr>
 <tr class="separator:add00f1aed7cb4dd7f967330150867182"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -124,10 +128,26 @@ template&lt;typename V &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Erases all occurences of a given element in the std::vector. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">V</td><td>Type of the item you want to erase </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vector</td><td>Reference of the std::vector you want to erase the item from </td></tr>
+    <tr><td class="paramname">elem</td><td>Element you want to erase from the std::vector </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespacevili_1_1_functions_1_1_vector_a0454c8e5ff5eef5cc9bb4977316a3c33_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespacevili_1_1_functions_1_1_vector_a0454c8e5ff5eef5cc9bb4977316a3c33_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -195,10 +215,28 @@ template&lt;typename V &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get a subpart of the given std::vector. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">V</td><td>Type of the content contained in the given std::vector </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vector</td><td><a class="el" href="namespacevili_1_1_functions_1_1_vector.html">Vector</a> you want to get the subpart </td></tr>
+    <tr><td class="paramname">start</td><td>From which index of the std::vector </td></tr>
+    <tr><td class="paramname">end</td><td>From which index (starting at the end) of the std::vector </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The subvector from start index to end index of the initial std::vector </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespacevili_1_1_functions_1_1_vector_add00f1aed7cb4dd7f967330150867182_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespacevili_1_1_functions_1_1_vector_add00f1aed7cb4dd7f967330150867182_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -230,6 +268,22 @@ template&lt;typename V &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get the index of an item in a std::vector. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">V</td><td>Type of the item you want to check </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">item</td><td>Item you want to search in the std::vector </td></tr>
+    <tr><td class="paramname">vector</td><td>Reference of the std::vector you want to search the item in </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Index of the item in the std::vector </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -238,7 +292,8 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespacevili_1_1_functions_1_1_vector_a9f11b4d9b535b580a613a064d18b9caa_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespacevili_1_1_functions_1_1_vector_a9f11b4d9b535b580a613a064d18b9caa_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -278,10 +333,27 @@ template&lt;typename V &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Check if a given item is in the given std::vector. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">V</td><td>Type of the item you want to check </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">item</td><td>Item you want to search in the std::vector </td></tr>
+    <tr><td class="paramname">vector</td><td>Reference of the std::vector you want to search the item in </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the item is found in the std::vector, false otherwise </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespacevili_1_1_functions_1_1_vector_aa9f0dd6b1c4be1e3d86846944329d9f2_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespacevili_1_1_functions_1_1_vector_aa9f0dd6b1c4be1e3d86846944329d9f2_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -326,7 +398,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespacevili_1_1_functions_1_1_vector_a10836e1fe04648534cfc59d9de9acd72_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespacevili_1_1_functions_1_1_vector_a10836e1fe04648534cfc59d9de9acd72_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>

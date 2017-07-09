@@ -1,20 +1,20 @@
 <map id="obe::Transform::Rect::setPointPosition" name="obe::Transform::Rect::setPointPosition">
-<area shape="rect" id="node2" href="$classobe_1_1_transform_1_1_rect.html#adf40297c2c6af849749317a50b028a0d" title="obe::Transform::Rect\l::getPosition" alt="" coords="465,241,608,282"/>
+<area shape="rect" id="node2" href="$classobe_1_1_transform_1_1_rect.html#adf40297c2c6af849749317a50b028a0d" title="Get the Position of the Rect. " alt="" coords="465,241,608,282"/>
 <area shape="rect" id="node5" href="$classobe_1_1_transform_1_1_unit_vector.html#ac3baab00050c329e70453fd646224a0d" title="Return an UnitVector with the converted values (x, y) to the Unit you want. " alt="" coords="1161,172,1357,199"/>
-<area shape="rect" id="node6" href="$namespaceobe_1_1_transform.html#ad1159d36faebe48e25fca817cdfe4637" title="obe::Transform::reverseReferencial" alt="" coords="196,459,417,485"/>
-<area shape="rect" id="node7" href="$namespaceobe_1_1_transform.html#a0e610f7800bbfa83dde8e012d6f62b9f" title="obe::Transform::getReferencial\lOffset" alt="" coords="207,510,406,551"/>
-<area shape="rect" id="node8" href="$namespaceobe_1_1_transform.html#ad663f915014f2baf6f442a7f954719fb" title="obe::Transform::isOnCorner" alt="" coords="216,576,397,603"/>
-<area shape="rect" id="node9" href="$classobe_1_1_transform_1_1_rect.html#a76c0e31ad4c6f81b974e99be7a1bc088" title="obe::Transform::Rect\l::setPosition" alt="" coords="465,169,608,210"/>
-<area shape="rect" id="node11" href="$classobe_1_1_transform_1_1_rect.html#a33e764690a560ac81e2cb1dd73e0fb85" title="obe::Transform::Rect\l::setSize" alt="" coords="235,110,378,151"/>
-<area shape="rect" id="node12" href="$namespaceobe_1_1_transform.html#aa691fbdecf757ac44a346cfd94250af5" title="obe::Transform::isOnLeftSide" alt="" coords="211,627,402,653"/>
-<area shape="rect" id="node13" href="$namespaceobe_1_1_transform.html#ad3ae4d57d1e06878ea5355878dc9b502" title="obe::Transform::isOnRightSide" alt="" coords="207,677,406,704"/>
-<area shape="rect" id="node14" href="$classobe_1_1_transform_1_1_rect.html#ac9b2ed8814d9cca040d2c366e88c6f1a" title="obe::Transform::Rect\l::setX" alt="" coords="465,394,608,435"/>
-<area shape="rect" id="node15" href="$classobe_1_1_transform_1_1_rect.html#a69ac4ab4d8187fc542c271dda07629b3" title="obe::Transform::Rect\l::setWidth" alt="" coords="235,241,378,282"/>
-<area shape="rect" id="node16" href="$namespaceobe_1_1_transform.html#ad264cfdb85442817ba8fe485b4442393" title="obe::Transform::isOnTopSide" alt="" coords="211,728,402,755"/>
-<area shape="rect" id="node17" href="$namespaceobe_1_1_transform.html#a2c1ad33a5081603fa80cdfb59fbddcdc" title="obe::Transform::isOnBottomSide" alt="" coords="201,779,412,805"/>
-<area shape="rect" id="node18" href="$classobe_1_1_transform_1_1_rect.html#ae855608ced955a47fa764cfe5624ae4f" title="obe::Transform::Rect\l::setY" alt="" coords="465,321,608,362"/>
-<area shape="rect" id="node19" href="$classobe_1_1_transform_1_1_rect.html#afa80d81d169dc5889af23eb1373f6763" title="obe::Transform::Rect\l::setHeight" alt="" coords="235,175,378,217"/>
+<area shape="rect" id="node6" href="$namespaceobe_1_1_transform.html#ad1159d36faebe48e25fca817cdfe4637" title="Get the opposite Referencial in a Rect. " alt="" coords="196,459,417,485"/>
+<area shape="rect" id="node7" href="$namespaceobe_1_1_transform.html#a0e610f7800bbfa83dde8e012d6f62b9f" title="Get the normalized position of a Referencial in a Rect (&#45;1 : Left / Top, 0 = Center, 1 = Right / Bottom) " alt="" coords="207,510,406,551"/>
+<area shape="rect" id="node8" href="$namespaceobe_1_1_transform.html#ad663f915014f2baf6f442a7f954719fb" title="Get if the Referencial is on a corner of a normalized Rect. " alt="" coords="216,576,397,603"/>
+<area shape="rect" id="node9" href="$classobe_1_1_transform_1_1_rect.html#a76c0e31ad4c6f81b974e99be7a1bc088" title="Set the position of the Rect using an UnitVector. " alt="" coords="465,169,608,210"/>
+<area shape="rect" id="node11" href="$classobe_1_1_transform_1_1_rect.html#a33e764690a560ac81e2cb1dd73e0fb85" title="Set the size of the Rect. " alt="" coords="235,110,378,151"/>
+<area shape="rect" id="node12" href="$namespaceobe_1_1_transform.html#aa691fbdecf757ac44a346cfd94250af5" title="Get if the Referencial is on the left side of a normalized Rect. " alt="" coords="211,627,402,653"/>
+<area shape="rect" id="node13" href="$namespaceobe_1_1_transform.html#ad3ae4d57d1e06878ea5355878dc9b502" title="Get if the Referencial is on the right side of a normalized Rect. " alt="" coords="207,677,406,704"/>
+<area shape="rect" id="node14" href="$classobe_1_1_transform_1_1_rect.html#ac9b2ed8814d9cca040d2c366e88c6f1a" title="Only set the x Coordinate of the Position of the Rect. " alt="" coords="465,394,608,435"/>
+<area shape="rect" id="node15" href="$classobe_1_1_transform_1_1_rect.html#a69ac4ab4d8187fc542c271dda07629b3" title="Set the Width of the Rect. " alt="" coords="235,241,378,282"/>
+<area shape="rect" id="node16" href="$namespaceobe_1_1_transform.html#ad264cfdb85442817ba8fe485b4442393" title="Get if the Referencial is on the top side of a normalized Rect. " alt="" coords="211,728,402,755"/>
+<area shape="rect" id="node17" href="$namespaceobe_1_1_transform.html#a2c1ad33a5081603fa80cdfb59fbddcdc" title="Get if the Referencial is on the bottom side of a normalized Rect. " alt="" coords="201,779,412,805"/>
+<area shape="rect" id="node18" href="$classobe_1_1_transform_1_1_rect.html#ae855608ced955a47fa764cfe5624ae4f" title="Only set the y Coordinate of the Position of the Rect. " alt="" coords="465,321,608,362"/>
+<area shape="rect" id="node19" href="$classobe_1_1_transform_1_1_rect.html#afa80d81d169dc5889af23eb1373f6763" title="Set the Height of the Rect. " alt="" coords="235,175,378,217"/>
 <area shape="rect" id="node3" href="$classobe_1_1_transform_1_1_rect.html#a02a40e3f622105b27fa3841002d8739e" title="Transform the UnitVector passed by reference using the given Referencial. " alt="" coords="686,254,829,295"/>
-<area shape="rect" id="node4" href="$classobe_1_1_transform_1_1_unit_vector.html#ace41a69769656febcf45cb2f4b90fa0e" title="obe::Transform::UnitVector::add" alt="" coords="907,223,1113,249"/>
-<area shape="rect" id="node10" href="$classobe_1_1_transform_1_1_unit_vector.html#af3867f780ceba4d23046a85314bfa077" title="obe::Transform::UnitVector::set" alt="" coords="656,121,859,148"/>
+<area shape="rect" id="node4" href="$classobe_1_1_transform_1_1_unit_vector.html#ace41a69769656febcf45cb2f4b90fa0e" title="Adds the values of the the given UnitVector but keeps base Unit. " alt="" coords="907,223,1113,249"/>
+<area shape="rect" id="node10" href="$classobe_1_1_transform_1_1_unit_vector.html#af3867f780ceba4d23046a85314bfa077" title="Set the values of the given UnitVector but keeps base Unit. " alt="" coords="656,121,859,148"/>
 </map>

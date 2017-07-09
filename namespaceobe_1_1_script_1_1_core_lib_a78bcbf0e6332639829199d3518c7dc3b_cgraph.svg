@@ -8,41 +8,41 @@
  viewBox="0.00 0.00 402.00 199.50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 195.5)">
 <title>obe::Script::CoreLib::loadSTD</title>
-<!-- Node1059 -->
-<g id="node1" class="node"><title>Node1059</title>
+<!-- Node955 -->
+<g id="node1" class="node"><title>Node955</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-122.5 0,-152.5 103,-152.5 103,-122.5 0,-122.5"/>
 <text text-anchor="start" x="8" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Script::CoreLib</text>
 <text text-anchor="middle" x="51.5" y="-129.5" font-family="Helvetica,sans-Serif" font-size="10.00">::loadSTD</text>
 </g>
-<!-- Node1060 -->
-<g id="node2" class="node"><title>Node1060</title>
+<!-- Node956 -->
+<g id="node2" class="node"><title>Node956</title>
 <g id="a_node2"><a xlink:href="namespaceobe_1_1_script.html#a9582bae7b61bf604c2a68a8a016356ec" target="_top" xlink:title="obe::Script::registerLib">
 <polygon fill="none" stroke="black" points="139,-172 139,-191 254,-191 254,-172 139,-172"/>
 <text text-anchor="middle" x="196.5" y="-179" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Script::registerLib</text>
 </a>
 </g>
 </g>
-<!-- Node1059&#45;&gt;Node1060 -->
-<g id="edge1" class="edge"><title>Node1059&#45;&gt;Node1060</title>
+<!-- Node955&#45;&gt;Node956 -->
+<g id="edge1" class="edge"><title>Node955&#45;&gt;Node956</title>
 <path fill="none" stroke="midnightblue" d="M101.313,-152.519C118.599,-157.838 137.86,-163.765 154.437,-168.865"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="153.783,-172.326 164.371,-171.922 155.842,-165.636 153.783,-172.326"/>
 </g>
-<!-- Node1061 -->
-<g id="node3" class="node"><title>Node1061</title>
-<g id="a_node3"><a xlink:href="namespaceobe_1_1_utils_1_1_vector.html#a964ff22524706c50e054f29d98b8ba6d" target="_top" xlink:title="obe::Utils::Vector\l::join">
+<!-- Node957 -->
+<g id="node3" class="node"><title>Node957</title>
+<g id="a_node3"><a xlink:href="namespaceobe_1_1_utils_1_1_vector.html#a964ff22524706c50e054f29d98b8ba6d" target="_top" xlink:title="Join all elements of a std::string into a std::string using a separator. ">
 <polygon fill="none" stroke="black" points="150.5,-122.5 150.5,-152.5 242.5,-152.5 242.5,-122.5 150.5,-122.5"/>
 <text text-anchor="start" x="158.5" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Utils::Vector</text>
 <text text-anchor="middle" x="196.5" y="-129.5" font-family="Helvetica,sans-Serif" font-size="10.00">::join</text>
 </a>
 </g>
 </g>
-<!-- Node1059&#45;&gt;Node1061 -->
-<g id="edge2" class="edge"><title>Node1059&#45;&gt;Node1061</title>
+<!-- Node955&#45;&gt;Node957 -->
+<g id="edge2" class="edge"><title>Node955&#45;&gt;Node957</title>
 <path fill="none" stroke="midnightblue" d="M103.319,-137.5C115.116,-137.5 127.735,-137.5 139.732,-137.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="140.079,-141 150.079,-137.5 140.079,-134 140.079,-141"/>
 </g>
-<!-- Node1062 -->
-<g id="node4" class="node"><title>Node1062</title>
+<!-- Node958 -->
+<g id="node4" class="node"><title>Node958</title>
 <g id="a_node4"><a xlink:href="classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b" target="_top" xlink:title="aube::ErrorHandler\l::Raise">
 <polygon fill="none" stroke="black" points="147.5,-73.5 147.5,-103.5 245.5,-103.5 245.5,-73.5 147.5,-73.5"/>
 <text text-anchor="start" x="155.5" y="-91.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorHandler</text>
@@ -50,13 +50,13 @@
 </a>
 </g>
 </g>
-<!-- Node1059&#45;&gt;Node1062 -->
-<g id="edge3" class="edge"><title>Node1059&#45;&gt;Node1062</title>
+<!-- Node955&#45;&gt;Node958 -->
+<g id="edge3" class="edge"><title>Node955&#45;&gt;Node958</title>
 <path fill="none" stroke="midnightblue" d="M96.5715,-122.399C110.843,-117.508 126.833,-112.029 141.727,-106.926"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="143.002,-110.189 151.328,-103.636 140.733,-103.567 143.002,-110.189"/>
 </g>
-<!-- Node1063 -->
-<g id="node5" class="node"><title>Node1063</title>
+<!-- Node959 -->
+<g id="node5" class="node"><title>Node959</title>
 <g id="a_node5"><a xlink:href="classaube_1_1_error_message.html#a3a39b6fcd8fdb12eaf6383123535b8ca" target="_top" xlink:title="aube::ErrorMessage\l::getFile">
 <polygon fill="none" stroke="black" points="290,-147.5 290,-177.5 394,-177.5 394,-147.5 290,-147.5"/>
 <text text-anchor="start" x="298" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
@@ -64,13 +64,13 @@
 </a>
 </g>
 </g>
-<!-- Node1062&#45;&gt;Node1063 -->
-<g id="edge4" class="edge"><title>Node1062&#45;&gt;Node1063</title>
+<!-- Node958&#45;&gt;Node959 -->
+<g id="edge4" class="edge"><title>Node958&#45;&gt;Node959</title>
 <path fill="none" stroke="midnightblue" d="M234.17,-103.504C240.878,-106.591 247.734,-109.98 254,-113.5 270.984,-123.04 273.128,-128.763 290,-138.5 292.503,-139.944 295.107,-141.375 297.756,-142.776"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="296.35,-145.987 306.85,-147.399 299.522,-139.747 296.35,-145.987"/>
 </g>
-<!-- Node1064 -->
-<g id="node6" class="node"><title>Node1064</title>
+<!-- Node960 -->
+<g id="node6" class="node"><title>Node960</title>
 <g id="a_node6"><a xlink:href="classaube_1_1_error_message.html#a9184cc96589578f434351c105b0cd5f7" target="_top" xlink:title="aube::ErrorMessage\l::getLocation">
 <polygon fill="none" stroke="black" points="290,-98.5 290,-128.5 394,-128.5 394,-98.5 290,-98.5"/>
 <text text-anchor="start" x="298" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
@@ -78,13 +78,13 @@
 </a>
 </g>
 </g>
-<!-- Node1062&#45;&gt;Node1064 -->
-<g id="edge5" class="edge"><title>Node1062&#45;&gt;Node1064</title>
+<!-- Node958&#45;&gt;Node960 -->
+<g id="edge5" class="edge"><title>Node958&#45;&gt;Node960</title>
 <path fill="none" stroke="midnightblue" d="M245.683,-96.8942C256.64,-98.8032 268.423,-100.856 279.84,-102.845"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="279.296,-106.303 289.749,-104.571 280.498,-99.4068 279.296,-106.303"/>
 </g>
-<!-- Node1065 -->
-<g id="node7" class="node"><title>Node1065</title>
+<!-- Node961 -->
+<g id="node7" class="node"><title>Node961</title>
 <g id="a_node7"><a xlink:href="classaube_1_1_error_message.html#a07927cb3e2d0712c459cc9e2b5f52696" target="_top" xlink:title="aube::ErrorMessage\l::getMessage">
 <polygon fill="none" stroke="black" points="290,-49.5 290,-79.5 394,-79.5 394,-49.5 290,-49.5"/>
 <text text-anchor="start" x="298" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
@@ -92,13 +92,13 @@
 </a>
 </g>
 </g>
-<!-- Node1062&#45;&gt;Node1065 -->
-<g id="edge6" class="edge"><title>Node1062&#45;&gt;Node1065</title>
+<!-- Node958&#45;&gt;Node961 -->
+<g id="edge6" class="edge"><title>Node958&#45;&gt;Node961</title>
 <path fill="none" stroke="midnightblue" d="M245.683,-80.4416C256.64,-78.6089 268.423,-76.6383 279.84,-74.7289"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="280.463,-78.1733 289.749,-73.0716 279.308,-71.2692 280.463,-78.1733"/>
 </g>
-<!-- Node1066 -->
-<g id="node8" class="node"><title>Node1066</title>
+<!-- Node962 -->
+<g id="node8" class="node"><title>Node962</title>
 <g id="a_node8"><a xlink:href="classaube_1_1_error_message.html#a77c2f9b7e93542c958173b52da267989" target="_top" xlink:title="aube::ErrorMessage\l::getHints">
 <polygon fill="none" stroke="black" points="290,-0.5 290,-30.5 394,-30.5 394,-0.5 290,-0.5"/>
 <text text-anchor="start" x="298" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
@@ -106,8 +106,8 @@
 </a>
 </g>
 </g>
-<!-- Node1062&#45;&gt;Node1066 -->
-<g id="edge7" class="edge"><title>Node1062&#45;&gt;Node1066</title>
+<!-- Node958&#45;&gt;Node962 -->
+<g id="edge7" class="edge"><title>Node958&#45;&gt;Node962</title>
 <path fill="none" stroke="midnightblue" d="M226.163,-73.4115C244.388,-63.8706 268.516,-51.3381 290,-40.5 293.515,-38.7269 297.173,-36.8989 300.846,-35.0762"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="302.512,-38.1569 309.928,-30.5905 299.412,-31.8806 302.512,-38.1569"/>
 </g>

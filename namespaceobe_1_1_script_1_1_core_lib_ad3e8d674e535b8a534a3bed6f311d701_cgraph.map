@@ -1,6 +1,6 @@
 <map id="obe::Script::CoreLib::loadAnimation" name="obe::Script::CoreLib::loadAnimation">
 <area shape="rect" id="node2" href="$namespaceobe_1_1_script.html#a9582bae7b61bf604c2a68a8a016356ec" title="obe::Script::registerLib" alt="" coords="212,5,365,32"/>
-<area shape="rect" id="node3" href="$namespaceobe_1_1_utils_1_1_vector.html#a964ff22524706c50e054f29d98b8ba6d" title="obe::Utils::Vector\l::join" alt="" coords="227,57,350,98"/>
+<area shape="rect" id="node3" href="$namespaceobe_1_1_utils_1_1_vector.html#a964ff22524706c50e054f29d98b8ba6d" title="Join all elements of a std::string into a std::string using a separator. " alt="" coords="227,57,350,98"/>
 <area shape="rect" id="node4" href="$classobe_1_1_animation_1_1_animation_group.html#a0b056c66c2d92069410cdb55e2b6909f" title="Set the delay between each frame of the AnimationGroup. " alt="" coords="201,122,376,163"/>
 <area shape="rect" id="node5" href="$classobe_1_1_animation_1_1_animation_group.html#a290408374f6903f3f237daadd2178862" title="Set how many times the AnimationGroup should be replayed before end. " alt="" coords="201,187,376,229"/>
 <area shape="rect" id="node6" href="$classobe_1_1_animation_1_1_animation_group.html#af60aa78a4377e33f6a0e18083418fbca" title="Get the name of the AnimationGroup. " alt="" coords="201,253,376,294"/>
@@ -26,7 +26,7 @@
 <area shape="rect" id="node32" href="$classobe_1_1_animation_1_1_animation.html#aaa25dfcaba92f38ae4e42435e4546902" title="Get the x Coordinate of the Sprite Offset (0 if not defined) " alt="" coords="447,1789,621,1830"/>
 <area shape="rect" id="node33" href="$classobe_1_1_animation_1_1_animation.html#aeb91dbc957c76512391451810faa6970" title="Get the y Coordinate of the Sprite Offset (0 if not defined) " alt="" coords="447,1906,621,1947"/>
 <area shape="rect" id="node34" href="$classobe_1_1_animation_1_1_animation.html#aa5c71967c0484463123b1a4cd7ad497c" title="Returns the Animation priority. " alt="" coords="447,1505,621,1546"/>
-<area shape="rect" id="node35" href="$classobe_1_1_animation_1_1_animator.html#ae10105112a54370cebc98a72f4e0069a" title="Get the contained Animation pointer by Animation name. " alt="" coords="204,1271,373,1313"/>
+<area shape="rect" id="node35" href="$classobe_1_1_animation_1_1_animator.html#a6dc4d7317a42647f9353c48d66f2c9d0" title="Get the contained Animation pointer by Animation name. " alt="" coords="204,1271,373,1313"/>
 <area shape="rect" id="node37" href="$classobe_1_1_animation_1_1_animator.html#aef879d34e09310ab19a3f7f244d57b96" title="Get the name of all contained Animation. " alt="" coords="204,2001,373,2042"/>
 <area shape="rect" id="node38" href="$classobe_1_1_animation_1_1_animator.html#a04c9d6baabb9a1b193cd26ab0b3e4766" title="Loads the Animator (Using the Animator root path). &#160;It will also load all the Animation contained in ..." alt="" coords="204,1154,373,1195"/>
 <area shape="rect" id="node44" href="$classobe_1_1_animation_1_1_animator.html#a55671134e7608fa71f46cc2ae3aa51a6" title="Get the name of the currently played Animation. " alt="" coords="204,2066,373,2107"/>
@@ -36,16 +36,16 @@
 <area shape="rect" id="node49" href="$classobe_1_1_animation_1_1_animator.html#a4af612a762b60d30edc0ddca2d9b4832" title="Get the y Coordinate of the current offset of the current Sprite. " alt="" coords="204,1935,373,1977"/>
 <area shape="rect" id="node50" href="$classobe_1_1_animation_1_1_animator.html#a0d8e801b4cbfec51169e058521776d48" title="Sets the path of the Animator root. " alt="" coords="204,2197,373,2238"/>
 <area shape="rect" id="node14" href="$namespaceobe_1_1_time.html#a8ae76b1e66dea054aced3ab86ecb6d3f" title="Get the amount of milliseconds elapsed since Epoch. " alt="" coords="435,720,633,747"/>
-<area shape="rect" id="node15" href="$classobe_1_1_animation_1_1_animation_group.html#ac9b02b28b85055fd35a57846eed1e578" title="Updates the Sprite to display (Done automatically after previous / next) " alt="" coords="447,774,621,815"/>
+<area shape="rect" id="node15" href="$classobe_1_1_animation_1_1_animation_group.html#a2fa68140f6d5f397cac7c07cc2f1f6df" title="Updates the Texture to display (Done automatically after previous / next) " alt="" coords="447,774,621,815"/>
 <area shape="rect" id="node23" href="$classaube_1_1_error_message.html#a3a39b6fcd8fdb12eaf6383123535b8ca" title="aube::ErrorMessage\l::getFile" alt="" coords="860,1114,999,1155"/>
 <area shape="rect" id="node24" href="$classaube_1_1_error_message.html#a9184cc96589578f434351c105b0cd5f7" title="aube::ErrorMessage\l::getLocation" alt="" coords="860,1179,999,1221"/>
 <area shape="rect" id="node25" href="$classaube_1_1_error_message.html#a07927cb3e2d0712c459cc9e2b5f52696" title="aube::ErrorMessage\l::getMessage" alt="" coords="860,1245,999,1286"/>
 <area shape="rect" id="node26" href="$classaube_1_1_error_message.html#a77c2f9b7e93542c958173b52da267989" title="aube::ErrorMessage\l::getHints" alt="" coords="860,1310,999,1351"/>
 <area shape="rect" id="node36" href="$classobe_1_1_system_1_1_path.html#aab439649ec875cd45a99a18e9c9beda8" title="Get the current path in string form. " alt="" coords="465,1322,603,1363"/>
 <area shape="rect" id="node39" href="$classobe_1_1_system_1_1_path.html#a096ad4fa7397aa42fd73661b08f50e2a" title="obe::System::Path::\lloadResource" alt="" coords="465,971,603,1013"/>
-<area shape="rect" id="node40" href="$namespaceobe_1_1_utils_1_1_vector.html#a636b7f465d67c2bf42a297f221af9cfe" title="obe::Utils::Vector\l::isInList" alt="" coords="473,1154,595,1195"/>
+<area shape="rect" id="node40" href="$namespaceobe_1_1_utils_1_1_vector.html#a636b7f465d67c2bf42a297f221af9cfe" title="Check if a given item is in the given std::vector. " alt="" coords="473,1154,595,1195"/>
 <area shape="rect" id="node41" href="$classvili_1_1_data_parser.html#ac2744d454c122cb1adff342be588bc8d" title="vili::DataParser::at" alt="" coords="470,920,598,947"/>
 <area shape="rect" id="node42" href="$classvili_1_1_complex_attribute.html#a6225afe489577c1e02e21c6a31387a1a" title="vili::ComplexAttribute\l::getAll" alt="" coords="462,1037,606,1078"/>
 <area shape="rect" id="node43" href="$classobe_1_1_system_1_1_path.html#ab3b53b3bb2e98d5e23c35692a52eb66c" title="Returns a new Path which is the current one concatened with the given string. " alt="" coords="454,1103,614,1129"/>
-<area shape="rect" id="node47" href="$classobe_1_1_animation_1_1_animation.html#ac0fdc6d04307112e2de050e62b8df8dd" title="Get the Sprite containing the current texture in the Animation. " alt="" coords="447,2131,621,2173"/>
+<area shape="rect" id="node47" href="$classobe_1_1_animation_1_1_animation.html#a42881a9b7928324532448d43571d7771" title="Get the sf::Texture containing the current texture in the Animation. " alt="" coords="447,2131,621,2173"/>
 </map>

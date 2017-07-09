@@ -57,26 +57,26 @@ var sectionId = 'dynsection-8';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>obe::Script::loadHookBridge</title>
-<!-- Node840 -->
-<g id="node1" class="node"><title>Node840</title>
+<!-- Node730 -->
+<g id="node1" class="node"><title>Node730</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-80 0,-99 138,-99 138,-80 0,-80"/>
 <text text-anchor="middle" x="69" y="-87" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Script::loadHookBridge</text>
 </g>
-<!-- Node841 -->
-<g id="node2" class="node"><title>Node841</title>
+<!-- Node731 -->
+<g id="node2" class="node"><title>Node731</title>
 <g id="a_node2"><a xlink:href="namespaceobe_1_1_script.html#a93f11dc0cdd5fc4a7ff54cb89f54c877" target="_top" xlink:title="obe::Script::loadHook">
 <polygon fill="none" stroke="black" points="174,-101 174,-120 284,-120 284,-101 174,-101"/>
 <text text-anchor="middle" x="229" y="-108" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Script::loadHook</text>
 </a>
 </g>
 </g>
-<!-- Node840&#45;&gt;Node841 -->
-<g id="edge1" class="edge"><title>Node840&#45;&gt;Node841</title>
+<!-- Node730&#45;&gt;Node731 -->
+<g id="edge1" class="edge"><title>Node730&#45;&gt;Node731</title>
 <path fill="none" stroke="midnightblue" d="M138.382,-98.5888C146.802,-99.7078 155.385,-100.849 163.741,-101.959"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="163.419,-105.447 173.793,-103.295 164.341,-98.5082 163.419,-105.447"/>
 </g>
-<!-- Node848 -->
-<g id="node9" class="node"><title>Node848</title>
+<!-- Node738 -->
+<g id="node9" class="node"><title>Node738</title>
 <g id="a_node9"><a xlink:href="classobe_1_1_script_1_1_game_object.html#a61f9941db4fef03c62a67b8964f834fe" target="_top" xlink:title="obe::Script::GameObject\l::getScript">
 <polygon fill="none" stroke="black" points="320,-49.5 320,-79.5 445,-79.5 445,-49.5 320,-49.5"/>
 <text text-anchor="start" x="328" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Script::GameObject</text>
@@ -84,13 +84,13 @@ var sectionId = 'dynsection-8';
 </a>
 </g>
 </g>
-<!-- Node840&#45;&gt;Node848 -->
-<g id="edge8" class="edge"><title>Node840&#45;&gt;Node848</title>
+<!-- Node730&#45;&gt;Node738 -->
+<g id="edge8" class="edge"><title>Node730&#45;&gt;Node738</title>
 <path fill="none" stroke="midnightblue" d="M138.36,-84.0136C189.149,-79.9374 258.27,-74.3901 309.832,-70.2518"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="310.212,-73.7327 319.9,-69.4438 309.652,-66.7551 310.212,-73.7327"/>
 </g>
-<!-- Node842 -->
-<g id="node3" class="node"><title>Node842</title>
+<!-- Node732 -->
+<g id="node3" class="node"><title>Node732</title>
 <g id="a_node3"><a xlink:href="classobe_1_1_script_1_1_core_hook.html#a538af6eb1b935aa7cbf6623a404675ea" target="_top" xlink:title="obe::Script::CoreHook\l::getValue">
 <polygon fill="none" stroke="black" points="326,-98.5 326,-128.5 439,-128.5 439,-98.5 326,-98.5"/>
 <text text-anchor="start" x="334" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Script::CoreHook</text>
@@ -98,13 +98,13 @@ var sectionId = 'dynsection-8';
 </a>
 </g>
 </g>
-<!-- Node841&#45;&gt;Node842 -->
-<g id="edge2" class="edge"><title>Node841&#45;&gt;Node842</title>
+<!-- Node731&#45;&gt;Node732 -->
+<g id="edge2" class="edge"><title>Node731&#45;&gt;Node732</title>
 <path fill="none" stroke="midnightblue" d="M284.267,-111.575C294.392,-111.775 305.075,-111.987 315.507,-112.193"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="315.758,-115.699 325.826,-112.398 315.897,-108.7 315.758,-115.699"/>
 </g>
-<!-- Node843 -->
-<g id="node4" class="node"><title>Node843</title>
+<!-- Node733 -->
+<g id="node4" class="node"><title>Node733</title>
 <g id="a_node4"><a xlink:href="classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b" target="_top" xlink:title="aube::ErrorHandler\l::Raise">
 <polygon fill="none" stroke="black" points="481,-73.5 481,-103.5 579,-103.5 579,-73.5 481,-73.5"/>
 <text text-anchor="start" x="489" y="-91.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorHandler</text>
@@ -112,13 +112,13 @@ var sectionId = 'dynsection-8';
 </a>
 </g>
 </g>
-<!-- Node842&#45;&gt;Node843 -->
-<g id="edge3" class="edge"><title>Node842&#45;&gt;Node843</title>
+<!-- Node732&#45;&gt;Node733 -->
+<g id="edge3" class="edge"><title>Node732&#45;&gt;Node733</title>
 <path fill="none" stroke="midnightblue" d="M439.338,-103.906C449.556,-102.15 460.245,-100.314 470.537,-98.5452"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="471.401,-101.948 480.664,-96.8051 470.216,-95.0491 471.401,-101.948"/>
 </g>
-<!-- Node844 -->
-<g id="node5" class="node"><title>Node844</title>
+<!-- Node734 -->
+<g id="node5" class="node"><title>Node734</title>
 <g id="a_node5"><a xlink:href="classaube_1_1_error_message.html#a3a39b6fcd8fdb12eaf6383123535b8ca" target="_top" xlink:title="aube::ErrorMessage\l::getFile">
 <polygon fill="none" stroke="black" points="615,-147.5 615,-177.5 719,-177.5 719,-147.5 615,-147.5"/>
 <text text-anchor="start" x="623" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
@@ -126,13 +126,13 @@ var sectionId = 'dynsection-8';
 </a>
 </g>
 </g>
-<!-- Node843&#45;&gt;Node844 -->
-<g id="edge4" class="edge"><title>Node843&#45;&gt;Node844</title>
+<!-- Node733&#45;&gt;Node734 -->
+<g id="edge4" class="edge"><title>Node733&#45;&gt;Node734</title>
 <path fill="none" stroke="midnightblue" d="M554.905,-103.572C571.524,-113.84 594.318,-127.511 615,-138.5 617.852,-140.015 620.816,-141.538 623.816,-143.043"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="622.327,-146.211 632.847,-147.471 625.409,-139.926 622.327,-146.211"/>
 </g>
-<!-- Node845 -->
-<g id="node6" class="node"><title>Node845</title>
+<!-- Node735 -->
+<g id="node6" class="node"><title>Node735</title>
 <g id="a_node6"><a xlink:href="classaube_1_1_error_message.html#a9184cc96589578f434351c105b0cd5f7" target="_top" xlink:title="aube::ErrorMessage\l::getLocation">
 <polygon fill="none" stroke="black" points="615,-98.5 615,-128.5 719,-128.5 719,-98.5 615,-98.5"/>
 <text text-anchor="start" x="623" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
@@ -140,13 +140,13 @@ var sectionId = 'dynsection-8';
 </a>
 </g>
 </g>
-<!-- Node843&#45;&gt;Node845 -->
-<g id="edge5" class="edge"><title>Node843&#45;&gt;Node845</title>
+<!-- Node733&#45;&gt;Node735 -->
+<g id="edge5" class="edge"><title>Node733&#45;&gt;Node735</title>
 <path fill="none" stroke="midnightblue" d="M579.357,-97.455C587.622,-98.9856 596.306,-100.594 604.852,-102.176"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="604.318,-105.637 614.788,-104.016 605.592,-98.7538 604.318,-105.637"/>
 </g>
-<!-- Node846 -->
-<g id="node7" class="node"><title>Node846</title>
+<!-- Node736 -->
+<g id="node7" class="node"><title>Node736</title>
 <g id="a_node7"><a xlink:href="classaube_1_1_error_message.html#a07927cb3e2d0712c459cc9e2b5f52696" target="_top" xlink:title="aube::ErrorMessage\l::getMessage">
 <polygon fill="none" stroke="black" points="615,-49.5 615,-79.5 719,-79.5 719,-49.5 615,-49.5"/>
 <text text-anchor="start" x="623" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
@@ -154,13 +154,13 @@ var sectionId = 'dynsection-8';
 </a>
 </g>
 </g>
-<!-- Node843&#45;&gt;Node846 -->
-<g id="edge6" class="edge"><title>Node843&#45;&gt;Node846</title>
+<!-- Node733&#45;&gt;Node736 -->
+<g id="edge6" class="edge"><title>Node733&#45;&gt;Node736</title>
 <path fill="none" stroke="midnightblue" d="M579.357,-79.9032C587.622,-78.4338 596.306,-76.8901 604.852,-75.3708"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="605.555,-78.8008 614.788,-73.6044 604.33,-71.9088 605.555,-78.8008"/>
 </g>
-<!-- Node847 -->
-<g id="node8" class="node"><title>Node847</title>
+<!-- Node737 -->
+<g id="node8" class="node"><title>Node737</title>
 <g id="a_node8"><a xlink:href="classaube_1_1_error_message.html#a77c2f9b7e93542c958173b52da267989" target="_top" xlink:title="aube::ErrorMessage\l::getHints">
 <polygon fill="none" stroke="black" points="615,-0.5 615,-30.5 719,-30.5 719,-0.5 615,-0.5"/>
 <text text-anchor="start" x="623" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
@@ -168,13 +168,13 @@ var sectionId = 'dynsection-8';
 </a>
 </g>
 </g>
-<!-- Node843&#45;&gt;Node847 -->
-<g id="edge7" class="edge"><title>Node843&#45;&gt;Node847</title>
+<!-- Node733&#45;&gt;Node737 -->
+<g id="edge7" class="edge"><title>Node733&#45;&gt;Node737</title>
 <path fill="none" stroke="midnightblue" d="M555.67,-73.3362C572.239,-63.3449 594.676,-50.1835 615,-39.5 617.858,-37.9975 620.827,-36.4835 623.831,-34.986"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="625.42,-38.1052 632.869,-30.571 622.347,-31.8155 625.42,-38.1052"/>
 </g>
-<!-- Node848&#45;&gt;Node843 -->
-<g id="edge9" class="edge"><title>Node848&#45;&gt;Node843</title>
+<!-- Node738&#45;&gt;Node733 -->
+<g id="edge9" class="edge"><title>Node738&#45;&gt;Node733</title>
 <path fill="none" stroke="midnightblue" d="M445.205,-74.6782C453.685,-76.0769 462.37,-77.5095 470.784,-78.8974"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="470.446,-82.3888 480.882,-80.563 471.585,-75.4821 470.446,-82.3888"/>
 </g>

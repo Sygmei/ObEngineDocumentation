@@ -1,6 +1,6 @@
 <map id="obe::Script::CoreLib::loadVili" name="obe::Script::CoreLib::loadVili">
 <area shape="rect" id="node2" href="$namespaceobe_1_1_script.html#a9582bae7b61bf604c2a68a8a016356ec" title="obe::Script::registerLib" alt="" coords="203,5,357,32"/>
-<area shape="rect" id="node3" href="$namespaceobe_1_1_utils_1_1_vector.html#a964ff22524706c50e054f29d98b8ba6d" title="obe::Utils::Vector\l::join" alt="" coords="219,57,341,98"/>
+<area shape="rect" id="node3" href="$namespaceobe_1_1_utils_1_1_vector.html#a964ff22524706c50e054f29d98b8ba6d" title="Join all elements of a std::string into a std::string using a separator. " alt="" coords="219,57,341,98"/>
 <area shape="rect" id="node4" href="$classvili_1_1_data_parser.html#ac7fb46dc75cfc72cfc28be07313d76e1" title="vili::DataParser::createFlag" alt="" coords="191,123,369,149"/>
 <area shape="rect" id="node5" href="$classvili_1_1_data_parser.html#a951539097a656fddc55837d956874bd3" title="vili::DataParser::getAmount\lOfFlags" alt="" coords="417,259,597,301"/>
 <area shape="rect" id="node6" href="$classvili_1_1_data_parser.html#a13a0a45fdaf2b95050ad0bf5093aca64" title="vili::DataParser::getFlag\lAtIndex" alt="" coords="427,194,587,235"/>
@@ -10,7 +10,7 @@
 <area shape="rect" id="node16" href="$classvili_1_1_attribute.html#a4af867485d90f3ce77332995e5dcfc5f" title="vili::Attribute::getID" alt="" coords="1511,1395,1641,1421"/>
 <area shape="rect" id="node17" href="$classvili_1_1_data_parser.html#abfcc0922f314930726cfc0a9b6bb401a" title="vili::DataParser::hasFlag" alt="" coords="199,477,361,504"/>
 <area shape="rect" id="node18" href="$classvili_1_1_data_parser.html#a62335843bbbf677c61d446eaed1b30fb" title="vili::DataParser::writeFile" alt="" coords="197,224,363,251"/>
-<area shape="rect" id="node19" href="$namespaceobe_1_1_utils_1_1_string.html#a3dd6c64630cb7a8525f6ce804bda8ee6" title="obe::Utils::String\l::contains" alt="" coords="221,579,339,621"/>
+<area shape="rect" id="node19" href="$namespaceobe_1_1_utils_1_1_string.html#a3dd6c64630cb7a8525f6ce804bda8ee6" title="Check if a string contains another one. " alt="" coords="221,579,339,621"/>
 <area shape="rect" id="node20" href="$classvili_1_1_attribute.html#a3a59cd36c4317ab0af2139a9db0f4c9b" title="vili::Attribute::getType" alt="" coords="207,645,353,672"/>
 <area shape="rect" id="node21" href="$classvili_1_1_complex_attribute.html#a7233ea8ca9064aa9915b0c434f29e686" title="vili::ComplexAttribute\l::createBaseAttribute" alt="" coords="207,747,353,789"/>
 <area shape="rect" id="node22" href="$classvili_1_1_complex_attribute.html#a7031eabef8547fe00efb455c75b5e28e" title="vili::ComplexAttribute\l::getBaseAttribute" alt="" coords="856,743,1000,785"/>
@@ -36,14 +36,14 @@
 <area shape="rect" id="node48" href="$classvili_1_1_base_attribute.html#a020cdacac377615d95728677256ecc4d" title="vili::BaseAttribute\l::returnData" alt="" coords="219,2013,341,2054"/>
 <area shape="rect" id="node49" href="$classvili_1_1_base_attribute.html#aa9d584a49371506524beee1672ccd976" title="vili::BaseAttribute::set" alt="" coords="1059,1217,1208,1244"/>
 <area shape="rect" id="node7" href="$namespacevili_1_1_functions_1_1_string.html#ad7421099a2ab911f64f06d89abc7d7cf" title="vili::Functions::String\l::extract" alt="" coords="1062,251,1205,293"/>
-<area shape="rect" id="node8" href="$namespacevili_1_1_functions_1_1_string.html#a1fbc6d2a04846beafb94140e7f0e7ed2" title="vili::Functions::String\l::occurencesInString" alt="" coords="655,259,798,301"/>
-<area shape="rect" id="node9" href="$namespacevili_1_1_functions_1_1_string.html#a9133ec632cc286cede9c5403c5b593b2" title="vili::Functions::String\l::split" alt="" coords="655,194,798,235"/>
+<area shape="rect" id="node8" href="$namespacevili_1_1_functions_1_1_string.html#a1fbc6d2a04846beafb94140e7f0e7ed2" title="Count of the occurences of occur in string str. " alt="" coords="655,259,798,301"/>
+<area shape="rect" id="node9" href="$namespacevili_1_1_functions_1_1_string.html#a9133ec632cc286cede9c5403c5b593b2" title="Splits a std::string using a delimited. " alt="" coords="655,194,798,235"/>
 <area shape="rect" id="node10" href="$namespacevili_1_1_functions_1_1_vector.html#a10836e1fe04648534cfc59d9de9acd72" title="vili::Functions::Vector\l::join" alt="" coords="1503,334,1649,375"/>
 <area shape="rect" id="node12" href="$classvili_1_1_complex_attribute.html#a32c485eda1b5e129cfd92efae3e152b0" title="vili::ComplexAttribute\l::getPath" alt="" coords="856,310,1000,351"/>
 <area shape="rect" id="node15" href="$classvili_1_1_attribute.html#a14b2534c1250d36bb0c02f7e5c25b40b" title="vili::Attribute::getNodePath" alt="" coords="1273,591,1449,617"/>
 <area shape="rect" id="node23" href="$classvili_1_1_base_attribute.html#a90ccd428f7465b44a490c2f007b1262d" title="vili::BaseAttribute\l::autoset" alt="" coords="867,530,989,571"/>
-<area shape="rect" id="node24" href="$namespacevili_1_1_functions_1_1_vector.html#aa9f0dd6b1c4be1e3d86846944329d9f2" title="vili::Functions::Vector\l::isInList" alt="" coords="434,1126,581,1167"/>
-<area shape="rect" id="node30" href="$namespacevili_1_1_functions_1_1_vector.html#a9f11b4d9b535b580a613a064d18b9caa" title="vili::Functions::Vector\l::indexOfElement" alt="" coords="434,1061,581,1102"/>
+<area shape="rect" id="node24" href="$namespacevili_1_1_functions_1_1_vector.html#aa9f0dd6b1c4be1e3d86846944329d9f2" title="Check if a given item is in the given std::vector. " alt="" coords="434,1126,581,1167"/>
+<area shape="rect" id="node30" href="$namespacevili_1_1_functions_1_1_vector.html#a9f11b4d9b535b580a613a064d18b9caa" title="Get the index of an item in a std::vector. " alt="" coords="434,1061,581,1102"/>
 <area shape="rect" id="node34" href="$classvili_1_1_complex_attribute.html#a4434f22dc3e9c92143d4e4b6298914f4" title="vili::ComplexAttribute::get" alt="" coords="1048,755,1219,781"/>
 <area shape="rect" id="node35" href="$classvili_1_1_attribute.html#add05981db2fab36ed22b7fb2b6d27263" title="vili::Attribute::copy" alt="" coords="443,1864,572,1891"/>
 <area shape="rect" id="node36" href="$classvili_1_1_attribute.html#aabd64e92127480490e28105f8eff6799" title="vili::Attribute::setVisible" alt="" coords="428,1915,587,1941"/>

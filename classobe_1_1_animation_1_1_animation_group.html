@@ -112,12 +112,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0f76d691aa6fd17851817ee5ce305a11"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_animation_1_1_animation_group.html#a0f76d691aa6fd17851817ee5ce305a11">removeTextureByIndex</a> (unsigned int index)</td></tr>
 <tr class="memdesc:a0f76d691aa6fd17851817ee5ce305a11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the texture at the given index in the <a class="el" href="classobe_1_1_animation_1_1_animation_group.html" title="A subpart of an Animation containing the Textures to display. ">AnimationGroup</a>.  <a href="#a0f76d691aa6fd17851817ee5ce305a11">More...</a><br /></td></tr>
 <tr class="separator:a0f76d691aa6fd17851817ee5ce305a11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c0630c770127ee7519274fc3597b4d9"><td class="memItemLeft" align="right" valign="top">sf::Sprite *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_animation_1_1_animation_group.html#a6c0630c770127ee7519274fc3597b4d9">returnSprite</a> ()</td></tr>
-<tr class="memdesc:a6c0630c770127ee7519274fc3597b4d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current Sprite of the <a class="el" href="classobe_1_1_animation_1_1_animation_group.html" title="A subpart of an Animation containing the Textures to display. ">AnimationGroup</a>.  <a href="#a6c0630c770127ee7519274fc3597b4d9">More...</a><br /></td></tr>
-<tr class="separator:a6c0630c770127ee7519274fc3597b4d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9b02b28b85055fd35a57846eed1e578"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_animation_1_1_animation_group.html#ac9b02b28b85055fd35a57846eed1e578">updateSprite</a> ()</td></tr>
-<tr class="memdesc:ac9b02b28b85055fd35a57846eed1e578"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the Sprite to display (Done automatically after previous / next)  <a href="#ac9b02b28b85055fd35a57846eed1e578">More...</a><br /></td></tr>
-<tr class="separator:ac9b02b28b85055fd35a57846eed1e578"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3595ec689e783cec227010c3b846521b"><td class="memItemLeft" align="right" valign="top">const sf::Texture &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_animation_1_1_animation_group.html#a3595ec689e783cec227010c3b846521b">getTexture</a> ()</td></tr>
+<tr class="memdesc:a3595ec689e783cec227010c3b846521b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current Sprite of the <a class="el" href="classobe_1_1_animation_1_1_animation_group.html" title="A subpart of an Animation containing the Textures to display. ">AnimationGroup</a>.  <a href="#a3595ec689e783cec227010c3b846521b">More...</a><br /></td></tr>
+<tr class="separator:a3595ec689e783cec227010c3b846521b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fa68140f6d5f397cac7c07cc2f1f6df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_animation_1_1_animation_group.html#a2fa68140f6d5f397cac7c07cc2f1f6df">update</a> ()</td></tr>
+<tr class="memdesc:a2fa68140f6d5f397cac7c07cc2f1f6df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the Texture to display (Done automatically after previous / next)  <a href="#a2fa68140f6d5f397cac7c07cc2f1f6df">More...</a><br /></td></tr>
+<tr class="separator:a2fa68140f6d5f397cac7c07cc2f1f6df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a5f30969a518dac497e90eaef18df4e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_animation_1_1_animation_group.html#a6a5f30969a518dac497e90eaef18df4e">reset</a> ()</td></tr>
 <tr class="memdesc:a6a5f30969a518dac497e90eaef18df4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the <a class="el" href="classobe_1_1_animation_1_1_animation_group.html" title="A subpart of an Animation containing the Textures to display. ">AnimationGroup</a> (Index to 0, Loops to 0, Delay to 0)  <a href="#a6a5f30969a518dac497e90eaef18df4e">More...</a><br /></td></tr>
 <tr class="separator:a6a5f30969a518dac497e90eaef18df4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -207,7 +207,8 @@ Public Member Functions</h2></td></tr>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animation_group_ad86bb28de21445e1b72cdc43941d61f1_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animation_group_ad86bb28de21445e1b72cdc43941d61f1_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -231,7 +232,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animation_group_a6a1b08ad59cec8a89622a6bede04aded_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animation_group_a6a1b08ad59cec8a89622a6bede04aded_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -256,7 +258,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animation_group_a8beccd25d19e3b36161b027a9a0ef8f6_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animation_group_a8beccd25d19e3b36161b027a9a0ef8f6_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -281,7 +284,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animation_group_a013a9f7ec1616283e6e332778f6cc434_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animation_group_a013a9f7ec1616283e6e332778f6cc434_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -306,7 +310,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animation_group_af60aa78a4377e33f6a0e18083418fbca_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animation_group_af60aa78a4377e33f6a0e18083418fbca_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -331,6 +336,26 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a3595ec689e783cec227010c3b846521b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3595ec689e783cec227010c3b846521b">&#9670;&nbsp;</a></span>getTexture()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const sf::Texture &amp; obe::Animation::AnimationGroup::getTexture </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the current Sprite of the <a class="el" href="classobe_1_1_animation_1_1_animation_group.html" title="A subpart of an Animation containing the Textures to display. ">AnimationGroup</a>. </p>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the sf::Texture currently played by the <a class="el" href="classobe_1_1_animation_1_1_animation_group.html" title="A subpart of an Animation containing the Textures to display. ">AnimationGroup</a> </dd></dl>
+
+</div>
+</div>
 <a id="ac5c095a14efd953ff555dae844cbec64"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac5c095a14efd953ff555dae844cbec64">&#9670;&nbsp;</a></span>isGroupOver()</h2>
 
@@ -351,7 +376,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animation_group_ac5c095a14efd953ff555dae844cbec64_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animation_group_ac5c095a14efd953ff555dae844cbec64_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -378,12 +404,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animation_group_a14d260dc9a73e32ed4de0e273040acb0_cgraph.svg" width="432" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animation_group_a14d260dc9a73e32ed4de0e273040acb0_cgraph.svg" width="432" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animation_group_a14d260dc9a73e32ed4de0e273040acb0_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animation_group_a14d260dc9a73e32ed4de0e273040acb0_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -409,12 +437,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animation_group_a8db016eb6aead5f5cbbe0ed102b57f88_cgraph.svg" width="432" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animation_group_a8db016eb6aead5f5cbbe0ed102b57f88_cgraph.svg" width="432" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animation_group_a8db016eb6aead5f5cbbe0ed102b57f88_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animation_group_a8db016eb6aead5f5cbbe0ed102b57f88_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -445,7 +475,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animation_group_a8a85e1a1f2fd23675150e39c7b294f98_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animation_group_a8a85e1a1f2fd23675150e39c7b294f98_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -476,7 +507,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animation_group_a0f76d691aa6fd17851817ee5ce305a11_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animation_group_a0f76d691aa6fd17851817ee5ce305a11_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -500,28 +532,9 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animation_group_a6a5f30969a518dac497e90eaef18df4e_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animation_group_a6a5f30969a518dac497e90eaef18df4e_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<a id="a6c0630c770127ee7519274fc3597b4d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c0630c770127ee7519274fc3597b4d9">&#9670;&nbsp;</a></span>returnSprite()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">sf::Sprite * obe::Animation::AnimationGroup::returnSprite </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the current Sprite of the <a class="el" href="classobe_1_1_animation_1_1_animation_group.html" title="A subpart of an Animation containing the Textures to display. ">AnimationGroup</a>. </p>
-<dl class="section return"><dt>Returns</dt><dd>A pointer of the sf::Texture currently played by the <a class="el" href="classobe_1_1_animation_1_1_animation_group.html" title="A subpart of an Animation containing the Textures to display. ">AnimationGroup</a> </dd></dl>
 
 </div>
 </div>
@@ -551,7 +564,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animation_group_a0b056c66c2d92069410cdb55e2b6909f_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animation_group_a0b056c66c2d92069410cdb55e2b6909f_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -582,19 +596,20 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animation_group_a290408374f6903f3f237daadd2178862_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animation_group_a290408374f6903f3f237daadd2178862_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
 </div>
-<a id="ac9b02b28b85055fd35a57846eed1e578"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9b02b28b85055fd35a57846eed1e578">&#9670;&nbsp;</a></span>updateSprite()</h2>
+<a id="a2fa68140f6d5f397cac7c07cc2f1f6df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fa68140f6d5f397cac7c07cc2f1f6df">&#9670;&nbsp;</a></span>update()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void obe::Animation::AnimationGroup::updateSprite </td>
+          <td class="memname">void obe::Animation::AnimationGroup::update </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -602,11 +617,12 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Updates the Sprite to display (Done automatically after previous / next) </p>
+<p>Updates the Texture to display (Done automatically after previous / next) </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animation_group_ac9b02b28b85055fd35a57846eed1e578_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animation_group_a2fa68140f6d5f397cac7c07cc2f1f6df_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
