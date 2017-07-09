@@ -67,65 +67,82 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#friends">Friends</a> &#124;
 <a href="classobe_1_1_system_1_1_cursor-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">obe::System::Cursor Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
+<p>A Class to manipulate and display the <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a> in the Engine.  
+ <a href="classobe_1_1_system_1_1_cursor.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_cursor_8hpp_source.html">Cursor.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a97cc621e093c133754f6b7c834bb809c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_cursor.html#a97cc621e093c133754f6b7c834bb809c">Cursor</a> (sf::RenderWindow *window)</td></tr>
+<tr class="memdesc:a97cc621e093c133754f6b7c834bb809c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a>.  <a href="#a97cc621e093c133754f6b7c834bb809c">More...</a><br /></td></tr>
 <tr class="separator:a97cc621e093c133754f6b7c834bb809c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a467b5934efbe6c85cb4ebfe4ca8d6000"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_cursor.html#a467b5934efbe6c85cb4ebfe4ca8d6000">~Cursor</a> ()</td></tr>
-<tr class="separator:a467b5934efbe6c85cb4ebfe4ca8d6000"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0cea173153502abccd3593fc91b72f40"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_cursor.html#a0cea173153502abccd3593fc91b72f40">selectCursor</a> (std::string cursor)</td></tr>
-<tr class="separator:a0cea173153502abccd3593fc91b72f40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d62336d3ace56279978ea266052e9fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_cursor.html#a6d62336d3ace56279978ea266052e9fb">selectKey</a> (std::string key)</td></tr>
-<tr class="separator:a6d62336d3ace56279978ea266052e9fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cfe32fec562dea5a86478ff862f45fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_cursor.html#a0cfe32fec562dea5a86478ff862f45fc">selectAnimatorPath</a> (const std::string &amp;cursor)</td></tr>
+<tr class="memdesc:a0cfe32fec562dea5a86478ff862f45fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the root path to the <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a> Animator.  <a href="#a0cfe32fec562dea5a86478ff862f45fc">More...</a><br /></td></tr>
+<tr class="separator:a0cfe32fec562dea5a86478ff862f45fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67db8dd4690b8826ba4ac45b5b8c1f2a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_cursor.html#a67db8dd4690b8826ba4ac45b5b8c1f2a">selectAnimationKey</a> (const std::string &amp;key)</td></tr>
+<tr class="memdesc:a67db8dd4690b8826ba4ac45b5b8c1f2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the <a class="el" href="namespaceobe_1_1_animation.html" title="Classes to Handle Animation. ">Animation</a> Key (CLIC, HOLD, IDLE, RELEASE)  <a href="#a67db8dd4690b8826ba4ac45b5b8c1f2a">More...</a><br /></td></tr>
+<tr class="separator:a67db8dd4690b8826ba4ac45b5b8c1f2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c4a8e489367d629ad3dd29334009f2d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_cursor.html#a2c4a8e489367d629ad3dd29334009f2d">getX</a> () const</td></tr>
+<tr class="memdesc:a2c4a8e489367d629ad3dd29334009f2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the x Coordinate of the <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a> Position (Constrained)  <a href="#a2c4a8e489367d629ad3dd29334009f2d">More...</a><br /></td></tr>
 <tr class="separator:a2c4a8e489367d629ad3dd29334009f2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4433008ac41fce6663ed2df0c16ac68b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_cursor.html#a4433008ac41fce6663ed2df0c16ac68b">getY</a> () const</td></tr>
+<tr class="memdesc:a4433008ac41fce6663ed2df0c16ac68b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the y Coordinate of the <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a> Position (Constrained)  <a href="#a4433008ac41fce6663ed2df0c16ac68b">More...</a><br /></td></tr>
 <tr class="separator:a4433008ac41fce6663ed2df0c16ac68b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9f0b09cbf47bcfa51061550b33e0da2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_cursor.html#af9f0b09cbf47bcfa51061550b33e0da2">getRawX</a> () const</td></tr>
+<tr class="memdesc:af9f0b09cbf47bcfa51061550b33e0da2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the x Coordinate of the raw (<a class="el" href="namespaceobe_1_1_system.html" title="System Classes and Functions. ">System</a>) position of the <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a> (Unconstrained)  <a href="#af9f0b09cbf47bcfa51061550b33e0da2">More...</a><br /></td></tr>
 <tr class="separator:af9f0b09cbf47bcfa51061550b33e0da2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfe66fe1c349afbd672e071a1086aa0b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_cursor.html#adfe66fe1c349afbd672e071a1086aa0b">getRawY</a> () const</td></tr>
+<tr class="memdesc:adfe66fe1c349afbd672e071a1086aa0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the y Coordinate of the raw (<a class="el" href="namespaceobe_1_1_system.html" title="System Classes and Functions. ">System</a>) position of the <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a> (Unconstrained)  <a href="#adfe66fe1c349afbd672e071a1086aa0b">More...</a><br /></td></tr>
 <tr class="separator:adfe66fe1c349afbd672e071a1086aa0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae991c4d45b82c99da64478a1649d3819"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_cursor.html#ae991c4d45b82c99da64478a1649d3819">setX</a> (int newx)</td></tr>
-<tr class="separator:ae991c4d45b82c99da64478a1649d3819"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85e58c382f072b6d09e41469dc11800e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_cursor.html#a85e58c382f072b6d09e41469dc11800e">setY</a> (int newy)</td></tr>
-<tr class="separator:a85e58c382f072b6d09e41469dc11800e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a506d3c1d9f575b0aa5c537013d3e2edc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_cursor.html#a506d3c1d9f575b0aa5c537013d3e2edc">setPosition</a> (int newx, int newy)</td></tr>
-<tr class="separator:a506d3c1d9f575b0aa5c537013d3e2edc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f0d7ac1b4026a2499fd30a017c4af9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_cursor.html#a1f0d7ac1b4026a2499fd30a017c4af9d">setX</a> (unsigned int newx)</td></tr>
+<tr class="memdesc:a1f0d7ac1b4026a2499fd30a017c4af9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the x Coordinate of the <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a> Position.  <a href="#a1f0d7ac1b4026a2499fd30a017c4af9d">More...</a><br /></td></tr>
+<tr class="separator:a1f0d7ac1b4026a2499fd30a017c4af9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ae765f913fe4ce91081811bad4aeb9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_cursor.html#a1ae765f913fe4ce91081811bad4aeb9e">setY</a> (unsigned int newy)</td></tr>
+<tr class="memdesc:a1ae765f913fe4ce91081811bad4aeb9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the y Coordinate of the <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a> Position.  <a href="#a1ae765f913fe4ce91081811bad4aeb9e">More...</a><br /></td></tr>
+<tr class="separator:a1ae765f913fe4ce91081811bad4aeb9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c16f612f7606a7a0b9815a27798cdfa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_cursor.html#a3c16f612f7606a7a0b9815a27798cdfa">setPosition</a> (unsigned int newx, unsigned int newy)</td></tr>
+<tr class="memdesc:a3c16f612f7606a7a0b9815a27798cdfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the Position of the <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a>.  <a href="#a3c16f612f7606a7a0b9815a27798cdfa">More...</a><br /></td></tr>
+<tr class="separator:a3c16f612f7606a7a0b9815a27798cdfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2612f2e00886a203572adb91dfa4f46"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_cursor.html#aa2612f2e00886a203572adb91dfa4f46">update</a> ()</td></tr>
+<tr class="memdesc:aa2612f2e00886a203572adb91dfa4f46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a>.  <a href="#aa2612f2e00886a203572adb91dfa4f46">More...</a><br /></td></tr>
 <tr class="separator:aa2612f2e00886a203572adb91dfa4f46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c1d2d899a2186435cdff92e31d50f1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_cursor.html#a3c1d2d899a2186435cdff92e31d50f1c">handleTriggers</a> () const</td></tr>
+<tr class="memdesc:a3c1d2d899a2186435cdff92e31d50f1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles the internal <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a> <a class="el" href="namespaceobe_1_1_triggers.html" title="Classes and Functions to handle Triggers (Events) ">Triggers</a>.  <a href="#a3c1d2d899a2186435cdff92e31d50f1c">More...</a><br /></td></tr>
 <tr class="separator:a3c1d2d899a2186435cdff92e31d50f1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02fc2e67a46a1313ebecb42a64186c61"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_cursor.html#a02fc2e67a46a1313ebecb42a64186c61">getPressed</a> (<a class="el" href="namespaceobe_1_1_system.html#a75f8f125dcfbee78dc5a7baecbdb5886">CursorButton</a> button) const</td></tr>
-<tr class="separator:a02fc2e67a46a1313ebecb42a64186c61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5c1d2b3be5f540b5073c44eeabd91d2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_cursor.html#ab5c1d2b3be5f540b5073c44eeabd91d2">getClicked</a> (<a class="el" href="namespaceobe_1_1_system.html#a75f8f125dcfbee78dc5a7baecbdb5886">CursorButton</a> button) const</td></tr>
-<tr class="separator:ab5c1d2b3be5f540b5073c44eeabd91d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a486e77c3adb8d26e4196bdade020c65a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_cursor.html#a486e77c3adb8d26e4196bdade020c65a">getReleased</a> (<a class="el" href="namespaceobe_1_1_system.html#a75f8f125dcfbee78dc5a7baecbdb5886">CursorButton</a> button) const</td></tr>
-<tr class="separator:a486e77c3adb8d26e4196bdade020c65a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a027b4ee7e3b5d631453f1d4cfdab9854"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_cursor.html#a027b4ee7e3b5d631453f1d4cfdab9854">getPressed</a> (<a class="el" href="namespaceobe_1_1_system.html#a284005a7c85e73aa19aec65cdfd34a7d">MouseButton</a> button) const</td></tr>
+<tr class="memdesc:a027b4ee7e3b5d631453f1d4cfdab9854"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets if one MouseButton is pressed.  <a href="#a027b4ee7e3b5d631453f1d4cfdab9854">More...</a><br /></td></tr>
+<tr class="separator:a027b4ee7e3b5d631453f1d4cfdab9854"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fd986d660fca81e8cd3ba2e1fcf4724"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_cursor.html#a6fd986d660fca81e8cd3ba2e1fcf4724">getClicked</a> (<a class="el" href="namespaceobe_1_1_system.html#a284005a7c85e73aa19aec65cdfd34a7d">MouseButton</a> button) const</td></tr>
+<tr class="memdesc:a6fd986d660fca81e8cd3ba2e1fcf4724"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets if one MouseButton is clicked.  <a href="#a6fd986d660fca81e8cd3ba2e1fcf4724">More...</a><br /></td></tr>
+<tr class="separator:a6fd986d660fca81e8cd3ba2e1fcf4724"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0d2060ddb991f5a6063c7d56eec2120"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_cursor.html#ad0d2060ddb991f5a6063c7d56eec2120">getReleased</a> (<a class="el" href="namespaceobe_1_1_system.html#a284005a7c85e73aa19aec65cdfd34a7d">MouseButton</a> button) const</td></tr>
+<tr class="memdesc:ad0d2060ddb991f5a6063c7d56eec2120"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets if one MouseButton is released.  <a href="#ad0d2060ddb991f5a6063c7d56eec2120">More...</a><br /></td></tr>
+<tr class="separator:ad0d2060ddb991f5a6063c7d56eec2120"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81d607a3df3bd976946d28e939a494f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_cursor.html#a81d607a3df3bd976946d28e939a494f5">setConstraint</a> (std::function&lt; std::pair&lt; int, int &gt;(<a class="el" href="classobe_1_1_system_1_1_cursor.html">Cursor</a> *)&gt; constraint)</td></tr>
+<tr class="memdesc:a81d607a3df3bd976946d28e939a494f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a>'s constraint.  <a href="#a81d607a3df3bd976946d28e939a494f5">More...</a><br /></td></tr>
 <tr class="separator:a81d607a3df3bd976946d28e939a494f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74d6631529346dc12cc2ac7eca55b333"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_cursor.html#a74d6631529346dc12cc2ac7eca55b333">display</a> (sf::RenderWindow &amp;target) const</td></tr>
+<tr class="memdesc:a74d6631529346dc12cc2ac7eca55b333"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays the <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a>.  <a href="#a74d6631529346dc12cc2ac7eca55b333">More...</a><br /></td></tr>
 <tr class="separator:a74d6631529346dc12cc2ac7eca55b333"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
-Friends</h2></td></tr>
-<tr class="memitem:ac5548671fc607b71b1e3925c5fa1feaa"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_cursor.html#ac5548671fc607b71b1e3925c5fa1feaa">CoreHook</a></td></tr>
-<tr class="separator:ac5548671fc607b71b1e3925c5fa1feaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A Class to manipulate and display the <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a> in the Engine. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a97cc621e093c133754f6b7c834bb809c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a97cc621e093c133754f6b7c834bb809c">&#9670;&nbsp;</a></span>Cursor()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">obe::System::Cursor::Cursor </td>
@@ -135,29 +152,25 @@ Friends</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Creates a <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">window</td><td>Pointer to the sf::RenderWindow stored for internal usage </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_a97cc621e093c133754f6b7c834bb809c_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
-
-</div>
-</div>
-<a id="a467b5934efbe6c85cb4ebfe4ca8d6000"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a467b5934efbe6c85cb4ebfe4ca8d6000">&#9670;&nbsp;</a></span>~Cursor()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">obe::System::Cursor::~Cursor </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -177,16 +190,25 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Displays the <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">target</td><td>sf::RenderWindow where to render the <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a> </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_a74d6631529346dc12cc2ac7eca55b333_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_a74d6631529346dc12cc2ac7eca55b333_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
 </div>
-<a id="ab5c1d2b3be5f540b5073c44eeabd91d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5c1d2b3be5f540b5073c44eeabd91d2">&#9670;&nbsp;</a></span>getClicked()</h2>
+<a id="a6fd986d660fca81e8cd3ba2e1fcf4724"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fd986d660fca81e8cd3ba2e1fcf4724">&#9670;&nbsp;</a></span>getClicked()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -194,22 +216,32 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">bool obe::System::Cursor::getClicked </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceobe_1_1_system.html#a75f8f125dcfbee78dc5a7baecbdb5886">CursorButton</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceobe_1_1_system.html#a284005a7c85e73aa19aec65cdfd34a7d">MouseButton</a>&#160;</td>
           <td class="paramname"><em>button</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets if one MouseButton is clicked. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">button</td><td>The MouseButton to check (Left / Right) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the MouseButton is clicked, false otherwise </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_ab5c1d2b3be5f540b5073c44eeabd91d2_icgraph.svg" width="100%" height="564"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_a6fd986d660fca81e8cd3ba2e1fcf4724_icgraph.svg" width="100%" height="564"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
 </div>
-<a id="a02fc2e67a46a1313ebecb42a64186c61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a02fc2e67a46a1313ebecb42a64186c61">&#9670;&nbsp;</a></span>getPressed()</h2>
+<a id="a027b4ee7e3b5d631453f1d4cfdab9854"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a027b4ee7e3b5d631453f1d4cfdab9854">&#9670;&nbsp;</a></span>getPressed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -217,16 +249,26 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">bool obe::System::Cursor::getPressed </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceobe_1_1_system.html#a75f8f125dcfbee78dc5a7baecbdb5886">CursorButton</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceobe_1_1_system.html#a284005a7c85e73aa19aec65cdfd34a7d">MouseButton</a>&#160;</td>
           <td class="paramname"><em>button</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets if one MouseButton is pressed. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">button</td><td>The MouseButton to check (Left / Right) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the MouseButton is pressed, false otherwise </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_a02fc2e67a46a1313ebecb42a64186c61_icgraph.svg" width="100%" height="564"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_a027b4ee7e3b5d631453f1d4cfdab9854_icgraph.svg" width="100%" height="564"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -245,10 +287,14 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets the x Coordinate of the raw (<a class="el" href="namespaceobe_1_1_system.html" title="System Classes and Functions. ">System</a>) position of the <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a> (Unconstrained) </p>
+<dl class="section return"><dt>Returns</dt><dd>An int containing the x Coordinate of the <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a> Position </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_af9f0b09cbf47bcfa51061550b33e0da2_icgraph.svg" width="664" height="71"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_af9f0b09cbf47bcfa51061550b33e0da2_icgraph.svg" width="664" height="71"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -267,16 +313,20 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets the y Coordinate of the raw (<a class="el" href="namespaceobe_1_1_system.html" title="System Classes and Functions. ">System</a>) position of the <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a> (Unconstrained) </p>
+<dl class="section return"><dt>Returns</dt><dd>An int containing the y Coordinate of the <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a> Position </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_adfe66fe1c349afbd672e071a1086aa0b_icgraph.svg" width="664" height="71"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_adfe66fe1c349afbd672e071a1086aa0b_icgraph.svg" width="664" height="71"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
 </div>
-<a id="a486e77c3adb8d26e4196bdade020c65a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a486e77c3adb8d26e4196bdade020c65a">&#9670;&nbsp;</a></span>getReleased()</h2>
+<a id="ad0d2060ddb991f5a6063c7d56eec2120"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0d2060ddb991f5a6063c7d56eec2120">&#9670;&nbsp;</a></span>getReleased()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -284,16 +334,26 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">bool obe::System::Cursor::getReleased </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceobe_1_1_system.html#a75f8f125dcfbee78dc5a7baecbdb5886">CursorButton</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceobe_1_1_system.html#a284005a7c85e73aa19aec65cdfd34a7d">MouseButton</a>&#160;</td>
           <td class="paramname"><em>button</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets if one MouseButton is released. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">button</td><td>The MouseButton to check (Left / Right) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the MouseButton is released, false otherwise </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_a486e77c3adb8d26e4196bdade020c65a_icgraph.svg" width="100%" height="513"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_ad0d2060ddb991f5a6063c7d56eec2120_icgraph.svg" width="100%" height="513"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -312,10 +372,14 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets the x Coordinate of the <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a> Position (Constrained) </p>
+<dl class="section return"><dt>Returns</dt><dd>An int containing the x Coordinate of the <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a> Position </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_a2c4a8e489367d629ad3dd29334009f2d_icgraph.svg" width="100%" height="585"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_a2c4a8e489367d629ad3dd29334009f2d_icgraph.svg" width="100%" height="585"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -334,10 +398,14 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets the y Coordinate of the <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a> Position (Constrained) </p>
+<dl class="section return"><dt>Returns</dt><dd>An int containing the y Coordinate of the <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a> Position </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_a4433008ac41fce6663ed2df0c16ac68b_icgraph.svg" width="100%" height="585"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_a4433008ac41fce6663ed2df0c16ac68b_icgraph.svg" width="100%" height="585"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -356,71 +424,95 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Handles the internal <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a> <a class="el" href="namespaceobe_1_1_triggers.html" title="Classes and Functions to handle Triggers (Events) ">Triggers</a>. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_a3c1d2d899a2186435cdff92e31d50f1c_cgraph.svg" width="100%" height="535"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_a3c1d2d899a2186435cdff92e31d50f1c_cgraph.svg" width="100%" height="535"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_a3c1d2d899a2186435cdff92e31d50f1c_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_a3c1d2d899a2186435cdff92e31d50f1c_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
 </div>
-<a id="a0cea173153502abccd3593fc91b72f40"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0cea173153502abccd3593fc91b72f40">&#9670;&nbsp;</a></span>selectCursor()</h2>
+<a id="a67db8dd4690b8826ba4ac45b5b8c1f2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67db8dd4690b8826ba4ac45b5b8c1f2a">&#9670;&nbsp;</a></span>selectAnimationKey()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void obe::System::Cursor::selectCursor </td>
+          <td class="memname">void obe::System::Cursor::selectAnimationKey </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>cursor</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_a0cea173153502abccd3593fc91b72f40_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_a0cea173153502abccd3593fc91b72f40_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a6d62336d3ace56279978ea266052e9fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d62336d3ace56279978ea266052e9fb">&#9670;&nbsp;</a></span>selectKey()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void obe::System::Cursor::selectKey </td>
-          <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>key</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Sets the <a class="el" href="namespaceobe_1_1_animation.html" title="Classes to Handle Animation. ">Animation</a> Key (CLIC, HOLD, IDLE, RELEASE) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>Key of the <a class="el" href="namespaceobe_1_1_animation.html" title="Classes to Handle Animation. ">Animation</a> to set </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_a6d62336d3ace56279978ea266052e9fb_cgraph.svg" width="100%" height="559"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_a67db8dd4690b8826ba4ac45b5b8c1f2a_cgraph.svg" width="100%" height="559"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_a6d62336d3ace56279978ea266052e9fb_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_a67db8dd4690b8826ba4ac45b5b8c1f2a_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a0cfe32fec562dea5a86478ff862f45fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cfe32fec562dea5a86478ff862f45fc">&#9670;&nbsp;</a></span>selectAnimatorPath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::System::Cursor::selectAnimatorPath </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>cursor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the root path to the <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a> Animator. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cursor</td><td><a class="el" href="classobe_1_1_system_1_1_path.html" title="Class used to manipulate paths and dynamically load resources (Based on multiple mounted paths) ...">Path</a> to the <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a> Animator (Base root is Sprites/Cursors) </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_a0cfe32fec562dea5a86478ff862f45fc_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_a0cfe32fec562dea5a86478ff862f45fc_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -441,10 +533,18 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Sets the <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a>'s constraint. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">constraint</td><td>A function returning the constrained Position of the <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a> (a std::pair&lt;int, int&gt;) and taking the <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a> pointer in parameter </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
-<a id="a506d3c1d9f575b0aa5c537013d3e2edc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a506d3c1d9f575b0aa5c537013d3e2edc">&#9670;&nbsp;</a></span>setPosition()</h2>
+<a id="a3c16f612f7606a7a0b9815a27798cdfa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c16f612f7606a7a0b9815a27798cdfa">&#9670;&nbsp;</a></span>setPosition()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -452,13 +552,13 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void obe::System::Cursor::setPosition </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"><em>newx</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"><em>newy</em>&#160;</td>
         </tr>
         <tr>
@@ -468,16 +568,26 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Sets the Position of the <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newx</td><td>An int containing the x Coordinate of the new <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a> Position </td></tr>
+    <tr><td class="paramname">newy</td><td>An int containing the y Coordinate of the new <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a> Position </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_a506d3c1d9f575b0aa5c537013d3e2edc_icgraph.svg" width="100%" height="564"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_a3c16f612f7606a7a0b9815a27798cdfa_icgraph.svg" width="100%" height="564"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
 </div>
-<a id="ae991c4d45b82c99da64478a1649d3819"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae991c4d45b82c99da64478a1649d3819">&#9670;&nbsp;</a></span>setX()</h2>
+<a id="a1f0d7ac1b4026a2499fd30a017c4af9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f0d7ac1b4026a2499fd30a017c4af9d">&#9670;&nbsp;</a></span>setX()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -485,22 +595,31 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void obe::System::Cursor::setX </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"><em>newx</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Sets the x Coordinate of the <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a> Position. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newx</td><td>An int containing the x Coordinate of the new <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a> Position </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_ae991c4d45b82c99da64478a1649d3819_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_a1f0d7ac1b4026a2499fd30a017c4af9d_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
 </div>
-<a id="a85e58c382f072b6d09e41469dc11800e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85e58c382f072b6d09e41469dc11800e">&#9670;&nbsp;</a></span>setY()</h2>
+<a id="a1ae765f913fe4ce91081811bad4aeb9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ae765f913fe4ce91081811bad4aeb9e">&#9670;&nbsp;</a></span>setY()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -508,16 +627,25 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void obe::System::Cursor::setY </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"><em>newy</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Sets the y Coordinate of the <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a> Position. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newy</td><td>An int containing the y Coordinate of the new <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a> Position </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_a85e58c382f072b6d09e41469dc11800e_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_a1ae765f913fe4ce91081811bad4aeb9e_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -536,39 +664,20 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Updates the <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine. ">Cursor</a>. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_aa2612f2e00886a203572adb91dfa4f46_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_aa2612f2e00886a203572adb91dfa4f46_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_aa2612f2e00886a203572adb91dfa4f46_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_system_1_1_cursor_aa2612f2e00886a203572adb91dfa4f46_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
-<h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a id="ac5548671fc607b71b1e3925c5fa1feaa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac5548671fc607b71b1e3925c5fa1feaa">&#9670;&nbsp;</a></span>CoreHook</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">friend class CoreHook</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>

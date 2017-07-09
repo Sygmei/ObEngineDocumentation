@@ -19,14 +19,14 @@
 <area shape="rect" id="node16" href="$classobe_1_1_scene_1_1_world.html#a1826570ab985f691ea5073de112c9072" title="obe::Scene::World::\lupdate" alt="" coords="517,1802,655,1843"/>
 <area shape="rect" id="node17" href="$classobe_1_1_time_1_1_framerate_manager.html#ade5f772aa0de137dc5f5d2c415a4174c" title="Get the GameSpeed (DeltaTime * SpeedCoeff) " alt="" coords="488,1867,684,1909"/>
 <area shape="rect" id="node18" href="$classobe_1_1_input_1_1_key_binder.html#a724b019c07daa6ba895d9aa821bd2ff3" title="obe::Input::KeyBinder\l::update" alt="" coords="513,1998,659,2039"/>
-<area shape="rect" id="node19" href="$classobe_1_1_system_1_1_cursor.html#aa2612f2e00886a203572adb91dfa4f46" title="obe::System::Cursor\l::update" alt="" coords="515,2546,657,2587"/>
-<area shape="rect" id="node20" href="$classobe_1_1_system_1_1_cursor.html#a3c1d2d899a2186435cdff92e31d50f1c" title="obe::System::Cursor\l::handleTriggers" alt="" coords="515,2611,657,2653"/>
-<area shape="rect" id="node21" href="$classobe_1_1_system_1_1_cursor.html#ab5c1d2b3be5f540b5073c44eeabd91d2" title="obe::System::Cursor\l::getClicked" alt="" coords="744,2641,887,2682"/>
-<area shape="rect" id="node22" href="$classobe_1_1_system_1_1_cursor.html#a02fc2e67a46a1313ebecb42a64186c61" title="obe::System::Cursor\l::getPressed" alt="" coords="744,2485,887,2526"/>
+<area shape="rect" id="node19" href="$classobe_1_1_system_1_1_cursor.html#aa2612f2e00886a203572adb91dfa4f46" title="Updates the Cursor. " alt="" coords="515,2546,657,2587"/>
+<area shape="rect" id="node20" href="$classobe_1_1_system_1_1_cursor.html#a3c1d2d899a2186435cdff92e31d50f1c" title="Handles the internal Cursor Triggers. " alt="" coords="515,2611,657,2653"/>
+<area shape="rect" id="node21" href="$classobe_1_1_system_1_1_cursor.html#a6fd986d660fca81e8cd3ba2e1fcf4724" title="Gets if one MouseButton is clicked. " alt="" coords="744,2641,887,2682"/>
+<area shape="rect" id="node22" href="$classobe_1_1_system_1_1_cursor.html#a027b4ee7e3b5d631453f1d4cfdab9854" title="Gets if one MouseButton is pressed. " alt="" coords="744,2485,887,2526"/>
 <area shape="rect" id="node23" href="$classobe_1_1_input_1_1_key_binder.html#a462fa05e33c310cbc05c5e303b70d56f" title="obe::Input::KeyBinder\l::handleTriggers" alt="" coords="513,1933,659,1974"/>
 <area shape="rect" id="node24" href="$classobe_1_1_collision_1_1_polygonal_collider.html#ad5f284410a746db2e7a6f087b5c9d57c" title="obe::Collision::Polygonal\lCollider::setPosition" alt="" coords="503,2729,669,2770"/>
-<area shape="rect" id="node25" href="$classobe_1_1_system_1_1_cursor.html#a2c4a8e489367d629ad3dd29334009f2d" title="obe::System::Cursor\l::getX" alt="" coords="515,2794,657,2835"/>
-<area shape="rect" id="node26" href="$classobe_1_1_system_1_1_cursor.html#a4433008ac41fce6663ed2df0c16ac68b" title="obe::System::Cursor\l::getY" alt="" coords="515,2859,657,2901"/>
+<area shape="rect" id="node25" href="$classobe_1_1_system_1_1_cursor.html#a2c4a8e489367d629ad3dd29334009f2d" title="Gets the x Coordinate of the Cursor Position (Constrained) " alt="" coords="515,2794,657,2835"/>
+<area shape="rect" id="node26" href="$classobe_1_1_system_1_1_cursor.html#a4433008ac41fce6663ed2df0c16ac68b" title="Gets the y Coordinate of the Cursor Position (Constrained) " alt="" coords="515,2859,657,2901"/>
 <area shape="rect" id="node27" href="$classobe_1_1_scene_1_1_world.html#ade9744e1dd73df24d6c1ab070813f550" title="obe::Scene::World::\lgetAllGameObjects" alt="" coords="517,2063,655,2105"/>
 <area shape="rect" id="node28" href="$classobe_1_1_scene_1_1_world.html#a77fb0416752507ae6b71aba70c30257f" title="obe::Scene::World::\lgetAllCollidersByCollision" alt="" coords="501,2129,671,2170"/>
 <area shape="rect" id="node29" href="$classobe_1_1_scene_1_1_world.html#a7f55d1a827111d53518be9cc7e7eb014" title="obe::Scene::World::\lgetCamera" alt="" coords="517,835,655,877"/>
@@ -35,7 +35,7 @@
 <area shape="rect" id="node32" href="$classobe_1_1_scene_1_1_world.html#ae134bf2ea9b1b080b9632ee92a937ef2" title="obe::Scene::World::\lgetGameObject" alt="" coords="517,966,655,1007"/>
 <area shape="rect" id="node33" href="$classobe_1_1_time_1_1_framerate_manager.html#ae1696dee51959f806fb46916d9424716" title="Get if the engine should render everything. " alt="" coords="488,901,684,942"/>
 <area shape="rect" id="node34" href="$classobe_1_1_scene_1_1_world.html#a9362f895538ed0c68a45ab90f84b9a0d" title="obe::Scene::World::\ldisplay" alt="" coords="517,1031,655,1073"/>
-<area shape="rect" id="node35" href="$classobe_1_1_system_1_1_cursor.html#a74d6631529346dc12cc2ac7eca55b333" title="obe::System::Cursor\l::display" alt="" coords="515,2481,657,2522"/>
+<area shape="rect" id="node35" href="$classobe_1_1_system_1_1_cursor.html#a74d6631529346dc12cc2ac7eca55b333" title="Displays the Cursor. " alt="" coords="515,2481,657,2522"/>
 <area shape="rect" id="node37" href="$namespaceobe_1_1_modes.html#aecbdbdd990e6410959e9a4a0f58ecbf4" title="obe::Modes::scrollPanel" alt="" coords="505,5,667,32"/>
 <area shape="rect" id="node38" href="$namespaceobe_1_1_modes.html#aba069f9abc42724d76690602326d6b7d" title="obe::Modes::createLevel" alt="" coords="505,56,667,83"/>
 <area shape="rect" id="node39" href="$namespaceobe_1_1_modes.html#a906551a475a12bc7acee6673e997ff89" title="obe::Modes::chooseMapAddMaps" alt="" coords="476,107,696,133"/>

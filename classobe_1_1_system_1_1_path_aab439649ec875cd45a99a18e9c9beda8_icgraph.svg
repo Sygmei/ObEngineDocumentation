@@ -362,7 +362,7 @@ var sectionId = 'dynsection-11';
 </g>
 <!-- Node179 -->
 <g id="node19" class="node"><title>Node179</title>
-<g id="a_node19"><a xlink:href="classobe_1_1_system_1_1_cursor.html#a97cc621e093c133754f6b7c834bb809c" target="_top" xlink:title="obe::System::Cursor\l::Cursor">
+<g id="a_node19"><a xlink:href="classobe_1_1_system_1_1_cursor.html#a97cc621e093c133754f6b7c834bb809c" target="_top" xlink:title="Creates a Cursor. ">
 <polygon fill="none" stroke="black" points="317,-147.5 317,-177.5 424,-177.5 424,-147.5 317,-147.5"/>
 <text text-anchor="start" x="325" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::System::Cursor</text>
 <text text-anchor="middle" x="370.5" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Cursor</text>
@@ -376,10 +376,10 @@ var sectionId = 'dynsection-11';
 </g>
 <!-- Node180 -->
 <g id="node20" class="node"><title>Node180</title>
-<g id="a_node20"><a xlink:href="classobe_1_1_system_1_1_cursor.html#a0cea173153502abccd3593fc91b72f40" target="_top" xlink:title="obe::System::Cursor\l::selectCursor">
-<polygon fill="none" stroke="black" points="317,-49.5 317,-79.5 424,-79.5 424,-49.5 317,-49.5"/>
-<text text-anchor="start" x="325" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::System::Cursor</text>
-<text text-anchor="middle" x="370.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::selectCursor</text>
+<g id="a_node20"><a xlink:href="classobe_1_1_system_1_1_cursor.html#a0cfe32fec562dea5a86478ff862f45fc" target="_top" xlink:title="Sets the root path to the Cursor Animator. ">
+<polygon fill="none" stroke="black" points="316.5,-49.5 316.5,-79.5 424.5,-79.5 424.5,-49.5 316.5,-49.5"/>
+<text text-anchor="start" x="324.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::System::Cursor</text>
+<text text-anchor="middle" x="370.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::selectAnimatorPath</text>
 </a>
 </g>
 </g>
@@ -390,21 +390,21 @@ var sectionId = 'dynsection-11';
 </g>
 <!-- Node182 -->
 <g id="node22" class="node"><title>Node182</title>
-<g id="a_node22"><a xlink:href="classobe_1_1_system_1_1_cursor.html#a6d62336d3ace56279978ea266052e9fb" target="_top" xlink:title="obe::System::Cursor\l::selectKey">
-<polygon fill="none" stroke="black" points="317,-98.5 317,-128.5 424,-128.5 424,-98.5 317,-98.5"/>
-<text text-anchor="start" x="325" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::System::Cursor</text>
-<text text-anchor="middle" x="370.5" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">::selectKey</text>
+<g id="a_node22"><a xlink:href="classobe_1_1_system_1_1_cursor.html#a67db8dd4690b8826ba4ac45b5b8c1f2a" target="_top" xlink:title="Sets the Animation Key (CLIC, HOLD, IDLE, RELEASE) ">
+<polygon fill="none" stroke="black" points="315.5,-98.5 315.5,-128.5 425.5,-128.5 425.5,-98.5 315.5,-98.5"/>
+<text text-anchor="start" x="323.5" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::System::Cursor</text>
+<text text-anchor="middle" x="370.5" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">::selectAnimationKey</text>
 </a>
 </g>
 </g>
 <!-- Node178&#45;&gt;Node182 -->
 <g id="edge27" class="edge"><title>Node178&#45;&gt;Node182</title>
-<path fill="none" stroke="midnightblue" d="M279.163,-113.5C291.876,-113.5 304.88,-113.5 316.916,-113.5"/>
+<path fill="none" stroke="midnightblue" d="M279.18,-113.5C291.339,-113.5 303.762,-113.5 315.351,-113.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="279.054,-110 269.054,-113.5 279.054,-117 279.054,-110"/>
 </g>
 <!-- Node183 -->
 <g id="node23" class="node"><title>Node183</title>
-<g id="a_node23"><a xlink:href="classobe_1_1_system_1_1_cursor.html#aa2612f2e00886a203572adb91dfa4f46" target="_top" xlink:title="obe::System::Cursor\l::update">
+<g id="a_node23"><a xlink:href="classobe_1_1_system_1_1_cursor.html#aa2612f2e00886a203572adb91dfa4f46" target="_top" xlink:title="Updates the Cursor. ">
 <polygon fill="none" stroke="black" points="317,-0.5 317,-30.5 424,-30.5 424,-0.5 317,-0.5"/>
 <text text-anchor="start" x="325" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::System::Cursor</text>
 <text text-anchor="middle" x="370.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::update</text>
@@ -437,8 +437,8 @@ var sectionId = 'dynsection-11';
 </g>
 <!-- Node182&#45;&gt;Node181 -->
 <g id="edge28" class="edge"><title>Node182&#45;&gt;Node181</title>
-<path fill="none" stroke="midnightblue" d="M434.336,-113.078C446.216,-112.999 458.501,-112.916 469.943,-112.839"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="434.008,-109.58 424.032,-113.147 434.055,-116.58 434.008,-109.58"/>
+<path fill="none" stroke="midnightblue" d="M435.925,-113.068C447.172,-112.992 458.731,-112.915 469.552,-112.842"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="435.69,-109.569 425.714,-113.136 435.737,-116.569 435.69,-109.569"/>
 </g>
 <!-- Node184 -->
 <g id="node24" class="node"><title>Node184</title>
@@ -480,7 +480,7 @@ var sectionId = 'dynsection-11';
 </g>
 <!-- Node186&#45;&gt;Node180 -->
 <g id="edge38" class="edge"><title>Node186&#45;&gt;Node180</title>
-<path fill="none" stroke="midnightblue" d="M279.163,-64.5C291.876,-64.5 304.88,-64.5 316.916,-64.5"/>
+<path fill="none" stroke="midnightblue" d="M279.421,-64.5C291.869,-64.5 304.587,-64.5 316.396,-64.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="279.054,-61.0001 269.054,-64.5 279.054,-68.0001 279.054,-61.0001"/>
 </g>
 <!-- Node186&#45;&gt;Node183 -->
