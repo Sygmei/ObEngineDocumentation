@@ -1,51 +1,51 @@
 <map id="obe::Modes::startGame" name="obe::Modes::startGame">
-<area shape="rect" id="node2" href="$classvili_1_1_data_parser.html#ac2744d454c122cb1adff342be588bc8d" title="vili::DataParser::at" alt="" coords="497,195,625,221"/>
-<area shape="rect" id="node4" href="$namespaceobe_1_1_utils_1_1_math.html#af79008fea1a281ec434372d59249e7d4" title="Get a random integer between the given bound. " alt="" coords="231,5,392,32"/>
-<area shape="rect" id="node6" href="$classvili_1_1_list_attribute.html#aa36c767c486107aef798de216e00c763" title="vili::ListAttribute\l::size" alt="" coords="254,122,369,163"/>
-<area shape="rect" id="node7" href="$classobe_1_1_script_1_1_core_hook.html#a37aa223169042ff64989ef5cce4ec3e4" title="obe::Script::CoreHook\l::dropValue" alt="" coords="236,57,387,98"/>
-<area shape="rect" id="node9" href="$classobe_1_1_triggers_1_1_trigger_database.html#a7fa7c3acb40846820d7f11a344d73451" title="obe::Triggers::TriggerDatabase\l::GetInstance" alt="" coords="212,239,411,281"/>
-<area shape="rect" id="node10" href="$classobe_1_1_system_1_1_path.html#a096ad4fa7397aa42fd73661b08f50e2a" title="obe::System::Path::\lloadResource" alt="" coords="242,827,381,869"/>
-<area shape="rect" id="node13" href="$classobe_1_1_collision_1_1_polygonal_collider.html#a8640e1c470fc71de32485544d5eb4237" title="Adds a new Point to the Polygon at Position (x, y) " alt="" coords="229,370,394,411"/>
-<area shape="rect" id="node14" href="$classobe_1_1_input_1_1_key_binder.html#ad2d418093127720f22242b2c667d0275" title="obe::Input::KeyBinder\l::loadFromFile" alt="" coords="238,305,385,346"/>
-<area shape="rect" id="node18" href="$classobe_1_1_time_1_1_f_p_s_counter.html#ad3dfdc34721c2c87ead665b5a4fe9fc2" title="Load a new font to use when drawing the stats. " alt="" coords="232,501,391,542"/>
-<area shape="rect" id="node19" href="$classobe_1_1_time_1_1_framerate_manager.html#aa4a355a68b4cd0f602dcff192ca8d70f" title="Check if vSync is enabled or not. " alt="" coords="213,566,409,607"/>
-<area shape="rect" id="node20" href="$classobe_1_1_scene_1_1_world.html#a9f7d0973f4422d32044af6f69f08521f" title="obe::Scene::World::\lsetCameraLock" alt="" coords="242,631,381,673"/>
-<area shape="rect" id="node21" href="$classobe_1_1_time_1_1_framerate_manager.html#aa0385e4163ffdae9d70cce26e2b2ca51" title="Updates the FramerateManager (done everytime in the main loop) " alt="" coords="213,435,409,477"/>
-<area shape="rect" id="node23" href="$classobe_1_1_triggers_1_1_trigger_database.html#a24f39a6242a547f27f9ba8754a551385" title="obe::Triggers::TriggerDatabase\l::update" alt="" coords="212,697,411,738"/>
-<area shape="rect" id="node25" href="$classobe_1_1_scene_1_1_world.html#a1826570ab985f691ea5073de112c9072" title="obe::Scene::World::\lupdate" alt="" coords="242,958,381,999"/>
-<area shape="rect" id="node30" href="$classobe_1_1_time_1_1_framerate_manager.html#ade5f772aa0de137dc5f5d2c415a4174c" title="Get the GameSpeed (DeltaTime * SpeedCoeff) " alt="" coords="213,893,409,934"/>
-<area shape="rect" id="node31" href="$classobe_1_1_input_1_1_key_binder.html#a724b019c07daa6ba895d9aa821bd2ff3" title="obe::Input::KeyBinder\l::update" alt="" coords="238,762,385,803"/>
-<area shape="rect" id="node34" href="$classobe_1_1_system_1_1_cursor.html#aa2612f2e00886a203572adb91dfa4f46" title="Updates the Cursor. " alt="" coords="240,1023,383,1065"/>
-<area shape="rect" id="node35" href="$classobe_1_1_system_1_1_cursor.html#a3c1d2d899a2186435cdff92e31d50f1c" title="Handles the internal Cursor Triggers. " alt="" coords="240,1191,383,1233"/>
-<area shape="rect" id="node36" href="$classobe_1_1_system_1_1_cursor.html#a6fd986d660fca81e8cd3ba2e1fcf4724" title="Gets if one MouseButton is clicked. " alt="" coords="490,1213,633,1254"/>
-<area shape="rect" id="node37" href="$classobe_1_1_system_1_1_cursor.html#a027b4ee7e3b5d631453f1d4cfdab9854" title="Gets if one MouseButton is pressed. " alt="" coords="490,1558,633,1599"/>
-<area shape="rect" id="node38" href="$classobe_1_1_input_1_1_key_binder.html#a462fa05e33c310cbc05c5e303b70d56f" title="obe::Input::KeyBinder\l::handleTriggers" alt="" coords="238,1257,385,1298"/>
-<area shape="rect" id="node39" href="$classobe_1_1_collision_1_1_polygonal_collider.html#ad5f284410a746db2e7a6f087b5c9d57c" title="obe::Collision::Polygonal\lCollider::setPosition" alt="" coords="229,1322,394,1363"/>
-<area shape="rect" id="node40" href="$classobe_1_1_system_1_1_cursor.html#a2c4a8e489367d629ad3dd29334009f2d" title="Gets the x Coordinate of the Cursor Position (Constrained) " alt="" coords="240,1387,383,1429"/>
-<area shape="rect" id="node41" href="$classobe_1_1_system_1_1_cursor.html#a4433008ac41fce6663ed2df0c16ac68b" title="Gets the y Coordinate of the Cursor Position (Constrained) " alt="" coords="240,1453,383,1494"/>
-<area shape="rect" id="node42" href="$classobe_1_1_scene_1_1_world.html#ade9744e1dd73df24d6c1ab070813f550" title="obe::Scene::World::\lgetAllGameObjects" alt="" coords="242,1518,381,1559"/>
-<area shape="rect" id="node43" href="$classobe_1_1_scene_1_1_world.html#a77fb0416752507ae6b71aba70c30257f" title="obe::Scene::World::\lgetAllCollidersByCollision" alt="" coords="226,1583,397,1625"/>
-<area shape="rect" id="node44" href="$classobe_1_1_scene_1_1_world.html#a7f55d1a827111d53518be9cc7e7eb014" title="obe::Scene::World::\lgetCamera" alt="" coords="242,1649,381,1690"/>
-<area shape="rect" id="node45" href="$classobe_1_1_scene_1_1_camera.html#aa15d616e5f0680bfbf36ae7dfa54731e" title="obe::Scene::Camera\l::getX" alt="" coords="241,1714,382,1755"/>
-<area shape="rect" id="node46" href="$classobe_1_1_scene_1_1_camera.html#aa07ee443f0327f89edb8797e019606fb" title="obe::Scene::Camera\l::getY" alt="" coords="241,1779,382,1821"/>
-<area shape="rect" id="node47" href="$classobe_1_1_scene_1_1_world.html#ae134bf2ea9b1b080b9632ee92a937ef2" title="obe::Scene::World::\lgetGameObject" alt="" coords="492,1147,631,1189"/>
-<area shape="rect" id="node48" href="$classobe_1_1_time_1_1_framerate_manager.html#ae1696dee51959f806fb46916d9424716" title="Get if the engine should render everything. " alt="" coords="213,1897,409,1938"/>
-<area shape="rect" id="node49" href="$classobe_1_1_scene_1_1_world.html#a9362f895538ed0c68a45ab90f84b9a0d" title="obe::Scene::World::\ldisplay" alt="" coords="242,1962,381,2003"/>
-<area shape="rect" id="node50" href="$classobe_1_1_system_1_1_cursor.html#a74d6631529346dc12cc2ac7eca55b333" title="Displays the Cursor. " alt="" coords="240,2027,383,2069"/>
-<area shape="rect" id="node3" href="$namespacevili_1_1_functions_1_1_string.html#ad7421099a2ab911f64f06d89abc7d7cf" title="vili::Functions::String\l::extract" alt="" coords="712,187,855,229"/>
-<area shape="rect" id="node5" href="$namespaceobe_1_1_utils_1_1_math.html#a675729380c54b579e88c541098a50258" title="obe::Utils::Math::rng" alt="" coords="491,5,631,32"/>
-<area shape="rect" id="node8" href="$namespaceobe_1_1_utils_1_1_type.html#ab38dae2e2838201b2c61b8236a3f0c3a" title="Return the type of an object in std::string form. " alt="" coords="459,64,664,91"/>
-<area shape="rect" id="node11" href="$namespaceobe_1_1_utils_1_1_file.html#a1095626f5495edc7b8692073dd25cceb" title="Check if the file at the given path exists. " alt="" coords="478,784,645,811"/>
-<area shape="rect" id="node12" href="$classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b" title="aube::ErrorHandler\l::Raise" alt="" coords="718,747,849,789"/>
-<area shape="rect" id="node15" href="$classvili_1_1_complex_attribute.html#a6225afe489577c1e02e21c6a31387a1a" title="vili::ComplexAttribute\l::getAll" alt="" coords="489,370,633,411"/>
-<area shape="rect" id="node16" href="$classvili_1_1_complex_attribute.html#a7031eabef8547fe00efb455c75b5e28e" title="vili::ComplexAttribute\l::getBaseAttribute" alt="" coords="489,253,633,294"/>
-<area shape="rect" id="node17" href="$classvili_1_1_base_attribute.html#a637dd7d2977f7a453f06065d5d441495" title="vili::BaseAttribute::get" alt="" coords="487,319,636,345"/>
-<area shape="rect" id="node22" href="$namespaceobe_1_1_time.html#a8ae76b1e66dea054aced3ab86ecb6d3f" title="Get the amount of milliseconds elapsed since Epoch. " alt="" coords="462,443,661,469"/>
-<area shape="rect" id="node24" href="$classobe_1_1_time_1_1_chronometer.html#a029cd6023fd2c35cf92d01849edb7124" title="Get Time elapsed since the Chronometer started. " alt="" coords="481,602,642,643"/>
-<area shape="rect" id="node26" href="$classobe_1_1_scene_1_1_camera.html#a949f9320fcb448cc02c8b1da9b31f01d" title="obe::Scene::Camera\l::lock" alt="" coords="491,1082,632,1123"/>
-<area shape="rect" id="node27" href="$classobe_1_1_scene_1_1_camera.html#a9e7e2afd5d3ad5137b91aa489f87c083" title="obe::Scene::Camera\l::unlock" alt="" coords="491,886,632,927"/>
-<area shape="rect" id="node28" href="$classobe_1_1_scene_1_1_world.html#a605963695089119e954ff13ba1ff8908" title="obe::Scene::World::\lorderUpdateScrArray" alt="" coords="490,951,633,993"/>
-<area shape="rect" id="node29" href="$classobe_1_1_scene_1_1_world.html#a1623994f38100365278195ee83861817" title="obe::Scene::World::\ldeleteSprite" alt="" coords="492,1017,631,1058"/>
-<area shape="rect" id="node32" href="$classobe_1_1_input_1_1_key_class.html#a452c2130f421c349c9c8e35933aabc26" title="obe::Input::KeyClass\l::getKey" alt="" coords="490,667,633,709"/>
-<area shape="rect" id="node33" href="$namespaceobe_1_1_utils_1_1_map.html#a06f60a13c805a6e46297b2e46e9f67ac" title="Check if the given key is found in the std::map. " alt="" coords="474,733,649,760"/>
+<area shape="rect" id="node2" href="$classvili_1_1_data_parser.html#ac2744d454c122cb1adff342be588bc8d" title="vili::DataParser::at" alt="" coords="497,13,625,39"/>
+<area shape="rect" id="node4" href="$namespaceobe_1_1_utils_1_1_math.html#af79008fea1a281ec434372d59249e7d4" title="Get a random integer between the given bound. " alt="" coords="231,731,392,758"/>
+<area shape="rect" id="node6" href="$classvili_1_1_list_attribute.html#aa36c767c486107aef798de216e00c763" title="vili::ListAttribute\l::size" alt="" coords="254,783,369,824"/>
+<area shape="rect" id="node7" href="$classobe_1_1_script_1_1_core_hook.html#a37aa223169042ff64989ef5cce4ec3e4" title="obe::Script::CoreHook\l::dropValue" alt="" coords="236,848,387,889"/>
+<area shape="rect" id="node9" href="$classobe_1_1_triggers_1_1_trigger_database.html#a7fa7c3acb40846820d7f11a344d73451" title="As TriggerDatabase is a Singleton, gets the single instance. " alt="" coords="212,913,411,955"/>
+<area shape="rect" id="node10" href="$classobe_1_1_system_1_1_path.html#a096ad4fa7397aa42fd73661b08f50e2a" title="obe::System::Path::\lloadResource" alt="" coords="242,665,381,707"/>
+<area shape="rect" id="node13" href="$classobe_1_1_input_1_1_key_binder.html#ad2d418093127720f22242b2c667d0275" title="obe::Input::KeyBinder\l::loadFromFile" alt="" coords="238,115,385,156"/>
+<area shape="rect" id="node17" href="$classobe_1_1_time_1_1_f_p_s_counter.html#ad3dfdc34721c2c87ead665b5a4fe9fc2" title="Load a new font to use when drawing the stats. " alt="" coords="232,979,391,1020"/>
+<area shape="rect" id="node18" href="$classobe_1_1_time_1_1_framerate_manager.html#aa4a355a68b4cd0f602dcff192ca8d70f" title="Check if vSync is enabled or not. " alt="" coords="213,1044,409,1085"/>
+<area shape="rect" id="node19" href="$classobe_1_1_scene_1_1_world.html#a9f7d0973f4422d32044af6f69f08521f" title="obe::Scene::World::\lsetCameraLock" alt="" coords="242,1109,381,1151"/>
+<area shape="rect" id="node20" href="$classobe_1_1_time_1_1_framerate_manager.html#aa0385e4163ffdae9d70cce26e2b2ca51" title="Updates the FramerateManager (done everytime in the main loop) " alt="" coords="213,1175,409,1216"/>
+<area shape="rect" id="node22" href="$classobe_1_1_triggers_1_1_trigger_database.html#a24f39a6242a547f27f9ba8754a551385" title="Updates the TriggerDatabase (Already executed in the main loops) " alt="" coords="212,1240,411,1281"/>
+<area shape="rect" id="node24" href="$classobe_1_1_scene_1_1_world.html#a1826570ab985f691ea5073de112c9072" title="obe::Scene::World::\lupdate" alt="" coords="242,1305,381,1347"/>
+<area shape="rect" id="node29" href="$classobe_1_1_time_1_1_framerate_manager.html#ade5f772aa0de137dc5f5d2c415a4174c" title="Get the GameSpeed (DeltaTime * SpeedCoeff) " alt="" coords="213,1371,409,1412"/>
+<area shape="rect" id="node30" href="$classobe_1_1_input_1_1_key_binder.html#a724b019c07daa6ba895d9aa821bd2ff3" title="obe::Input::KeyBinder\l::update" alt="" coords="238,600,385,641"/>
+<area shape="rect" id="node33" href="$classobe_1_1_system_1_1_cursor.html#aa2612f2e00886a203572adb91dfa4f46" title="Updates the Cursor. " alt="" coords="240,408,383,449"/>
+<area shape="rect" id="node39" href="$classobe_1_1_system_1_1_cursor.html#a3c1d2d899a2186435cdff92e31d50f1c" title="Handles the internal Cursor Triggers. " alt="" coords="240,1468,383,1509"/>
+<area shape="rect" id="node45" href="$classobe_1_1_input_1_1_key_binder.html#a462fa05e33c310cbc05c5e303b70d56f" title="obe::Input::KeyBinder\l::handleTriggers" alt="" coords="238,1549,385,1591"/>
+<area shape="rect" id="node48" href="$classobe_1_1_time_1_1_framerate_manager.html#ae1696dee51959f806fb46916d9424716" title="Get if the engine should render everything. " alt="" coords="213,1615,409,1656"/>
+<area shape="rect" id="node49" href="$classobe_1_1_scene_1_1_world.html#a9362f895538ed0c68a45ab90f84b9a0d" title="obe::Scene::World::\ldisplay" alt="" coords="242,1680,381,1721"/>
+<area shape="rect" id="node50" href="$classobe_1_1_system_1_1_cursor.html#a74d6631529346dc12cc2ac7eca55b333" title="Displays the Cursor. " alt="" coords="240,1745,383,1787"/>
+<area shape="rect" id="node3" href="$namespacevili_1_1_functions_1_1_string.html#ad7421099a2ab911f64f06d89abc7d7cf" title="vili::Functions::String\l::extract" alt="" coords="712,5,855,47"/>
+<area shape="rect" id="node5" href="$namespaceobe_1_1_utils_1_1_math.html#a675729380c54b579e88c541098a50258" title="obe::Utils::Math::rng" alt="" coords="491,790,631,817"/>
+<area shape="rect" id="node8" href="$namespaceobe_1_1_utils_1_1_type.html#ab38dae2e2838201b2c61b8236a3f0c3a" title="Return the type of an object in std::string form. " alt="" coords="459,855,664,882"/>
+<area shape="rect" id="node11" href="$namespaceobe_1_1_utils_1_1_file.html#a1095626f5495edc7b8692073dd25cceb" title="Check if the file at the given path exists. " alt="" coords="478,739,645,766"/>
+<area shape="rect" id="node12" href="$classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b" title="aube::ErrorHandler\l::Raise" alt="" coords="718,507,849,548"/>
+<area shape="rect" id="node14" href="$classvili_1_1_complex_attribute.html#a6225afe489577c1e02e21c6a31387a1a" title="vili::ComplexAttribute\l::getAll" alt="" coords="489,115,633,156"/>
+<area shape="rect" id="node15" href="$classvili_1_1_complex_attribute.html#a7031eabef8547fe00efb455c75b5e28e" title="vili::ComplexAttribute\l::getBaseAttribute" alt="" coords="489,180,633,221"/>
+<area shape="rect" id="node16" href="$classvili_1_1_base_attribute.html#a637dd7d2977f7a453f06065d5d441495" title="vili::BaseAttribute::get" alt="" coords="487,63,636,90"/>
+<area shape="rect" id="node21" href="$namespaceobe_1_1_time.html#a8ae76b1e66dea054aced3ab86ecb6d3f" title="Get the amount of milliseconds elapsed since Epoch. " alt="" coords="462,993,661,1019"/>
+<area shape="rect" id="node23" href="$classobe_1_1_time_1_1_chronometer.html#a029cd6023fd2c35cf92d01849edb7124" title="Get Time elapsed since the Chronometer started. " alt="" coords="481,1044,642,1085"/>
+<area shape="rect" id="node25" href="$classobe_1_1_scene_1_1_camera.html#a949f9320fcb448cc02c8b1da9b31f01d" title="obe::Scene::Camera\l::lock" alt="" coords="491,1109,632,1151"/>
+<area shape="rect" id="node26" href="$classobe_1_1_scene_1_1_camera.html#a9e7e2afd5d3ad5137b91aa489f87c083" title="obe::Scene::Camera\l::unlock" alt="" coords="491,1175,632,1216"/>
+<area shape="rect" id="node27" href="$classobe_1_1_scene_1_1_world.html#a605963695089119e954ff13ba1ff8908" title="obe::Scene::World::\lorderUpdateScrArray" alt="" coords="490,1240,633,1281"/>
+<area shape="rect" id="node28" href="$classobe_1_1_scene_1_1_world.html#a1623994f38100365278195ee83861817" title="obe::Scene::World::\ldeleteSprite" alt="" coords="492,1305,631,1347"/>
+<area shape="rect" id="node31" href="$classobe_1_1_input_1_1_key_class.html#a452c2130f421c349c9c8e35933aabc26" title="obe::Input::KeyClass\l::getKey" alt="" coords="490,572,633,613"/>
+<area shape="rect" id="node32" href="$namespaceobe_1_1_utils_1_1_map.html#a06f60a13c805a6e46297b2e46e9f67ac" title="Check if the given key is found in the std::map. " alt="" coords="474,638,649,665"/>
+<area shape="rect" id="node34" href="$classobe_1_1_animation_1_1_animator.html#ac335331eb08fe4d3151505780a3a30fa" title="Set the Animation to play by name. " alt="" coords="477,507,646,548"/>
+<area shape="rect" id="node35" href="$classobe_1_1_animation_1_1_animator.html#a55671134e7608fa71f46cc2ae3aa51a6" title="Get the name of the currently played Animation. " alt="" coords="477,311,646,352"/>
+<area shape="rect" id="node36" href="$classobe_1_1_animation_1_1_animator.html#ad84c05c7f7743a98d4e11ba674f07b6d" title="Updates the Animator and the currently played Animation. " alt="" coords="477,245,646,287"/>
+<area shape="rect" id="node37" href="$classobe_1_1_animation_1_1_animator.html#ad710964804f5673b13e3628590f93665" title="Return if the Texture changed since the last call to getTexture() " alt="" coords="477,376,646,417"/>
+<area shape="rect" id="node38" href="$classobe_1_1_animation_1_1_animator.html#ada6c0858d3fd693de9ae05350f56ef23" title="Get the current sf::Sprite of the current Animation. " alt="" coords="477,441,646,483"/>
+<area shape="rect" id="node40" href="$classobe_1_1_system_1_1_cursor.html#a6fd986d660fca81e8cd3ba2e1fcf4724" title="Gets if one MouseButton is clicked. " alt="" coords="490,1371,633,1412"/>
+<area shape="rect" id="node41" href="$classobe_1_1_triggers_1_1_trigger_group.html#a49dc453c0968342bd7ffae88abcb19b7" title="Pushes a Parameter to a Trigger. " alt="" coords="472,1567,651,1608"/>
+<area shape="rect" id="node42" href="$classobe_1_1_triggers_1_1_trigger_group.html#a277ee82edb3296d3113f3df0c2d2568b" title="Enables a Trigger. " alt="" coords="472,1632,651,1673"/>
+<area shape="rect" id="node43" href="$classobe_1_1_system_1_1_cursor.html#a027b4ee7e3b5d631453f1d4cfdab9854" title="Gets if one MouseButton is pressed. " alt="" coords="490,1436,633,1477"/>
+<area shape="rect" id="node44" href="$classobe_1_1_system_1_1_cursor.html#ad0d2060ddb991f5a6063c7d56eec2120" title="Gets if one MouseButton is released. " alt="" coords="490,1501,633,1543"/>
+<area shape="rect" id="node46" href="$classobe_1_1_input_1_1_key_binder.html#a877650096bdc9ffce3d10574b895890d" title="obe::Input::KeyBinder\l::isActionToggled" alt="" coords="488,1697,635,1739"/>
+<area shape="rect" id="node47" href="$classobe_1_1_input_1_1_key_binder.html#a8355051ab052cc8fce0f86453dec990e" title="obe::Input::KeyBinder\l::isActionPressed" alt="" coords="488,1763,635,1804"/>
 </map>

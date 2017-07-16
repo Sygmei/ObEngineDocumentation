@@ -8,27 +8,27 @@
  viewBox="0.00 0.00 428.00 332.50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 328.5)">
 <title>obe::Script::CoreLib::loadUtils</title>
-<!-- Node1017 -->
-<g id="node1" class="node"><title>Node1017</title>
+<!-- Node1008 -->
+<g id="node1" class="node"><title>Node1008</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-192.5 0,-222.5 103,-222.5 103,-192.5 0,-192.5"/>
 <text text-anchor="start" x="8" y="-210.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Script::CoreLib</text>
 <text text-anchor="middle" x="51.5" y="-199.5" font-family="Helvetica,sans-Serif" font-size="10.00">::loadUtils</text>
 </g>
-<!-- Node1018 -->
-<g id="node2" class="node"><title>Node1018</title>
+<!-- Node1009 -->
+<g id="node2" class="node"><title>Node1009</title>
 <g id="a_node2"><a xlink:href="namespaceobe_1_1_script.html#a9582bae7b61bf604c2a68a8a016356ec" target="_top" xlink:title="obe::Script::registerLib">
 <polygon fill="none" stroke="black" points="151.5,-305 151.5,-324 266.5,-324 266.5,-305 151.5,-305"/>
 <text text-anchor="middle" x="209" y="-312" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Script::registerLib</text>
 </a>
 </g>
 </g>
-<!-- Node1017&#45;&gt;Node1018 -->
-<g id="edge1" class="edge"><title>Node1017&#45;&gt;Node1018</title>
+<!-- Node1008&#45;&gt;Node1009 -->
+<g id="edge1" class="edge"><title>Node1008&#45;&gt;Node1009</title>
 <path fill="none" stroke="midnightblue" d="M63.2921,-222.65C78.1255,-242.357 106.679,-276.504 139,-295.5 142.676,-297.66 146.605,-299.583 150.655,-301.292"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="149.668,-304.66 160.26,-304.907 152.134,-298.109 149.668,-304.66"/>
 </g>
-<!-- Node1019 -->
-<g id="node3" class="node"><title>Node1019</title>
+<!-- Node1010 -->
+<g id="node3" class="node"><title>Node1010</title>
 <g id="a_node3"><a xlink:href="namespaceobe_1_1_utils_1_1_vector.html#a964ff22524706c50e054f29d98b8ba6d" target="_top" xlink:title="Join all elements of a std::string into a std::string using a separator. ">
 <polygon fill="none" stroke="black" points="163,-255.5 163,-285.5 255,-285.5 255,-255.5 163,-255.5"/>
 <text text-anchor="start" x="171" y="-273.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Utils::Vector</text>
@@ -36,52 +36,52 @@
 </a>
 </g>
 </g>
-<!-- Node1017&#45;&gt;Node1019 -->
-<g id="edge2" class="edge"><title>Node1017&#45;&gt;Node1019</title>
+<!-- Node1008&#45;&gt;Node1010 -->
+<g id="edge2" class="edge"><title>Node1008&#45;&gt;Node1010</title>
 <path fill="none" stroke="midnightblue" d="M85.5537,-222.635C101.584,-229.818 121.183,-238.368 139,-245.5 144.38,-247.654 150.027,-249.831 155.675,-251.956"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="154.543,-255.269 165.136,-255.469 156.98,-248.707 154.543,-255.269"/>
 </g>
-<!-- Node1020 -->
-<g id="node4" class="node"><title>Node1020</title>
+<!-- Node1011 -->
+<g id="node4" class="node"><title>Node1011</title>
 <g id="a_node4"><a xlink:href="namespaceobe_1_1_utils_1_1_math.html#af79008fea1a281ec434372d59249e7d4" target="_top" xlink:title="Get a random integer between the given bound. ">
 <polygon fill="none" stroke="black" points="148.5,-217 148.5,-236 269.5,-236 269.5,-217 148.5,-217"/>
 <text text-anchor="middle" x="209" y="-224" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Utils::Math::randint</text>
 </a>
 </g>
 </g>
-<!-- Node1017&#45;&gt;Node1020 -->
-<g id="edge3" class="edge"><title>Node1017&#45;&gt;Node1020</title>
+<!-- Node1008&#45;&gt;Node1011 -->
+<g id="edge3" class="edge"><title>Node1008&#45;&gt;Node1011</title>
 <path fill="none" stroke="midnightblue" d="M103.417,-213.721C114.515,-215.077 126.444,-216.535 138.134,-217.963"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="137.967,-221.469 148.317,-219.208 138.816,-214.521 137.967,-221.469"/>
 </g>
-<!-- Node1022 -->
-<g id="node6" class="node"><title>Node1022</title>
+<!-- Node1013 -->
+<g id="node6" class="node"><title>Node1013</title>
 <g id="a_node6"><a xlink:href="namespaceobe_1_1_utils_1_1_math.html#a3bbd8898660b36f9319be7b115c99216" target="_top" xlink:title="Get a random double. ">
 <polygon fill="none" stroke="black" points="145,-179 145,-198 273,-198 273,-179 145,-179"/>
 <text text-anchor="middle" x="209" y="-186" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Utils::Math::randfloat</text>
 </a>
 </g>
 </g>
-<!-- Node1017&#45;&gt;Node1022 -->
-<g id="edge5" class="edge"><title>Node1017&#45;&gt;Node1022</title>
+<!-- Node1008&#45;&gt;Node1013 -->
+<g id="edge5" class="edge"><title>Node1008&#45;&gt;Node1013</title>
 <path fill="none" stroke="midnightblue" d="M103.417,-201.279C113.418,-200.057 124.094,-198.752 134.662,-197.461"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="135.233,-200.917 144.735,-196.23 134.384,-193.969 135.233,-200.917"/>
 </g>
-<!-- Node1023 -->
-<g id="node7" class="node"><title>Node1023</title>
+<!-- Node1014 -->
+<g id="node7" class="node"><title>Node1014</title>
 <g id="a_node7"><a xlink:href="namespaceobe_1_1_utils_1_1_math.html#acf6ee384a3f6f008740641c5ff2c547e" target="_top" xlink:title="Check if a double is an integer (3.0 for example is equal to 3) ">
 <polygon fill="none" stroke="black" points="139,-141 139,-160 279,-160 279,-141 139,-141"/>
 <text text-anchor="middle" x="209" y="-148" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Utils::Math::isDoubleInt</text>
 </a>
 </g>
 </g>
-<!-- Node1017&#45;&gt;Node1023 -->
-<g id="edge7" class="edge"><title>Node1017&#45;&gt;Node1023</title>
+<!-- Node1008&#45;&gt;Node1014 -->
+<g id="edge7" class="edge"><title>Node1008&#45;&gt;Node1014</title>
 <path fill="none" stroke="midnightblue" d="M83.6915,-192.485C99.9505,-184.996 120.298,-176.143 139,-169.5 145.529,-167.181 152.488,-164.97 159.379,-162.931"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="160.718,-166.189 169.37,-160.074 158.793,-159.459 160.718,-166.189"/>
 </g>
-<!-- Node1024 -->
-<g id="node8" class="node"><title>Node1024</title>
+<!-- Node1015 -->
+<g id="node8" class="node"><title>Node1015</title>
 <g id="a_node8"><a xlink:href="classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b" target="_top" xlink:title="aube::ErrorHandler\l::Raise">
 <polygon fill="none" stroke="black" points="160,-91.5 160,-121.5 258,-121.5 258,-91.5 160,-91.5"/>
 <text text-anchor="start" x="168" y="-109.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorHandler</text>
@@ -89,31 +89,31 @@
 </a>
 </g>
 </g>
-<!-- Node1017&#45;&gt;Node1024 -->
-<g id="edge8" class="edge"><title>Node1017&#45;&gt;Node1024</title>
+<!-- Node1008&#45;&gt;Node1015 -->
+<g id="edge8" class="edge"><title>Node1008&#45;&gt;Node1015</title>
 <path fill="none" stroke="midnightblue" d="M66.177,-192.493C82.212,-175.661 110.268,-148.499 139,-131.5 142.639,-129.347 146.495,-127.332 150.449,-125.455"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="152.064,-128.568 159.8,-121.328 149.238,-122.164 152.064,-128.568"/>
 </g>
-<!-- Node1021 -->
-<g id="node5" class="node"><title>Node1021</title>
+<!-- Node1012 -->
+<g id="node5" class="node"><title>Node1012</title>
 <g id="a_node5"><a xlink:href="namespaceobe_1_1_utils_1_1_math.html#a675729380c54b579e88c541098a50258" target="_top" xlink:title="obe::Utils::Math::rng">
 <polygon fill="none" stroke="black" points="315,-204 315,-223 420,-223 420,-204 315,-204"/>
 <text text-anchor="middle" x="367.5" y="-211" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Utils::Math::rng</text>
 </a>
 </g>
 </g>
-<!-- Node1020&#45;&gt;Node1021 -->
-<g id="edge4" class="edge"><title>Node1020&#45;&gt;Node1021</title>
+<!-- Node1011&#45;&gt;Node1012 -->
+<g id="edge4" class="edge"><title>Node1011&#45;&gt;Node1012</title>
 <path fill="none" stroke="midnightblue" d="M269.612,-221.548C281.171,-220.588 293.305,-219.58 304.924,-218.615"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="305.3,-222.096 314.976,-217.78 304.72,-215.12 305.3,-222.096"/>
 </g>
-<!-- Node1022&#45;&gt;Node1021 -->
-<g id="edge6" class="edge"><title>Node1022&#45;&gt;Node1021</title>
+<!-- Node1013&#45;&gt;Node1012 -->
+<g id="edge6" class="edge"><title>Node1013&#45;&gt;Node1012</title>
 <path fill="none" stroke="midnightblue" d="M269.612,-198.023C281.171,-199.869 293.305,-201.807 304.924,-203.664"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="304.549,-207.148 314.976,-205.269 305.653,-200.236 304.549,-207.148"/>
 </g>
-<!-- Node1025 -->
-<g id="node9" class="node"><title>Node1025</title>
+<!-- Node1016 -->
+<g id="node9" class="node"><title>Node1016</title>
 <g id="a_node9"><a xlink:href="classaube_1_1_error_message.html#a3a39b6fcd8fdb12eaf6383123535b8ca" target="_top" xlink:title="aube::ErrorMessage\l::getFile">
 <polygon fill="none" stroke="black" points="315.5,-147.5 315.5,-177.5 419.5,-177.5 419.5,-147.5 315.5,-147.5"/>
 <text text-anchor="start" x="323.5" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
@@ -121,13 +121,13 @@
 </a>
 </g>
 </g>
-<!-- Node1024&#45;&gt;Node1025 -->
-<g id="edge9" class="edge"><title>Node1024&#45;&gt;Node1025</title>
+<!-- Node1015&#45;&gt;Node1016 -->
+<g id="edge9" class="edge"><title>Node1015&#45;&gt;Node1016</title>
 <path fill="none" stroke="midnightblue" d="M251.939,-121.507C271.323,-128.443 294.528,-136.746 314.968,-144.06"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="313.851,-147.378 324.445,-147.452 316.209,-140.787 313.851,-147.378"/>
 </g>
-<!-- Node1026 -->
-<g id="node10" class="node"><title>Node1026</title>
+<!-- Node1017 -->
+<g id="node10" class="node"><title>Node1017</title>
 <g id="a_node10"><a xlink:href="classaube_1_1_error_message.html#a9184cc96589578f434351c105b0cd5f7" target="_top" xlink:title="aube::ErrorMessage\l::getLocation">
 <polygon fill="none" stroke="black" points="315.5,-98.5 315.5,-128.5 419.5,-128.5 419.5,-98.5 315.5,-98.5"/>
 <text text-anchor="start" x="323.5" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
@@ -135,13 +135,13 @@
 </a>
 </g>
 </g>
-<!-- Node1024&#45;&gt;Node1026 -->
-<g id="edge10" class="edge"><title>Node1024&#45;&gt;Node1026</title>
+<!-- Node1015&#45;&gt;Node1017 -->
+<g id="edge10" class="edge"><title>Node1015&#45;&gt;Node1017</title>
 <path fill="none" stroke="midnightblue" d="M258.232,-108.657C273.114,-109.323 289.704,-110.065 305.336,-110.764"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="305.297,-114.266 315.444,-111.216 305.61,-107.273 305.297,-114.266"/>
 </g>
-<!-- Node1027 -->
-<g id="node11" class="node"><title>Node1027</title>
+<!-- Node1018 -->
+<g id="node11" class="node"><title>Node1018</title>
 <g id="a_node11"><a xlink:href="classaube_1_1_error_message.html#a07927cb3e2d0712c459cc9e2b5f52696" target="_top" xlink:title="aube::ErrorMessage\l::getMessage">
 <polygon fill="none" stroke="black" points="315.5,-49.5 315.5,-79.5 419.5,-79.5 419.5,-49.5 315.5,-49.5"/>
 <text text-anchor="start" x="323.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
@@ -149,13 +149,13 @@
 </a>
 </g>
 </g>
-<!-- Node1024&#45;&gt;Node1027 -->
-<g id="edge11" class="edge"><title>Node1024&#45;&gt;Node1027</title>
+<!-- Node1015&#45;&gt;Node1018 -->
+<g id="edge11" class="edge"><title>Node1015&#45;&gt;Node1018</title>
 <path fill="none" stroke="midnightblue" d="M258.232,-93.5559C273.256,-89.524 290.02,-85.0251 305.783,-80.7947"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="306.693,-84.1744 315.444,-78.202 304.878,-77.4136 306.693,-84.1744"/>
 </g>
-<!-- Node1028 -->
-<g id="node12" class="node"><title>Node1028</title>
+<!-- Node1019 -->
+<g id="node12" class="node"><title>Node1019</title>
 <g id="a_node12"><a xlink:href="classaube_1_1_error_message.html#a77c2f9b7e93542c958173b52da267989" target="_top" xlink:title="aube::ErrorMessage\l::getHints">
 <polygon fill="none" stroke="black" points="315.5,-0.5 315.5,-30.5 419.5,-30.5 419.5,-0.5 315.5,-0.5"/>
 <text text-anchor="start" x="323.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
@@ -163,8 +163,8 @@
 </a>
 </g>
 </g>
-<!-- Node1024&#45;&gt;Node1028 -->
-<g id="edge12" class="edge"><title>Node1024&#45;&gt;Node1028</title>
+<!-- Node1015&#45;&gt;Node1019 -->
+<g id="edge12" class="edge"><title>Node1015&#45;&gt;Node1019</title>
 <path fill="none" stroke="midnightblue" d="M232.012,-91.2476C252.907,-77.0615 285.429,-55.7328 315,-39.5 317.681,-38.0285 320.467,-36.5615 323.295,-35.1194"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="324.973,-38.1939 332.386,-30.6236 321.87,-31.9192 324.973,-38.1939"/>
 </g>

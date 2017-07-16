@@ -8,27 +8,27 @@
  viewBox="0.00 0.00 1155.00 235.50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 231.5)">
 <title>obe::Input::KeyBinder::setActionDelay</title>
-<!-- Node165 -->
-<g id="node1" class="node"><title>Node165</title>
+<!-- Node168 -->
+<g id="node1" class="node"><title>Node168</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-151.5 0,-181.5 110,-181.5 110,-151.5 0,-151.5"/>
 <text text-anchor="start" x="8" y="-169.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Input::KeyBinder</text>
 <text text-anchor="middle" x="55" y="-158.5" font-family="Helvetica,sans-Serif" font-size="10.00">::setActionDelay</text>
 </g>
-<!-- Node166 -->
-<g id="node2" class="node"><title>Node166</title>
+<!-- Node169 -->
+<g id="node2" class="node"><title>Node169</title>
 <g id="a_node2"><a xlink:href="namespaceobe_1_1_editor.html#a9009207671e71dccb68a31ea2362e9ef" target="_top" xlink:title="Starts the map edition. ">
 <polygon fill="none" stroke="black" points="779,-208 779,-227 883,-227 883,-208 779,-208"/>
 <text text-anchor="middle" x="831" y="-215" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Editor::editMap</text>
 </a>
 </g>
 </g>
-<!-- Node165&#45;&gt;Node166 -->
-<g id="edge1" class="edge"><title>Node165&#45;&gt;Node166</title>
+<!-- Node168&#45;&gt;Node169 -->
+<g id="edge1" class="edge"><title>Node168&#45;&gt;Node169</title>
 <path fill="none" stroke="midnightblue" d="M118.436,-184.042C176.494,-198.796 265.646,-217.5 344.5,-217.5 344.5,-217.5 344.5,-217.5 494.5,-217.5 595.266,-217.5 713.057,-217.5 778.844,-217.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="119.237,-180.635 108.68,-181.526 117.488,-187.413 119.237,-180.635"/>
 </g>
-<!-- Node169 -->
-<g id="node5" class="node"><title>Node169</title>
+<!-- Node172 -->
+<g id="node5" class="node"><title>Node172</title>
 <g id="a_node5"><a xlink:href="namespaceobe_1_1_script_1_1_core_lib.html#a322becadd912e278e81c00894bf83fec" target="_top" xlink:title="obe::Script::CoreLib\l::loadKeyBind">
 <polygon fill="none" stroke="black" points="146,-101.5 146,-131.5 249,-131.5 249,-101.5 146,-101.5"/>
 <text text-anchor="start" x="154" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Script::CoreLib</text>
@@ -36,70 +36,70 @@
 </a>
 </g>
 </g>
-<!-- Node165&#45;&gt;Node169 -->
-<g id="edge5" class="edge"><title>Node165&#45;&gt;Node169</title>
+<!-- Node168&#45;&gt;Node172 -->
+<g id="edge5" class="edge"><title>Node168&#45;&gt;Node172</title>
 <path fill="none" stroke="midnightblue" d="M107.894,-148.032C123.033,-142.645 139.395,-136.822 153.89,-131.664"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="106.402,-144.848 98.1546,-151.498 108.749,-151.443 106.402,-144.848"/>
 </g>
-<!-- Node167 -->
-<g id="node3" class="node"><title>Node167</title>
+<!-- Node170 -->
+<g id="node3" class="node"><title>Node170</title>
 <g id="a_node3"><a xlink:href="namespaceobe_1_1_modes.html#a6a8b08eee511d4895c4da96d4ba223a6" target="_top" xlink:title="Starts the development Menu where you can starts other menus from. ">
 <polygon fill="none" stroke="black" points="940,-181 940,-200 1073,-200 1073,-181 940,-181"/>
 <text text-anchor="middle" x="1006.5" y="-188" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Modes::startDevMenu</text>
 </a>
 </g>
 </g>
-<!-- Node166&#45;&gt;Node167 -->
-<g id="edge2" class="edge"><title>Node166&#45;&gt;Node167</title>
+<!-- Node169&#45;&gt;Node170 -->
+<g id="edge2" class="edge"><title>Node169&#45;&gt;Node170</title>
 <path fill="none" stroke="midnightblue" d="M893.238,-207.97C909.815,-205.39 927.757,-202.598 944.33,-200.019"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="892.46,-204.549 883.117,-209.545 893.537,-211.466 892.46,-204.549"/>
 </g>
-<!-- Node168 -->
-<g id="node4" class="node"><title>Node168</title>
+<!-- Node171 -->
+<g id="node4" class="node"><title>Node171</title>
 <g id="a_node4"><a xlink:href="_ob_engine_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" target="_top" xlink:title="main">
 <polygon fill="none" stroke="black" points="1109,-181 1109,-200 1147,-200 1147,-181 1109,-181"/>
 <text text-anchor="middle" x="1128" y="-188" font-family="Helvetica,sans-Serif" font-size="10.00">main</text>
 </a>
 </g>
 </g>
-<!-- Node166&#45;&gt;Node168 -->
-<g id="edge4" class="edge"><title>Node166&#45;&gt;Node168</title>
+<!-- Node169&#45;&gt;Node171 -->
+<g id="edge4" class="edge"><title>Node169&#45;&gt;Node171</title>
 <path fill="none" stroke="midnightblue" d="M893.4,-220.576C942.441,-221.811 1012.69,-220.833 1073,-209.5 1085.31,-207.187 1098.58,-202.548 1108.89,-198.433"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="893.366,-217.074 883.269,-220.282 893.163,-224.071 893.366,-217.074"/>
 </g>
-<!-- Node167&#45;&gt;Node168 -->
-<g id="edge3" class="edge"><title>Node167&#45;&gt;Node168</title>
+<!-- Node170&#45;&gt;Node171 -->
+<g id="edge3" class="edge"><title>Node170&#45;&gt;Node171</title>
 <path fill="none" stroke="midnightblue" d="M1083.44,-190.5C1092.72,-190.5 1101.44,-190.5 1108.6,-190.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="1083.19,-187 1073.19,-190.5 1083.19,-194 1083.19,-187"/>
 </g>
-<!-- Node170 -->
-<g id="node6" class="node"><title>Node170</title>
+<!-- Node173 -->
+<g id="node6" class="node"><title>Node173</title>
 <g id="a_node6"><a xlink:href="namespaceobe_1_1_script.html#abdb81ec0976f1097cef6711415b8fac3" target="_top" xlink:title="obe::Script::loadCoreLib">
 <polygon fill="none" stroke="black" points="285,-89 285,-108 406,-108 406,-89 285,-89"/>
 <text text-anchor="middle" x="345.5" y="-96" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Script::loadCoreLib</text>
 </a>
 </g>
 </g>
-<!-- Node169&#45;&gt;Node170 -->
-<g id="edge6" class="edge"><title>Node169&#45;&gt;Node170</title>
+<!-- Node172&#45;&gt;Node173 -->
+<g id="edge6" class="edge"><title>Node172&#45;&gt;Node173</title>
 <path fill="none" stroke="midnightblue" d="M259.328,-109.001C267.785,-107.958 276.467,-106.888 284.902,-105.848"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="258.651,-105.558 249.154,-110.255 259.507,-112.505 258.651,-105.558"/>
 </g>
-<!-- Node171 -->
-<g id="node7" class="node"><title>Node171</title>
+<!-- Node174 -->
+<g id="node7" class="node"><title>Node174</title>
 <g id="a_node7"><a xlink:href="namespaceobe_1_1_script.html#a4e6ee77032cf7f66544f9b08464a60b7" target="_top" xlink:title="obe::Script::loadLib">
 <polygon fill="none" stroke="black" points="443,-111 443,-130 544,-130 544,-111 443,-111"/>
 <text text-anchor="middle" x="493.5" y="-118" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Script::loadLib</text>
 </a>
 </g>
 </g>
-<!-- Node170&#45;&gt;Node171 -->
-<g id="edge7" class="edge"><title>Node170&#45;&gt;Node171</title>
+<!-- Node173&#45;&gt;Node174 -->
+<g id="edge7" class="edge"><title>Node173&#45;&gt;Node174</title>
 <path fill="none" stroke="midnightblue" d="M416.337,-109.023C425.273,-110.37 434.271,-111.726 442.796,-113.01"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="416.715,-105.541 406.305,-107.512 415.672,-112.463 416.715,-105.541"/>
 </g>
-<!-- Node179 -->
-<g id="node15" class="node"><title>Node179</title>
+<!-- Node182 -->
+<g id="node15" class="node"><title>Node182</title>
 <g id="a_node15"><a xlink:href="namespaceobe_1_1_script_1_1_core_lib.html#a07d6c11bbb082bc45bdba50d97965c00" target="_top" xlink:title="obe::Script::CoreLib\l::loadCollision">
 <polygon fill="none" stroke="black" points="442,-61.5 442,-91.5 545,-91.5 545,-61.5 442,-61.5"/>
 <text text-anchor="start" x="450" y="-79.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Script::CoreLib</text>
@@ -107,26 +107,26 @@
 </a>
 </g>
 </g>
-<!-- Node170&#45;&gt;Node179 -->
-<g id="edge19" class="edge"><title>Node170&#45;&gt;Node179</title>
+<!-- Node173&#45;&gt;Node182 -->
+<g id="edge19" class="edge"><title>Node173&#45;&gt;Node182</title>
 <path fill="none" stroke="midnightblue" d="M383.866,-86.8921C401.485,-83.4073 422.773,-80.0382 441.819,-77.6755"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="383.04,-83.489 373.961,-88.9505 384.464,-90.3425 383.04,-83.489"/>
 </g>
-<!-- Node172 -->
-<g id="node8" class="node"><title>Node172</title>
+<!-- Node175 -->
+<g id="node8" class="node"><title>Node175</title>
 <g id="a_node8"><a xlink:href="namespaceobe_1_1_modes.html#a1e38c0d9a2ca0230f0de79c298f53ab9" target="_top" xlink:title="A mode that will start the Toolkit. ">
 <polygon fill="none" stroke="black" points="758,-154 758,-173 904,-173 904,-154 758,-154"/>
 <text text-anchor="middle" x="831" y="-161" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Modes::startToolkitMode</text>
 </a>
 </g>
 </g>
-<!-- Node171&#45;&gt;Node172 -->
-<g id="edge8" class="edge"><title>Node171&#45;&gt;Node172</title>
+<!-- Node174&#45;&gt;Node175 -->
+<g id="edge8" class="edge"><title>Node174&#45;&gt;Node175</title>
 <path fill="none" stroke="midnightblue" d="M519.139,-135.301C535.925,-144.512 559.012,-155.523 581,-160.5 639.505,-173.742 707.737,-173.511 757.965,-170.522"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="520.465,-132.029 510.039,-130.144 517.013,-138.119 520.465,-132.029"/>
 </g>
-<!-- Node173 -->
-<g id="node9" class="node"><title>Node173</title>
+<!-- Node176 -->
+<g id="node9" class="node"><title>Node176</title>
 <g id="a_node9"><a xlink:href="classobe_1_1_scene_1_1_world.html#a32964e659e18cb32094d9f8ceea30aa3" target="_top" xlink:title="obe::Scene::World::\lWorld">
 <polygon fill="none" stroke="black" points="779,-69.5 779,-99.5 883,-99.5 883,-69.5 779,-69.5"/>
 <text text-anchor="start" x="787" y="-87.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Scene::World::</text>
@@ -134,13 +134,13 @@
 </a>
 </g>
 </g>
-<!-- Node171&#45;&gt;Node173 -->
-<g id="edge11" class="edge"><title>Node171&#45;&gt;Node173</title>
+<!-- Node174&#45;&gt;Node176 -->
+<g id="edge11" class="edge"><title>Node174&#45;&gt;Node176</title>
 <path fill="none" stroke="midnightblue" d="M554.331,-114.08C618.27,-107.219 718.555,-96.4583 778.916,-89.9814"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="553.574,-110.641 544.004,-115.188 554.321,-117.601 553.574,-110.641"/>
 </g>
-<!-- Node174 -->
-<g id="node10" class="node"><title>Node174</title>
+<!-- Node177 -->
+<g id="node10" class="node"><title>Node177</title>
 <g id="a_node10"><a xlink:href="namespaceobe_1_1_scene.html#ae5cbcc3278d9115d603e5024dec9136e" target="_top" xlink:title="obe::Scene::loadWorldScript\lEngineBaseLib">
 <polygon fill="none" stroke="black" points="581,-44.5 581,-74.5 722,-74.5 722,-44.5 581,-44.5"/>
 <text text-anchor="start" x="589" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Scene::loadWorldScript</text>
@@ -148,54 +148,54 @@
 </a>
 </g>
 </g>
-<!-- Node171&#45;&gt;Node174 -->
-<g id="edge12" class="edge"><title>Node171&#45;&gt;Node174</title>
+<!-- Node174&#45;&gt;Node177 -->
+<g id="edge12" class="edge"><title>Node174&#45;&gt;Node177</title>
 <path fill="none" stroke="midnightblue" d="M528.515,-107.199C553.137,-97.5714 586.447,-84.5462 612.038,-74.5395"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="526.914,-104.067 518.875,-110.969 529.463,-110.587 526.914,-104.067"/>
 </g>
-<!-- Node175 -->
-<g id="node11" class="node"><title>Node175</title>
+<!-- Node178 -->
+<g id="node11" class="node"><title>Node178</title>
 <g id="a_node11"><a xlink:href="namespaceobe_1_1_script.html#a5e992c0efb0543e7c934bc1065f08b01" target="_top" xlink:title="obe::Script::loadLibBridge">
 <polygon fill="none" stroke="black" points="587.5,-6 587.5,-25 715.5,-25 715.5,-6 587.5,-6"/>
 <text text-anchor="middle" x="651.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Script::loadLibBridge</text>
 </a>
 </g>
 </g>
-<!-- Node171&#45;&gt;Node175 -->
-<g id="edge14" class="edge"><title>Node171&#45;&gt;Node175</title>
+<!-- Node174&#45;&gt;Node178 -->
+<g id="edge14" class="edge"><title>Node174&#45;&gt;Node178</title>
 <path fill="none" stroke="midnightblue" d="M537.289,-106.169C540.035,-104.472 542.639,-102.588 545,-100.5 570.026,-78.3608 554.792,-55.227 581,-34.5 585.906,-30.6203 591.546,-27.5313 597.447,-25.0721"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="535.384,-103.217 528.171,-110.977 538.649,-109.409 535.384,-103.217"/>
 </g>
-<!-- Node178 -->
-<g id="node14" class="node"><title>Node178</title>
+<!-- Node181 -->
+<g id="node14" class="node"><title>Node181</title>
 <g id="a_node14"><a xlink:href="namespaceobe_1_1_script.html#aad6ef67388e6d16eb01853f208da410f" target="_top" xlink:title="obe::Script::loadBaseLib">
 <polygon fill="none" stroke="black" points="590,-132 590,-151 713,-151 713,-132 590,-132"/>
 <text text-anchor="middle" x="651.5" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Script::loadBaseLib</text>
 </a>
 </g>
 </g>
-<!-- Node171&#45;&gt;Node178 -->
-<g id="edge17" class="edge"><title>Node171&#45;&gt;Node178</title>
+<!-- Node174&#45;&gt;Node181 -->
+<g id="edge17" class="edge"><title>Node174&#45;&gt;Node181</title>
 <path fill="none" stroke="midnightblue" d="M554.372,-128.56C566.046,-130.131 578.294,-131.78 589.988,-133.354"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="554.666,-125.068 544.288,-127.202 553.732,-132.005 554.666,-125.068"/>
 </g>
-<!-- Node172&#45;&gt;Node167 -->
-<g id="edge9" class="edge"><title>Node172&#45;&gt;Node167</title>
+<!-- Node175&#45;&gt;Node170 -->
+<g id="edge9" class="edge"><title>Node175&#45;&gt;Node170</title>
 <path fill="none" stroke="midnightblue" d="M903.423,-174.615C916.993,-176.727 931.08,-178.919 944.298,-180.976"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="903.589,-171.099 893.17,-173.019 902.512,-178.015 903.589,-171.099"/>
 </g>
-<!-- Node172&#45;&gt;Node168 -->
-<g id="edge10" class="edge"><title>Node172&#45;&gt;Node168</title>
+<!-- Node175&#45;&gt;Node171 -->
+<g id="edge10" class="edge"><title>Node175&#45;&gt;Node171</title>
 <path fill="none" stroke="midnightblue" d="M914.179,-160.066C961.088,-159.637 1020.77,-161.686 1073,-171.5 1085.31,-173.813 1098.58,-178.452 1108.89,-182.567"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="914.021,-156.568 904.068,-160.199 914.113,-163.567 914.021,-156.568"/>
 </g>
-<!-- Node174&#45;&gt;Node173 -->
-<g id="edge13" class="edge"><title>Node174&#45;&gt;Node173</title>
+<!-- Node177&#45;&gt;Node176 -->
+<g id="edge13" class="edge"><title>Node177&#45;&gt;Node176</title>
 <path fill="none" stroke="midnightblue" d="M732.449,-70.7605C748.247,-72.9856 764.421,-75.2635 778.941,-77.3087"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="732.534,-67.2379 722.143,-69.3089 731.557,-74.1695 732.534,-67.2379"/>
 </g>
-<!-- Node176 -->
-<g id="node12" class="node"><title>Node176</title>
+<!-- Node179 -->
+<g id="node12" class="node"><title>Node179</title>
 <g id="a_node12"><a xlink:href="namespaceobe_1_1_script.html#a5dc8321da50fd4b5dc2935e4d8c93a4e" target="_top" xlink:title="obe::Script::loadScrGame\lObject">
 <polygon fill="none" stroke="black" points="766.5,-0.5 766.5,-30.5 895.5,-30.5 895.5,-0.5 766.5,-0.5"/>
 <text text-anchor="start" x="774.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Script::loadScrGame</text>
@@ -203,13 +203,13 @@
 </a>
 </g>
 </g>
-<!-- Node175&#45;&gt;Node176 -->
-<g id="edge15" class="edge"><title>Node175&#45;&gt;Node176</title>
+<!-- Node178&#45;&gt;Node179 -->
+<g id="edge15" class="edge"><title>Node178&#45;&gt;Node179</title>
 <path fill="none" stroke="midnightblue" d="M725.737,-15.5C739.171,-15.5 753.096,-15.5 766.226,-15.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="725.58,-12.0001 715.58,-15.5 725.58,-19.0001 725.58,-12.0001"/>
 </g>
-<!-- Node177 -->
-<g id="node13" class="node"><title>Node177</title>
+<!-- Node180 -->
+<g id="node13" class="node"><title>Node180</title>
 <g id="a_node13"><a xlink:href="classobe_1_1_script_1_1_game_object.html#aadeac0036d2fe21d523acfd4e9011a23" target="_top" xlink:title="obe::Script::GameObject\l::loadGameObject">
 <polygon fill="none" stroke="black" points="944,-0.5 944,-30.5 1069,-30.5 1069,-0.5 944,-0.5"/>
 <text text-anchor="start" x="952" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Script::GameObject</text>
@@ -217,18 +217,18 @@
 </a>
 </g>
 </g>
-<!-- Node176&#45;&gt;Node177 -->
-<g id="edge16" class="edge"><title>Node176&#45;&gt;Node177</title>
+<!-- Node179&#45;&gt;Node180 -->
+<g id="edge16" class="edge"><title>Node179&#45;&gt;Node180</title>
 <path fill="none" stroke="midnightblue" d="M905.721,-15.5C918.445,-15.5 931.552,-15.5 943.913,-15.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="905.62,-12.0001 895.62,-15.5 905.62,-19.0001 905.62,-12.0001"/>
 </g>
-<!-- Node178&#45;&gt;Node172 -->
-<g id="edge18" class="edge"><title>Node178&#45;&gt;Node172</title>
+<!-- Node181&#45;&gt;Node175 -->
+<g id="edge18" class="edge"><title>Node181&#45;&gt;Node175</title>
 <path fill="none" stroke="midnightblue" d="M723.346,-150.281C734.662,-151.683 746.384,-153.136 757.733,-154.543"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="723.444,-146.766 713.089,-149.01 722.583,-153.713 723.444,-146.766"/>
 </g>
-<!-- Node179&#45;&gt;Node170 -->
-<g id="edge20" class="edge"><title>Node179&#45;&gt;Node170</title>
+<!-- Node182&#45;&gt;Node173 -->
+<g id="edge20" class="edge"><title>Node182&#45;&gt;Node173</title>
 <path fill="none" stroke="midnightblue" d="M431.757,-92.3177C423.342,-93.7039 414.703,-95.0011 406.305,-96.1393"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="432.612,-95.7224 441.88,-90.5875 431.433,-88.8225 432.612,-95.7224"/>
 </g>

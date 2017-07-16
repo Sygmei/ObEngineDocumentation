@@ -8,35 +8,35 @@
  viewBox="0.00 0.00 303.00 66.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 62)">
 <title>obe::Input::KeyBinder::isActionEnabled</title>
-<!-- Node50 -->
-<g id="node1" class="node"><title>Node50</title>
+<!-- Node53 -->
+<g id="node1" class="node"><title>Node53</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-14 0,-44 110,-44 110,-14 0,-14"/>
 <text text-anchor="start" x="8" y="-32" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Input::KeyBinder</text>
 <text text-anchor="middle" x="55" y="-21" font-family="Helvetica,sans-Serif" font-size="10.00">::isActionEnabled</text>
 </g>
-<!-- Node51 -->
-<g id="node2" class="node"><title>Node51</title>
+<!-- Node54 -->
+<g id="node2" class="node"><title>Node54</title>
 <g id="a_node2"><a xlink:href="namespaceobe_1_1_utils_1_1_map.html#a06f60a13c805a6e46297b2e46e9f67ac" target="_top" xlink:title="Check if the given key is found in the std::map. ">
 <polygon fill="none" stroke="black" points="155,-38.5 155,-57.5 286,-57.5 286,-38.5 155,-38.5"/>
 <text text-anchor="middle" x="220.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Utils::Map::keyInMap</text>
 </a>
 </g>
 </g>
-<!-- Node50&#45;&gt;Node51 -->
-<g id="edge1" class="edge"><title>Node50&#45;&gt;Node51</title>
+<!-- Node53&#45;&gt;Node54 -->
+<g id="edge1" class="edge"><title>Node53&#45;&gt;Node54</title>
 <path fill="none" stroke="midnightblue" d="M110.443,-35.3267C121.436,-36.6042 133.173,-37.9681 144.723,-39.3103"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="144.464,-42.8037 154.802,-40.4815 145.272,-35.8505 144.464,-42.8037"/>
 </g>
-<!-- Node52 -->
-<g id="node3" class="node"><title>Node52</title>
+<!-- Node55 -->
+<g id="node3" class="node"><title>Node55</title>
 <g id="a_node3"><a xlink:href="namespaceobe_1_1_time.html#a8ae76b1e66dea054aced3ab86ecb6d3f" target="_top" xlink:title="Get the amount of milliseconds elapsed since Epoch. ">
 <polygon fill="none" stroke="black" points="146,-0.5 146,-19.5 295,-19.5 295,-0.5 146,-0.5"/>
 <text text-anchor="middle" x="220.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Time::getTickSinceEpoch</text>
 </a>
 </g>
 </g>
-<!-- Node50&#45;&gt;Node52 -->
-<g id="edge2" class="edge"><title>Node50&#45;&gt;Node52</title>
+<!-- Node53&#45;&gt;Node55 -->
+<g id="edge2" class="edge"><title>Node53&#45;&gt;Node55</title>
 <path fill="none" stroke="midnightblue" d="M110.443,-22.6733C118.589,-21.7267 127.143,-20.7326 135.727,-19.735"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="136.266,-23.1961 145.795,-18.5651 135.458,-16.2429 136.266,-23.1961"/>
 </g>

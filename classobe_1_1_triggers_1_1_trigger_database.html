@@ -74,37 +74,53 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>A <a class="el" href="classobe_1_1_triggers_1_1_trigger_database.html" title="A TriggerDatabase that handles all Trigger / TriggerGroup. ">TriggerDatabase</a> that handles all <a class="el" href="classobe_1_1_triggers_1_1_trigger.html" title="A Class that does represents a triggerable event. ">Trigger</a> / <a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html" title="Class used to manage multiple Trigger. ">TriggerGroup</a>.  
+ <a href="classobe_1_1_triggers_1_1_trigger_database.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_trigger_database_8hpp_source.html">TriggerDatabase.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:abf7e69b9e2eec4a6170e2639c99e379c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_triggers_1_1_trigger.html">Trigger</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger_database.html#abf7e69b9e2eec4a6170e2639c99e379c">getTrigger</a> (std::string groupNamespace, std::string triggerGroupName, std::string triggerName)</td></tr>
-<tr class="separator:abf7e69b9e2eec4a6170e2639c99e379c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d47f3ea79dd687a6346b751358dc96b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger_database.html#a2d47f3ea79dd687a6346b751358dc96b">createNamespace</a> (std::string groupNamespace)</td></tr>
-<tr class="separator:a2d47f3ea79dd687a6346b751358dc96b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e78251dd014de12437c8fdcb96b65d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html">TriggerGroup</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger_database.html#a6e78251dd014de12437c8fdcb96b65d4">createTriggerGroup</a> (std::string groupNamespace, std::string triggerGroupName)</td></tr>
-<tr class="separator:a6e78251dd014de12437c8fdcb96b65d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81a97cd1d7ac1e20e72fd2ee4f3f757a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html">TriggerGroup</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger_database.html#a81a97cd1d7ac1e20e72fd2ee4f3f757a">joinTriggerGroup</a> (std::string groupNamespace, std::string triggerGroupName)</td></tr>
-<tr class="separator:a81a97cd1d7ac1e20e72fd2ee4f3f757a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0e399f957865ece82bc2f6836fa28cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger_database.html#ae0e399f957865ece82bc2f6836fa28cc">removeNamespace</a> (const std::string &amp;namespaceId)</td></tr>
-<tr class="separator:ae0e399f957865ece82bc2f6836fa28cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85e6d9c230362e0db35a8013337c4fd9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_triggers_1_1_trigger.html">Trigger</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger_database.html#a85e6d9c230362e0db35a8013337c4fd9">getTrigger</a> (const std::string &amp;namespaceName, const std::string &amp;triggerGroupName, const std::string &amp;triggerName)</td></tr>
+<tr class="memdesc:a85e6d9c230362e0db35a8013337c4fd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a <a class="el" href="classobe_1_1_triggers_1_1_trigger.html" title="A Class that does represents a triggerable event. ">Trigger</a> contained in the <a class="el" href="classobe_1_1_triggers_1_1_trigger_database.html" title="A TriggerDatabase that handles all Trigger / TriggerGroup. ">TriggerDatabase</a>.  <a href="#a85e6d9c230362e0db35a8013337c4fd9">More...</a><br /></td></tr>
+<tr class="separator:a85e6d9c230362e0db35a8013337c4fd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a629434b22f321c5e1dd213b04706584c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger_database.html#a629434b22f321c5e1dd213b04706584c">createNamespace</a> (const std::string &amp;namespaceName)</td></tr>
+<tr class="memdesc:a629434b22f321c5e1dd213b04706584c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new namespace (Throws an error if the namespace already exists)  <a href="#a629434b22f321c5e1dd213b04706584c">More...</a><br /></td></tr>
+<tr class="separator:a629434b22f321c5e1dd213b04706584c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a646a92ae2fd7d8947ec23ae301f12483"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html">TriggerGroup</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger_database.html#a646a92ae2fd7d8947ec23ae301f12483">createTriggerGroup</a> (const std::string &amp;namespaceName, const std::string &amp;triggerGroupName)</td></tr>
+<tr class="memdesc:a646a92ae2fd7d8947ec23ae301f12483"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new <a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html" title="Class used to manage multiple Trigger. ">TriggerGroup</a> (Throws an error if the <a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html" title="Class used to manage multiple Trigger. ">TriggerGroup</a> already exists)  <a href="#a646a92ae2fd7d8947ec23ae301f12483">More...</a><br /></td></tr>
+<tr class="separator:a646a92ae2fd7d8947ec23ae301f12483"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8eaa4768ed4c03613952f241c925b33e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html">TriggerGroup</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger_database.html#a8eaa4768ed4c03613952f241c925b33e">joinTriggerGroup</a> (const std::string &amp;namespaceName, const std::string &amp;triggerGroupName)</td></tr>
+<tr class="memdesc:a8eaa4768ed4c03613952f241c925b33e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Join an existing <a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html" title="Class used to manage multiple Trigger. ">TriggerGroup</a> (Throws an error if the <a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html" title="Class used to manage multiple Trigger. ">TriggerGroup</a> doesn't exists or isn't joinable)  <a href="#a8eaa4768ed4c03613952f241c925b33e">More...</a><br /></td></tr>
+<tr class="separator:a8eaa4768ed4c03613952f241c925b33e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a677d441a5f69cba5ab9c5e360459fc04"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger_database.html#a677d441a5f69cba5ab9c5e360459fc04">getAllTriggersNameFromTriggerGroup</a> (const std::string &amp;namespaceName, const std::string &amp;triggerGroupName)</td></tr>
+<tr class="memdesc:a677d441a5f69cba5ab9c5e360459fc04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets all the names of the <a class="el" href="classobe_1_1_triggers_1_1_trigger.html" title="A Class that does represents a triggerable event. ">Trigger</a> containing the groupNamespace.triggerGroupName.  <a href="#a677d441a5f69cba5ab9c5e360459fc04">More...</a><br /></td></tr>
+<tr class="separator:a677d441a5f69cba5ab9c5e360459fc04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a270831c059617b67843e92913545883c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger_database.html#a270831c059617b67843e92913545883c">removeNamespace</a> (const std::string &amp;namespaceName)</td></tr>
+<tr class="memdesc:a270831c059617b67843e92913545883c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes an existing namespace.  <a href="#a270831c059617b67843e92913545883c">More...</a><br /></td></tr>
+<tr class="separator:a270831c059617b67843e92913545883c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86088f4568d0629ed0d63436892e40bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger_database.html#a86088f4568d0629ed0d63436892e40bc">removeTriggerGroup</a> (<a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html">TriggerGroup</a> *trgGroup)</td></tr>
+<tr class="memdesc:a86088f4568d0629ed0d63436892e40bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes an existing <a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html" title="Class used to manage multiple Trigger. ">TriggerGroup</a>.  <a href="#a86088f4568d0629ed0d63436892e40bc">More...</a><br /></td></tr>
 <tr class="separator:a86088f4568d0629ed0d63436892e40bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a327f4b674d00a7d31614d9a02853d08e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger_database.html#a327f4b674d00a7d31614d9a02853d08e">doesTriggerGroupExists</a> (std::string groupNamespace, std::string triggerGroupName)</td></tr>
-<tr class="separator:a327f4b674d00a7d31614d9a02853d08e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af33dbc1404ea1a022a548c853f26de06"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger_database.html#af33dbc1404ea1a022a548c853f26de06">getAllTriggersNameFromTriggerGroup</a> (std::string groupNamespace, std::string triggerGroupName)</td></tr>
-<tr class="separator:af33dbc1404ea1a022a548c853f26de06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d47ee01e08f982574a4381de08648ed"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger_database.html#a8d47ee01e08f982574a4381de08648ed">doesTriggerGroupExists</a> (const std::string &amp;groupNamespace, const std::string &amp;triggerGroupName)</td></tr>
+<tr class="memdesc:a8d47ee01e08f982574a4381de08648ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a <a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html" title="Class used to manage multiple Trigger. ">TriggerGroup</a> exists in the <a class="el" href="classobe_1_1_triggers_1_1_trigger_database.html" title="A TriggerDatabase that handles all Trigger / TriggerGroup. ">TriggerDatabase</a>.  <a href="#a8d47ee01e08f982574a4381de08648ed">More...</a><br /></td></tr>
+<tr class="separator:a8d47ee01e08f982574a4381de08648ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24f39a6242a547f27f9ba8754a551385"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger_database.html#a24f39a6242a547f27f9ba8754a551385">update</a> ()</td></tr>
+<tr class="memdesc:a24f39a6242a547f27f9ba8754a551385"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the <a class="el" href="classobe_1_1_triggers_1_1_trigger_database.html" title="A TriggerDatabase that handles all Trigger / TriggerGroup. ">TriggerDatabase</a> (Already executed in the main loops)  <a href="#a24f39a6242a547f27f9ba8754a551385">More...</a><br /></td></tr>
 <tr class="separator:a24f39a6242a547f27f9ba8754a551385"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5506c7efc3b57bcdd3dc67fd5903da4b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger_database.html#a5506c7efc3b57bcdd3dc67fd5903da4b">clear</a> ()</td></tr>
+<tr class="memdesc:a5506c7efc3b57bcdd3dc67fd5903da4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the <a class="el" href="classobe_1_1_triggers_1_1_trigger_database.html" title="A TriggerDatabase that handles all Trigger / TriggerGroup. ">TriggerDatabase</a>.  <a href="#a5506c7efc3b57bcdd3dc67fd5903da4b">More...</a><br /></td></tr>
 <tr class="separator:a5506c7efc3b57bcdd3dc67fd5903da4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a7fa7c3acb40846820d7f11a344d73451"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classobe_1_1_triggers_1_1_trigger_database.html">TriggerDatabase</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger_database.html#a7fa7c3acb40846820d7f11a344d73451">GetInstance</a> ()</td></tr>
+<tr class="memdesc:a7fa7c3acb40846820d7f11a344d73451"><td class="mdescLeft">&#160;</td><td class="mdescRight">As <a class="el" href="classobe_1_1_triggers_1_1_trigger_database.html" title="A TriggerDatabase that handles all Trigger / TriggerGroup. ">TriggerDatabase</a> is a Singleton, gets the single instance.  <a href="#a7fa7c3acb40846820d7f11a344d73451">More...</a><br /></td></tr>
 <tr class="separator:a7fa7c3acb40846820d7f11a344d73451"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A <a class="el" href="classobe_1_1_triggers_1_1_trigger_database.html" title="A TriggerDatabase that handles all Trigger / TriggerGroup. ">TriggerDatabase</a> that handles all <a class="el" href="classobe_1_1_triggers_1_1_trigger.html" title="A Class that does represents a triggerable event. ">Trigger</a> / <a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html" title="Class used to manage multiple Trigger. ">TriggerGroup</a>. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a5506c7efc3b57bcdd3dc67fd5903da4b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5506c7efc3b57bcdd3dc67fd5903da4b">&#9670;&nbsp;</a></span>clear()</h2>
 
@@ -119,6 +135,8 @@ Static Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Clears the <a class="el" href="classobe_1_1_triggers_1_1_trigger_database.html" title="A TriggerDatabase that handles all Trigger / TriggerGroup. ">TriggerDatabase</a>. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -127,8 +145,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a2d47f3ea79dd687a6346b751358dc96b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d47f3ea79dd687a6346b751358dc96b">&#9670;&nbsp;</a></span>createNamespace()</h2>
+<a id="a629434b22f321c5e1dd213b04706584c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a629434b22f321c5e1dd213b04706584c">&#9670;&nbsp;</a></span>createNamespace()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -136,27 +154,37 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void obe::Triggers::TriggerDatabase::createNamespace </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>groupNamespace</em></td><td>)</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>namespaceName</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Creates a new namespace (Throws an error if the namespace already exists) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">namespaceName</td><td>Name of the namespace to create </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_database_a2d47f3ea79dd687a6346b751358dc96b_cgraph.svg" width="575" height="248"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_database_a629434b22f321c5e1dd213b04706584c_cgraph.svg" width="575" height="248"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_database_a2d47f3ea79dd687a6346b751358dc96b_icgraph.svg" width="424" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_database_a629434b22f321c5e1dd213b04706584c_icgraph.svg" width="424" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
 </div>
-<a id="a6e78251dd014de12437c8fdcb96b65d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e78251dd014de12437c8fdcb96b65d4">&#9670;&nbsp;</a></span>createTriggerGroup()</h2>
+<a id="a646a92ae2fd7d8947ec23ae301f12483"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a646a92ae2fd7d8947ec23ae301f12483">&#9670;&nbsp;</a></span>createTriggerGroup()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -164,13 +192,13 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname"><a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html">TriggerGroup</a> * obe::Triggers::TriggerDatabase::createTriggerGroup </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>groupNamespace</em>, </td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>namespaceName</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>triggerGroupName</em>&#160;</td>
         </tr>
         <tr>
@@ -180,21 +208,33 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Creates a new <a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html" title="Class used to manage multiple Trigger. ">TriggerGroup</a> (Throws an error if the <a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html" title="Class used to manage multiple Trigger. ">TriggerGroup</a> already exists) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">namespaceName</td><td>Namespace where to create the <a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html" title="Class used to manage multiple Trigger. ">TriggerGroup</a> </td></tr>
+    <tr><td class="paramname">triggerGroupName</td><td>Name of the new <a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html" title="Class used to manage multiple Trigger. ">TriggerGroup</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Pointer to the newly created <a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html" title="Class used to manage multiple Trigger. ">TriggerGroup</a> </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_database_a6e78251dd014de12437c8fdcb96b65d4_cgraph.svg" width="575" height="248"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_database_a646a92ae2fd7d8947ec23ae301f12483_cgraph.svg" width="575" height="248"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_database_a6e78251dd014de12437c8fdcb96b65d4_icgraph.svg" width="100%" height="528"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_database_a646a92ae2fd7d8947ec23ae301f12483_icgraph.svg" width="100%" height="528"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
 </div>
-<a id="a327f4b674d00a7d31614d9a02853d08e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a327f4b674d00a7d31614d9a02853d08e">&#9670;&nbsp;</a></span>doesTriggerGroupExists()</h2>
+<a id="a8d47ee01e08f982574a4381de08648ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d47ee01e08f982574a4381de08648ed">&#9670;&nbsp;</a></span>doesTriggerGroupExists()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202,13 +242,13 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">bool obe::Triggers::TriggerDatabase::doesTriggerGroupExists </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>groupNamespace</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>triggerGroupName</em>&#160;</td>
         </tr>
         <tr>
@@ -218,16 +258,33 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Check if a <a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html" title="Class used to manage multiple Trigger. ">TriggerGroup</a> exists in the <a class="el" href="classobe_1_1_triggers_1_1_trigger_database.html" title="A TriggerDatabase that handles all Trigger / TriggerGroup. ">TriggerDatabase</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">groupNamespace</td><td>Name of the Namespace where to search if the <a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html" title="Class used to manage multiple Trigger. ">TriggerGroup</a> exists </td></tr>
+    <tr><td class="paramname">triggerGroupName</td><td>Name of the <a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html" title="Class used to manage multiple Trigger. ">TriggerGroup</a> to search </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_database_a8d47ee01e08f982574a4381de08648ed_cgraph.svg" width="575" height="248"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_database_a327f4b674d00a7d31614d9a02853d08e_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_database_a8d47ee01e08f982574a4381de08648ed_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
 </div>
-<a id="af33dbc1404ea1a022a548c853f26de06"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af33dbc1404ea1a022a548c853f26de06">&#9670;&nbsp;</a></span>getAllTriggersNameFromTriggerGroup()</h2>
+<a id="a677d441a5f69cba5ab9c5e360459fc04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a677d441a5f69cba5ab9c5e360459fc04">&#9670;&nbsp;</a></span>getAllTriggersNameFromTriggerGroup()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -235,13 +292,13 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">std::vector&lt; std::string &gt; obe::Triggers::TriggerDatabase::getAllTriggersNameFromTriggerGroup </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>groupNamespace</em>, </td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>namespaceName</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>triggerGroupName</em>&#160;</td>
         </tr>
         <tr>
@@ -251,15 +308,27 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets all the names of the <a class="el" href="classobe_1_1_triggers_1_1_trigger.html" title="A Class that does represents a triggerable event. ">Trigger</a> containing the groupNamespace.triggerGroupName. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">namespaceName</td><td>Name of the Namespace </td></tr>
+    <tr><td class="paramname">triggerGroupName</td><td>Name of the <a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html" title="Class used to manage multiple Trigger. ">TriggerGroup</a> to get all the <a class="el" href="classobe_1_1_triggers_1_1_trigger.html" title="A Class that does represents a triggerable event. ">Trigger</a> names </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A std::vector of std::string containing all the names of the <a class="el" href="classobe_1_1_triggers_1_1_trigger.html" title="A Class that does represents a triggerable event. ">Trigger</a> in the <a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html" title="Class used to manage multiple Trigger. ">TriggerGroup</a> </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_database_af33dbc1404ea1a022a548c853f26de06_cgraph.svg" width="623" height="248"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_database_a677d441a5f69cba5ab9c5e360459fc04_cgraph.svg" width="100%" height="486"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_database_af33dbc1404ea1a022a548c853f26de06_icgraph.svg" width="472" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_database_a677d441a5f69cba5ab9c5e360459fc04_icgraph.svg" width="472" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -286,16 +355,20 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>As <a class="el" href="classobe_1_1_triggers_1_1_trigger_database.html" title="A TriggerDatabase that handles all Trigger / TriggerGroup. ">TriggerDatabase</a> is a Singleton, gets the single instance. </p>
+<dl class="section return"><dt>Returns</dt><dd>A pointer to the <a class="el" href="classobe_1_1_triggers_1_1_trigger_database.html" title="A TriggerDatabase that handles all Trigger / TriggerGroup. ">TriggerDatabase</a> </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_database_a7fa7c3acb40846820d7f11a344d73451_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_database_a7fa7c3acb40846820d7f11a344d73451_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
 </div>
-<a id="abf7e69b9e2eec4a6170e2639c99e379c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf7e69b9e2eec4a6170e2639c99e379c">&#9670;&nbsp;</a></span>getTrigger()</h2>
+<a id="a85e6d9c230362e0db35a8013337c4fd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85e6d9c230362e0db35a8013337c4fd9">&#9670;&nbsp;</a></span>getTrigger()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -303,19 +376,19 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname"><a class="el" href="classobe_1_1_triggers_1_1_trigger.html">Trigger</a> * obe::Triggers::TriggerDatabase::getTrigger </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>groupNamespace</em>, </td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>namespaceName</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>triggerGroupName</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>triggerName</em>&#160;</td>
         </tr>
         <tr>
@@ -325,21 +398,34 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get a <a class="el" href="classobe_1_1_triggers_1_1_trigger.html" title="A Class that does represents a triggerable event. ">Trigger</a> contained in the <a class="el" href="classobe_1_1_triggers_1_1_trigger_database.html" title="A TriggerDatabase that handles all Trigger / TriggerGroup. ">TriggerDatabase</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">namespaceName</td><td>Namespace of the <a class="el" href="classobe_1_1_triggers_1_1_trigger.html" title="A Class that does represents a triggerable event. ">Trigger</a> </td></tr>
+    <tr><td class="paramname">triggerGroupName</td><td><a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html" title="Class used to manage multiple Trigger. ">TriggerGroup</a> of the <a class="el" href="classobe_1_1_triggers_1_1_trigger.html" title="A Class that does represents a triggerable event. ">Trigger</a> </td></tr>
+    <tr><td class="paramname">triggerName</td><td>Name of the <a class="el" href="classobe_1_1_triggers_1_1_trigger.html" title="A Class that does represents a triggerable event. ">Trigger</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A pointer of the <a class="el" href="classobe_1_1_triggers_1_1_trigger.html" title="A Class that does represents a triggerable event. ">Trigger</a> if found </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_database_abf7e69b9e2eec4a6170e2639c99e379c_cgraph.svg" width="575" height="248"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_database_a85e6d9c230362e0db35a8013337c4fd9_cgraph.svg" width="575" height="248"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_database_abf7e69b9e2eec4a6170e2639c99e379c_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_database_a85e6d9c230362e0db35a8013337c4fd9_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
 </div>
-<a id="a81a97cd1d7ac1e20e72fd2ee4f3f757a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81a97cd1d7ac1e20e72fd2ee4f3f757a">&#9670;&nbsp;</a></span>joinTriggerGroup()</h2>
+<a id="a8eaa4768ed4c03613952f241c925b33e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8eaa4768ed4c03613952f241c925b33e">&#9670;&nbsp;</a></span>joinTriggerGroup()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -347,13 +433,13 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname"><a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html">TriggerGroup</a> * obe::Triggers::TriggerDatabase::joinTriggerGroup </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>groupNamespace</em>, </td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>namespaceName</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>triggerGroupName</em>&#160;</td>
         </tr>
         <tr>
@@ -363,21 +449,33 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Join an existing <a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html" title="Class used to manage multiple Trigger. ">TriggerGroup</a> (Throws an error if the <a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html" title="Class used to manage multiple Trigger. ">TriggerGroup</a> doesn't exists or isn't joinable) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">namespaceName</td><td>Namespace of the existing <a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html" title="Class used to manage multiple Trigger. ">TriggerGroup</a> </td></tr>
+    <tr><td class="paramname">triggerGroupName</td><td>Name of the <a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html" title="Class used to manage multiple Trigger. ">TriggerGroup</a> to join </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Pointer to the newly joined <a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html" title="Class used to manage multiple Trigger. ">TriggerGroup</a> </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_database_a81a97cd1d7ac1e20e72fd2ee4f3f757a_cgraph.svg" width="575" height="248"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_database_a8eaa4768ed4c03613952f241c925b33e_cgraph.svg" width="575" height="248"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_database_a81a97cd1d7ac1e20e72fd2ee4f3f757a_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_database_a8eaa4768ed4c03613952f241c925b33e_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
 </div>
-<a id="ae0e399f957865ece82bc2f6836fa28cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae0e399f957865ece82bc2f6836fa28cc">&#9670;&nbsp;</a></span>removeNamespace()</h2>
+<a id="a270831c059617b67843e92913545883c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a270831c059617b67843e92913545883c">&#9670;&nbsp;</a></span>removeNamespace()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -386,20 +484,30 @@ Here is the caller graph for this function:</div>
           <td class="memname">void obe::Triggers::TriggerDatabase::removeNamespace </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>namespaceId</em></td><td>)</td>
+          <td class="paramname"><em>namespaceName</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Removes an existing namespace. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">namespaceName</td><td>Name of the namespace to delete </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_database_ae0e399f957865ece82bc2f6836fa28cc_cgraph.svg" width="575" height="248"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_database_a270831c059617b67843e92913545883c_cgraph.svg" width="575" height="248"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_database_ae0e399f957865ece82bc2f6836fa28cc_icgraph.svg" width="424" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_database_a270831c059617b67843e92913545883c_icgraph.svg" width="424" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -419,15 +527,25 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Removes an existing <a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html" title="Class used to manage multiple Trigger. ">TriggerGroup</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">trgGroup</td><td>Pointer to the <a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html" title="Class used to manage multiple Trigger. ">TriggerGroup</a> to delete </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_database_a86088f4568d0629ed0d63436892e40bc_cgraph.svg" width="436" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_database_a86088f4568d0629ed0d63436892e40bc_cgraph.svg" width="436" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_database_a86088f4568d0629ed0d63436892e40bc_icgraph.svg" width="436" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_database_a86088f4568d0629ed0d63436892e40bc_icgraph.svg" width="436" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -446,15 +564,19 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Updates the <a class="el" href="classobe_1_1_triggers_1_1_trigger_database.html" title="A TriggerDatabase that handles all Trigger / TriggerGroup. ">TriggerDatabase</a> (Already executed in the main loops) </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_database_a24f39a6242a547f27f9ba8754a551385_cgraph.svg" width="419" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_database_a24f39a6242a547f27f9ba8754a551385_cgraph.svg" width="419" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_database_a24f39a6242a547f27f9ba8754a551385_icgraph.svg" width="100%" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_database_a24f39a6242a547f27f9ba8754a551385_icgraph.svg" width="100%" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -462,6 +584,7 @@ Here is the caller graph for this function:</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>E:/Dev/ObEngine/Git/include/Triggers/<a class="el" href="_trigger_database_8hpp_source.html">TriggerDatabase.hpp</a></li>
 <li>E:/Dev/ObEngine/Git/src/Triggers/<a class="el" href="_trigger_database_8cpp.html">TriggerDatabase.cpp</a></li>
+<li>E:/Dev/ObEngine/Git/src/Triggers/<a class="el" href="_trigger_group_8cpp.html">TriggerGroup.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

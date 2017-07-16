@@ -68,14 +68,14 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">PolygonalCollider.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;clipper/clipper.hpp&gt;</code><br />
-<code>#include &lt;SFML/Graphics/RenderWindow.hpp&gt;</code><br />
+<div class="textblock"><code>#include &lt;SFML/Graphics/RenderWindow.hpp&gt;</code><br />
 <code>#include &lt;<a class="el" href="_unit_based_object_8hpp_source.html">Transform/UnitBasedObject.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_unit_vector_8hpp_source.html">Transform/UnitVector.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_identifiable_8hpp_source.html">Types/Identifiable.hpp</a>&gt;</code><br />
@@ -89,7 +89,8 @@ Include dependency graph for PolygonalCollider.hpp:</div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="_polygonal_collider_8hpp__dep__incl.svg" width="100%" height="551"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="_polygonal_collider_8hpp__dep__incl.svg" width="100%" height="551"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 </div>
 <p><a href="_polygonal_collider_8hpp_source.html">Go to the source code of this file.</a></p>
@@ -109,6 +110,11 @@ Namespaces</h2></td></tr>
 <tr class="memdesc:namespaceobe_1_1_collision"><td class="mdescLeft">&#160;</td><td class="mdescRight">Classes and Functions to Handle Collisions. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:aec2bf4135465b251fcf97c06318c4778"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_collision.html#aec2bf4135465b251fcf97c06318c4778">obe::Collision::PolygonPath</a> = std::vector&lt; Transform::UnitVector &gt;</td></tr>
+<tr class="separator:aec2bf4135465b251fcf97c06318c4778"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:aa8080687fb294144f0bc8de1423b3f3d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_collision.html#aa8080687fb294144f0bc8de1423b3f3d">obe::Collision::ColliderTagType</a> { <a class="el" href="namespaceobe_1_1_collision.html#aa8080687fb294144f0bc8de1423b3f3dac101058e7ea21bbbf2a5ac893088e90b">obe::Collision::ColliderTagType::Tag</a>, 
@@ -120,14 +126,14 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:af5f3a0b184cb5e706ade5fa1b129a607"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_collision.html#af5f3a0b184cb5e706ade5fa1b129a607">obe::Collision::pointsCompare</a> (const ClipperLib::IntPoint *firstPt, const ClipperLib::IntPoint *secondPt)</td></tr>
-<tr class="separator:af5f3a0b184cb5e706ade5fa1b129a607"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c0ac421f797b1eacb620f67f5eed1b6"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_collision.html#a3c0ac421f797b1eacb620f67f5eed1b6">obe::Collision::pointsDistance</a> (const ClipperLib::IntPoint *firstPt, const ClipperLib::IntPoint *secondPt)</td></tr>
-<tr class="separator:a3c0ac421f797b1eacb620f67f5eed1b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad84b108b17b313c09418c88f3d1ab689"><td class="memItemLeft" align="right" valign="top">std::vector&lt; ClipperLib::IntPoint * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_collision.html#ad84b108b17b313c09418c88f3d1ab689">obe::Collision::convexHull</a> (std::vector&lt; ClipperLib::IntPoint *&gt; points)</td></tr>
-<tr class="separator:ad84b108b17b313c09418c88f3d1ab689"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf02beadb1577b36fd62b3c8c6f5038b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_collision.html#acf02beadb1577b36fd62b3c8c6f5038b">obe::Collision::cross</a> (ClipperLib::IntPoint *O, ClipperLib::IntPoint *A, ClipperLib::IntPoint *B)</td></tr>
-<tr class="separator:acf02beadb1577b36fd62b3c8c6f5038b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fd8653e1957bcc3a7091582169390b7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_collision.html#a4fd8653e1957bcc3a7091582169390b7">obe::Collision::pointsCompare</a> (const Transform::UnitVector &amp;first, const Transform::UnitVector &amp;second)</td></tr>
+<tr class="separator:a4fd8653e1957bcc3a7091582169390b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83f2d50fa7fd65f45b778888d6295078"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_collision.html#a83f2d50fa7fd65f45b778888d6295078">obe::Collision::pointsDistance</a> (const Transform::UnitVector &amp;first, const Transform::UnitVector &amp;second)</td></tr>
+<tr class="separator:a83f2d50fa7fd65f45b778888d6295078"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a030f884b3425da1cc3c05e7dd38ef8"><td class="memItemLeft" align="right" valign="top">std::vector&lt; Transform::UnitVector &amp; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_collision.html#a9a030f884b3425da1cc3c05e7dd38ef8">obe::Collision::convexHull</a> (std::vector&lt; Transform::UnitVector &amp;&gt; points)</td></tr>
+<tr class="separator:a9a030f884b3425da1cc3c05e7dd38ef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac098e4b3ea591fcbbac2946f2d05ec67"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_collision.html#ac098e4b3ea591fcbbac2946f2d05ec67">obe::Collision::cross</a> (const Transform::UnitVector &amp;O, const Transform::UnitVector &amp;A, const Transform::UnitVector &amp;B)</td></tr>
+<tr class="separator:ac098e4b3ea591fcbbac2946f2d05ec67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

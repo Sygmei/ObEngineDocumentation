@@ -8,14 +8,14 @@
  viewBox="0.00 0.00 820.00 142.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 138)">
 <title>obe::Transform::Rect::setSize</title>
-<!-- Node182 -->
-<g id="node1" class="node"><title>Node182</title>
+<!-- Node191 -->
+<g id="node1" class="node"><title>Node191</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-33 0,-63 107,-63 107,-33 0,-33"/>
 <text text-anchor="start" x="8" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Transform::Rect</text>
 <text text-anchor="middle" x="53.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00">::setSize</text>
 </g>
-<!-- Node183 -->
-<g id="node2" class="node"><title>Node183</title>
+<!-- Node192 -->
+<g id="node2" class="node"><title>Node192</title>
 <g id="a_node2"><a xlink:href="classobe_1_1_transform_1_1_rect.html#adf40297c2c6af849749317a50b028a0d" target="_top" xlink:title="Get the Position of the Rect. ">
 <polygon fill="none" stroke="black" points="143,-82 143,-112 250,-112 250,-82 143,-82"/>
 <text text-anchor="start" x="151" y="-100" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Transform::Rect</text>
@@ -23,26 +23,26 @@
 </a>
 </g>
 </g>
-<!-- Node182&#45;&gt;Node183 -->
-<g id="edge1" class="edge"><title>Node182&#45;&gt;Node183</title>
+<!-- Node191&#45;&gt;Node192 -->
+<g id="edge1" class="edge"><title>Node191&#45;&gt;Node192</title>
 <path fill="none" stroke="midnightblue" d="M97.9552,-63.1014C112.027,-67.9917 127.793,-73.4707 142.479,-78.5744"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="141.351,-81.8875 151.946,-81.8641 143.649,-75.2753 141.351,-81.8875"/>
 </g>
-<!-- Node187 -->
-<g id="node6" class="node"><title>Node187</title>
+<!-- Node196 -->
+<g id="node6" class="node"><title>Node196</title>
 <g id="a_node6"><a xlink:href="classobe_1_1_transform_1_1_unit_vector.html#af3867f780ceba4d23046a85314bfa077" target="_top" xlink:title="Set the values of the given UnitVector but keeps base Unit. ">
 <polygon fill="none" stroke="black" points="286,-0.5 286,-19.5 438,-19.5 438,-0.5 286,-0.5"/>
 <text text-anchor="middle" x="362" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Transform::UnitVector::set</text>
 </a>
 </g>
 </g>
-<!-- Node182&#45;&gt;Node187 -->
-<g id="edge6" class="edge"><title>Node182&#45;&gt;Node187</title>
+<!-- Node191&#45;&gt;Node196 -->
+<g id="edge6" class="edge"><title>Node191&#45;&gt;Node196</title>
 <path fill="none" stroke="midnightblue" d="M100.461,-32.9872C114.024,-29.1113 128.989,-25.3681 143,-23 186.424,-15.6605 235.323,-12.305 275.789,-10.8291"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="276.008,-14.3238 285.886,-10.4931 275.775,-7.32772 276.008,-14.3238"/>
 </g>
-<!-- Node188 -->
-<g id="node7" class="node"><title>Node188</title>
+<!-- Node197 -->
+<g id="node7" class="node"><title>Node197</title>
 <g id="a_node7"><a xlink:href="classobe_1_1_transform_1_1_rect.html#a76c0e31ad4c6f81b974e99be7a1bc088" target="_top" xlink:title="Set the position of the Rect using an UnitVector. ">
 <polygon fill="none" stroke="black" points="143,-33 143,-63 250,-63 250,-33 143,-33"/>
 <text text-anchor="start" x="151" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Transform::Rect</text>
@@ -50,13 +50,13 @@
 </a>
 </g>
 </g>
-<!-- Node182&#45;&gt;Node188 -->
-<g id="edge8" class="edge"><title>Node182&#45;&gt;Node188</title>
+<!-- Node191&#45;&gt;Node197 -->
+<g id="edge8" class="edge"><title>Node191&#45;&gt;Node197</title>
 <path fill="none" stroke="midnightblue" d="M107.003,-48C115.445,-48 124.255,-48 132.905,-48"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="132.953,-51.5001 142.953,-48 132.953,-44.5001 132.953,-51.5001"/>
 </g>
-<!-- Node184 -->
-<g id="node3" class="node"><title>Node184</title>
+<!-- Node193 -->
+<g id="node3" class="node"><title>Node193</title>
 <g id="a_node3"><a xlink:href="classobe_1_1_transform_1_1_rect.html#a02a40e3f622105b27fa3841002d8739e" target="_top" xlink:title="Transform the UnitVector passed by reference using the given Referencial. ">
 <polygon fill="none" stroke="black" points="308.5,-79 308.5,-109 415.5,-109 415.5,-79 308.5,-79"/>
 <text text-anchor="start" x="316.5" y="-97" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Transform::Rect</text>
@@ -64,59 +64,59 @@
 </a>
 </g>
 </g>
-<!-- Node183&#45;&gt;Node184 -->
-<g id="edge2" class="edge"><title>Node183&#45;&gt;Node184</title>
+<!-- Node192&#45;&gt;Node193 -->
+<g id="edge2" class="edge"><title>Node192&#45;&gt;Node193</title>
 <path fill="none" stroke="midnightblue" d="M250.132,-96.0343C265.448,-95.7532 282.332,-95.4435 298.207,-95.1522"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="298.532,-98.6469 308.466,-94.9639 298.404,-91.6481 298.532,-98.6469"/>
 </g>
-<!-- Node185 -->
-<g id="node4" class="node"><title>Node185</title>
+<!-- Node194 -->
+<g id="node4" class="node"><title>Node194</title>
 <g id="a_node4"><a xlink:href="classobe_1_1_transform_1_1_unit_vector.html#ace41a69769656febcf45cb2f4b90fa0e" target="_top" xlink:title="Adds the values of the the given UnitVector but keeps base Unit. ">
 <polygon fill="none" stroke="black" points="474,-114.5 474,-133.5 629,-133.5 629,-114.5 474,-114.5"/>
 <text text-anchor="middle" x="551.5" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Transform::UnitVector::add</text>
 </a>
 </g>
 </g>
-<!-- Node184&#45;&gt;Node185 -->
-<g id="edge3" class="edge"><title>Node184&#45;&gt;Node185</title>
+<!-- Node193&#45;&gt;Node194 -->
+<g id="edge3" class="edge"><title>Node193&#45;&gt;Node194</title>
 <path fill="none" stroke="midnightblue" d="M415.728,-102.437C435.926,-105.668 459.288,-109.406 480.83,-112.853"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="480.481,-116.341 490.908,-114.465 481.587,-109.429 480.481,-116.341"/>
 </g>
-<!-- Node186 -->
-<g id="node5" class="node"><title>Node186</title>
+<!-- Node195 -->
+<g id="node5" class="node"><title>Node195</title>
 <g id="a_node5"><a xlink:href="classobe_1_1_transform_1_1_unit_vector.html#ac3baab00050c329e70453fd646224a0d" target="_top" xlink:title="Return an UnitVector with the converted values (x, y) to the Unit you want. ">
 <polygon fill="none" stroke="black" points="665,-57.5 665,-76.5 812,-76.5 812,-57.5 665,-57.5"/>
 <text text-anchor="middle" x="738.5" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Transform::UnitVector::to</text>
 </a>
 </g>
 </g>
-<!-- Node184&#45;&gt;Node186 -->
-<g id="edge5" class="edge"><title>Node184&#45;&gt;Node186</title>
+<!-- Node193&#45;&gt;Node195 -->
+<g id="edge5" class="edge"><title>Node193&#45;&gt;Node195</title>
 <path fill="none" stroke="midnightblue" d="M415.862,-90.1888C478.061,-85.7045 582.072,-78.2057 654.93,-72.953"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="655.274,-76.4374 664.996,-72.2272 654.77,-69.4555 655.274,-76.4374"/>
 </g>
-<!-- Node185&#45;&gt;Node186 -->
-<g id="edge4" class="edge"><title>Node185&#45;&gt;Node186</title>
+<!-- Node194&#45;&gt;Node195 -->
+<g id="edge4" class="edge"><title>Node194&#45;&gt;Node195</title>
 <path fill="none" stroke="midnightblue" d="M583.465,-114.459C614.547,-104.883 662.593,-90.0795 696.754,-79.5543"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="697.908,-82.861 706.434,-76.5716 695.847,-76.1714 697.908,-82.861"/>
 </g>
-<!-- Node187&#45;&gt;Node186 -->
-<g id="edge7" class="edge"><title>Node187&#45;&gt;Node186</title>
+<!-- Node196&#45;&gt;Node195 -->
+<g id="edge7" class="edge"><title>Node196&#45;&gt;Node195</title>
 <path fill="none" stroke="midnightblue" d="M438.105,-12.6629C491.705,-15.5605 565.285,-21.5732 629,-34 653.857,-38.8481 681.127,-47.1555 702.11,-54.222"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="700.977,-57.5335 711.571,-57.4674 703.248,-50.9121 700.977,-57.5335"/>
 </g>
-<!-- Node188&#45;&gt;Node184 -->
-<g id="edge10" class="edge"><title>Node188&#45;&gt;Node184</title>
+<!-- Node197&#45;&gt;Node193 -->
+<g id="edge10" class="edge"><title>Node197&#45;&gt;Node193</title>
 <path fill="none" stroke="midnightblue" d="M250.132,-62.8079C265.594,-67.1579 282.654,-71.9576 298.66,-76.4609"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="297.892,-79.8807 308.466,-79.2199 299.788,-73.1423 297.892,-79.8807"/>
 </g>
-<!-- Node188&#45;&gt;Node186 -->
-<g id="edge9" class="edge"><title>Node188&#45;&gt;Node186</title>
+<!-- Node197&#45;&gt;Node195 -->
+<g id="edge9" class="edge"><title>Node197&#45;&gt;Node195</title>
 <path fill="none" stroke="midnightblue" d="M250.261,-49.8564C344.452,-53.1705 542.189,-60.1279 654.654,-64.085"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="654.815,-67.5928 664.932,-64.4467 655.061,-60.5971 654.815,-67.5928"/>
 </g>
-<!-- Node188&#45;&gt;Node187 -->
-<g id="edge11" class="edge"><title>Node188&#45;&gt;Node187</title>
+<!-- Node197&#45;&gt;Node196 -->
+<g id="edge11" class="edge"><title>Node197&#45;&gt;Node196</title>
 <path fill="none" stroke="midnightblue" d="M250.132,-35.7674C269.282,-31.3167 290.884,-26.2962 309.898,-21.8768"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="310.923,-25.2321 319.871,-19.5591 309.338,-18.4139 310.923,-25.2321"/>
 </g>

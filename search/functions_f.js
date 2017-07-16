@@ -7,7 +7,7 @@ var searchData=
   ['operator_20double',['operator double',['../classvili_1_1_base_attribute.html#a9d2e09439212087ce33de6b6e9b3865f',1,'vili::BaseAttribute']]],
   ['operator_20int',['operator int',['../classvili_1_1_base_attribute.html#a5932ee3c40526e061a73511b9b4313c2',1,'vili::BaseAttribute']]],
   ['operator_20unsigned_20int',['operator unsigned int',['../classvili_1_1_base_attribute.html#a701c079558de3cbba8d7711d8a9fa61f',1,'vili::BaseAttribute']]],
-  ['operator_2a',['operator*',['../classobe_1_1_transform_1_1_unit_vector.html#aaf04ab1086582e501689d5f6aecd3aae',1,'obe::Transform::UnitVector']]],
+  ['operator_2a',['operator*',['../classobe_1_1_transform_1_1_unit_vector.html#aaf04ab1086582e501689d5f6aecd3aae',1,'obe::Transform::UnitVector::operator*(const UnitVector &amp;mul) const'],['../classobe_1_1_transform_1_1_unit_vector.html#a61eb46bb33d96c7cf5655020287315e7',1,'obe::Transform::UnitVector::operator*(double mul) const']]],
   ['operator_2a_3d',['operator*=',['../classobe_1_1_transform_1_1_unit_vector.html#af322398d90cc33b3c82cb531deb67249',1,'obe::Transform::UnitVector']]],
   ['operator_2b',['operator+',['../classobe_1_1_transform_1_1_unit_vector.html#a14e79613e7bfbc8336bdc864a22220d9',1,'obe::Transform::UnitVector']]],
   ['operator_2b_3d',['operator+=',['../classobe_1_1_transform_1_1_unit_vector.html#a2573ca49355c13b7b0123206d99a0974',1,'obe::Transform::UnitVector']]],

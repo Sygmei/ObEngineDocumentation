@@ -1,7 +1,8 @@
 var searchData=
 [
   ['fileexists',['fileExists',['../namespaceobe_1_1_utils_1_1_file.html#a1095626f5495edc7b8692073dd25cceb',1,'obe::Utils::File']]],
-  ['findclosestpoint',['findClosestPoint',['../classobe_1_1_collision_1_1_polygonal_collider.html#aa1bd686633df383d83a248ca9d59b4b8',1,'obe::Collision::PolygonalCollider']]],
+  ['findclosestline',['findClosestLine',['../classobe_1_1_collision_1_1_polygonal_collider.html#a07f582e94fb6a8386c9aea174e5a43d5',1,'obe::Collision::PolygonalCollider']]],
+  ['findclosestpoint',['findClosestPoint',['../classobe_1_1_collision_1_1_polygonal_collider.html#ae5fa61c71c1ca04aa24c5967ab5d975c',1,'obe::Collision::PolygonalCollider']]],
   ['findoptionordefault',['findOptionOrDefault',['../namespaceobe_1_1_graphics_1_1_utils.html#a631dbc6b2cd869ba13c3bd3a1df48b11',1,'obe::Graphics::Utils']]],
   ['findsubvector',['findSubVector',['../namespacevili_1_1_functions_1_1_vector.html#acd48da64ad5d8c23cb96662066d30ac3',1,'vili::Functions::Vector']]],
   ['first',['first',['../classvili_1_1_node_iterator.html#a5f94edec5ec7388f8c952978e738a9db',1,'vili::NodeIterator']]],

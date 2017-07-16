@@ -105,94 +105,76 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a15dc2ae45baeab969c9081d09e7ae2be"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a15dc2ae45baeab969c9081d09e7ae2be">getPointsAmount</a> () const</td></tr>
 <tr class="memdesc:a15dc2ae45baeab969c9081d09e7ae2be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of points in the Polygon.  <a href="#a15dc2ae45baeab969c9081d09e7ae2be">More...</a><br /></td></tr>
 <tr class="separator:a15dc2ae45baeab969c9081d09e7ae2be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf3d1cd440bafc922498e6ce862e2aff"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#adf3d1cd440bafc922498e6ce862e2aff">getSideContainingPoint</a> (int x, int y)</td></tr>
-<tr class="memdesc:adf3d1cd440bafc922498e6ce862e2aff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get if the Position (x, y) is on one of the side of the Polygon.  <a href="#adf3d1cd440bafc922498e6ce862e2aff">More...</a><br /></td></tr>
-<tr class="separator:adf3d1cd440bafc922498e6ce862e2aff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac04d43b5fd0006616daebe42e85fa631"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#ac04d43b5fd0006616daebe42e85fa631">hasPoint</a> (int x, int y, int tolerance=0)</td></tr>
-<tr class="memdesc:ac04d43b5fd0006616daebe42e85fa631"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a point of the Polygon is on Position (x - tolerance &lt;= x &lt;= x + tolerance, y - tolerance &lt;= tolerance &lt;= y + tolerance)  <a href="#ac04d43b5fd0006616daebe42e85fa631">More...</a><br /></td></tr>
-<tr class="separator:ac04d43b5fd0006616daebe42e85fa631"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ba659f0f8f5aa09b239e39d1d9eef63"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a7ba659f0f8f5aa09b239e39d1d9eef63">hasMasterPoint</a> (int x, int y, int tolerance=0) const</td></tr>
-<tr class="memdesc:a7ba659f0f8f5aa09b239e39d1d9eef63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the MasterPoint of the Polygon is on Position (x - tolerance &lt;= x &lt;= x + tolerance, y - tolerance &lt;= tolerance &lt;= y + tolerance)  <a href="#a7ba659f0f8f5aa09b239e39d1d9eef63">More...</a><br /></td></tr>
-<tr class="separator:a7ba659f0f8f5aa09b239e39d1d9eef63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8640e1c470fc71de32485544d5eb4237"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a8640e1c470fc71de32485544d5eb4237">addPoint</a> (int x, int y, int pointIndex=-1)</td></tr>
-<tr class="memdesc:a8640e1c470fc71de32485544d5eb4237"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new Point to the Polygon at Position (x, y)  <a href="#a8640e1c470fc71de32485544d5eb4237">More...</a><br /></td></tr>
-<tr class="separator:a8640e1c470fc71de32485544d5eb4237"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abab327ea19bcbd89e69c4d847d2c8e18"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#abab327ea19bcbd89e69c4d847d2c8e18">getSideContainingPoint</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;position)</td></tr>
+<tr class="memdesc:abab327ea19bcbd89e69c4d847d2c8e18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get if the Position (x, y) is on one of the side of the Polygon.  <a href="#abab327ea19bcbd89e69c4d847d2c8e18">More...</a><br /></td></tr>
+<tr class="separator:abab327ea19bcbd89e69c4d847d2c8e18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5887cd5cf578810d59095ba09a7ace72"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a5887cd5cf578810d59095ba09a7ace72">hasPoint</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;position, const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;tolerance)</td></tr>
+<tr class="memdesc:a5887cd5cf578810d59095ba09a7ace72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a point of the Polygon is on Position (x - tolerance &lt;= x &lt;= x + tolerance, y - tolerance &lt;= tolerance &lt;= y + tolerance)  <a href="#a5887cd5cf578810d59095ba09a7ace72">More...</a><br /></td></tr>
+<tr class="separator:a5887cd5cf578810d59095ba09a7ace72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7039fec00f5c7ecb09115035901a8fb9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a7039fec00f5c7ecb09115035901a8fb9">hasMasterPoint</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;position, const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;tolerance) const</td></tr>
+<tr class="memdesc:a7039fec00f5c7ecb09115035901a8fb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the MasterPoint of the Polygon is on Position (x - tolerance &lt;= x &lt;= x + tolerance, y - tolerance &lt;= tolerance &lt;= y + tolerance)  <a href="#a7039fec00f5c7ecb09115035901a8fb9">More...</a><br /></td></tr>
+<tr class="separator:a7039fec00f5c7ecb09115035901a8fb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47ee643fd0f11b89a1078496d490ec60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a47ee643fd0f11b89a1078496d490ec60">addPoint</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;point, int pointIndex=-1)</td></tr>
+<tr class="memdesc:a47ee643fd0f11b89a1078496d490ec60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new Point to the Polygon at Position (x, y)  <a href="#a47ee643fd0f11b89a1078496d490ec60">More...</a><br /></td></tr>
+<tr class="separator:a47ee643fd0f11b89a1078496d490ec60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade0d925b13fbd4d9a6188ad3ab4996c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#ade0d925b13fbd4d9a6188ad3ab4996c4">deletePoint</a> (unsigned int pointIndex)</td></tr>
 <tr class="memdesc:ade0d925b13fbd4d9a6188ad3ab4996c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes a Point of the Polygon.  <a href="#ade0d925b13fbd4d9a6188ad3ab4996c4">More...</a><br /></td></tr>
 <tr class="separator:ade0d925b13fbd4d9a6188ad3ab4996c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abee3a2723d3e9ba81c23179fbc006c6a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#abee3a2723d3e9ba81c23179fbc006c6a">getDistanceFromPoint</a> (unsigned int pointIndex, int x, int y)</td></tr>
-<tr class="memdesc:abee3a2723d3e9ba81c23179fbc006c6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the distance between a Point of the Polygon and the given Position(x, y)  <a href="#abee3a2723d3e9ba81c23179fbc006c6a">More...</a><br /></td></tr>
-<tr class="separator:abee3a2723d3e9ba81c23179fbc006c6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1bd686633df383d83a248ca9d59b4b8"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#aa1bd686633df383d83a248ca9d59b4b8">findClosestPoint</a> (int x, int y, bool neighboor=false, std::vector&lt; int &gt; excludedPoints={})</td></tr>
-<tr class="memdesc:aa1bd686633df383d83a248ca9d59b4b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the closest Point from the given Position(x, y)  <a href="#aa1bd686633df383d83a248ca9d59b4b8">More...</a><br /></td></tr>
-<tr class="separator:aa1bd686633df383d83a248ca9d59b4b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5b7c9f68e408e8ab1c09804377c89d5"><td class="memItemLeft" align="right" valign="top">ClipperLib::Path&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#aa5b7c9f68e408e8ab1c09804377c89d5">getAllPoints</a> () const</td></tr>
-<tr class="memdesc:aa5b7c9f68e408e8ab1c09804377c89d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all the Points of the Polygon.  <a href="#aa5b7c9f68e408e8ab1c09804377c89d5">More...</a><br /></td></tr>
-<tr class="separator:aa5b7c9f68e408e8ab1c09804377c89d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84c44dd43f8946bbf003b231a07b90a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">PolygonalCollider</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a84c44dd43f8946bbf003b231a07b90a6">joinPolygonalColliders</a> (std::string joinID, <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">PolygonalCollider</a> *other)</td></tr>
-<tr class="separator:a84c44dd43f8946bbf003b231a07b90a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af37dad690ea1c82c605761b1d6218d14"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#af37dad690ea1c82c605761b1d6218d14">testAllColliders</a> (std::vector&lt; <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">PolygonalCollider</a> *&gt; collidersList, int offx, int offy, bool opt=false)</td></tr>
-<tr class="separator:af37dad690ea1c82c605761b1d6218d14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7fc1d109efbb78e3eca2a9427038986"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">PolygonalCollider</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#ab7fc1d109efbb78e3eca2a9427038986">getAllCollidedColliders</a> (std::vector&lt; <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">PolygonalCollider</a> *&gt; collidersList, int offx, int offy)</td></tr>
-<tr class="separator:ab7fc1d109efbb78e3eca2a9427038986"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77d1bcd6dee0f06683bfbffefca58206"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a77d1bcd6dee0f06683bfbffefca58206">doesCollide</a> (<a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">PolygonalCollider</a> *other, int offsetX=0, int offsetY=0)</td></tr>
-<tr class="separator:a77d1bcd6dee0f06683bfbffefca58206"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af18d0ee04d848f354a42fb32d0a12606"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#af18d0ee04d848f354a42fb32d0a12606">doesPathCollide</a> (std::vector&lt; <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">PolygonalCollider</a> *&gt; others, int offsetX=0, int offsetY=0, int toX=0, int toY=0)</td></tr>
-<tr class="separator:af18d0ee04d848f354a42fb32d0a12606"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b5ab1cbbddae72504f9a62fd6f7176e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a6b5ab1cbbddae72504f9a62fd6f7176e">doesCollideWithTags</a> (std::vector&lt; <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">PolygonalCollider</a> *&gt; collidersList, std::vector&lt; std::string &gt; tags, int offx, int offy)</td></tr>
-<tr class="separator:a6b5ab1cbbddae72504f9a62fd6f7176e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a630d6b76f8b33c836dbc302d3e7a499f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">PolygonalCollider</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a630d6b76f8b33c836dbc302d3e7a499f">getCollidedCollidersWithTags</a> (std::vector&lt; <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">PolygonalCollider</a> *&gt; collidersList, std::vector&lt; std::string &gt; tags, int offx, int offy)</td></tr>
-<tr class="separator:a630d6b76f8b33c836dbc302d3e7a499f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbe4cd7b2b2f4df12172277cfe21ed84"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#abbe4cd7b2b2f4df12172277cfe21ed84">getDistanceFromPoint</a> (unsigned int pointIndex, const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;position)</td></tr>
+<tr class="memdesc:abbe4cd7b2b2f4df12172277cfe21ed84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the distance between a Point of the Polygon and the given Position(x, y)  <a href="#abbe4cd7b2b2f4df12172277cfe21ed84">More...</a><br /></td></tr>
+<tr class="separator:abbe4cd7b2b2f4df12172277cfe21ed84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5fa61c71c1ca04aa24c5967ab5d975c"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#ae5fa61c71c1ca04aa24c5967ab5d975c">findClosestPoint</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;position, bool neighboor=false, std::vector&lt; int &gt; excludedPoints={})</td></tr>
+<tr class="memdesc:ae5fa61c71c1ca04aa24c5967ab5d975c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the closest Point from the given Position(x, y)  <a href="#ae5fa61c71c1ca04aa24c5967ab5d975c">More...</a><br /></td></tr>
+<tr class="separator:ae5fa61c71c1ca04aa24c5967ab5d975c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07f582e94fb6a8386c9aea174e5a43d5"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a07f582e94fb6a8386c9aea174e5a43d5">findClosestLine</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;position)</td></tr>
+<tr class="separator:a07f582e94fb6a8386c9aea174e5a43d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa71ad8ce8dc36a5858280c7b834c0c67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceobe_1_1_collision.html#aec2bf4135465b251fcf97c06318c4778">PolygonPath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#aa71ad8ce8dc36a5858280c7b834c0c67">getAllPoints</a> () const</td></tr>
+<tr class="memdesc:aa71ad8ce8dc36a5858280c7b834c0c67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all the Points of the Polygon.  <a href="#aa71ad8ce8dc36a5858280c7b834c0c67">More...</a><br /></td></tr>
+<tr class="separator:aa71ad8ce8dc36a5858280c7b834c0c67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad79f0ea77ec512302aa14e5f41ffcb22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#ad79f0ea77ec512302aa14e5f41ffcb22">getMaximumDistanceBeforeCollision</a> (const <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">PolygonalCollider</a> &amp;collider, const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;offset) const</td></tr>
+<tr class="separator:ad79f0ea77ec512302aa14e5f41ffcb22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e3b07c0581d4383f5c14f48ca83de33"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a0e3b07c0581d4383f5c14f48ca83de33">doesCollide</a> (const <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">PolygonalCollider</a> &amp;collider, const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;offset) const</td></tr>
+<tr class="memdesc:a0e3b07c0581d4383f5c14f48ca83de33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if two polygons are intersecting.  <a href="#a0e3b07c0581d4383f5c14f48ca83de33">More...</a><br /></td></tr>
+<tr class="separator:a0e3b07c0581d4383f5c14f48ca83de33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af55a0221f56047788b7610b2d8a94c3d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#af55a0221f56047788b7610b2d8a94c3d">getParentId</a> () const</td></tr>
 <tr class="memdesc:af55a0221f56047788b7610b2d8a94c3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Id of the parent of the Collider (When used in a GameObject)  <a href="#af55a0221f56047788b7610b2d8a94c3d">More...</a><br /></td></tr>
 <tr class="separator:af55a0221f56047788b7610b2d8a94c3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd9290a9cc51050f8b57045c148117bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#afd9290a9cc51050f8b57045c148117bd">setParentId</a> (const std::string &amp;parent)</td></tr>
 <tr class="memdesc:afd9290a9cc51050f8b57045c148117bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Id of the parent of the Collider (When used in a GameObject)  <a href="#afd9290a9cc51050f8b57045c148117bd">More...</a><br /></td></tr>
 <tr class="separator:afd9290a9cc51050f8b57045c148117bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27673ac22704bdc476246ec29091e91e"><td class="memItemLeft" align="right" valign="top">ClipperLib::IntPoint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a27673ac22704bdc476246ec29091e91e">getPosition</a> ()</td></tr>
-<tr class="separator:a27673ac22704bdc476246ec29091e91e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae45f352630947b803382a66b6d23b39d"><td class="memItemLeft" align="right" valign="top">ClipperLib::IntPoint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#ae45f352630947b803382a66b6d23b39d">getPointPosition</a> (int index)</td></tr>
-<tr class="separator:ae45f352630947b803382a66b6d23b39d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6c0a37e6e4514e242face8fc7ec6417"><td class="memItemLeft" align="right" valign="top">ClipperLib::IntPoint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#aa6c0a37e6e4514e242face8fc7ec6417">getPointRelativePosition</a> (int index)</td></tr>
-<tr class="separator:aa6c0a37e6e4514e242face8fc7ec6417"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2316c025976ecf9355f17310c1654d3"><td class="memItemLeft" align="right" valign="top">ClipperLib::IntPoint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#ae2316c025976ecf9355f17310c1654d3">getMasterPointPosition</a> () const</td></tr>
-<tr class="separator:ae2316c025976ecf9355f17310c1654d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82e862a5d9fb66ce385935fff42885b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a82e862a5d9fb66ce385935fff42885b7">u_getPosition</a> ()</td></tr>
-<tr class="separator:a82e862a5d9fb66ce385935fff42885b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc1c8dded52b22ab6356d492b52b1b06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#afc1c8dded52b22ab6356d492b52b1b06">u_getPointPosition</a> (int index)</td></tr>
-<tr class="separator:afc1c8dded52b22ab6356d492b52b1b06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31e67e9e939fc734efe34dfc57769873"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a31e67e9e939fc734efe34dfc57769873">u_getPointRelativePosition</a> (int index)</td></tr>
-<tr class="separator:a31e67e9e939fc734efe34dfc57769873"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a638c50d7e2ddac0e7756a4a695916cf3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a638c50d7e2ddac0e7756a4a695916cf3">u_getMasterPointPosition</a> () const</td></tr>
-<tr class="separator:a638c50d7e2ddac0e7756a4a695916cf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc1006bad252f2853b355c07fe36b1fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#adc1006bad252f2853b355c07fe36b1fb">move</a> (int x, int y)</td></tr>
-<tr class="separator:adc1006bad252f2853b355c07fe36b1fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5f284410a746db2e7a6f087b5c9d57c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#ad5f284410a746db2e7a6f087b5c9d57c">setPosition</a> (int x, int y)</td></tr>
-<tr class="separator:ad5f284410a746db2e7a6f087b5c9d57c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c99390f9fdeaf244ee11c1e34ab2e80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a2c99390f9fdeaf244ee11c1e34ab2e80">setPositionFromMaster</a> (int x, int y)</td></tr>
-<tr class="separator:a2c99390f9fdeaf244ee11c1e34ab2e80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a594135b41718e1364356f799c7d76d10"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a594135b41718e1364356f799c7d76d10">movePoint</a> (int index, int x, int y)</td></tr>
-<tr class="separator:a594135b41718e1364356f799c7d76d10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1fefad15795ab8773011d5fc7e21cce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#ae1fefad15795ab8773011d5fc7e21cce">setPointPosition</a> (int index, int x, int y)</td></tr>
-<tr class="separator:ae1fefad15795ab8773011d5fc7e21cce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a885b88ce01dbc1ce9db03d514c48d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a4a885b88ce01dbc1ce9db03d514c48d3">setPointRelativePosition</a> (int index, int x, int y)</td></tr>
-<tr class="separator:a4a885b88ce01dbc1ce9db03d514c48d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45ca18575e9cd41c0f73bb4349535d43"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a45ca18575e9cd41c0f73bb4349535d43">setPointPositionFromMaster</a> (int index, int x, int y)</td></tr>
-<tr class="separator:a45ca18575e9cd41c0f73bb4349535d43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a599398983ec2d1b60b35e5a3793cd0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a0a599398983ec2d1b60b35e5a3793cd0">u_move</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;vec)</td></tr>
-<tr class="separator:a0a599398983ec2d1b60b35e5a3793cd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e114042b6f23bca2ecf1fa640c8be4e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a8e114042b6f23bca2ecf1fa640c8be4e">u_setPosition</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;vec)</td></tr>
-<tr class="separator:a8e114042b6f23bca2ecf1fa640c8be4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accdc4783ae020efe50c75a8f354da07f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#accdc4783ae020efe50c75a8f354da07f">u_setPositionFromMaster</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;vec)</td></tr>
-<tr class="separator:accdc4783ae020efe50c75a8f354da07f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98d3568c9a3aff0a188294be0437cad7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a98d3568c9a3aff0a188294be0437cad7">u_movePoint</a> (int index, const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;vec)</td></tr>
-<tr class="separator:a98d3568c9a3aff0a188294be0437cad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65ae9d514f92701f8a14fb78c94bf134"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a65ae9d514f92701f8a14fb78c94bf134">u_setPointPosition</a> (int index, const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;vec)</td></tr>
-<tr class="separator:a65ae9d514f92701f8a14fb78c94bf134"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a654ee3d00cd75d0762122f811381cd4e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a654ee3d00cd75d0762122f811381cd4e">u_setPointRelativePosition</a> (int index, const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;vec)</td></tr>
-<tr class="separator:a654ee3d00cd75d0762122f811381cd4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a160928d0bcf6fba151d2b21682afee76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a160928d0bcf6fba151d2b21682afee76">u_setPointPositionFromMaster</a> (int index, const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;vec)</td></tr>
-<tr class="separator:a160928d0bcf6fba151d2b21682afee76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3214f2e04d7b64b965d7961be5b3825"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#ad3214f2e04d7b64b965d7961be5b3825">getPosition</a> ()</td></tr>
+<tr class="memdesc:ad3214f2e04d7b64b965d7961be5b3825"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Position of the first point (index 0) of the Polygon.  <a href="#ad3214f2e04d7b64b965d7961be5b3825">More...</a><br /></td></tr>
+<tr class="separator:ad3214f2e04d7b64b965d7961be5b3825"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae68d40d727b5358ba0e1c336c24f33cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#ae68d40d727b5358ba0e1c336c24f33cb">getPointPosition</a> (unsigned int index)</td></tr>
+<tr class="memdesc:ae68d40d727b5358ba0e1c336c24f33cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Position of one of the points of the Polygon.  <a href="#ae68d40d727b5358ba0e1c336c24f33cb">More...</a><br /></td></tr>
+<tr class="separator:ae68d40d727b5358ba0e1c336c24f33cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37bdda015d1fe37cfb71df2ca0f725bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a37bdda015d1fe37cfb71df2ca0f725bf">getPointRelativePosition</a> (unsigned int index)</td></tr>
+<tr class="memdesc:a37bdda015d1fe37cfb71df2ca0f725bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Position of one of the points of the Polygon relative to the Position of the point at index 0.  <a href="#a37bdda015d1fe37cfb71df2ca0f725bf">More...</a><br /></td></tr>
+<tr class="separator:a37bdda015d1fe37cfb71df2ca0f725bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98dc8b2400f9e7acbe31f2b5cca990b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a98dc8b2400f9e7acbe31f2b5cca990b8">getMasterPointPosition</a> () const</td></tr>
+<tr class="memdesc:a98dc8b2400f9e7acbe31f2b5cca990b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the position of the Master Point (centroid) of the Polygon.  <a href="#a98dc8b2400f9e7acbe31f2b5cca990b8">More...</a><br /></td></tr>
+<tr class="separator:a98dc8b2400f9e7acbe31f2b5cca990b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50a5af0bc7d435e37f23ddad2d341109"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a50a5af0bc7d435e37f23ddad2d341109">move</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;vec)</td></tr>
+<tr class="memdesc:a50a5af0bc7d435e37f23ddad2d341109"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves the Polygon (relative to the current position)  <a href="#a50a5af0bc7d435e37f23ddad2d341109">More...</a><br /></td></tr>
+<tr class="separator:a50a5af0bc7d435e37f23ddad2d341109"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8a996e3ff7e8f8b09e0266d4903772a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#aa8a996e3ff7e8f8b09e0266d4903772a">setPosition</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;vec)</td></tr>
+<tr class="memdesc:aa8a996e3ff7e8f8b09e0266d4903772a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the new position of the Polygon (using the point at index 0)  <a href="#aa8a996e3ff7e8f8b09e0266d4903772a">More...</a><br /></td></tr>
+<tr class="separator:aa8a996e3ff7e8f8b09e0266d4903772a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e415a06b0798be4ffef6cd7f62568ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a8e415a06b0798be4ffef6cd7f62568ba">setPositionFromMaster</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;vec)</td></tr>
+<tr class="memdesc:a8e415a06b0798be4ffef6cd7f62568ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the new position of the Polygon (using the centroid)  <a href="#a8e415a06b0798be4ffef6cd7f62568ba">More...</a><br /></td></tr>
+<tr class="separator:a8e415a06b0798be4ffef6cd7f62568ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae78a2b3fef5d669753d09c119f2db884"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#ae78a2b3fef5d669753d09c119f2db884">movePoint</a> (unsigned int index, const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;vec)</td></tr>
+<tr class="memdesc:ae78a2b3fef5d669753d09c119f2db884"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves one of the points of the Polygons.  <a href="#ae78a2b3fef5d669753d09c119f2db884">More...</a><br /></td></tr>
+<tr class="separator:ae78a2b3fef5d669753d09c119f2db884"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3576204a0b7eaad8b0df0fd7eadac88"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#ae3576204a0b7eaad8b0df0fd7eadac88">setPointPosition</a> (unsigned int index, const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;vec)</td></tr>
+<tr class="memdesc:ae3576204a0b7eaad8b0df0fd7eadac88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the new Position of one of the points of the Polygon.  <a href="#ae3576204a0b7eaad8b0df0fd7eadac88">More...</a><br /></td></tr>
+<tr class="separator:ae3576204a0b7eaad8b0df0fd7eadac88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb8f43ad639194d0d1195770710108c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#acb8f43ad639194d0d1195770710108c5">setPointRelativePosition</a> (unsigned int index, const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;vec)</td></tr>
+<tr class="memdesc:acb8f43ad639194d0d1195770710108c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the position of one of the points of the Polygon relative to the Position of the point at index 0.  <a href="#acb8f43ad639194d0d1195770710108c5">More...</a><br /></td></tr>
+<tr class="separator:acb8f43ad639194d0d1195770710108c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9830b4c20e6b0a6f0218638bd0887849"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a9830b4c20e6b0a6f0218638bd0887849">setPointPositionFromMaster</a> (unsigned int index, const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;vec)</td></tr>
+<tr class="memdesc:a9830b4c20e6b0a6f0218638bd0887849"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the position of one of the points of the Polygon relative to the Position of the centroid.  <a href="#a9830b4c20e6b0a6f0218638bd0887849">More...</a><br /></td></tr>
+<tr class="separator:a9830b4c20e6b0a6f0218638bd0887849"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afca29e1a00af80ea488c9b4546d860cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#afca29e1a00af80ea488c9b4546d860cb">addOriginChild</a> (<a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">PolygonalCollider</a> *child)</td></tr>
 <tr class="memdesc:afca29e1a00af80ea488c9b4546d860cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new child which will take the Collider as origin.  <a href="#afca29e1a00af80ea488c9b4546d860cb">More...</a><br /></td></tr>
 <tr class="separator:afca29e1a00af80ea488c9b4546d860cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -384,8 +366,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a8640e1c470fc71de32485544d5eb4237"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8640e1c470fc71de32485544d5eb4237">&#9670;&nbsp;</a></span>addPoint()</h2>
+<a id="a47ee643fd0f11b89a1078496d490ec60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47ee643fd0f11b89a1078496d490ec60">&#9670;&nbsp;</a></span>addPoint()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -393,14 +375,8 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void obe::Collision::PolygonalCollider::addPoint </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>y</em>, </td>
+          <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>point</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -426,9 +402,16 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a47ee643fd0f11b89a1078496d490ec60_cgraph.svg" width="420" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a8640e1c470fc71de32485544d5eb4237_icgraph.svg" width="100%" height="599"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a47ee643fd0f11b89a1078496d490ec60_icgraph.svg" width="100%" height="551"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -470,12 +453,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a9d4533825bb04f5ed5dffc543d9aee0f_cgraph.svg" width="347" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a9d4533825bb04f5ed5dffc543d9aee0f_cgraph.svg" width="347" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a9d4533825bb04f5ed5dffc543d9aee0f_icgraph.svg" width="100%" height="528"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a9d4533825bb04f5ed5dffc543d9aee0f_icgraph.svg" width="100%" height="528"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -517,7 +502,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_aa6af540369863706dbe5a91b8fcb3a72_icgraph.svg" width="100%" height="548"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_aa6af540369863706dbe5a91b8fcb3a72_icgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -541,7 +527,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a1bb3222c86fb2efb276ba3f184732616_icgraph.svg" width="423" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a1bb3222c86fb2efb276ba3f184732616_icgraph.svg" width="423" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -569,11 +556,6 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_aabf77866c60bc6bfc0f2e58113b8bfcb_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
 
 </div>
 </div>
@@ -603,13 +585,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_ade0d925b13fbd4d9a6188ad3ab4996c4_icgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_ade0d925b13fbd4d9a6188ad3ab4996c4_icgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
 </div>
-<a id="a77d1bcd6dee0f06683bfbffefca58206"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a77d1bcd6dee0f06683bfbffefca58206">&#9670;&nbsp;</a></span>doesCollide()</h2>
+<a id="a0e3b07c0581d4383f5c14f48ca83de33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e3b07c0581d4383f5c14f48ca83de33">&#9670;&nbsp;</a></span>doesCollide()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -617,87 +600,43 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">bool obe::Collision::PolygonalCollider::doesCollide </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">PolygonalCollider</a> *&#160;</td>
-          <td class="paramname"><em>other</em>, </td>
+          <td class="paramtype">const <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">PolygonalCollider</a> &amp;&#160;</td>
+          <td class="paramname"><em>collider</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>offsetX</em> = <code>0</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>offsetY</em> = <code>0</code>&#160;</td>
+          <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Checks if two polygons are intersecting. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">collider</td><td>The other collider to test </td></tr>
+    <tr><td class="paramname">offset</td><td>The offset to apply to the source collider </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the two polygons intersects, false otherwise </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a77d1bcd6dee0f06683bfbffefca58206_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a0e3b07c0581d4383f5c14f48ca83de33_cgraph.svg" width="390" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a77d1bcd6dee0f06683bfbffefca58206_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a0e3b07c0581d4383f5c14f48ca83de33_icgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
-
-</div>
-</div>
-<a id="a6b5ab1cbbddae72504f9a62fd6f7176e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b5ab1cbbddae72504f9a62fd6f7176e">&#9670;&nbsp;</a></span>doesCollideWithTags()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool obe::Collision::PolygonalCollider::doesCollideWithTags </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">PolygonalCollider</a> *&gt;&#160;</td>
-          <td class="paramname"><em>collidersList</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; std::string &gt;&#160;</td>
-          <td class="paramname"><em>tags</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>offx</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>offy</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a6b5ab1cbbddae72504f9a62fd6f7176e_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a6b5ab1cbbddae72504f9a62fd6f7176e_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -740,12 +679,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a33cdd3d9e22ca7661bff0e39b9056a49_cgraph.svg" width="355" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a33cdd3d9e22ca7661bff0e39b9056a49_cgraph.svg" width="355" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a33cdd3d9e22ca7661bff0e39b9056a49_icgraph.svg" width="100%" height="514"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -788,68 +723,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a6646b18d123f329646d7b92bbc153cc4_cgraph.svg" width="347" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a6646b18d123f329646d7b92bbc153cc4_cgraph.svg" width="347" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a6646b18d123f329646d7b92bbc153cc4_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a6646b18d123f329646d7b92bbc153cc4_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
-
-</div>
-</div>
-<a id="af18d0ee04d848f354a42fb32d0a12606"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af18d0ee04d848f354a42fb32d0a12606">&#9670;&nbsp;</a></span>doesPathCollide()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool obe::Collision::PolygonalCollider::doesPathCollide </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">PolygonalCollider</a> *&gt;&#160;</td>
-          <td class="paramname"><em>others</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>offsetX</em> = <code>0</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>offsetY</em> = <code>0</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>toX</em> = <code>0</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>toY</em> = <code>0</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_af18d0ee04d848f354a42fb32d0a12606_cgraph.svg" width="100%" height="569"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_af18d0ee04d848f354a42fb32d0a12606_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -926,13 +807,44 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a4db0bd43c8782ecab9c3d9eb012e3763_cgraph.svg" width="552" height="176"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a4db0bd43c8782ecab9c3d9eb012e3763_cgraph.svg" width="611" height="227"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
 </div>
-<a id="aa1bd686633df383d83a248ca9d59b4b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa1bd686633df383d83a248ca9d59b4b8">&#9670;&nbsp;</a></span>findClosestPoint()</h2>
+<a id="a07f582e94fb6a8386c9aea174e5a43d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07f582e94fb6a8386c9aea174e5a43d5">&#9670;&nbsp;</a></span>findClosestLine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int obe::Collision::PolygonalCollider::findClosestLine </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>position</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a07f582e94fb6a8386c9aea174e5a43d5_cgraph.svg" width="420" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a07f582e94fb6a8386c9aea174e5a43d5_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ae5fa61c71c1ca04aa24c5967ab5d975c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5fa61c71c1ca04aa24c5967ab5d975c">&#9670;&nbsp;</a></span>findClosestPoint()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -940,14 +852,8 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">unsigned int obe::Collision::PolygonalCollider::findClosestPoint </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>y</em>, </td>
+          <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -983,68 +889,26 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_aa1bd686633df383d83a248ca9d59b4b8_cgraph.svg" width="428" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_ae5fa61c71c1ca04aa24c5967ab5d975c_cgraph.svg" width="100%" height="405"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_aa1bd686633df383d83a248ca9d59b4b8_icgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_ae5fa61c71c1ca04aa24c5967ab5d975c_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
 </div>
-<a id="ab7fc1d109efbb78e3eca2a9427038986"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7fc1d109efbb78e3eca2a9427038986">&#9670;&nbsp;</a></span>getAllCollidedColliders()</h2>
+<a id="aa71ad8ce8dc36a5858280c7b834c0c67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa71ad8ce8dc36a5858280c7b834c0c67">&#9670;&nbsp;</a></span>getAllPoints()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">PolygonalCollider</a> * &gt; obe::Collision::PolygonalCollider::getAllCollidedColliders </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">PolygonalCollider</a> *&gt;&#160;</td>
-          <td class="paramname"><em>collidersList</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>offx</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>offy</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_ab7fc1d109efbb78e3eca2a9427038986_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_ab7fc1d109efbb78e3eca2a9427038986_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="aa5b7c9f68e408e8ab1c09804377c89d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa5b7c9f68e408e8ab1c09804377c89d5">&#9670;&nbsp;</a></span>getAllPoints()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">ClipperLib::Path obe::Collision::PolygonalCollider::getAllPoints </td>
+          <td class="memname">std::vector&lt; <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &gt; obe::Collision::PolygonalCollider::getAllPoints </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1057,7 +921,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_aa5b7c9f68e408e8ab1c09804377c89d5_icgraph.svg" width="100%" height="517"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_aa71ad8ce8dc36a5858280c7b834c0c67_icgraph.svg" width="100%" height="550"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -1086,66 +951,11 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A std::vector containing all the Tags of the chosen List </dd></dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_ab00569a98c8d2f5c106983f04f61a9ac_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
 
 </div>
 </div>
-<a id="a630d6b76f8b33c836dbc302d3e7a499f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a630d6b76f8b33c836dbc302d3e7a499f">&#9670;&nbsp;</a></span>getCollidedCollidersWithTags()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt; <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">PolygonalCollider</a> * &gt; obe::Collision::PolygonalCollider::getCollidedCollidersWithTags </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">PolygonalCollider</a> *&gt;&#160;</td>
-          <td class="paramname"><em>collidersList</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; std::string &gt;&#160;</td>
-          <td class="paramname"><em>tags</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>offx</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>offy</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a630d6b76f8b33c836dbc302d3e7a499f_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a630d6b76f8b33c836dbc302d3e7a499f_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="abee3a2723d3e9ba81c23179fbc006c6a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abee3a2723d3e9ba81c23179fbc006c6a">&#9670;&nbsp;</a></span>getDistanceFromPoint()</h2>
+<a id="abbe4cd7b2b2f4df12172277cfe21ed84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbe4cd7b2b2f4df12172277cfe21ed84">&#9670;&nbsp;</a></span>getDistanceFromPoint()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1159,14 +969,8 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>y</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>position</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1187,31 +991,83 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Distance between the given Position and the Point of the Polygon </dd></dl>
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_abbe4cd7b2b2f4df12172277cfe21ed84_cgraph.svg" width="458" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_abee3a2723d3e9ba81c23179fbc006c6a_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_abbe4cd7b2b2f4df12172277cfe21ed84_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
 </div>
-<a id="ae2316c025976ecf9355f17310c1654d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2316c025976ecf9355f17310c1654d3">&#9670;&nbsp;</a></span>getMasterPointPosition()</h2>
+<a id="a98dc8b2400f9e7acbe31f2b5cca990b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98dc8b2400f9e7acbe31f2b5cca990b8">&#9670;&nbsp;</a></span>getMasterPointPosition()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">ClipperLib::IntPoint obe::Collision::PolygonalCollider::getMasterPointPosition </td>
+          <td class="memname"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> obe::Collision::PolygonalCollider::getMasterPointPosition </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get the position of the Master Point (centroid) of the Polygon. </p>
+<dl class="section return"><dt>Returns</dt><dd>An UnitVector containing the position of the Master Point (centroid) of the Polygon </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_ae2316c025976ecf9355f17310c1654d3_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a98dc8b2400f9e7acbe31f2b5cca990b8_icgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ad79f0ea77ec512302aa14e5f41ffcb22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad79f0ea77ec512302aa14e5f41ffcb22">&#9670;&nbsp;</a></span>getMaximumDistanceBeforeCollision()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> obe::Collision::PolygonalCollider::getMaximumDistanceBeforeCollision </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">PolygonalCollider</a> &amp;&#160;</td>
+          <td class="paramname"><em>collider</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>doesCollide(collider, Transform::UnitVector(0, 0)) </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_ad79f0ea77ec512302aa14e5f41ffcb22_cgraph.svg" width="100%" height="397"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_ad79f0ea77ec512302aa14e5f41ffcb22_icgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -1236,7 +1092,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_ad4048a769f708a04a4a5a7e6d73ef79f_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_ad4048a769f708a04a4a5a7e6d73ef79f_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -1261,49 +1118,75 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_af55a0221f56047788b7610b2d8a94c3d_icgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_af55a0221f56047788b7610b2d8a94c3d_icgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
 </div>
-<a id="ae45f352630947b803382a66b6d23b39d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae45f352630947b803382a66b6d23b39d">&#9670;&nbsp;</a></span>getPointPosition()</h2>
+<a id="ae68d40d727b5358ba0e1c336c24f33cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae68d40d727b5358ba0e1c336c24f33cb">&#9670;&nbsp;</a></span>getPointPosition()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">ClipperLib::IntPoint obe::Collision::PolygonalCollider::getPointPosition </td>
+          <td class="memname"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> obe::Collision::PolygonalCollider::getPointPosition </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"><em>index</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get the Position of one of the points of the Polygon. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>Index of the point to get the position </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>An UnitVector containing the position of one of the points of the Polygon </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_ae45f352630947b803382a66b6d23b39d_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_ae68d40d727b5358ba0e1c336c24f33cb_icgraph.svg" width="100%" height="526"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
 </div>
-<a id="aa6c0a37e6e4514e242face8fc7ec6417"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa6c0a37e6e4514e242face8fc7ec6417">&#9670;&nbsp;</a></span>getPointRelativePosition()</h2>
+<a id="a37bdda015d1fe37cfb71df2ca0f725bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37bdda015d1fe37cfb71df2ca0f725bf">&#9670;&nbsp;</a></span>getPointRelativePosition()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">ClipperLib::IntPoint obe::Collision::PolygonalCollider::getPointRelativePosition </td>
+          <td class="memname"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> obe::Collision::PolygonalCollider::getPointRelativePosition </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"><em>index</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get the Position of one of the points of the Polygon relative to the Position of the point at index 0. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>Index of the point to get the relative position </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>An UnitVector containing the position of one of the points of the Polygon relative to the Position of the point at index 0 </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a37bdda015d1fe37cfb71df2ca0f725bf_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
 
 </div>
 </div>
@@ -1327,25 +1210,35 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a15dc2ae45baeab969c9081d09e7ae2be_icgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a15dc2ae45baeab969c9081d09e7ae2be_icgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
 </div>
-<a id="a27673ac22704bdc476246ec29091e91e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27673ac22704bdc476246ec29091e91e">&#9670;&nbsp;</a></span>getPosition()</h2>
+<a id="ad3214f2e04d7b64b965d7961be5b3825"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3214f2e04d7b64b965d7961be5b3825">&#9670;&nbsp;</a></span>getPosition()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">ClipperLib::IntPoint obe::Collision::PolygonalCollider::getPosition </td>
+          <td class="memname"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> obe::Collision::PolygonalCollider::getPosition </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get the Position of the first point (index 0) of the Polygon. </p>
+<dl class="section return"><dt>Returns</dt><dd>An UnitVector containing the position of the first point of the Polygon </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_ad3214f2e04d7b64b965d7961be5b3825_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
 
 </div>
 </div>
@@ -1377,18 +1270,20 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a2f952842bdac49eec3cff1c065cfe167_cgraph.svg" width="392" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a2f952842bdac49eec3cff1c065cfe167_cgraph.svg" width="392" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a2f952842bdac49eec3cff1c065cfe167_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a2f952842bdac49eec3cff1c065cfe167_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
 </div>
-<a id="adf3d1cd440bafc922498e6ce862e2aff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf3d1cd440bafc922498e6ce862e2aff">&#9670;&nbsp;</a></span>getSideContainingPoint()</h2>
+<a id="abab327ea19bcbd89e69c4d847d2c8e18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abab327ea19bcbd89e69c4d847d2c8e18">&#9670;&nbsp;</a></span>getSideContainingPoint()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1396,19 +1291,9 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">int obe::Collision::PolygonalCollider::getSideContainingPoint </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>position</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>y</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1425,12 +1310,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_adf3d1cd440bafc922498e6ce862e2aff_cgraph.svg" width="470" height="170"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_abab327ea19bcbd89e69c4d847d2c8e18_cgraph.svg" width="100%" height="378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_adf3d1cd440bafc922498e6ce862e2aff_icgraph.svg" width="100%" height="524"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_abab327ea19bcbd89e69c4d847d2c8e18_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -1463,18 +1350,20 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a28b2542f519ba0eafd8d6079d9788883_cgraph.svg" width="392" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a28b2542f519ba0eafd8d6079d9788883_cgraph.svg" width="392" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a28b2542f519ba0eafd8d6079d9788883_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a28b2542f519ba0eafd8d6079d9788883_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
 </div>
-<a id="a7ba659f0f8f5aa09b239e39d1d9eef63"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ba659f0f8f5aa09b239e39d1d9eef63">&#9670;&nbsp;</a></span>hasMasterPoint()</h2>
+<a id="a7039fec00f5c7ecb09115035901a8fb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7039fec00f5c7ecb09115035901a8fb9">&#9670;&nbsp;</a></span>hasMasterPoint()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1482,20 +1371,14 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">bool obe::Collision::PolygonalCollider::hasMasterPoint </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
+          <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>y</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>tolerance</em> = <code>0</code>&#160;</td>
+          <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>tolerance</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1518,18 +1401,20 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a7ba659f0f8f5aa09b239e39d1d9eef63_cgraph.svg" width="407" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a7039fec00f5c7ecb09115035901a8fb9_cgraph.svg" width="420" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a7ba659f0f8f5aa09b239e39d1d9eef63_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a7039fec00f5c7ecb09115035901a8fb9_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
 </div>
-<a id="ac04d43b5fd0006616daebe42e85fa631"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac04d43b5fd0006616daebe42e85fa631">&#9670;&nbsp;</a></span>hasPoint()</h2>
+<a id="a5887cd5cf578810d59095ba09a7ace72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5887cd5cf578810d59095ba09a7ace72">&#9670;&nbsp;</a></span>hasPoint()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1537,20 +1422,14 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">int obe::Collision::PolygonalCollider::hasPoint </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
+          <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>y</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>tolerance</em> = <code>0</code>&#160;</td>
+          <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>tolerance</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1573,12 +1452,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_ac04d43b5fd0006616daebe42e85fa631_cgraph.svg" width="407" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a5887cd5cf578810d59095ba09a7ace72_cgraph.svg" width="420" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_ac04d43b5fd0006616daebe42e85fa631_icgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a5887cd5cf578810d59095ba09a7ace72_icgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -1609,7 +1490,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_ac19d98c42e5b577d9644b1f724049803_icgraph.svg" width="100%" height="523"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_ac19d98c42e5b577d9644b1f724049803_icgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -1640,51 +1522,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a15d9b0d0a35bdf86dac02c6612af8219_icgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a15d9b0d0a35bdf86dac02c6612af8219_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
 </div>
-<a id="a84c44dd43f8946bbf003b231a07b90a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a84c44dd43f8946bbf003b231a07b90a6">&#9670;&nbsp;</a></span>joinPolygonalColliders()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">PolygonalCollider</a> obe::Collision::PolygonalCollider::joinPolygonalColliders </td>
-          <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>joinID</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">PolygonalCollider</a> *&#160;</td>
-          <td class="paramname"><em>other</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a84c44dd43f8946bbf003b231a07b90a6_cgraph.svg" width="100%" height="476"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a84c44dd43f8946bbf003b231a07b90a6_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="adc1006bad252f2853b355c07fe36b1fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc1006bad252f2853b355c07fe36b1fb">&#9670;&nbsp;</a></span>move()</h2>
+<a id="a50a5af0bc7d435e37f23ddad2d341109"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50a5af0bc7d435e37f23ddad2d341109">&#9670;&nbsp;</a></span>move()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1692,32 +1537,31 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void obe::Collision::PolygonalCollider::move </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>vec</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>y</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Moves the Polygon (relative to the current position) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vec</td><td>UnitVector containing the offset to move the Polygon </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_adc1006bad252f2853b355c07fe36b1fb_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a50a5af0bc7d435e37f23ddad2d341109_icgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
 </div>
-<a id="a594135b41718e1364356f799c7d76d10"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a594135b41718e1364356f799c7d76d10">&#9670;&nbsp;</a></span>movePoint()</h2>
+<a id="ae78a2b3fef5d669753d09c119f2db884"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae78a2b3fef5d669753d09c119f2db884">&#9670;&nbsp;</a></span>movePoint()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1725,20 +1569,14 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void obe::Collision::PolygonalCollider::movePoint </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"><em>index</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>y</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>vec</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1747,10 +1585,20 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Moves one of the points of the Polygons. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>Index of the point to move </td></tr>
+    <tr><td class="paramname">vec</td><td>UnitVector containing the offset to move the point of the Polygon </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a594135b41718e1364356f799c7d76d10_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_ae78a2b3fef5d669753d09c119f2db884_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -1774,12 +1622,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a394db9c018b64245471f37a4c223a96c_cgraph.svg" width="572" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a394db9c018b64245471f37a4c223a96c_cgraph.svg" width="572" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a394db9c018b64245471f37a4c223a96c_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a394db9c018b64245471f37a4c223a96c_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -1821,12 +1671,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_afe45fcf7131fcb50b82ba37ba3ae30cf_cgraph.svg" width="359" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_afe45fcf7131fcb50b82ba37ba3ae30cf_cgraph.svg" width="359" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_afe45fcf7131fcb50b82ba37ba3ae30cf_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_afe45fcf7131fcb50b82ba37ba3ae30cf_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -1868,12 +1720,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a972819e978772fbcf1ec3b25ddb124a8_cgraph.svg" width="347" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a972819e978772fbcf1ec3b25ddb124a8_cgraph.svg" width="347" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a972819e978772fbcf1ec3b25ddb124a8_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a972819e978772fbcf1ec3b25ddb124a8_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -1904,12 +1758,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a9d692c2e88779313fde0bdde2b3ddb4f_cgraph.svg" width="572" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a9d692c2e88779313fde0bdde2b3ddb4f_cgraph.svg" width="572" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a9d692c2e88779313fde0bdde2b3ddb4f_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a9d692c2e88779313fde0bdde2b3ddb4f_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -1940,8 +1796,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="ae1fefad15795ab8773011d5fc7e21cce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae1fefad15795ab8773011d5fc7e21cce">&#9670;&nbsp;</a></span>setPointPosition()</h2>
+<a id="ae3576204a0b7eaad8b0df0fd7eadac88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3576204a0b7eaad8b0df0fd7eadac88">&#9670;&nbsp;</a></span>setPointPosition()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1949,20 +1805,14 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void obe::Collision::PolygonalCollider::setPointPosition </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"><em>index</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>y</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>vec</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1971,16 +1821,32 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Sets the new Position of one of the points of the Polygon. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>Index of the point to set the position </td></tr>
+    <tr><td class="paramname">vec</td><td>UnitVector containing the new position of the point </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_ae3576204a0b7eaad8b0df0fd7eadac88_cgraph.svg" width="423" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_ae1fefad15795ab8773011d5fc7e21cce_icgraph.svg" width="100%" height="526"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_ae3576204a0b7eaad8b0df0fd7eadac88_icgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
 </div>
-<a id="a45ca18575e9cd41c0f73bb4349535d43"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a45ca18575e9cd41c0f73bb4349535d43">&#9670;&nbsp;</a></span>setPointPositionFromMaster()</h2>
+<a id="a9830b4c20e6b0a6f0218638bd0887849"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9830b4c20e6b0a6f0218638bd0887849">&#9670;&nbsp;</a></span>setPointPositionFromMaster()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1988,20 +1854,14 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void obe::Collision::PolygonalCollider::setPointPositionFromMaster </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"><em>index</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>y</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>vec</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2010,16 +1870,32 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Sets the position of one of the points of the Polygon relative to the Position of the centroid. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>Index of the point to set the position </td></tr>
+    <tr><td class="paramname">vec</td><td>UnitVector containing the new position of one of the points of the Polygon relative to the Position of the centroid </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a9830b4c20e6b0a6f0218638bd0887849_cgraph.svg" width="454" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a45ca18575e9cd41c0f73bb4349535d43_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a9830b4c20e6b0a6f0218638bd0887849_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
 </div>
-<a id="a4a885b88ce01dbc1ce9db03d514c48d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a885b88ce01dbc1ce9db03d514c48d3">&#9670;&nbsp;</a></span>setPointRelativePosition()</h2>
+<a id="acb8f43ad639194d0d1195770710108c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb8f43ad639194d0d1195770710108c5">&#9670;&nbsp;</a></span>setPointRelativePosition()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2027,20 +1903,14 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void obe::Collision::PolygonalCollider::setPointRelativePosition </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"><em>index</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>y</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>vec</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2049,16 +1919,32 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Sets the position of one of the points of the Polygon relative to the Position of the point at index 0. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>Index of the point to set the position </td></tr>
+    <tr><td class="paramname">vec</td><td>UnitVector containing the new position of one of the points of the Polygon relative to the Position of the point at index 0 </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_acb8f43ad639194d0d1195770710108c5_cgraph.svg" width="468" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a4a885b88ce01dbc1ce9db03d514c48d3_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_acb8f43ad639194d0d1195770710108c5_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
 </div>
-<a id="ad5f284410a746db2e7a6f087b5c9d57c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad5f284410a746db2e7a6f087b5c9d57c">&#9670;&nbsp;</a></span>setPosition()</h2>
+<a id="aa8a996e3ff7e8f8b09e0266d4903772a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8a996e3ff7e8f8b09e0266d4903772a">&#9670;&nbsp;</a></span>setPosition()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2066,32 +1952,37 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void obe::Collision::PolygonalCollider::setPosition </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>vec</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>y</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Sets the new position of the Polygon (using the point at index 0) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vec</td><td>UnitVector containing the new Position of the Polygon </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_aa8a996e3ff7e8f8b09e0266d4903772a_cgraph.svg" width="420" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_ad5f284410a746db2e7a6f087b5c9d57c_icgraph.svg" width="100%" height="526"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_aa8a996e3ff7e8f8b09e0266d4903772a_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
 </div>
-<a id="a2c99390f9fdeaf244ee11c1e34ab2e80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c99390f9fdeaf244ee11c1e34ab2e80">&#9670;&nbsp;</a></span>setPositionFromMaster()</h2>
+<a id="a8e415a06b0798be4ffef6cd7f62568ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e415a06b0798be4ffef6cd7f62568ba">&#9670;&nbsp;</a></span>setPositionFromMaster()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2099,422 +1990,31 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void obe::Collision::PolygonalCollider::setPositionFromMaster </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>y</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a2c99390f9fdeaf244ee11c1e34ab2e80_icgraph.svg" width="100%" height="526"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="af37dad690ea1c82c605761b1d6218d14"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af37dad690ea1c82c605761b1d6218d14">&#9670;&nbsp;</a></span>testAllColliders()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool obe::Collision::PolygonalCollider::testAllColliders </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">PolygonalCollider</a> *&gt;&#160;</td>
-          <td class="paramname"><em>collidersList</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>offx</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>offy</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>opt</em> = <code>false</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_af37dad690ea1c82c605761b1d6218d14_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_af37dad690ea1c82c605761b1d6218d14_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a638c50d7e2ddac0e7756a4a695916cf3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a638c50d7e2ddac0e7756a4a695916cf3">&#9670;&nbsp;</a></span>u_getMasterPointPosition()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> obe::Collision::PolygonalCollider::u_getMasterPointPosition </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a638c50d7e2ddac0e7756a4a695916cf3_cgraph.svg" width="478" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a638c50d7e2ddac0e7756a4a695916cf3_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="afc1c8dded52b22ab6356d492b52b1b06"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc1c8dded52b22ab6356d492b52b1b06">&#9670;&nbsp;</a></span>u_getPointPosition()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> obe::Collision::PolygonalCollider::u_getPointPosition </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>index</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_afc1c8dded52b22ab6356d492b52b1b06_cgraph.svg" width="438" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_afc1c8dded52b22ab6356d492b52b1b06_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a31e67e9e939fc734efe34dfc57769873"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a31e67e9e939fc734efe34dfc57769873">&#9670;&nbsp;</a></span>u_getPointRelativePosition()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> obe::Collision::PolygonalCollider::u_getPointRelativePosition </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>index</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a31e67e9e939fc734efe34dfc57769873_cgraph.svg" width="482" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a31e67e9e939fc734efe34dfc57769873_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a82e862a5d9fb66ce385935fff42885b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82e862a5d9fb66ce385935fff42885b7">&#9670;&nbsp;</a></span>u_getPosition()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> obe::Collision::PolygonalCollider::u_getPosition </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a82e862a5d9fb66ce385935fff42885b7_cgraph.svg" width="420" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a82e862a5d9fb66ce385935fff42885b7_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a0a599398983ec2d1b60b35e5a3793cd0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a599398983ec2d1b60b35e5a3793cd0">&#9670;&nbsp;</a></span>u_move()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void obe::Collision::PolygonalCollider::u_move </td>
-          <td>(</td>
           <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
           <td class="paramname"><em>vec</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Sets the new position of the Polygon (using the centroid) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vec</td><td>UnitVector containing the new Position of the Polygon </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a0a599398983ec2d1b60b35e5a3793cd0_cgraph.svg" width="420" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a8e415a06b0798be4ffef6cd7f62568ba_cgraph.svg" width="463" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a0a599398983ec2d1b60b35e5a3793cd0_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a8e415a06b0798be4ffef6cd7f62568ba_icgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
-
-</div>
-</div>
-<a id="a98d3568c9a3aff0a188294be0437cad7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a98d3568c9a3aff0a188294be0437cad7">&#9670;&nbsp;</a></span>u_movePoint()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void obe::Collision::PolygonalCollider::u_movePoint </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>index</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
-          <td class="paramname"><em>vec</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a98d3568c9a3aff0a188294be0437cad7_cgraph.svg" width="420" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a98d3568c9a3aff0a188294be0437cad7_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a65ae9d514f92701f8a14fb78c94bf134"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65ae9d514f92701f8a14fb78c94bf134">&#9670;&nbsp;</a></span>u_setPointPosition()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void obe::Collision::PolygonalCollider::u_setPointPosition </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>index</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
-          <td class="paramname"><em>vec</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a65ae9d514f92701f8a14fb78c94bf134_cgraph.svg" width="438" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a65ae9d514f92701f8a14fb78c94bf134_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a160928d0bcf6fba151d2b21682afee76"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a160928d0bcf6fba151d2b21682afee76">&#9670;&nbsp;</a></span>u_setPointPositionFromMaster()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void obe::Collision::PolygonalCollider::u_setPointPositionFromMaster </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>index</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
-          <td class="paramname"><em>vec</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a160928d0bcf6fba151d2b21682afee76_cgraph.svg" width="470" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a160928d0bcf6fba151d2b21682afee76_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a654ee3d00cd75d0762122f811381cd4e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a654ee3d00cd75d0762122f811381cd4e">&#9670;&nbsp;</a></span>u_setPointRelativePosition()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void obe::Collision::PolygonalCollider::u_setPointRelativePosition </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>index</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
-          <td class="paramname"><em>vec</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a654ee3d00cd75d0762122f811381cd4e_cgraph.svg" width="499" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a654ee3d00cd75d0762122f811381cd4e_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a8e114042b6f23bca2ecf1fa640c8be4e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e114042b6f23bca2ecf1fa640c8be4e">&#9670;&nbsp;</a></span>u_setPosition()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void obe::Collision::PolygonalCollider::u_setPosition </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
-          <td class="paramname"><em>vec</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a8e114042b6f23bca2ecf1fa640c8be4e_cgraph.svg" width="420" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_a8e114042b6f23bca2ecf1fa640c8be4e_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="accdc4783ae020efe50c75a8f354da07f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#accdc4783ae020efe50c75a8f354da07f">&#9670;&nbsp;</a></span>u_setPositionFromMaster()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void obe::Collision::PolygonalCollider::u_setPositionFromMaster </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
-          <td class="paramname"><em>vec</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_accdc4783ae020efe50c75a8f354da07f_cgraph.svg" width="490" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_collision_1_1_polygonal_collider_accdc4783ae020efe50c75a8f354da07f_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>

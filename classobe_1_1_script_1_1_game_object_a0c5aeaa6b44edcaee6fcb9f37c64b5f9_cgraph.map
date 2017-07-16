@@ -1,14 +1,16 @@
 <map id="obe::Script::GameObject::update" name="obe::Script::GameObject::update">
-<area shape="rect" id="node2" href="$classobe_1_1_triggers_1_1_trigger.html#a6df08cc4580f11813907206a3e8b8f89" title="obe::Triggers::Trigger\l::getState" alt="" coords="249,5,393,47"/>
-<area shape="rect" id="node3" href="$classobe_1_1_triggers_1_1_trigger.html#ab0eb4ecf6b771aadfc966a10cd620160" title="obe::Triggers::Trigger\l::getGroup" alt="" coords="249,71,393,112"/>
-<area shape="rect" id="node4" href="$classobe_1_1_triggers_1_1_trigger.html#a5649d751353ffb6fd27051f7f21eee6e" title="obe::Triggers::Trigger\l::getNamespace" alt="" coords="249,136,393,177"/>
-<area shape="rect" id="node5" href="$classobe_1_1_triggers_1_1_trigger.html#a3cdb098a8deaad57347ea516a8532196" title="obe::Triggers::Trigger\l::getName" alt="" coords="249,201,393,243"/>
-<area shape="rect" id="node6" href="$namespaceobe_1_1_triggers.html#ad644751e65399b1b8524982ce6f86e6e" title="obe::Triggers::injectParameters" alt="" coords="220,267,423,294"/>
-<area shape="rect" id="node8" href="$classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b" title="aube::ErrorHandler\l::Raise" alt="" coords="256,319,387,360"/>
-<area shape="rect" id="node13" href="$classobe_1_1_graphics_1_1_level_sprite.html#a97642713990e0f82c06a8343493a463a" title="obe::Graphics::LevelSprite\l::setTexture" alt="" coords="234,384,409,425"/>
-<area shape="rect" id="node7" href="$classobe_1_1_triggers_1_1_trigger.html#a521e3798f95afc3ccaffbd24caa2ebe4" title="obe::Triggers::Trigger\l::getParameters" alt="" coords="471,188,615,229"/>
-<area shape="rect" id="node9" href="$classaube_1_1_error_message.html#a3a39b6fcd8fdb12eaf6383123535b8ca" title="aube::ErrorMessage\l::getFile" alt="" coords="473,253,612,295"/>
-<area shape="rect" id="node10" href="$classaube_1_1_error_message.html#a9184cc96589578f434351c105b0cd5f7" title="aube::ErrorMessage\l::getLocation" alt="" coords="473,319,612,360"/>
-<area shape="rect" id="node11" href="$classaube_1_1_error_message.html#a07927cb3e2d0712c459cc9e2b5f52696" title="aube::ErrorMessage\l::getMessage" alt="" coords="473,384,612,425"/>
-<area shape="rect" id="node12" href="$classaube_1_1_error_message.html#a77c2f9b7e93542c958173b52da267989" title="aube::ErrorMessage\l::getHints" alt="" coords="473,449,612,491"/>
+<area shape="rect" id="node2" href="$classobe_1_1_triggers_1_1_trigger.html#a6df08cc4580f11813907206a3e8b8f89" title="Get the State of the Trigger (enabled / disabled) " alt="" coords="249,5,393,47"/>
+<area shape="rect" id="node3" href="$classobe_1_1_triggers_1_1_trigger.html#ab0eb4ecf6b771aadfc966a10cd620160" title="Get the name of the TriggerGroup which is the parent of the Trigger. " alt="" coords="249,71,393,112"/>
+<area shape="rect" id="node5" href="$classobe_1_1_triggers_1_1_trigger.html#a5649d751353ffb6fd27051f7f21eee6e" title="Get the name of the namespace of the parent (TriggerGroup) of the Trigger. " alt="" coords="249,136,393,177"/>
+<area shape="rect" id="node7" href="$classobe_1_1_triggers_1_1_trigger.html#a3cdb098a8deaad57347ea516a8532196" title="Get the name of the Trigger. " alt="" coords="249,201,393,243"/>
+<area shape="rect" id="node8" href="$namespaceobe_1_1_triggers.html#ad644751e65399b1b8524982ce6f86e6e" title="Injects the parameter contained in a Trigger to a Lua VM. " alt="" coords="220,267,423,294"/>
+<area shape="rect" id="node10" href="$classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b" title="aube::ErrorHandler\l::Raise" alt="" coords="256,325,387,367"/>
+<area shape="rect" id="node15" href="$classobe_1_1_graphics_1_1_level_sprite.html#a97642713990e0f82c06a8343493a463a" title="obe::Graphics::LevelSprite\l::setTexture" alt="" coords="234,391,409,432"/>
+<area shape="rect" id="node4" href="$classobe_1_1_triggers_1_1_trigger_group.html#afd615ae94ece6e7d978aab0ae9de80f8" title="Get the name of the TriggerGroup. " alt="" coords="471,71,649,112"/>
+<area shape="rect" id="node6" href="$classobe_1_1_triggers_1_1_trigger_group.html#a4444bdd3126c3cee2c09f5f20f799256" title="Get the name of the namespace the Trigger is in. " alt="" coords="471,136,649,177"/>
+<area shape="rect" id="node9" href="$classobe_1_1_triggers_1_1_trigger.html#a521e3798f95afc3ccaffbd24caa2ebe4" title="obe::Triggers::Trigger\l::getParameters" alt="" coords="488,201,632,243"/>
+<area shape="rect" id="node11" href="$classaube_1_1_error_message.html#a3a39b6fcd8fdb12eaf6383123535b8ca" title="aube::ErrorMessage\l::getFile" alt="" coords="491,267,629,308"/>
+<area shape="rect" id="node12" href="$classaube_1_1_error_message.html#a9184cc96589578f434351c105b0cd5f7" title="aube::ErrorMessage\l::getLocation" alt="" coords="491,332,629,373"/>
+<area shape="rect" id="node13" href="$classaube_1_1_error_message.html#a07927cb3e2d0712c459cc9e2b5f52696" title="aube::ErrorMessage\l::getMessage" alt="" coords="491,397,629,439"/>
+<area shape="rect" id="node14" href="$classaube_1_1_error_message.html#a77c2f9b7e93542c958173b52da267989" title="aube::ErrorMessage\l::getHints" alt="" coords="491,463,629,504"/>
 </map>

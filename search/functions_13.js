@@ -1,8 +1,7 @@
 var searchData=
 [
   ['terminate',['terminate',['../classvili_1_1_node_iterator.html#a044fe7a2f1d6faf89bce55e2a2f74356',1,'vili::NodeIterator']]],
-  ['testallcolliders',['testAllColliders',['../classobe_1_1_collision_1_1_polygonal_collider.html#af37dad690ea1c82c605761b1d6218d14',1,'obe::Collision::PolygonalCollider']]],
-  ['text',['text',['../classobe_1_1_graphics_1_1_canvas.html#a67460518414d6b0e0b4a9bdafec87359',1,'obe::Graphics::Canvas::text()'],['../classobe_1_1_graphics_1_1_text.html#a640b0252de7fcceedf243cb3f587088c',1,'obe::Graphics::Text::Text()']]],
+  ['text',['Text',['../classobe_1_1_graphics_1_1_text.html#a640b0252de7fcceedf243cb3f587088c',1,'obe::Graphics::Text::Text()'],['../classobe_1_1_graphics_1_1_canvas.html#a67460518414d6b0e0b4a9bdafec87359',1,'obe::Graphics::Canvas::text()']]],
   ['texturechanged',['textureChanged',['../classobe_1_1_animation_1_1_animator.html#ad710964804f5673b13e3628590f93665',1,'obe::Animation::Animator']]],
   ['tick',['tick',['../classobe_1_1_time_1_1_f_p_s_counter.html#a566d3fc89be18bdca3d5c3bff744157c',1,'obe::Time::FPSCounter']]],
   ['tinydir_5fclose',['tinydir_close',['../include_2elzip_2tinydir_8h.html#a05c4a9ee5c32f36ed3e5c5c7d00ae714',1,'tinydir_close(tinydir_dir *dir):&#160;tinydir.h'],['../build_2elzip_2src_2tinydir_8h.html#a05c4a9ee5c32f36ed3e5c5c7d00ae714',1,'tinydir_close(tinydir_dir *dir):&#160;tinydir.h']]],
@@ -20,8 +19,8 @@ var searchData=
   ['tostring',['toString',['../classobe_1_1_system_1_1_path.html#aab439649ec875cd45a99a18e9c9beda8',1,'obe::System::Path']]],
   ['transformable',['Transformable',['../classobe_1_1_graphics_1_1_transformable.html#aaba5ff63fbd312b5f12517976de1b385',1,'obe::Graphics::Transformable']]],
   ['transformref',['transformRef',['../classobe_1_1_transform_1_1_rect.html#a02a40e3f622105b27fa3841002d8739e',1,'obe::Transform::Rect']]],
-  ['trigger',['Trigger',['../classobe_1_1_triggers_1_1_trigger.html#abc42781632bb39d896661b8b4d901e91',1,'obe::Triggers::Trigger']]],
-  ['triggerdelay',['TriggerDelay',['../classobe_1_1_triggers_1_1_trigger_delay.html#adb996e359a6c112064701c3cd9f5479f',1,'obe::Triggers::TriggerDelay']]],
-  ['triggergroup',['TriggerGroup',['../classobe_1_1_triggers_1_1_trigger_group.html#a292c33f7f9ef78df94763fb31cf79b61',1,'obe::Triggers::TriggerGroup::TriggerGroup(std::string triggerGroupName)'],['../classobe_1_1_triggers_1_1_trigger_group.html#ad075c922183d5365f6725c45a740df43',1,'obe::Triggers::TriggerGroup::TriggerGroup(std::string triggerGroupNamespace, std::string triggerGroupName)']]],
+  ['trigger',['Trigger',['../classobe_1_1_triggers_1_1_trigger.html#a79f07543bcad36dce1ef6a4b45336f24',1,'obe::Triggers::Trigger']]],
+  ['triggerdelay',['TriggerDelay',['../classobe_1_1_triggers_1_1_trigger_delay.html#a1960b02bc53c0a3be9fccf77a528ad02',1,'obe::Triggers::TriggerDelay']]],
+  ['triggergroup',['TriggerGroup',['../classobe_1_1_triggers_1_1_trigger_group.html#a92f7f2887d763373f5da74449465da98',1,'obe::Triggers::TriggerGroup']]],
   ['type',['type',['../classobe_1_1_types_1_1_any.html#a55a256dc61b4028d6af1822bda8ce1d0',1,'obe::Types::Any']]]
 ];

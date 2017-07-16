@@ -67,6 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
@@ -83,6 +84,11 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class used for all Collisions in the engine, it's a Polygon containing n points.  <a href="classobe_1_1_collision_1_1_polygonal_collider.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:aec2bf4135465b251fcf97c06318c4778"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_collision.html#aec2bf4135465b251fcf97c06318c4778">PolygonPath</a> = std::vector&lt; <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &gt;</td></tr>
+<tr class="separator:aec2bf4135465b251fcf97c06318c4778"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:aa8080687fb294144f0bc8de1423b3f3d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_collision.html#aa8080687fb294144f0bc8de1423b3f3d">ColliderTagType</a> { <a class="el" href="namespaceobe_1_1_collision.html#aa8080687fb294144f0bc8de1423b3f3dac101058e7ea21bbbf2a5ac893088e90b">ColliderTagType::Tag</a>, 
@@ -94,18 +100,35 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:af5f3a0b184cb5e706ade5fa1b129a607"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_collision.html#af5f3a0b184cb5e706ade5fa1b129a607">pointsCompare</a> (const ClipperLib::IntPoint *firstPt, const ClipperLib::IntPoint *secondPt)</td></tr>
-<tr class="separator:af5f3a0b184cb5e706ade5fa1b129a607"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c0ac421f797b1eacb620f67f5eed1b6"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_collision.html#a3c0ac421f797b1eacb620f67f5eed1b6">pointsDistance</a> (const ClipperLib::IntPoint *firstPt, const ClipperLib::IntPoint *secondPt)</td></tr>
-<tr class="separator:a3c0ac421f797b1eacb620f67f5eed1b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad84b108b17b313c09418c88f3d1ab689"><td class="memItemLeft" align="right" valign="top">std::vector&lt; ClipperLib::IntPoint * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_collision.html#ad84b108b17b313c09418c88f3d1ab689">convexHull</a> (std::vector&lt; ClipperLib::IntPoint *&gt; points)</td></tr>
-<tr class="separator:ad84b108b17b313c09418c88f3d1ab689"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf02beadb1577b36fd62b3c8c6f5038b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_collision.html#acf02beadb1577b36fd62b3c8c6f5038b">cross</a> (ClipperLib::IntPoint *O, ClipperLib::IntPoint *A, ClipperLib::IntPoint *B)</td></tr>
-<tr class="separator:acf02beadb1577b36fd62b3c8c6f5038b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fd8653e1957bcc3a7091582169390b7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_collision.html#a4fd8653e1957bcc3a7091582169390b7">pointsCompare</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;first, const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;second)</td></tr>
+<tr class="separator:a4fd8653e1957bcc3a7091582169390b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83f2d50fa7fd65f45b778888d6295078"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_collision.html#a83f2d50fa7fd65f45b778888d6295078">pointsDistance</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;first, const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;second)</td></tr>
+<tr class="separator:a83f2d50fa7fd65f45b778888d6295078"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a030f884b3425da1cc3c05e7dd38ef8"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_collision.html#a9a030f884b3425da1cc3c05e7dd38ef8">convexHull</a> (std::vector&lt; <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&gt; points)</td></tr>
+<tr class="separator:a9a030f884b3425da1cc3c05e7dd38ef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac098e4b3ea591fcbbac2946f2d05ec67"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_collision.html#ac098e4b3ea591fcbbac2946f2d05ec67">cross</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;O, const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;A, const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;B)</td></tr>
+<tr class="separator:ac098e4b3ea591fcbbac2946f2d05ec67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4daa26271a0ffa0ff48dfc07190ff569"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_collision.html#a4daa26271a0ffa0ff48dfc07190ff569">convexHull</a> (std::vector&lt; <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &gt; points)</td></tr>
+<tr class="separator:a4daa26271a0ffa0ff48dfc07190ff569"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Classes and Functions to Handle Collisions. </p>
-</div><h2 class="groupheader">Enumeration Type Documentation</h2>
+</div><h2 class="groupheader">Typedef Documentation</h2>
+<a id="aec2bf4135465b251fcf97c06318c4778"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec2bf4135465b251fcf97c06318c4778">&#9670;&nbsp;</a></span>PolygonPath</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceobe_1_1_collision.html#aec2bf4135465b251fcf97c06318c4778">obe::Collision::PolygonPath</a> = typedef std::vector&lt;<a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="aa8080687fb294144f0bc8de1423b3f3d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa8080687fb294144f0bc8de1423b3f3d">&#9670;&nbsp;</a></span>ColliderTagType</h2>
 
@@ -139,16 +162,34 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ad84b108b17b313c09418c88f3d1ab689"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad84b108b17b313c09418c88f3d1ab689">&#9670;&nbsp;</a></span>convexHull()</h2>
+<a id="a9a030f884b3425da1cc3c05e7dd38ef8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a030f884b3425da1cc3c05e7dd38ef8">&#9670;&nbsp;</a></span>convexHull() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; ClipperLib::IntPoint * &gt; obe::Collision::convexHull </td>
+          <td class="memname">std::vector&lt;<a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>&amp;&gt; obe::Collision::convexHull </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; ClipperLib::IntPoint *&gt;&#160;</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&gt;&#160;</td>
+          <td class="paramname"><em>points</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4daa26271a0ffa0ff48dfc07190ff569"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4daa26271a0ffa0ff48dfc07190ff569">&#9670;&nbsp;</a></span>convexHull() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>&gt; obe::Collision::convexHull </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &gt;&#160;</td>
           <td class="paramname"><em>points</em></td><td>)</td>
           <td></td>
         </tr>
@@ -157,38 +198,34 @@ Functions</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_collision_ad84b108b17b313c09418c88f3d1ab689_cgraph.svg" width="424" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_collision_a4daa26271a0ffa0ff48dfc07190ff569_cgraph.svg" width="424" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_collision_ad84b108b17b313c09418c88f3d1ab689_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
 </div>
-<a id="acf02beadb1577b36fd62b3c8c6f5038b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf02beadb1577b36fd62b3c8c6f5038b">&#9670;&nbsp;</a></span>cross()</h2>
+<a id="ac098e4b3ea591fcbbac2946f2d05ec67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac098e4b3ea591fcbbac2946f2d05ec67">&#9670;&nbsp;</a></span>cross()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int obe::Collision::cross </td>
+          <td class="memname">double obe::Collision::cross </td>
           <td>(</td>
-          <td class="paramtype">ClipperLib::IntPoint *&#160;</td>
+          <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
           <td class="paramname"><em>O</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ClipperLib::IntPoint *&#160;</td>
+          <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
           <td class="paramname"><em>A</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">ClipperLib::IntPoint *&#160;</td>
+          <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
           <td class="paramname"><em>B</em>&#160;</td>
         </tr>
         <tr>
@@ -201,13 +238,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_collision_acf02beadb1577b36fd62b3c8c6f5038b_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_collision_ac098e4b3ea591fcbbac2946f2d05ec67_icgraph.svg" width="370" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
 </div>
-<a id="af5f3a0b184cb5e706ade5fa1b129a607"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5f3a0b184cb5e706ade5fa1b129a607">&#9670;&nbsp;</a></span>pointsCompare()</h2>
+<a id="a4fd8653e1957bcc3a7091582169390b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fd8653e1957bcc3a7091582169390b7">&#9670;&nbsp;</a></span>pointsCompare()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -215,14 +253,14 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">bool obe::Collision::pointsCompare </td>
           <td>(</td>
-          <td class="paramtype">const ClipperLib::IntPoint *&#160;</td>
-          <td class="paramname"><em>firstPt</em>, </td>
+          <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const ClipperLib::IntPoint *&#160;</td>
-          <td class="paramname"><em>secondPt</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>second</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -234,13 +272,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_collision_af5f3a0b184cb5e706ade5fa1b129a607_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_collision_a4fd8653e1957bcc3a7091582169390b7_icgraph.svg" width="424" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
 </div>
-<a id="a3c0ac421f797b1eacb620f67f5eed1b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c0ac421f797b1eacb620f67f5eed1b6">&#9670;&nbsp;</a></span>pointsDistance()</h2>
+<a id="a83f2d50fa7fd65f45b778888d6295078"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83f2d50fa7fd65f45b778888d6295078">&#9670;&nbsp;</a></span>pointsDistance()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -248,14 +287,14 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">double obe::Collision::pointsDistance </td>
           <td>(</td>
-          <td class="paramtype">const ClipperLib::IntPoint *&#160;</td>
-          <td class="paramname"><em>firstPt</em>, </td>
+          <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const ClipperLib::IntPoint *&#160;</td>
-          <td class="paramname"><em>secondPt</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>second</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

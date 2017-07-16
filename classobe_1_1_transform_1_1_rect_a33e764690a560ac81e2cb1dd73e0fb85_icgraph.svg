@@ -51,20 +51,20 @@ if (edges && edges.length) {
 <script type="text/javascript">
 var viewWidth = 832;
 var viewHeight = 102;
-var sectionId = 'dynsection-25';
+var sectionId = 'dynsection-27';
 </script>
 <script xlink:href="svgpan.js"/>
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>obe::Transform::Rect::setSize</title>
-<!-- Node174 -->
-<g id="node1" class="node"><title>Node174</title>
+<!-- Node183 -->
+<g id="node1" class="node"><title>Node183</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-24.5 0,-54.5 107,-54.5 107,-24.5 0,-24.5"/>
 <text text-anchor="start" x="8" y="-42.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Transform::Rect</text>
 <text text-anchor="middle" x="53.5" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">::setSize</text>
 </g>
-<!-- Node175 -->
-<g id="node2" class="node"><title>Node175</title>
+<!-- Node184 -->
+<g id="node2" class="node"><title>Node184</title>
 <g id="a_node2"><a xlink:href="namespaceobe_1_1_editor.html#a98df387085b87692b2458ada49d8c8a3" target="_top" xlink:title="obe::Editor::addSpriteTo\lWorld">
 <polygon fill="none" stroke="black" points="143,-49.5 143,-79.5 265,-79.5 265,-49.5 143,-49.5"/>
 <text text-anchor="start" x="151" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Editor::addSpriteTo</text>
@@ -72,13 +72,13 @@ var sectionId = 'dynsection-25';
 </a>
 </g>
 </g>
-<!-- Node174&#45;&gt;Node175 -->
-<g id="edge1" class="edge"><title>Node174&#45;&gt;Node175</title>
+<!-- Node183&#45;&gt;Node184 -->
+<g id="edge1" class="edge"><title>Node183&#45;&gt;Node184</title>
 <path fill="none" stroke="midnightblue" d="M117.409,-50.0907C125.823,-51.5073 134.437,-52.9574 142.803,-54.3659"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="117.716,-46.5932 107.274,-48.3845 116.554,-53.4961 117.716,-46.5932"/>
 </g>
-<!-- Node180 -->
-<g id="node7" class="node"><title>Node180</title>
+<!-- Node189 -->
+<g id="node7" class="node"><title>Node189</title>
 <g id="a_node7"><a xlink:href="classobe_1_1_transform_1_1_rect.html#acdc5c857f16cdeac3f24a86c52b9b330" target="_top" xlink:title="Set the Position of a specific Referencial of the Rect (The opposite Point won&#39;t move) ...">
 <polygon fill="none" stroke="black" points="150.5,-0.5 150.5,-30.5 257.5,-30.5 257.5,-0.5 150.5,-0.5"/>
 <text text-anchor="start" x="158.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Transform::Rect</text>
@@ -86,70 +86,70 @@ var sectionId = 'dynsection-25';
 </a>
 </g>
 </g>
-<!-- Node174&#45;&gt;Node180 -->
-<g id="edge7" class="edge"><title>Node174&#45;&gt;Node180</title>
+<!-- Node183&#45;&gt;Node189 -->
+<g id="edge7" class="edge"><title>Node183&#45;&gt;Node189</title>
 <path fill="none" stroke="midnightblue" d="M117.276,-29.3544C128.305,-27.5719 139.68,-25.7335 150.396,-24.0016"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="116.587,-25.9202 107.274,-30.9709 117.704,-32.8305 116.587,-25.9202"/>
 </g>
-<!-- Node176 -->
-<g id="node3" class="node"><title>Node176</title>
+<!-- Node185 -->
+<g id="node3" class="node"><title>Node185</title>
 <g id="a_node3"><a xlink:href="namespaceobe_1_1_editor.html#a75bc94b8c9152749d28e9e3927522e4a" target="_top" xlink:title="obe::Editor::loadSpriteFolder">
 <polygon fill="none" stroke="black" points="301,-55 301,-74 441,-74 441,-55 301,-55"/>
 <text text-anchor="middle" x="371" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Editor::loadSpriteFolder</text>
 </a>
 </g>
 </g>
-<!-- Node175&#45;&gt;Node176 -->
-<g id="edge2" class="edge"><title>Node175&#45;&gt;Node176</title>
+<!-- Node184&#45;&gt;Node185 -->
+<g id="edge2" class="edge"><title>Node184&#45;&gt;Node185</title>
 <path fill="none" stroke="midnightblue" d="M275.24,-64.5C283.698,-64.5 292.331,-64.5 300.774,-64.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="275.036,-61.0001 265.036,-64.5 275.036,-68.0001 275.036,-61.0001"/>
 </g>
-<!-- Node177 -->
-<g id="node4" class="node"><title>Node177</title>
+<!-- Node186 -->
+<g id="node4" class="node"><title>Node186</title>
 <g id="a_node4"><a xlink:href="namespaceobe_1_1_editor.html#a9009207671e71dccb68a31ea2362e9ef" target="_top" xlink:title="Starts the map edition. ">
 <polygon fill="none" stroke="black" points="477,-55 477,-74 581,-74 581,-55 477,-55"/>
 <text text-anchor="middle" x="529" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Editor::editMap</text>
 </a>
 </g>
 </g>
-<!-- Node176&#45;&gt;Node177 -->
-<g id="edge3" class="edge"><title>Node176&#45;&gt;Node177</title>
+<!-- Node185&#45;&gt;Node186 -->
+<g id="edge3" class="edge"><title>Node185&#45;&gt;Node186</title>
 <path fill="none" stroke="midnightblue" d="M451.396,-64.5C459.982,-64.5 468.544,-64.5 476.668,-64.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="451.332,-61.0001 441.332,-64.5 451.332,-68.0001 451.332,-61.0001"/>
 </g>
-<!-- Node178 -->
-<g id="node5" class="node"><title>Node178</title>
+<!-- Node187 -->
+<g id="node5" class="node"><title>Node187</title>
 <g id="a_node5"><a xlink:href="namespaceobe_1_1_modes.html#a6a8b08eee511d4895c4da96d4ba223a6" target="_top" xlink:title="Starts the development Menu where you can starts other menus from. ">
 <polygon fill="none" stroke="black" points="617,-74 617,-93 750,-93 750,-74 617,-74"/>
 <text text-anchor="middle" x="683.5" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Modes::startDevMenu</text>
 </a>
 </g>
 </g>
-<!-- Node177&#45;&gt;Node178 -->
-<g id="edge4" class="edge"><title>Node177&#45;&gt;Node178</title>
+<!-- Node186&#45;&gt;Node187 -->
+<g id="edge4" class="edge"><title>Node186&#45;&gt;Node187</title>
 <path fill="none" stroke="midnightblue" d="M591.292,-72.1364C599.688,-73.1824 608.336,-74.2599 616.806,-75.3152"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="591.561,-68.6429 581.205,-70.8796 590.695,-75.5892 591.561,-68.6429"/>
 </g>
-<!-- Node179 -->
-<g id="node6" class="node"><title>Node179</title>
+<!-- Node188 -->
+<g id="node6" class="node"><title>Node188</title>
 <g id="a_node6"><a xlink:href="_ob_engine_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" target="_top" xlink:title="main">
 <polygon fill="none" stroke="black" points="786,-55 786,-74 824,-74 824,-55 786,-55"/>
 <text text-anchor="middle" x="805" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">main</text>
 </a>
 </g>
 </g>
-<!-- Node177&#45;&gt;Node179 -->
-<g id="edge6" class="edge"><title>Node177&#45;&gt;Node179</title>
+<!-- Node186&#45;&gt;Node188 -->
+<g id="edge6" class="edge"><title>Node186&#45;&gt;Node188</title>
 <path fill="none" stroke="midnightblue" d="M591.356,-64.5C653.863,-64.5 746.971,-64.5 785.885,-64.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="591.216,-61.0001 581.216,-64.5 591.216,-68.0001 591.216,-61.0001"/>
 </g>
-<!-- Node178&#45;&gt;Node179 -->
-<g id="edge5" class="edge"><title>Node178&#45;&gt;Node179</title>
+<!-- Node187&#45;&gt;Node188 -->
+<g id="edge5" class="edge"><title>Node187&#45;&gt;Node188</title>
 <path fill="none" stroke="midnightblue" d="M754.822,-72.3192C766.345,-70.4869 777.327,-68.7409 785.978,-67.3654"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="753.926,-68.9174 744.6,-73.9443 755.026,-75.8306 753.926,-68.9174"/>
 </g>
-<!-- Node181 -->
-<g id="node8" class="node"><title>Node181</title>
+<!-- Node190 -->
+<g id="node8" class="node"><title>Node190</title>
 <g id="a_node8"><a xlink:href="classobe_1_1_transform_1_1_rect.html#a8f10de323814de2ddad0d39c0d4c8150" target="_top" xlink:title="Set the Position of a specific Referencial of the Rect (The opposite Point won&#39;t move) ...">
 <polygon fill="none" stroke="black" points="317.5,-0.5 317.5,-30.5 424.5,-30.5 424.5,-0.5 317.5,-0.5"/>
 <text text-anchor="start" x="325.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Transform::Rect</text>
@@ -157,8 +157,8 @@ var sectionId = 'dynsection-25';
 </a>
 </g>
 </g>
-<!-- Node180&#45;&gt;Node181 -->
-<g id="edge8" class="edge"><title>Node180&#45;&gt;Node181</title>
+<!-- Node189&#45;&gt;Node190 -->
+<g id="edge8" class="edge"><title>Node189&#45;&gt;Node190</title>
 <path fill="none" stroke="midnightblue" d="M267.677,-15.5C284.032,-15.5 301.492,-15.5 317.274,-15.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="267.661,-12.0001 257.661,-15.5 267.661,-19.0001 267.661,-12.0001"/>
 </g>
