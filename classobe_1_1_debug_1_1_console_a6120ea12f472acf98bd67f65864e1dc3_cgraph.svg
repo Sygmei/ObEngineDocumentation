@@ -49,7 +49,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 899;
+var viewWidth = 904;
 var viewHeight = 210;
 var sectionId = 'dynsection-0';
 </script>
@@ -66,203 +66,203 @@ var sectionId = 'dynsection-0';
 <!-- Node1 -->
 <g id="node2" class="node"><title>Node1</title>
 <g id="a_node2"><a xlink:href="classobe_1_1_triggers_1_1_trigger_group.html#aa6c209476bf95d957abdbbcc17ee5a3e" target="_top" xlink:title="Creates a new Trigger in the TriggerGroup. ">
-<polygon fill="white" stroke="black" points="143,-123.5 143,-153.5 277,-153.5 277,-123.5 143,-123.5"/>
-<text text-anchor="start" x="151" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Triggers::TriggerGroup</text>
-<text text-anchor="middle" x="210" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00">::addTrigger</text>
+<polygon fill="none" stroke="black" points="145.5,-123.5 145.5,-153.5 279.5,-153.5 279.5,-123.5 145.5,-123.5"/>
+<text text-anchor="start" x="153.5" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Triggers::TriggerGroup</text>
+<text text-anchor="middle" x="212.5" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00">::addTrigger</text>
 </a>
 </g>
 </g>
 <!-- Node0&#45;&gt;Node1 -->
 <g id="edge1" class="edge"><title>Node0&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M102.116,-104.601C117.755,-109.562 135.305,-115.127 151.592,-120.293"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="150.951,-123.761 161.541,-123.448 153.067,-117.089 150.951,-123.761"/>
+<path fill="none" stroke="midnightblue" d="M102.886,-104.601C118.929,-109.608 136.949,-115.232 153.631,-120.439"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="152.685,-123.81 163.274,-123.448 154.77,-117.128 152.685,-123.81"/>
 </g>
 <!-- Node2 -->
 <g id="node3" class="node"><title>Node2</title>
-<g id="a_node3"><a xlink:href="classobe_1_1_debug_1_1_console.html#a5fa21f5269b39878cd509d48a734f9b5" target="_top" xlink:title="Creates a new Stream to use in the Console. ">
-<polygon fill="white" stroke="black" points="156.5,-74.5 156.5,-104.5 263.5,-104.5 263.5,-74.5 156.5,-74.5"/>
-<text text-anchor="start" x="164.5" y="-92.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Debug::Console</text>
-<text text-anchor="middle" x="210" y="-81.5" font-family="Helvetica,sans-Serif" font-size="10.00">::createStream</text>
+<g id="a_node3"><a xlink:href="classobe_1_1_debug_1_1_console.html#a95a9f75bf9c421f88d3bdd9ef1a95df3" target="_top" xlink:title="Creates a new Stream to use in the Console. ">
+<polygon fill="none" stroke="black" points="159,-74.5 159,-104.5 266,-104.5 266,-74.5 159,-74.5"/>
+<text text-anchor="start" x="167" y="-92.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Debug::Console</text>
+<text text-anchor="middle" x="212.5" y="-81.5" font-family="Helvetica,sans-Serif" font-size="10.00">::createStream</text>
 </a>
 </g>
 </g>
 <!-- Node0&#45;&gt;Node2 -->
 <g id="edge2" class="edge"><title>Node0&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M107.238,-89.5C119.792,-89.5 133.309,-89.5 146.262,-89.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="146.5,-93.0001 156.5,-89.5 146.5,-86.0001 146.5,-93.0001"/>
+<path fill="none" stroke="midnightblue" d="M107.215,-89.5C120.49,-89.5 134.871,-89.5 148.591,-89.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="148.924,-93.0001 158.924,-89.5 148.924,-86.0001 148.924,-93.0001"/>
 </g>
 <!-- Node14 -->
 <g id="node15" class="node"><title>Node14</title>
-<g id="a_node15"><a xlink:href="classobe_1_1_debug_1_1_console_1_1_stream.html#ab188482968d08fc327f6665147438eca" target="_top" xlink:title="Sets a new Color for the Stream. ">
-<polygon fill="white" stroke="black" points="156.5,-25.5 156.5,-55.5 263.5,-55.5 263.5,-25.5 156.5,-25.5"/>
-<text text-anchor="start" x="164.5" y="-43.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Debug::Console</text>
-<text text-anchor="middle" x="210" y="-32.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Stream::setColor</text>
+<g id="a_node15"><a xlink:href="classobe_1_1_debug_1_1_console_stream.html#aac29b2cbe555b2c3d29d030c9c7025f3" target="_top" xlink:title="Sets a new Color for the Stream. ">
+<polygon fill="none" stroke="black" points="143,-25.5 143,-55.5 282,-55.5 282,-25.5 143,-25.5"/>
+<text text-anchor="start" x="151" y="-43.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Debug::ConsoleStream</text>
+<text text-anchor="middle" x="212.5" y="-32.5" font-family="Helvetica,sans-Serif" font-size="10.00">::setColor</text>
 </a>
 </g>
 </g>
 <!-- Node0&#45;&gt;Node14 -->
 <g id="edge15" class="edge"><title>Node0&#45;&gt;Node14</title>
-<path fill="none" stroke="midnightblue" d="M102.116,-74.3986C117.755,-69.4385 135.305,-63.8726 151.592,-58.7071"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="153.067,-61.911 161.541,-55.5516 150.951,-55.2385 153.067,-61.911"/>
+<path fill="none" stroke="midnightblue" d="M102.886,-74.3986C118.929,-69.3917 136.949,-63.7676 153.631,-58.561"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="154.77,-61.872 163.274,-55.5516 152.685,-55.1899 154.77,-61.872"/>
 </g>
 <!-- Node3 -->
 <g id="node4" class="node"><title>Node3</title>
 <g id="a_node4"><a xlink:href="classobe_1_1_triggers_1_1_trigger_group.html#a49dc453c0968342bd7ffae88abcb19b7" target="_top" xlink:title="Pushes a Parameter to a Trigger. ">
-<polygon fill="white" stroke="black" points="313,-49.5 313,-79.5 447,-79.5 447,-49.5 313,-49.5"/>
-<text text-anchor="start" x="321" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Triggers::TriggerGroup</text>
-<text text-anchor="middle" x="380" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::pushParameter</text>
+<polygon fill="none" stroke="black" points="318,-49.5 318,-79.5 452,-79.5 452,-49.5 318,-49.5"/>
+<text text-anchor="start" x="326" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Triggers::TriggerGroup</text>
+<text text-anchor="middle" x="385" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::pushParameter</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge3" class="edge"><title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M263.695,-81.6584C276.118,-79.8099 289.606,-77.8027 302.833,-75.8343"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="303.499,-79.2739 312.875,-74.34 302.469,-72.3501 303.499,-79.2739"/>
+<path fill="none" stroke="midnightblue" d="M266.047,-81.7952C279.196,-79.8672 293.568,-77.7599 307.615,-75.7001"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="308.378,-79.1257 317.765,-74.2119 307.363,-72.1998 308.378,-79.1257"/>
 </g>
 <!-- Node13 -->
 <g id="node14" class="node"><title>Node13</title>
 <g id="a_node14"><a xlink:href="classobe_1_1_triggers_1_1_trigger_group.html#a277ee82edb3296d3113f3df0c2d2568b" target="_top" xlink:title="Enables a Trigger. ">
-<polygon fill="white" stroke="black" points="313,-98.5 313,-128.5 447,-128.5 447,-98.5 313,-98.5"/>
-<text text-anchor="start" x="321" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Triggers::TriggerGroup</text>
-<text text-anchor="middle" x="380" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">::enableTrigger</text>
+<polygon fill="none" stroke="black" points="318,-98.5 318,-128.5 452,-128.5 452,-98.5 318,-98.5"/>
+<text text-anchor="start" x="326" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Triggers::TriggerGroup</text>
+<text text-anchor="middle" x="385" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">::enableTrigger</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node13 -->
 <g id="edge13" class="edge"><title>Node2&#45;&gt;Node13</title>
-<path fill="none" stroke="midnightblue" d="M263.695,-97.0279C276.118,-98.8025 289.606,-100.729 302.833,-102.619"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="302.481,-106.104 312.875,-104.054 303.471,-99.1745 302.481,-106.104"/>
+<path fill="none" stroke="midnightblue" d="M266.047,-96.8966C279.196,-98.7475 293.568,-100.771 307.615,-102.748"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="307.374,-106.248 317.765,-104.177 308.35,-99.3168 307.374,-106.248"/>
 </g>
 <!-- Node4 -->
 <g id="node5" class="node"><title>Node4</title>
 <g id="a_node5"><a xlink:href="classobe_1_1_triggers_1_1_trigger_group.html#aa634130b4aeb886549f0a20d993b5c92" target="_top" xlink:title="Get a Trigger contained in the TriggerGroup. ">
-<polygon fill="white" stroke="black" points="483,-98.5 483,-128.5 617,-128.5 617,-98.5 483,-98.5"/>
-<text text-anchor="start" x="491" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Triggers::TriggerGroup</text>
-<text text-anchor="middle" x="550" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getTrigger</text>
+<polygon fill="none" stroke="black" points="488,-98.5 488,-128.5 622,-128.5 622,-98.5 488,-98.5"/>
+<text text-anchor="start" x="496" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Triggers::TriggerGroup</text>
+<text text-anchor="middle" x="555" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getTrigger</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node4 -->
 <g id="edge4" class="edge"><title>Node3&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M432.776,-79.6014C450.103,-84.6551 469.586,-90.3376 487.577,-95.5848"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="486.815,-99.0084 497.395,-98.4484 488.775,-92.2884 486.815,-99.0084"/>
+<path fill="none" stroke="midnightblue" d="M437.776,-79.6014C455.103,-84.6551 474.586,-90.3376 492.577,-95.5848"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="491.815,-99.0084 502.395,-98.4484 493.775,-92.2884 491.815,-99.0084"/>
 </g>
 <!-- Node10 -->
 <g id="node11" class="node"><title>Node10</title>
 <g id="a_node11"><a xlink:href="classobe_1_1_triggers_1_1_trigger.html#a3ad25b0fc614ad94c16a424464083607" target="_top" xlink:title="Pushes a parameter to the Trigger. ">
-<polygon fill="white" stroke="black" points="496,-49.5 496,-79.5 604,-79.5 604,-49.5 496,-49.5"/>
-<text text-anchor="start" x="504" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Triggers::Trigger</text>
-<text text-anchor="middle" x="550" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::pushParameter</text>
+<polygon fill="none" stroke="black" points="501,-49.5 501,-79.5 609,-79.5 609,-49.5 501,-49.5"/>
+<text text-anchor="start" x="509" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Triggers::Trigger</text>
+<text text-anchor="middle" x="555" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::pushParameter</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node10 -->
 <g id="edge10" class="edge"><title>Node3&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M447.398,-64.5C459.937,-64.5 473.025,-64.5 485.473,-64.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="485.754,-68.0001 495.754,-64.5 485.754,-61.0001 485.754,-68.0001"/>
+<path fill="none" stroke="midnightblue" d="M452.398,-64.5C464.937,-64.5 478.025,-64.5 490.473,-64.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="490.754,-68.0001 500.754,-64.5 490.754,-61.0001 490.754,-68.0001"/>
 </g>
 <!-- Node5 -->
 <g id="node6" class="node"><title>Node5</title>
 <g id="a_node6"><a xlink:href="classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b" target="_top" xlink:title="aube::ErrorHandler\l::Raise">
-<polygon fill="white" stroke="black" points="653,-98.5 653,-128.5 751,-128.5 751,-98.5 653,-98.5"/>
-<text text-anchor="start" x="661" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorHandler</text>
-<text text-anchor="middle" x="702" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Raise</text>
+<polygon fill="none" stroke="black" points="658,-98.5 658,-128.5 756,-128.5 756,-98.5 658,-98.5"/>
+<text text-anchor="start" x="666" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorHandler</text>
+<text text-anchor="middle" x="707" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Raise</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node5 -->
 <g id="edge5" class="edge"><title>Node4&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M617.229,-113.5C625.71,-113.5 634.342,-113.5 642.685,-113.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="642.688,-117 652.688,-113.5 642.687,-110 642.688,-117"/>
+<path fill="none" stroke="midnightblue" d="M622.229,-113.5C630.71,-113.5 639.342,-113.5 647.685,-113.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="647.688,-117 657.688,-113.5 647.687,-110 647.688,-117"/>
 </g>
 <!-- Node6 -->
 <g id="node7" class="node"><title>Node6</title>
 <g id="a_node7"><a xlink:href="classaube_1_1_error_message.html#a3a39b6fcd8fdb12eaf6383123535b8ca" target="_top" xlink:title="aube::ErrorMessage\l::getFile">
-<polygon fill="white" stroke="black" points="787,-171.5 787,-201.5 891,-201.5 891,-171.5 787,-171.5"/>
-<text text-anchor="start" x="795" y="-189.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
-<text text-anchor="middle" x="839" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getFile</text>
+<polygon fill="none" stroke="black" points="792,-171.5 792,-201.5 896,-201.5 896,-171.5 792,-171.5"/>
+<text text-anchor="start" x="800" y="-189.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
+<text text-anchor="middle" x="844" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getFile</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node6 -->
 <g id="edge6" class="edge"><title>Node5&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M727.67,-128.664C744.239,-138.655 766.676,-151.816 787,-162.5 789.858,-164.003 792.827,-165.516 795.831,-167.014"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="794.347,-170.185 804.869,-171.429 797.42,-163.895 794.347,-170.185"/>
+<path fill="none" stroke="midnightblue" d="M732.67,-128.664C749.239,-138.655 771.676,-151.816 792,-162.5 794.858,-164.003 797.827,-165.516 800.831,-167.014"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="799.347,-170.185 809.869,-171.429 802.42,-163.895 799.347,-170.185"/>
 </g>
 <!-- Node7 -->
 <g id="node8" class="node"><title>Node7</title>
 <g id="a_node8"><a xlink:href="classaube_1_1_error_message.html#a9184cc96589578f434351c105b0cd5f7" target="_top" xlink:title="aube::ErrorMessage\l::getLocation">
-<polygon fill="white" stroke="black" points="787,-122.5 787,-152.5 891,-152.5 891,-122.5 787,-122.5"/>
-<text text-anchor="start" x="795" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
-<text text-anchor="middle" x="839" y="-129.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getLocation</text>
+<polygon fill="none" stroke="black" points="792,-122.5 792,-152.5 896,-152.5 896,-122.5 792,-122.5"/>
+<text text-anchor="start" x="800" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
+<text text-anchor="middle" x="844" y="-129.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getLocation</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node7 -->
 <g id="edge7" class="edge"><title>Node5&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M751.357,-122.097C759.622,-123.566 768.306,-125.11 776.852,-126.629"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="776.33,-130.091 786.788,-128.396 777.555,-123.199 776.33,-130.091"/>
+<path fill="none" stroke="midnightblue" d="M756.357,-122.097C764.622,-123.566 773.306,-125.11 781.852,-126.629"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="781.33,-130.091 791.788,-128.396 782.555,-123.199 781.33,-130.091"/>
 </g>
 <!-- Node8 -->
 <g id="node9" class="node"><title>Node8</title>
 <g id="a_node9"><a xlink:href="classaube_1_1_error_message.html#a07927cb3e2d0712c459cc9e2b5f52696" target="_top" xlink:title="aube::ErrorMessage\l::getMessage">
-<polygon fill="white" stroke="black" points="787,-73.5 787,-103.5 891,-103.5 891,-73.5 787,-73.5"/>
-<text text-anchor="start" x="795" y="-91.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
-<text text-anchor="middle" x="839" y="-80.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getMessage</text>
+<polygon fill="none" stroke="black" points="792,-73.5 792,-103.5 896,-103.5 896,-73.5 792,-73.5"/>
+<text text-anchor="start" x="800" y="-91.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
+<text text-anchor="middle" x="844" y="-80.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getMessage</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node8 -->
 <g id="edge8" class="edge"><title>Node5&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M751.357,-104.545C759.622,-103.014 768.306,-101.406 776.852,-99.8238"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="777.592,-103.246 786.788,-97.9837 776.318,-96.3632 777.592,-103.246"/>
+<path fill="none" stroke="midnightblue" d="M756.357,-104.545C764.622,-103.014 773.306,-101.406 781.852,-99.8238"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="782.592,-103.246 791.788,-97.9837 781.318,-96.3632 782.592,-103.246"/>
 </g>
 <!-- Node9 -->
 <g id="node10" class="node"><title>Node9</title>
 <g id="a_node10"><a xlink:href="classaube_1_1_error_message.html#a77c2f9b7e93542c958173b52da267989" target="_top" xlink:title="aube::ErrorMessage\l::getHints">
-<polygon fill="white" stroke="black" points="787,-24.5 787,-54.5 891,-54.5 891,-24.5 787,-24.5"/>
-<text text-anchor="start" x="795" y="-42.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
-<text text-anchor="middle" x="839" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getHints</text>
+<polygon fill="none" stroke="black" points="792,-24.5 792,-54.5 896,-54.5 896,-24.5 792,-24.5"/>
+<text text-anchor="start" x="800" y="-42.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
+<text text-anchor="middle" x="844" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getHints</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node9 -->
 <g id="edge9" class="edge"><title>Node5&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M734.845,-98.3829C740.307,-95.5626 745.871,-92.5417 751,-89.5 767.755,-79.5632 770.206,-74.3708 787,-64.5 790.025,-62.7223 793.193,-60.9558 796.408,-59.2318"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="798.242,-62.2233 805.507,-54.5116 795.019,-56.0096 798.242,-62.2233"/>
+<path fill="none" stroke="midnightblue" d="M739.845,-98.3829C745.307,-95.5626 750.871,-92.5417 756,-89.5 772.755,-79.5632 775.206,-74.3708 792,-64.5 795.025,-62.7223 798.193,-60.9558 801.408,-59.2318"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="803.242,-62.2233 810.507,-54.5116 800.019,-56.0096 803.242,-62.2233"/>
 </g>
 <!-- Node11 -->
 <g id="node12" class="node"><title>Node11</title>
 <g id="a_node12"><a xlink:href="namespaceobe_1_1_utils_1_1_string.html#a074d624ca5936545dc32c0b5e423050d" target="_top" xlink:title="Splits a std::string using a delimited. ">
-<polygon fill="white" stroke="black" points="657.5,-49.5 657.5,-79.5 746.5,-79.5 746.5,-49.5 657.5,-49.5"/>
-<text text-anchor="start" x="665.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Utils::String</text>
-<text text-anchor="middle" x="702" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::split</text>
+<polygon fill="none" stroke="black" points="662.5,-49.5 662.5,-79.5 751.5,-79.5 751.5,-49.5 662.5,-49.5"/>
+<text text-anchor="start" x="670.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Utils::String</text>
+<text text-anchor="middle" x="707" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::split</text>
 </a>
 </g>
 </g>
 <!-- Node10&#45;&gt;Node11 -->
 <g id="edge11" class="edge"><title>Node10&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M604.307,-64.5C618.13,-64.5 633.029,-64.5 646.893,-64.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="647.258,-68.0001 657.258,-64.5 647.258,-61.0001 647.258,-68.0001"/>
+<path fill="none" stroke="midnightblue" d="M609.307,-64.5C623.13,-64.5 638.029,-64.5 651.893,-64.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="652.258,-68.0001 662.258,-64.5 652.258,-61.0001 652.258,-68.0001"/>
 </g>
 <!-- Node12 -->
 <g id="node13" class="node"><title>Node12</title>
 <g id="a_node13"><a xlink:href="namespaceobe_1_1_utils_1_1_vector.html#a964ff22524706c50e054f29d98b8ba6d" target="_top" xlink:title="Join all elements of a std::string into a std::string using a separator. ">
-<polygon fill="white" stroke="black" points="656,-0.5 656,-30.5 748,-30.5 748,-0.5 656,-0.5"/>
-<text text-anchor="start" x="664" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Utils::Vector</text>
-<text text-anchor="middle" x="702" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::join</text>
+<polygon fill="none" stroke="black" points="661,-0.5 661,-30.5 753,-30.5 753,-0.5 661,-0.5"/>
+<text text-anchor="start" x="669" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Utils::Vector</text>
+<text text-anchor="middle" x="707" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::join</text>
 </a>
 </g>
 </g>
 <!-- Node10&#45;&gt;Node12 -->
 <g id="edge12" class="edge"><title>Node10&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M597.229,-49.3986C612.698,-44.3453 630.092,-38.6634 646.153,-33.4165"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="647.534,-36.6476 655.953,-30.2154 645.36,-29.9936 647.534,-36.6476"/>
+<path fill="none" stroke="midnightblue" d="M602.229,-49.3986C617.698,-44.3453 635.092,-38.6634 651.153,-33.4165"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="652.534,-36.6476 660.953,-30.2154 650.36,-29.9936 652.534,-36.6476"/>
 </g>
 <!-- Node13&#45;&gt;Node4 -->
 <g id="edge14" class="edge"><title>Node13&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M447.398,-113.5C455.679,-113.5 464.199,-113.5 472.616,-113.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="472.809,-117 482.809,-113.5 472.809,-110 472.809,-117"/>
+<path fill="none" stroke="midnightblue" d="M452.398,-113.5C460.679,-113.5 469.199,-113.5 477.616,-113.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="477.809,-117 487.809,-113.5 477.809,-110 477.809,-117"/>
 </g>
 </g>
 </svg>

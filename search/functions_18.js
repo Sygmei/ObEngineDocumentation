@@ -9,7 +9,8 @@ var searchData=
   ['_7egameobject',['~GameObject',['../classobe_1_1_script_1_1_game_object.html#a760f07c70ec6b0e0af5508bdbef3a41f',1,'obe::Script::GameObject']]],
   ['_7elistattribute',['~ListAttribute',['../classvili_1_1_list_attribute.html#a9ce24a6b38c9e52e70772a6c30fc5ed3',1,'vili::ListAttribute']]],
   ['_7epolygonalcollider',['~PolygonalCollider',['../classobe_1_1_collision_1_1_polygonal_collider.html#aad9b493d745dca4fa6ec11a049c02ca5',1,'obe::Collision::PolygonalCollider']]],
-  ['_7eptr',['~Ptr',['../classobe_1_1_triggers_1_1_trigger_group_1_1_ptr.html#a0b3c96536df48ad28d3818835512a817',1,'obe::Triggers::TriggerGroup::Ptr']]],
+  ['_7etriggergroupptr',['~TriggerGroupPtr',['../classobe_1_1_triggers_1_1_trigger_group_ptr.html#af85496d3f911f4a7df15b55c31f65f18',1,'obe::Triggers::TriggerGroupPtr']]],
+  ['_7eunitbasedobject',['~UnitBasedObject',['../classobe_1_1_transform_1_1_unit_based_object.html#a761200826c44de6ebc7d7fb0a4704269',1,'obe::Transform::UnitBasedObject']]],
   ['_7eunzipper',['~unzipper',['../classziputils_1_1unzipper.html#a8987ce8b1445c54e474b71abf636c410',1,'ziputils::unzipper::~unzipper(void)'],['../classziputils_1_1unzipper.html#a8987ce8b1445c54e474b71abf636c410',1,'ziputils::unzipper::~unzipper(void)']]],
   ['_7eworld',['~World',['../classobe_1_1_scene_1_1_world.html#a9061164b80bb0ab33268bcca86519499',1,'obe::Scene::World']]],
   ['_7ezipper',['~zipper',['../classziputils_1_1zipper.html#acf3a9aac7000e7508b08fc86f8727954',1,'ziputils::zipper::~zipper(void)'],['../classziputils_1_1zipper.html#acf3a9aac7000e7508b08fc86f8727954',1,'ziputils::zipper::~zipper(void)']]]

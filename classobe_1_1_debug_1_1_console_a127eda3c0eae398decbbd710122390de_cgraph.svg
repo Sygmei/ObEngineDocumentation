@@ -51,85 +51,85 @@ if (edges && edges.length) {
 <script type="text/javascript">
 var viewWidth = 543;
 var viewHeight = 113;
-var sectionId = 'dynsection-10';
+var sectionId = 'dynsection-11';
 </script>
 <script xlink:href="svgpan.js"/>
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>obe::Debug::Console::inputKey</title>
-<!-- Node91 -->
-<g id="node1" class="node"><title>Node91</title>
+<!-- Node74 -->
+<g id="node1" class="node"><title>Node74</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-24.5 0,-54.5 107,-54.5 107,-24.5 0,-24.5"/>
 <text text-anchor="start" x="8" y="-42.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Debug::Console</text>
 <text text-anchor="middle" x="53.5" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">::inputKey</text>
 </g>
-<!-- Node92 -->
-<g id="node2" class="node"><title>Node92</title>
+<!-- Node75 -->
+<g id="node2" class="node"><title>Node75</title>
 <g id="a_node2"><a xlink:href="classobe_1_1_debug_1_1_console.html#a2afb2eb73b15e82c0b5facddbc30a686" target="_top" xlink:title="Executes a command (Sent to the Script::ScriptEngine) ">
-<polygon fill="white" stroke="black" points="143,-49.5 143,-79.5 250,-79.5 250,-49.5 143,-49.5"/>
+<polygon fill="none" stroke="black" points="143,-49.5 143,-79.5 250,-79.5 250,-49.5 143,-49.5"/>
 <text text-anchor="start" x="151" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Debug::Console</text>
 <text text-anchor="middle" x="196.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::handleCommand</text>
 </a>
 </g>
 </g>
-<!-- Node91&#45;&gt;Node92 -->
-<g id="edge1" class="edge"><title>Node91&#45;&gt;Node92</title>
+<!-- Node74&#45;&gt;Node75 -->
+<g id="edge1" class="edge"><title>Node74&#45;&gt;Node75</title>
 <path fill="none" stroke="midnightblue" d="M107.003,-48.8091C115.445,-50.3058 124.255,-51.8679 132.905,-53.4015"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="132.495,-56.8835 142.953,-55.1831 133.718,-49.991 132.495,-56.8835"/>
 </g>
-<!-- Node96 -->
-<g id="node6" class="node"><title>Node96</title>
+<!-- Node79 -->
+<g id="node6" class="node"><title>Node79</title>
 <g id="a_node6"><a xlink:href="classobe_1_1_debug_1_1_console.html#aa5772da657dc7e9ae977b5614b3f913e" target="_top" xlink:title="Clears the input. ">
-<polygon fill="white" stroke="black" points="143,-0.5 143,-30.5 250,-30.5 250,-0.5 143,-0.5"/>
+<polygon fill="none" stroke="black" points="143,-0.5 143,-30.5 250,-30.5 250,-0.5 143,-0.5"/>
 <text text-anchor="start" x="151" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Debug::Console</text>
 <text text-anchor="middle" x="196.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::clearInputBuffer</text>
 </a>
 </g>
 </g>
-<!-- Node91&#45;&gt;Node96 -->
-<g id="edge5" class="edge"><title>Node91&#45;&gt;Node96</title>
+<!-- Node74&#45;&gt;Node79 -->
+<g id="edge5" class="edge"><title>Node74&#45;&gt;Node79</title>
 <path fill="none" stroke="midnightblue" d="M107.003,-30.5633C115.445,-29.1264 124.255,-27.6268 132.905,-26.1545"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="133.682,-29.5726 142.953,-24.4442 132.507,-22.6719 133.682,-29.5726"/>
 </g>
-<!-- Node93 -->
-<g id="node3" class="node"><title>Node93</title>
-<g id="a_node3"><a xlink:href="classobe_1_1_debug_1_1_console.html#a6457182d58e5ddfd8053529bb43345fc" target="_top" xlink:title="Push a new Message to the Console. ">
-<polygon fill="white" stroke="black" points="286,-49.5 286,-79.5 393,-79.5 393,-49.5 286,-49.5"/>
+<!-- Node76 -->
+<g id="node3" class="node"><title>Node76</title>
+<g id="a_node3"><a xlink:href="classobe_1_1_debug_1_1_console.html#a371e6e971dfd23464717aeacc5b1a2b2" target="_top" xlink:title="Push a new Message to the Console. ">
+<polygon fill="none" stroke="black" points="286,-49.5 286,-79.5 393,-79.5 393,-49.5 286,-49.5"/>
 <text text-anchor="start" x="294" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Debug::Console</text>
 <text text-anchor="middle" x="339.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::pushMessage</text>
 </a>
 </g>
 </g>
-<!-- Node92&#45;&gt;Node93 -->
-<g id="edge2" class="edge"><title>Node92&#45;&gt;Node93</title>
+<!-- Node75&#45;&gt;Node76 -->
+<g id="edge2" class="edge"><title>Node75&#45;&gt;Node76</title>
 <path fill="none" stroke="midnightblue" d="M250.003,-64.5C258.445,-64.5 267.255,-64.5 275.905,-64.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="275.953,-68.0001 285.953,-64.5 275.953,-61.0001 275.953,-68.0001"/>
 </g>
-<!-- Node94 -->
-<g id="node4" class="node"><title>Node94</title>
+<!-- Node77 -->
+<g id="node4" class="node"><title>Node77</title>
 <g id="a_node4"><a xlink:href="namespaceobe_1_1_utils_1_1_string.html#a6304ccfbd6a3bf086bd3189609381f70" target="_top" xlink:title="Count of the occurences of occur in string str. ">
-<polygon fill="white" stroke="black" points="429,-74.5 429,-104.5 535,-104.5 535,-74.5 429,-74.5"/>
+<polygon fill="none" stroke="black" points="429,-74.5 429,-104.5 535,-104.5 535,-74.5 429,-74.5"/>
 <text text-anchor="start" x="437" y="-92.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Utils::String</text>
 <text text-anchor="middle" x="482" y="-81.5" font-family="Helvetica,sans-Serif" font-size="10.00">::occurencesInString</text>
 </a>
 </g>
 </g>
-<!-- Node93&#45;&gt;Node94 -->
-<g id="edge3" class="edge"><title>Node93&#45;&gt;Node94</title>
+<!-- Node76&#45;&gt;Node77 -->
+<g id="edge3" class="edge"><title>Node76&#45;&gt;Node77</title>
 <path fill="none" stroke="midnightblue" d="M393.217,-73.8802C401.612,-75.374 410.363,-76.9312 418.95,-78.459"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="418.463,-81.9273 428.922,-80.2334 419.689,-75.0356 418.463,-81.9273"/>
 </g>
-<!-- Node95 -->
-<g id="node5" class="node"><title>Node95</title>
+<!-- Node78 -->
+<g id="node5" class="node"><title>Node78</title>
 <g id="a_node5"><a xlink:href="namespaceobe_1_1_utils_1_1_string.html#a074d624ca5936545dc32c0b5e423050d" target="_top" xlink:title="Splits a std::string using a delimited. ">
-<polygon fill="white" stroke="black" points="437.5,-25.5 437.5,-55.5 526.5,-55.5 526.5,-25.5 437.5,-25.5"/>
+<polygon fill="none" stroke="black" points="437.5,-25.5 437.5,-55.5 526.5,-55.5 526.5,-25.5 437.5,-25.5"/>
 <text text-anchor="start" x="445.5" y="-43.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Utils::String</text>
 <text text-anchor="middle" x="482" y="-32.5" font-family="Helvetica,sans-Serif" font-size="10.00">::split</text>
 </a>
 </g>
 </g>
-<!-- Node93&#45;&gt;Node95 -->
-<g id="edge4" class="edge"><title>Node93&#45;&gt;Node95</title>
+<!-- Node76&#45;&gt;Node78 -->
+<g id="edge4" class="edge"><title>Node76&#45;&gt;Node78</title>
 <path fill="none" stroke="midnightblue" d="M393.217,-55.495C404.305,-53.6009 416.017,-51.6004 427.146,-49.6992"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="427.902,-53.121 437.169,-47.9871 426.723,-46.2209 427.902,-53.121"/>
 </g>

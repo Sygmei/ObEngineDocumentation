@@ -73,68 +73,58 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="_key_bind_8hpp_source.html">KeyBind.hpp</a>&gt;</code></p>
+<p>Class that does represent a Keyboard key .  
+ <a href="classobe_1_1_input_1_1_key_class.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_key_manager_8hpp_source.html">KeyManager.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac0850bd250ced068ca538102b354d9c3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_key_class.html#ac0850bd250ced068ca538102b354d9c3">KeyClass</a> ()</td></tr>
-<tr class="separator:ac0850bd250ced068ca538102b354d9c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88d57c839b3e2b5b844fc41abae5e537"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_key_class.html#a88d57c839b3e2b5b844fc41abae5e537">KeyClass</a> (sf::Keyboard::Key key, std::string name, std::string returnChar, std::string type)</td></tr>
-<tr class="separator:a88d57c839b3e2b5b844fc41abae5e537"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fa4338e7e6c9c6857865712c28eab0a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_key_class.html#a4fa4338e7e6c9c6857865712c28eab0a">KeyClass</a> (sf::Keyboard::Key key, const std::string &amp;name, const std::string &amp;returnChar, <a class="el" href="namespaceobe_1_1_input.html#aeaa42d0a9e0c6becf0433f8447afa11d">KeyType</a> type)</td></tr>
+<tr class="memdesc:a4fa4338e7e6c9c6857865712c28eab0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new <a class="el" href="classobe_1_1_input_1_1_key_class.html" title="Class that does represent a Keyboard key . ">KeyClass</a>.  <a href="#a4fa4338e7e6c9c6857865712c28eab0a">More...</a><br /></td></tr>
+<tr class="separator:a4fa4338e7e6c9c6857865712c28eab0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a452c2130f421c349c9c8e35933aabc26"><td class="memItemLeft" align="right" valign="top">sf::Keyboard::Key&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_key_class.html#a452c2130f421c349c9c8e35933aabc26">getKey</a> () const</td></tr>
+<tr class="memdesc:a452c2130f421c349c9c8e35933aabc26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the SFML Keyboard Key.  <a href="#a452c2130f421c349c9c8e35933aabc26">More...</a><br /></td></tr>
 <tr class="separator:a452c2130f421c349c9c8e35933aabc26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a064ee25c184136f095036fb1194f03bd"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_key_class.html#a064ee25c184136f095036fb1194f03bd">getType</a> ()</td></tr>
-<tr class="separator:a064ee25c184136f095036fb1194f03bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9681de4b7b6fde151d4809832a419697"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_key_class.html#a9681de4b7b6fde151d4809832a419697">isAlpha</a> ()</td></tr>
-<tr class="separator:a9681de4b7b6fde151d4809832a419697"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4794310b8cd03f6ca4a565b13791939"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_key_class.html#ae4794310b8cd03f6ca4a565b13791939">isNumeric</a> ()</td></tr>
-<tr class="separator:ae4794310b8cd03f6ca4a565b13791939"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e1275debe7df0c964643083acaa1b78"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_key_class.html#a3e1275debe7df0c964643083acaa1b78">isNumericNP</a> ()</td></tr>
-<tr class="separator:a3e1275debe7df0c964643083acaa1b78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab371791ff4be55817c18ab61dc9e8bbf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_key_class.html#ab371791ff4be55817c18ab61dc9e8bbf">isAlphaNumeric</a> ()</td></tr>
-<tr class="separator:ab371791ff4be55817c18ab61dc9e8bbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab778105fc473f4c12e24076e743d8d86"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_key_class.html#ab778105fc473f4c12e24076e743d8d86">isArrow</a> ()</td></tr>
-<tr class="separator:ab778105fc473f4c12e24076e743d8d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3f8fbfb64d5a6526d52ca1912b8f85b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_key_class.html#aa3f8fbfb64d5a6526d52ca1912b8f85b">isFunction</a> ()</td></tr>
-<tr class="separator:aa3f8fbfb64d5a6526d52ca1912b8f85b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5e9193c960ac818280838a99b620780"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_key_class.html#ad5e9193c960ac818280838a99b620780">isOther</a> ()</td></tr>
-<tr class="separator:ad5e9193c960ac818280838a99b620780"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a343e9ada57ebd2b5f7653d219a233758"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_key_class.html#a343e9ada57ebd2b5f7653d219a233758">isWritable</a> ()</td></tr>
-<tr class="separator:a343e9ada57ebd2b5f7653d219a233758"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e578edd4cecf7125112879ebd05ca4c"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_key_class.html#a4e578edd4cecf7125112879ebd05ca4c">getName</a> () const</td></tr>
+<tr class="memdesc:a4e578edd4cecf7125112879ebd05ca4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of the Key.  <a href="#a4e578edd4cecf7125112879ebd05ca4c">More...</a><br /></td></tr>
+<tr class="separator:a4e578edd4cecf7125112879ebd05ca4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab93a60c8451779de3f394ed03d3a3540"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceobe_1_1_input.html#aeaa42d0a9e0c6becf0433f8447afa11d">KeyType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_key_class.html#ab93a60c8451779de3f394ed03d3a3540">getType</a> () const</td></tr>
+<tr class="memdesc:ab93a60c8451779de3f394ed03d3a3540"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the type of the Key (Arrows, Alpha, Numeric, NumericNP, Functions, Others)  <a href="#ab93a60c8451779de3f394ed03d3a3540">More...</a><br /></td></tr>
+<tr class="separator:ab93a60c8451779de3f394ed03d3a3540"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a111baf487007975713a38ea213a3b82e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_key_class.html#a111baf487007975713a38ea213a3b82e">isAlpha</a> () const</td></tr>
+<tr class="memdesc:a111baf487007975713a38ea213a3b82e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get if the key is a letter.  <a href="#a111baf487007975713a38ea213a3b82e">More...</a><br /></td></tr>
+<tr class="separator:a111baf487007975713a38ea213a3b82e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79ccdee963c18c9a46ca510309f15f04"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_key_class.html#a79ccdee963c18c9a46ca510309f15f04">isNumeric</a> () const</td></tr>
+<tr class="memdesc:a79ccdee963c18c9a46ca510309f15f04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get if the key is a number.  <a href="#a79ccdee963c18c9a46ca510309f15f04">More...</a><br /></td></tr>
+<tr class="separator:a79ccdee963c18c9a46ca510309f15f04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0e6972335570de125c502e97ad0b5a2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_key_class.html#ac0e6972335570de125c502e97ad0b5a2">isNumericNP</a> () const</td></tr>
+<tr class="memdesc:ac0e6972335570de125c502e97ad0b5a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get if the key is a number from the NumPad.  <a href="#ac0e6972335570de125c502e97ad0b5a2">More...</a><br /></td></tr>
+<tr class="separator:ac0e6972335570de125c502e97ad0b5a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71100bb0a8a6286fc489738fed257f93"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_key_class.html#a71100bb0a8a6286fc489738fed257f93">isAlphaNumeric</a> () const</td></tr>
+<tr class="memdesc:a71100bb0a8a6286fc489738fed257f93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get if the key is either <a class="el" href="classobe_1_1_input_1_1_key_class.html#a111baf487007975713a38ea213a3b82e" title="Get if the key is a letter. ">isAlpha()</a> or <a class="el" href="classobe_1_1_input_1_1_key_class.html#a79ccdee963c18c9a46ca510309f15f04" title="Get if the key is a number. ">isNumeric()</a>  <a href="#a71100bb0a8a6286fc489738fed257f93">More...</a><br /></td></tr>
+<tr class="separator:a71100bb0a8a6286fc489738fed257f93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a184f093c75c74bda98f2e74727d867db"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_key_class.html#a184f093c75c74bda98f2e74727d867db">isArrow</a> () const</td></tr>
+<tr class="memdesc:a184f093c75c74bda98f2e74727d867db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get if the key is an arrow key.  <a href="#a184f093c75c74bda98f2e74727d867db">More...</a><br /></td></tr>
+<tr class="separator:a184f093c75c74bda98f2e74727d867db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e5c30dbae359d4cfb8111feb1109bdc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_key_class.html#a0e5c30dbae359d4cfb8111feb1109bdc">isFunction</a> () const</td></tr>
+<tr class="memdesc:a0e5c30dbae359d4cfb8111feb1109bdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get if the key is a function key.  <a href="#a0e5c30dbae359d4cfb8111feb1109bdc">More...</a><br /></td></tr>
+<tr class="separator:a0e5c30dbae359d4cfb8111feb1109bdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0a89d0aa0d1ba0ec537d8c7471f242e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_key_class.html#af0a89d0aa0d1ba0ec537d8c7471f242e">isOther</a> () const</td></tr>
+<tr class="memdesc:af0a89d0aa0d1ba0ec537d8c7471f242e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get if the key is not any of the type above.  <a href="#af0a89d0aa0d1ba0ec537d8c7471f242e">More...</a><br /></td></tr>
+<tr class="separator:af0a89d0aa0d1ba0ec537d8c7471f242e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7eb3a524f39ad7661a07a1a5435467b4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_key_class.html#a7eb3a524f39ad7661a07a1a5435467b4">isWritable</a> () const</td></tr>
+<tr class="memdesc:a7eb3a524f39ad7661a07a1a5435467b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get if the key prints a writable character.  <a href="#a7eb3a524f39ad7661a07a1a5435467b4">More...</a><br /></td></tr>
+<tr class="separator:a7eb3a524f39ad7661a07a1a5435467b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c4d20644c9cca792c39729446d21ecf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_key_class.html#a3c4d20644c9cca792c39729446d21ecf">isPressed</a> () const</td></tr>
+<tr class="memdesc:a3c4d20644c9cca792c39729446d21ecf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get if the key is pressed.  <a href="#a3c4d20644c9cca792c39729446d21ecf">More...</a><br /></td></tr>
+<tr class="separator:a3c4d20644c9cca792c39729446d21ecf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ac0850bd250ced068ca538102b354d9c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0850bd250ced068ca538102b354d9c3">&#9670;&nbsp;</a></span>KeyClass() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">obe::Input::KeyClass::KeyClass </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_input_1_1_key_class_ac0850bd250ced068ca538102b354d9c3_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-
-</div>
-</div>
-<a id="a88d57c839b3e2b5b844fc41abae5e537"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a88d57c839b3e2b5b844fc41abae5e537">&#9670;&nbsp;</a></span>KeyClass() <span class="overload">[2/2]</span></h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Class that does represent a Keyboard key . </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a4fa4338e7e6c9c6857865712c28eab0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fa4338e7e6c9c6857865712c28eab0a">&#9670;&nbsp;</a></span>KeyClass()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -148,19 +138,19 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>name</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>returnChar</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceobe_1_1_input.html#aeaa42d0a9e0c6becf0433f8447afa11d">KeyType</a>&#160;</td>
           <td class="paramname"><em>type</em>&#160;</td>
         </tr>
         <tr>
@@ -170,6 +160,17 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Creates a new <a class="el" href="classobe_1_1_input_1_1_key_class.html" title="Class that does represent a Keyboard key . ">KeyClass</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>SFML Keyboard Key </td></tr>
+    <tr><td class="paramname">name</td><td>Name of the Key </td></tr>
+    <tr><td class="paramname">returnChar</td><td>The character printed when the key is pressed </td></tr>
+    <tr><td class="paramname">type</td><td>Type of the Key (Arrows, Alpha, Numeric, NumericNP, Functions, Others) </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -188,43 +189,72 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_input_1_1_key_class_a452c2130f421c349c9c8e35933aabc26_cgraph.svg" width="519" height="248"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+
+<p>Get the SFML Keyboard Key. </p>
+<dl class="section return"><dt>Returns</dt><dd>SFML Keyboard Key </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_input_1_1_key_class_a452c2130f421c349c9c8e35933aabc26_icgraph.svg" width="100%" height="402"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_input_1_1_key_class_a452c2130f421c349c9c8e35933aabc26_icgraph.svg" width="388" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
 </div>
-<a id="a064ee25c184136f095036fb1194f03bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a064ee25c184136f095036fb1194f03bd">&#9670;&nbsp;</a></span>getType()</h2>
+<a id="a4e578edd4cecf7125112879ebd05ca4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e578edd4cecf7125112879ebd05ca4c">&#9670;&nbsp;</a></span>getName()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string obe::Input::KeyClass::getType </td>
+          <td class="memname">std::string obe::Input::KeyClass::getName </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get the name of the Key. </p>
+<dl class="section return"><dt>Returns</dt><dd>A std::string containing the name of the Key </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_input_1_1_key_class_a064ee25c184136f095036fb1194f03bd_icgraph.svg" width="344" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_input_1_1_key_class_a4e578edd4cecf7125112879ebd05ca4c_icgraph.svg" width="388" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
 </div>
-<a id="a9681de4b7b6fde151d4809832a419697"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9681de4b7b6fde151d4809832a419697">&#9670;&nbsp;</a></span>isAlpha()</h2>
+<a id="ab93a60c8451779de3f394ed03d3a3540"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab93a60c8451779de3f394ed03d3a3540">&#9670;&nbsp;</a></span>getType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceobe_1_1_input.html#aeaa42d0a9e0c6becf0433f8447afa11d">KeyType</a> obe::Input::KeyClass::getType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the type of the Key (Arrows, Alpha, Numeric, NumericNP, Functions, Others) </p>
+<dl class="section return"><dt>Returns</dt><dd>An enum value from KeyType which is the type of the key </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_input_1_1_key_class_ab93a60c8451779de3f394ed03d3a3540_icgraph.svg" width="388" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a111baf487007975713a38ea213a3b82e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a111baf487007975713a38ea213a3b82e">&#9670;&nbsp;</a></span>isAlpha()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -233,20 +263,24 @@ Here is the caller graph for this function:</div>
           <td class="memname">bool obe::Input::KeyClass::isAlpha </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get if the key is a letter. </p>
+<dl class="section return"><dt>Returns</dt><dd>true if the key is a letter from the Alphabet (A-Z), false otherwise </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_input_1_1_key_class_a9681de4b7b6fde151d4809832a419697_icgraph.svg" width="344" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_input_1_1_key_class_a111baf487007975713a38ea213a3b82e_icgraph.svg" width="579" height="82"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
 </div>
-<a id="ab371791ff4be55817c18ab61dc9e8bbf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab371791ff4be55817c18ab61dc9e8bbf">&#9670;&nbsp;</a></span>isAlphaNumeric()</h2>
+<a id="a71100bb0a8a6286fc489738fed257f93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71100bb0a8a6286fc489738fed257f93">&#9670;&nbsp;</a></span>isAlphaNumeric()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -255,20 +289,30 @@ Here is the caller graph for this function:</div>
           <td class="memname">bool obe::Input::KeyClass::isAlphaNumeric </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get if the key is either <a class="el" href="classobe_1_1_input_1_1_key_class.html#a111baf487007975713a38ea213a3b82e" title="Get if the key is a letter. ">isAlpha()</a> or <a class="el" href="classobe_1_1_input_1_1_key_class.html#a79ccdee963c18c9a46ca510309f15f04" title="Get if the key is a number. ">isNumeric()</a> </p>
+<dl class="section return"><dt>Returns</dt><dd>true if the key is a number or a letter, false otherwise </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_input_1_1_key_class_a71100bb0a8a6286fc489738fed257f93_cgraph.svg" width="344" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_input_1_1_key_class_ab371791ff4be55817c18ab61dc9e8bbf_icgraph.svg" width="344" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_input_1_1_key_class_a71100bb0a8a6286fc489738fed257f93_icgraph.svg" width="388" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
 </div>
-<a id="ab778105fc473f4c12e24076e743d8d86"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab778105fc473f4c12e24076e743d8d86">&#9670;&nbsp;</a></span>isArrow()</h2>
+<a id="a184f093c75c74bda98f2e74727d867db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a184f093c75c74bda98f2e74727d867db">&#9670;&nbsp;</a></span>isArrow()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -277,20 +321,24 @@ Here is the caller graph for this function:</div>
           <td class="memname">bool obe::Input::KeyClass::isArrow </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get if the key is an arrow key. </p>
+<dl class="section return"><dt>Returns</dt><dd>true if the key is an arrow key, false other wise </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_input_1_1_key_class_ab778105fc473f4c12e24076e743d8d86_icgraph.svg" width="344" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_input_1_1_key_class_a184f093c75c74bda98f2e74727d867db_icgraph.svg" width="388" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
 </div>
-<a id="aa3f8fbfb64d5a6526d52ca1912b8f85b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa3f8fbfb64d5a6526d52ca1912b8f85b">&#9670;&nbsp;</a></span>isFunction()</h2>
+<a id="a0e5c30dbae359d4cfb8111feb1109bdc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e5c30dbae359d4cfb8111feb1109bdc">&#9670;&nbsp;</a></span>isFunction()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -299,20 +347,24 @@ Here is the caller graph for this function:</div>
           <td class="memname">bool obe::Input::KeyClass::isFunction </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get if the key is a function key. </p>
+<dl class="section return"><dt>Returns</dt><dd>true if the key is a function key (From F1 to F12 on most keyboards), false otherwise </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_input_1_1_key_class_aa3f8fbfb64d5a6526d52ca1912b8f85b_icgraph.svg" width="344" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_input_1_1_key_class_a0e5c30dbae359d4cfb8111feb1109bdc_icgraph.svg" width="388" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
 </div>
-<a id="ae4794310b8cd03f6ca4a565b13791939"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4794310b8cd03f6ca4a565b13791939">&#9670;&nbsp;</a></span>isNumeric()</h2>
+<a id="a79ccdee963c18c9a46ca510309f15f04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79ccdee963c18c9a46ca510309f15f04">&#9670;&nbsp;</a></span>isNumeric()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -321,20 +373,24 @@ Here is the caller graph for this function:</div>
           <td class="memname">bool obe::Input::KeyClass::isNumeric </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get if the key is a number. </p>
+<dl class="section return"><dt>Returns</dt><dd>true if the key is a number (not from the numpad), false otherwise </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_input_1_1_key_class_ae4794310b8cd03f6ca4a565b13791939_icgraph.svg" width="344" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_input_1_1_key_class_a79ccdee963c18c9a46ca510309f15f04_icgraph.svg" width="579" height="82"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
 </div>
-<a id="a3e1275debe7df0c964643083acaa1b78"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e1275debe7df0c964643083acaa1b78">&#9670;&nbsp;</a></span>isNumericNP()</h2>
+<a id="ac0e6972335570de125c502e97ad0b5a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0e6972335570de125c502e97ad0b5a2">&#9670;&nbsp;</a></span>isNumericNP()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -343,20 +399,24 @@ Here is the caller graph for this function:</div>
           <td class="memname">bool obe::Input::KeyClass::isNumericNP </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get if the key is a number from the NumPad. </p>
+<dl class="section return"><dt>Returns</dt><dd>true if the key is a number (from the numpad), false otherwise </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_input_1_1_key_class_a3e1275debe7df0c964643083acaa1b78_icgraph.svg" width="344" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_input_1_1_key_class_ac0e6972335570de125c502e97ad0b5a2_icgraph.svg" width="579" height="82"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
 </div>
-<a id="ad5e9193c960ac818280838a99b620780"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad5e9193c960ac818280838a99b620780">&#9670;&nbsp;</a></span>isOther()</h2>
+<a id="af0a89d0aa0d1ba0ec537d8c7471f242e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0a89d0aa0d1ba0ec537d8c7471f242e">&#9670;&nbsp;</a></span>isOther()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -365,20 +425,50 @@ Here is the caller graph for this function:</div>
           <td class="memname">bool obe::Input::KeyClass::isOther </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get if the key is not any of the type above. </p>
+<dl class="section return"><dt>Returns</dt><dd>true if the key is not one of the other type, false otherwise </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_input_1_1_key_class_ad5e9193c960ac818280838a99b620780_icgraph.svg" width="344" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_input_1_1_key_class_af0a89d0aa0d1ba0ec537d8c7471f242e_icgraph.svg" width="388" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
 </div>
-<a id="a343e9ada57ebd2b5f7653d219a233758"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a343e9ada57ebd2b5f7653d219a233758">&#9670;&nbsp;</a></span>isWritable()</h2>
+<a id="a3c4d20644c9cca792c39729446d21ecf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c4d20644c9cca792c39729446d21ecf">&#9670;&nbsp;</a></span>isPressed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool obe::Input::KeyClass::isPressed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get if the key is pressed. </p>
+<dl class="section return"><dt>Returns</dt><dd>true if the key is pressed, false otherwise </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_input_1_1_key_class_a3c4d20644c9cca792c39729446d21ecf_icgraph.svg" width="388" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a7eb3a524f39ad7661a07a1a5435467b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7eb3a524f39ad7661a07a1a5435467b4">&#9670;&nbsp;</a></span>isWritable()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -387,21 +477,25 @@ Here is the caller graph for this function:</div>
           <td class="memname">bool obe::Input::KeyClass::isWritable </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get if the key prints a writable character. </p>
+<dl class="section return"><dt>Returns</dt><dd>true if the key prints a writable character, false otherwise </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_input_1_1_key_class_a343e9ada57ebd2b5f7653d219a233758_icgraph.svg" width="344" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_input_1_1_key_class_a7eb3a524f39ad7661a07a1a5435467b4_icgraph.svg" width="388" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>E:/Dev/ObEngine/Git/include/Input/<a class="el" href="_key_bind_8hpp_source.html">KeyBind.hpp</a></li>
-<li>E:/Dev/ObEngine/Git/src/Input/<a class="el" href="_key_bind_8cpp.html">KeyBind.cpp</a></li>
+<li>E:/Dev/ObEngine/Git/include/Input/<a class="el" href="_key_manager_8hpp_source.html">KeyManager.hpp</a></li>
+<li>E:/Dev/ObEngine/Git/src/Input/<a class="el" href="_key_manager_8cpp.html">KeyManager.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

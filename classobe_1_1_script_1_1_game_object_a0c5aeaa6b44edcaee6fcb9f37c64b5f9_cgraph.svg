@@ -8,14 +8,14 @@
  viewBox="0.00 0.00 491.00 382.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 378)">
 <title>obe::Script::GameObject::update</title>
-<!-- Node548 -->
-<g id="node1" class="node"><title>Node548</title>
+<!-- Node528 -->
+<g id="node1" class="node"><title>Node528</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-196.5 0,-226.5 125,-226.5 125,-196.5 0,-196.5"/>
 <text text-anchor="start" x="8" y="-214.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Script::GameObject</text>
 <text text-anchor="middle" x="62.5" y="-203.5" font-family="Helvetica,sans-Serif" font-size="10.00">::update</text>
 </g>
-<!-- Node549 -->
-<g id="node2" class="node"><title>Node549</title>
+<!-- Node529 -->
+<g id="node2" class="node"><title>Node529</title>
 <g id="a_node2"><a xlink:href="classobe_1_1_triggers_1_1_trigger.html#a6df08cc4580f11813907206a3e8b8f89" target="_top" xlink:title="Get the State of the Trigger (enabled / disabled) ">
 <polygon fill="white" stroke="black" points="183,-343.5 183,-373.5 291,-373.5 291,-343.5 183,-343.5"/>
 <text text-anchor="start" x="191" y="-361.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Triggers::Trigger</text>
@@ -23,13 +23,13 @@
 </a>
 </g>
 </g>
-<!-- Node548&#45;&gt;Node549 -->
-<g id="edge1" class="edge"><title>Node548&#45;&gt;Node549</title>
+<!-- Node528&#45;&gt;Node529 -->
+<g id="edge1" class="edge"><title>Node528&#45;&gt;Node529</title>
 <path fill="none" stroke="midnightblue" d="M71.5651,-226.756C86.0348,-252.684 118.868,-305.358 161,-334.5 164.939,-337.224 169.204,-339.653 173.633,-341.815"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="172.337,-345.068 182.9,-345.888 175.154,-338.66 172.337,-345.068"/>
 </g>
-<!-- Node550 -->
-<g id="node3" class="node"><title>Node550</title>
+<!-- Node530 -->
+<g id="node3" class="node"><title>Node530</title>
 <g id="a_node3"><a xlink:href="classobe_1_1_triggers_1_1_trigger.html#ab0eb4ecf6b771aadfc966a10cd620160" target="_top" xlink:title="Get the name of the TriggerGroup which is the parent of the Trigger. ">
 <polygon fill="white" stroke="black" points="183,-294.5 183,-324.5 291,-324.5 291,-294.5 183,-294.5"/>
 <text text-anchor="start" x="191" y="-312.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Triggers::Trigger</text>
@@ -37,13 +37,13 @@
 </a>
 </g>
 </g>
-<!-- Node548&#45;&gt;Node550 -->
-<g id="edge2" class="edge"><title>Node548&#45;&gt;Node550</title>
+<!-- Node528&#45;&gt;Node530 -->
+<g id="edge2" class="edge"><title>Node528&#45;&gt;Node530</title>
 <path fill="none" stroke="midnightblue" d="M79.9082,-226.772C98.3796,-243.26 129.891,-269.325 161,-285.5 164.927,-287.542 169.06,-289.451 173.285,-291.228"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="172.047,-294.503 182.634,-294.91 174.612,-287.989 172.047,-294.503"/>
 </g>
-<!-- Node552 -->
-<g id="node5" class="node"><title>Node552</title>
+<!-- Node532 -->
+<g id="node5" class="node"><title>Node532</title>
 <g id="a_node5"><a xlink:href="classobe_1_1_triggers_1_1_trigger.html#a5649d751353ffb6fd27051f7f21eee6e" target="_top" xlink:title="Get the name of the namespace of the parent (TriggerGroup) of the Trigger. ">
 <polygon fill="white" stroke="black" points="183,-245.5 183,-275.5 291,-275.5 291,-245.5 183,-245.5"/>
 <text text-anchor="start" x="191" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Triggers::Trigger</text>
@@ -51,13 +51,13 @@
 </a>
 </g>
 </g>
-<!-- Node548&#45;&gt;Node552 -->
-<g id="edge4" class="edge"><title>Node548&#45;&gt;Node552</title>
+<!-- Node528&#45;&gt;Node532 -->
+<g id="edge4" class="edge"><title>Node528&#45;&gt;Node532</title>
 <path fill="none" stroke="midnightblue" d="M116.663,-226.601C134.537,-231.679 154.644,-237.39 173.188,-242.658"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="172.436,-246.083 183.012,-245.448 174.349,-239.349 172.436,-246.083"/>
 </g>
-<!-- Node554 -->
-<g id="node7" class="node"><title>Node554</title>
+<!-- Node534 -->
+<g id="node7" class="node"><title>Node534</title>
 <g id="a_node7"><a xlink:href="classobe_1_1_triggers_1_1_trigger.html#a3cdb098a8deaad57347ea516a8532196" target="_top" xlink:title="Get the name of the Trigger. ">
 <polygon fill="white" stroke="black" points="183,-196.5 183,-226.5 291,-226.5 291,-196.5 183,-196.5"/>
 <text text-anchor="start" x="191" y="-214.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Triggers::Trigger</text>
@@ -65,26 +65,26 @@
 </a>
 </g>
 </g>
-<!-- Node548&#45;&gt;Node554 -->
-<g id="edge6" class="edge"><title>Node548&#45;&gt;Node554</title>
+<!-- Node528&#45;&gt;Node534 -->
+<g id="edge6" class="edge"><title>Node528&#45;&gt;Node534</title>
 <path fill="none" stroke="midnightblue" d="M125.289,-211.5C140.753,-211.5 157.361,-211.5 172.888,-211.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="172.913,-215 182.913,-211.5 172.913,-208 172.913,-215"/>
 </g>
-<!-- Node555 -->
-<g id="node8" class="node"><title>Node555</title>
+<!-- Node535 -->
+<g id="node8" class="node"><title>Node535</title>
 <g id="a_node8"><a xlink:href="namespaceobe_1_1_triggers.html#ad644751e65399b1b8524982ce6f86e6e" target="_top" xlink:title="Injects the parameter contained in a Trigger to a Lua VM. ">
 <polygon fill="white" stroke="black" points="161,-158 161,-177 313,-177 313,-158 161,-158"/>
 <text text-anchor="middle" x="237" y="-165" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Triggers::injectParameters</text>
 </a>
 </g>
 </g>
-<!-- Node548&#45;&gt;Node555 -->
-<g id="edge7" class="edge"><title>Node548&#45;&gt;Node555</title>
+<!-- Node528&#45;&gt;Node535 -->
+<g id="edge7" class="edge"><title>Node528&#45;&gt;Node535</title>
 <path fill="none" stroke="midnightblue" d="M122.011,-196.468C134.855,-193.176 148.385,-189.715 161,-186.5 169.89,-184.234 179.374,-181.825 188.503,-179.51"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="189.391,-182.896 198.225,-177.047 187.672,-176.111 189.391,-182.896"/>
 </g>
-<!-- Node557 -->
-<g id="node10" class="node"><title>Node557</title>
+<!-- Node537 -->
+<g id="node10" class="node"><title>Node537</title>
 <g id="a_node10"><a xlink:href="classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b" target="_top" xlink:title="aube::ErrorHandler\l::Raise">
 <polygon fill="white" stroke="black" points="188,-103.5 188,-133.5 286,-133.5 286,-103.5 188,-103.5"/>
 <text text-anchor="start" x="196" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorHandler</text>
@@ -92,13 +92,13 @@
 </a>
 </g>
 </g>
-<!-- Node548&#45;&gt;Node557 -->
-<g id="edge9" class="edge"><title>Node548&#45;&gt;Node557</title>
+<!-- Node528&#45;&gt;Node537 -->
+<g id="edge9" class="edge"><title>Node528&#45;&gt;Node537</title>
 <path fill="none" stroke="midnightblue" d="M84.4701,-196.253C103.747,-182.655 133.43,-162.752 161,-148.5 168.521,-144.612 176.667,-140.889 184.723,-137.47"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="186.187,-140.653 194.097,-133.604 183.518,-134.181 186.187,-140.653"/>
 </g>
-<!-- Node562 -->
-<g id="node15" class="node"><title>Node562</title>
+<!-- Node542 -->
+<g id="node15" class="node"><title>Node542</title>
 <g id="a_node15"><a xlink:href="classobe_1_1_graphics_1_1_level_sprite.html#a97642713990e0f82c06a8343493a463a" target="_top" xlink:title="obe::Graphics::LevelSprite\l::setTexture">
 <polygon fill="white" stroke="black" points="171.5,-54.5 171.5,-84.5 302.5,-84.5 302.5,-54.5 171.5,-54.5"/>
 <text text-anchor="start" x="179.5" y="-72.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Graphics::LevelSprite</text>
@@ -106,13 +106,13 @@
 </a>
 </g>
 </g>
-<!-- Node548&#45;&gt;Node562 -->
-<g id="edge14" class="edge"><title>Node548&#45;&gt;Node562</title>
+<!-- Node528&#45;&gt;Node542 -->
+<g id="edge14" class="edge"><title>Node528&#45;&gt;Node542</title>
 <path fill="none" stroke="midnightblue" d="M71.9616,-196.474C86.7903,-171.477 119.845,-121.353 161,-93.5 163.388,-91.8837 165.892,-90.3708 168.476,-88.9552"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="170.091,-92.0615 177.521,-84.5086 167.003,-85.7796 170.091,-92.0615"/>
 </g>
-<!-- Node551 -->
-<g id="node4" class="node"><title>Node551</title>
+<!-- Node531 -->
+<g id="node4" class="node"><title>Node531</title>
 <g id="a_node4"><a xlink:href="classobe_1_1_triggers_1_1_trigger_group.html#afd615ae94ece6e7d978aab0ae9de80f8" target="_top" xlink:title="Get the name of the TriggerGroup. ">
 <polygon fill="white" stroke="black" points="349,-294.5 349,-324.5 483,-324.5 483,-294.5 349,-294.5"/>
 <text text-anchor="start" x="357" y="-312.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Triggers::TriggerGroup</text>
@@ -120,13 +120,13 @@
 </a>
 </g>
 </g>
-<!-- Node550&#45;&gt;Node551 -->
-<g id="edge3" class="edge"><title>Node550&#45;&gt;Node551</title>
+<!-- Node530&#45;&gt;Node531 -->
+<g id="edge3" class="edge"><title>Node530&#45;&gt;Node531</title>
 <path fill="none" stroke="midnightblue" d="M291.106,-309.5C305.974,-309.5 322.439,-309.5 338.38,-309.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="338.757,-313 348.757,-309.5 338.757,-306 338.757,-313"/>
 </g>
-<!-- Node553 -->
-<g id="node6" class="node"><title>Node553</title>
+<!-- Node533 -->
+<g id="node6" class="node"><title>Node533</title>
 <g id="a_node6"><a xlink:href="classobe_1_1_triggers_1_1_trigger_group.html#a4444bdd3126c3cee2c09f5f20f799256" target="_top" xlink:title="Get the name of the namespace the Trigger is in. ">
 <polygon fill="white" stroke="black" points="349,-245.5 349,-275.5 483,-275.5 483,-245.5 349,-245.5"/>
 <text text-anchor="start" x="357" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Triggers::TriggerGroup</text>
@@ -134,13 +134,13 @@
 </a>
 </g>
 </g>
-<!-- Node552&#45;&gt;Node553 -->
-<g id="edge5" class="edge"><title>Node552&#45;&gt;Node553</title>
+<!-- Node532&#45;&gt;Node533 -->
+<g id="edge5" class="edge"><title>Node532&#45;&gt;Node533</title>
 <path fill="none" stroke="midnightblue" d="M291.106,-260.5C305.974,-260.5 322.439,-260.5 338.38,-260.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="338.757,-264 348.757,-260.5 338.757,-257 338.757,-264"/>
 </g>
-<!-- Node556 -->
-<g id="node9" class="node"><title>Node556</title>
+<!-- Node536 -->
+<g id="node9" class="node"><title>Node536</title>
 <g id="a_node9"><a xlink:href="classobe_1_1_triggers_1_1_trigger.html#a521e3798f95afc3ccaffbd24caa2ebe4" target="_top" xlink:title="obe::Triggers::Trigger\l::getParameters">
 <polygon fill="white" stroke="black" points="362,-196.5 362,-226.5 470,-226.5 470,-196.5 362,-196.5"/>
 <text text-anchor="start" x="370" y="-214.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Triggers::Trigger</text>
@@ -148,13 +148,13 @@
 </a>
 </g>
 </g>
-<!-- Node555&#45;&gt;Node556 -->
-<g id="edge8" class="edge"><title>Node555&#45;&gt;Node556</title>
+<!-- Node535&#45;&gt;Node536 -->
+<g id="edge8" class="edge"><title>Node535&#45;&gt;Node536</title>
 <path fill="none" stroke="midnightblue" d="M276.406,-177.047C298.487,-182.536 326.771,-189.567 352.024,-195.845"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="351.349,-199.284 361.898,-198.299 353.038,-192.49 351.349,-199.284"/>
 </g>
-<!-- Node558 -->
-<g id="node11" class="node"><title>Node558</title>
+<!-- Node538 -->
+<g id="node11" class="node"><title>Node538</title>
 <g id="a_node11"><a xlink:href="classaube_1_1_error_message.html#a3a39b6fcd8fdb12eaf6383123535b8ca" target="_top" xlink:title="aube::ErrorMessage\l::getFile">
 <polygon fill="white" stroke="black" points="364,-147.5 364,-177.5 468,-177.5 468,-147.5 364,-147.5"/>
 <text text-anchor="start" x="372" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
@@ -162,13 +162,13 @@
 </a>
 </g>
 </g>
-<!-- Node557&#45;&gt;Node558 -->
-<g id="edge10" class="edge"><title>Node557&#45;&gt;Node558</title>
+<!-- Node537&#45;&gt;Node538 -->
+<g id="edge10" class="edge"><title>Node537&#45;&gt;Node538</title>
 <path fill="none" stroke="midnightblue" d="M286.366,-130.523C307.225,-135.709 331.858,-141.832 353.956,-147.325"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="353.359,-150.783 363.908,-149.799 355.048,-143.99 353.359,-150.783"/>
 </g>
-<!-- Node559 -->
-<g id="node12" class="node"><title>Node559</title>
+<!-- Node539 -->
+<g id="node12" class="node"><title>Node539</title>
 <g id="a_node12"><a xlink:href="classaube_1_1_error_message.html#a9184cc96589578f434351c105b0cd5f7" target="_top" xlink:title="aube::ErrorMessage\l::getLocation">
 <polygon fill="white" stroke="black" points="364,-98.5 364,-128.5 468,-128.5 468,-98.5 364,-98.5"/>
 <text text-anchor="start" x="372" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
@@ -176,13 +176,13 @@
 </a>
 </g>
 </g>
-<!-- Node557&#45;&gt;Node559 -->
-<g id="edge11" class="edge"><title>Node557&#45;&gt;Node559</title>
+<!-- Node537&#45;&gt;Node539 -->
+<g id="edge11" class="edge"><title>Node537&#45;&gt;Node539</title>
 <path fill="none" stroke="midnightblue" d="M286.366,-117.134C307.131,-116.547 331.636,-115.855 353.657,-115.233"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="354.011,-118.724 363.908,-114.943 353.813,-111.727 354.011,-118.724"/>
 </g>
-<!-- Node560 -->
-<g id="node13" class="node"><title>Node560</title>
+<!-- Node540 -->
+<g id="node13" class="node"><title>Node540</title>
 <g id="a_node13"><a xlink:href="classaube_1_1_error_message.html#a07927cb3e2d0712c459cc9e2b5f52696" target="_top" xlink:title="aube::ErrorMessage\l::getMessage">
 <polygon fill="white" stroke="black" points="364,-49.5 364,-79.5 468,-79.5 468,-49.5 364,-49.5"/>
 <text text-anchor="start" x="372" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
@@ -190,13 +190,13 @@
 </a>
 </g>
 </g>
-<!-- Node557&#45;&gt;Node560 -->
-<g id="edge12" class="edge"><title>Node557&#45;&gt;Node560</title>
+<!-- Node537&#45;&gt;Node540 -->
+<g id="edge12" class="edge"><title>Node537&#45;&gt;Node540</title>
 <path fill="none" stroke="midnightblue" d="M286.366,-103.744C307.854,-97.1886 333.347,-89.4111 355.948,-82.5159"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="357.226,-85.7854 365.769,-79.5196 355.183,-79.0901 357.226,-85.7854"/>
 </g>
-<!-- Node561 -->
-<g id="node14" class="node"><title>Node561</title>
+<!-- Node541 -->
+<g id="node14" class="node"><title>Node541</title>
 <g id="a_node14"><a xlink:href="classaube_1_1_error_message.html#a77c2f9b7e93542c958173b52da267989" target="_top" xlink:title="aube::ErrorMessage\l::getHints">
 <polygon fill="white" stroke="black" points="364,-0.5 364,-30.5 468,-30.5 468,-0.5 364,-0.5"/>
 <text text-anchor="start" x="372" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
@@ -204,8 +204,8 @@
 </a>
 </g>
 </g>
-<!-- Node557&#45;&gt;Node561 -->
-<g id="edge13" class="edge"><title>Node557&#45;&gt;Node561</title>
+<!-- Node537&#45;&gt;Node541 -->
+<g id="edge13" class="edge"><title>Node537&#45;&gt;Node541</title>
 <path fill="none" stroke="midnightblue" d="M286.368,-107.617C295.778,-104.1 305.147,-99.4984 313,-93.5 335.923,-75.9916 326.316,-57.3165 349,-39.5 350.831,-38.0621 352.756,-36.7051 354.75,-35.4251"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="356.871,-38.2479 363.868,-30.2926 353.437,-32.1479 356.871,-38.2479"/>
 </g>

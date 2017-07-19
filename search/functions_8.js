@@ -1,8 +1,7 @@
 var searchData=
 [
   ['handlecommand',['handleCommand',['../classobe_1_1_debug_1_1_console.html#a2afb2eb73b15e82c0b5facddbc30a686',1,'obe::Debug::Console']]],
-  ['handlepoint',['HandlePoint',['../classobe_1_1_graphics_1_1_level_sprite_1_1_handle_point.html#ad2726cbfeb58cdbce36f43e756456914',1,'obe::Graphics::LevelSprite::HandlePoint']]],
-  ['handletriggers',['handleTriggers',['../classobe_1_1_input_1_1_key_binder.html#a462fa05e33c310cbc05c5e303b70d56f',1,'obe::Input::KeyBinder::handleTriggers()'],['../classobe_1_1_network_1_1_network_handler.html#a2614539df148bb0fb53c77b728394dff',1,'obe::Network::NetworkHandler::handleTriggers()'],['../classobe_1_1_system_1_1_cursor.html#a3c1d2d899a2186435cdff92e31d50f1c',1,'obe::System::Cursor::handleTriggers()']]],
+  ['handletriggers',['handleTriggers',['../classobe_1_1_input_1_1_keyboard_manager.html#a13c207794c0b29ce97ad0b5108a0dc8e',1,'obe::Input::KeyboardManager::handleTriggers()'],['../classobe_1_1_network_1_1_network_handler.html#a2614539df148bb0fb53c77b728394dff',1,'obe::Network::NetworkHandler::handleTriggers()'],['../classobe_1_1_system_1_1_cursor.html#a3c1d2d899a2186435cdff92e31d50f1c',1,'obe::System::Cursor::handleTriggers()']]],
   ['hascache',['hasCache',['../classvili_1_1_node_iterator.html#a073161b75ad467b4d55bf3eff7da95c6',1,'vili::NodeIterator']]],
   ['hasflag',['hasFlag',['../classvili_1_1_data_parser.html#abfcc0922f314930726cfc0a9b6bb401a',1,'vili::DataParser']]],
   ['hasmasterpoint',['hasMasterPoint',['../classobe_1_1_collision_1_1_polygonal_collider.html#a7039fec00f5c7ecb09115035901a8fb9',1,'obe::Collision::PolygonalCollider']]],

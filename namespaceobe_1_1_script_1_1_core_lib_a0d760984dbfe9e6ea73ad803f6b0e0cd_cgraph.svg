@@ -8,27 +8,27 @@
  viewBox="0.00 0.00 263.00 322.50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 318.5)">
 <title>obe::Script::CoreLib::loadSelectable</title>
-<!-- Node877 -->
-<g id="node1" class="node"><title>Node877</title>
+<!-- Node804 -->
+<g id="node1" class="node"><title>Node804</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-147.5 0,-177.5 103,-177.5 103,-147.5 0,-147.5"/>
 <text text-anchor="start" x="8" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Script::CoreLib</text>
 <text text-anchor="middle" x="51.5" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00">::loadSelectable</text>
 </g>
-<!-- Node878 -->
-<g id="node2" class="node"><title>Node878</title>
+<!-- Node805 -->
+<g id="node2" class="node"><title>Node805</title>
 <g id="a_node2"><a xlink:href="namespaceobe_1_1_script.html#a9582bae7b61bf604c2a68a8a016356ec" target="_top" xlink:title="obe::Script::registerLib">
 <polygon fill="white" stroke="black" points="139.5,-295 139.5,-314 254.5,-314 254.5,-295 139.5,-295"/>
 <text text-anchor="middle" x="197" y="-302" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Script::registerLib</text>
 </a>
 </g>
 </g>
-<!-- Node877&#45;&gt;Node878 -->
-<g id="edge1" class="edge"><title>Node877&#45;&gt;Node878</title>
+<!-- Node804&#45;&gt;Node805 -->
+<g id="edge1" class="edge"><title>Node804&#45;&gt;Node805</title>
 <path fill="none" stroke="midnightblue" d="M59.2334,-177.722C71.4339,-203.598 99.6285,-256.197 139,-285.5 141.513,-287.37 144.221,-289.063 147.043,-290.595"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="145.809,-293.881 156.349,-294.956 148.779,-287.543 145.809,-293.881"/>
 </g>
-<!-- Node879 -->
-<g id="node3" class="node"><title>Node879</title>
+<!-- Node806 -->
+<g id="node3" class="node"><title>Node806</title>
 <g id="a_node3"><a xlink:href="namespaceobe_1_1_utils_1_1_vector.html#a964ff22524706c50e054f29d98b8ba6d" target="_top" xlink:title="Join all elements of a std::string into a std::string using a separator. ">
 <polygon fill="white" stroke="black" points="151,-245.5 151,-275.5 243,-275.5 243,-245.5 151,-245.5"/>
 <text text-anchor="start" x="159" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Utils::Vector</text>
@@ -36,13 +36,13 @@
 </a>
 </g>
 </g>
-<!-- Node877&#45;&gt;Node879 -->
-<g id="edge2" class="edge"><title>Node877&#45;&gt;Node879</title>
+<!-- Node804&#45;&gt;Node806 -->
+<g id="edge2" class="edge"><title>Node804&#45;&gt;Node806</title>
 <path fill="none" stroke="midnightblue" d="M67.2996,-177.705C83.6782,-193.893 111.421,-219.474 139,-236.5 141.441,-238.007 143.994,-239.461 146.608,-240.856"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="145.148,-244.04 155.66,-245.368 148.271,-237.775 145.148,-244.04"/>
 </g>
-<!-- Node880 -->
-<g id="node4" class="node"><title>Node880</title>
+<!-- Node807 -->
+<g id="node4" class="node"><title>Node807</title>
 <g id="a_node4"><a xlink:href="classobe_1_1_types_1_1_selectable.html#a6509bfcbf860ab53ab88ff4633ca1512" target="_top" xlink:title="Set the state of the Selectable. ">
 <polygon fill="white" stroke="black" points="139,-196.5 139,-226.5 255,-226.5 255,-196.5 139,-196.5"/>
 <text text-anchor="start" x="147" y="-214.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Types::Selectable</text>
@@ -50,13 +50,13 @@
 </a>
 </g>
 </g>
-<!-- Node877&#45;&gt;Node880 -->
-<g id="edge3" class="edge"><title>Node877&#45;&gt;Node880</title>
+<!-- Node804&#45;&gt;Node807 -->
+<g id="edge3" class="edge"><title>Node804&#45;&gt;Node807</title>
 <path fill="none" stroke="midnightblue" d="M96.7256,-177.601C111.047,-182.492 127.093,-187.971 142.039,-193.074"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="141.079,-196.445 151.673,-196.364 143.341,-189.82 141.079,-196.445"/>
 </g>
-<!-- Node881 -->
-<g id="node5" class="node"><title>Node881</title>
+<!-- Node808 -->
+<g id="node5" class="node"><title>Node808</title>
 <g id="a_node5"><a xlink:href="classobe_1_1_types_1_1_selectable.html#ae151bd12d316aaaf340ac8cc0ace5332" target="_top" xlink:title="Selectable unselects if it was selected and selects if it wasn&#39;t. ">
 <polygon fill="white" stroke="black" points="139,-147.5 139,-177.5 255,-177.5 255,-147.5 139,-147.5"/>
 <text text-anchor="start" x="147" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Types::Selectable</text>
@@ -64,13 +64,13 @@
 </a>
 </g>
 </g>
-<!-- Node877&#45;&gt;Node881 -->
-<g id="edge4" class="edge"><title>Node877&#45;&gt;Node881</title>
+<!-- Node804&#45;&gt;Node808 -->
+<g id="edge4" class="edge"><title>Node804&#45;&gt;Node808</title>
 <path fill="none" stroke="midnightblue" d="M103.093,-162.5C111.239,-162.5 119.785,-162.5 128.256,-162.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="128.52,-166 138.52,-162.5 128.52,-159 128.52,-166"/>
 </g>
-<!-- Node882 -->
-<g id="node6" class="node"><title>Node882</title>
+<!-- Node809 -->
+<g id="node6" class="node"><title>Node809</title>
 <g id="a_node6"><a xlink:href="classobe_1_1_types_1_1_selectable.html#a31c0468af5671e587843023e6b3a8aae" target="_top" xlink:title="Selects the Selectable. ">
 <polygon fill="white" stroke="black" points="139,-98.5 139,-128.5 255,-128.5 255,-98.5 139,-98.5"/>
 <text text-anchor="start" x="147" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Types::Selectable</text>
@@ -78,13 +78,13 @@
 </a>
 </g>
 </g>
-<!-- Node877&#45;&gt;Node882 -->
-<g id="edge5" class="edge"><title>Node877&#45;&gt;Node882</title>
+<!-- Node804&#45;&gt;Node809 -->
+<g id="edge5" class="edge"><title>Node804&#45;&gt;Node809</title>
 <path fill="none" stroke="midnightblue" d="M96.7256,-147.399C111.047,-142.508 127.093,-137.029 142.039,-131.926"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="143.341,-135.18 151.673,-128.636 141.079,-128.555 143.341,-135.18"/>
 </g>
-<!-- Node883 -->
-<g id="node7" class="node"><title>Node883</title>
+<!-- Node810 -->
+<g id="node7" class="node"><title>Node810</title>
 <g id="a_node7"><a xlink:href="classobe_1_1_types_1_1_selectable.html#aeba113ee09952ced0b365c00efd22cd6" target="_top" xlink:title="Unselect the Selectable. ">
 <polygon fill="white" stroke="black" points="139,-49.5 139,-79.5 255,-79.5 255,-49.5 139,-49.5"/>
 <text text-anchor="start" x="147" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Types::Selectable</text>
@@ -92,13 +92,13 @@
 </a>
 </g>
 </g>
-<!-- Node877&#45;&gt;Node883 -->
-<g id="edge6" class="edge"><title>Node877&#45;&gt;Node883</title>
+<!-- Node804&#45;&gt;Node810 -->
+<g id="edge6" class="edge"><title>Node804&#45;&gt;Node810</title>
 <path fill="none" stroke="midnightblue" d="M67.6893,-147.303C84.1794,-131.4 111.814,-106.437 139,-89.5 141.979,-87.6439 145.12,-85.8564 148.334,-84.1498"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="150.128,-87.1659 157.509,-79.5652 147,-80.904 150.128,-87.1659"/>
 </g>
-<!-- Node884 -->
-<g id="node8" class="node"><title>Node884</title>
+<!-- Node811 -->
+<g id="node8" class="node"><title>Node811</title>
 <g id="a_node8"><a xlink:href="classobe_1_1_types_1_1_selectable.html#a0b6c76b676f1f18e6bddd0f1c9c999dd" target="_top" xlink:title="Get if the Selectable is selected or not. ">
 <polygon fill="white" stroke="black" points="139,-0.5 139,-30.5 255,-30.5 255,-0.5 139,-0.5"/>
 <text text-anchor="start" x="147" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Types::Selectable</text>
@@ -106,8 +106,8 @@
 </a>
 </g>
 </g>
-<!-- Node877&#45;&gt;Node884 -->
-<g id="edge7" class="edge"><title>Node877&#45;&gt;Node884</title>
+<!-- Node804&#45;&gt;Node811 -->
+<g id="edge7" class="edge"><title>Node804&#45;&gt;Node811</title>
 <path fill="none" stroke="midnightblue" d="M59.761,-147.373C72.5543,-122.13 101.359,-71.1688 139,-40.5 141.016,-38.8576 143.156,-37.3031 145.38,-35.8344"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="147.443,-38.6816 154.284,-30.5912 143.891,-32.6497 147.443,-38.6816"/>
 </g>

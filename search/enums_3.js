@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['mousebutton',['MouseButton',['../namespaceobe_1_1_system.html#a284005a7c85e73aa19aec65cdfd34a7d',1,'obe::System']]]
+  ['keystate',['KeyState',['../namespaceobe_1_1_input.html#ac924156641ea19ff38153a5ddb8c10e6',1,'obe::Input']]],
+  ['keytype',['KeyType',['../namespaceobe_1_1_input.html#aeaa42d0a9e0c6becf0433f8447afa11d',1,'obe::Input']]]
 ];

@@ -8,14 +8,14 @@
  viewBox="0.00 0.00 999.00 565.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 561)">
 <title>obe::Script::GameObjectRequires::getRequiresForObjectType</title>
-<!-- Node49 -->
-<g id="node1" class="node"><title>Node49</title>
+<!-- Node50 -->
+<g id="node1" class="node"><title>Node50</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-345.5 0,-375.5 163,-375.5 163,-345.5 0,-345.5"/>
 <text text-anchor="start" x="8" y="-363.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Script::GameObjectRequires</text>
 <text text-anchor="middle" x="81.5" y="-352.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getRequiresForObjectType</text>
 </g>
-<!-- Node50 -->
-<g id="node2" class="node"><title>Node50</title>
+<!-- Node51 -->
+<g id="node2" class="node"><title>Node51</title>
 <g id="a_node2"><a xlink:href="namespaceobe_1_1_utils_1_1_vector.html#a636b7f465d67c2bf42a297f221af9cfe" target="_top" xlink:title="Check if a given item is in the given std::vector. ">
 <polygon fill="white" stroke="black" points="213,-526.5 213,-556.5 305,-556.5 305,-526.5 213,-526.5"/>
 <text text-anchor="start" x="221" y="-544.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Utils::Vector</text>
@@ -23,13 +23,13 @@
 </a>
 </g>
 </g>
-<!-- Node49&#45;&gt;Node50 -->
-<g id="edge1" class="edge"><title>Node49&#45;&gt;Node50</title>
+<!-- Node50&#45;&gt;Node51 -->
+<g id="edge1" class="edge"><title>Node50&#45;&gt;Node51</title>
 <path fill="none" stroke="midnightblue" d="M90.0339,-375.614C106.063,-406.366 146.42,-476.745 199,-517.5 200.775,-518.876 202.64,-520.185 204.57,-521.428"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="202.946,-524.532 213.362,-526.469 206.427,-518.459 202.946,-524.532"/>
 </g>
-<!-- Node51 -->
-<g id="node3" class="node"><title>Node51</title>
+<!-- Node52 -->
+<g id="node3" class="node"><title>Node52</title>
 <g id="a_node3"><a xlink:href="classvili_1_1_complex_attribute.html#a6225afe489577c1e02e21c6a31387a1a" target="_top" xlink:title="vili::ComplexAttribute\l::getAll">
 <polygon fill="white" stroke="black" points="205,-477.5 205,-507.5 313,-507.5 313,-477.5 205,-477.5"/>
 <text text-anchor="start" x="213" y="-495.5" font-family="Helvetica,sans-Serif" font-size="10.00">vili::ComplexAttribute</text>
@@ -37,26 +37,26 @@
 </a>
 </g>
 </g>
-<!-- Node49&#45;&gt;Node51 -->
-<g id="edge2" class="edge"><title>Node49&#45;&gt;Node51</title>
+<!-- Node50&#45;&gt;Node52 -->
+<g id="edge2" class="edge"><title>Node50&#45;&gt;Node52</title>
 <path fill="none" stroke="midnightblue" d="M95.8763,-375.744C116.272,-398.249 157.202,-440.599 199,-467.5 201.942,-469.394 205.052,-471.199 208.244,-472.91"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="206.876,-476.139 217.386,-477.475 210.003,-469.876 206.876,-476.139"/>
 </g>
-<!-- Node52 -->
-<g id="node4" class="node"><title>Node52</title>
+<!-- Node53 -->
+<g id="node4" class="node"><title>Node53</title>
 <g id="a_node4"><a xlink:href="classobe_1_1_system_1_1_path.html#ab3b53b3bb2e98d5e23c35692a52eb66c" target="_top" xlink:title="Returns a new Path which is the current one concatened with the given string. ">
 <polygon fill="white" stroke="black" points="199,-439 199,-458 319,-458 319,-439 199,-439"/>
 <text text-anchor="middle" x="259" y="-446" font-family="Helvetica,sans-Serif" font-size="10.00">obe::System::Path::add</text>
 </a>
 </g>
 </g>
-<!-- Node49&#45;&gt;Node52 -->
-<g id="edge3" class="edge"><title>Node49&#45;&gt;Node52</title>
+<!-- Node50&#45;&gt;Node53 -->
+<g id="edge3" class="edge"><title>Node50&#45;&gt;Node53</title>
 <path fill="none" stroke="midnightblue" d="M104.466,-375.534C127.31,-390.675 164.492,-413.96 199,-429.5 203.783,-431.654 208.884,-433.677 214.009,-435.54"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="213.22,-438.97 223.815,-438.919 215.501,-432.352 213.22,-438.97"/>
 </g>
-<!-- Node54 -->
-<g id="node6" class="node"><title>Node54</title>
+<!-- Node55 -->
+<g id="node6" class="node"><title>Node55</title>
 <g id="a_node6"><a xlink:href="classobe_1_1_system_1_1_path.html#a096ad4fa7397aa42fd73661b08f50e2a" target="_top" xlink:title="obe::System::Path::\lloadResource">
 <polygon fill="white" stroke="black" points="207,-389.5 207,-419.5 311,-419.5 311,-389.5 207,-389.5"/>
 <text text-anchor="start" x="215" y="-407.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::System::Path::</text>
@@ -64,13 +64,13 @@
 </a>
 </g>
 </g>
-<!-- Node49&#45;&gt;Node54 -->
-<g id="edge5" class="edge"><title>Node49&#45;&gt;Node54</title>
+<!-- Node50&#45;&gt;Node55 -->
+<g id="edge5" class="edge"><title>Node50&#45;&gt;Node55</title>
 <path fill="none" stroke="midnightblue" d="M142.406,-375.519C159.921,-379.91 179.087,-384.715 196.687,-389.128"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="196.294,-392.638 206.845,-391.675 197.996,-385.848 196.294,-392.638"/>
 </g>
-<!-- Node61 -->
-<g id="node13" class="node"><title>Node61</title>
+<!-- Node62 -->
+<g id="node13" class="node"><title>Node62</title>
 <g id="a_node13"><a xlink:href="classvili_1_1_complex_attribute.html#a079cdf7cb1a71858137ad16b1d48a174" target="_top" xlink:title="vili::ComplexAttribute\l::contains">
 <polygon fill="white" stroke="black" points="205,-98.5 205,-128.5 313,-128.5 313,-98.5 205,-98.5"/>
 <text text-anchor="start" x="213" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">vili::ComplexAttribute</text>
@@ -78,26 +78,26 @@
 </a>
 </g>
 </g>
-<!-- Node49&#45;&gt;Node61 -->
-<g id="edge12" class="edge"><title>Node49&#45;&gt;Node61</title>
+<!-- Node50&#45;&gt;Node62 -->
+<g id="edge12" class="edge"><title>Node50&#45;&gt;Node62</title>
 <path fill="none" stroke="midnightblue" d="M86.4771,-345.23C97.5566,-305.542 132.422,-198.03 199,-137.5 200.294,-136.324 201.653,-135.201 203.064,-134.13"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="205.163,-136.94 211.628,-128.546 201.34,-131.076 205.163,-136.94"/>
 </g>
-<!-- Node62 -->
-<g id="node14" class="node"><title>Node62</title>
+<!-- Node63 -->
+<g id="node14" class="node"><title>Node63</title>
 <g id="a_node14"><a xlink:href="classvili_1_1_data_parser.html#ac2744d454c122cb1adff342be588bc8d" target="_top" xlink:title="vili::DataParser::at">
 <polygon fill="white" stroke="black" points="211,-24 211,-43 307,-43 307,-24 211,-24"/>
 <text text-anchor="middle" x="259" y="-31" font-family="Helvetica,sans-Serif" font-size="10.00">vili::DataParser::at</text>
 </a>
 </g>
 </g>
-<!-- Node49&#45;&gt;Node62 -->
-<g id="edge13" class="edge"><title>Node49&#45;&gt;Node62</title>
+<!-- Node50&#45;&gt;Node63 -->
+<g id="edge13" class="edge"><title>Node50&#45;&gt;Node63</title>
 <path fill="none" stroke="midnightblue" d="M86.5962,-345.245C98.6831,-302.048 137.267,-176.344 199,-88.5 209.467,-73.6056 224.518,-59.6553 236.798,-49.5311"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="239.136,-52.1434 244.767,-43.1687 234.768,-46.6731 239.136,-52.1434"/>
 </g>
-<!-- Node64 -->
-<g id="node16" class="node"><title>Node64</title>
+<!-- Node65 -->
+<g id="node16" class="node"><title>Node65</title>
 <g id="a_node16"><a xlink:href="classvili_1_1_complex_attribute.html#adb309539a0f8cb36240339f14e3e2f25" target="_top" xlink:title="vili::ComplexAttribute\l::extractElement">
 <polygon fill="white" stroke="black" points="205,-214.5 205,-244.5 313,-244.5 313,-214.5 205,-214.5"/>
 <text text-anchor="start" x="213" y="-232.5" font-family="Helvetica,sans-Serif" font-size="10.00">vili::ComplexAttribute</text>
@@ -105,26 +105,26 @@
 </a>
 </g>
 </g>
-<!-- Node49&#45;&gt;Node64 -->
-<g id="edge15" class="edge"><title>Node49&#45;&gt;Node64</title>
+<!-- Node50&#45;&gt;Node65 -->
+<g id="edge15" class="edge"><title>Node50&#45;&gt;Node65</title>
 <path fill="none" stroke="midnightblue" d="M102.632,-345.473C133.89,-322.141 194.191,-277.129 229.778,-250.566"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="231.913,-253.34 237.833,-244.553 227.726,-247.73 231.913,-253.34"/>
 </g>
-<!-- Node74 -->
-<g id="node26" class="node"><title>Node74</title>
+<!-- Node75 -->
+<g id="node26" class="node"><title>Node75</title>
 <g id="a_node26"><a xlink:href="classvili_1_1_attribute.html#a639e035af59176c57c9bdc5e077849fd" target="_top" xlink:title="vili::Attribute::setID">
 <polygon fill="white" stroke="black" points="534.5,-351 534.5,-370 632.5,-370 632.5,-351 534.5,-351"/>
 <text text-anchor="middle" x="583.5" y="-358" font-family="Helvetica,sans-Serif" font-size="10.00">vili::Attribute::setID</text>
 </a>
 </g>
 </g>
-<!-- Node49&#45;&gt;Node74 -->
-<g id="edge29" class="edge"><title>Node49&#45;&gt;Node74</title>
+<!-- Node50&#45;&gt;Node75 -->
+<g id="edge29" class="edge"><title>Node50&#45;&gt;Node75</title>
 <path fill="none" stroke="midnightblue" d="M163.111,-360.5C264.077,-360.5 434.635,-360.5 523.958,-360.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="524.177,-364 534.176,-360.5 524.176,-357 524.177,-364"/>
 </g>
-<!-- Node75 -->
-<g id="node27" class="node"><title>Node75</title>
+<!-- Node76 -->
+<g id="node27" class="node"><title>Node76</title>
 <g id="a_node27"><a xlink:href="classvili_1_1_complex_attribute.html#a0e84ce350ff94cf291b103936d9aaabe" target="_top" xlink:title="vili::ComplexAttribute\l::pushComplexAttribute">
 <polygon fill="white" stroke="black" points="199.5,-147.5 199.5,-177.5 318.5,-177.5 318.5,-147.5 199.5,-147.5"/>
 <text text-anchor="start" x="207.5" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00">vili::ComplexAttribute</text>
@@ -132,39 +132,39 @@
 </a>
 </g>
 </g>
-<!-- Node49&#45;&gt;Node75 -->
-<g id="edge32" class="edge"><title>Node49&#45;&gt;Node75</title>
+<!-- Node50&#45;&gt;Node76 -->
+<g id="edge32" class="edge"><title>Node50&#45;&gt;Node76</title>
 <path fill="none" stroke="midnightblue" d="M91.7176,-345.092C109.822,-315.611 152.347,-250.101 199,-204.5 206.768,-196.907 216.012,-189.656 224.851,-183.381"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="226.882,-186.232 233.141,-177.684 222.917,-180.463 226.882,-186.232"/>
 </g>
-<!-- Node53 -->
-<g id="node5" class="node"><title>Node53</title>
+<!-- Node54 -->
+<g id="node5" class="node"><title>Node54</title>
 <g id="a_node5"><a xlink:href="classobe_1_1_system_1_1_path.html#afce5029aa92ba41d0f201f1ac67a21e0" target="_top" xlink:title="Default constructor of Path. ">
 <polygon fill="white" stroke="black" points="355,-465 355,-484 480,-484 480,-465 355,-465"/>
 <text text-anchor="middle" x="417.5" y="-472" font-family="Helvetica,sans-Serif" font-size="10.00">obe::System::Path::Path</text>
 </a>
 </g>
 </g>
-<!-- Node52&#45;&gt;Node53 -->
-<g id="edge4" class="edge"><title>Node52&#45;&gt;Node53</title>
+<!-- Node53&#45;&gt;Node54 -->
+<g id="edge4" class="edge"><title>Node53&#45;&gt;Node54</title>
 <path fill="none" stroke="midnightblue" d="M317.386,-458.034C327.699,-459.747 338.534,-461.547 349.099,-463.302"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="348.682,-466.781 359.121,-464.967 349.83,-459.876 348.682,-466.781"/>
 </g>
-<!-- Node55 -->
-<g id="node7" class="node"><title>Node55</title>
+<!-- Node56 -->
+<g id="node7" class="node"><title>Node56</title>
 <g id="a_node7"><a xlink:href="namespaceobe_1_1_utils_1_1_file.html#a1095626f5495edc7b8692073dd25cceb" target="_top" xlink:title="Check if the file at the given path exists. ">
 <polygon fill="white" stroke="black" points="355,-427 355,-446 480,-446 480,-427 355,-427"/>
 <text text-anchor="middle" x="417.5" y="-434" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Utils::File::fileExists</text>
 </a>
 </g>
 </g>
-<!-- Node54&#45;&gt;Node55 -->
-<g id="edge6" class="edge"><title>Node54&#45;&gt;Node55</title>
+<!-- Node55&#45;&gt;Node56 -->
+<g id="edge6" class="edge"><title>Node55&#45;&gt;Node56</title>
 <path fill="none" stroke="midnightblue" d="M311.244,-414.978C326.747,-418.148 343.861,-421.647 359.705,-424.887"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="359.404,-428.398 369.902,-426.972 360.806,-421.54 359.404,-428.398"/>
 </g>
-<!-- Node56 -->
-<g id="node8" class="node"><title>Node56</title>
+<!-- Node57 -->
+<g id="node8" class="node"><title>Node57</title>
 <g id="a_node8"><a xlink:href="classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b" target="_top" xlink:title="aube::ErrorHandler\l::Raise">
 <polygon fill="white" stroke="black" points="704,-345.5 704,-375.5 802,-375.5 802,-345.5 704,-345.5"/>
 <text text-anchor="start" x="712" y="-363.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorHandler</text>
@@ -172,13 +172,13 @@
 </a>
 </g>
 </g>
-<!-- Node54&#45;&gt;Node56 -->
-<g id="edge7" class="edge"><title>Node54&#45;&gt;Node56</title>
+<!-- Node55&#45;&gt;Node57 -->
+<g id="edge7" class="edge"><title>Node55&#45;&gt;Node57</title>
 <path fill="none" stroke="midnightblue" d="M311.112,-403.221C385.965,-400.899 529.685,-394.731 651,-379.5 664.961,-377.747 679.904,-375.271 693.901,-372.684"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="694.724,-376.091 703.897,-370.789 693.42,-369.213 694.724,-376.091"/>
 </g>
-<!-- Node57 -->
-<g id="node9" class="node"><title>Node57</title>
+<!-- Node58 -->
+<g id="node9" class="node"><title>Node58</title>
 <g id="a_node9"><a xlink:href="classaube_1_1_error_message.html#a3a39b6fcd8fdb12eaf6383123535b8ca" target="_top" xlink:title="aube::ErrorMessage\l::getFile">
 <polygon fill="white" stroke="black" points="871,-443.5 871,-473.5 975,-473.5 975,-443.5 871,-443.5"/>
 <text text-anchor="start" x="879" y="-461.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
@@ -186,13 +186,13 @@
 </a>
 </g>
 </g>
-<!-- Node56&#45;&gt;Node57 -->
-<g id="edge8" class="edge"><title>Node56&#45;&gt;Node57</title>
+<!-- Node57&#45;&gt;Node58 -->
+<g id="edge8" class="edge"><title>Node57&#45;&gt;Node58</title>
 <path fill="none" stroke="midnightblue" d="M771.205,-375.527C790.522,-391.8 823.322,-417.679 855,-434.5 858.247,-436.224 861.643,-437.871 865.112,-439.437"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="863.833,-442.696 874.405,-443.385 866.57,-436.253 863.833,-442.696"/>
 </g>
-<!-- Node58 -->
-<g id="node10" class="node"><title>Node58</title>
+<!-- Node59 -->
+<g id="node10" class="node"><title>Node59</title>
 <g id="a_node10"><a xlink:href="classaube_1_1_error_message.html#a9184cc96589578f434351c105b0cd5f7" target="_top" xlink:title="aube::ErrorMessage\l::getLocation">
 <polygon fill="white" stroke="black" points="871,-394.5 871,-424.5 975,-424.5 975,-394.5 871,-394.5"/>
 <text text-anchor="start" x="879" y="-412.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
@@ -200,13 +200,13 @@
 </a>
 </g>
 </g>
-<!-- Node56&#45;&gt;Node58 -->
-<g id="edge9" class="edge"><title>Node56&#45;&gt;Node58</title>
+<!-- Node57&#45;&gt;Node59 -->
+<g id="edge9" class="edge"><title>Node57&#45;&gt;Node59</title>
 <path fill="none" stroke="midnightblue" d="M802.142,-374.541C820.556,-379.912 841.801,-386.108 861.242,-391.779"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="860.339,-395.161 870.919,-394.601 862.299,-388.441 860.339,-395.161"/>
 </g>
-<!-- Node59 -->
-<g id="node11" class="node"><title>Node59</title>
+<!-- Node60 -->
+<g id="node11" class="node"><title>Node60</title>
 <g id="a_node11"><a xlink:href="classaube_1_1_error_message.html#a07927cb3e2d0712c459cc9e2b5f52696" target="_top" xlink:title="aube::ErrorMessage\l::getMessage">
 <polygon fill="white" stroke="black" points="871,-345.5 871,-375.5 975,-375.5 975,-345.5 871,-345.5"/>
 <text text-anchor="start" x="879" y="-363.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
@@ -214,13 +214,13 @@
 </a>
 </g>
 </g>
-<!-- Node56&#45;&gt;Node59 -->
-<g id="edge10" class="edge"><title>Node56&#45;&gt;Node59</title>
+<!-- Node57&#45;&gt;Node60 -->
+<g id="edge10" class="edge"><title>Node57&#45;&gt;Node60</title>
 <path fill="none" stroke="midnightblue" d="M802.142,-360.5C820.388,-360.5 841.413,-360.5 860.709,-360.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="860.919,-364 870.919,-360.5 860.919,-357 860.919,-364"/>
 </g>
-<!-- Node60 -->
-<g id="node12" class="node"><title>Node60</title>
+<!-- Node61 -->
+<g id="node12" class="node"><title>Node61</title>
 <g id="a_node12"><a xlink:href="classaube_1_1_error_message.html#a77c2f9b7e93542c958173b52da267989" target="_top" xlink:title="aube::ErrorMessage\l::getHints">
 <polygon fill="white" stroke="black" points="871,-296.5 871,-326.5 975,-326.5 975,-296.5 871,-296.5"/>
 <text text-anchor="start" x="879" y="-314.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
@@ -228,13 +228,13 @@
 </a>
 </g>
 </g>
-<!-- Node56&#45;&gt;Node60 -->
-<g id="edge11" class="edge"><title>Node56&#45;&gt;Node60</title>
+<!-- Node57&#45;&gt;Node61 -->
+<g id="edge11" class="edge"><title>Node57&#45;&gt;Node61</title>
 <path fill="none" stroke="midnightblue" d="M802.142,-346.459C820.556,-341.088 841.801,-334.892 861.242,-329.221"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="862.299,-332.559 870.919,-326.399 860.339,-325.839 862.299,-332.559"/>
 </g>
-<!-- Node63 -->
-<g id="node15" class="node"><title>Node63</title>
+<!-- Node64 -->
+<g id="node15" class="node"><title>Node64</title>
 <g id="a_node15"><a xlink:href="namespacevili_1_1_functions_1_1_string.html#ad7421099a2ab911f64f06d89abc7d7cf" target="_top" xlink:title="vili::Functions::String\l::extract">
 <polygon fill="white" stroke="black" points="364,-0.5 364,-30.5 471,-30.5 471,-0.5 364,-0.5"/>
 <text text-anchor="start" x="372" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">vili::Functions::String</text>
@@ -242,18 +242,18 @@
 </a>
 </g>
 </g>
-<!-- Node62&#45;&gt;Node63 -->
-<g id="edge14" class="edge"><title>Node62&#45;&gt;Node63</title>
+<!-- Node63&#45;&gt;Node64 -->
+<g id="edge14" class="edge"><title>Node63&#45;&gt;Node64</title>
 <path fill="none" stroke="midnightblue" d="M307.38,-28.0506C321.992,-26.3699 338.315,-24.4925 353.792,-22.7124"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="354.28,-26.1795 363.814,-21.5597 353.48,-19.2253 354.28,-26.1795"/>
 </g>
-<!-- Node64&#45;&gt;Node56 -->
-<g id="edge27" class="edge"><title>Node64&#45;&gt;Node56</title>
+<!-- Node65&#45;&gt;Node57 -->
+<g id="edge27" class="edge"><title>Node65&#45;&gt;Node57</title>
 <path fill="none" stroke="midnightblue" d="M274.158,-244.623C291.431,-262.015 322.385,-289.913 355,-303.5 477.436,-354.506 519.992,-320.786 651,-341.5 664.898,-343.697 679.817,-346.344 693.81,-348.954"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="693.332,-352.426 703.808,-350.842 694.631,-345.547 693.332,-352.426"/>
 </g>
-<!-- Node65 -->
-<g id="node17" class="node"><title>Node65</title>
+<!-- Node66 -->
+<g id="node17" class="node"><title>Node66</title>
 <g id="a_node17"><a xlink:href="namespacevili_1_1_functions_1_1_vector.html#aa9f0dd6b1c4be1e3d86846944329d9f2" target="_top" xlink:title="Check if a given item is in the given std::vector. ">
 <polygon fill="white" stroke="black" points="362.5,-88.5 362.5,-118.5 472.5,-118.5 472.5,-88.5 362.5,-88.5"/>
 <text text-anchor="start" x="370.5" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00">vili::Functions::Vector</text>
@@ -261,26 +261,26 @@
 </a>
 </g>
 </g>
-<!-- Node64&#45;&gt;Node65 -->
-<g id="edge16" class="edge"><title>Node64&#45;&gt;Node65</title>
+<!-- Node65&#45;&gt;Node66 -->
+<g id="edge16" class="edge"><title>Node65&#45;&gt;Node66</title>
 <path fill="none" stroke="midnightblue" d="M284.464,-214.467C295.705,-206.887 308.777,-197.067 319,-186.5 338.799,-166.034 333.479,-152.147 355,-133.5 359.208,-129.853 363.938,-126.536 368.856,-123.551"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="370.816,-126.465 377.841,-118.534 367.404,-120.353 370.816,-126.465"/>
 </g>
-<!-- Node66 -->
-<g id="node18" class="node"><title>Node66</title>
+<!-- Node67 -->
+<g id="node18" class="node"><title>Node67</title>
 <g id="a_node18"><a xlink:href="classvili_1_1_attribute.html#a4af867485d90f3ce77332995e5dcfc5f" target="_top" xlink:title="vili::Attribute::getID">
 <polygon fill="white" stroke="black" points="874,-132 874,-151 972,-151 972,-132 874,-132"/>
 <text text-anchor="middle" x="923" y="-139" font-family="Helvetica,sans-Serif" font-size="10.00">vili::Attribute::getID</text>
 </a>
 </g>
 </g>
-<!-- Node64&#45;&gt;Node66 -->
-<g id="edge17" class="edge"><title>Node64&#45;&gt;Node66</title>
+<!-- Node65&#45;&gt;Node67 -->
+<g id="edge17" class="edge"><title>Node65&#45;&gt;Node67</title>
 <path fill="none" stroke="midnightblue" d="M294.089,-214.492C311.902,-207.282 334.259,-199.206 355,-194.5 537.468,-153.103 760.022,-143.947 863.674,-141.987"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="863.988,-145.483 873.926,-141.81 863.867,-138.484 863.988,-145.483"/>
 </g>
-<!-- Node67 -->
-<g id="node19" class="node"><title>Node67</title>
+<!-- Node68 -->
+<g id="node19" class="node"><title>Node68</title>
 <g id="a_node19"><a xlink:href="classvili_1_1_container_attribute.html#adefa325bb124a74c90b28a91f8a5fe3b" target="_top" xlink:title="vili::ContainerAttribute\l::removeOwnership">
 <polygon fill="white" stroke="black" points="362,-214.5 362,-244.5 473,-244.5 473,-214.5 362,-214.5"/>
 <text text-anchor="start" x="370" y="-232.5" font-family="Helvetica,sans-Serif" font-size="10.00">vili::ContainerAttribute</text>
@@ -288,26 +288,26 @@
 </a>
 </g>
 </g>
-<!-- Node64&#45;&gt;Node67 -->
-<g id="edge18" class="edge"><title>Node64&#45;&gt;Node67</title>
+<!-- Node65&#45;&gt;Node68 -->
+<g id="edge18" class="edge"><title>Node65&#45;&gt;Node68</title>
 <path fill="none" stroke="midnightblue" d="M313.421,-229.5C325.788,-229.5 339.078,-229.5 351.867,-229.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="351.99,-233 361.99,-229.5 351.99,-226 351.99,-233"/>
 </g>
-<!-- Node69 -->
-<g id="node21" class="node"><title>Node69</title>
+<!-- Node70 -->
+<g id="node21" class="node"><title>Node70</title>
 <g id="a_node21"><a xlink:href="classvili_1_1_attribute.html#a14b2534c1250d36bb0c02f7e5c25b40b" target="_top" xlink:title="vili::Attribute::getNodePath">
 <polygon fill="white" stroke="black" points="687,-214 687,-233 819,-233 819,-214 687,-214"/>
 <text text-anchor="middle" x="753" y="-221" font-family="Helvetica,sans-Serif" font-size="10.00">vili::Attribute::getNodePath</text>
 </a>
 </g>
 </g>
-<!-- Node64&#45;&gt;Node69 -->
-<g id="edge28" class="edge"><title>Node64&#45;&gt;Node69</title>
+<!-- Node65&#45;&gt;Node70 -->
+<g id="edge28" class="edge"><title>Node65&#45;&gt;Node70</title>
 <path fill="none" stroke="midnightblue" d="M307.366,-214.476C322.432,-210.391 339.27,-206.535 355,-204.5 468.532,-189.812 601.647,-202.141 681.281,-212.639"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="680.822,-216.108 691.199,-213.973 681.755,-209.171 680.822,-216.108"/>
 </g>
-<!-- Node73 -->
-<g id="node25" class="node"><title>Node73</title>
+<!-- Node74 -->
+<g id="node25" class="node"><title>Node74</title>
 <g id="a_node25"><a xlink:href="namespacevili_1_1_functions_1_1_vector.html#a0454c8e5ff5eef5cc9bb4977316a3c33" target="_top" xlink:title="Erases all occurences of a given element in the std::vector. ">
 <polygon fill="white" stroke="black" points="362.5,-263.5 362.5,-293.5 472.5,-293.5 472.5,-263.5 362.5,-263.5"/>
 <text text-anchor="start" x="370.5" y="-281.5" font-family="Helvetica,sans-Serif" font-size="10.00">vili::Functions::Vector</text>
@@ -315,67 +315,67 @@
 </a>
 </g>
 </g>
-<!-- Node64&#45;&gt;Node73 -->
-<g id="edge26" class="edge"><title>Node64&#45;&gt;Node73</title>
+<!-- Node65&#45;&gt;Node74 -->
+<g id="edge26" class="edge"><title>Node65&#45;&gt;Node74</title>
 <path fill="none" stroke="midnightblue" d="M308.232,-244.601C324.223,-249.608 342.186,-255.232 358.815,-260.439"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="357.838,-263.801 368.427,-263.448 359.93,-257.12 357.838,-263.801"/>
 </g>
-<!-- Node68 -->
-<g id="node20" class="node"><title>Node68</title>
+<!-- Node69 -->
+<g id="node20" class="node"><title>Node69</title>
 <g id="a_node20"><a xlink:href="classvili_1_1_attribute.html#ac82d3332b743dbea7b3ae3bdab98cd52" target="_top" xlink:title="vili::Attribute::removeParent">
 <polygon fill="white" stroke="black" points="516,-220 516,-239 651,-239 651,-220 516,-220"/>
 <text text-anchor="middle" x="583.5" y="-227" font-family="Helvetica,sans-Serif" font-size="10.00">vili::Attribute::removeParent</text>
 </a>
 </g>
 </g>
-<!-- Node67&#45;&gt;Node68 -->
-<g id="edge19" class="edge"><title>Node67&#45;&gt;Node68</title>
+<!-- Node68&#45;&gt;Node69 -->
+<g id="edge19" class="edge"><title>Node68&#45;&gt;Node69</title>
 <path fill="none" stroke="midnightblue" d="M473.11,-229.5C483.597,-229.5 494.759,-229.5 505.793,-229.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="505.867,-233 515.867,-229.5 505.867,-226 505.867,-233"/>
 </g>
-<!-- Node68&#45;&gt;Node56 -->
-<g id="edge20" class="edge"><title>Node68&#45;&gt;Node56</title>
+<!-- Node69&#45;&gt;Node57 -->
+<g id="edge20" class="edge"><title>Node69&#45;&gt;Node57</title>
 <path fill="none" stroke="midnightblue" d="M596.817,-239.133C623.535,-260.029 687.381,-309.962 724.317,-338.85"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="722.616,-341.962 732.649,-345.366 726.928,-336.448 722.616,-341.962"/>
 </g>
-<!-- Node68&#45;&gt;Node69 -->
-<g id="edge21" class="edge"><title>Node68&#45;&gt;Node69</title>
+<!-- Node69&#45;&gt;Node70 -->
+<g id="edge21" class="edge"><title>Node69&#45;&gt;Node70</title>
 <path fill="none" stroke="midnightblue" d="M651.182,-227.111C659.549,-226.812 668.153,-226.503 676.641,-226.199"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="677.045,-229.687 686.913,-225.831 676.794,-222.692 677.045,-229.687"/>
 </g>
-<!-- Node69&#45;&gt;Node66 -->
-<g id="edge23" class="edge"><title>Node69&#45;&gt;Node66</title>
+<!-- Node70&#45;&gt;Node67 -->
+<g id="edge23" class="edge"><title>Node70&#45;&gt;Node67</title>
 <path fill="none" stroke="midnightblue" d="M766.736,-213.897C785.274,-200.315 821.178,-175.483 855,-160.5 860.311,-158.147 865.989,-156.008 871.708,-154.086"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="872.832,-157.401 881.316,-151.055 870.726,-150.725 872.832,-157.401"/>
 </g>
-<!-- Node70 -->
-<g id="node22" class="node"><title>Node70</title>
+<!-- Node71 -->
+<g id="node22" class="node"><title>Node71</title>
 <g id="a_node22"><a xlink:href="classvili_1_1_attribute.html#a1ed7aaea237378cc2b3ab767a864ced8" target="_top" xlink:title="vili::Attribute::getParent">
 <polygon fill="white" stroke="black" points="864,-170 864,-189 982,-189 982,-170 864,-170"/>
 <text text-anchor="middle" x="923" y="-177" font-family="Helvetica,sans-Serif" font-size="10.00">vili::Attribute::getParent</text>
 </a>
 </g>
 </g>
-<!-- Node69&#45;&gt;Node70 -->
-<g id="edge22" class="edge"><title>Node69&#45;&gt;Node70</title>
+<!-- Node70&#45;&gt;Node71 -->
+<g id="edge22" class="edge"><title>Node70&#45;&gt;Node71</title>
 <path fill="none" stroke="midnightblue" d="M790.453,-213.953C815.441,-207.408 848.797,-198.672 875.668,-191.635"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="876.831,-194.948 885.618,-189.029 875.057,-188.177 876.831,-194.948"/>
 </g>
-<!-- Node71 -->
-<g id="node23" class="node"><title>Node71</title>
+<!-- Node72 -->
+<g id="node23" class="node"><title>Node72</title>
 <g id="a_node23"><a xlink:href="classvili_1_1_attribute.html#a1ec7ebd0bd596dd848151d37bba8c1b4" target="_top" xlink:title="vili::Attribute::getAnnotation">
 <polygon fill="white" stroke="black" points="855,-258 855,-277 991,-277 991,-258 855,-258"/>
 <text text-anchor="middle" x="923" y="-265" font-family="Helvetica,sans-Serif" font-size="10.00">vili::Attribute::getAnnotation</text>
 </a>
 </g>
 </g>
-<!-- Node69&#45;&gt;Node71 -->
-<g id="edge24" class="edge"><title>Node69&#45;&gt;Node71</title>
+<!-- Node70&#45;&gt;Node72 -->
+<g id="edge24" class="edge"><title>Node70&#45;&gt;Node72</title>
 <path fill="none" stroke="midnightblue" d="M790.453,-233.047C815.441,-239.592 848.797,-248.328 875.668,-255.365"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="875.057,-258.823 885.618,-257.971 876.831,-252.052 875.057,-258.823"/>
 </g>
-<!-- Node72 -->
-<g id="node24" class="node"><title>Node72</title>
+<!-- Node73 -->
+<g id="node24" class="node"><title>Node73</title>
 <g id="a_node24"><a xlink:href="namespacevili_1_1_functions_1_1_vector.html#a10836e1fe04648534cfc59d9de9acd72" target="_top" xlink:title="vili::Functions::Vector\l::join">
 <polygon fill="white" stroke="black" points="868,-208.5 868,-238.5 978,-238.5 978,-208.5 868,-208.5"/>
 <text text-anchor="start" x="876" y="-226.5" font-family="Helvetica,sans-Serif" font-size="10.00">vili::Functions::Vector</text>
@@ -383,28 +383,28 @@
 </a>
 </g>
 </g>
-<!-- Node69&#45;&gt;Node72 -->
-<g id="edge25" class="edge"><title>Node69&#45;&gt;Node72</title>
+<!-- Node70&#45;&gt;Node73 -->
+<g id="edge25" class="edge"><title>Node70&#45;&gt;Node73</title>
 <path fill="none" stroke="midnightblue" d="M819.434,-223.5C831.958,-223.5 845.062,-223.5 857.555,-223.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="857.879,-227 867.879,-223.5 857.879,-220 857.879,-227"/>
 </g>
-<!-- Node74&#45;&gt;Node56 -->
-<g id="edge30" class="edge"><title>Node74&#45;&gt;Node56</title>
+<!-- Node75&#45;&gt;Node57 -->
+<g id="edge30" class="edge"><title>Node75&#45;&gt;Node57</title>
 <path fill="none" stroke="midnightblue" d="M632.948,-360.5C651.954,-360.5 673.929,-360.5 693.786,-360.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="693.95,-364 703.95,-360.5 693.95,-357 693.95,-364"/>
 </g>
-<!-- Node74&#45;&gt;Node69 -->
-<g id="edge31" class="edge"><title>Node74&#45;&gt;Node69</title>
+<!-- Node75&#45;&gt;Node70 -->
+<g id="edge31" class="edge"><title>Node75&#45;&gt;Node70</title>
 <path fill="none" stroke="midnightblue" d="M596.278,-350.866C624.561,-327.733 696.576,-268.832 731.876,-239.96"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="734.486,-242.347 740.011,-233.306 730.054,-236.928 734.486,-242.347"/>
 </g>
-<!-- Node75&#45;&gt;Node65 -->
-<g id="edge34" class="edge"><title>Node75&#45;&gt;Node65</title>
+<!-- Node76&#45;&gt;Node66 -->
+<g id="edge34" class="edge"><title>Node76&#45;&gt;Node66</title>
 <path fill="none" stroke="midnightblue" d="M299.896,-147.459C320.407,-139.727 345.588,-130.233 367.295,-122.05"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="368.554,-125.316 376.676,-118.513 366.085,-118.766 368.554,-125.316"/>
 </g>
-<!-- Node75&#45;&gt;Node66 -->
-<g id="edge33" class="edge"><title>Node75&#45;&gt;Node66</title>
+<!-- Node76&#45;&gt;Node67 -->
+<g id="edge33" class="edge"><title>Node76&#45;&gt;Node67</title>
 <path fill="none" stroke="midnightblue" d="M304.342,-147.374C309.585,-144.554 314.62,-141.279 319,-137.5 342.258,-117.434 328.213,-93.5352 355,-78.5 443.853,-28.6281 756.145,-99.6188 875.314,-129.408"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="874.679,-132.857 885.231,-131.903 876.387,-126.069 874.679,-132.857"/>
 </g>

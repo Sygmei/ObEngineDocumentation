@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['radius',['radius',['../classobe_1_1_graphics_1_1_level_sprite_1_1_handle_point.html#a9f32c74677b0887b41f4c29e42dd9493',1,'obe::Graphics::LevelSprite::HandlePoint']]],
+  ['radius',['radius',['../classobe_1_1_graphics_1_1_level_sprite_handle_point.html#a212d5fb4ba2a2c9e2de6977d351f9b29',1,'obe::Graphics::LevelSpriteHandlePoint']]],
   ['raise',['Raise',['../classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b',1,'aube::ErrorHandler']]],
   ['randfloat',['randfloat',['../namespaceobe_1_1_utils_1_1_math.html#a3bbd8898660b36f9319be7b115c99216',1,'obe::Utils::Math']]],
   ['randint',['randint',['../namespaceobe_1_1_utils_1_1_math.html#af79008fea1a281ec434372d59249e7d4',1,'obe::Utils::Math']]],
@@ -9,7 +9,7 @@ var searchData=
   ['rect',['Rect',['../classobe_1_1_transform_1_1_rect.html',1,'obe::Transform']]],
   ['rect_2ecpp',['Rect.cpp',['../_rect_8cpp.html',1,'']]],
   ['rect_2ehpp',['Rect.hpp',['../_rect_8hpp.html',1,'']]],
-  ['rectangle',['Rectangle',['../classobe_1_1_graphics_1_1_rectangle.html',1,'obe::Graphics::Rectangle'],['../classobe_1_1_graphics_1_1_canvas.html#a1f9e81fe834940b058ff80721d910aff',1,'obe::Graphics::Canvas::rectangle()'],['../classobe_1_1_graphics_1_1_rectangle.html#a2727083ac9fc62fe56371c5cf19c8757',1,'obe::Graphics::Rectangle::Rectangle()']]],
+  ['rectangle',['Rectangle',['../classobe_1_1_graphics_1_1_rectangle.html',1,'obe::Graphics::Rectangle'],['../classobe_1_1_graphics_1_1_rectangle.html#a2727083ac9fc62fe56371c5cf19c8757',1,'obe::Graphics::Rectangle::Rectangle()'],['../classobe_1_1_graphics_1_1_canvas.html#a1f9e81fe834940b058ff80721d910aff',1,'obe::Graphics::Canvas::rectangle()']]],
   ['referencial',['Referencial',['../namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728',1,'obe::Transform']]],
   ['referencial_2ecpp',['Referencial.cpp',['../_referencial_8cpp.html',1,'']]],
   ['referencial_2ehpp',['Referencial.hpp',['../_referencial_8hpp.html',1,'']]],
@@ -17,6 +17,7 @@ var searchData=
   ['registerlib',['registerLib',['../namespaceobe_1_1_script.html#a9582bae7b61bf604c2a68a8a016356ec',1,'obe::Script']]],
   ['registertrigger',['registerTrigger',['../classobe_1_1_script_1_1_game_object.html#a43168469d626b8b1fe4c4f267f4bf9fd',1,'obe::Script::GameObject']]],
   ['rejected',['Rejected',['../namespaceobe_1_1_collision.html#aa8080687fb294144f0bc8de1423b3f3dad37b1f6c0512e2118cee17fea015b699',1,'obe::Collision']]],
+  ['released',['Released',['../namespaceobe_1_1_input.html#ac924156641ea19ff38153a5ddb8c10e6aea1e34304a5d8ffa7c9b0ed8ede4ef1a',1,'obe::Input']]],
   ['removeatrbyindex',['removeAtrByIndex',['../classobe_1_1_graphics_1_1_level_sprite.html#a4bd7f729d8a51b1b6efa0210a58c7710',1,'obe::Graphics::LevelSprite']]],
   ['removeatrbyname',['removeAtrByName',['../classobe_1_1_graphics_1_1_level_sprite.html#a0c4cf27b2ee8ba6c7adf21649e6ba46b',1,'obe::Graphics::LevelSprite']]],
   ['removecharfromstring',['removeCharFromString',['../namespacevili_1_1_functions_1_1_string.html#a8d1e845c06f563c1a18e8c9d2adc34af',1,'vili::Functions::String']]],

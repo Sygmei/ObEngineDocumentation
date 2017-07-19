@@ -23,7 +23,7 @@ h1.groupheader {
 
 h2.groupheader {
 	border-bottom: 1px solid #879ECB;
-	color: #354C7B;
+	color: #58ACFA;
 	font-size: 150%;
 	font-weight: normal;
 	margin-top: 1.75em;
@@ -290,14 +290,14 @@ td.memItemLeft, td.memItemRight, .mdescLeft, .mdescRight, .memdoc, .memTemplPara
 {
  /* 2nd for ToDo List */
   color: #878f7e;
-  background-color: #333333;
+  background-color: #660066;
   text-shadow: unset;
   background-image: none;
 }
 
 .memname
 {
-  background-color: #333333;
+  background-color: #660066;
 }
 
 .memdoc
@@ -313,7 +313,7 @@ td.memItemLeft, td.memItemRight, .mdescLeft, .mdescRight, .memdoc, .memTemplPara
 
 .paramname
 {
-  color: #8f6262;
+  color: greenyellow;
 }
 
 img.formulaInl
@@ -798,7 +798,13 @@ table.memberdecls {
 
 .mdescLeft, .mdescRight {
 	padding: 0px 8px 4px 8px;
-	color: #555;
+	color: white;
+}
+
+.memItemLeft
+{
+	color: #A9D0F5;
+	font-weight: bold;
 }
 
 .memSeparator {

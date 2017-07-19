@@ -1,36 +1,9 @@
 <map id="obe::Script::CoreLib::loadKeyBind" name="obe::Script::CoreLib::loadKeyBind">
 <area shape="rect" id="node2" href="$namespaceobe_1_1_script.html#a9582bae7b61bf604c2a68a8a016356ec" title="obe::Script::registerLib" alt="" coords="191,5,344,32"/>
 <area shape="rect" id="node3" href="$namespaceobe_1_1_utils_1_1_vector.html#a964ff22524706c50e054f29d98b8ba6d" title="Join all elements of a std::string into a std::string using a separator. " alt="" coords="206,57,329,98"/>
-<area shape="rect" id="node4" href="$classobe_1_1_input_1_1_key_binder.html#ae80994604062fbdd2767bf5751da9ee3" title="obe::Input::KeyBinder\l::connectAction" alt="" coords="194,122,341,163"/>
-<area shape="rect" id="node5" href="$classobe_1_1_input_1_1_key_binder.html#a6e9b74719ee7d1de71e3132dadfe2f69" title="obe::Input::KeyBinder\l::isActionDisabled" alt="" coords="194,187,341,229"/>
-<area shape="rect" id="node6" href="$classobe_1_1_input_1_1_key_binder.html#a7d99e42af30f68118b48c001c169816c" title="obe::Input::KeyBinder\l::isActionEnabled" alt="" coords="194,253,341,294"/>
-<area shape="rect" id="node9" href="$classobe_1_1_input_1_1_key_binder.html#ad81ea459187e3ae401e839a91a94e8a7" title="obe::Input::KeyBinder\l::isActionReleased" alt="" coords="194,318,341,359"/>
-<area shape="rect" id="node10" href="$classobe_1_1_input_1_1_key_binder.html#a877650096bdc9ffce3d10574b895890d" title="obe::Input::KeyBinder\l::isActionToggled" alt="" coords="194,383,341,425"/>
-<area shape="rect" id="node11" href="$classobe_1_1_input_1_1_key_binder.html#ad2d7121d7cf71facf61e7ff5c16df67e" title="obe::Input::KeyBinder\l::isKeyPressed" alt="" coords="194,449,341,490"/>
-<area shape="rect" id="node12" href="$classobe_1_1_input_1_1_key_binder.html#ad2d418093127720f22242b2c667d0275" title="obe::Input::KeyBinder\l::loadFromFile" alt="" coords="194,514,341,555"/>
-<area shape="rect" id="node17" href="$classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b" title="aube::ErrorHandler\l::Raise" alt="" coords="1055,551,1186,593"/>
-<area shape="rect" id="node34" href="$classobe_1_1_input_1_1_key_binder.html#ad18881f48c73c801432d546af09aa0d7" title="obe::Input::KeyBinder\l::setActionDelay" alt="" coords="194,631,341,673"/>
-<area shape="rect" id="node35" href="$classobe_1_1_input_1_1_key_binder.html#a36571be134d2c1aa94929b096c455b21" title="obe::Input::KeyBinder\l::setEnabled" alt="" coords="194,697,341,738"/>
-<area shape="rect" id="node7" href="$namespaceobe_1_1_utils_1_1_map.html#a06f60a13c805a6e46297b2e46e9f67ac" title="Check if the given key is found in the std::map. " alt="" coords="404,225,579,252"/>
-<area shape="rect" id="node8" href="$namespaceobe_1_1_time.html#a8ae76b1e66dea054aced3ab86ecb6d3f" title="Get the amount of milliseconds elapsed since Epoch. " alt="" coords="392,276,591,303"/>
-<area shape="rect" id="node13" href="$classvili_1_1_data_parser.html#ac2744d454c122cb1adff342be588bc8d" title="vili::DataParser::at" alt="" coords="427,341,555,368"/>
-<area shape="rect" id="node15" href="$classvili_1_1_complex_attribute.html#a6225afe489577c1e02e21c6a31387a1a" title="vili::ComplexAttribute\l::getAll" alt="" coords="419,401,563,442"/>
-<area shape="rect" id="node16" href="$classvili_1_1_complex_attribute.html#a7031eabef8547fe00efb455c75b5e28e" title="vili::ComplexAttribute\l::getBaseAttribute" alt="" coords="832,514,976,555"/>
-<area shape="rect" id="node27" href="$classvili_1_1_base_attribute.html#a637dd7d2977f7a453f06065d5d441495" title="vili::BaseAttribute::get" alt="" coords="417,467,566,493"/>
-<area shape="rect" id="node14" href="$namespacevili_1_1_functions_1_1_string.html#ad7421099a2ab911f64f06d89abc7d7cf" title="vili::Functions::String\l::extract" alt="" coords="639,325,781,366"/>
-<area shape="rect" id="node22" href="$classvili_1_1_attribute.html#a14b2534c1250d36bb0c02f7e5c25b40b" title="vili::Attribute::getNodePath" alt="" coords="1033,369,1209,396"/>
-<area shape="rect" id="node18" href="$classaube_1_1_error_message.html#a3a39b6fcd8fdb12eaf6383123535b8ca" title="aube::ErrorMessage\l::getFile" alt="" coords="1284,486,1423,527"/>
-<area shape="rect" id="node19" href="$classaube_1_1_error_message.html#a9184cc96589578f434351c105b0cd5f7" title="aube::ErrorMessage\l::getLocation" alt="" coords="1284,551,1423,593"/>
-<area shape="rect" id="node20" href="$classaube_1_1_error_message.html#a07927cb3e2d0712c459cc9e2b5f52696" title="aube::ErrorMessage\l::getMessage" alt="" coords="1284,617,1423,658"/>
-<area shape="rect" id="node21" href="$classaube_1_1_error_message.html#a77c2f9b7e93542c958173b52da267989" title="aube::ErrorMessage\l::getHints" alt="" coords="1284,682,1423,723"/>
-<area shape="rect" id="node23" href="$classvili_1_1_attribute.html#a1ed7aaea237378cc2b3ab767a864ced8" title="vili::Attribute::getParent" alt="" coords="1275,268,1432,295"/>
-<area shape="rect" id="node24" href="$classvili_1_1_attribute.html#a4af867485d90f3ce77332995e5dcfc5f" title="vili::Attribute::getID" alt="" coords="1288,319,1419,345"/>
-<area shape="rect" id="node25" href="$classvili_1_1_attribute.html#a1ec7ebd0bd596dd848151d37bba8c1b4" title="vili::Attribute::getAnnotation" alt="" coords="1263,369,1444,396"/>
-<area shape="rect" id="node26" href="$namespacevili_1_1_functions_1_1_vector.html#a10836e1fe04648534cfc59d9de9acd72" title="vili::Functions::Vector\l::join" alt="" coords="1280,421,1427,462"/>
-<area shape="rect" id="node28" href="$classvili_1_1_base_attribute.html#a27b7f17214e2b9708f4f8fb9847aaa95" title="vili::BaseAttribute\l::copy" alt="" coords="649,390,771,431"/>
-<area shape="rect" id="node32" href="$classvili_1_1_base_attribute.html#a7317c3254137e3886900536d9fb5ba3f" title="vili::BaseAttribute\l::write" alt="" coords="649,455,771,497"/>
-<area shape="rect" id="node29" href="$classvili_1_1_attribute.html#a3a59cd36c4317ab0af2139a9db0f4c9b" title="vili::Attribute::getType" alt="" coords="831,397,977,424"/>
-<area shape="rect" id="node30" href="$classvili_1_1_base_attribute.html#aa9d584a49371506524beee1672ccd976" title="vili::BaseAttribute::set" alt="" coords="829,347,979,373"/>
-<area shape="rect" id="node31" href="$namespacevili_1_1_types.html#ac195a27b2ff3164cfb8aeba0222fad03" title="vili::Types::dataTypeToString" alt="" coords="1027,319,1215,345"/>
-<area shape="rect" id="node33" href="$classvili_1_1_base_attribute.html#a020cdacac377615d95728677256ecc4d" title="vili::BaseAttribute\l::returnData" alt="" coords="843,449,965,490"/>
+<area shape="rect" id="node4" href="$classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b" title="aube::ErrorHandler\l::Raise" alt="" coords="202,122,333,163"/>
+<area shape="rect" id="node5" href="$classaube_1_1_error_message.html#a3a39b6fcd8fdb12eaf6383123535b8ca" title="aube::ErrorMessage\l::getFile" alt="" coords="392,23,531,65"/>
+<area shape="rect" id="node6" href="$classaube_1_1_error_message.html#a9184cc96589578f434351c105b0cd5f7" title="aube::ErrorMessage\l::getLocation" alt="" coords="392,89,531,130"/>
+<area shape="rect" id="node7" href="$classaube_1_1_error_message.html#a07927cb3e2d0712c459cc9e2b5f52696" title="aube::ErrorMessage\l::getMessage" alt="" coords="392,154,531,195"/>
+<area shape="rect" id="node8" href="$classaube_1_1_error_message.html#a77c2f9b7e93542c958173b52da267989" title="aube::ErrorMessage\l::getHints" alt="" coords="392,219,531,261"/>
 </map>

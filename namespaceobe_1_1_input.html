@@ -66,7 +66,10 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">obe::Input Namespace Reference</div>  </div>
 </div><!--header-->
@@ -77,14 +80,167 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_key_binder.html">KeyBinder</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_keyboard_action.html">KeyboardAction</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Action triggered by one or more Keyboard key(s) .  <a href="classobe_1_1_input_1_1_keyboard_action.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_keyboard_action_event.html">KeyboardActionEvent</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Model to send to <a class="el" href="classobe_1_1_input_1_1_keyboard_action.html" title="Action triggered by one or more Keyboard key(s) . ">KeyboardAction</a> callbacks as only parameter .  <a href="classobe_1_1_input_1_1_keyboard_action_event.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_keyboard_manager.html">KeyboardManager</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class used to manage <a class="el" href="classobe_1_1_input_1_1_key_class.html" title="Class that does represent a Keyboard key . ">KeyClass</a> and <a class="el" href="classobe_1_1_input_1_1_keyboard_action.html" title="Action triggered by one or more Keyboard key(s) . ">KeyboardAction</a> .  <a href="classobe_1_1_input_1_1_keyboard_manager.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_key_class.html">KeyClass</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class that does represent a Keyboard key .  <a href="classobe_1_1_input_1_1_key_class.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a0d459368debeb345a79592a2bca5ff94"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_input.html#a0d459368debeb345a79592a2bca5ff94">ActionCallback</a> = std::function&lt; void(<a class="el" href="classobe_1_1_input_1_1_keyboard_action_event.html">KeyboardActionEvent</a> event)&gt;</td></tr>
+<tr class="memdesc:a0d459368debeb345a79592a2bca5ff94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function callback type for <a class="el" href="classobe_1_1_input_1_1_keyboard_action.html" title="Action triggered by one or more Keyboard key(s) . ">KeyboardAction</a>.  <a href="#a0d459368debeb345a79592a2bca5ff94">More...</a><br /></td></tr>
+<tr class="separator:a0d459368debeb345a79592a2bca5ff94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:aeaa42d0a9e0c6becf0433f8447afa11d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_input.html#aeaa42d0a9e0c6becf0433f8447afa11d">KeyType</a> { <br />
+&#160;&#160;<a class="el" href="namespaceobe_1_1_input.html#aeaa42d0a9e0c6becf0433f8447afa11da6132295fcf5570fb8b0a944ef322a598">KeyType::Alpha</a>, 
+<a class="el" href="namespaceobe_1_1_input.html#aeaa42d0a9e0c6becf0433f8447afa11da87322391cc6e8948ce9fd5d6cb84fced">KeyType::Numeric</a>, 
+<a class="el" href="namespaceobe_1_1_input.html#aeaa42d0a9e0c6becf0433f8447afa11daeef6f62071f4392c6340d9b2db1cb7c9">KeyType::NumericNP</a>, 
+<a class="el" href="namespaceobe_1_1_input.html#aeaa42d0a9e0c6becf0433f8447afa11da4e05974b02cc4aa95db4d85baef6b6b4">KeyType::Arrows</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespaceobe_1_1_input.html#aeaa42d0a9e0c6becf0433f8447afa11dae93acb146e114b5dfa6ce2d12dcb96e4">KeyType::Functions</a>, 
+<a class="el" href="namespaceobe_1_1_input.html#aeaa42d0a9e0c6becf0433f8447afa11da52ef9633d88a7480b3a938ff9eaa2a25">KeyType::Others</a>
+<br />
+ }<tr class="memdesc:aeaa42d0a9e0c6becf0433f8447afa11d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of a Keyboard Key.  <a href="namespaceobe_1_1_input.html#aeaa42d0a9e0c6becf0433f8447afa11d">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:aeaa42d0a9e0c6becf0433f8447afa11d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac924156641ea19ff38153a5ddb8c10e6"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_input.html#ac924156641ea19ff38153a5ddb8c10e6">KeyState</a> { <a class="el" href="namespaceobe_1_1_input.html#ac924156641ea19ff38153a5ddb8c10e6ae599161956d626eda4cb0a5ffb85271c">KeyState::Idle</a>, 
+<a class="el" href="namespaceobe_1_1_input.html#ac924156641ea19ff38153a5ddb8c10e6abcd8db575b47c838e5d551e3973db4ac">KeyState::Hold</a>, 
+<a class="el" href="namespaceobe_1_1_input.html#ac924156641ea19ff38153a5ddb8c10e6ad78a68f6a85421ae121c2cb5b73a1040">KeyState::Pressed</a>, 
+<a class="el" href="namespaceobe_1_1_input.html#ac924156641ea19ff38153a5ddb8c10e6aea1e34304a5d8ffa7c9b0ed8ede4ef1a">KeyState::Released</a>
+ }</td></tr>
+<tr class="separator:ac924156641ea19ff38153a5ddb8c10e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ab78d4aa3c4c604026acf7572c42eeb1b"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_input.html#ab78d4aa3c4c604026acf7572c42eeb1b">operator&lt;&lt;</a> (std::ostream &amp;os, <a class="el" href="namespaceobe_1_1_input.html#ac924156641ea19ff38153a5ddb8c10e6">KeyState</a> m)</td></tr>
+<tr class="separator:ab78d4aa3c4c604026acf7572c42eeb1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Classes and Functions related to <a class="el" href="namespaceobe_1_1_input.html" title="Classes and Functions related to Input in the Engine. ">Input</a> in the Engine. </p>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Typedef Documentation</h2>
+<a id="a0d459368debeb345a79592a2bca5ff94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d459368debeb345a79592a2bca5ff94">&#9670;&nbsp;</a></span>ActionCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceobe_1_1_input.html#a0d459368debeb345a79592a2bca5ff94">obe::Input::ActionCallback</a> = typedef std::function&lt;void(<a class="el" href="classobe_1_1_input_1_1_keyboard_action_event.html">KeyboardActionEvent</a> event)&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function callback type for <a class="el" href="classobe_1_1_input_1_1_keyboard_action.html" title="Action triggered by one or more Keyboard key(s) . ">KeyboardAction</a>. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="ac924156641ea19ff38153a5ddb8c10e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac924156641ea19ff38153a5ddb8c10e6">&#9670;&nbsp;</a></span>KeyState</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespaceobe_1_1_input.html#ac924156641ea19ff38153a5ddb8c10e6">obe::Input::KeyState</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac924156641ea19ff38153a5ddb8c10e6ae599161956d626eda4cb0a5ffb85271c"></a>Idle&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac924156641ea19ff38153a5ddb8c10e6abcd8db575b47c838e5d551e3973db4ac"></a>Hold&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac924156641ea19ff38153a5ddb8c10e6ad78a68f6a85421ae121c2cb5b73a1040"></a>Pressed&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac924156641ea19ff38153a5ddb8c10e6aea1e34304a5d8ffa7c9b0ed8ede4ef1a"></a>Released&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="aeaa42d0a9e0c6becf0433f8447afa11d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaa42d0a9e0c6becf0433f8447afa11d">&#9670;&nbsp;</a></span>KeyType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespaceobe_1_1_input.html#aeaa42d0a9e0c6becf0433f8447afa11d">obe::Input::KeyType</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The type of a Keyboard Key. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aeaa42d0a9e0c6becf0433f8447afa11da6132295fcf5570fb8b0a944ef322a598"></a>Alpha&#160;</td><td class="fielddoc"><p>All letters from A to Z. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aeaa42d0a9e0c6becf0433f8447afa11da87322391cc6e8948ce9fd5d6cb84fced"></a>Numeric&#160;</td><td class="fielddoc"><p>All numbers from 0 to 9. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aeaa42d0a9e0c6becf0433f8447afa11daeef6f62071f4392c6340d9b2db1cb7c9"></a>NumericNP&#160;</td><td class="fielddoc"><p>All numbers from 0 to 9 on Numpad. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aeaa42d0a9e0c6becf0433f8447afa11da4e05974b02cc4aa95db4d85baef6b6b4"></a>Arrows&#160;</td><td class="fielddoc"><p>All arrow keys (Left, Up, Down, Right) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aeaa42d0a9e0c6becf0433f8447afa11dae93acb146e114b5dfa6ce2d12dcb96e4"></a>Functions&#160;</td><td class="fielddoc"><p>All Functions keys from F1 to F12 on most keyboards. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aeaa42d0a9e0c6becf0433f8447afa11da52ef9633d88a7480b3a938ff9eaa2a25"></a>Others&#160;</td><td class="fielddoc"><p>Other keys (Symbols etc..) </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ab78d4aa3c4c604026acf7572c42eeb1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab78d4aa3c4c604026acf7572c42eeb1b">&#9670;&nbsp;</a></span>operator<<()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream &amp; obe::Input::operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceobe_1_1_input.html#ac924156641ea19ff38153a5ddb8c10e6">KeyState</a>&#160;</td>
+          <td class="paramname"><em>m</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

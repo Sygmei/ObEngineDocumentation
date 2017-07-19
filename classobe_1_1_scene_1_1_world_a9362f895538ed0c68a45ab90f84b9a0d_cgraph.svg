@@ -8,14 +8,14 @@
  viewBox="0.00 0.00 435.00 88.50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 84.5)">
 <title>obe::Scene::World::display</title>
-<!-- Node608 -->
-<g id="node1" class="node"><title>Node608</title>
+<!-- Node588 -->
+<g id="node1" class="node"><title>Node588</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-28 0,-58 104,-58 104,-28 0,-28"/>
 <text text-anchor="start" x="8" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Scene::World::</text>
 <text text-anchor="middle" x="52" y="-35" font-family="Helvetica,sans-Serif" font-size="10.00">display</text>
 </g>
-<!-- Node609 -->
-<g id="node2" class="node"><title>Node609</title>
+<!-- Node589 -->
+<g id="node2" class="node"><title>Node589</title>
 <g id="a_node2"><a xlink:href="classobe_1_1_scene_1_1_world.html#a9e698589ecf43ac88564ab3eb123f5bf" target="_top" xlink:title="obe::Scene::World::\ldisplaySprites">
 <polygon fill="white" stroke="black" points="140,-28 140,-58 244,-58 244,-28 140,-28"/>
 <text text-anchor="start" x="148" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Scene::World::</text>
@@ -23,13 +23,13 @@
 </a>
 </g>
 </g>
-<!-- Node608&#45;&gt;Node609 -->
-<g id="edge1" class="edge"><title>Node608&#45;&gt;Node609</title>
+<!-- Node588&#45;&gt;Node589 -->
+<g id="edge1" class="edge"><title>Node588&#45;&gt;Node589</title>
 <path fill="none" stroke="midnightblue" d="M104.386,-43C112.558,-43 121.083,-43 129.46,-43"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="129.571,-46.5001 139.571,-43 129.571,-39.5001 129.571,-46.5001"/>
 </g>
-<!-- Node610 -->
-<g id="node3" class="node"><title>Node610</title>
+<!-- Node590 -->
+<g id="node3" class="node"><title>Node590</title>
 <g id="a_node3"><a xlink:href="classobe_1_1_scene_1_1_camera.html#a0784974770837ae195a7738debcf6dec" target="_top" xlink:title="obe::Scene::Camera\l::getPosition">
 <polygon fill="white" stroke="black" points="300.5,-50 300.5,-80 406.5,-80 406.5,-50 300.5,-50"/>
 <text text-anchor="start" x="308.5" y="-68" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Scene::Camera</text>
@@ -37,31 +37,31 @@
 </a>
 </g>
 </g>
-<!-- Node608&#45;&gt;Node610 -->
-<g id="edge4" class="edge"><title>Node608&#45;&gt;Node610</title>
+<!-- Node588&#45;&gt;Node590 -->
+<g id="edge4" class="edge"><title>Node588&#45;&gt;Node590</title>
 <path fill="none" stroke="midnightblue" d="M96.2952,-58.0203C110.088,-62.1052 125.527,-65.9619 140,-68 190.123,-75.0587 247.55,-73.6904 290.06,-70.9"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="290.527,-74.3759 300.258,-70.1847 290.037,-67.393 290.527,-74.3759"/>
 </g>
-<!-- Node611 -->
-<g id="node4" class="node"><title>Node611</title>
+<!-- Node591 -->
+<g id="node4" class="node"><title>Node591</title>
 <g id="a_node4"><a xlink:href="classobe_1_1_transform_1_1_unit_vector.html#ac3baab00050c329e70453fd646224a0d" target="_top" xlink:title="Return an UnitVector with the converted values (x, y) to the Unit you want. ">
 <polygon fill="white" stroke="black" points="280,-0.5 280,-19.5 427,-19.5 427,-0.5 280,-0.5"/>
 <text text-anchor="middle" x="353.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Transform::UnitVector::to</text>
 </a>
 </g>
 </g>
-<!-- Node608&#45;&gt;Node611 -->
-<g id="edge5" class="edge"><title>Node608&#45;&gt;Node611</title>
+<!-- Node588&#45;&gt;Node591 -->
+<g id="edge5" class="edge"><title>Node588&#45;&gt;Node591</title>
 <path fill="none" stroke="midnightblue" d="M97.685,-27.9171C111.135,-23.9891 126.034,-20.2355 140,-18 182.422,-11.2095 230.186,-8.93947 269.67,-8.48328"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="269.812,-11.9824 279.784,-8.4036 269.757,-4.98259 269.812,-11.9824"/>
 </g>
-<!-- Node609&#45;&gt;Node610 -->
-<g id="edge2" class="edge"><title>Node609&#45;&gt;Node610</title>
+<!-- Node589&#45;&gt;Node590 -->
+<g id="edge2" class="edge"><title>Node589&#45;&gt;Node590</title>
 <path fill="none" stroke="midnightblue" d="M244.345,-50.082C258.921,-52.0926 274.954,-54.304 290.108,-56.3943"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="290.046,-59.9187 300.431,-57.818 291.003,-52.9844 290.046,-59.9187"/>
 </g>
-<!-- Node609&#45;&gt;Node611 -->
-<g id="edge3" class="edge"><title>Node609&#45;&gt;Node611</title>
+<!-- Node589&#45;&gt;Node591 -->
+<g id="edge3" class="edge"><title>Node589&#45;&gt;Node591</title>
 <path fill="none" stroke="midnightblue" d="M244.345,-32.3769C260.861,-28.9598 279.247,-25.1559 296.105,-21.6679"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="297.291,-24.9968 306.374,-19.5432 295.873,-18.142 297.291,-24.9968"/>
 </g>

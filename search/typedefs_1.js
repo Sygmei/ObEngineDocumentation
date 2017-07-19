@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['stringextractor',['StringExtractor',['../namespacevili_1_1_functions_1_1_string.html#aa554816ed3e35297132e426b3fd72294',1,'vili::Functions::String']]]
+  ['luatref',['LuaTRef',['../namespaceobe_1_1_bindings.html#a7d291106243b9552c50c0650eda9b223',1,'obe::Bindings']]]
 ];

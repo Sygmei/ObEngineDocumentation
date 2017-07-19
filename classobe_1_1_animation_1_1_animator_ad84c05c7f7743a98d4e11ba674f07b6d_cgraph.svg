@@ -51,196 +51,196 @@ if (edges && edges.length) {
 <script type="text/javascript">
 var viewWidth = 612;
 var viewHeight = 379;
-var sectionId = 'dynsection-19';
+var sectionId = 'dynsection-20';
 </script>
 <script xlink:href="svgpan.js"/>
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>obe::Animation::Animator::update</title>
-<!-- Node231 -->
-<g id="node1" class="node"><title>Node231</title>
+<!-- Node262 -->
+<g id="node1" class="node"><title>Node262</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-144.5 0,-174.5 127,-174.5 127,-144.5 0,-144.5"/>
 <text text-anchor="start" x="8" y="-162.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Animation::Animator</text>
 <text text-anchor="middle" x="63.5" y="-151.5" font-family="Helvetica,sans-Serif" font-size="10.00">::update</text>
 </g>
-<!-- Node232 -->
-<g id="node2" class="node"><title>Node232</title>
+<!-- Node263 -->
+<g id="node2" class="node"><title>Node263</title>
 <g id="a_node2"><a xlink:href="classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b" target="_top" xlink:title="aube::ErrorHandler\l::Raise">
-<polygon fill="white" stroke="black" points="179.5,-267.5 179.5,-297.5 277.5,-297.5 277.5,-267.5 179.5,-267.5"/>
+<polygon fill="none" stroke="black" points="179.5,-267.5 179.5,-297.5 277.5,-297.5 277.5,-267.5 179.5,-267.5"/>
 <text text-anchor="start" x="187.5" y="-285.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorHandler</text>
 <text text-anchor="middle" x="228.5" y="-274.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Raise</text>
 </a>
 </g>
 </g>
-<!-- Node231&#45;&gt;Node232 -->
-<g id="edge1" class="edge"><title>Node231&#45;&gt;Node232</title>
+<!-- Node262&#45;&gt;Node263 -->
+<g id="edge1" class="edge"><title>Node262&#45;&gt;Node263</title>
 <path fill="none" stroke="midnightblue" d="M75.9695,-174.605C92.892,-195.964 126.511,-235.005 163,-258.5 165.449,-260.077 168.016,-261.571 170.656,-262.983"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="169.332,-266.232 179.854,-267.476 172.405,-259.942 169.332,-266.232"/>
 </g>
-<!-- Node237 -->
-<g id="node7" class="node"><title>Node237</title>
+<!-- Node268 -->
+<g id="node7" class="node"><title>Node268</title>
 <g id="a_node7"><a xlink:href="classobe_1_1_system_1_1_path.html#aab439649ec875cd45a99a18e9c9beda8" target="_top" xlink:title="Get the current path in string form. ">
-<polygon fill="white" stroke="black" points="176.5,-218.5 176.5,-248.5 280.5,-248.5 280.5,-218.5 176.5,-218.5"/>
+<polygon fill="none" stroke="black" points="176.5,-218.5 176.5,-248.5 280.5,-248.5 280.5,-218.5 176.5,-218.5"/>
 <text text-anchor="start" x="184.5" y="-236.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::System::Path::</text>
 <text text-anchor="middle" x="228.5" y="-225.5" font-family="Helvetica,sans-Serif" font-size="10.00">toString</text>
 </a>
 </g>
 </g>
-<!-- Node231&#45;&gt;Node237 -->
-<g id="edge6" class="edge"><title>Node231&#45;&gt;Node237</title>
+<!-- Node262&#45;&gt;Node268 -->
+<g id="edge6" class="edge"><title>Node262&#45;&gt;Node268</title>
 <path fill="none" stroke="midnightblue" d="M93.0465,-174.571C112.535,-184.643 139.062,-197.933 163,-208.5 167.687,-210.569 172.602,-212.642 177.54,-214.661"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="176.426,-217.985 187.01,-218.462 179.033,-211.489 176.426,-217.985"/>
 </g>
-<!-- Node238 -->
-<g id="node8" class="node"><title>Node238</title>
+<!-- Node269 -->
+<g id="node8" class="node"><title>Node269</title>
 <g id="a_node8"><a xlink:href="classobe_1_1_animation_1_1_animation.html#a43bee4799871d1c9e47ffe438f875782" target="_top" xlink:title="Get the Animation Status. ">
-<polygon fill="white" stroke="black" points="163,-169.5 163,-199.5 294,-199.5 294,-169.5 163,-169.5"/>
+<polygon fill="none" stroke="black" points="163,-169.5 163,-199.5 294,-199.5 294,-169.5 163,-169.5"/>
 <text text-anchor="start" x="171" y="-187.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Animation::Animation</text>
 <text text-anchor="middle" x="228.5" y="-176.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getAnimationStatus</text>
 </a>
 </g>
 </g>
-<!-- Node231&#45;&gt;Node238 -->
-<g id="edge7" class="edge"><title>Node231&#45;&gt;Node238</title>
+<!-- Node262&#45;&gt;Node269 -->
+<g id="edge7" class="edge"><title>Node262&#45;&gt;Node269</title>
 <path fill="none" stroke="midnightblue" d="M127.054,-169.094C135.507,-170.391 144.248,-171.731 152.886,-173.056"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="152.539,-176.544 162.954,-174.6 153.6,-169.625 152.539,-176.544"/>
 </g>
-<!-- Node239 -->
-<g id="node9" class="node"><title>Node239</title>
+<!-- Node270 -->
+<g id="node9" class="node"><title>Node270</title>
 <g id="a_node9"><a xlink:href="classobe_1_1_animation_1_1_animation.html#a163d69319c82e90bfea4ea0b9768306e" target="_top" xlink:title="Resets the Animation (Unselect current AnimationGroup and restart AnimationCode) ">
-<polygon fill="white" stroke="black" points="163,-120.5 163,-150.5 294,-150.5 294,-120.5 163,-120.5"/>
+<polygon fill="none" stroke="black" points="163,-120.5 163,-150.5 294,-150.5 294,-120.5 163,-120.5"/>
 <text text-anchor="start" x="171" y="-138.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Animation::Animation</text>
 <text text-anchor="middle" x="228.5" y="-127.5" font-family="Helvetica,sans-Serif" font-size="10.00">::reset</text>
 </a>
 </g>
 </g>
-<!-- Node231&#45;&gt;Node239 -->
-<g id="edge8" class="edge"><title>Node231&#45;&gt;Node239</title>
+<!-- Node262&#45;&gt;Node270 -->
+<g id="edge8" class="edge"><title>Node262&#45;&gt;Node270</title>
 <path fill="none" stroke="midnightblue" d="M127.054,-150.29C135.507,-149.045 144.248,-147.758 152.886,-146.486"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="153.57,-149.923 162.954,-145.004 152.551,-142.998 153.57,-149.923"/>
 </g>
-<!-- Node240 -->
-<g id="node10" class="node"><title>Node240</title>
+<!-- Node271 -->
+<g id="node10" class="node"><title>Node271</title>
 <g id="a_node10"><a xlink:href="classobe_1_1_animation_1_1_animation.html#af197b177144ff76951ff7fb8745b5e44" target="_top" xlink:title="Get the name of the Animation to call when the AnimationStatus of the Animation is equal to Animation...">
-<polygon fill="white" stroke="black" points="163,-71.5 163,-101.5 294,-101.5 294,-71.5 163,-71.5"/>
+<polygon fill="none" stroke="black" points="163,-71.5 163,-101.5 294,-101.5 294,-71.5 163,-71.5"/>
 <text text-anchor="start" x="171" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Animation::Animation</text>
 <text text-anchor="middle" x="228.5" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getCalledAnimation</text>
 </a>
 </g>
 </g>
-<!-- Node231&#45;&gt;Node240 -->
-<g id="edge9" class="edge"><title>Node231&#45;&gt;Node240</title>
+<!-- Node262&#45;&gt;Node271 -->
+<g id="edge9" class="edge"><title>Node262&#45;&gt;Node271</title>
 <path fill="none" stroke="midnightblue" d="M93.0004,-144.324C112.469,-134.206 138.991,-120.904 163,-110.5 167.056,-108.742 171.287,-106.991 175.558,-105.282"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="176.881,-108.523 184.918,-101.619 174.33,-102.004 176.881,-108.523"/>
 </g>
-<!-- Node241 -->
-<g id="node11" class="node"><title>Node241</title>
+<!-- Node272 -->
+<g id="node11" class="node"><title>Node272</title>
 <g id="a_node11"><a xlink:href="classobe_1_1_animation_1_1_animation.html#aae247711ecb729409e436e7a40448088" target="_top" xlink:title="Updates the Animation (Updates the current AnimationGroup, executes the AnimationCode) ...">
-<polygon fill="white" stroke="black" points="163,-22.5 163,-52.5 294,-52.5 294,-22.5 163,-22.5"/>
+<polygon fill="none" stroke="black" points="163,-22.5 163,-52.5 294,-52.5 294,-22.5 163,-22.5"/>
 <text text-anchor="start" x="171" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Animation::Animation</text>
 <text text-anchor="middle" x="228.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">::update</text>
 </a>
 </g>
 </g>
-<!-- Node231&#45;&gt;Node241 -->
-<g id="edge10" class="edge"><title>Node231&#45;&gt;Node241</title>
+<!-- Node262&#45;&gt;Node272 -->
+<g id="edge10" class="edge"><title>Node262&#45;&gt;Node272</title>
 <path fill="none" stroke="midnightblue" d="M76.2895,-144.199C93.3438,-122.989 126.839,-84.6542 163,-61.5 165.453,-59.9296 168.023,-58.4406 170.666,-57.0318"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="172.412,-60.0745 179.87,-52.5492 169.347,-53.7812 172.412,-60.0745"/>
 </g>
-<!-- Node233 -->
-<g id="node3" class="node"><title>Node233</title>
+<!-- Node264 -->
+<g id="node3" class="node"><title>Node264</title>
 <g id="a_node3"><a xlink:href="classaube_1_1_error_message.html#a3a39b6fcd8fdb12eaf6383123535b8ca" target="_top" xlink:title="aube::ErrorMessage\l::getFile">
-<polygon fill="white" stroke="black" points="352.5,-340.5 352.5,-370.5 456.5,-370.5 456.5,-340.5 352.5,-340.5"/>
+<polygon fill="none" stroke="black" points="352.5,-340.5 352.5,-370.5 456.5,-370.5 456.5,-340.5 352.5,-340.5"/>
 <text text-anchor="start" x="360.5" y="-358.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
 <text text-anchor="middle" x="404.5" y="-347.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getFile</text>
 </a>
 </g>
 </g>
-<!-- Node232&#45;&gt;Node233 -->
-<g id="edge2" class="edge"><title>Node232&#45;&gt;Node233</title>
+<!-- Node263&#45;&gt;Node264 -->
+<g id="edge2" class="edge"><title>Node263&#45;&gt;Node264</title>
 <path fill="none" stroke="midnightblue" d="M257.616,-297.506C277.51,-307.8 304.99,-321.376 330,-331.5 334.701,-333.403 339.615,-335.267 344.578,-337.062"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="343.541,-340.408 354.136,-340.421 345.862,-333.804 343.541,-340.408"/>
 </g>
-<!-- Node234 -->
-<g id="node4" class="node"><title>Node234</title>
+<!-- Node265 -->
+<g id="node4" class="node"><title>Node265</title>
 <g id="a_node4"><a xlink:href="classaube_1_1_error_message.html#a9184cc96589578f434351c105b0cd5f7" target="_top" xlink:title="aube::ErrorMessage\l::getLocation">
-<polygon fill="white" stroke="black" points="352.5,-291.5 352.5,-321.5 456.5,-321.5 456.5,-291.5 352.5,-291.5"/>
+<polygon fill="none" stroke="black" points="352.5,-291.5 352.5,-321.5 456.5,-321.5 456.5,-291.5 352.5,-291.5"/>
 <text text-anchor="start" x="360.5" y="-309.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
 <text text-anchor="middle" x="404.5" y="-298.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getLocation</text>
 </a>
 </g>
 </g>
-<!-- Node232&#45;&gt;Node234 -->
-<g id="edge3" class="edge"><title>Node232&#45;&gt;Node234</title>
+<!-- Node263&#45;&gt;Node265 -->
+<g id="edge3" class="edge"><title>Node263&#45;&gt;Node265</title>
 <path fill="none" stroke="midnightblue" d="M277.507,-289.122C297.567,-291.889 321.114,-295.136 342.388,-298.071"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="341.918,-301.539 352.302,-299.438 342.874,-294.605 341.918,-301.539"/>
 </g>
-<!-- Node235 -->
-<g id="node5" class="node"><title>Node235</title>
+<!-- Node266 -->
+<g id="node5" class="node"><title>Node266</title>
 <g id="a_node5"><a xlink:href="classaube_1_1_error_message.html#a07927cb3e2d0712c459cc9e2b5f52696" target="_top" xlink:title="aube::ErrorMessage\l::getMessage">
-<polygon fill="white" stroke="black" points="352.5,-242.5 352.5,-272.5 456.5,-272.5 456.5,-242.5 352.5,-242.5"/>
+<polygon fill="none" stroke="black" points="352.5,-242.5 352.5,-272.5 456.5,-272.5 456.5,-242.5 352.5,-242.5"/>
 <text text-anchor="start" x="360.5" y="-260.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
 <text text-anchor="middle" x="404.5" y="-249.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getMessage</text>
 </a>
 </g>
 </g>
-<!-- Node232&#45;&gt;Node235 -->
-<g id="edge4" class="edge"><title>Node232&#45;&gt;Node235</title>
+<!-- Node263&#45;&gt;Node266 -->
+<g id="edge4" class="edge"><title>Node263&#45;&gt;Node266</title>
 <path fill="none" stroke="midnightblue" d="M277.507,-275.602C297.567,-272.72 321.114,-269.337 342.388,-266.28"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="342.902,-269.743 352.302,-264.856 341.906,-262.814 342.902,-269.743"/>
 </g>
-<!-- Node236 -->
-<g id="node6" class="node"><title>Node236</title>
+<!-- Node267 -->
+<g id="node6" class="node"><title>Node267</title>
 <g id="a_node6"><a xlink:href="classaube_1_1_error_message.html#a77c2f9b7e93542c958173b52da267989" target="_top" xlink:title="aube::ErrorMessage\l::getHints">
-<polygon fill="white" stroke="black" points="352.5,-193.5 352.5,-223.5 456.5,-223.5 456.5,-193.5 352.5,-193.5"/>
+<polygon fill="none" stroke="black" points="352.5,-193.5 352.5,-223.5 456.5,-223.5 456.5,-193.5 352.5,-193.5"/>
 <text text-anchor="start" x="360.5" y="-211.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
 <text text-anchor="middle" x="404.5" y="-200.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getHints</text>
 </a>
 </g>
 </g>
-<!-- Node232&#45;&gt;Node236 -->
-<g id="edge5" class="edge"><title>Node232&#45;&gt;Node236</title>
+<!-- Node263&#45;&gt;Node267 -->
+<g id="edge5" class="edge"><title>Node263&#45;&gt;Node267</title>
 <path fill="none" stroke="midnightblue" d="M274.6,-267.5C281.235,-264.785 287.888,-261.767 294,-258.5 311.406,-249.197 312.408,-241.448 330,-232.5 334.191,-230.368 338.612,-228.37 343.12,-226.51"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="344.399,-229.768 352.453,-222.884 341.865,-223.243 344.399,-229.768"/>
 </g>
-<!-- Node242 -->
-<g id="node12" class="node"><title>Node242</title>
+<!-- Node273 -->
+<g id="node12" class="node"><title>Node273</title>
 <g id="a_node12"><a xlink:href="namespaceobe_1_1_time.html#a8ae76b1e66dea054aced3ab86ecb6d3f" target="_top" xlink:title="Get the amount of milliseconds elapsed since Epoch. ">
-<polygon fill="white" stroke="black" points="330,-50 330,-69 479,-69 479,-50 330,-50"/>
+<polygon fill="none" stroke="black" points="330,-50 330,-69 479,-69 479,-50 330,-50"/>
 <text text-anchor="middle" x="404.5" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Time::getTickSinceEpoch</text>
 </a>
 </g>
 </g>
-<!-- Node241&#45;&gt;Node242 -->
-<g id="edge11" class="edge"><title>Node241&#45;&gt;Node242</title>
+<!-- Node272&#45;&gt;Node273 -->
+<g id="edge11" class="edge"><title>Node272&#45;&gt;Node273</title>
 <path fill="none" stroke="midnightblue" d="M294.291,-45.692C302.625,-46.7457 311.25,-47.8362 319.832,-48.9212"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="319.506,-52.4078 329.866,-50.19 320.384,-45.4631 319.506,-52.4078"/>
 </g>
-<!-- Node243 -->
-<g id="node13" class="node"><title>Node243</title>
+<!-- Node274 -->
+<g id="node13" class="node"><title>Node274</title>
 <g id="a_node13"><a xlink:href="namespaceobe_1_1_utils_1_1_string.html#ad9d5afbd60c8e3c6894ad5c782de001a" target="_top" xlink:title="Replace all the occurences of search to replace in the string subject in place. ">
-<polygon fill="white" stroke="black" points="360,-0.5 360,-30.5 449,-30.5 449,-0.5 360,-0.5"/>
+<polygon fill="none" stroke="black" points="360,-0.5 360,-30.5 449,-30.5 449,-0.5 360,-0.5"/>
 <text text-anchor="start" x="368" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Utils::String</text>
 <text text-anchor="middle" x="404.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::replaceInPlace</text>
 </a>
 </g>
 </g>
-<!-- Node241&#45;&gt;Node243 -->
-<g id="edge12" class="edge"><title>Node241&#45;&gt;Node243</title>
+<!-- Node272&#45;&gt;Node274 -->
+<g id="edge12" class="edge"><title>Node272&#45;&gt;Node274</title>
 <path fill="none" stroke="midnightblue" d="M294.291,-29.308C312.545,-27 332.197,-24.5153 349.73,-22.2985"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="350.3,-25.7544 359.782,-21.0276 349.422,-18.8097 350.3,-25.7544"/>
 </g>
-<!-- Node244 -->
-<g id="node14" class="node"><title>Node244</title>
+<!-- Node275 -->
+<g id="node14" class="node"><title>Node275</title>
 <g id="a_node14"><a xlink:href="namespaceobe_1_1_utils_1_1_string.html#ad648e63a60e1fce71a321037fbee4e30" target="_top" xlink:title="Replace all the occurences of search to replace in the string subject. ">
-<polygon fill="white" stroke="black" points="515,-0.5 515,-30.5 604,-30.5 604,-0.5 515,-0.5"/>
+<polygon fill="none" stroke="black" points="515,-0.5 515,-30.5 604,-30.5 604,-0.5 515,-0.5"/>
 <text text-anchor="start" x="523" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Utils::String</text>
 <text text-anchor="middle" x="559.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::replace</text>
 </a>
 </g>
 </g>
-<!-- Node243&#45;&gt;Node244 -->
-<g id="edge13" class="edge"><title>Node243&#45;&gt;Node244</title>
+<!-- Node274&#45;&gt;Node275 -->
+<g id="edge13" class="edge"><title>Node274&#45;&gt;Node275</title>
 <path fill="none" stroke="midnightblue" d="M449.344,-15.5C466.623,-15.5 486.639,-15.5 504.776,-15.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="504.915,-19.0001 514.915,-15.5 504.915,-12.0001 504.915,-19.0001"/>
 </g>

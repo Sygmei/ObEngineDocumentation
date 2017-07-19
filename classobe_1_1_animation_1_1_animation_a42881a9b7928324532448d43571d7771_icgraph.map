@@ -1,21 +1,25 @@
 <map id="obe::Animation::Animation::getTexture" name="obe::Animation::Animation::getTexture">
-<area shape="rect" id="node2" href="$classobe_1_1_animation_1_1_animator.html#ada6c0858d3fd693de9ae05350f56ef23" title="Get the current sf::Sprite of the current Animation. " alt="" coords="228,77,397,118"/>
-<area shape="rect" id="node19" href="$classobe_1_1_animation_1_1_animator.html#ad710964804f5673b13e3628590f93665" title="Return if the Texture changed since the last call to getTexture() " alt="" coords="445,142,615,183"/>
-<area shape="rect" id="node3" href="$classobe_1_1_system_1_1_cursor.html#a0cfe32fec562dea5a86478ff862f45fc" title="Sets the root path to the Cursor Animator. " alt="" coords="458,77,602,118"/>
-<area shape="rect" id="node17" href="$classobe_1_1_system_1_1_cursor.html#aa2612f2e00886a203572adb91dfa4f46" title="Updates the Cursor. " alt="" coords="663,13,805,54"/>
-<area shape="rect" id="node4" href="$namespaceobe_1_1_script_1_1_core_lib.html#adc976091c779b7a03984d210b9285983" title="obe::Script::CoreLib\l::loadCursor" alt="" coords="665,78,803,119"/>
-<area shape="rect" id="node5" href="$namespaceobe_1_1_script.html#abdb81ec0976f1097cef6711415b8fac3" title="obe::Script::loadCoreLib" alt="" coords="853,151,1015,177"/>
-<area shape="rect" id="node6" href="$namespaceobe_1_1_script.html#a4e6ee77032cf7f66544f9b08464a60b7" title="obe::Script::loadLib" alt="" coords="1064,128,1199,155"/>
-<area shape="rect" id="node16" href="$namespaceobe_1_1_script_1_1_core_lib.html#a07d6c11bbb082bc45bdba50d97965c00" title="obe::Script::CoreLib\l::loadCollision" alt="" coords="1063,179,1200,221"/>
-<area shape="rect" id="node7" href="$namespaceobe_1_1_modes.html#a1e38c0d9a2ca0230f0de79c298f53ab9" title="A mode that will start the Toolkit. " alt="" coords="1484,77,1679,104"/>
-<area shape="rect" id="node10" href="$classobe_1_1_scene_1_1_world.html#a32964e659e18cb32094d9f8ceea30aa3" title="obe::Scene::World::\lWorld" alt="" coords="1512,242,1651,283"/>
-<area shape="rect" id="node11" href="$namespaceobe_1_1_scene.html#ae5cbcc3278d9115d603e5024dec9136e" title="obe::Scene::loadWorldScript\lEngineBaseLib" alt="" coords="1248,209,1436,250"/>
-<area shape="rect" id="node12" href="$namespaceobe_1_1_script.html#a5e992c0efb0543e7c934bc1065f08b01" title="obe::Script::loadLibBridge" alt="" coords="1257,157,1427,184"/>
-<area shape="rect" id="node15" href="$namespaceobe_1_1_script.html#aad6ef67388e6d16eb01853f208da410f" title="obe::Script::loadBaseLib" alt="" coords="1260,107,1424,133"/>
-<area shape="rect" id="node8" href="$namespaceobe_1_1_modes.html#a6a8b08eee511d4895c4da96d4ba223a6" title="Starts the development Menu where you can starts other menus from. " alt="" coords="1727,48,1904,75"/>
-<area shape="rect" id="node9" href="$_ob_engine_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1952,48,2003,75"/>
-<area shape="rect" id="node13" href="$namespaceobe_1_1_script.html#a5dc8321da50fd4b5dc2935e4d8c93a4e" title="obe::Script::loadScrGame\lObject" alt="" coords="1495,150,1667,191"/>
-<area shape="rect" id="node14" href="$classobe_1_1_script_1_1_game_object.html#aadeac0036d2fe21d523acfd4e9011a23" title="obe::Script::GameObject\l::loadGameObject" alt="" coords="1732,150,1899,191"/>
-<area shape="rect" id="node18" href="$namespaceobe_1_1_modes.html#a5f4a1008892030350b06282b8dee1a89" title="Start the game by loading the boot.lua file in one of the MountedPaths. " alt="" coords="1502,5,1661,32"/>
-<area shape="rect" id="node20" href="$namespaceobe_1_1_script_1_1_core_lib.html#ad3e8d674e535b8a534a3bed6f311d701" title="obe::Script::CoreLib\l::loadAnimation" alt="" coords="665,143,803,185"/>
+<area shape="rect" id="node2" href="$classobe_1_1_animation_1_1_animator.html#ada6c0858d3fd693de9ae05350f56ef23" title="Get the current sf::Sprite of the current Animation. " alt="" coords="228,216,397,258"/>
+<area shape="rect" id="node22" href="$classobe_1_1_animation_1_1_animator.html#ad710964804f5673b13e3628590f93665" title="Return if the Texture changed since the last call to getTexture() " alt="" coords="228,282,397,323"/>
+<area shape="rect" id="node24" href="$namespaceobe_1_1_bindings_1_1_animation_bindings.html#a90425c1ca7642b03ad5d515f5b40bd00" title="obe::Bindings::Animation\lBindings::LoadAnimation" alt="" coords="229,122,396,163"/>
+<area shape="rect" id="node3" href="$namespaceobe_1_1_bindings_1_1_animation_bindings.html#a23ff7695a9fedd64589a2eca1ee9f811" title="obe::Bindings::Animation\lBindings::LoadAnimator" alt="" coords="445,151,612,192"/>
+<area shape="rect" id="node6" href="$classobe_1_1_system_1_1_cursor.html#a0cfe32fec562dea5a86478ff862f45fc" title="Sets the root path to the Cursor Animator. " alt="" coords="457,216,601,258"/>
+<area shape="rect" id="node20" href="$classobe_1_1_system_1_1_cursor.html#aa2612f2e00886a203572adb91dfa4f46" title="Updates the Cursor. " alt="" coords="457,282,600,323"/>
+<area shape="rect" id="node4" href="$namespaceobe_1_1_bindings.html#a41d33207a0199f125c75a0f70a4a3ba8" title="obe::Bindings::IndexBindings" alt="" coords="667,100,857,126"/>
+<area shape="rect" id="node5" href="$_ob_engine_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="2011,244,2061,270"/>
+<area shape="rect" id="node7" href="$namespaceobe_1_1_bindings_1_1_system_bindings.html#a58371d483e59e8389a76ffe9d03ea71c" title="obe::Bindings::SystemBindings\l::BindCursor" alt="" coords="660,267,864,308"/>
+<area shape="rect" id="node8" href="$namespaceobe_1_1_script_1_1_core_lib.html#adc976091c779b7a03984d210b9285983" title="obe::Script::CoreLib\l::loadCursor" alt="" coords="693,202,831,243"/>
+<area shape="rect" id="node9" href="$namespaceobe_1_1_script.html#abdb81ec0976f1097cef6711415b8fac3" title="obe::Script::loadCoreLib" alt="" coords="912,209,1073,236"/>
+<area shape="rect" id="node10" href="$namespaceobe_1_1_script.html#a4e6ee77032cf7f66544f9b08464a60b7" title="obe::Script::loadLib" alt="" coords="1123,221,1257,248"/>
+<area shape="rect" id="node19" href="$namespaceobe_1_1_script_1_1_core_lib.html#a07d6c11bbb082bc45bdba50d97965c00" title="obe::Script::CoreLib\l::loadCollision" alt="" coords="1121,155,1259,196"/>
+<area shape="rect" id="node11" href="$namespaceobe_1_1_modes.html#a1e38c0d9a2ca0230f0de79c298f53ab9" title="A mode that will start the Toolkit. " alt="" coords="1543,257,1737,284"/>
+<area shape="rect" id="node13" href="$classobe_1_1_scene_1_1_world.html#a32964e659e18cb32094d9f8ceea30aa3" title="obe::Scene::World::\lWorld" alt="" coords="1571,147,1709,188"/>
+<area shape="rect" id="node14" href="$namespaceobe_1_1_scene.html#ae5cbcc3278d9115d603e5024dec9136e" title="obe::Scene::loadWorldScript\lEngineBaseLib" alt="" coords="1307,115,1495,156"/>
+<area shape="rect" id="node15" href="$namespaceobe_1_1_script.html#a5e992c0efb0543e7c934bc1065f08b01" title="obe::Script::loadLibBridge" alt="" coords="1315,64,1486,90"/>
+<area shape="rect" id="node18" href="$namespaceobe_1_1_script.html#aad6ef67388e6d16eb01853f208da410f" title="obe::Script::loadBaseLib" alt="" coords="1319,282,1483,309"/>
+<area shape="rect" id="node12" href="$namespaceobe_1_1_modes.html#a6a8b08eee511d4895c4da96d4ba223a6" title="Starts the development Menu where you can starts other menus from. " alt="" coords="1785,269,1963,296"/>
+<area shape="rect" id="node16" href="$namespaceobe_1_1_script.html#a5dc8321da50fd4b5dc2935e4d8c93a4e" title="obe::Script::loadScrGame\lObject" alt="" coords="1554,64,1726,106"/>
+<area shape="rect" id="node17" href="$classobe_1_1_script_1_1_game_object.html#aadeac0036d2fe21d523acfd4e9011a23" title="obe::Script::GameObject\l::loadGameObject" alt="" coords="1791,64,1957,106"/>
+<area shape="rect" id="node21" href="$namespaceobe_1_1_modes.html#a5f4a1008892030350b06282b8dee1a89" title="Start the game by loading the boot.lua file in one of the MountedPaths. " alt="" coords="1561,320,1719,346"/>
+<area shape="rect" id="node23" href="$namespaceobe_1_1_script_1_1_core_lib.html#ad3e8d674e535b8a534a3bed6f311d701" title="obe::Script::CoreLib\l::loadAnimation" alt="" coords="693,384,831,426"/>
 </map>

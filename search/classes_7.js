@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['handlepoint',['HandlePoint',['../classobe_1_1_graphics_1_1_level_sprite_1_1_handle_point.html',1,'obe::Graphics::LevelSprite']]]
+  ['identifiable',['Identifiable',['../classobe_1_1_types_1_1_identifiable.html',1,'obe::Types']]]
 ];

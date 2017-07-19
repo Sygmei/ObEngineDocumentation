@@ -1,51 +1,51 @@
 <map id="obe::Modes::startDevMenu" name="obe::Modes::startDevMenu">
-<area shape="rect" id="node2" href="$namespaceobe_1_1_modes.html#a5f4a1008892030350b06282b8dee1a89" title="Start the game by loading the boot.lua file in one of the MountedPaths. " alt="" coords="250,824,409,851"/>
-<area shape="rect" id="node24" href="$namespaceobe_1_1_modes.html#a3f3265818dfb12925bf614e517346f73" title="Starts the menu used to chose a map to edit. " alt="" coords="231,107,428,133"/>
-<area shape="rect" id="node28" href="$namespaceobe_1_1_editor.html#a9009207671e71dccb68a31ea2362e9ef" title="Starts the map edition. " alt="" coords="260,1613,399,1640"/>
-<area shape="rect" id="node50" href="$namespaceobe_1_1_modes.html#a1e38c0d9a2ca0230f0de79c298f53ab9" title="A mode that will start the Toolkit. " alt="" coords="232,1664,427,1691"/>
-<area shape="rect" id="node3" href="$classvili_1_1_data_parser.html#ac2744d454c122cb1adff342be588bc8d" title="vili::DataParser::at" alt="" coords="761,729,889,756"/>
-<area shape="rect" id="node4" href="$namespaceobe_1_1_utils_1_1_math.html#af79008fea1a281ec434372d59249e7d4" title="Get a random integer between the given bound. " alt="" coords="505,915,667,941"/>
-<area shape="rect" id="node5" href="$classvili_1_1_list_attribute.html#aa36c767c486107aef798de216e00c763" title="vili::ListAttribute\l::size" alt="" coords="529,966,643,1007"/>
-<area shape="rect" id="node6" href="$classobe_1_1_script_1_1_core_hook.html#a37aa223169042ff64989ef5cce4ec3e4" title="obe::Script::CoreHook\l::dropValue" alt="" coords="511,1031,661,1073"/>
-<area shape="rect" id="node7" href="$classobe_1_1_triggers_1_1_trigger_database.html#a7fa7c3acb40846820d7f11a344d73451" title="As TriggerDatabase is a Singleton, gets the single instance. " alt="" coords="487,1097,685,1138"/>
-<area shape="rect" id="node8" href="$classobe_1_1_system_1_1_path.html#a096ad4fa7397aa42fd73661b08f50e2a" title="obe::System::Path::\lloadResource" alt="" coords="756,1821,895,1862"/>
-<area shape="rect" id="node9" href="$classobe_1_1_input_1_1_key_binder.html#ad2d418093127720f22242b2c667d0275" title="obe::Input::KeyBinder\l::loadFromFile" alt="" coords="513,1293,659,1334"/>
-<area shape="rect" id="node10" href="$classobe_1_1_time_1_1_f_p_s_counter.html#ad3dfdc34721c2c87ead665b5a4fe9fc2" title="Load a new font to use when drawing the stats. " alt="" coords="507,1162,665,1203"/>
-<area shape="rect" id="node11" href="$classobe_1_1_time_1_1_framerate_manager.html#aa4a355a68b4cd0f602dcff192ca8d70f" title="Check if vSync is enabled or not. " alt="" coords="488,1227,684,1269"/>
-<area shape="rect" id="node12" href="$classobe_1_1_scene_1_1_world.html#a9f7d0973f4422d32044af6f69f08521f" title="obe::Scene::World::\lsetCameraLock" alt="" coords="517,1358,655,1399"/>
-<area shape="rect" id="node13" href="$classobe_1_1_time_1_1_framerate_manager.html#aa0385e4163ffdae9d70cce26e2b2ca51" title="Updates the FramerateManager (done everytime in the main loop) " alt="" coords="488,1423,684,1465"/>
-<area shape="rect" id="node14" href="$classobe_1_1_triggers_1_1_trigger_database.html#a24f39a6242a547f27f9ba8754a551385" title="Updates the TriggerDatabase (Already executed in the main loops) " alt="" coords="487,457,685,498"/>
-<area shape="rect" id="node15" href="$classobe_1_1_scene_1_1_world.html#a1826570ab985f691ea5073de112c9072" title="obe::Scene::World::\lupdate" alt="" coords="517,587,655,629"/>
-<area shape="rect" id="node16" href="$classobe_1_1_time_1_1_framerate_manager.html#ade5f772aa0de137dc5f5d2c415a4174c" title="Get the GameSpeed (DeltaTime * SpeedCoeff) " alt="" coords="488,522,684,563"/>
-<area shape="rect" id="node17" href="$classobe_1_1_input_1_1_key_binder.html#a724b019c07daa6ba895d9aa821bd2ff3" title="obe::Input::KeyBinder\l::update" alt="" coords="513,718,659,759"/>
-<area shape="rect" id="node18" href="$classobe_1_1_system_1_1_cursor.html#aa2612f2e00886a203572adb91dfa4f46" title="Updates the Cursor. " alt="" coords="515,274,657,315"/>
-<area shape="rect" id="node19" href="$classobe_1_1_system_1_1_cursor.html#a3c1d2d899a2186435cdff92e31d50f1c" title="Handles the internal Cursor Triggers. " alt="" coords="515,339,657,381"/>
-<area shape="rect" id="node20" href="$classobe_1_1_input_1_1_key_binder.html#a462fa05e33c310cbc05c5e303b70d56f" title="obe::Input::KeyBinder\l::handleTriggers" alt="" coords="513,653,659,694"/>
-<area shape="rect" id="node21" href="$classobe_1_1_time_1_1_framerate_manager.html#ae1696dee51959f806fb46916d9424716" title="Get if the engine should render everything. " alt="" coords="488,849,684,890"/>
-<area shape="rect" id="node22" href="$classobe_1_1_scene_1_1_world.html#a9362f895538ed0c68a45ab90f84b9a0d" title="obe::Scene::World::\ldisplay" alt="" coords="517,783,655,825"/>
-<area shape="rect" id="node23" href="$classobe_1_1_system_1_1_cursor.html#a74d6631529346dc12cc2ac7eca55b333" title="Displays the Cursor. " alt="" coords="515,209,657,250"/>
-<area shape="rect" id="node25" href="$namespaceobe_1_1_modes.html#aecbdbdd990e6410959e9a4a0f58ecbf4" title="obe::Modes::scrollPanel" alt="" coords="505,5,667,32"/>
-<area shape="rect" id="node26" href="$namespaceobe_1_1_modes.html#aba069f9abc42724d76690602326d6b7d" title="obe::Modes::createLevel" alt="" coords="505,56,667,83"/>
-<area shape="rect" id="node27" href="$namespaceobe_1_1_modes.html#a906551a475a12bc7acee6673e997ff89" title="obe::Modes::chooseMapAddMaps" alt="" coords="476,157,696,184"/>
-<area shape="rect" id="node29" href="$classvili_1_1_complex_attribute.html#aaf50f533fe932a90780931ad62b4e69e" title="vili::ComplexAttribute::at" alt="" coords="744,1992,907,2019"/>
-<area shape="rect" id="node30" href="$classobe_1_1_debug_1_1_console.html#a5fa21f5269b39878cd509d48a734f9b5" title="Creates a new Stream to use in the Console. " alt="" coords="515,2073,657,2114"/>
-<area shape="rect" id="node31" href="$classobe_1_1_debug_1_1_console.html#a6457182d58e5ddfd8053529bb43345fc" title="Push a new Message to the Console. " alt="" coords="754,2167,897,2209"/>
-<area shape="rect" id="node32" href="$classobe_1_1_input_1_1_key_binder.html#ad18881f48c73c801432d546af09aa0d7" title="obe::Input::KeyBinder\l::setActionDelay" alt="" coords="513,2255,659,2297"/>
-<area shape="rect" id="node33" href="$classobe_1_1_scene_1_1_world.html#aba173a51f2e97f6a560f5365e146adeb" title="obe::Scene::World::\lsetLevelName" alt="" coords="517,2321,655,2362"/>
-<area shape="rect" id="node34" href="$classobe_1_1_editor_1_1_editor_grid.html#a8afeb104eae2d2d4fff69b56ac94f0eb" title="Get the width of a Cell of the Grid (in Pixels) " alt="" coords="511,2386,661,2427"/>
-<area shape="rect" id="node35" href="$classobe_1_1_editor_1_1_editor_grid.html#ac8f4e424f591eb971093f4026656183f" title="Get the height of a Cell of the Grid (in Pixels) " alt="" coords="511,2451,661,2493"/>
-<area shape="rect" id="node36" href="$namespaceobe_1_1_utils_1_1_string.html#ae02e26ec5eb43272fc37bb577193af79" title="Get if the string is an integer. " alt="" coords="527,2517,645,2558"/>
-<area shape="rect" id="node37" href="$classobe_1_1_editor_1_1_editor_grid.html#a7ef9a11df14a85e719f5873378ba19d9" title="Set the size of a Cell. " alt="" coords="511,2582,661,2623"/>
-<area shape="rect" id="node38" href="$classobe_1_1_editor_1_1_editor_grid.html#a7551b01902874f99006ca45efbfe802b" title="Get the horizontal offset of the first displayed Cell (TopLeft) " alt="" coords="511,2647,661,2689"/>
-<area shape="rect" id="node39" href="$classobe_1_1_editor_1_1_editor_grid.html#ac219c6a51bca5b45c0a5b013443f09dc" title="Get the vertical offset of the first displayed Cell (TopLeft) " alt="" coords="511,2713,661,2754"/>
-<area shape="rect" id="node40" href="$classobe_1_1_editor_1_1_editor_grid.html#ae355787b83e15c541b87f430dc039856" title="Set the offset of the first displayed Cell (TopLeft) " alt="" coords="511,2778,661,2819"/>
-<area shape="rect" id="node41" href="$classobe_1_1_system_1_1_cursor.html#af9f0b09cbf47bcfa51061550b33e0da2" title="Gets the x Coordinate of the raw (System) position of the Cursor (Unconstrained) " alt="" coords="515,2843,657,2885"/>
-<area shape="rect" id="node42" href="$classobe_1_1_system_1_1_cursor.html#adfe66fe1c349afbd672e071a1086aa0b" title="Gets the y Coordinate of the raw (System) position of the Cursor (Unconstrained) " alt="" coords="515,1541,657,1582"/>
-<area shape="rect" id="node43" href="$namespaceobe_1_1_editor.html#a75bc94b8c9152749d28e9e3927522e4a" title="obe::Editor::loadSpriteFolder" alt="" coords="493,1803,679,1829"/>
-<area shape="rect" id="node44" href="$namespaceobe_1_1_editor.html#a24423ada9fd467ae78ebf9d21e64db0b" title="obe::Editor::buildObjectTab" alt="" coords="497,1853,675,1880"/>
-<area shape="rect" id="node45" href="$classobe_1_1_scene_1_1_world.html#a362d242e7751481b0086ca9ed131920f" title="obe::Scene::World::\lloadFromFile" alt="" coords="517,1955,655,1997"/>
-<area shape="rect" id="node46" href="$classobe_1_1_scene_1_1_world.html#a4a49f19f61a30ca07f9b4bf0666017ef" title="obe::Scene::World::\lgetLevelName" alt="" coords="517,1606,655,1647"/>
-<area shape="rect" id="node47" href="$classobe_1_1_debug_1_1_console_1_1_stream.html#a17a417a2009b8a917411f6aba78e6eed" title="Push a new Message to the Console. " alt="" coords="515,2138,657,2179"/>
-<area shape="rect" id="node48" href="$classobe_1_1_debug_1_1_console_1_1_message.html#a3d71fd5d3f3c4481f48b88b8545e4319" title="Set the color of the Message. " alt="" coords="515,1671,657,1713"/>
-<area shape="rect" id="node49" href="$classobe_1_1_scene_1_1_world.html#a70662c90c80146799b7724973c7f5a06" title="obe::Scene::World::\lgetCollisionByID" alt="" coords="517,1737,655,1778"/>
+<area shape="rect" id="node2" href="$namespaceobe_1_1_modes.html#a5f4a1008892030350b06282b8dee1a89" title="Start the game by loading the boot.lua file in one of the MountedPaths. " alt="" coords="507,685,665,712"/>
+<area shape="rect" id="node28" href="$namespaceobe_1_1_modes.html#a3f3265818dfb12925bf614e517346f73" title="Starts the menu used to chose a map to edit. " alt="" coords="231,196,428,223"/>
+<area shape="rect" id="node32" href="$namespaceobe_1_1_editor.html#a9009207671e71dccb68a31ea2362e9ef" title="Starts the map edition. " alt="" coords="517,1376,655,1403"/>
+<area shape="rect" id="node50" href="$namespaceobe_1_1_modes.html#a1e38c0d9a2ca0230f0de79c298f53ab9" title="A mode that will start the Toolkit. " alt="" coords="232,787,427,813"/>
+<area shape="rect" id="node3" href="$classvili_1_1_data_parser.html#ac2744d454c122cb1adff342be588bc8d" title="vili::DataParser::at" alt="" coords="788,5,916,32"/>
+<area shape="rect" id="node4" href="$namespaceobe_1_1_utils_1_1_math.html#af79008fea1a281ec434372d59249e7d4" title="Get a random integer between the given bound. " alt="" coords="771,1103,933,1129"/>
+<area shape="rect" id="node5" href="$classvili_1_1_list_attribute.html#aa36c767c486107aef798de216e00c763" title="vili::ListAttribute\l::size" alt="" coords="795,1154,909,1195"/>
+<area shape="rect" id="node6" href="$classobe_1_1_script_1_1_core_hook.html#a37aa223169042ff64989ef5cce4ec3e4" title="obe::Script::CoreHook\l::dropValue" alt="" coords="777,1219,927,1261"/>
+<area shape="rect" id="node7" href="$classobe_1_1_triggers_1_1_trigger_database.html#a7fa7c3acb40846820d7f11a344d73451" title="As TriggerDatabase is a Singleton, gets the single instance. " alt="" coords="753,1285,951,1326"/>
+<area shape="rect" id="node8" href="$classobe_1_1_system_1_1_path.html#a096ad4fa7397aa42fd73661b08f50e2a" title="obe::System::Path::\lloadResource" alt="" coords="783,253,921,294"/>
+<area shape="rect" id="node9" href="$classobe_1_1_input_1_1_keyboard_manager.html#abbce124896d60fce3cd1f1576985c310" title="Configure KeyboardAction from a vili configuration file. " alt="" coords="756,1453,948,1494"/>
+<area shape="rect" id="node12" href="$classobe_1_1_input_1_1_keyboard_manager.html#aed4d579b3fdf587aa4b9c5f7af478294" title="Adds a new context the KeyboardManager will use. " alt="" coords="756,318,948,359"/>
+<area shape="rect" id="node13" href="$classobe_1_1_time_1_1_f_p_s_counter.html#ad3dfdc34721c2c87ead665b5a4fe9fc2" title="Load a new font to use when drawing the stats. " alt="" coords="773,383,931,425"/>
+<area shape="rect" id="node14" href="$classobe_1_1_time_1_1_framerate_manager.html#aa4a355a68b4cd0f602dcff192ca8d70f" title="Check if vSync is enabled or not. " alt="" coords="754,449,950,490"/>
+<area shape="rect" id="node15" href="$classobe_1_1_scene_1_1_world.html#a9f7d0973f4422d32044af6f69f08521f" title="obe::Scene::World::\lsetCameraLock" alt="" coords="783,514,921,555"/>
+<area shape="rect" id="node16" href="$classobe_1_1_time_1_1_framerate_manager.html#aa0385e4163ffdae9d70cce26e2b2ca51" title="Updates the FramerateManager (done everytime in the main loop) " alt="" coords="754,579,950,621"/>
+<area shape="rect" id="node17" href="$classobe_1_1_triggers_1_1_trigger_database.html#a24f39a6242a547f27f9ba8754a551385" title="Updates the TriggerDatabase (Already executed in the main loops) " alt="" coords="753,645,951,686"/>
+<area shape="rect" id="node18" href="$classobe_1_1_scene_1_1_world.html#a1826570ab985f691ea5073de112c9072" title="obe::Scene::World::\lupdate" alt="" coords="783,710,921,751"/>
+<area shape="rect" id="node20" href="$classobe_1_1_time_1_1_framerate_manager.html#ade5f772aa0de137dc5f5d2c415a4174c" title="Get the GameSpeed (DeltaTime * SpeedCoeff) " alt="" coords="754,775,950,817"/>
+<area shape="rect" id="node21" href="$classobe_1_1_input_1_1_keyboard_manager.html#a33012cf8c4010f0e38ec90df976884f7" title="Updates the KeyboardManager. " alt="" coords="756,841,948,882"/>
+<area shape="rect" id="node22" href="$classobe_1_1_system_1_1_cursor.html#aa2612f2e00886a203572adb91dfa4f46" title="Updates the Cursor. " alt="" coords="781,187,923,229"/>
+<area shape="rect" id="node23" href="$classobe_1_1_system_1_1_cursor.html#a3c1d2d899a2186435cdff92e31d50f1c" title="Handles the internal Cursor Triggers. " alt="" coords="781,57,923,98"/>
+<area shape="rect" id="node24" href="$classobe_1_1_input_1_1_keyboard_manager.html#a13c207794c0b29ce97ad0b5108a0dc8e" title="Handles the Triggers of the KeyboardManager. " alt="" coords="756,906,948,947"/>
+<area shape="rect" id="node25" href="$classobe_1_1_time_1_1_framerate_manager.html#ae1696dee51959f806fb46916d9424716" title="Get if the engine should render everything. " alt="" coords="754,971,950,1013"/>
+<area shape="rect" id="node26" href="$classobe_1_1_scene_1_1_world.html#a9362f895538ed0c68a45ab90f84b9a0d" title="obe::Scene::World::\ldisplay" alt="" coords="783,1037,921,1078"/>
+<area shape="rect" id="node27" href="$classobe_1_1_system_1_1_cursor.html#a74d6631529346dc12cc2ac7eca55b333" title="Displays the Cursor. " alt="" coords="781,122,923,163"/>
+<area shape="rect" id="node10" href="$classvili_1_1_complex_attribute.html#aaf50f533fe932a90780931ad62b4e69e" title="vili::ComplexAttribute::at" alt="" coords="1023,1431,1185,1457"/>
+<area shape="rect" id="node11" href="$classobe_1_1_input_1_1_keyboard_manager.html#ab08b974a37c318f84544fe10dd2fdca5" title="Get the KeyboardAction identified by actionId if it exists. " alt="" coords="1008,1951,1200,1993"/>
+<area shape="rect" id="node19" href="$classobe_1_1_scene_1_1_world.html#a1623994f38100365278195ee83861817" title="obe::Scene::World::\ldeleteSprite" alt="" coords="1035,1027,1173,1069"/>
+<area shape="rect" id="node29" href="$namespaceobe_1_1_modes.html#aecbdbdd990e6410959e9a4a0f58ecbf4" title="obe::Modes::scrollPanel" alt="" coords="505,171,667,197"/>
+<area shape="rect" id="node30" href="$namespaceobe_1_1_modes.html#aba069f9abc42724d76690602326d6b7d" title="obe::Modes::createLevel" alt="" coords="505,44,667,71"/>
+<area shape="rect" id="node31" href="$namespaceobe_1_1_modes.html#a906551a475a12bc7acee6673e997ff89" title="obe::Modes::chooseMapAddMaps" alt="" coords="476,221,696,248"/>
+<area shape="rect" id="node33" href="$classobe_1_1_debug_1_1_console.html#a95a9f75bf9c421f88d3bdd9ef1a95df3" title="Creates a new Stream to use in the Console. " alt="" coords="781,1779,923,1821"/>
+<area shape="rect" id="node34" href="$classobe_1_1_debug_1_1_console.html#a371e6e971dfd23464717aeacc5b1a2b2" title="Push a new Message to the Console. " alt="" coords="781,1845,923,1886"/>
+<area shape="rect" id="node35" href="$classobe_1_1_input_1_1_keyboard_action.html#a157642c3a507dea2a6e247c1ca70cbb6" title="Sets the delay between two &#39;Hold&#39; callbacks activations. " alt="" coords="763,1910,941,1951"/>
+<area shape="rect" id="node36" href="$namespaceobe_1_1_editor_1_1_g_u_i.html#a10ac68cfe87c5388b159dd7aa70dc402" title="obe::Editor::GUI::init" alt="" coords="782,1976,922,2003"/>
+<area shape="rect" id="node37" href="$namespaceobe_1_1_editor_1_1_g_u_i.html#a0c6c58e70889e48936bbb88e355343bc" title="obe::Editor::GUI::buildEditorMenu" alt="" coords="744,2027,960,2053"/>
+<area shape="rect" id="node38" href="$namespaceobe_1_1_editor_1_1_g_u_i.html#ac6bd0d7f61e5e2b53afe9a9816d563b0" title="obe::Editor::GUI::buildObject\lCreationMenu" alt="" coords="758,2078,946,2119"/>
+<area shape="rect" id="node39" href="$namespaceobe_1_1_editor_1_1_g_u_i.html#a3b76d23529a5a026a7257e4dc31c72a7" title="obe::Editor::GUI::buildToolbar" alt="" coords="756,2144,948,2171"/>
+<area shape="rect" id="node40" href="$namespaceobe_1_1_editor_1_1_g_u_i.html#aea87c359bf8173e499c2ed4920f961aa" title="obe::Editor::GUI::buildEditor\lMapMenu" alt="" coords="760,2195,944,2237"/>
+<area shape="rect" id="node41" href="$namespaceobe_1_1_editor_1_1_g_u_i.html#a0e86f334cbb96c0202f6cf5626aa81a1" title="obe::Editor::GUI::buildEditor\lSettingsMenu" alt="" coords="760,2261,944,2302"/>
+<area shape="rect" id="node42" href="$namespaceobe_1_1_editor_1_1_g_u_i.html#a5d2864942020d4f1bdfe7cf9e7d667bc" title="obe::Editor::GUI::buildEditor\lSpritesMenu" alt="" coords="760,2326,944,2367"/>
+<area shape="rect" id="node43" href="$namespaceobe_1_1_editor_1_1_g_u_i.html#ac209e33d93d1c6b719ed4c5206994ffc" title="obe::Editor::GUI::buildEditor\lObjectsMenu" alt="" coords="760,2391,944,2433"/>
+<area shape="rect" id="node44" href="$classobe_1_1_input_1_1_keyboard_action.html#ae38484f73d5aa0c9a8637334935d6f0d" title="Adds a new Callback (Only one callback per state) " alt="" coords="763,2509,941,2550"/>
+<area shape="rect" id="node45" href="$classobe_1_1_scene_1_1_world.html#a7f55d1a827111d53518be9cc7e7eb014" title="obe::Scene::World::\lgetCamera" alt="" coords="783,2574,921,2615"/>
+<area shape="rect" id="node46" href="$classobe_1_1_scene_1_1_camera.html#a728fbdde50e94f132bac1123fbee2628" title="obe::Scene::Camera\l::move" alt="" coords="781,1518,923,1559"/>
+<area shape="rect" id="node47" href="$classobe_1_1_editor_1_1_editor_grid.html#adef94a09f0eef72c906023519d6d9c9e" title="Move the virtual magnet on the grid (Used to magnetize the System::Cursor) " alt="" coords="777,1583,927,1625"/>
+<area shape="rect" id="node48" href="$classobe_1_1_editor_1_1_editor_grid.html#a6156bc20806d24081c659f1fe714d8ae" title="Magnetize the System::Cursor to the closest Grid intersection. " alt="" coords="777,1649,927,1690"/>
+<area shape="rect" id="node49" href="$classobe_1_1_scene_1_1_world.html#a70662c90c80146799b7724973c7f5a06" title="obe::Scene::World::\lgetCollisionByID" alt="" coords="783,1714,921,1755"/>
 </map>

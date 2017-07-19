@@ -9,6 +9,8 @@ var searchData=
   ['complexattribute',['ComplexAttribute',['../classvili_1_1_complex_attribute.html',1,'vili']]],
   ['configurable',['Configurable',['../classobe_1_1_graphics_1_1_configurable.html',1,'obe::Graphics']]],
   ['console',['Console',['../classobe_1_1_debug_1_1_console.html',1,'obe::Debug']]],
+  ['consolemessage',['ConsoleMessage',['../classobe_1_1_debug_1_1_console_message.html',1,'obe::Debug']]],
+  ['consolestream',['ConsoleStream',['../classobe_1_1_debug_1_1_console_stream.html',1,'obe::Debug']]],
   ['containerattribute',['ContainerAttribute',['../classvili_1_1_container_attribute.html',1,'vili']]],
   ['corehook',['CoreHook',['../classobe_1_1_script_1_1_core_hook.html',1,'obe::Script']]],
   ['cursor',['Cursor',['../classobe_1_1_system_1_1_cursor.html',1,'obe::System']]]
