@@ -1,33 +1,16 @@
 <map id="obe::Editor::addSpriteToWorld" name="obe::Editor::addSpriteToWorld">
-<area shape="rect" id="node2" href="$classobe_1_1_script_1_1_core_hook.html#abfb4f2a09d40cf0d54e22aea701e597c" title="obe::Script::CoreHook\l::getPointer" alt="" coords="451,144,601,185"/>
-<area shape="rect" id="node8" href="$classobe_1_1_types_1_1_any.html#a46759ea1523dd908b7acc6b143727fed" title="obe::Types::Any::as" alt="" coords="234,71,373,98"/>
-<area shape="rect" id="node9" href="$namespaceobe_1_1_utils_1_1_string.html#a29c76645ca98b28a4f885016514fa7fd" title="Generates a random string witch characters from the given set. " alt="" coords="244,5,363,47"/>
-<area shape="rect" id="node12" href="$classobe_1_1_scene_1_1_world.html#a80537e61320410e688bdf989ba3947c4" title="obe::Scene::World::\ldoesSpriteExists" alt="" coords="234,173,373,215"/>
-<area shape="rect" id="node13" href="$classobe_1_1_scene_1_1_world.html#a909e6b01ecacc46635aa39cd85ef5be4" title="obe::Scene::World::\lcreateLevelSprite" alt="" coords="234,239,373,280"/>
-<area shape="rect" id="node15" href="$classobe_1_1_scene_1_1_world.html#a7f55d1a827111d53518be9cc7e7eb014" title="obe::Scene::World::\lgetCamera" alt="" coords="234,304,373,345"/>
-<area shape="rect" id="node16" href="$classobe_1_1_scene_1_1_camera.html#a0784974770837ae195a7738debcf6dec" title="obe::Scene::Camera\l::getPosition" alt="" coords="233,369,374,411"/>
-<area shape="rect" id="node17" href="$classobe_1_1_transform_1_1_unit_vector.html#ac3baab00050c329e70453fd646224a0d" title="Return an UnitVector with the converted values (x, y) to the Unit you want. " alt="" coords="1167,638,1363,665"/>
-<area shape="rect" id="node18" href="$classobe_1_1_graphics_1_1_level_sprite.html#a602ba1b764b14cadf9f34f3f8025caae" title="The LevelSprite will load the sf::Texture at the given path. " alt="" coords="216,435,391,476"/>
-<area shape="rect" id="node21" href="$classobe_1_1_transform_1_1_rect.html#adf40297c2c6af849749317a50b028a0d" title="Get the Position of the Rect. " alt="" coords="455,561,597,603"/>
-<area shape="rect" id="node24" href="$classobe_1_1_graphics_1_1_level_sprite.html#adc82bcb6c31078c63147f2d25632f55f" title="Set the rotation of the sprite. " alt="" coords="216,500,391,541"/>
-<area shape="rect" id="node26" href="$classobe_1_1_graphics_1_1_level_sprite.html#a4a5fe710180a8e212146c405e2ada699" title="obe::Graphics::LevelSprite\l::getTexture" alt="" coords="216,683,391,724"/>
-<area shape="rect" id="node27" href="$classobe_1_1_transform_1_1_rect.html#a33e764690a560ac81e2cb1dd73e0fb85" title="Set the size of the Rect. " alt="" coords="232,617,375,659"/>
-<area shape="rect" id="node30" href="$classobe_1_1_graphics_1_1_level_sprite.html#a2070b480a4c240d742ee48e0a93f9d62" title="obe::Graphics::LevelSprite\l::setAtr" alt="" coords="216,800,391,841"/>
-<area shape="rect" id="node31" href="$classobe_1_1_graphics_1_1_level_sprite.html#ab7409d0f3b9575ecfea03dceab194601" title="Set the layer of the Sprite. " alt="" coords="216,865,391,907"/>
-<area shape="rect" id="node32" href="$classobe_1_1_graphics_1_1_level_sprite.html#a650a74377a73ceaab15cdc38df4c6bfa" title="Set the Z&#45;Depth of the Sprite (SubLayers) " alt="" coords="216,931,391,972"/>
-<area shape="rect" id="node3" href="$classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b" title="aube::ErrorHandler\l::Raise" alt="" coords="697,225,828,267"/>
-<area shape="rect" id="node4" href="$classaube_1_1_error_message.html#a3a39b6fcd8fdb12eaf6383123535b8ca" title="aube::ErrorMessage\l::getFile" alt="" coords="946,193,1085,235"/>
-<area shape="rect" id="node5" href="$classaube_1_1_error_message.html#a9184cc96589578f434351c105b0cd5f7" title="aube::ErrorMessage\l::getLocation" alt="" coords="946,259,1085,300"/>
-<area shape="rect" id="node6" href="$classaube_1_1_error_message.html#a07927cb3e2d0712c459cc9e2b5f52696" title="aube::ErrorMessage\l::getMessage" alt="" coords="946,324,1085,365"/>
-<area shape="rect" id="node7" href="$classaube_1_1_error_message.html#a77c2f9b7e93542c958173b52da267989" title="aube::ErrorMessage\l::getHints" alt="" coords="946,128,1085,169"/>
-<area shape="rect" id="node10" href="$namespaceobe_1_1_utils_1_1_math.html#af79008fea1a281ec434372d59249e7d4" title="Get a random integer between the given bound. " alt="" coords="445,13,607,39"/>
-<area shape="rect" id="node11" href="$namespaceobe_1_1_utils_1_1_math.html#a675729380c54b579e88c541098a50258" title="obe::Utils::Math::rng" alt="" coords="693,13,833,39"/>
-<area shape="rect" id="node14" href="$classobe_1_1_scene_1_1_world.html#ab6244c9cebcf1bef90237aae488ed4f0" title="obe::Scene::World::\lreorganizeLayers" alt="" coords="457,239,595,280"/>
-<area shape="rect" id="node19" href="$classobe_1_1_system_1_1_path.html#a096ad4fa7397aa42fd73661b08f50e2a" title="obe::System::Path::\lloadResource" alt="" coords="457,367,595,408"/>
-<area shape="rect" id="node20" href="$namespaceobe_1_1_utils_1_1_file.html#a1095626f5495edc7b8692073dd25cceb" title="Check if the file at the given path exists. " alt="" coords="679,374,846,401"/>
-<area shape="rect" id="node22" href="$classobe_1_1_transform_1_1_rect.html#a02a40e3f622105b27fa3841002d8739e" title="Transform the UnitVector passed by reference using the given Referencial. " alt="" coords="691,568,834,609"/>
-<area shape="rect" id="node23" href="$classobe_1_1_transform_1_1_unit_vector.html#ace41a69769656febcf45cb2f4b90fa0e" title="Adds the values of the the given UnitVector but keeps base Unit. " alt="" coords="912,537,1119,563"/>
-<area shape="rect" id="node25" href="$classobe_1_1_graphics_1_1_level_sprite.html#a1b66251ed9abac7885f07d8e39118664" title="Rotate the sprite. " alt="" coords="439,496,613,537"/>
-<area shape="rect" id="node28" href="$classobe_1_1_transform_1_1_unit_vector.html#af3867f780ceba4d23046a85314bfa077" title="Set the values of the given UnitVector but keeps base Unit. " alt="" coords="661,689,864,715"/>
-<area shape="rect" id="node29" href="$classobe_1_1_transform_1_1_rect.html#a76c0e31ad4c6f81b974e99be7a1bc088" title="Set the position of the Rect using an UnitVector. " alt="" coords="455,627,597,668"/>
+<area shape="rect" id="node2" href="$classobe_1_1_script_1_1_core_hook.html#abfb4f2a09d40cf0d54e22aea701e597c" title="obe::Script::CoreHook\l::getPointer" alt="" coords="239,104,389,145"/>
+<area shape="rect" id="node8" href="$classobe_1_1_types_1_1_any.html#a46759ea1523dd908b7acc6b143727fed" title="obe::Types::Any::as" alt="" coords="245,170,383,197"/>
+<area shape="rect" id="node9" href="$classobe_1_1_scene_1_1_scene.html#a30fa749216d62e9a346ffee79ba5aa13" title="Get how many LevelSprites are present in the Scene. " alt="" coords="240,221,388,263"/>
+<area shape="rect" id="node10" href="$classobe_1_1_scene_1_1_scene.html#adbadedd41641b7dbcdc00682395f6925" title="Check if a LevelSprite exists in the Scene. " alt="" coords="239,287,389,328"/>
+<area shape="rect" id="node11" href="$classobe_1_1_scene_1_1_scene.html#ac868d2b68177aa7aa584bf6af81823d9" title="Creates a new LevelSprite. " alt="" coords="243,352,385,393"/>
+<area shape="rect" id="node13" href="$classobe_1_1_scene_1_1_scene.html#a8e846af715af6b26fa13b8429d16f208" title="obe::Scene::Scene::\lgetCamera" alt="" coords="243,417,385,459"/>
+<area shape="rect" id="node14" href="$classobe_1_1_scene_1_1_camera.html#a0784974770837ae195a7738debcf6dec" title="obe::Scene::Camera\l::getPosition" alt="" coords="243,483,385,524"/>
+<area shape="rect" id="node15" href="$classobe_1_1_transform_1_1_unit_vector.html#ac3baab00050c329e70453fd646224a0d" title="Return an UnitVector with the converted values (x, y) to the Unit you want. " alt="" coords="216,549,412,575"/>
+<area shape="rect" id="node3" href="$classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b" title="Raises an Error loaded in the Aube Error Database (AED) " alt="" coords="465,104,596,145"/>
+<area shape="rect" id="node4" href="$classaube_1_1_error_message.html#a3a39b6fcd8fdb12eaf6383123535b8ca" title="Gets the File where is located the ErrorMessage when raised. " alt="" coords="649,5,788,47"/>
+<area shape="rect" id="node5" href="$classaube_1_1_error_message.html#a9184cc96589578f434351c105b0cd5f7" title="Gets the location of the error in the code. " alt="" coords="649,71,788,112"/>
+<area shape="rect" id="node6" href="$classaube_1_1_error_message.html#a07927cb3e2d0712c459cc9e2b5f52696" title="Gets the message displayed by the ErrorMessage when raised. " alt="" coords="649,136,788,177"/>
+<area shape="rect" id="node7" href="$classaube_1_1_error_message.html#a77c2f9b7e93542c958173b52da267989" title="Gets hints that can help the error resolution. " alt="" coords="649,201,788,243"/>
+<area shape="rect" id="node12" href="$classobe_1_1_scene_1_1_scene.html#aa138ef5c7a9f869e4e8b5464a49918d5" title="Reorganize all the LevelSprite (by Layer and z&#45;depth) " alt="" coords="460,352,601,393"/>
 </map>

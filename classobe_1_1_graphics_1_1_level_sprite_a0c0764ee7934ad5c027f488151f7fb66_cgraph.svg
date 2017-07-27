@@ -8,27 +8,27 @@
  viewBox="0.00 0.00 465.00 101.50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 97.5)">
 <title>obe::Graphics::LevelSprite::drawHandle</title>
-<!-- Node5 -->
-<g id="node1" class="node"><title>Node5</title>
+<!-- Node2 -->
+<g id="node1" class="node"><title>Node2</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-46.5 0,-76.5 131,-76.5 131,-46.5 0,-46.5"/>
 <text text-anchor="start" x="8" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Graphics::LevelSprite</text>
 <text text-anchor="middle" x="65.5" y="-53.5" font-family="Helvetica,sans-Serif" font-size="10.00">::drawHandle</text>
 </g>
-<!-- Node6 -->
-<g id="node2" class="node"><title>Node6</title>
+<!-- Node3 -->
+<g id="node2" class="node"><title>Node3</title>
 <g id="a_node2"><a xlink:href="classobe_1_1_transform_1_1_unit_vector.html#ac3baab00050c329e70453fd646224a0d" target="_top" xlink:title="Return an UnitVector with the converted values (x, y) to the Unit you want. ">
 <polygon fill="white" stroke="black" points="167,-74 167,-93 314,-93 314,-74 167,-74"/>
 <text text-anchor="middle" x="240.5" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Transform::UnitVector::to</text>
 </a>
 </g>
 </g>
-<!-- Node5&#45;&gt;Node6 -->
-<g id="edge1" class="edge"><title>Node5&#45;&gt;Node6</title>
+<!-- Node2&#45;&gt;Node3 -->
+<g id="edge1" class="edge"><title>Node2&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M131.411,-69.7546C139.749,-70.815 148.374,-71.9117 156.946,-73.0018"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="156.604,-76.4864 166.966,-74.276 157.487,-69.5423 156.604,-76.4864"/>
 </g>
-<!-- Node7 -->
-<g id="node3" class="node"><title>Node7</title>
+<!-- Node4 -->
+<g id="node3" class="node"><title>Node4</title>
 <g id="a_node3"><a xlink:href="namespaceobe_1_1_graphics_1_1_utils.html#a2def90f47166d1c52699e99a5c29aad2" target="_top" xlink:title="Draws a Polygon. ">
 <polygon fill="white" stroke="black" points="189,-24.5 189,-54.5 292,-54.5 292,-24.5 189,-24.5"/>
 <text text-anchor="start" x="197" y="-42.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Graphics::Utils</text>
@@ -36,13 +36,13 @@
 </a>
 </g>
 </g>
-<!-- Node5&#45;&gt;Node7 -->
-<g id="edge2" class="edge"><title>Node5&#45;&gt;Node7</title>
+<!-- Node2&#45;&gt;Node4 -->
+<g id="edge2" class="edge"><title>Node2&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M131.411,-53.2454C146.835,-51.2839 163.238,-49.198 178.482,-47.2596"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="179.345,-50.6781 188.823,-45.9444 178.462,-43.734 179.345,-50.6781"/>
 </g>
-<!-- Node8 -->
-<g id="node4" class="node"><title>Node8</title>
+<!-- Node5 -->
+<g id="node4" class="node"><title>Node5</title>
 <g id="a_node4"><a xlink:href="namespaceobe_1_1_graphics_1_1_utils.html#a631dbc6b2cd869ba13c3bd3a1df48b11" target="_top" xlink:title="obe::Graphics::Utils\l::findOptionOrDefault">
 <polygon fill="white" stroke="black" points="350,-49.5 350,-79.5 457,-79.5 457,-49.5 350,-49.5"/>
 <text text-anchor="start" x="358" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Graphics::Utils</text>
@@ -50,22 +50,22 @@
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node8 -->
-<g id="edge3" class="edge"><title>Node7&#45;&gt;Node8</title>
+<!-- Node4&#45;&gt;Node5 -->
+<g id="edge3" class="edge"><title>Node4&#45;&gt;Node5</title>
 <path fill="none" stroke="midnightblue" d="M292.441,-47.4102C307.48,-49.7454 324.117,-52.3287 339.804,-54.7647"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="339.531,-58.2641 349.95,-56.34 340.605,-51.347 339.531,-58.2641"/>
 </g>
-<!-- Node9 -->
-<g id="node5" class="node"><title>Node9</title>
-<g id="a_node5"><a xlink:href="namespaceobe_1_1_graphics_1_1_utils.html#a1dadb3fe2075edb8ac7b35f4f8412fda" target="_top" xlink:title="Draws a Line. ">
+<!-- Node6 -->
+<g id="node5" class="node"><title>Node6</title>
+<g id="a_node5"><a xlink:href="namespaceobe_1_1_graphics_1_1_utils.html#a8f93d6b428379189aaaf8d8bc98d4de3" target="_top" xlink:title="Draws a Line. ">
 <polygon fill="white" stroke="black" points="352,-0.5 352,-30.5 455,-30.5 455,-0.5 352,-0.5"/>
 <text text-anchor="start" x="360" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Graphics::Utils</text>
 <text text-anchor="middle" x="403.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::drawLine</text>
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node9 -->
-<g id="edge4" class="edge"><title>Node7&#45;&gt;Node9</title>
+<!-- Node4&#45;&gt;Node6 -->
+<g id="edge4" class="edge"><title>Node4&#45;&gt;Node6</title>
 <path fill="none" stroke="midnightblue" d="M292.441,-31.9063C308.157,-29.5635 325.619,-26.9606 341.918,-24.5309"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="342.515,-27.9806 351.89,-23.0444 341.483,-21.0571 342.515,-27.9806"/>
 </g>

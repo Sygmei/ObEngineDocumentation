@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['complexattribute',['ComplexAttribute',['../classvili_1_1_node_iterator.html#a57631af16c51c0ee45f14611f0e3369a',1,'vili::NodeIterator']]],
-  ['containerattribute',['ContainerAttribute',['../classvili_1_1_attribute.html#a11073345cad01fc757426b9694c65010',1,'vili::Attribute']]]
+  ['complexnode',['ComplexNode',['../classvili_1_1_node_iterator.html#a9ed7b835abf770d9040108fecec76bfe',1,'vili::NodeIterator']]],
+  ['containernode',['ContainerNode',['../classvili_1_1_node.html#a96901e39f9cbac3ab69588955af54141',1,'vili::Node']]]
 ];

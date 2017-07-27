@@ -49,7 +49,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 582;
+var viewWidth = 708;
 var viewHeight = 173;
 var sectionId = 'dynsection-0';
 </script>
@@ -59,9 +59,9 @@ var sectionId = 'dynsection-0';
 <title>E:/Dev/ObEngine/Git/include/Types/Togglable.hpp</title>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="314,-134.5 314,-164.5 457,-164.5 457,-134.5 314,-134.5"/>
-<text text-anchor="start" x="322" y="-152.5" font-family="Helvetica,sans-Serif" font-size="10.00">E:/Dev/ObEngine/Git</text>
-<text text-anchor="middle" x="385.5" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">/include/Types/Togglable.hpp</text>
+<polygon fill="#bfbfbf" stroke="black" points="406,-134.5 406,-164.5 549,-164.5 549,-134.5 406,-134.5"/>
+<text text-anchor="start" x="414" y="-152.5" font-family="Helvetica,sans-Serif" font-size="10.00">E:/Dev/ObEngine/Git</text>
+<text text-anchor="middle" x="477.5" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">/include/Types/Togglable.hpp</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
@@ -74,22 +74,36 @@ var sectionId = 'dynsection-0';
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M361.382,-127.598C350.057,-117.783 336.859,-106.344 326.742,-97.5765"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="359.377,-130.492 369.226,-134.396 363.961,-125.202 359.377,-130.492"/>
+<path fill="none" stroke="midnightblue" d="M431.72,-130.682C404.937,-120.257 371.598,-107.281 346.666,-97.5765"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="430.675,-134.03 441.263,-134.396 433.214,-127.507 430.675,-134.03"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="_togglable_8cpp.html" target="_top" xlink:title="E:/Dev/ObEngine/Git\l/src/Types/Togglable.cpp">
-<polygon fill="none" stroke="black" points="398,-67.5 398,-97.5 523,-97.5 523,-67.5 398,-67.5"/>
+<g id="a_node7"><a xlink:href="_types_bindings_8cpp.html" target="_top" xlink:title="E:/Dev/ObEngine/Git\l/src/Bindings/TypesBindings.cpp">
+<polygon fill="none" stroke="black" points="398,-67.5 398,-97.5 557,-97.5 557,-67.5 398,-67.5"/>
 <text text-anchor="start" x="406" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">E:/Dev/ObEngine/Git</text>
-<text text-anchor="middle" x="460.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/Types/Togglable.cpp</text>
+<text text-anchor="middle" x="477.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/Bindings/TypesBindings.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node7 -->
 <g id="edge6" class="edge"><title>Node1&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M409.618,-127.598C420.943,-117.783 434.141,-106.344 444.258,-97.5765"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="407.039,-125.202 401.774,-134.396 411.623,-130.492 407.039,-125.202"/>
+<path fill="none" stroke="midnightblue" d="M477.5,-124.108C477.5,-115.154 477.5,-105.323 477.5,-97.5765"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="474,-124.396 477.5,-134.396 481,-124.396 474,-124.396"/>
+</g>
+<!-- Node8 -->
+<g id="node8" class="node"><title>Node8</title>
+<g id="a_node8"><a xlink:href="_togglable_8cpp.html" target="_top" xlink:title="E:/Dev/ObEngine/Git\l/src/Types/Togglable.cpp">
+<polygon fill="none" stroke="black" points="575,-67.5 575,-97.5 700,-97.5 700,-67.5 575,-67.5"/>
+<text text-anchor="start" x="583" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">E:/Dev/ObEngine/Git</text>
+<text text-anchor="middle" x="637.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">/src/Types/Togglable.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node8 -->
+<g id="edge7" class="edge"><title>Node1&#45;&gt;Node8</title>
+<path fill="none" stroke="midnightblue" d="M521.699,-130.544C547.302,-120.143 579.068,-107.238 602.85,-97.5765"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="520.165,-127.39 512.218,-134.396 522.8,-133.875 520.165,-127.39"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>

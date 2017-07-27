@@ -1,38 +1,33 @@
 <map id="obe::Transform::UnitVector::add" name="obe::Transform::UnitVector::add">
-<area shape="rect" id="node2" href="$namespaceobe_1_1_bindings_1_1_transform_bindings.html#ac02442bb177636dc6055267c13c6fd27" title="obe::Bindings::Transform\lBindings::LoadUnitVector" alt="" coords="260,593,429,634"/>
-<area shape="rect" id="node3" href="$namespaceobe_1_1_script_1_1_core_lib.html#a8b313257cdb3bef245614c95a6fe0d6e" title="obe::Script::CoreLib\l::loadCoordinates" alt="" coords="276,658,413,700"/>
-<area shape="rect" id="node16" href="$classobe_1_1_transform_1_1_rect.html#a02a40e3f622105b27fa3841002d8739e" title="Transform the UnitVector passed by reference using the given Referencial. " alt="" coords="273,724,416,765"/>
-<area shape="rect" id="node37" href="$classobe_1_1_transform_1_1_rect.html#a48ab503a72262f85f740392994bbbd56" title="Moves the Rectangle (Adds the given position to the current one) " alt="" coords="273,789,416,830"/>
-<area shape="rect" id="node4" href="$namespaceobe_1_1_script.html#abdb81ec0976f1097cef6711415b8fac3" title="obe::Script::loadCoreLib" alt="" coords="477,184,639,211"/>
-<area shape="rect" id="node5" href="$namespaceobe_1_1_script.html#a4e6ee77032cf7f66544f9b08464a60b7" title="obe::Script::loadLib" alt="" coords="707,115,841,142"/>
-<area shape="rect" id="node15" href="$namespaceobe_1_1_script_1_1_core_lib.html#a07d6c11bbb082bc45bdba50d97965c00" title="obe::Script::CoreLib\l::loadCollision" alt="" coords="705,177,843,218"/>
-<area shape="rect" id="node6" href="$namespaceobe_1_1_modes.html#a1e38c0d9a2ca0230f0de79c298f53ab9" title="A mode that will start the Toolkit. " alt="" coords="1400,210,1595,236"/>
-<area shape="rect" id="node9" href="$classobe_1_1_scene_1_1_world.html#a32964e659e18cb32094d9f8ceea30aa3" title="obe::Scene::World::\lWorld" alt="" coords="1191,65,1329,106"/>
-<area shape="rect" id="node10" href="$namespaceobe_1_1_scene.html#ae5cbcc3278d9115d603e5024dec9136e" title="obe::Scene::loadWorldScript\lEngineBaseLib" alt="" coords="921,97,1109,138"/>
-<area shape="rect" id="node11" href="$namespaceobe_1_1_script.html#a5e992c0efb0543e7c934bc1065f08b01" title="obe::Script::loadLibBridge" alt="" coords="929,163,1100,190"/>
-<area shape="rect" id="node14" href="$namespaceobe_1_1_script.html#aad6ef67388e6d16eb01853f208da410f" title="obe::Script::loadBaseLib" alt="" coords="933,214,1097,240"/>
-<area shape="rect" id="node7" href="$namespaceobe_1_1_modes.html#a6a8b08eee511d4895c4da96d4ba223a6" title="Starts the development Menu where you can starts other menus from. " alt="" coords="1643,380,1820,407"/>
-<area shape="rect" id="node8" href="$_ob_engine_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1868,380,1919,407"/>
-<area shape="rect" id="node12" href="$namespaceobe_1_1_script.html#a5dc8321da50fd4b5dc2935e4d8c93a4e" title="obe::Script::loadScrGame\lObject" alt="" coords="1174,148,1346,189"/>
-<area shape="rect" id="node13" href="$classobe_1_1_script_1_1_game_object.html#aadeac0036d2fe21d523acfd4e9011a23" title="obe::Script::GameObject\l::loadGameObject" alt="" coords="1414,261,1581,302"/>
-<area shape="rect" id="node17" href="$classobe_1_1_transform_1_1_rect.html#a76c0e31ad4c6f81b974e99be7a1bc088" title="Set the position of the Rect using an UnitVector. " alt="" coords="487,484,629,525"/>
-<area shape="rect" id="node26" href="$classobe_1_1_transform_1_1_rect.html#ac9b2ed8814d9cca040d2c366e88c6f1a" title="Only set the x Coordinate of the Position of the Rect. " alt="" coords="487,724,629,765"/>
-<area shape="rect" id="node27" href="$classobe_1_1_transform_1_1_rect.html#ae855608ced955a47fa764cfe5624ae4f" title="Only set the y Coordinate of the Position of the Rect. " alt="" coords="487,789,629,830"/>
-<area shape="rect" id="node28" href="$classobe_1_1_transform_1_1_rect.html#adf40297c2c6af849749317a50b028a0d" title="Get the Position of the Rect. " alt="" coords="487,873,629,914"/>
-<area shape="rect" id="node18" href="$namespaceobe_1_1_editor.html#a9009207671e71dccb68a31ea2362e9ef" title="Starts the map edition. " alt="" coords="1428,879,1567,906"/>
-<area shape="rect" id="node19" href="$classobe_1_1_transform_1_1_rect.html#a32c9ef190efe43dfbb6a229c2d46b9a9" title="Set the position of the Rect using a pair of double. " alt="" coords="703,366,845,408"/>
-<area shape="rect" id="node20" href="$classobe_1_1_transform_1_1_rect.html#a405a68aa67b39a999dd35e27f09949dd" title="Set the size of the Rect. " alt="" coords="703,484,845,525"/>
-<area shape="rect" id="node21" href="$classobe_1_1_transform_1_1_rect.html#a8ce9778fe854024a56442d27443e92d2" title="Scales the Rect (Relative to the current size) " alt="" coords="703,549,845,590"/>
-<area shape="rect" id="node22" href="$classobe_1_1_transform_1_1_rect.html#a69ac4ab4d8187fc542c271dda07629b3" title="Set the Width of the Rect. " alt="" coords="703,614,845,656"/>
-<area shape="rect" id="node23" href="$classobe_1_1_transform_1_1_rect.html#acdc5c857f16cdeac3f24a86c52b9b330" title="Set the Position of a specific Referencial of the Rect (The opposite Point won&#39;t move) ..." alt="" coords="943,709,1086,750"/>
-<area shape="rect" id="node25" href="$classobe_1_1_transform_1_1_rect.html#afa80d81d169dc5889af23eb1373f6763" title="Set the Height of the Rect. " alt="" coords="703,680,845,721"/>
-<area shape="rect" id="node24" href="$classobe_1_1_transform_1_1_rect.html#a8f10de323814de2ddad0d39c0d4c8150" title="Set the Position of a specific Referencial of the Rect (The opposite Point won&#39;t move) ..." alt="" coords="1189,709,1331,750"/>
-<area shape="rect" id="node29" href="$namespaceobe_1_1_editor.html#a98df387085b87692b2458ada49d8c8a3" title="obe::Editor::addSpriteTo\lWorld" alt="" coords="693,949,855,990"/>
-<area shape="rect" id="node32" href="$classobe_1_1_graphics_1_1_level_sprite.html#a59dce80854f354af694926f8ccb714e2" title="Get the HandlePoint of the LevelSprite at the given Position(x, y) " alt="" coords="687,1014,861,1056"/>
-<area shape="rect" id="node34" href="$classobe_1_1_transform_1_1_rect.html#aa5658231fbee45974225e8deb6300382" title="Get the x Coordinate of the Rect Position. " alt="" coords="1189,1040,1331,1081"/>
-<area shape="rect" id="node35" href="$classobe_1_1_transform_1_1_rect.html#a4de6d77d9447ad737e4f2e0e956e4919" title="Get the y Coordinate of the Rect Position. " alt="" coords="1189,1116,1331,1157"/>
-<area shape="rect" id="node36" href="$classobe_1_1_transform_1_1_rect.html#aa3551afe1e97403b12bc56ff772636f8" title="Check if two Rects intersects. " alt="" coords="703,1182,845,1224"/>
-<area shape="rect" id="node30" href="$namespaceobe_1_1_editor.html#a75bc94b8c9152749d28e9e3927522e4a" title="obe::Editor::loadSpriteFolder" alt="" coords="921,910,1108,936"/>
-<area shape="rect" id="node31" href="$namespaceobe_1_1_editor_1_1_g_u_i.html#a5d2864942020d4f1bdfe7cf9e7d667bc" title="obe::Editor::GUI::buildEditor\lSpritesMenu" alt="" coords="1168,901,1352,942"/>
-<area shape="rect" id="node33" href="$namespaceobe_1_1_bindings_1_1_graphics_bindings.html#a5380249b38de7c9a782304231e825d64" title="obe::Bindings::GraphicsBindings\l::LoadLevelSprite" alt="" coords="909,1014,1120,1056"/>
+<area shape="rect" id="node2" href="$namespaceobe_1_1_bindings_1_1_transform_bindings.html#a8cdfa507b4638e51eeac7439c5fc199f" title="obe::Bindings::Transform\lBindings::LoadUnitVector" alt="" coords="260,579,429,621"/>
+<area shape="rect" id="node3" href="$namespaceobe_1_1_script_1_1_core_lib.html#a8b313257cdb3bef245614c95a6fe0d6e" title="obe::Script::CoreLib\l::loadCoordinates" alt="" coords="276,645,413,686"/>
+<area shape="rect" id="node11" href="$classobe_1_1_transform_1_1_rect.html#a02a40e3f622105b27fa3841002d8739e" title="Transform the UnitVector passed by reference using the given Referencial. " alt="" coords="273,710,416,751"/>
+<area shape="rect" id="node32" href="$classobe_1_1_transform_1_1_rect.html#a48ab503a72262f85f740392994bbbd56" title="Moves the Rectangle (Adds the given position to the current one) " alt="" coords="273,775,416,817"/>
+<area shape="rect" id="node4" href="$namespaceobe_1_1_script.html#abdb81ec0976f1097cef6711415b8fac3" title="obe::Script::loadCoreLib" alt="" coords="477,64,639,91"/>
+<area shape="rect" id="node5" href="$namespaceobe_1_1_script.html#a4e6ee77032cf7f66544f9b08464a60b7" title="obe::Script::loadLib" alt="" coords="707,5,841,32"/>
+<area shape="rect" id="node10" href="$namespaceobe_1_1_script_1_1_core_lib.html#a07d6c11bbb082bc45bdba50d97965c00" title="obe::Script::CoreLib\l::loadCollision" alt="" coords="705,57,843,98"/>
+<area shape="rect" id="node6" href="$namespaceobe_1_1_modes.html#a1e38c0d9a2ca0230f0de79c298f53ab9" title="A mode that will start the Toolkit. " alt="" coords="1168,153,1363,180"/>
+<area shape="rect" id="node9" href="$namespaceobe_1_1_script.html#aad6ef67388e6d16eb01853f208da410f" title="obe::Script::loadBaseLib" alt="" coords="933,76,1097,103"/>
+<area shape="rect" id="node7" href="$namespaceobe_1_1_modes.html#a6a8b08eee511d4895c4da96d4ba223a6" title="Starts the development Menu where you can starts other menus from. " alt="" coords="1417,212,1595,239"/>
+<area shape="rect" id="node8" href="$_ob_engine_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1649,237,1700,264"/>
+<area shape="rect" id="node12" href="$classobe_1_1_transform_1_1_rect.html#a76c0e31ad4c6f81b974e99be7a1bc088" title="Set the position of the Rect using an UnitVector. " alt="" coords="487,710,629,751"/>
+<area shape="rect" id="node23" href="$classobe_1_1_transform_1_1_rect.html#ac9b2ed8814d9cca040d2c366e88c6f1a" title="Only set the x Coordinate of the Position of the Rect. " alt="" coords="487,999,629,1041"/>
+<area shape="rect" id="node24" href="$classobe_1_1_transform_1_1_rect.html#ae855608ced955a47fa764cfe5624ae4f" title="Only set the y Coordinate of the Position of the Rect. " alt="" coords="487,829,629,870"/>
+<area shape="rect" id="node25" href="$classobe_1_1_transform_1_1_rect.html#adf40297c2c6af849749317a50b028a0d" title="Get the Position of the Rect. " alt="" coords="487,429,629,470"/>
+<area shape="rect" id="node13" href="$namespaceobe_1_1_editor.html#abb65591bc39719e5fb6c9be98d9ae1ee" title="obe::Editor::connectSprite\lActions" alt="" coords="928,257,1101,298"/>
+<area shape="rect" id="node15" href="$classobe_1_1_script_1_1_game_object.html#a3ff3f3070f0132be656f3425750cc507" title="obe::Script::GameObject\l::loadGameObject" alt="" coords="691,866,857,907"/>
+<area shape="rect" id="node16" href="$classobe_1_1_transform_1_1_rect.html#a32c9ef190efe43dfbb6a229c2d46b9a9" title="Set the position of the Rect using a pair of double. " alt="" coords="703,801,845,842"/>
+<area shape="rect" id="node17" href="$classobe_1_1_transform_1_1_rect.html#a405a68aa67b39a999dd35e27f09949dd" title="Set the size of the Rect. " alt="" coords="703,553,845,594"/>
+<area shape="rect" id="node18" href="$classobe_1_1_transform_1_1_rect.html#a8ce9778fe854024a56442d27443e92d2" title="Scales the Rect (Relative to the current size) " alt="" coords="703,683,845,725"/>
+<area shape="rect" id="node19" href="$classobe_1_1_transform_1_1_rect.html#a69ac4ab4d8187fc542c271dda07629b3" title="Set the Width of the Rect. " alt="" coords="703,618,845,659"/>
+<area shape="rect" id="node20" href="$classobe_1_1_transform_1_1_rect.html#acdc5c857f16cdeac3f24a86c52b9b330" title="Set the Position of a specific Referencial of the Rect (The opposite Point won&#39;t move) ..." alt="" coords="943,771,1086,813"/>
+<area shape="rect" id="node22" href="$classobe_1_1_transform_1_1_rect.html#afa80d81d169dc5889af23eb1373f6763" title="Set the Height of the Rect. " alt="" coords="703,487,845,529"/>
+<area shape="rect" id="node14" href="$namespaceobe_1_1_editor.html#a9009207671e71dccb68a31ea2362e9ef" title="Starts the map edition. " alt="" coords="1196,263,1335,289"/>
+<area shape="rect" id="node21" href="$classobe_1_1_transform_1_1_rect.html#a8f10de323814de2ddad0d39c0d4c8150" title="Set the Position of a specific Referencial of the Rect (The opposite Point won&#39;t move) ..." alt="" coords="1194,771,1337,813"/>
+<area shape="rect" id="node26" href="$classobe_1_1_graphics_1_1_level_sprite.html#a59dce80854f354af694926f8ccb714e2" title="Get the HandlePoint of the LevelSprite at the given Position(x, y) " alt="" coords="687,370,861,411"/>
+<area shape="rect" id="node29" href="$classobe_1_1_transform_1_1_rect.html#aa5658231fbee45974225e8deb6300382" title="Get the x Coordinate of the Rect Position. " alt="" coords="703,122,845,163"/>
+<area shape="rect" id="node30" href="$classobe_1_1_transform_1_1_rect.html#a4de6d77d9447ad737e4f2e0e956e4919" title="Get the y Coordinate of the Rect Position. " alt="" coords="703,187,845,229"/>
+<area shape="rect" id="node31" href="$classobe_1_1_transform_1_1_rect.html#aa3551afe1e97403b12bc56ff772636f8" title="Check if two Rects intersects. " alt="" coords="703,253,845,294"/>
+<area shape="rect" id="node27" href="$namespaceobe_1_1_bindings_1_1_graphics_bindings.html#a93b97087ade5cb2fd2956ea6a4bc10d3" title="obe::Bindings::GraphicsBindings\l::LoadLevelSprite" alt="" coords="909,361,1120,402"/>
+<area shape="rect" id="node28" href="$namespaceobe_1_1_bindings.html#a41d33207a0199f125c75a0f70a4a3ba8" title="obe::Bindings::IndexBindings" alt="" coords="1411,327,1601,353"/>
 </map>

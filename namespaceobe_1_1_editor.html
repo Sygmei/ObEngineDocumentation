@@ -93,6 +93,16 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a56ffe9497d350fd93d16d6b490538827"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_editor.html#a56ffe9497d350fd93d16d6b490538827">connectCollidersActions</a> (<a class="el" href="classobe_1_1_input_1_1_input_manager.html">Input::InputManager</a> &amp;inputManager, <a class="el" href="classobe_1_1_scene_1_1_scene.html">Scene::Scene</a> &amp;world, <a class="el" href="classobe_1_1_system_1_1_cursor.html">System::Cursor</a> &amp;cursor, int &amp;colliderPtGrabbed, <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">Collision::PolygonalCollider</a> *&amp;selectedMasterCollider, bool &amp;masterColliderGrabbed)</td></tr>
+<tr class="separator:a56ffe9497d350fd93d16d6b490538827"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50a7216d560227760c45d08bcbb16406"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_editor.html#a50a7216d560227760c45d08bcbb16406">connectCamMovementActions</a> (<a class="el" href="classobe_1_1_input_1_1_input_manager.html">Input::InputManager</a> &amp;inputManager, <a class="el" href="classobe_1_1_scene_1_1_scene.html">Scene::Scene</a> &amp;world, int &amp;cameraSpeed, <a class="el" href="classobe_1_1_time_1_1_framerate_manager.html">Time::FramerateManager</a> &amp;framerateManager)</td></tr>
+<tr class="separator:a50a7216d560227760c45d08bcbb16406"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb4c6766b5ad0659a806beac5ee111db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_editor.html#acb4c6766b5ad0659a806beac5ee111db">connectMagnetActions</a> (<a class="el" href="classobe_1_1_input_1_1_input_manager.html">Input::InputManager</a> &amp;inputManager, tgui::CheckBox::Ptr &amp;enableGridCheckbox, <a class="el" href="classobe_1_1_system_1_1_cursor.html">System::Cursor</a> &amp;cursor, <a class="el" href="classobe_1_1_editor_1_1_editor_grid.html">Editor::EditorGrid</a> &amp;editorGrid)</td></tr>
+<tr class="separator:acb4c6766b5ad0659a806beac5ee111db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d7c2fb31adfb86503b7f274e382ef3a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_editor.html#a7d7c2fb31adfb86503b7f274e382ef3a">connectMenuActions</a> (<a class="el" href="classobe_1_1_input_1_1_input_manager.html">Input::InputManager</a> &amp;inputManager, tgui::ComboBox::Ptr editMode, tgui::ComboBox::Ptr cameraMode)</td></tr>
+<tr class="separator:a7d7c2fb31adfb86503b7f274e382ef3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac84a3ef3300fd334ad4e8adbfa050578"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_editor.html#ac84a3ef3300fd334ad4e8adbfa050578">connectSaveActions</a> (<a class="el" href="classobe_1_1_input_1_1_input_manager.html">Input::InputManager</a> &amp;inputManager, const std::string &amp;mapName, <a class="el" href="classobe_1_1_scene_1_1_scene.html">Scene::Scene</a> &amp;world, double &amp;waitForMapSaving, tgui::Label::Ptr savedLabel)</td></tr>
+<tr class="separator:ac84a3ef3300fd334ad4e8adbfa050578"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9009207671e71dccb68a31ea2362e9ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_editor.html#a9009207671e71dccb68a31ea2362e9ef">editMap</a> (const std::string &amp;mapName)</td></tr>
 <tr class="memdesc:a9009207671e71dccb68a31ea2362e9ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts the map edition.  <a href="#a9009207671e71dccb68a31ea2362e9ef">More...</a><br /></td></tr>
 <tr class="separator:a9009207671e71dccb68a31ea2362e9ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -102,10 +112,14 @@ Functions</h2></td></tr>
 <tr class="separator:ab548dfe02b4323438bcf9caedd01d696"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a7fb0b670f18cdbc1c6858344f77a86"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_editor.html#a4a7fb0b670f18cdbc1c6858344f77a86">buildObjectThroughRequire</a> (std::string objName)</td></tr>
 <tr class="separator:a4a7fb0b670f18cdbc1c6858344f77a86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75bc94b8c9152749d28e9e3927522e4a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_editor.html#a75bc94b8c9152749d28e9e3927522e4a">loadSpriteFolder</a> (tgui::Panel::Ptr &amp;spritesPanel, tgui::Label::Ptr &amp;spritesCatLabel, std::string path)</td></tr>
-<tr class="separator:a75bc94b8c9152749d28e9e3927522e4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7700319c196fd0ad0c381df012809869"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_editor.html#a7700319c196fd0ad0c381df012809869">loadSpriteFolder</a> (tgui::Panel::Ptr spritesPanel, tgui::Label::Ptr spritesCatLabel, std::string path)</td></tr>
+<tr class="separator:a7700319c196fd0ad0c381df012809869"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98df387085b87692b2458ada49d8c8a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_editor.html#a98df387085b87692b2458ada49d8c8a3">addSpriteToWorld</a> (std::string geid)</td></tr>
 <tr class="separator:a98df387085b87692b2458ada49d8c8a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5de5f94b8886ba2a835eba8734a888df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_editor.html#a5de5f94b8886ba2a835eba8734a888df">connectSpriteLayerActions</a> (<a class="el" href="classobe_1_1_input_1_1_input_manager.html">Input::InputManager</a> &amp;inputManager, <a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html">Graphics::LevelSprite</a> *&amp;selectedSprite, <a class="el" href="classobe_1_1_scene_1_1_scene.html">Scene::Scene</a> &amp;world, int &amp;currentLayer)</td></tr>
+<tr class="separator:a5de5f94b8886ba2a835eba8734a888df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb65591bc39719e5fb6c9be98d9ae1ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_editor.html#abb65591bc39719e5fb6c9be98d9ae1ee">connectSpriteActions</a> (<a class="el" href="classobe_1_1_input_1_1_input_manager.html">Input::InputManager</a> &amp;inputManager, <a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html">Graphics::LevelSprite</a> *&amp;hoveredSprite, <a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html">Graphics::LevelSprite</a> *&amp;selectedSprite, <a class="el" href="classobe_1_1_graphics_1_1_level_sprite_handle_point.html">Graphics::LevelSpriteHandlePoint</a> *&amp;selectedHandlePoint, <a class="el" href="classobe_1_1_scene_1_1_scene.html">Scene::Scene</a> &amp;world, <a class="el" href="classobe_1_1_system_1_1_cursor.html">System::Cursor</a> &amp;cursor, <a class="el" href="classobe_1_1_editor_1_1_editor_grid.html">Editor::EditorGrid</a> &amp;editorGrid, int &amp;selectedSpriteOffsetX, int &amp;selectedSpriteOffsetY, sf::Text &amp;sprInfo, sf::RectangleShape &amp;sprInfoBackground)</td></tr>
+<tr class="separator:abb65591bc39719e5fb6c9be98d9ae1ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Classes and Functions related to the Map <a class="el" href="namespaceobe_1_1_editor.html" title="Classes and Functions related to the Map Editor. ">Editor</a>. </p>
@@ -128,7 +142,8 @@ Functions</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_editor_a98df387085b87692b2458ada49d8c8a3_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_editor_a98df387085b87692b2458ada49d8c8a3_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -255,6 +270,424 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a50a7216d560227760c45d08bcbb16406"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50a7216d560227760c45d08bcbb16406">&#9670;&nbsp;</a></span>connectCamMovementActions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::Editor::connectCamMovementActions </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_input_1_1_input_manager.html">Input::InputManager</a> &amp;&#160;</td>
+          <td class="paramname"><em>inputManager</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_scene_1_1_scene.html">Scene::Scene</a> &amp;&#160;</td>
+          <td class="paramname"><em>world</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>cameraSpeed</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_time_1_1_framerate_manager.html">Time::FramerateManager</a> &amp;&#160;</td>
+          <td class="paramname"><em>framerateManager</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_editor_a50a7216d560227760c45d08bcbb16406_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_editor_a50a7216d560227760c45d08bcbb16406_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a56ffe9497d350fd93d16d6b490538827"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56ffe9497d350fd93d16d6b490538827">&#9670;&nbsp;</a></span>connectCollidersActions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::Editor::connectCollidersActions </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_input_1_1_input_manager.html">Input::InputManager</a> &amp;&#160;</td>
+          <td class="paramname"><em>inputManager</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_scene_1_1_scene.html">Scene::Scene</a> &amp;&#160;</td>
+          <td class="paramname"><em>world</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_system_1_1_cursor.html">System::Cursor</a> &amp;&#160;</td>
+          <td class="paramname"><em>cursor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>colliderPtGrabbed</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">Collision::PolygonalCollider</a> *&amp;&#160;</td>
+          <td class="paramname"><em>selectedMasterCollider</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool &amp;&#160;</td>
+          <td class="paramname"><em>masterColliderGrabbed</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_editor_a56ffe9497d350fd93d16d6b490538827_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_editor_a56ffe9497d350fd93d16d6b490538827_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="acb4c6766b5ad0659a806beac5ee111db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb4c6766b5ad0659a806beac5ee111db">&#9670;&nbsp;</a></span>connectMagnetActions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::Editor::connectMagnetActions </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_input_1_1_input_manager.html">Input::InputManager</a> &amp;&#160;</td>
+          <td class="paramname"><em>inputManager</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">tgui::CheckBox::Ptr &amp;&#160;</td>
+          <td class="paramname"><em>enableGridCheckbox</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_system_1_1_cursor.html">System::Cursor</a> &amp;&#160;</td>
+          <td class="paramname"><em>cursor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_editor_1_1_editor_grid.html">Editor::EditorGrid</a> &amp;&#160;</td>
+          <td class="paramname"><em>editorGrid</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_editor_acb4c6766b5ad0659a806beac5ee111db_cgraph.svg" width="100%" height="560"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_editor_acb4c6766b5ad0659a806beac5ee111db_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a7d7c2fb31adfb86503b7f274e382ef3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d7c2fb31adfb86503b7f274e382ef3a">&#9670;&nbsp;</a></span>connectMenuActions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::Editor::connectMenuActions </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_input_1_1_input_manager.html">Input::InputManager</a> &amp;&#160;</td>
+          <td class="paramname"><em>inputManager</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">tgui::ComboBox::Ptr&#160;</td>
+          <td class="paramname"><em>editMode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">tgui::ComboBox::Ptr&#160;</td>
+          <td class="paramname"><em>cameraMode</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_editor_a7d7c2fb31adfb86503b7f274e382ef3a_cgraph.svg" width="100%" height="486"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_editor_a7d7c2fb31adfb86503b7f274e382ef3a_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ac84a3ef3300fd334ad4e8adbfa050578"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac84a3ef3300fd334ad4e8adbfa050578">&#9670;&nbsp;</a></span>connectSaveActions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::Editor::connectSaveActions </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_input_1_1_input_manager.html">Input::InputManager</a> &amp;&#160;</td>
+          <td class="paramname"><em>inputManager</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>mapName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_scene_1_1_scene.html">Scene::Scene</a> &amp;&#160;</td>
+          <td class="paramname"><em>world</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>waitForMapSaving</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">tgui::Label::Ptr&#160;</td>
+          <td class="paramname"><em>savedLabel</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_editor_ac84a3ef3300fd334ad4e8adbfa050578_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_editor_ac84a3ef3300fd334ad4e8adbfa050578_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="abb65591bc39719e5fb6c9be98d9ae1ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb65591bc39719e5fb6c9be98d9ae1ee">&#9670;&nbsp;</a></span>connectSpriteActions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::Editor::connectSpriteActions </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_input_1_1_input_manager.html">Input::InputManager</a> &amp;&#160;</td>
+          <td class="paramname"><em>inputManager</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html">Graphics::LevelSprite</a> *&amp;&#160;</td>
+          <td class="paramname"><em>hoveredSprite</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html">Graphics::LevelSprite</a> *&amp;&#160;</td>
+          <td class="paramname"><em>selectedSprite</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_graphics_1_1_level_sprite_handle_point.html">Graphics::LevelSpriteHandlePoint</a> *&amp;&#160;</td>
+          <td class="paramname"><em>selectedHandlePoint</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_scene_1_1_scene.html">Scene::Scene</a> &amp;&#160;</td>
+          <td class="paramname"><em>world</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_system_1_1_cursor.html">System::Cursor</a> &amp;&#160;</td>
+          <td class="paramname"><em>cursor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_editor_1_1_editor_grid.html">Editor::EditorGrid</a> &amp;&#160;</td>
+          <td class="paramname"><em>editorGrid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>selectedSpriteOffsetX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>selectedSpriteOffsetY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">sf::Text &amp;&#160;</td>
+          <td class="paramname"><em>sprInfo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">sf::RectangleShape &amp;&#160;</td>
+          <td class="paramname"><em>sprInfoBackground</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_editor_abb65591bc39719e5fb6c9be98d9ae1ee_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_editor_abb65591bc39719e5fb6c9be98d9ae1ee_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a5de5f94b8886ba2a835eba8734a888df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5de5f94b8886ba2a835eba8734a888df">&#9670;&nbsp;</a></span>connectSpriteLayerActions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::Editor::connectSpriteLayerActions </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_input_1_1_input_manager.html">Input::InputManager</a> &amp;&#160;</td>
+          <td class="paramname"><em>inputManager</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html">Graphics::LevelSprite</a> *&amp;&#160;</td>
+          <td class="paramname"><em>selectedSprite</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_scene_1_1_scene.html">Scene::Scene</a> &amp;&#160;</td>
+          <td class="paramname"><em>world</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>currentLayer</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_editor_a5de5f94b8886ba2a835eba8734a888df_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_editor_a5de5f94b8886ba2a835eba8734a888df_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
 <a id="a9009207671e71dccb68a31ea2362e9ef"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9009207671e71dccb68a31ea2362e9ef">&#9670;&nbsp;</a></span>editMap()</h2>
 
@@ -287,8 +720,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a75bc94b8c9152749d28e9e3927522e4a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75bc94b8c9152749d28e9e3927522e4a">&#9670;&nbsp;</a></span>loadSpriteFolder()</h2>
+<a id="a7700319c196fd0ad0c381df012809869"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7700319c196fd0ad0c381df012809869">&#9670;&nbsp;</a></span>loadSpriteFolder()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -296,13 +729,13 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void obe::Editor::loadSpriteFolder </td>
           <td>(</td>
-          <td class="paramtype">tgui::Panel::Ptr &amp;&#160;</td>
+          <td class="paramtype">tgui::Panel::Ptr&#160;</td>
           <td class="paramname"><em>spritesPanel</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">tgui::Label::Ptr &amp;&#160;</td>
+          <td class="paramtype">tgui::Label::Ptr&#160;</td>
           <td class="paramname"><em>spritesCatLabel</em>, </td>
         </tr>
         <tr>
@@ -321,13 +754,13 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_editor_a75bc94b8c9152749d28e9e3927522e4a_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_editor_a7700319c196fd0ad0c381df012809869_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_editor_a75bc94b8c9152749d28e9e3927522e4a_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_editor_a7700319c196fd0ad0c381df012809869_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['operator_3c_3c',['operator&lt;&lt;',['../classvili_1_1_base_attribute.html#adab93fa42bf4adb52e3e8b922f54923f',1,'vili::BaseAttribute']]]
+  ['linknode',['LinkNode',['../classvili_1_1_node.html#a48f942c867bd729a52e2b10e69afb14b',1,'vili::Node']]],
+  ['loaderrors',['LoadErrors',['../classvili_1_1_node.html#a1838933dcc253c57cde5e60d7cdf2d30',1,'vili::Node']]]
 ];

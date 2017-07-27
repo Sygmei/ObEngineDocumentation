@@ -2,6 +2,8 @@ var searchData=
 [
   ['editorbindings_2ecpp',['EditorBindings.cpp',['../_editor_bindings_8cpp.html',1,'']]],
   ['editorbindings_2ehpp',['EditorBindings.hpp',['../_editor_bindings_8hpp.html',1,'']]],
+  ['editorglobalactions_2ecpp',['EditorGlobalActions.cpp',['../_editor_global_actions_8cpp.html',1,'']]],
+  ['editorglobalactions_2ehpp',['EditorGlobalActions.hpp',['../_editor_global_actions_8hpp.html',1,'']]],
   ['editorgui_2ecpp',['EditorGUI.cpp',['../_editor_g_u_i_8cpp.html',1,'']]],
   ['editorgui_2ehpp',['EditorGUI.hpp',['../_editor_g_u_i_8hpp.html',1,'']]],
   ['elzip_2ecpp',['elzip.cpp',['../elzip_8cpp.html',1,'']]],

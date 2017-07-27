@@ -51,20 +51,20 @@ if (edges && edges.length) {
 <script type="text/javascript">
 var viewWidth = 523;
 var viewHeight = 137;
-var sectionId = 'dynsection-7';
+var sectionId = 'dynsection-9';
 </script>
 <script xlink:href="svgpan.js"/>
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>vili::Functions::String::isStringNumeric</title>
-<!-- Node211 -->
-<g id="node1" class="node"><title>Node211</title>
+<!-- Node194 -->
+<g id="node1" class="node"><title>Node194</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-24.5 0,-54.5 107,-54.5 107,-24.5 0,-24.5"/>
 <text text-anchor="start" x="8" y="-42.5" font-family="Helvetica,sans-Serif" font-size="10.00">vili::Functions::String</text>
 <text text-anchor="middle" x="53.5" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">::isStringNumeric</text>
 </g>
-<!-- Node212 -->
-<g id="node2" class="node"><title>Node212</title>
+<!-- Node195 -->
+<g id="node2" class="node"><title>Node195</title>
 <g id="a_node2"><a xlink:href="namespaceobe_1_1_utils_1_1_string.html#ae60709dade757255ae0b412a860e4df3" target="_top" xlink:title="Get if the string is a float. ">
 <polygon fill="none" stroke="black" points="143,-49.5 143,-79.5 232,-79.5 232,-49.5 143,-49.5"/>
 <text text-anchor="start" x="151" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Utils::String</text>
@@ -72,13 +72,13 @@ var sectionId = 'dynsection-7';
 </a>
 </g>
 </g>
-<!-- Node211&#45;&gt;Node212 -->
-<g id="edge1" class="edge"><title>Node211&#45;&gt;Node212</title>
+<!-- Node194&#45;&gt;Node195 -->
+<g id="edge1" class="edge"><title>Node194&#45;&gt;Node195</title>
 <path fill="none" stroke="midnightblue" d="M107.049,-49.4525C115.432,-51.0401 124.117,-52.685 132.531,-54.2787"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="132.147,-57.7679 142.623,-56.19 133.449,-50.8902 132.147,-57.7679"/>
 </g>
-<!-- Node217 -->
-<g id="node7" class="node"><title>Node217</title>
+<!-- Node200 -->
+<g id="node7" class="node"><title>Node200</title>
 <g id="a_node7"><a xlink:href="namespaceobe_1_1_utils_1_1_string.html#ae02e26ec5eb43272fc37bb577193af79" target="_top" xlink:title="Get if the string is an integer. ">
 <polygon fill="none" stroke="black" points="143,-0.5 143,-30.5 232,-30.5 232,-0.5 143,-0.5"/>
 <text text-anchor="start" x="151" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Utils::String</text>
@@ -86,13 +86,13 @@ var sectionId = 'dynsection-7';
 </a>
 </g>
 </g>
-<!-- Node211&#45;&gt;Node217 -->
-<g id="edge6" class="edge"><title>Node211&#45;&gt;Node217</title>
+<!-- Node194&#45;&gt;Node200 -->
+<g id="edge6" class="edge"><title>Node194&#45;&gt;Node200</title>
 <path fill="none" stroke="midnightblue" d="M107.049,-29.9456C115.432,-28.4215 124.117,-26.8424 132.531,-25.3125"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="133.411,-28.7101 142.623,-23.4776 132.158,-21.823 133.411,-28.7101"/>
 </g>
-<!-- Node213 -->
-<g id="node3" class="node"><title>Node213</title>
+<!-- Node196 -->
+<g id="node3" class="node"><title>Node196</title>
 <g id="a_node3"><a xlink:href="namespaceobe_1_1_utils_1_1_string.html#a6304ccfbd6a3bf086bd3189609381f70" target="_top" xlink:title="Count of the occurences of occur in string str. ">
 <polygon fill="none" stroke="black" points="276,-98.5 276,-128.5 382,-128.5 382,-98.5 276,-98.5"/>
 <text text-anchor="start" x="284" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Utils::String</text>
@@ -100,13 +100,13 @@ var sectionId = 'dynsection-7';
 </a>
 </g>
 </g>
-<!-- Node212&#45;&gt;Node213 -->
-<g id="edge2" class="edge"><title>Node212&#45;&gt;Node213</title>
+<!-- Node195&#45;&gt;Node196 -->
+<g id="edge2" class="edge"><title>Node195&#45;&gt;Node196</title>
 <path fill="none" stroke="midnightblue" d="M231.493,-79.6014C245.282,-84.4451 260.717,-89.8664 275.128,-94.9285"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="274.314,-98.3522 284.909,-98.3641 276.634,-91.7478 274.314,-98.3522"/>
 </g>
-<!-- Node214 -->
-<g id="node4" class="node"><title>Node214</title>
+<!-- Node197 -->
+<g id="node4" class="node"><title>Node197</title>
 <g id="a_node4"><a xlink:href="namespacevili_1_1_functions_1_1_string.html#a8d1e845c06f563c1a18e8c9d2adc34af" target="_top" xlink:title="vili::Functions::String\l::removeCharFromString">
 <polygon fill="none" stroke="black" points="268,-49.5 268,-79.5 390,-79.5 390,-49.5 268,-49.5"/>
 <text text-anchor="start" x="276" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">vili::Functions::String</text>
@@ -114,13 +114,13 @@ var sectionId = 'dynsection-7';
 </a>
 </g>
 </g>
-<!-- Node212&#45;&gt;Node214 -->
-<g id="edge3" class="edge"><title>Node212&#45;&gt;Node214</title>
+<!-- Node195&#45;&gt;Node197 -->
+<g id="edge3" class="edge"><title>Node195&#45;&gt;Node197</title>
 <path fill="none" stroke="midnightblue" d="M232.256,-64.5C240.354,-64.5 248.997,-64.5 257.652,-64.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="257.787,-68.0001 267.787,-64.5 257.787,-61.0001 257.787,-68.0001"/>
 </g>
-<!-- Node215 -->
-<g id="node5" class="node"><title>Node215</title>
+<!-- Node198 -->
+<g id="node5" class="node"><title>Node198</title>
 <g id="a_node5"><a xlink:href="namespaceobe_1_1_utils_1_1_string.html#ad9d5afbd60c8e3c6894ad5c782de001a" target="_top" xlink:title="Replace all the occurences of search to replace in the string subject in place. ">
 <polygon fill="none" stroke="black" points="284.5,-0.5 284.5,-30.5 373.5,-30.5 373.5,-0.5 284.5,-0.5"/>
 <text text-anchor="start" x="292.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Utils::String</text>
@@ -128,13 +128,13 @@ var sectionId = 'dynsection-7';
 </a>
 </g>
 </g>
-<!-- Node212&#45;&gt;Node215 -->
-<g id="edge4" class="edge"><title>Node212&#45;&gt;Node215</title>
+<!-- Node195&#45;&gt;Node198 -->
+<g id="edge4" class="edge"><title>Node195&#45;&gt;Node198</title>
 <path fill="none" stroke="midnightblue" d="M231.493,-49.3986C245.282,-44.5549 260.717,-39.1336 275.128,-34.0715"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="276.634,-37.2522 284.909,-30.6359 274.314,-30.6478 276.634,-37.2522"/>
 </g>
-<!-- Node216 -->
-<g id="node6" class="node"><title>Node216</title>
+<!-- Node199 -->
+<g id="node6" class="node"><title>Node199</title>
 <g id="a_node6"><a xlink:href="namespaceobe_1_1_utils_1_1_string.html#ad648e63a60e1fce71a321037fbee4e30" target="_top" xlink:title="Replace all the occurences of search to replace in the string subject. ">
 <polygon fill="none" stroke="black" points="426,-0.5 426,-30.5 515,-30.5 515,-0.5 426,-0.5"/>
 <text text-anchor="start" x="434" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Utils::String</text>
@@ -142,8 +142,8 @@ var sectionId = 'dynsection-7';
 </a>
 </g>
 </g>
-<!-- Node215&#45;&gt;Node216 -->
-<g id="edge5" class="edge"><title>Node215&#45;&gt;Node216</title>
+<!-- Node198&#45;&gt;Node199 -->
+<g id="edge5" class="edge"><title>Node198&#45;&gt;Node199</title>
 <path fill="none" stroke="midnightblue" d="M373.756,-15.5C387,-15.5 401.703,-15.5 415.533,-15.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="415.899,-19.0001 425.899,-15.5 415.899,-12.0001 415.899,-19.0001"/>
 </g>

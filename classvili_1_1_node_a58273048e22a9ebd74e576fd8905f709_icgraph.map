@@ -1,0 +1,51 @@
+<map id="vili::Node::getParent" name="vili::Node::getParent">
+<area shape="rect" id="node2" href="$classvili_1_1_link_node.html#a7d237573208ae570b0711ffa537488b8" title="Get the Node the LinkNode is pointing to. " alt="" coords="1111,296,1271,323"/>
+<area shape="rect" id="node6" href="$classvili_1_1_node.html#a5a6ad518f51d824e06ae7be0328f4864" title="Get the Node Path (Example : GrandParent/Parent/Node) " alt="" coords="192,1624,349,1651"/>
+<area shape="rect" id="node50" href="$classvili_1_1_node.html#aa2339b7f9971303acb8266c397e2506d" title="Get the depth of the Node (While the parent of the Node has a parent etc..) A Node without parent has..." alt="" coords="203,2079,338,2105"/>
+<area shape="rect" id="node3" href="$classvili_1_1_link_node.html#a4912faf06362f3c85c9eac8b3bab2e62" title="Transforms the LinkNode to a copy of the pointed Node. " alt="" coords="1344,213,1481,240"/>
+<area shape="rect" id="node5" href="$classvili_1_1_link_node.html#aeff8225b14125edbfaf6ffeed9949d70" title="vili::LinkNode::get" alt="" coords="1351,289,1475,316"/>
+<area shape="rect" id="node4" href="$classvili_1_1_link_node.html#ab2e7abc29a9e7f39a49cf836772c8d34" title="Gets the Node the LinkNode is pointing to and casts it. " alt="" coords="1547,213,1671,240"/>
+<area shape="rect" id="node7" href="$classvili_1_1_array_node.html#aba67c18c26c9a7c78973cae023e6f374" title="Access a contained DataNode. " alt="" coords="910,651,1041,677"/>
+<area shape="rect" id="node9" href="$classvili_1_1_vili_parser.html#abf78e297a322d2e500a04172928d7c67" title="Parses a .vili file. " alt="" coords="1332,1279,1493,1305"/>
+<area shape="rect" id="node15" href="$classvili_1_1_array_node.html#ad556cbc172d7496ba917f67596fd96cd" title="Copies the ArrayNode into a new ContainerNode. " alt="" coords="419,2432,560,2459"/>
+<area shape="rect" id="node17" href="$classvili_1_1_complex_node.html#a5fd9b4890887c011e78974fe88f87db2" title="Removes ownership and child Node from ComplexNode (Node won&#39;t be memory managed anymore, be cautious) " alt="" coords="423,1718,556,1759"/>
+<area shape="rect" id="node20" href="$classvili_1_1_complex_node.html#af863182abb35759cf98a0a39bde589fa" title="vili::ComplexNode::\lgetPath" alt="" coords="671,1558,805,1599"/>
+<area shape="rect" id="node23" href="$classvili_1_1_node_template.html#a057fe6cb4fd621a62443ad2b2dd004ff" title="Builds the NodeTemplate and creates the ComplexNode in parent. " alt="" coords="1128,1835,1255,1877"/>
+<area shape="rect" id="node25" href="$classvili_1_1_complex_node.html#adcc73a585ffb995e8e9a668830c10c8c" title="Get raw non&#45;casted Node pointer by id. " alt="" coords="663,1159,813,1185"/>
+<area shape="rect" id="node27" href="$classvili_1_1_complex_node.html#a2a280e0b84d7b5b22a49b0938977ab0b" title="Get a DataNode contained in the ComplexNode. " alt="" coords="671,913,805,954"/>
+<area shape="rect" id="node33" href="$classvili_1_1_complex_node.html#abfafad10954568b678b208b7fefb074a" title="Get a ArrayNode contained in the ComplexNode. " alt="" coords="909,753,1042,794"/>
+<area shape="rect" id="node34" href="$classvili_1_1_complex_node.html#af5e6d6152ca8466fb0b820aa95aafa58" title="Get a LinkNode contained in the ComplexNode. " alt="" coords="671,1995,805,2037"/>
+<area shape="rect" id="node35" href="$classvili_1_1_complex_node.html#a1ef080cca91f585d1ef616c678057ede" title="Writes the ComplexNode to a file. " alt="" coords="909,1894,1042,1935"/>
+<area shape="rect" id="node36" href="$classvili_1_1_complex_node.html#aa9274f5ba9c9dbe1a0c90d54380a003a" title="Get a ComplexNode contained in the ComplexNode. " alt="" coords="423,1617,556,1658"/>
+<area shape="rect" id="node37" href="$classvili_1_1_complex_node.html#a09c2de8fb5e7b79e407c08405624091a" title="Copies the ComplexNode into a new ContainerNode. " alt="" coords="895,1792,1056,1819"/>
+<area shape="rect" id="node38" href="$classvili_1_1_data_node.html#a27dadd644c19ee34b95fa998764b225f" title="Sets an Int value. " alt="" coords="675,347,801,373"/>
+<area shape="rect" id="node39" href="$classvili_1_1_data_node.html#a8899a6a4145920b0c28059e364b0653c" title="Automatically determines the DataType and affects the value. " alt="" coords="662,1420,814,1447"/>
+<area shape="rect" id="node40" href="$classvili_1_1_data_node.html#a22a517ccf87f7875307c9241c436cdbd" title="Returns the Data contained in the DataNode casted to a std::string. " alt="" coords="419,2213,560,2240"/>
+<area shape="rect" id="node41" href="$classvili_1_1_data_node.html#ac94bbd118fff6f8bf4027203856e7b50" title="Returns the Data contained in the DataNode casted to an int. " alt="" coords="402,2264,577,2291"/>
+<area shape="rect" id="node42" href="$classvili_1_1_data_node.html#a2ec736a92f440b9e3721c0a682a06e8b" title="Returns the Data contained in the DataNode casted to a double. " alt="" coords="411,2315,567,2357"/>
+<area shape="rect" id="node43" href="$classvili_1_1_data_node.html#ad833100667d443120995e64ef746667f" title="Returns the Data contained in the DataNode casted to a bool. " alt="" coords="397,2381,581,2408"/>
+<area shape="rect" id="node44" href="$classvili_1_1_link_node.html#a4b4a339604e69b5bb5bafa70e455430b" title="Copies the LinkNode into a new ContainerNode. " alt="" coords="1124,144,1259,171"/>
+<area shape="rect" id="node45" href="$classvili_1_1_node.html#a4d9ca9770bcc615dfc083c1f5df0fb1b" title="vili::Node::removeParent" alt="" coords="409,93,570,120"/>
+<area shape="rect" id="node46" href="$classvili_1_1_node.html#a41778b86287edc07882460db4d55415e" title="Sets the new parent of the Node (Raises error if the Node already has a parent) " alt="" coords="420,2112,559,2139"/>
+<area shape="rect" id="node47" href="$classvili_1_1_node.html#a223474ecdea0b06720de027729b83c2c" title="Virtual Destructor for proper memory management. " alt="" coords="678,2163,798,2189"/>
+<area shape="rect" id="node48" href="$classvili_1_1_node.html#a1f031a14b8baed3a83123ded73d8d37a" title="Sets the new id of the Node (can&#39;t be changed if the Node has a parent) " alt="" coords="434,2061,545,2088"/>
+<area shape="rect" id="node49" href="$classvili_1_1_data_node.html#ab2d4a42e923fbaf8fdb552454f047191" title="vili::DataNode::get" alt="" coords="426,144,553,171"/>
+<area shape="rect" id="node8" href="$classvili_1_1_vili_parser.html#a17a7a333c47610bd163316256c994b67" title="Generates a NodeTemplate from a ComplexNode which should be a direct child of the Root..." alt="" coords="1112,1154,1271,1195"/>
+<area shape="rect" id="node10" href="$classobe_1_1_animation_1_1_animation.html#a672d106427b224e31b2dfe1489d8c075" title="Configure an Animation using the Animation configuration file (Vili file) " alt="" coords="1104,942,1279,983"/>
+<area shape="rect" id="node11" href="$namespaceobe_1_1_editor.html#ab548dfe02b4323438bcf9caedd01d696" title="obe::Editor::buildRequires\lObjectTab" alt="" coords="1106,1065,1277,1106"/>
+<area shape="rect" id="node12" href="$classobe_1_1_script_1_1_game_object.html#a3ff3f3070f0132be656f3425750cc507" title="obe::Script::GameObject\l::loadGameObject" alt="" coords="1108,738,1275,779"/>
+<area shape="rect" id="node13" href="$namespaceobe_1_1_script_1_1_core_lib.html#a144f31cc8b37c8d19a05138691229059" title="obe::Script::CoreLib\l::loadVili" alt="" coords="1123,593,1260,634"/>
+<area shape="rect" id="node14" href="$namespaceobe_1_1_script_1_1_data_bridge.html#ae37d390b4e0277fdd4aeb9972ef75fbc" title="Adds a converted Vili ListAttribute to a Lua Table. &#160;&#160;Index of the List will start at 0 (unlike defau..." alt="" coords="1110,658,1273,699"/>
+<area shape="rect" id="node16" href="$classvili_1_1_array_node.html#ab8d56408cf64599ccffc0a71f66a65b7" title="vili::ArrayNode::~ArrayNode" alt="" coords="647,2432,829,2459"/>
+<area shape="rect" id="node18" href="$classvili_1_1_complex_node.html#ab1244ce309083ecf8ffa6df6284c1726" title="vili::ComplexNode::\l~ComplexNode" alt="" coords="1125,1574,1258,1615"/>
+<area shape="rect" id="node19" href="$classobe_1_1_script_1_1_game_object_requires.html#a1e2e738c42eb5b1bc9399d39d04e3eed" title="obe::Script::GameObjectRequires\l::getRequiresForObjectType" alt="" coords="629,1827,847,1869"/>
+<area shape="rect" id="node21" href="$classvili_1_1_complex_node.html#a3c4cf02119f198c81fc357ffcadda495" title="Access a ComplexNode child. " alt="" coords="909,1574,1042,1615"/>
+<area shape="rect" id="node22" href="$classvili_1_1_complex_node.html#ab3a269cf4b6899b75bbd789f83b255d5" title="Access a ComplexNode in the tree using a path with slash&#45;separation (.at(&quot;NodeA/NodeB/NodeC&quot;) for exa..." alt="" coords="903,1224,1047,1251"/>
+<area shape="rect" id="node24" href="$classobe_1_1_input_1_1_input_manager.html#adf10d43635b0d5c29bbb4839d083e150" title="Configure KeyboardAction from a vili configuration file. " alt="" coords="1109,1271,1274,1313"/>
+<area shape="rect" id="node26" href="$classvili_1_1_complex_node.html#a7d6e40a851f76f6cad9d4bc281d60ed8" title="Copies all Nodes from another ComplexNode recursively (All herited Nodes are made non&#45;visible) ..." alt="" coords="909,1391,1042,1433"/>
+<area shape="rect" id="node28" href="$namespacevili.html#a8aa0ddde27e2ef4a978e50aa8253008d" title="Loads all Aube Errors located in the given path. " alt="" coords="922,819,1029,845"/>
+<area shape="rect" id="node29" href="$classvili_1_1_complex_node.html#a5fb28422d884d1ed937026ba88014a87" title="Creates a DataNode in the ComplexNode. " alt="" coords="909,1326,1042,1367"/>
+<area shape="rect" id="node30" href="$classvili_1_1_complex_node.html#ad6d24a98270eaba537a3641632f7e1e7" title="Access a casted Node in the tree using a path (with multiple path parts) (.at(&quot;NodeA&quot;, &quot;NodeB&quot;, &quot;NodeB&quot;) for example) " alt="" coords="1119,1665,1263,1692"/>
+<area shape="rect" id="node31" href="$classvili_1_1_complex_node.html#a7dc615bffc27f219d3391074035709a8" title="Pushes an existing DataNode in the ComplexNode. " alt="" coords="909,1457,1042,1498"/>
+<area shape="rect" id="node32" href="$classvili_1_1_link_node.html#a6fa5dac3440bd4c62e5933704b73721e" title="Gets the path of the pointed Node (Without using linkroot) " alt="" coords="1327,388,1499,415"/>
+</map>

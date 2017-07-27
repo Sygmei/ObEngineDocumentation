@@ -1,21 +1,18 @@
 <map id="obe::Scene::Camera::setSize" name="obe::Scene::Camera::setSize">
-<area shape="rect" id="node2" href="$namespaceobe_1_1_bindings_1_1_scene_bindings.html#afaced4f09d76abc3de5f549597f0420b" title="obe::Bindings::SceneBindings\l::LoadCamera" alt="" coords="384,53,580,95"/>
-<area shape="rect" id="node3" href="$classobe_1_1_scene_1_1_camera.html#a0da755949b3ccb61148851ea011f7282" title="obe::Scene::Camera\l::scale" alt="" coords="195,112,336,153"/>
-<area shape="rect" id="node4" href="$namespaceobe_1_1_script_1_1_core_lib.html#a772776d97a60ef5addf168dfe2ac0be7" title="obe::Script::CoreLib\l::loadCamera" alt="" coords="413,119,551,160"/>
-<area shape="rect" id="node17" href="$classobe_1_1_scene_1_1_world.html#a362d242e7751481b0086ca9ed131920f" title="obe::Scene::World::\lloadFromFile" alt="" coords="639,317,778,359"/>
-<area shape="rect" id="node5" href="$namespaceobe_1_1_script.html#abdb81ec0976f1097cef6711415b8fac3" title="obe::Script::loadCoreLib" alt="" coords="628,110,789,137"/>
-<area shape="rect" id="node6" href="$namespaceobe_1_1_script.html#a4e6ee77032cf7f66544f9b08464a60b7" title="obe::Script::loadLib" alt="" coords="855,139,990,166"/>
-<area shape="rect" id="node16" href="$namespaceobe_1_1_script_1_1_core_lib.html#a07d6c11bbb082bc45bdba50d97965c00" title="obe::Script::CoreLib\l::loadCollision" alt="" coords="854,73,991,115"/>
-<area shape="rect" id="node7" href="$namespaceobe_1_1_modes.html#a1e38c0d9a2ca0230f0de79c298f53ab9" title="A mode that will start the Toolkit. " alt="" coords="1292,114,1487,141"/>
-<area shape="rect" id="node10" href="$classobe_1_1_scene_1_1_world.html#a32964e659e18cb32094d9f8ceea30aa3" title="obe::Scene::World::\lWorld" alt="" coords="1320,165,1459,207"/>
-<area shape="rect" id="node11" href="$namespaceobe_1_1_scene.html#ae5cbcc3278d9115d603e5024dec9136e" title="obe::Scene::loadWorldScript\lEngineBaseLib" alt="" coords="1056,216,1244,257"/>
-<area shape="rect" id="node12" href="$namespaceobe_1_1_script.html#a5e992c0efb0543e7c934bc1065f08b01" title="obe::Script::loadLibBridge" alt="" coords="1065,13,1235,39"/>
-<area shape="rect" id="node15" href="$namespaceobe_1_1_script.html#aad6ef67388e6d16eb01853f208da410f" title="obe::Script::loadBaseLib" alt="" coords="1068,114,1232,141"/>
-<area shape="rect" id="node8" href="$namespaceobe_1_1_modes.html#a6a8b08eee511d4895c4da96d4ba223a6" title="Starts the development Menu where you can starts other menus from. " alt="" coords="1535,174,1712,201"/>
-<area shape="rect" id="node9" href="$_ob_engine_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1760,174,1811,201"/>
-<area shape="rect" id="node13" href="$namespaceobe_1_1_script.html#a5dc8321da50fd4b5dc2935e4d8c93a4e" title="obe::Script::loadScrGame\lObject" alt="" coords="1303,5,1475,47"/>
-<area shape="rect" id="node14" href="$classobe_1_1_script_1_1_game_object.html#aadeac0036d2fe21d523acfd4e9011a23" title="obe::Script::GameObject\l::loadGameObject" alt="" coords="1540,5,1707,47"/>
-<area shape="rect" id="node18" href="$namespaceobe_1_1_editor.html#a9009207671e71dccb68a31ea2362e9ef" title="Starts the map edition. " alt="" coords="1320,231,1459,258"/>
-<area shape="rect" id="node19" href="$namespaceobe_1_1_scene.html#ac23b5fc14866394c89a820ce6badc130" title="obe::Scene::loadWorldLib" alt="" coords="837,333,1008,359"/>
-<area shape="rect" id="node20" href="$classobe_1_1_scene_1_1_world.html#a896573e186dc6efbe2e5def53533908f" title="obe::Scene::World::\lcreateGameObject" alt="" coords="1081,333,1219,375"/>
+<area shape="rect" id="node2" href="$namespaceobe_1_1_bindings_1_1_scene_bindings.html#a1d13ce97ec1874510d16b689172f83a2" title="Bindings to Scene related classes and functions. " alt="" coords="384,5,580,47"/>
+<area shape="rect" id="node3" href="$classobe_1_1_scene_1_1_camera.html#a0da755949b3ccb61148851ea011f7282" title="obe::Scene::Camera\l::scale" alt="" coords="195,52,336,93"/>
+<area shape="rect" id="node4" href="$namespaceobe_1_1_script_1_1_core_lib.html#a772776d97a60ef5addf168dfe2ac0be7" title="obe::Script::CoreLib\l::loadCamera" alt="" coords="413,92,551,133"/>
+<area shape="rect" id="node12" href="$classobe_1_1_scene_1_1_scene.html#a385bccf95deb10358169dffe5547e567" title="Loads the Scene from a .map.vili file. " alt="" coords="1034,161,1175,203"/>
+<area shape="rect" id="node5" href="$namespaceobe_1_1_script.html#abdb81ec0976f1097cef6711415b8fac3" title="obe::Script::loadCoreLib" alt="" coords="628,99,789,126"/>
+<area shape="rect" id="node6" href="$namespaceobe_1_1_script.html#a4e6ee77032cf7f66544f9b08464a60b7" title="obe::Script::loadLib" alt="" coords="839,41,973,67"/>
+<area shape="rect" id="node11" href="$namespaceobe_1_1_script_1_1_core_lib.html#a07d6c11bbb082bc45bdba50d97965c00" title="obe::Script::CoreLib\l::loadCollision" alt="" coords="837,92,975,133"/>
+<area shape="rect" id="node7" href="$namespaceobe_1_1_modes.html#a1e38c0d9a2ca0230f0de79c298f53ab9" title="A mode that will start the Toolkit. " alt="" coords="1235,46,1429,73"/>
+<area shape="rect" id="node10" href="$namespaceobe_1_1_script.html#aad6ef67388e6d16eb01853f208da410f" title="obe::Script::loadBaseLib" alt="" coords="1023,75,1187,102"/>
+<area shape="rect" id="node8" href="$namespaceobe_1_1_modes.html#a6a8b08eee511d4895c4da96d4ba223a6" title="Starts the development Menu where you can starts other menus from. " alt="" coords="1483,63,1660,90"/>
+<area shape="rect" id="node9" href="$_ob_engine_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1759,63,1809,90"/>
+<area shape="rect" id="node13" href="$namespaceobe_1_1_editor.html#a9009207671e71dccb68a31ea2362e9ef" title="Starts the map edition. " alt="" coords="1263,114,1401,141"/>
+<area shape="rect" id="node14" href="$namespaceobe_1_1_scene.html#ac23b5fc14866394c89a820ce6badc130" title="obe::Scene::loadWorldLib" alt="" coords="1247,219,1417,246"/>
+<area shape="rect" id="node15" href="$classobe_1_1_scene_1_1_scene.html#a4cd121904533663534f9bd7cbedf6913" title="Creates a new GameObject. " alt="" coords="1501,165,1642,207"/>
+<area shape="rect" id="node16" href="$namespaceobe_1_1_scene.html#ae5cbcc3278d9115d603e5024dec9136e" title="obe::Scene::loadWorldScript\lEngineBaseLib" alt="" coords="1477,231,1665,272"/>
+<area shape="rect" id="node17" href="$classobe_1_1_scene_1_1_scene.html#a6671ed54f3898e54a2814d58ec8ffec5" title="Creates a new Scene. " alt="" coords="1713,231,1855,272"/>
 </map>

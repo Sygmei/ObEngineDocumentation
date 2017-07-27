@@ -73,6 +73,18 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="_animation_bindings_8hpp_source.html">Bindings/AnimationBindings.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_collision_bindings_8hpp_source.html">Bindings/CollisionBindings.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_debug_bindings_8hpp_source.html">Bindings/DebugBindings.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_editor_bindings_8hpp_source.html">Bindings/EditorBindings.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_graphics_bindings_8hpp_source.html">Bindings/GraphicsBindings.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_input_bindings_8hpp_source.html">Bindings/InputBindings.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_scene_bindings_8hpp_source.html">Bindings/SceneBindings.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_sound_bindings_8hpp_source.html">Bindings/SoundBindings.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_system_bindings_8hpp_source.html">Bindings/SystemBindings.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_time_bindings_8hpp_source.html">Bindings/TimeBindings.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_transform_bindings_8hpp_source.html">Bindings/TransformBindings.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_triggers_bindings_8hpp_source.html">Bindings/TriggersBindings.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_types_bindings_8hpp_source.html">Bindings/TypesBindings.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_bindings_8hpp_source.html">Bindings/Bindings.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_string_utils_8hpp_source.html">Utils/StringUtils.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_vector_utils_8hpp_source.html">Utils/VectorUtils.hpp</a>&gt;</code><br />
@@ -93,14 +105,10 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a1fe7680520c6932d11ad7028fd86539e"><td class="memItemLeft" align="right" valign="top">BindingTree&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings.html#a1fe7680520c6932d11ad7028fd86539e">obe::Bindings::BindTree</a> (&quot;Root&quot;, [](kaguya::State &amp;lua) { })</td></tr>
-<tr class="separator:a1fe7680520c6932d11ad7028fd86539e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad33374a4b031b283edbd5b52a92cd431"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings.html#ad33374a4b031b283edbd5b52a92cd431">obe::Bindings::BuildLuaLibPath</a> (LuaTRef lua, std::vector&lt; std::string &gt; &amp;path)</td></tr>
-<tr class="separator:ad33374a4b031b283edbd5b52a92cd431"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31c76134c8af2fbc1ae83e8c365943e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings.html#a31c76134c8af2fbc1ae83e8c365943e0">obe::Bindings::BuildLuaLibPath</a> (kaguya::State &amp;lua, const std::string &amp;path)</td></tr>
-<tr class="separator:a31c76134c8af2fbc1ae83e8c365943e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03d19b86ae66caaa15a01fb7a9f57c0e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings.html#a03d19b86ae66caaa15a01fb7a9f57c0e">obe::Bindings::Load</a> (kaguya::State &amp;lua, const std::string &amp;lib)</td></tr>
-<tr class="separator:a03d19b86ae66caaa15a01fb7a9f57c0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ea220e1301ad164d5e64d5a15416571"><td class="memItemLeft" align="right" valign="top">BindingTree&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings.html#a3ea220e1301ad164d5e64d5a15416571">obe::Bindings::BindTree</a> (&quot;Root&quot;)</td></tr>
+<tr class="separator:a3ea220e1301ad164d5e64d5a15416571"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad571e5338f682c5657773d5b96de5a40"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings.html#ad571e5338f682c5657773d5b96de5a40">obe::Bindings::Load</a> (kaguya::State *lua, const std::string &amp;lib)</td></tr>
+<tr class="separator:ad571e5338f682c5657773d5b96de5a40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41d33207a0199f125c75a0f70a4a3ba8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings.html#a41d33207a0199f125c75a0f70a4a3ba8">obe::Bindings::IndexBindings</a> ()</td></tr>
 <tr class="separator:a41d33207a0199f125c75a0f70a4a3ba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>

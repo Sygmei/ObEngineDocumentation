@@ -9,7 +9,7 @@ var searchData=
   ['findoptionordefault',['findOptionOrDefault',['../namespaceobe_1_1_graphics_1_1_utils.html#a631dbc6b2cd869ba13c3bd3a1df48b11',1,'obe::Graphics::Utils']]],
   ['findsubvector',['findSubVector',['../namespacevili_1_1_functions_1_1_vector.html#acd48da64ad5d8c23cb96662066d30ac3',1,'vili::Functions::Vector']]],
   ['first',['first',['../classvili_1_1_node_iterator.html#a5f94edec5ec7388f8c952978e738a9db',1,'vili::NodeIterator']]],
-  ['float',['Float',['../classvili_1_1_base_attribute.html#a4fd2983f19d9dfae5cdf83368429f879',1,'vili::BaseAttribute::Float()'],['../namespacevili.html#ad7068bc2e5364f41b58e140dafbb1e1fa22ae0e2b89e5e3d477f988cc36d3272b',1,'vili::Float()']]],
+  ['float',['Float',['../classvili_1_1_data_node.html#a0b50a0c238412a081a4b1d82bcfc5c7e',1,'vili::DataNode::Float()'],['../namespacevili.html#ad7068bc2e5364f41b58e140dafbb1e1fa22ae0e2b89e5e3d477f988cc36d3272b',1,'vili::Float()']]],
   ['fontloader',['fontLoader',['../namespaceobe_1_1_system_1_1_loaders.html#a24ca176b9fa8b2b58ae513e35fc70a69',1,'obe::System::Loaders']]],
   ['force',['Force',['../namespaceobe_1_1_animation.html#a346c6729e9af989f6b063e6086637fbba9eb6b78a99cdb6ffd3d40d18621d9f80',1,'obe::Animation']]],
   ['forcenext',['forceNext',['../classobe_1_1_animation_1_1_animation_group.html#ad86bb28de21445e1b72cdc43941d61f1',1,'obe::Animation::AnimationGroup']]],
@@ -17,12 +17,12 @@ var searchData=
   ['fpscounter',['FPSCounter',['../classobe_1_1_time_1_1_f_p_s_counter.html',1,'obe::Time']]],
   ['frameratecounter_2ecpp',['FramerateCounter.cpp',['../_framerate_counter_8cpp.html',1,'']]],
   ['frameratecounter_2ehpp',['FramerateCounter.hpp',['../_framerate_counter_8hpp.html',1,'']]],
-  ['frameratemanager',['FramerateManager',['../classobe_1_1_time_1_1_framerate_manager.html',1,'obe::Time::FramerateManager'],['../classobe_1_1_time_1_1_framerate_manager.html#a387ed524072fbe990d744a989604a4ee',1,'obe::Time::FramerateManager::FramerateManager()']]],
+  ['frameratemanager',['FramerateManager',['../classobe_1_1_time_1_1_framerate_manager.html',1,'obe::Time::FramerateManager'],['../classobe_1_1_time_1_1_framerate_manager.html#a3f1277cf8e48a32240728104d01fec1a',1,'obe::Time::FramerateManager::FramerateManager()']]],
   ['frameratemanager_2ecpp',['FramerateManager.cpp',['../_framerate_manager_8cpp.html',1,'']]],
   ['frameratemanager_2ehpp',['FramerateManager.hpp',['../_framerate_manager_8hpp.html',1,'']]],
   ['from',['From',['../classobe_1_1_transform_1_1_rect.html#a242a78273a4ff0bd12f7184a68432289a5da618e8e4b89c66fe86e32cdafde142',1,'obe::Transform::Rect']]],
   ['fsaccess',['FsAccess',['../_file_utils_8hpp.html#a90d30827d6ba0b3a3f36a7a07ff4b3b7',1,'FileUtils.hpp']]],
-  ['functions',['Functions',['../namespaceobe_1_1_input.html#aeaa42d0a9e0c6becf0433f8447afa11dae93acb146e114b5dfa6ce2d12dcb96e4',1,'obe::Input']]],
+  ['functions',['Functions',['../namespaceobe_1_1_input.html#a08f2b5990899bb151cc4fedfb35b716bae93acb146e114b5dfa6ce2d12dcb96e4',1,'obe::Input']]],
   ['functions_2ecpp',['Functions.cpp',['../_functions_8cpp.html',1,'']]],
   ['functions_2ehpp',['Functions.hpp',['../_functions_8hpp.html',1,'']]]
 ];

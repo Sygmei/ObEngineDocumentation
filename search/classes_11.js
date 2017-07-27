@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['viewstruct',['ViewStruct',['../structobe_1_1_transform_1_1_view_struct.html',1,'obe::Transform']]]
+  ['zipper',['zipper',['../classziputils_1_1zipper.html',1,'ziputils']]]
 ];

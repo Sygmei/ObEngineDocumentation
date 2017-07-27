@@ -79,7 +79,8 @@ $(function() {
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for Trigger.cpp:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="_trigger_8cpp__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="_trigger_8cpp__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -97,7 +98,7 @@ Macros</h2></td></tr>
 <tr class="separator:a151bb54f652676ec7ec536ed79fe1542"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5934c702c9fc8fce35fe49e4a5c117eb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_trigger_8cpp.html#a5934c702c9fc8fce35fe49e4a5c117eb">AffectIfCorrectType</a>(...)&#160;&#160;&#160;else if (affectIfCorrectType&lt;__VA_ARGS__&gt;(lua,parameter)){}</td></tr>
 <tr class="separator:a5934c702c9fc8fce35fe49e4a5c117eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82f9fb610e992b225c726c5dad29749c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_trigger_8cpp.html#a82f9fb610e992b225c726c5dad29749c">EndCheck</a>&#160;&#160;&#160;else { return parameter.first; }</td></tr>
+<tr class="memitem:a82f9fb610e992b225c726c5dad29749c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_trigger_8cpp.html#a82f9fb610e992b225c726c5dad29749c">EndCheck</a>&#160;&#160;&#160;else { throw <a class="el" href="classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b">aube::ErrorHandler::Raise</a>(&quot;ObEngine.Triggers.Trigger.BadInjection&quot;, { { &quot;triggerName&quot;, triggerName }, { &quot;parameterName&quot;, parameter.first} }); }</td></tr>
 <tr class="separator:a82f9fb610e992b225c726c5dad29749c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -105,9 +106,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a68f891a2ee0ba0be2b3dc62485c35fb9"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a68f891a2ee0ba0be2b3dc62485c35fb9"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_triggers.html#a68f891a2ee0ba0be2b3dc62485c35fb9">obe::Triggers::affectIfCorrectType</a> (kaguya::State &amp;lua, const std::pair&lt; std::string, std::pair&lt; std::string, Types::Any &gt;&gt; &amp;parameter)</td></tr>
 <tr class="separator:a68f891a2ee0ba0be2b3dc62485c35fb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad644751e65399b1b8524982ce6f86e6e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_triggers.html#ad644751e65399b1b8524982ce6f86e6e">obe::Triggers::injectParameters</a> (Trigger &amp;trigger, kaguya::State &amp;lua)</td></tr>
-<tr class="memdesc:ad644751e65399b1b8524982ce6f86e6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Injects the parameter contained in a <a class="el" href="classobe_1_1_triggers_1_1_trigger.html" title="A Class that does represents a triggerable event . ">Trigger</a> to a Lua VM.  <a href="namespaceobe_1_1_triggers.html#ad644751e65399b1b8524982ce6f86e6e">More...</a><br /></td></tr>
-<tr class="separator:ad644751e65399b1b8524982ce6f86e6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54981073382c5e985fcd03dcc7025be0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_triggers.html#a54981073382c5e985fcd03dcc7025be0">obe::Triggers::injectParameters</a> (const std::string &amp;triggerName, ParameterTable &amp;parameters, kaguya::State &amp;lua)</td></tr>
+<tr class="memdesc:a54981073382c5e985fcd03dcc7025be0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Injects the current ParameterTable contained in a <a class="el" href="classobe_1_1_triggers_1_1_trigger.html" title="A Class that does represents a triggerable event . ">Trigger</a> to a Lua VM.  <a href="namespaceobe_1_1_triggers.html#a54981073382c5e985fcd03dcc7025be0">More...</a><br /></td></tr>
+<tr class="separator:a54981073382c5e985fcd03dcc7025be0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a5934c702c9fc8fce35fe49e4a5c117eb"></a>
@@ -135,7 +136,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define EndCheck&#160;&#160;&#160;else { return parameter.first; }</td>
+          <td class="memname">#define EndCheck&#160;&#160;&#160;else { throw <a class="el" href="classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b">aube::ErrorHandler::Raise</a>(&quot;ObEngine.Triggers.Trigger.BadInjection&quot;, { { &quot;triggerName&quot;, triggerName }, { &quot;parameterName&quot;, parameter.first} }); }</td>
         </tr>
       </table>
 </div><div class="memdoc">

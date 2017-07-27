@@ -8,41 +8,41 @@
  viewBox="0.00 0.00 556.00 96.50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 92.5)">
 <title>obe::Collision::PolygonalCollider::getMaximumDistanceBeforeCollision</title>
-<!-- Node222 -->
-<g id="node1" class="node"><title>Node222</title>
+<!-- Node194 -->
+<g id="node1" class="node"><title>Node194</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-39 0,-80 177,-80 177,-39 0,-39"/>
 <text text-anchor="start" x="8" y="-68" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Collision::Polygonal</text>
 <text text-anchor="start" x="8" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">Collider::getMaximumDistanceBefore</text>
 <text text-anchor="middle" x="88.5" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00">Collision</text>
 </g>
-<!-- Node223 -->
-<g id="node2" class="node"><title>Node223</title>
+<!-- Node195 -->
+<g id="node2" class="node"><title>Node195</title>
 <g id="a_node2"><a xlink:href="classobe_1_1_transform_1_1_unit_vector.html#ac3baab00050c329e70453fd646224a0d" target="_top" xlink:title="Return an UnitVector with the converted values (x, y) to the Unit you want. ">
 <polygon fill="white" stroke="black" points="401,-69 401,-88 548,-88 548,-69 401,-69"/>
 <text text-anchor="middle" x="474.5" y="-76" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Transform::UnitVector::to</text>
 </a>
 </g>
 </g>
-<!-- Node222&#45;&gt;Node223 -->
-<g id="edge1" class="edge"><title>Node222&#45;&gt;Node223</title>
+<!-- Node194&#45;&gt;Node195 -->
+<g id="edge1" class="edge"><title>Node194&#45;&gt;Node195</title>
 <path fill="none" stroke="midnightblue" d="M177.016,-74.652C189.072,-76.245 201.32,-77.6068 213,-78.5 272.397,-83.0423 339.636,-82.9103 390.922,-81.7117"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="391.05,-85.2096 400.959,-81.4588 390.874,-78.2118 391.05,-85.2096"/>
 </g>
-<!-- Node224 -->
-<g id="node3" class="node"><title>Node224</title>
+<!-- Node196 -->
+<g id="node3" class="node"><title>Node196</title>
 <g id="a_node3"><a xlink:href="classobe_1_1_transform_1_1_unit_vector.html#af3867f780ceba4d23046a85314bfa077" target="_top" xlink:title="Set the values of the given UnitVector but keeps base Unit. ">
 <polygon fill="white" stroke="black" points="213,-50 213,-69 365,-69 365,-50 213,-50"/>
 <text text-anchor="middle" x="289" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Transform::UnitVector::set</text>
 </a>
 </g>
 </g>
-<!-- Node222&#45;&gt;Node224 -->
-<g id="edge2" class="edge"><title>Node222&#45;&gt;Node224</title>
+<!-- Node194&#45;&gt;Node196 -->
+<g id="edge2" class="edge"><title>Node194&#45;&gt;Node196</title>
 <path fill="none" stroke="midnightblue" d="M177.143,-59.5C185.634,-59.5 194.24,-59.5 202.708,-59.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="202.951,-63.0001 212.951,-59.5 202.951,-56.0001 202.951,-63.0001"/>
 </g>
-<!-- Node225 -->
-<g id="node4" class="node"><title>Node225</title>
+<!-- Node197 -->
+<g id="node4" class="node"><title>Node197</title>
 <g id="a_node4"><a xlink:href="classobe_1_1_collision_1_1_polygonal_collider.html#aa71ad8ce8dc36a5858280c7b834c0c67" target="_top" xlink:title="Get all the Points of the Polygon. ">
 <polygon fill="white" stroke="black" points="227,-0.5 227,-30.5 351,-30.5 351,-0.5 227,-0.5"/>
 <text text-anchor="start" x="235" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Collision::Polygonal</text>
@@ -50,13 +50,13 @@
 </a>
 </g>
 </g>
-<!-- Node222&#45;&gt;Node225 -->
-<g id="edge4" class="edge"><title>Node222&#45;&gt;Node225</title>
+<!-- Node194&#45;&gt;Node197 -->
+<g id="edge4" class="edge"><title>Node194&#45;&gt;Node197</title>
 <path fill="none" stroke="midnightblue" d="M177.143,-40.0729C190.337,-37.1483 203.808,-34.1621 216.607,-31.3251"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="217.704,-34.667 226.709,-29.0858 216.189,-27.8329 217.704,-34.667"/>
 </g>
-<!-- Node224&#45;&gt;Node223 -->
-<g id="edge3" class="edge"><title>Node224&#45;&gt;Node223</title>
+<!-- Node196&#45;&gt;Node195 -->
+<g id="edge3" class="edge"><title>Node196&#45;&gt;Node195</title>
 <path fill="none" stroke="midnightblue" d="M365.166,-67.2828C373.632,-68.1594 382.292,-69.0561 390.846,-69.9418"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="390.513,-73.426 400.821,-70.9746 391.234,-66.4632 390.513,-73.426"/>
 </g>

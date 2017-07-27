@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['world',['World',['../classobe_1_1_script_1_1_game_object.html#a7cff6865d6b6b8bdd14618d35ac941dc',1,'obe::Script::GameObject']]]
+  ['operator_3c_3c',['operator&lt;&lt;',['../classvili_1_1_data_node.html#abeb3e9482ef6fcbbebebe004ba7bdec3',1,'vili::DataNode']]]
 ];

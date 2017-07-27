@@ -17,7 +17,7 @@
 <area shape="rect" id="node19" href="$classobe_1_1_animation_1_1_animation.html#aec6a62cd94dee713c158e60769b94777" title="Get the Animation name. " alt="" coords="201,971,376,1013"/>
 <area shape="rect" id="node20" href="$classobe_1_1_animation_1_1_animation.html#a13f1f5fc47d0e72aa9734c0d6ca1e83a" title="Get the default delay of the Animation. &#160;The delay will be transfered to AnimationGroup children if n..." alt="" coords="201,1037,376,1078"/>
 <area shape="rect" id="node21" href="$classobe_1_1_animation_1_1_animation.html#a9259e39a1ec6ccd3caf5724d2498e5af" title="Get AnimationGroup pointer by groupName. &#160;It will throws a ObEngine.Animation.Animation.AnimationGroupNotFound if the AnimationGroup is not found. " alt="" coords="447,854,621,895"/>
-<area shape="rect" id="node22" href="$classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b" title="aube::ErrorHandler\l::Raise" alt="" coords="681,1213,812,1254"/>
+<area shape="rect" id="node22" href="$classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b" title="Raises an Error loaded in the Aube Error Database (AED) " alt="" coords="681,1213,812,1254"/>
 <area shape="rect" id="node27" href="$classobe_1_1_animation_1_1_animation.html#adafbbda8d960da96c66831f48fc802fc" title="Get the name of the current AnimationGroup. " alt="" coords="197,1505,380,1546"/>
 <area shape="rect" id="node28" href="$classobe_1_1_animation_1_1_animation.html#af20197e3c6b2bbd227708b59b23f007d" title="Get the name of all contained AnimationGroup of the Animation. " alt="" coords="193,1570,384,1611"/>
 <area shape="rect" id="node29" href="$classobe_1_1_animation_1_1_animation.html#a667541a4eead6412867dea73a044a758" title="Get the Animation Play Mode. " alt="" coords="201,1635,376,1677"/>
@@ -37,15 +37,15 @@
 <area shape="rect" id="node50" href="$classobe_1_1_animation_1_1_animator.html#a0d8e801b4cbfec51169e058521776d48" title="Sets the path of the Animator root. " alt="" coords="204,2197,373,2238"/>
 <area shape="rect" id="node14" href="$namespaceobe_1_1_time.html#a8ae76b1e66dea054aced3ab86ecb6d3f" title="Get the amount of milliseconds elapsed since Epoch. " alt="" coords="435,720,633,747"/>
 <area shape="rect" id="node15" href="$classobe_1_1_animation_1_1_animation_group.html#a2fa68140f6d5f397cac7c07cc2f1f6df" title="Updates the Texture to display (Done automatically after previous / next) " alt="" coords="447,774,621,815"/>
-<area shape="rect" id="node23" href="$classaube_1_1_error_message.html#a3a39b6fcd8fdb12eaf6383123535b8ca" title="aube::ErrorMessage\l::getFile" alt="" coords="860,1114,999,1155"/>
-<area shape="rect" id="node24" href="$classaube_1_1_error_message.html#a9184cc96589578f434351c105b0cd5f7" title="aube::ErrorMessage\l::getLocation" alt="" coords="860,1179,999,1221"/>
-<area shape="rect" id="node25" href="$classaube_1_1_error_message.html#a07927cb3e2d0712c459cc9e2b5f52696" title="aube::ErrorMessage\l::getMessage" alt="" coords="860,1245,999,1286"/>
-<area shape="rect" id="node26" href="$classaube_1_1_error_message.html#a77c2f9b7e93542c958173b52da267989" title="aube::ErrorMessage\l::getHints" alt="" coords="860,1310,999,1351"/>
+<area shape="rect" id="node23" href="$classaube_1_1_error_message.html#a3a39b6fcd8fdb12eaf6383123535b8ca" title="Gets the File where is located the ErrorMessage when raised. " alt="" coords="860,1114,999,1155"/>
+<area shape="rect" id="node24" href="$classaube_1_1_error_message.html#a9184cc96589578f434351c105b0cd5f7" title="Gets the location of the error in the code. " alt="" coords="860,1179,999,1221"/>
+<area shape="rect" id="node25" href="$classaube_1_1_error_message.html#a07927cb3e2d0712c459cc9e2b5f52696" title="Gets the message displayed by the ErrorMessage when raised. " alt="" coords="860,1245,999,1286"/>
+<area shape="rect" id="node26" href="$classaube_1_1_error_message.html#a77c2f9b7e93542c958173b52da267989" title="Gets hints that can help the error resolution. " alt="" coords="860,1310,999,1351"/>
 <area shape="rect" id="node36" href="$classobe_1_1_system_1_1_path.html#aab439649ec875cd45a99a18e9c9beda8" title="Get the current path in string form. " alt="" coords="465,1322,603,1363"/>
 <area shape="rect" id="node39" href="$classobe_1_1_system_1_1_path.html#a096ad4fa7397aa42fd73661b08f50e2a" title="obe::System::Path::\lloadResource" alt="" coords="465,971,603,1013"/>
 <area shape="rect" id="node40" href="$namespaceobe_1_1_utils_1_1_vector.html#a636b7f465d67c2bf42a297f221af9cfe" title="Check if a given item is in the given std::vector. " alt="" coords="473,1154,595,1195"/>
-<area shape="rect" id="node41" href="$classvili_1_1_data_parser.html#ac2744d454c122cb1adff342be588bc8d" title="vili::DataParser::at" alt="" coords="470,920,598,947"/>
-<area shape="rect" id="node42" href="$classvili_1_1_complex_attribute.html#a6225afe489577c1e02e21c6a31387a1a" title="vili::ComplexAttribute\l::getAll" alt="" coords="462,1037,606,1078"/>
+<area shape="rect" id="node41" href="$classvili_1_1_vili_parser.html#a19dd443cd86f2c4943beb5de092aa4c1" title="Access a ComplexNode in the tree using a path with slash&#45;separation (.at(&quot;NodeA/NodeB/NodeC&quot;) for exa..." alt="" coords="475,920,593,947"/>
+<area shape="rect" id="node42" href="$classvili_1_1_complex_node.html#a550584eb0dc76bbcb50e35182ac308cd" title="Get all the Node Ids of the given Type contained in the ComplexNode. " alt="" coords="467,1037,601,1078"/>
 <area shape="rect" id="node43" href="$classobe_1_1_system_1_1_path.html#ab3b53b3bb2e98d5e23c35692a52eb66c" title="Returns a new Path which is the current one concatened with the given string. " alt="" coords="454,1103,614,1129"/>
 <area shape="rect" id="node47" href="$classobe_1_1_animation_1_1_animation.html#a42881a9b7928324532448d43571d7771" title="Get the sf::Texture containing the current texture in the Animation. " alt="" coords="447,2131,621,2173"/>
 </map>

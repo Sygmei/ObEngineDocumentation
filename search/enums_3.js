@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['keystate',['KeyState',['../namespaceobe_1_1_input.html#ac924156641ea19ff38153a5ddb8c10e6',1,'obe::Input']]],
-  ['keytype',['KeyType',['../namespaceobe_1_1_input.html#aeaa42d0a9e0c6becf0433f8447afa11d',1,'obe::Input']]]
+  ['inputbuttonstate',['InputButtonState',['../namespaceobe_1_1_input.html#a7c34dc018f96813bc8b63f4c9c6cbc47',1,'obe::Input']]],
+  ['inputtype',['InputType',['../namespaceobe_1_1_input.html#a08f2b5990899bb151cc4fedfb35b716b',1,'obe::Input']]]
 ];

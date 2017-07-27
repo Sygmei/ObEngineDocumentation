@@ -1,25 +1,22 @@
 <map id="obe::Utils::Vector::eraseAll" name="obe::Utils::Vector::eraseAll">
-<area shape="rect" id="node2" href="$classvili_1_1_complex_attribute.html#adb309539a0f8cb36240339f14e3e2f25" title="vili::ComplexAttribute\l::extractElement" alt="" coords="187,71,331,112"/>
-<area shape="rect" id="node11" href="$classvili_1_1_list_attribute.html#afc96cf1fffdc3d8cf8a1356bc8a859fd" title="vili::ListAttribute\l::extractElement" alt="" coords="199,136,318,177"/>
-<area shape="rect" id="node13" href="$classobe_1_1_collision_1_1_polygonal_collider.html#a972819e978772fbcf1ec3b25ddb124a8" title="Removes a Tag of the Collider. " alt="" coords="176,201,341,243"/>
-<area shape="rect" id="node3" href="$classvili_1_1_complex_attribute.html#a1b0ad54db641a18260242b9ad34b8e39" title="vili::ComplexAttribute\l::~ComplexAttribute" alt="" coords="426,5,570,47"/>
-<area shape="rect" id="node4" href="$classobe_1_1_script_1_1_game_object_requires.html#a439844dbf0fdccf94e58a40db468ea25" title="obe::Script::GameObjectRequires\l::getRequiresForObjectType" alt="" coords="389,71,607,112"/>
-<area shape="rect" id="node5" href="$namespaceobe_1_1_editor.html#ab548dfe02b4323438bcf9caedd01d696" title="obe::Editor::buildRequires\lObjectTab" alt="" coords="655,71,825,112"/>
-<area shape="rect" id="node6" href="$namespaceobe_1_1_editor.html#a24423ada9fd467ae78ebf9d21e64db0b" title="obe::Editor::buildObjectTab" alt="" coords="873,78,1052,105"/>
-<area shape="rect" id="node7" href="$namespaceobe_1_1_editor_1_1_g_u_i.html#ac209e33d93d1c6b719ed4c5206994ffc" title="obe::Editor::GUI::buildEditor\lObjectsMenu" alt="" coords="1102,71,1286,112"/>
-<area shape="rect" id="node8" href="$namespaceobe_1_1_editor.html#a9009207671e71dccb68a31ea2362e9ef" title="Starts the map edition. " alt="" coords="1364,78,1503,105"/>
-<area shape="rect" id="node9" href="$namespaceobe_1_1_modes.html#a6a8b08eee511d4895c4da96d4ba223a6" title="Starts the development Menu where you can starts other menus from. " alt="" coords="1579,127,1756,154"/>
-<area shape="rect" id="node10" href="$_ob_engine_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1804,127,1855,154"/>
-<area shape="rect" id="node12" href="$classvili_1_1_list_attribute.html#a9ce24a6b38c9e52e70772a6c30fc5ed3" title="vili::ListAttribute\l::~ListAttribute" alt="" coords="441,136,555,177"/>
-<area shape="rect" id="node14" href="$namespaceobe_1_1_bindings_1_1_collision_bindings.html#afa4c96728348503721dd7ddbc50da7c6" title="obe::Bindings::Collision\lBindings::LoadPolygonalCollider" alt="" coords="394,201,602,243"/>
-<area shape="rect" id="node15" href="$namespaceobe_1_1_script_1_1_core_lib.html#a07d6c11bbb082bc45bdba50d97965c00" title="obe::Script::CoreLib\l::loadCollision" alt="" coords="429,267,567,308"/>
-<area shape="rect" id="node16" href="$namespaceobe_1_1_script.html#abdb81ec0976f1097cef6711415b8fac3" title="obe::Script::loadCoreLib" alt="" coords="659,274,821,301"/>
-<area shape="rect" id="node17" href="$namespaceobe_1_1_script.html#a4e6ee77032cf7f66544f9b08464a60b7" title="obe::Script::loadLib" alt="" coords="895,274,1030,301"/>
-<area shape="rect" id="node18" href="$namespaceobe_1_1_modes.html#a1e38c0d9a2ca0230f0de79c298f53ab9" title="A mode that will start the Toolkit. " alt="" coords="1336,175,1531,202"/>
-<area shape="rect" id="node19" href="$classobe_1_1_scene_1_1_world.html#a32964e659e18cb32094d9f8ceea30aa3" title="obe::Scene::World::\lWorld" alt="" coords="1364,292,1503,333"/>
-<area shape="rect" id="node20" href="$namespaceobe_1_1_scene.html#ae5cbcc3278d9115d603e5024dec9136e" title="obe::Scene::loadWorldScript\lEngineBaseLib" alt="" coords="1100,325,1288,367"/>
-<area shape="rect" id="node21" href="$namespaceobe_1_1_script.html#a5e992c0efb0543e7c934bc1065f08b01" title="obe::Script::loadLibBridge" alt="" coords="1109,391,1279,418"/>
-<area shape="rect" id="node24" href="$namespaceobe_1_1_script.html#aad6ef67388e6d16eb01853f208da410f" title="obe::Script::loadBaseLib" alt="" coords="1112,223,1276,250"/>
-<area shape="rect" id="node22" href="$namespaceobe_1_1_script.html#a5dc8321da50fd4b5dc2935e4d8c93a4e" title="obe::Script::loadScrGame\lObject" alt="" coords="1347,384,1519,425"/>
-<area shape="rect" id="node23" href="$classobe_1_1_script_1_1_game_object.html#aadeac0036d2fe21d523acfd4e9011a23" title="obe::Script::GameObject\l::loadGameObject" alt="" coords="1584,384,1751,425"/>
+<area shape="rect" id="node2" href="$classvili_1_1_array_node.html#aa87333efc6d23b09e352cd1081296dba" title="Removes ownership and child Node from ContainerNode (Node won&#39;t be memory managed anymore..." alt="" coords="192,5,345,47"/>
+<area shape="rect" id="node4" href="$classvili_1_1_complex_node.html#a5fd9b4890887c011e78974fe88f87db2" title="Removes ownership and child Node from ComplexNode (Node won&#39;t be memory managed anymore, be cautious) " alt="" coords="202,71,335,112"/>
+<area shape="rect" id="node13" href="$namespaceobe_1_1_bindings_1_1_utils_bindings.html#ac659136cd88ddfad718e22e6efe815df" title="obe::Bindings::UtilsBindings\l::loadVectorUtils" alt="" coords="176,136,361,177"/>
+<area shape="rect" id="node14" href="$classobe_1_1_collision_1_1_polygonal_collider.html#a972819e978772fbcf1ec3b25ddb124a8" title="Removes a Tag of the Collider. " alt="" coords="186,201,351,243"/>
+<area shape="rect" id="node3" href="$classvili_1_1_array_node.html#ab8d56408cf64599ccffc0a71f66a65b7" title="vili::ArrayNode::~ArrayNode" alt="" coords="427,13,609,39"/>
+<area shape="rect" id="node5" href="$classvili_1_1_complex_node.html#ab1244ce309083ecf8ffa6df6284c1726" title="vili::ComplexNode::\l~ComplexNode" alt="" coords="451,132,585,173"/>
+<area shape="rect" id="node6" href="$classobe_1_1_script_1_1_game_object_requires.html#a1e2e738c42eb5b1bc9399d39d04e3eed" title="obe::Script::GameObjectRequires\l::getRequiresForObjectType" alt="" coords="409,67,627,108"/>
+<area shape="rect" id="node7" href="$namespaceobe_1_1_editor.html#ab548dfe02b4323438bcf9caedd01d696" title="obe::Editor::buildRequires\lObjectTab" alt="" coords="693,68,864,109"/>
+<area shape="rect" id="node8" href="$namespaceobe_1_1_editor.html#a24423ada9fd467ae78ebf9d21e64db0b" title="obe::Editor::buildObjectTab" alt="" coords="931,81,1109,107"/>
+<area shape="rect" id="node9" href="$namespaceobe_1_1_editor_1_1_g_u_i.html#ac209e33d93d1c6b719ed4c5206994ffc" title="obe::Editor::GUI::buildEditor\lObjectsMenu" alt="" coords="1157,76,1341,117"/>
+<area shape="rect" id="node10" href="$namespaceobe_1_1_editor.html#a9009207671e71dccb68a31ea2362e9ef" title="Starts the map edition. " alt="" coords="1417,90,1556,117"/>
+<area shape="rect" id="node11" href="$namespaceobe_1_1_modes.html#a6a8b08eee511d4895c4da96d4ba223a6" title="Starts the development Menu where you can starts other menus from. " alt="" coords="1639,141,1816,167"/>
+<area shape="rect" id="node12" href="$_ob_engine_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1871,166,1921,193"/>
+<area shape="rect" id="node15" href="$namespaceobe_1_1_bindings_1_1_collision_bindings.html#a48f290ff49a763532bdf5bc65070d2d2" title="obe::Bindings::Collision\lBindings::LoadPolygonalCollider" alt="" coords="675,256,883,297"/>
+<area shape="rect" id="node17" href="$namespaceobe_1_1_script_1_1_core_lib.html#a07d6c11bbb082bc45bdba50d97965c00" title="obe::Script::CoreLib\l::loadCollision" alt="" coords="449,197,587,239"/>
+<area shape="rect" id="node16" href="$namespaceobe_1_1_bindings.html#a41d33207a0199f125c75a0f70a4a3ba8" title="obe::Bindings::IndexBindings" alt="" coords="1632,255,1823,282"/>
+<area shape="rect" id="node18" href="$namespaceobe_1_1_script.html#abdb81ec0976f1097cef6711415b8fac3" title="obe::Script::loadCoreLib" alt="" coords="698,205,859,231"/>
+<area shape="rect" id="node19" href="$namespaceobe_1_1_script.html#a4e6ee77032cf7f66544f9b08464a60b7" title="obe::Script::loadLib" alt="" coords="953,205,1087,231"/>
+<area shape="rect" id="node20" href="$namespaceobe_1_1_modes.html#a1e38c0d9a2ca0230f0de79c298f53ab9" title="A mode that will start the Toolkit. " alt="" coords="1389,163,1584,190"/>
+<area shape="rect" id="node21" href="$namespaceobe_1_1_script.html#aad6ef67388e6d16eb01853f208da410f" title="obe::Script::loadBaseLib" alt="" coords="1167,207,1331,234"/>
 </map>

@@ -57,13 +57,13 @@ var sectionId = 'dynsection-7';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>obe::System::Path::last</title>
-<!-- Node93 -->
-<g id="node1" class="node"><title>Node93</title>
+<!-- Node87 -->
+<g id="node1" class="node"><title>Node87</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-30 0,-49 120,-49 120,-30 0,-30"/>
 <text text-anchor="middle" x="60" y="-37" font-family="Helvetica,sans-Serif" font-size="10.00">obe::System::Path::last</text>
 </g>
-<!-- Node94 -->
-<g id="node2" class="node"><title>Node94</title>
+<!-- Node88 -->
+<g id="node2" class="node"><title>Node88</title>
 <g id="a_node2"><a xlink:href="classobe_1_1_animation_1_1_animation.html#a672d106427b224e31b2dfe1489d8c075" target="_top" xlink:title="Configure an Animation using the Animation configuration file (Vili file) ">
 <polygon fill="none" stroke="black" points="167,-49.5 167,-79.5 298,-79.5 298,-49.5 167,-49.5"/>
 <text text-anchor="start" x="175" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Animation::Animation</text>
@@ -71,62 +71,62 @@ var sectionId = 'dynsection-7';
 </a>
 </g>
 </g>
-<!-- Node93&#45;&gt;Node94 -->
-<g id="edge1" class="edge"><title>Node93&#45;&gt;Node94</title>
+<!-- Node87&#45;&gt;Node88 -->
+<g id="edge1" class="edge"><title>Node87&#45;&gt;Node88</title>
 <path fill="none" stroke="midnightblue" d="M130.215,-49.6488C142.344,-51.4273 154.923,-53.2717 166.921,-55.0309"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="130.556,-46.1615 120.154,-48.1736 129.541,-53.0874 130.556,-46.1615"/>
 </g>
-<!-- Node98 -->
-<g id="node6" class="node"><title>Node98</title>
-<g id="a_node6"><a xlink:href="namespaceobe_1_1_bindings_1_1_system_bindings.html#a57b79e64c32fad2b6c10de38088a2d95" target="_top" xlink:title="obe::Bindings::SystemBindings\l::BindPath">
+<!-- Node92 -->
+<g id="node6" class="node"><title>Node92</title>
+<g id="a_node6"><a xlink:href="namespaceobe_1_1_bindings_1_1_system_bindings.html#a0a019849d342436a82500da9944eda9f" target="_top" xlink:title="obe::Bindings::SystemBindings\l::LoadPath">
 <polygon fill="none" stroke="black" points="156,-0.5 156,-30.5 309,-30.5 309,-0.5 156,-0.5"/>
 <text text-anchor="start" x="164" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Bindings::SystemBindings</text>
-<text text-anchor="middle" x="232.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::BindPath</text>
+<text text-anchor="middle" x="232.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::LoadPath</text>
 </a>
 </g>
 </g>
-<!-- Node93&#45;&gt;Node98 -->
-<g id="edge5" class="edge"><title>Node93&#45;&gt;Node98</title>
+<!-- Node87&#45;&gt;Node92 -->
+<g id="edge5" class="edge"><title>Node87&#45;&gt;Node92</title>
 <path fill="none" stroke="midnightblue" d="M130.317,-29.7428C138.755,-28.555 147.409,-27.3368 155.933,-26.137"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="129.569,-26.3135 120.154,-31.1733 130.544,-33.2452 129.569,-26.3135"/>
 </g>
-<!-- Node95 -->
-<g id="node3" class="node"><title>Node95</title>
-<g id="a_node3"><a xlink:href="namespaceobe_1_1_bindings_1_1_animation_bindings.html#a90425c1ca7642b03ad5d515f5b40bd00" target="_top" xlink:title="obe::Bindings::Animation\lBindings::LoadAnimation">
+<!-- Node89 -->
+<g id="node3" class="node"><title>Node89</title>
+<g id="a_node3"><a xlink:href="namespaceobe_1_1_bindings_1_1_animation_bindings.html#a07a26af93fe2b9216dbcb210661ddd4f" target="_top" xlink:title="obe::Bindings::Animation\lBindings::LoadAnimation">
 <polygon fill="none" stroke="black" points="345,-49.5 345,-79.5 470,-79.5 470,-49.5 345,-49.5"/>
 <text text-anchor="start" x="353" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Bindings::Animation</text>
 <text text-anchor="middle" x="407.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">Bindings::LoadAnimation</text>
 </a>
 </g>
 </g>
-<!-- Node94&#45;&gt;Node95 -->
-<g id="edge2" class="edge"><title>Node94&#45;&gt;Node95</title>
+<!-- Node88&#45;&gt;Node89 -->
+<g id="edge2" class="edge"><title>Node88&#45;&gt;Node89</title>
 <path fill="none" stroke="midnightblue" d="M308.531,-64.5C320.69,-64.5 333.157,-64.5 344.948,-64.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="308.411,-61.0001 298.411,-64.5 308.411,-68.0001 308.411,-61.0001"/>
 </g>
-<!-- Node96 -->
-<g id="node4" class="node"><title>Node96</title>
+<!-- Node90 -->
+<g id="node4" class="node"><title>Node90</title>
 <g id="a_node4"><a xlink:href="namespaceobe_1_1_bindings.html#a41d33207a0199f125c75a0f70a4a3ba8" target="_top" xlink:title="obe::Bindings::IndexBindings">
 <polygon fill="none" stroke="black" points="506,-55 506,-74 649,-74 649,-55 506,-55"/>
 <text text-anchor="middle" x="577.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Bindings::IndexBindings</text>
 </a>
 </g>
 </g>
-<!-- Node95&#45;&gt;Node96 -->
-<g id="edge3" class="edge"><title>Node95&#45;&gt;Node96</title>
+<!-- Node89&#45;&gt;Node90 -->
+<g id="edge3" class="edge"><title>Node89&#45;&gt;Node90</title>
 <path fill="none" stroke="midnightblue" d="M480.304,-64.5C488.754,-64.5 497.373,-64.5 505.808,-64.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="480.103,-61.0001 470.103,-64.5 480.103,-68.0001 480.103,-61.0001"/>
 </g>
-<!-- Node97 -->
-<g id="node5" class="node"><title>Node97</title>
+<!-- Node91 -->
+<g id="node5" class="node"><title>Node91</title>
 <g id="a_node5"><a xlink:href="_ob_engine_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" target="_top" xlink:title="main">
 <polygon fill="none" stroke="black" points="685,-55 685,-74 723,-74 723,-55 685,-55"/>
 <text text-anchor="middle" x="704" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">main</text>
 </a>
 </g>
 </g>
-<!-- Node96&#45;&gt;Node97 -->
-<g id="edge4" class="edge"><title>Node96&#45;&gt;Node97</title>
+<!-- Node90&#45;&gt;Node91 -->
+<g id="edge4" class="edge"><title>Node90&#45;&gt;Node91</title>
 <path fill="none" stroke="midnightblue" d="M659.161,-64.5C668.623,-64.5 677.462,-64.5 684.688,-64.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="659.117,-61.0001 649.117,-64.5 659.117,-68.0001 659.117,-61.0001"/>
 </g>

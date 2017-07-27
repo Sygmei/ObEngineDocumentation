@@ -1,33 +1,30 @@
 <map id="obe::Script::CoreLib::loadTrigger" name="obe::Script::CoreLib::loadTrigger">
 <area shape="rect" id="node2" href="$namespaceobe_1_1_script.html#a9582bae7b61bf604c2a68a8a016356ec" title="obe::Script::registerLib" alt="" coords="203,5,357,32"/>
-<area shape="rect" id="node3" href="$namespaceobe_1_1_utils_1_1_vector.html#a964ff22524706c50e054f29d98b8ba6d" title="Join all elements of a std::string into a std::string using a separator. " alt="" coords="702,646,825,687"/>
-<area shape="rect" id="node4" href="$classobe_1_1_triggers_1_1_trigger_database.html#a85e6d9c230362e0db35a8013337c4fd9" title="Get a Trigger contained in the TriggerDatabase. " alt="" coords="664,711,863,753"/>
-<area shape="rect" id="node5" href="$classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b" title="aube::ErrorHandler\l::Raise" alt="" coords="911,741,1041,782"/>
-<area shape="rect" id="node10" href="$classobe_1_1_triggers_1_1_trigger_database.html#a646a92ae2fd7d8947ec23ae301f12483" title="Creates a new TriggerGroup (Throws an error if the TriggerGroup already exists) " alt="" coords="664,829,863,870"/>
-<area shape="rect" id="node11" href="$classobe_1_1_triggers_1_1_trigger_database.html#a8eaa4768ed4c03613952f241c925b33e" title="Join an existing TriggerGroup (Throws an error if the TriggerGroup doesn&#39;t exists or isn&#39;t joinable) ..." alt="" coords="664,949,863,990"/>
-<area shape="rect" id="node12" href="$classobe_1_1_triggers_1_1_trigger_database.html#a8d47ee01e08f982574a4381de08648ed" title="Check if a TriggerGroup exists in the TriggerDatabase. " alt="" coords="417,34,616,75"/>
-<area shape="rect" id="node13" href="$classobe_1_1_triggers_1_1_trigger_group.html#aa634130b4aeb886549f0a20d993b5c92" title="Get a Trigger contained in the TriggerGroup. " alt="" coords="674,331,853,373"/>
-<area shape="rect" id="node14" href="$classobe_1_1_triggers_1_1_trigger_group.html#aa6c209476bf95d957abdbbcc17ee5a3e" title="Creates a new Trigger in the TriggerGroup. " alt="" coords="191,427,369,469"/>
-<area shape="rect" id="node15" href="$classobe_1_1_triggers_1_1_trigger_group.html#ab54294cc6ad2b05e256b7b900a0579ca" title="Delays activation of a Trigger. " alt="" coords="427,227,606,269"/>
-<area shape="rect" id="node16" href="$classobe_1_1_triggers_1_1_trigger_group.html#a277ee82edb3296d3113f3df0c2d2568b" title="Enables a Trigger. " alt="" coords="427,298,606,339"/>
-<area shape="rect" id="node17" href="$classobe_1_1_triggers_1_1_trigger_group.html#afd1402a757d0d9eaa7d1b192f7a464e1" title="Disables a Trigger. " alt="" coords="427,363,606,405"/>
-<area shape="rect" id="node18" href="$classobe_1_1_triggers_1_1_trigger_group.html#a53cf9d0fef376c443de0e53cfb555a27" title="Sets the new state of a Trigger. " alt="" coords="191,310,369,351"/>
-<area shape="rect" id="node19" href="$classobe_1_1_triggers_1_1_trigger_group.html#af0403fdce3a78e57734d04c70c0519b8" title="Get the current state of a Trigger. " alt="" coords="191,493,369,534"/>
-<area shape="rect" id="node20" href="$classobe_1_1_triggers_1_1_trigger.html#a6df08cc4580f11813907206a3e8b8f89" title="Get the State of the Trigger (enabled / disabled) " alt="" coords="445,493,589,534"/>
-<area shape="rect" id="node21" href="$classobe_1_1_triggers_1_1_trigger_group.html#a78d5379a77280480664edb2893b97915" title="Adds / Removes permanent attribute to a Trigger. " alt="" coords="427,99,606,141"/>
-<area shape="rect" id="node22" href="$classobe_1_1_triggers_1_1_trigger_group.html#a22a994d2eadc8ee962e2cb4594df07c1" title="Get the name of all Trigger contained in the TriggerGroup. " alt="" coords="191,879,369,921"/>
-<area shape="rect" id="node23" href="$classobe_1_1_triggers_1_1_trigger_group.html#a72767b9f06a9fdfb45cce29564c694d9" title="Get all the Trigger contained in the TriggerGroup. " alt="" coords="191,945,369,986"/>
-<area shape="rect" id="node24" href="$classobe_1_1_triggers_1_1_trigger_group.html#a49dc453c0968342bd7ffae88abcb19b7" title="Pushes a Parameter to a Trigger. " alt="" coords="191,610,369,651"/>
-<area shape="rect" id="node27" href="$classobe_1_1_triggers_1_1_trigger.html#a32c34708d62443a8dfa02c06e7f48f6d" title="Get if the Trigger is in permanent state (stays enabled) " alt="" coords="208,1062,352,1103"/>
-<area shape="rect" id="node28" href="$classobe_1_1_triggers_1_1_trigger.html#ab0eb4ecf6b771aadfc966a10cd620160" title="Get the name of the TriggerGroup which is the parent of the Trigger. " alt="" coords="208,1127,352,1169"/>
-<area shape="rect" id="node30" href="$classobe_1_1_triggers_1_1_trigger.html#a3cdb098a8deaad57347ea516a8532196" title="Get the name of the Trigger. " alt="" coords="208,1193,352,1234"/>
-<area shape="rect" id="node31" href="$classobe_1_1_triggers_1_1_trigger.html#a5649d751353ffb6fd27051f7f21eee6e" title="Get the name of the namespace of the parent (TriggerGroup) of the Trigger. " alt="" coords="208,1258,352,1299"/>
-<area shape="rect" id="node6" href="$classaube_1_1_error_message.html#a3a39b6fcd8fdb12eaf6383123535b8ca" title="aube::ErrorMessage\l::getFile" alt="" coords="1089,642,1228,683"/>
-<area shape="rect" id="node7" href="$classaube_1_1_error_message.html#a9184cc96589578f434351c105b0cd5f7" title="aube::ErrorMessage\l::getLocation" alt="" coords="1089,707,1228,749"/>
-<area shape="rect" id="node8" href="$classaube_1_1_error_message.html#a07927cb3e2d0712c459cc9e2b5f52696" title="aube::ErrorMessage\l::getMessage" alt="" coords="1089,773,1228,814"/>
-<area shape="rect" id="node9" href="$classaube_1_1_error_message.html#a77c2f9b7e93542c958173b52da267989" title="aube::ErrorMessage\l::getHints" alt="" coords="1089,838,1228,879"/>
-<area shape="rect" id="node25" href="$classobe_1_1_triggers_1_1_trigger.html#a3ad25b0fc614ad94c16a424464083607" title="Pushes a parameter to the Trigger. " alt="" coords="445,610,589,651"/>
-<area shape="rect" id="node26" href="$namespaceobe_1_1_utils_1_1_string.html#a074d624ca5936545dc32c0b5e423050d" title="Splits a std::string using a delimited. " alt="" coords="704,581,823,622"/>
-<area shape="rect" id="node29" href="$classobe_1_1_triggers_1_1_trigger_group.html#afd615ae94ece6e7d978aab0ae9de80f8" title="Get the name of the TriggerGroup. " alt="" coords="427,1127,606,1169"/>
-<area shape="rect" id="node32" href="$classobe_1_1_triggers_1_1_trigger_group.html#a4444bdd3126c3cee2c09f5f20f799256" title="Get the name of the namespace the Trigger is in. " alt="" coords="427,1258,606,1299"/>
+<area shape="rect" id="node3" href="$namespaceobe_1_1_utils_1_1_vector.html#a964ff22524706c50e054f29d98b8ba6d" title="Join all elements of a std::string into a std::string using a separator. " alt="" coords="219,57,341,98"/>
+<area shape="rect" id="node4" href="$classobe_1_1_triggers_1_1_trigger_database.html#a85e6d9c230362e0db35a8013337c4fd9" title="Get a Trigger contained in the TriggerDatabase. " alt="" coords="417,174,616,215"/>
+<area shape="rect" id="node5" href="$classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b" title="Raises an Error loaded in the Aube Error Database (AED) " alt="" coords="685,273,816,314"/>
+<area shape="rect" id="node10" href="$classobe_1_1_triggers_1_1_trigger_database.html#a646a92ae2fd7d8947ec23ae301f12483" title="Creates a new TriggerGroup (Throws an error if the TriggerGroup already exists) " alt="" coords="417,239,616,281"/>
+<area shape="rect" id="node11" href="$classobe_1_1_triggers_1_1_trigger_database.html#a8eaa4768ed4c03613952f241c925b33e" title="Join an existing TriggerGroup (Throws an error if the TriggerGroup doesn&#39;t exists or isn&#39;t joinable) ..." alt="" coords="417,305,616,346"/>
+<area shape="rect" id="node12" href="$classobe_1_1_triggers_1_1_trigger_database.html#a8d47ee01e08f982574a4381de08648ed" title="Check if a TriggerGroup exists in the TriggerDatabase. " alt="" coords="417,370,616,411"/>
+<area shape="rect" id="node13" href="$classobe_1_1_triggers_1_1_trigger_group.html#aa634130b4aeb886549f0a20d993b5c92" title="Get a Trigger contained in the TriggerGroup. " alt="" coords="427,501,606,542"/>
+<area shape="rect" id="node14" href="$classobe_1_1_triggers_1_1_trigger_group.html#aa6c209476bf95d957abdbbcc17ee5a3e" title="Creates a new Trigger in the TriggerGroup. " alt="" coords="191,850,369,891"/>
+<area shape="rect" id="node15" href="$classobe_1_1_triggers_1_1_trigger_group.html#a9f4f062f25c20132efc022fbadd5745a" title="Delays activation of a Trigger. " alt="" coords="191,501,369,542"/>
+<area shape="rect" id="node16" href="$classobe_1_1_triggers_1_1_trigger_group.html#a321c75e1c0d14e8cf23dfa4829c457c6" title="Enables a Trigger. " alt="" coords="191,383,369,425"/>
+<area shape="rect" id="node19" href="$classobe_1_1_triggers_1_1_trigger.html#a5649d751353ffb6fd27051f7f21eee6e" title="Get the name of the namespace of the parent (TriggerGroup) of the Trigger. " alt="" coords="885,698,1029,739"/>
+<area shape="rect" id="node21" href="$classobe_1_1_triggers_1_1_trigger.html#ab0eb4ecf6b771aadfc966a10cd620160" title="Get the name of the TriggerGroup which is the parent of the Trigger. " alt="" coords="885,777,1029,818"/>
+<area shape="rect" id="node23" href="$classobe_1_1_triggers_1_1_trigger_group.html#af0403fdce3a78e57734d04c70c0519b8" title="Get the current state of a Trigger. " alt="" coords="191,631,369,673"/>
+<area shape="rect" id="node24" href="$classobe_1_1_triggers_1_1_trigger.html#a6df08cc4580f11813907206a3e8b8f89" title="Get the State of the Trigger (enabled / disabled) " alt="" coords="445,670,589,711"/>
+<area shape="rect" id="node25" href="$classobe_1_1_triggers_1_1_trigger_group.html#a22a994d2eadc8ee962e2cb4594df07c1" title="Get the name of all Trigger contained in the TriggerGroup. " alt="" coords="191,915,369,957"/>
+<area shape="rect" id="node26" href="$classobe_1_1_triggers_1_1_trigger_group.html#a72767b9f06a9fdfb45cce29564c694d9" title="Get all the Trigger contained in the TriggerGroup. " alt="" coords="191,981,369,1022"/>
+<area shape="rect" id="node27" href="$classobe_1_1_triggers_1_1_trigger_group.html#a49dc453c0968342bd7ffae88abcb19b7" title="Pushes a Parameter to a Trigger. " alt="" coords="191,566,369,607"/>
+<area shape="rect" id="node29" href="$classobe_1_1_triggers_1_1_trigger.html#a3cdb098a8deaad57347ea516a8532196" title="Get the name of the Trigger. " alt="" coords="208,1046,352,1087"/>
+<area shape="rect" id="node6" href="$classaube_1_1_error_message.html#a3a39b6fcd8fdb12eaf6383123535b8ca" title="Gets the File where is located the ErrorMessage when raised. " alt="" coords="888,175,1027,217"/>
+<area shape="rect" id="node7" href="$classaube_1_1_error_message.html#a9184cc96589578f434351c105b0cd5f7" title="Gets the location of the error in the code. " alt="" coords="888,241,1027,282"/>
+<area shape="rect" id="node8" href="$classaube_1_1_error_message.html#a07927cb3e2d0712c459cc9e2b5f52696" title="Gets the message displayed by the ErrorMessage when raised. " alt="" coords="888,306,1027,347"/>
+<area shape="rect" id="node9" href="$classaube_1_1_error_message.html#a77c2f9b7e93542c958173b52da267989" title="Gets hints that can help the error resolution. " alt="" coords="888,371,1027,413"/>
+<area shape="rect" id="node17" href="$classobe_1_1_triggers_1_1_trigger.html#ad138768c1cf54e56d69df141b185b0e6" title="obe::Triggers::Trigger\l::prepareNewCall" alt="" coords="445,435,589,477"/>
+<area shape="rect" id="node18" href="$classobe_1_1_triggers_1_1_trigger.html#ad83456f23a1e90dc2b7f816628c93e36" title="obe::Triggers::Trigger\l::getTriggerLuaTableName" alt="" coords="664,618,837,659"/>
+<area shape="rect" id="node20" href="$classobe_1_1_triggers_1_1_trigger_group.html#a4444bdd3126c3cee2c09f5f20f799256" title="Get the name of the namespace the Trigger is in. " alt="" coords="1077,698,1256,739"/>
+<area shape="rect" id="node22" href="$classobe_1_1_triggers_1_1_trigger_group.html#afd615ae94ece6e7d978aab0ae9de80f8" title="Get the name of the TriggerGroup. " alt="" coords="1077,777,1256,818"/>
+<area shape="rect" id="node28" href="$classobe_1_1_triggers_1_1_trigger.html#a09b4d1a86c910fd6659ec37547bea49f" title="Pushes a parameter to the Trigger. " alt="" coords="445,591,589,633"/>
 </map>

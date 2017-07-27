@@ -87,9 +87,10 @@ Namespaces</h2></td></tr>
 <tr class="memdesc:namespaceobe_1_1_system_1_1_loaders"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lambdas used to load different kind of resources using the <a class="el" href="classobe_1_1_system_1_1_path.html" title="Class used to manipulate paths and dynamically load resources (Based on multiple mounted paths) ...">System::Path</a>. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceobe_1_1_system_1_1_package"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system_1_1_package.html">Package</a></td></tr>
+<tr class="memdesc:namespaceobe_1_1_system_1_1_package"><td class="mdescLeft">&#160;</td><td class="mdescRight">Various functions to manipulate Packages . <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceobe_1_1_system_1_1_workspace"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system_1_1_workspace.html">Workspace</a></td></tr>
-<tr class="memdesc:namespaceobe_1_1_system_1_1_workspace"><td class="mdescLeft">&#160;</td><td class="mdescRight">A Class contained static functions to work with the Workspaces. <br /></td></tr>
+<tr class="memdesc:namespaceobe_1_1_system_1_1_workspace"><td class="mdescLeft">&#160;</td><td class="mdescRight">Various functions to work with Workspaces . <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -111,6 +112,12 @@ Enumerations</h2></td></tr>
  }<tr class="memdesc:a284005a7c85e73aa19aec65cdfd34a7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">An enum for Mouse buttons (Left-click / Right-click)  <a href="namespaceobe_1_1_system.html#a284005a7c85e73aa19aec65cdfd34a7d">More...</a><br /></td></tr>
 </td></tr>
 <tr class="separator:a284005a7c85e73aa19aec65cdfd34a7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a265100c672e81c1bb5c5e016e3ef89ca"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system.html#a265100c672e81c1bb5c5e016e3ef89ca">MouseButtonState</a> { <a class="el" href="namespaceobe_1_1_system.html#a265100c672e81c1bb5c5e016e3ef89caae599161956d626eda4cb0a5ffb85271c">MouseButtonState::Idle</a>, 
+<a class="el" href="namespaceobe_1_1_system.html#a265100c672e81c1bb5c5e016e3ef89caabcd8db575b47c838e5d551e3973db4ac">MouseButtonState::Hold</a>, 
+<a class="el" href="namespaceobe_1_1_system.html#a265100c672e81c1bb5c5e016e3ef89caad78a68f6a85421ae121c2cb5b73a1040">MouseButtonState::Pressed</a>, 
+<a class="el" href="namespaceobe_1_1_system.html#a265100c672e81c1bb5c5e016e3ef89caaea1e34304a5d8ffa7c9b0ed8ede4ef1a">MouseButtonState::Released</a>
+ }</td></tr>
+<tr class="separator:a265100c672e81c1bb5c5e016e3ef89ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a694fe83b30a254b5c66650c9dc3bb497"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system.html#a694fe83b30a254b5c66650c9dc3bb497">PathType</a> { <a class="el" href="namespaceobe_1_1_system.html#a694fe83b30a254b5c66650c9dc3bb497aac70412e939d72a9234cdebb1af5867b">PathType::Path</a>, 
 <a class="el" href="namespaceobe_1_1_system.html#a694fe83b30a254b5c66650c9dc3bb497a209802fb858e2c83205027dbbb5d9e6c">PathType::Package</a>, 
 <a class="el" href="namespaceobe_1_1_system.html#a694fe83b30a254b5c66650c9dc3bb497a03a21915504df93cf5dba0636080f62e">PathType::Workspace</a>
@@ -155,6 +162,34 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a265100c672e81c1bb5c5e016e3ef89ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a265100c672e81c1bb5c5e016e3ef89ca">&#9670;&nbsp;</a></span>MouseButtonState</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespaceobe_1_1_system.html#a265100c672e81c1bb5c5e016e3ef89ca">obe::System::MouseButtonState</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a265100c672e81c1bb5c5e016e3ef89caae599161956d626eda4cb0a5ffb85271c"></a>Idle&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a265100c672e81c1bb5c5e016e3ef89caabcd8db575b47c838e5d551e3973db4ac"></a>Hold&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a265100c672e81c1bb5c5e016e3ef89caad78a68f6a85421ae121c2cb5b73a1040"></a>Pressed&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a265100c672e81c1bb5c5e016e3ef89caaea1e34304a5d8ffa7c9b0ed8ede4ef1a"></a>Released&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <a id="a694fe83b30a254b5c66650c9dc3bb497"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a694fe83b30a254b5c66650c9dc3bb497">&#9670;&nbsp;</a></span>PathType</h2>
 
@@ -179,9 +214,9 @@ Functions</h2></td></tr>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a694fe83b30a254b5c66650c9dc3bb497aac70412e939d72a9234cdebb1af5867b"></a>Path&#160;</td><td class="fielddoc"><p>A standard path. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a694fe83b30a254b5c66650c9dc3bb497a209802fb858e2c83205027dbbb5d9e6c"></a>Package&#160;</td><td class="fielddoc"><p>The mounted path is a <a class="el" href="namespaceobe_1_1_system_1_1_package.html">Package</a>. </p>
+<tr><td class="fieldname"><a id="a694fe83b30a254b5c66650c9dc3bb497a209802fb858e2c83205027dbbb5d9e6c"></a>Package&#160;</td><td class="fielddoc"><p>The mounted path is a <a class="el" href="namespaceobe_1_1_system_1_1_package.html" title="Various functions to manipulate Packages . ">Package</a>. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a694fe83b30a254b5c66650c9dc3bb497a03a21915504df93cf5dba0636080f62e"></a>Workspace&#160;</td><td class="fielddoc"><p>The mounted path is a <a class="el" href="namespaceobe_1_1_system_1_1_workspace.html" title="A Class contained static functions to work with the Workspaces. ">Workspace</a>. </p>
+<tr><td class="fieldname"><a id="a694fe83b30a254b5c66650c9dc3bb497a03a21915504df93cf5dba0636080f62e"></a>Workspace&#160;</td><td class="fielddoc"><p>The mounted path is a <a class="el" href="namespaceobe_1_1_system_1_1_workspace.html" title="Various functions to work with Workspaces . ">Workspace</a>. </p>
 </td></tr>
 </table>
 
@@ -207,12 +242,14 @@ Functions</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_system_ab44a678f8f4dc351d966f90283ba67e1_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_system_ab44a678f8f4dc351d966f90283ba67e1_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_system_ab44a678f8f4dc351d966f90283ba67e1_icgraph.svg" width="100%" height="526"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_system_ab44a678f8f4dc351d966f90283ba67e1_icgraph.svg" width="100%" height="406"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>

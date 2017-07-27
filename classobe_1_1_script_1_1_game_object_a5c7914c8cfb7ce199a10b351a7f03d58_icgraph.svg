@@ -57,14 +57,14 @@ var sectionId = 'dynsection-23';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>obe::Script::GameObject::sendRequireArgumentFromLua</title>
-<!-- Node512 -->
-<g id="node1" class="node"><title>Node512</title>
+<!-- Node260 -->
+<g id="node1" class="node"><title>Node260</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-24.5 0,-54.5 157,-54.5 157,-24.5 0,-24.5"/>
 <text text-anchor="start" x="8" y="-42.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Script::GameObject</text>
 <text text-anchor="middle" x="78.5" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">::sendRequireArgumentFromLua</text>
 </g>
-<!-- Node513 -->
-<g id="node2" class="node"><title>Node513</title>
+<!-- Node261 -->
+<g id="node2" class="node"><title>Node261</title>
 <g id="a_node2"><a xlink:href="namespaceobe_1_1_script.html#a12bbe1b0049ef8e99e1bfdba550b041e" target="_top" xlink:title="obe::Script::loadScrGame\lObjectLib">
 <polygon fill="none" stroke="black" points="193,-24.5 193,-54.5 322,-54.5 322,-24.5 193,-24.5"/>
 <text text-anchor="start" x="201" y="-42.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Script::loadScrGame</text>
@@ -72,13 +72,13 @@ var sectionId = 'dynsection-23';
 </a>
 </g>
 </g>
-<!-- Node512&#45;&gt;Node513 -->
-<g id="edge1" class="edge"><title>Node512&#45;&gt;Node513</title>
+<!-- Node260&#45;&gt;Node261 -->
+<g id="edge1" class="edge"><title>Node260&#45;&gt;Node261</title>
 <path fill="none" stroke="midnightblue" d="M167.289,-39.5C175.959,-39.5 184.639,-39.5 192.994,-39.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="167.135,-36.0001 157.135,-39.5 167.135,-43.0001 167.135,-36.0001"/>
 </g>
-<!-- Node514 -->
-<g id="node3" class="node"><title>Node514</title>
+<!-- Node262 -->
+<g id="node3" class="node"><title>Node262</title>
 <g id="a_node3"><a xlink:href="namespaceobe_1_1_scene.html#ae5cbcc3278d9115d603e5024dec9136e" target="_top" xlink:title="obe::Scene::loadWorldScript\lEngineBaseLib">
 <polygon fill="none" stroke="black" points="358,-49.5 358,-79.5 499,-79.5 499,-49.5 358,-49.5"/>
 <text text-anchor="start" x="366" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Scene::loadWorldScript</text>
@@ -86,13 +86,13 @@ var sectionId = 'dynsection-23';
 </a>
 </g>
 </g>
-<!-- Node513&#45;&gt;Node514 -->
-<g id="edge2" class="edge"><title>Node513&#45;&gt;Node514</title>
+<!-- Node261&#45;&gt;Node262 -->
+<g id="edge2" class="edge"><title>Node261&#45;&gt;Node262</title>
 <path fill="none" stroke="midnightblue" d="M332.558,-50.4553C340.968,-51.6995 349.519,-52.9643 357.869,-54.1996"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="332.796,-46.9526 322.392,-48.9514 331.772,-53.8772 332.796,-46.9526"/>
 </g>
-<!-- Node516 -->
-<g id="node5" class="node"><title>Node516</title>
+<!-- Node264 -->
+<g id="node5" class="node"><title>Node264</title>
 <g id="a_node5"><a xlink:href="namespaceobe_1_1_script.html#a5dc8321da50fd4b5dc2935e4d8c93a4e" target="_top" xlink:title="obe::Script::loadScrGame\lObject">
 <polygon fill="none" stroke="black" points="364,-0.5 364,-30.5 493,-30.5 493,-0.5 364,-0.5"/>
 <text text-anchor="start" x="372" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Script::loadScrGame</text>
@@ -100,36 +100,36 @@ var sectionId = 'dynsection-23';
 </a>
 </g>
 </g>
-<!-- Node513&#45;&gt;Node516 -->
-<g id="edge4" class="edge"><title>Node513&#45;&gt;Node516</title>
+<!-- Node261&#45;&gt;Node264 -->
+<g id="edge4" class="edge"><title>Node261&#45;&gt;Node264</title>
 <path fill="none" stroke="midnightblue" d="M332.35,-29.0124C342.83,-27.5241 353.533,-26.0042 363.798,-24.5464"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="331.8,-25.5553 322.392,-30.4266 332.784,-32.4858 331.8,-25.5553"/>
 </g>
-<!-- Node515 -->
-<g id="node4" class="node"><title>Node515</title>
-<g id="a_node4"><a xlink:href="classobe_1_1_scene_1_1_world.html#a32964e659e18cb32094d9f8ceea30aa3" target="_top" xlink:title="obe::Scene::World::\lWorld">
-<polygon fill="none" stroke="black" points="545.5,-49.5 545.5,-79.5 649.5,-79.5 649.5,-49.5 545.5,-49.5"/>
-<text text-anchor="start" x="553.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Scene::World::</text>
-<text text-anchor="middle" x="597.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">World</text>
+<!-- Node263 -->
+<g id="node4" class="node"><title>Node263</title>
+<g id="a_node4"><a xlink:href="classobe_1_1_scene_1_1_scene.html#a6671ed54f3898e54a2814d58ec8ffec5" target="_top" xlink:title="Creates a new Scene. ">
+<polygon fill="none" stroke="black" points="544.5,-49.5 544.5,-79.5 650.5,-79.5 650.5,-49.5 544.5,-49.5"/>
+<text text-anchor="start" x="552.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Scene::Scene::</text>
+<text text-anchor="middle" x="597.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">Scene</text>
 </a>
 </g>
 </g>
-<!-- Node514&#45;&gt;Node515 -->
-<g id="edge3" class="edge"><title>Node514&#45;&gt;Node515</title>
-<path fill="none" stroke="midnightblue" d="M509.572,-64.5C521.789,-64.5 534.105,-64.5 545.469,-64.5"/>
+<!-- Node262&#45;&gt;Node263 -->
+<g id="edge3" class="edge"><title>Node262&#45;&gt;Node263</title>
+<path fill="none" stroke="midnightblue" d="M509.693,-64.5C521.509,-64.5 533.413,-64.5 544.458,-64.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="509.355,-61.0001 499.355,-64.5 509.355,-68.0001 509.355,-61.0001"/>
 </g>
-<!-- Node517 -->
-<g id="node6" class="node"><title>Node517</title>
-<g id="a_node6"><a xlink:href="classobe_1_1_script_1_1_game_object.html#aadeac0036d2fe21d523acfd4e9011a23" target="_top" xlink:title="obe::Script::GameObject\l::loadGameObject">
+<!-- Node265 -->
+<g id="node6" class="node"><title>Node265</title>
+<g id="a_node6"><a xlink:href="classobe_1_1_script_1_1_game_object.html#a3ff3f3070f0132be656f3425750cc507" target="_top" xlink:title="obe::Script::GameObject\l::loadGameObject">
 <polygon fill="none" stroke="black" points="535,-0.5 535,-30.5 660,-30.5 660,-0.5 535,-0.5"/>
 <text text-anchor="start" x="543" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Script::GameObject</text>
 <text text-anchor="middle" x="597.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::loadGameObject</text>
 </a>
 </g>
 </g>
-<!-- Node516&#45;&gt;Node517 -->
-<g id="edge5" class="edge"><title>Node516&#45;&gt;Node517</title>
+<!-- Node264&#45;&gt;Node265 -->
+<g id="edge5" class="edge"><title>Node264&#45;&gt;Node265</title>
 <path fill="none" stroke="midnightblue" d="M503.202,-15.5C513.818,-15.5 524.649,-15.5 534.994,-15.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="503.112,-12.0001 493.112,-15.5 503.112,-19.0001 503.112,-12.0001"/>
 </g>

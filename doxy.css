@@ -298,6 +298,7 @@ td.memItemLeft, td.memItemRight, .mdescLeft, .mdescRight, .memdoc, .memTemplPara
 .memname
 {
   background-color: #660066;
+  color: white;
 }
 
 .memdoc
@@ -309,11 +310,6 @@ td.memItemLeft, td.memItemRight, .mdescLeft, .mdescRight, .memdoc, .memTemplPara
 {
  /* 2nd for ToDo List */
   background-color: #282828;
-}
-
-.paramname
-{
-  color: greenyellow;
 }
 
 img.formulaInl
@@ -949,7 +945,7 @@ dl.reflist dd {
 }
 
 .paramname {
-	color: #602020;
+	color: greenyellow;
 	white-space: nowrap;
 }
 .paramname em {

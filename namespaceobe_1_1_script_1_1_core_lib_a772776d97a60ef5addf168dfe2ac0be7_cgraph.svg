@@ -57,307 +57,307 @@ var sectionId = 'dynsection-2';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>obe::Script::CoreLib::loadCamera</title>
-<!-- Node66 -->
-<g id="node1" class="node"><title>Node66</title>
+<!-- Node61 -->
+<g id="node1" class="node"><title>Node61</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-455.5 0,-485.5 103,-485.5 103,-455.5 0,-455.5"/>
 <text text-anchor="start" x="8" y="-473.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Script::CoreLib</text>
 <text text-anchor="middle" x="51.5" y="-462.5" font-family="Helvetica,sans-Serif" font-size="10.00">::loadCamera</text>
 </g>
-<!-- Node67 -->
-<g id="node2" class="node"><title>Node67</title>
+<!-- Node62 -->
+<g id="node2" class="node"><title>Node62</title>
 <g id="a_node2"><a xlink:href="namespaceobe_1_1_script.html#a9582bae7b61bf604c2a68a8a016356ec" target="_top" xlink:title="obe::Script::registerLib">
-<polygon fill="white" stroke="black" points="139,-848 139,-867 254,-867 254,-848 139,-848"/>
+<polygon fill="none" stroke="black" points="139,-848 139,-867 254,-867 254,-848 139,-848"/>
 <text text-anchor="middle" x="196.5" y="-855" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Script::registerLib</text>
 </a>
 </g>
 </g>
-<!-- Node66&#45;&gt;Node67 -->
-<g id="edge1" class="edge"><title>Node66&#45;&gt;Node67</title>
+<!-- Node61&#45;&gt;Node62 -->
+<g id="edge1" class="edge"><title>Node61&#45;&gt;Node62</title>
 <path fill="none" stroke="midnightblue" d="M54.1232,-485.821C61.0534,-548.519 90.0628,-784.757 139,-838.5 140.222,-839.841 141.541,-841.088 142.938,-842.247"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="141.387,-845.415 151.67,-847.969 145.224,-839.56 141.387,-845.415"/>
 </g>
-<!-- Node68 -->
-<g id="node3" class="node"><title>Node68</title>
+<!-- Node63 -->
+<g id="node3" class="node"><title>Node63</title>
 <g id="a_node3"><a xlink:href="namespaceobe_1_1_utils_1_1_vector.html#a964ff22524706c50e054f29d98b8ba6d" target="_top" xlink:title="Join all elements of a std::string into a std::string using a separator. ">
-<polygon fill="white" stroke="black" points="150.5,-798.5 150.5,-828.5 242.5,-828.5 242.5,-798.5 150.5,-798.5"/>
+<polygon fill="none" stroke="black" points="150.5,-798.5 150.5,-828.5 242.5,-828.5 242.5,-798.5 150.5,-798.5"/>
 <text text-anchor="start" x="158.5" y="-816.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Utils::Vector</text>
 <text text-anchor="middle" x="196.5" y="-805.5" font-family="Helvetica,sans-Serif" font-size="10.00">::join</text>
 </a>
 </g>
 </g>
-<!-- Node66&#45;&gt;Node68 -->
-<g id="edge2" class="edge"><title>Node66&#45;&gt;Node68</title>
+<!-- Node61&#45;&gt;Node63 -->
+<g id="edge2" class="edge"><title>Node61&#45;&gt;Node63</title>
 <path fill="none" stroke="midnightblue" d="M52.2063,-485.617C52.0498,-535.461 58.1225,-696.718 139,-789.5 140.007,-790.655 141.078,-791.756 142.205,-792.805"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="140.249,-795.715 150.32,-799.006 144.5,-790.154 140.249,-795.715"/>
 </g>
-<!-- Node69 -->
-<g id="node4" class="node"><title>Node69</title>
+<!-- Node64 -->
+<g id="node4" class="node"><title>Node64</title>
 <g id="a_node4"><a xlink:href="classobe_1_1_scene_1_1_camera.html#a2b175f2474587fc733895f606cda5f99" target="_top" xlink:title="obe::Scene::Camera\l::getHeight">
-<polygon fill="white" stroke="black" points="143.5,-749.5 143.5,-779.5 249.5,-779.5 249.5,-749.5 143.5,-749.5"/>
+<polygon fill="none" stroke="black" points="143.5,-749.5 143.5,-779.5 249.5,-779.5 249.5,-749.5 143.5,-749.5"/>
 <text text-anchor="start" x="151.5" y="-767.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Scene::Camera</text>
 <text text-anchor="middle" x="196.5" y="-756.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getHeight</text>
 </a>
 </g>
 </g>
-<!-- Node66&#45;&gt;Node69 -->
-<g id="edge3" class="edge"><title>Node66&#45;&gt;Node69</title>
+<!-- Node61&#45;&gt;Node64 -->
+<g id="edge3" class="edge"><title>Node61&#45;&gt;Node64</title>
 <path fill="none" stroke="midnightblue" d="M53.1083,-485.802C55.6925,-530.738 69.1682,-663.956 139,-740.5 139.772,-741.346 140.579,-742.164 141.416,-742.954"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="139.611,-745.982 149.661,-749.335 143.895,-740.446 139.611,-745.982"/>
 </g>
-<!-- Node70 -->
-<g id="node5" class="node"><title>Node70</title>
+<!-- Node65 -->
+<g id="node5" class="node"><title>Node65</title>
 <g id="a_node5"><a xlink:href="classobe_1_1_scene_1_1_camera.html#a0784974770837ae195a7738debcf6dec" target="_top" xlink:title="obe::Scene::Camera\l::getPosition">
-<polygon fill="white" stroke="black" points="143.5,-700.5 143.5,-730.5 249.5,-730.5 249.5,-700.5 143.5,-700.5"/>
+<polygon fill="none" stroke="black" points="143.5,-700.5 143.5,-730.5 249.5,-730.5 249.5,-700.5 143.5,-700.5"/>
 <text text-anchor="start" x="151.5" y="-718.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Scene::Camera</text>
 <text text-anchor="middle" x="196.5" y="-707.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getPosition</text>
 </a>
 </g>
 </g>
-<!-- Node66&#45;&gt;Node70 -->
-<g id="edge4" class="edge"><title>Node66&#45;&gt;Node70</title>
+<!-- Node61&#45;&gt;Node65 -->
+<g id="edge4" class="edge"><title>Node61&#45;&gt;Node65</title>
 <path fill="none" stroke="midnightblue" d="M54.3408,-485.532C59.883,-524.621 79.8478,-630.631 139,-691.5 140.044,-692.575 141.145,-693.604 142.291,-694.589"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="140.28,-697.454 150.435,-700.473 144.379,-691.78 140.28,-697.454"/>
 </g>
-<!-- Node71 -->
-<g id="node6" class="node"><title>Node71</title>
+<!-- Node66 -->
+<g id="node6" class="node"><title>Node66</title>
 <g id="a_node6"><a xlink:href="classobe_1_1_scene_1_1_camera.html#adfde56d24721c9247c7d50bc8a3603da" target="_top" xlink:title="obe::Scene::Camera\l::getSize">
-<polygon fill="white" stroke="black" points="143.5,-651.5 143.5,-681.5 249.5,-681.5 249.5,-651.5 143.5,-651.5"/>
+<polygon fill="none" stroke="black" points="143.5,-651.5 143.5,-681.5 249.5,-681.5 249.5,-651.5 143.5,-651.5"/>
 <text text-anchor="start" x="151.5" y="-669.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Scene::Camera</text>
 <text text-anchor="middle" x="196.5" y="-658.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getSize</text>
 </a>
 </g>
 </g>
-<!-- Node66&#45;&gt;Node71 -->
-<g id="edge5" class="edge"><title>Node66&#45;&gt;Node71</title>
+<!-- Node61&#45;&gt;Node66 -->
+<g id="edge5" class="edge"><title>Node61&#45;&gt;Node66</title>
 <path fill="none" stroke="midnightblue" d="M56.239,-485.517C65.1244,-518.306 90.4795,-597.003 139,-642.5 140.256,-643.678 141.579,-644.802 142.954,-645.876"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="141.064,-648.823 151.32,-651.481 144.96,-643.007 141.064,-648.823"/>
 </g>
-<!-- Node72 -->
-<g id="node7" class="node"><title>Node72</title>
+<!-- Node67 -->
+<g id="node7" class="node"><title>Node67</title>
 <g id="a_node7"><a xlink:href="classobe_1_1_scene_1_1_camera.html#a6cc8ec21f2bec3bbce924df26be13da1" target="_top" xlink:title="obe::Scene::Camera\l::getWidth">
-<polygon fill="white" stroke="black" points="143.5,-602.5 143.5,-632.5 249.5,-632.5 249.5,-602.5 143.5,-602.5"/>
+<polygon fill="none" stroke="black" points="143.5,-602.5 143.5,-632.5 249.5,-632.5 249.5,-602.5 143.5,-602.5"/>
 <text text-anchor="start" x="151.5" y="-620.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Scene::Camera</text>
 <text text-anchor="middle" x="196.5" y="-609.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getWidth</text>
 </a>
 </g>
 </g>
-<!-- Node66&#45;&gt;Node72 -->
-<g id="edge6" class="edge"><title>Node66&#45;&gt;Node72</title>
+<!-- Node61&#45;&gt;Node67 -->
+<g id="edge6" class="edge"><title>Node61&#45;&gt;Node67</title>
 <path fill="none" stroke="midnightblue" d="M59.6901,-485.802C72.3788,-511.326 101.034,-562.812 139,-593.5 140.554,-594.756 142.184,-595.957 143.869,-597.104"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="142.3,-600.245 152.674,-602.396 145.906,-594.245 142.3,-600.245"/>
 </g>
-<!-- Node73 -->
-<g id="node8" class="node"><title>Node73</title>
+<!-- Node68 -->
+<g id="node8" class="node"><title>Node68</title>
 <g id="a_node8"><a xlink:href="classobe_1_1_scene_1_1_camera.html#aa15d616e5f0680bfbf36ae7dfa54731e" target="_top" xlink:title="obe::Scene::Camera\l::getX">
-<polygon fill="white" stroke="black" points="143.5,-553.5 143.5,-583.5 249.5,-583.5 249.5,-553.5 143.5,-553.5"/>
+<polygon fill="none" stroke="black" points="143.5,-553.5 143.5,-583.5 249.5,-583.5 249.5,-553.5 143.5,-553.5"/>
 <text text-anchor="start" x="151.5" y="-571.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Scene::Camera</text>
 <text text-anchor="middle" x="196.5" y="-560.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getX</text>
 </a>
 </g>
 </g>
-<!-- Node66&#45;&gt;Node73 -->
-<g id="edge7" class="edge"><title>Node66&#45;&gt;Node73</title>
+<!-- Node61&#45;&gt;Node68 -->
+<g id="edge7" class="edge"><title>Node61&#45;&gt;Node68</title>
 <path fill="none" stroke="midnightblue" d="M67.31,-485.688C83.6975,-501.861 111.448,-527.43 139,-544.5 141.463,-546.026 144.04,-547.499 146.679,-548.912"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="145.307,-552.139 155.816,-553.48 148.437,-545.877 145.307,-552.139"/>
 </g>
-<!-- Node74 -->
-<g id="node9" class="node"><title>Node74</title>
+<!-- Node69 -->
+<g id="node9" class="node"><title>Node69</title>
 <g id="a_node9"><a xlink:href="classobe_1_1_scene_1_1_camera.html#aa07ee443f0327f89edb8797e019606fb" target="_top" xlink:title="obe::Scene::Camera\l::getY">
-<polygon fill="white" stroke="black" points="143.5,-504.5 143.5,-534.5 249.5,-534.5 249.5,-504.5 143.5,-504.5"/>
+<polygon fill="none" stroke="black" points="143.5,-504.5 143.5,-534.5 249.5,-534.5 249.5,-504.5 143.5,-504.5"/>
 <text text-anchor="start" x="151.5" y="-522.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Scene::Camera</text>
 <text text-anchor="middle" x="196.5" y="-511.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getY</text>
 </a>
 </g>
 </g>
-<!-- Node66&#45;&gt;Node74 -->
-<g id="edge8" class="edge"><title>Node66&#45;&gt;Node74</title>
+<!-- Node61&#45;&gt;Node69 -->
+<g id="edge8" class="edge"><title>Node61&#45;&gt;Node69</title>
 <path fill="none" stroke="midnightblue" d="M96.5715,-485.601C110.843,-490.492 126.833,-495.971 141.727,-501.074"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="140.733,-504.433 151.328,-504.364 143.002,-497.811 140.733,-504.433"/>
 </g>
-<!-- Node75 -->
-<g id="node10" class="node"><title>Node75</title>
+<!-- Node70 -->
+<g id="node10" class="node"><title>Node70</title>
 <g id="a_node10"><a xlink:href="classobe_1_1_scene_1_1_camera.html#a728fbdde50e94f132bac1123fbee2628" target="_top" xlink:title="obe::Scene::Camera\l::move">
-<polygon fill="white" stroke="black" points="143.5,-455.5 143.5,-485.5 249.5,-485.5 249.5,-455.5 143.5,-455.5"/>
+<polygon fill="none" stroke="black" points="143.5,-455.5 143.5,-485.5 249.5,-485.5 249.5,-455.5 143.5,-455.5"/>
 <text text-anchor="start" x="151.5" y="-473.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Scene::Camera</text>
 <text text-anchor="middle" x="196.5" y="-462.5" font-family="Helvetica,sans-Serif" font-size="10.00">::move</text>
 </a>
 </g>
 </g>
-<!-- Node66&#45;&gt;Node75 -->
-<g id="edge9" class="edge"><title>Node66&#45;&gt;Node75</title>
+<!-- Node61&#45;&gt;Node70 -->
+<g id="edge9" class="edge"><title>Node61&#45;&gt;Node70</title>
 <path fill="none" stroke="midnightblue" d="M103.319,-470.5C112.971,-470.5 123.174,-470.5 133.135,-470.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="133.396,-474 143.396,-470.5 133.396,-467 133.396,-474"/>
 </g>
-<!-- Node76 -->
-<g id="node11" class="node"><title>Node76</title>
+<!-- Node71 -->
+<g id="node11" class="node"><title>Node71</title>
 <g id="a_node11"><a xlink:href="classobe_1_1_scene_1_1_camera.html#a9967c3bb1f8a979f3c8760a834bab247" target="_top" xlink:title="obe::Scene::Camera\l::rotate">
-<polygon fill="white" stroke="black" points="143.5,-406.5 143.5,-436.5 249.5,-436.5 249.5,-406.5 143.5,-406.5"/>
+<polygon fill="none" stroke="black" points="143.5,-406.5 143.5,-436.5 249.5,-436.5 249.5,-406.5 143.5,-406.5"/>
 <text text-anchor="start" x="151.5" y="-424.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Scene::Camera</text>
 <text text-anchor="middle" x="196.5" y="-413.5" font-family="Helvetica,sans-Serif" font-size="10.00">::rotate</text>
 </a>
 </g>
 </g>
-<!-- Node66&#45;&gt;Node76 -->
-<g id="edge10" class="edge"><title>Node66&#45;&gt;Node76</title>
+<!-- Node61&#45;&gt;Node71 -->
+<g id="edge10" class="edge"><title>Node61&#45;&gt;Node71</title>
 <path fill="none" stroke="midnightblue" d="M96.5715,-455.399C110.843,-450.508 126.833,-445.029 141.727,-439.926"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="143.002,-443.189 151.328,-436.636 140.733,-436.567 143.002,-443.189"/>
 </g>
-<!-- Node77 -->
-<g id="node12" class="node"><title>Node77</title>
+<!-- Node72 -->
+<g id="node12" class="node"><title>Node72</title>
 <g id="a_node12"><a xlink:href="classobe_1_1_scene_1_1_camera.html#a0da755949b3ccb61148851ea011f7282" target="_top" xlink:title="obe::Scene::Camera\l::scale">
-<polygon fill="white" stroke="black" points="143.5,-357.5 143.5,-387.5 249.5,-387.5 249.5,-357.5 143.5,-357.5"/>
+<polygon fill="none" stroke="black" points="143.5,-357.5 143.5,-387.5 249.5,-387.5 249.5,-357.5 143.5,-357.5"/>
 <text text-anchor="start" x="151.5" y="-375.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Scene::Camera</text>
 <text text-anchor="middle" x="196.5" y="-364.5" font-family="Helvetica,sans-Serif" font-size="10.00">::scale</text>
 </a>
 </g>
 </g>
-<!-- Node66&#45;&gt;Node77 -->
-<g id="edge11" class="edge"><title>Node66&#45;&gt;Node77</title>
+<!-- Node61&#45;&gt;Node72 -->
+<g id="edge11" class="edge"><title>Node61&#45;&gt;Node72</title>
 <path fill="none" stroke="midnightblue" d="M67.7002,-455.321C84.1995,-439.433 111.841,-414.481 139,-397.5 141.954,-395.653 145.069,-393.872 148.255,-392.17"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="149.991,-395.215 157.351,-387.594 146.845,-388.961 149.991,-395.215"/>
 </g>
-<!-- Node78 -->
-<g id="node13" class="node"><title>Node78</title>
+<!-- Node73 -->
+<g id="node13" class="node"><title>Node73</title>
 <g id="a_node13"><a xlink:href="classobe_1_1_scene_1_1_camera.html#a3a03e5ca12d599fd27594e3c76714519" target="_top" xlink:title="obe::Scene::Camera\l::setSize">
-<polygon fill="white" stroke="black" points="290,-335.5 290,-365.5 396,-365.5 396,-335.5 290,-335.5"/>
+<polygon fill="none" stroke="black" points="290,-335.5 290,-365.5 396,-365.5 396,-335.5 290,-335.5"/>
 <text text-anchor="start" x="298" y="-353.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Scene::Camera</text>
 <text text-anchor="middle" x="343" y="-342.5" font-family="Helvetica,sans-Serif" font-size="10.00">::setSize</text>
 </a>
 </g>
 </g>
-<!-- Node66&#45;&gt;Node78 -->
-<g id="edge15" class="edge"><title>Node66&#45;&gt;Node78</title>
+<!-- Node61&#45;&gt;Node73 -->
+<g id="edge15" class="edge"><title>Node61&#45;&gt;Node73</title>
 <path fill="none" stroke="midnightblue" d="M57.8772,-455.302C68.4774,-427.975 94.9446,-371.269 139,-348.5 182.099,-326.225 237.54,-328.483 279.591,-335.331"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="279.25,-338.825 289.705,-337.107 280.461,-331.93 279.25,-338.825"/>
 </g>
-<!-- Node79 -->
-<g id="node14" class="node"><title>Node79</title>
+<!-- Node74 -->
+<g id="node14" class="node"><title>Node74</title>
 <g id="a_node14"><a xlink:href="classobe_1_1_scene_1_1_camera.html#a4f9245d590e47a27deb2812257f2314c" target="_top" xlink:title="obe::Scene::Camera\l::setAngle">
-<polygon fill="white" stroke="black" points="143.5,-269.5 143.5,-299.5 249.5,-299.5 249.5,-269.5 143.5,-269.5"/>
+<polygon fill="none" stroke="black" points="143.5,-269.5 143.5,-299.5 249.5,-299.5 249.5,-269.5 143.5,-269.5"/>
 <text text-anchor="start" x="151.5" y="-287.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Scene::Camera</text>
 <text text-anchor="middle" x="196.5" y="-276.5" font-family="Helvetica,sans-Serif" font-size="10.00">::setAngle</text>
 </a>
 </g>
 </g>
-<!-- Node66&#45;&gt;Node79 -->
-<g id="edge13" class="edge"><title>Node66&#45;&gt;Node79</title>
+<!-- Node61&#45;&gt;Node74 -->
+<g id="edge13" class="edge"><title>Node61&#45;&gt;Node74</title>
 <path fill="none" stroke="midnightblue" d="M57.5542,-455.356C68.2778,-425.178 95.9132,-356.811 139,-314.5 142.622,-310.944 146.751,-307.701 151.091,-304.773"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="152.933,-307.75 159.62,-299.532 149.267,-301.786 152.933,-307.75"/>
 </g>
-<!-- Node80 -->
-<g id="node15" class="node"><title>Node80</title>
+<!-- Node75 -->
+<g id="node15" class="node"><title>Node75</title>
 <g id="a_node15"><a xlink:href="classobe_1_1_scene_1_1_camera.html#aa5608b33a0f0be34d42711c2dee41c2c" target="_top" xlink:title="obe::Scene::Camera\l::setPosition">
-<polygon fill="white" stroke="black" points="143.5,-220.5 143.5,-250.5 249.5,-250.5 249.5,-220.5 143.5,-220.5"/>
+<polygon fill="none" stroke="black" points="143.5,-220.5 143.5,-250.5 249.5,-250.5 249.5,-220.5 143.5,-220.5"/>
 <text text-anchor="start" x="151.5" y="-238.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Scene::Camera</text>
 <text text-anchor="middle" x="196.5" y="-227.5" font-family="Helvetica,sans-Serif" font-size="10.00">::setPosition</text>
 </a>
 </g>
 </g>
-<!-- Node66&#45;&gt;Node80 -->
-<g id="edge14" class="edge"><title>Node66&#45;&gt;Node80</title>
+<!-- Node61&#45;&gt;Node75 -->
+<g id="edge14" class="edge"><title>Node61&#45;&gt;Node75</title>
 <path fill="none" stroke="midnightblue" d="M54.7611,-455.435C61.16,-417.742 82.7246,-318.249 139,-260.5 140.404,-259.06 141.905,-257.696 143.482,-256.406"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="145.687,-259.135 151.895,-250.55 141.688,-253.39 145.687,-259.135"/>
 </g>
-<!-- Node81 -->
-<g id="node16" class="node"><title>Node81</title>
+<!-- Node76 -->
+<g id="node16" class="node"><title>Node76</title>
 <g id="a_node16"><a xlink:href="classobe_1_1_scene_1_1_camera.html#a8bfa5f2c7bda93af39ba38f05299c42b" target="_top" xlink:title="obe::Scene::Camera\l::setX">
-<polygon fill="white" stroke="black" points="143.5,-171.5 143.5,-201.5 249.5,-201.5 249.5,-171.5 143.5,-171.5"/>
+<polygon fill="none" stroke="black" points="143.5,-171.5 143.5,-201.5 249.5,-201.5 249.5,-171.5 143.5,-171.5"/>
 <text text-anchor="start" x="151.5" y="-189.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Scene::Camera</text>
 <text text-anchor="middle" x="196.5" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00">::setX</text>
 </a>
 </g>
 </g>
-<!-- Node66&#45;&gt;Node81 -->
-<g id="edge16" class="edge"><title>Node66&#45;&gt;Node81</title>
+<!-- Node61&#45;&gt;Node76 -->
+<g id="edge16" class="edge"><title>Node61&#45;&gt;Node76</title>
 <path fill="none" stroke="midnightblue" d="M53.409,-455.239C56.7876,-411.641 72.1585,-284.958 139,-211.5 140.191,-210.191 141.463,-208.947 142.801,-207.765"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="145.113,-210.408 151.077,-201.651 140.954,-204.778 145.113,-210.408"/>
 </g>
-<!-- Node82 -->
-<g id="node17" class="node"><title>Node82</title>
+<!-- Node77 -->
+<g id="node17" class="node"><title>Node77</title>
 <g id="a_node17"><a xlink:href="classobe_1_1_scene_1_1_camera.html#a6d80c1cd01a5d583d0aacbae3fcd6b5b" target="_top" xlink:title="obe::Scene::Camera\l::setY">
-<polygon fill="white" stroke="black" points="143.5,-122.5 143.5,-152.5 249.5,-152.5 249.5,-122.5 143.5,-122.5"/>
+<polygon fill="none" stroke="black" points="143.5,-122.5 143.5,-152.5 249.5,-152.5 249.5,-122.5 143.5,-122.5"/>
 <text text-anchor="start" x="151.5" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Scene::Camera</text>
 <text text-anchor="middle" x="196.5" y="-129.5" font-family="Helvetica,sans-Serif" font-size="10.00">::setY</text>
 </a>
 </g>
 </g>
-<!-- Node66&#45;&gt;Node82 -->
-<g id="edge17" class="edge"><title>Node66&#45;&gt;Node82</title>
+<!-- Node61&#45;&gt;Node77 -->
+<g id="edge17" class="edge"><title>Node61&#45;&gt;Node77</title>
 <path fill="none" stroke="midnightblue" d="M52.3685,-455.165C52.7665,-406.081 60.4827,-250.837 139,-161.5 139.756,-160.639 140.549,-159.809 141.373,-159.007"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="143.863,-161.5 149.53,-152.547 139.517,-156.012 143.863,-161.5"/>
 </g>
-<!-- Node83 -->
-<g id="node18" class="node"><title>Node83</title>
-<g id="a_node18"><a xlink:href="classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b" target="_top" xlink:title="aube::ErrorHandler\l::Raise">
-<polygon fill="white" stroke="black" points="147.5,-73.5 147.5,-103.5 245.5,-103.5 245.5,-73.5 147.5,-73.5"/>
+<!-- Node78 -->
+<g id="node18" class="node"><title>Node78</title>
+<g id="a_node18"><a xlink:href="classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b" target="_top" xlink:title="Raises an Error loaded in the Aube Error Database (AED) ">
+<polygon fill="none" stroke="black" points="147.5,-73.5 147.5,-103.5 245.5,-103.5 245.5,-73.5 147.5,-73.5"/>
 <text text-anchor="start" x="155.5" y="-91.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorHandler</text>
 <text text-anchor="middle" x="196.5" y="-80.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Raise</text>
 </a>
 </g>
 </g>
-<!-- Node66&#45;&gt;Node83 -->
-<g id="edge18" class="edge"><title>Node66&#45;&gt;Node83</title>
+<!-- Node61&#45;&gt;Node78 -->
+<g id="edge18" class="edge"><title>Node61&#45;&gt;Node78</title>
 <path fill="none" stroke="midnightblue" d="M54.3467,-455.277C62.0437,-394.039 93.3157,-166.399 139,-112.5 139.724,-111.646 140.483,-110.822 141.274,-110.027"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="143.595,-112.65 149.131,-103.616 139.17,-107.226 143.595,-112.65"/>
 </g>
-<!-- Node77&#45;&gt;Node78 -->
-<g id="edge12" class="edge"><title>Node77&#45;&gt;Node78</title>
+<!-- Node72&#45;&gt;Node73 -->
+<g id="edge12" class="edge"><title>Node72&#45;&gt;Node73</title>
 <path fill="none" stroke="midnightblue" d="M249.668,-364.557C259.49,-363.062 269.85,-361.485 279.939,-359.949"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="280.55,-363.396 289.909,-358.431 279.496,-356.476 280.55,-363.396"/>
 </g>
-<!-- Node84 -->
-<g id="node19" class="node"><title>Node84</title>
-<g id="a_node19"><a xlink:href="classaube_1_1_error_message.html#a3a39b6fcd8fdb12eaf6383123535b8ca" target="_top" xlink:title="aube::ErrorMessage\l::getFile">
-<polygon fill="white" stroke="black" points="291,-147.5 291,-177.5 395,-177.5 395,-147.5 291,-147.5"/>
+<!-- Node79 -->
+<g id="node19" class="node"><title>Node79</title>
+<g id="a_node19"><a xlink:href="classaube_1_1_error_message.html#a3a39b6fcd8fdb12eaf6383123535b8ca" target="_top" xlink:title="Gets the File where is located the ErrorMessage when raised. ">
+<polygon fill="none" stroke="black" points="291,-147.5 291,-177.5 395,-177.5 395,-147.5 291,-147.5"/>
 <text text-anchor="start" x="299" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
 <text text-anchor="middle" x="343" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getFile</text>
 </a>
 </g>
 </g>
-<!-- Node83&#45;&gt;Node84 -->
-<g id="edge19" class="edge"><title>Node83&#45;&gt;Node84</title>
+<!-- Node78&#45;&gt;Node79 -->
+<g id="edge19" class="edge"><title>Node78&#45;&gt;Node79</title>
 <path fill="none" stroke="midnightblue" d="M235.998,-103.593C242.121,-106.352 248.308,-109.359 254,-112.5 271.054,-121.913 273.169,-127.693 290,-137.5 293.035,-139.268 296.213,-141.021 299.44,-142.729"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="298.083,-145.966 308.58,-147.403 301.27,-139.734 298.083,-145.966"/>
 </g>
-<!-- Node85 -->
-<g id="node20" class="node"><title>Node85</title>
-<g id="a_node20"><a xlink:href="classaube_1_1_error_message.html#a9184cc96589578f434351c105b0cd5f7" target="_top" xlink:title="aube::ErrorMessage\l::getLocation">
-<polygon fill="white" stroke="black" points="291,-98.5 291,-128.5 395,-128.5 395,-98.5 291,-98.5"/>
+<!-- Node80 -->
+<g id="node20" class="node"><title>Node80</title>
+<g id="a_node20"><a xlink:href="classaube_1_1_error_message.html#a9184cc96589578f434351c105b0cd5f7" target="_top" xlink:title="Gets the location of the error in the code. ">
+<polygon fill="none" stroke="black" points="291,-98.5 291,-128.5 395,-128.5 395,-98.5 291,-98.5"/>
 <text text-anchor="start" x="299" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
 <text text-anchor="middle" x="343" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getLocation</text>
 </a>
 </g>
 </g>
-<!-- Node83&#45;&gt;Node85 -->
-<g id="edge20" class="edge"><title>Node83&#45;&gt;Node85</title>
+<!-- Node78&#45;&gt;Node80 -->
+<g id="edge20" class="edge"><title>Node78&#45;&gt;Node80</title>
 <path fill="none" stroke="midnightblue" d="M245.616,-96.8246C256.792,-98.7582 268.838,-100.842 280.502,-102.86"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="280.172,-106.355 290.622,-104.611 281.365,-99.4575 280.172,-106.355"/>
 </g>
-<!-- Node86 -->
-<g id="node21" class="node"><title>Node86</title>
-<g id="a_node21"><a xlink:href="classaube_1_1_error_message.html#a07927cb3e2d0712c459cc9e2b5f52696" target="_top" xlink:title="aube::ErrorMessage\l::getMessage">
-<polygon fill="white" stroke="black" points="291,-49.5 291,-79.5 395,-79.5 395,-49.5 291,-49.5"/>
+<!-- Node81 -->
+<g id="node21" class="node"><title>Node81</title>
+<g id="a_node21"><a xlink:href="classaube_1_1_error_message.html#a07927cb3e2d0712c459cc9e2b5f52696" target="_top" xlink:title="Gets the message displayed by the ErrorMessage when raised. ">
+<polygon fill="none" stroke="black" points="291,-49.5 291,-79.5 395,-79.5 395,-49.5 291,-49.5"/>
 <text text-anchor="start" x="299" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
 <text text-anchor="middle" x="343" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getMessage</text>
 </a>
 </g>
 </g>
-<!-- Node83&#45;&gt;Node86 -->
-<g id="edge21" class="edge"><title>Node83&#45;&gt;Node86</title>
+<!-- Node78&#45;&gt;Node81 -->
+<g id="edge21" class="edge"><title>Node78&#45;&gt;Node81</title>
 <path fill="none" stroke="midnightblue" d="M245.616,-80.5083C256.792,-78.6522 268.838,-76.6514 280.502,-74.7142"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="281.331,-78.1245 290.622,-73.0333 280.184,-71.2191 281.331,-78.1245"/>
 </g>
-<!-- Node87 -->
-<g id="node22" class="node"><title>Node87</title>
-<g id="a_node22"><a xlink:href="classaube_1_1_error_message.html#a77c2f9b7e93542c958173b52da267989" target="_top" xlink:title="aube::ErrorMessage\l::getHints">
-<polygon fill="white" stroke="black" points="291,-0.5 291,-30.5 395,-30.5 395,-0.5 291,-0.5"/>
+<!-- Node82 -->
+<g id="node22" class="node"><title>Node82</title>
+<g id="a_node22"><a xlink:href="classaube_1_1_error_message.html#a77c2f9b7e93542c958173b52da267989" target="_top" xlink:title="Gets hints that can help the error resolution. ">
+<polygon fill="none" stroke="black" points="291,-0.5 291,-30.5 395,-30.5 395,-0.5 291,-0.5"/>
 <text text-anchor="start" x="299" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
 <text text-anchor="middle" x="343" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getHints</text>
 </a>
 </g>
 </g>
-<!-- Node83&#45;&gt;Node87 -->
-<g id="edge22" class="edge"><title>Node83&#45;&gt;Node87</title>
+<!-- Node78&#45;&gt;Node82 -->
+<g id="edge22" class="edge"><title>Node78&#45;&gt;Node82</title>
 <path fill="none" stroke="midnightblue" d="M225.225,-73.3042C243.493,-63.4179 268.014,-50.3868 290,-39.5 293.078,-37.9757 296.273,-36.4258 299.496,-34.8849"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="301.034,-38.0291 308.583,-30.5949 298.046,-31.699 301.034,-38.0291"/>
 </g>

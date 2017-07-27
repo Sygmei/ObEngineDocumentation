@@ -88,9 +88,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6df08cc4580f11813907206a3e8b8f89"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger.html#a6df08cc4580f11813907206a3e8b8f89">getState</a> () const</td></tr>
 <tr class="memdesc:a6df08cc4580f11813907206a3e8b8f89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the State of the <a class="el" href="classobe_1_1_triggers_1_1_trigger.html" title="A Class that does represents a triggerable event . ">Trigger</a> (enabled / disabled)  <a href="#a6df08cc4580f11813907206a3e8b8f89">More...</a><br /></td></tr>
 <tr class="separator:a6df08cc4580f11813907206a3e8b8f89"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32c34708d62443a8dfa02c06e7f48f6d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger.html#a32c34708d62443a8dfa02c06e7f48f6d">isPermanent</a> () const</td></tr>
-<tr class="memdesc:a32c34708d62443a8dfa02c06e7f48f6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get if the <a class="el" href="classobe_1_1_triggers_1_1_trigger.html" title="A Class that does represents a triggerable event . ">Trigger</a> is in permanent state (stays enabled)  <a href="#a32c34708d62443a8dfa02c06e7f48f6d">More...</a><br /></td></tr>
-<tr class="separator:a32c34708d62443a8dfa02c06e7f48f6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0eb4ecf6b771aadfc966a10cd620160"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger.html#ab0eb4ecf6b771aadfc966a10cd620160">getGroup</a> () const</td></tr>
 <tr class="memdesc:ab0eb4ecf6b771aadfc966a10cd620160"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of the <a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html" title="Class used to manage multiple Trigger . ">TriggerGroup</a> which is the parent of the <a class="el" href="classobe_1_1_triggers_1_1_trigger.html" title="A Class that does represents a triggerable event . ">Trigger</a>.  <a href="#ab0eb4ecf6b771aadfc966a10cd620160">More...</a><br /></td></tr>
 <tr class="separator:ab0eb4ecf6b771aadfc966a10cd620160"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -100,15 +97,25 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5649d751353ffb6fd27051f7f21eee6e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger.html#a5649d751353ffb6fd27051f7f21eee6e">getNamespace</a> () const</td></tr>
 <tr class="memdesc:a5649d751353ffb6fd27051f7f21eee6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of the namespace of the parent (<a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html" title="Class used to manage multiple Trigger . ">TriggerGroup</a>) of the <a class="el" href="classobe_1_1_triggers_1_1_trigger.html" title="A Class that does represents a triggerable event . ">Trigger</a>.  <a href="#a5649d751353ffb6fd27051f7f21eee6e">More...</a><br /></td></tr>
 <tr class="separator:a5649d751353ffb6fd27051f7f21eee6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a521e3798f95afc3ccaffbd24caa2ebe4"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::pair&lt; std::string, <a class="el" href="classobe_1_1_types_1_1_any.html">Types::Any</a> &gt; &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger.html#a521e3798f95afc3ccaffbd24caa2ebe4">getParameters</a> ()</td></tr>
-<tr class="separator:a521e3798f95afc3ccaffbd24caa2ebe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23824d674baa179f65a95ceb34636d46"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger.html#a23824d674baa179f65a95ceb34636d46">clear</a> ()</td></tr>
+<tr class="separator:a23824d674baa179f65a95ceb34636d46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e36632e009845b072ca36c5bcce9277"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger.html#a4e36632e009845b072ca36c5bcce9277">registerState</a> (kaguya::State *state)</td></tr>
+<tr class="separator:a4e36632e009845b072ca36c5bcce9277"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad138768c1cf54e56d69df141b185b0e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger.html#ad138768c1cf54e56d69df141b185b0e6">prepareNewCall</a> ()</td></tr>
+<tr class="separator:ad138768c1cf54e56d69df141b185b0e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f587a6d260f9ef952add97524ef3d46"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger.html#a2f587a6d260f9ef952add97524ef3d46">execute</a> (kaguya::State *lua, const std::string &amp;funcName) const</td></tr>
+<tr class="separator:a2f587a6d260f9ef952add97524ef3d46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a3ad25b0fc614ad94c16a424464083607"><td class="memTemplParams" colspan="2">template&lt;typename P &gt; </td></tr>
-<tr class="memitem:a3ad25b0fc614ad94c16a424464083607"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger.html#a3ad25b0fc614ad94c16a424464083607">pushParameter</a> (std::string name, P parameter)</td></tr>
-<tr class="memdesc:a3ad25b0fc614ad94c16a424464083607"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pushes a parameter to the <a class="el" href="classobe_1_1_triggers_1_1_trigger.html" title="A Class that does represents a triggerable event . ">Trigger</a>.  <a href="#a3ad25b0fc614ad94c16a424464083607">More...</a><br /></td></tr>
-<tr class="separator:a3ad25b0fc614ad94c16a424464083607"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09b4d1a86c910fd6659ec37547bea49f"><td class="memTemplParams" colspan="2">template&lt;typename P &gt; </td></tr>
+<tr class="memitem:a09b4d1a86c910fd6659ec37547bea49f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger.html#a09b4d1a86c910fd6659ec37547bea49f">pushParameter</a> (const std::string &amp;name, P parameter)</td></tr>
+<tr class="memdesc:a09b4d1a86c910fd6659ec37547bea49f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pushes a parameter to the <a class="el" href="classobe_1_1_triggers_1_1_trigger.html" title="A Class that does represents a triggerable event . ">Trigger</a>.  <a href="#a09b4d1a86c910fd6659ec37547bea49f">More...</a><br /></td></tr>
+<tr class="separator:a09b4d1a86c910fd6659ec37547bea49f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7586f173a3098ccc706ba9c8e718b55"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger.html#ad7586f173a3098ccc706ba9c8e718b55">pushParameterFromLua</a> (const std::string &amp;name, kaguya::LuaRef parameter)</td></tr>
+<tr class="separator:ad7586f173a3098ccc706ba9c8e718b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad83456f23a1e90dc2b7f816628c93e36"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger.html#ad83456f23a1e90dc2b7f816628c93e36">getTriggerLuaTableName</a> () const</td></tr>
+<tr class="separator:ad83456f23a1e90dc2b7f816628c93e36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -180,6 +187,69 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a23824d674baa179f65a95ceb34636d46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23824d674baa179f65a95ceb34636d46">&#9670;&nbsp;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::Triggers::Trigger::clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_a23824d674baa179f65a95ceb34636d46_cgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a2f587a6d260f9ef952add97524ef3d46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f587a6d260f9ef952add97524ef3d46">&#9670;&nbsp;</a></span>execute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::Triggers::Trigger::execute </td>
+          <td>(</td>
+          <td class="paramtype">kaguya::State *&#160;</td>
+          <td class="paramname"><em>lua</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>funcName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_a2f587a6d260f9ef952add97524ef3d46_cgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_a2f587a6d260f9ef952add97524ef3d46_icgraph.svg" width="370" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
 <a id="ab0eb4ecf6b771aadfc966a10cd620160"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab0eb4ecf6b771aadfc966a10cd620160">&#9670;&nbsp;</a></span>getGroup()</h2>
 
@@ -200,12 +270,14 @@ Friends</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_ab0eb4ecf6b771aadfc966a10cd620160_cgraph.svg" width="382" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_ab0eb4ecf6b771aadfc966a10cd620160_cgraph.svg" width="382" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_ab0eb4ecf6b771aadfc966a10cd620160_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_ab0eb4ecf6b771aadfc966a10cd620160_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -230,7 +302,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_a3cdb098a8deaad57347ea516a8532196_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_a3cdb098a8deaad57347ea516a8532196_icgraph.svg" width="100%" height="437"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -255,34 +328,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_a5649d751353ffb6fd27051f7f21eee6e_cgraph.svg" width="382" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_a5649d751353ffb6fd27051f7f21eee6e_cgraph.svg" width="382" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_a5649d751353ffb6fd27051f7f21eee6e_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_a5649d751353ffb6fd27051f7f21eee6e_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
-
-</div>
-</div>
-<a id="a521e3798f95afc3ccaffbd24caa2ebe4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a521e3798f95afc3ccaffbd24caa2ebe4">&#9670;&nbsp;</a></span>getParameters()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::map&lt; std::string, std::pair&lt; std::string, <a class="el" href="classobe_1_1_types_1_1_any.html">Types::Any</a> &gt; &gt; * obe::Triggers::Trigger::getParameters </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_a521e3798f95afc3ccaffbd24caa2ebe4_icgraph.svg" width="620" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -307,38 +360,80 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_a6df08cc4580f11813907206a3e8b8f89_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_a6df08cc4580f11813907206a3e8b8f89_icgraph.svg" width="100%" height="481"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
 </div>
-<a id="a32c34708d62443a8dfa02c06e7f48f6d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32c34708d62443a8dfa02c06e7f48f6d">&#9670;&nbsp;</a></span>isPermanent()</h2>
+<a id="ad83456f23a1e90dc2b7f816628c93e36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad83456f23a1e90dc2b7f816628c93e36">&#9670;&nbsp;</a></span>getTriggerLuaTableName()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool obe::Triggers::Trigger::isPermanent </td>
+          <td class="memname">std::string obe::Triggers::Trigger::getTriggerLuaTableName </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-
-<p>Get if the <a class="el" href="classobe_1_1_triggers_1_1_trigger.html" title="A Class that does represents a triggerable event . ">Trigger</a> is in permanent state (stays enabled) </p>
-<dl class="section return"><dt>Returns</dt><dd>true is the <a class="el" href="classobe_1_1_triggers_1_1_trigger.html" title="A Class that does represents a triggerable event . ">Trigger</a> is permanent, false otherwise </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_ad83456f23a1e90dc2b7f816628c93e36_cgraph.svg" width="603" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_a32c34708d62443a8dfa02c06e7f48f6d_icgraph.svg" width="100%" height="490"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_ad83456f23a1e90dc2b7f816628c93e36_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
 </div>
-<a id="a3ad25b0fc614ad94c16a424464083607"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ad25b0fc614ad94c16a424464083607">&#9670;&nbsp;</a></span>pushParameter()</h2>
+<a id="ad138768c1cf54e56d69df141b185b0e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad138768c1cf54e56d69df141b185b0e6">&#9670;&nbsp;</a></span>prepareNewCall()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::Triggers::Trigger::prepareNewCall </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_ad138768c1cf54e56d69df141b185b0e6_cgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_ad138768c1cf54e56d69df141b185b0e6_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a09b4d1a86c910fd6659ec37547bea49f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09b4d1a86c910fd6659ec37547bea49f">&#9670;&nbsp;</a></span>pushParameter()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -351,7 +446,7 @@ template&lt;typename P &gt; </div>
         <tr>
           <td class="memname">void obe::Triggers::Trigger::pushParameter </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>name</em>, </td>
         </tr>
         <tr>
@@ -390,12 +485,79 @@ template&lt;typename P &gt; </div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_a3ad25b0fc614ad94c16a424464083607_cgraph.svg" width="326" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_a09b4d1a86c910fd6659ec37547bea49f_cgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_a3ad25b0fc614ad94c16a424464083607_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_a09b4d1a86c910fd6659ec37547bea49f_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ad7586f173a3098ccc706ba9c8e718b55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7586f173a3098ccc706ba9c8e718b55">&#9670;&nbsp;</a></span>pushParameterFromLua()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::Triggers::Trigger::pushParameterFromLua </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">kaguya::LuaRef&#160;</td>
+          <td class="paramname"><em>parameter</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4e36632e009845b072ca36c5bcce9277"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e36632e009845b072ca36c5bcce9277">&#9670;&nbsp;</a></span>registerState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::Triggers::Trigger::registerState </td>
+          <td>(</td>
+          <td class="paramtype">kaguya::State *&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_a4e36632e009845b072ca36c5bcce9277_cgraph.svg" width="574" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_triggers_1_1_trigger_a4e36632e009845b072ca36c5bcce9277_icgraph.svg" width="100%" height="413"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 

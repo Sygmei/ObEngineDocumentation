@@ -1,23 +1,26 @@
 <map id="obe::Triggers::TriggerGroup::pushParameter" name="obe::Triggers::TriggerGroup::pushParameter">
-<area shape="rect" id="node2" href="$classobe_1_1_debug_1_1_console.html#a95a9f75bf9c421f88d3bdd9ef1a95df3" title="Creates a new Stream to use in the Console. " alt="" coords="259,173,402,215"/>
-<area shape="rect" id="node8" href="$classobe_1_1_network_1_1_network_handler.html#a2614539df148bb0fb53c77b728394dff" title="obe::Network::NetworkHandler\l::handleTriggers" alt="" coords="232,312,429,353"/>
-<area shape="rect" id="node9" href="$namespaceobe_1_1_script_1_1_core_lib.html#a94684c4b34b9c53b5bcf31d052cf6faf" title="obe::Script::CoreLib\l::loadTrigger" alt="" coords="262,241,399,283"/>
-<area shape="rect" id="node20" href="$classobe_1_1_system_1_1_cursor.html#a3c1d2d899a2186435cdff92e31d50f1c" title="Handles the internal Cursor Triggers. " alt="" coords="931,384,1073,425"/>
-<area shape="rect" id="node3" href="$namespaceobe_1_1_bindings_1_1_debug_bindings.html#ac4745da23e2a90b8a1da52b120cd2423" title="obe::Bindings::DebugBindings\l::LoadConsole" alt="" coords="477,104,673,145"/>
-<area shape="rect" id="node4" href="$classobe_1_1_debug_1_1_console.html#a6120ea12f472acf98bd67f65864e1dc3" title="Creates a new Console. " alt="" coords="504,169,647,211"/>
-<area shape="rect" id="node5" href="$namespaceobe_1_1_editor.html#a9009207671e71dccb68a31ea2362e9ef" title="Starts the map edition. " alt="" coords="721,314,860,341"/>
-<area shape="rect" id="node6" href="$namespaceobe_1_1_modes.html#a6a8b08eee511d4895c4da96d4ba223a6" title="Starts the development Menu where you can starts other menus from. " alt="" coords="1396,333,1573,359"/>
-<area shape="rect" id="node7" href="$_ob_engine_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1621,307,1672,334"/>
-<area shape="rect" id="node10" href="$namespaceobe_1_1_script.html#abdb81ec0976f1097cef6711415b8fac3" title="obe::Script::loadCoreLib" alt="" coords="495,235,656,262"/>
-<area shape="rect" id="node11" href="$namespaceobe_1_1_script.html#a4e6ee77032cf7f66544f9b08464a60b7" title="obe::Script::loadLib" alt="" coords="723,177,858,203"/>
-<area shape="rect" id="node19" href="$namespaceobe_1_1_script_1_1_core_lib.html#a07d6c11bbb082bc45bdba50d97965c00" title="obe::Script::CoreLib\l::loadCollision" alt="" coords="722,228,859,269"/>
-<area shape="rect" id="node12" href="$namespaceobe_1_1_modes.html#a1e38c0d9a2ca0230f0de79c298f53ab9" title="A mode that will start the Toolkit. " alt="" coords="1149,231,1343,258"/>
-<area shape="rect" id="node13" href="$classobe_1_1_scene_1_1_world.html#a32964e659e18cb32094d9f8ceea30aa3" title="obe::Scene::World::\lWorld" alt="" coords="1177,96,1315,137"/>
-<area shape="rect" id="node14" href="$namespaceobe_1_1_scene.html#ae5cbcc3278d9115d603e5024dec9136e" title="obe::Scene::loadWorldScript\lEngineBaseLib" alt="" coords="908,64,1096,105"/>
-<area shape="rect" id="node15" href="$namespaceobe_1_1_script.html#a5e992c0efb0543e7c934bc1065f08b01" title="obe::Script::loadLibBridge" alt="" coords="917,13,1087,39"/>
-<area shape="rect" id="node18" href="$namespaceobe_1_1_script.html#aad6ef67388e6d16eb01853f208da410f" title="obe::Script::loadBaseLib" alt="" coords="920,181,1084,207"/>
-<area shape="rect" id="node16" href="$namespaceobe_1_1_script.html#a5dc8321da50fd4b5dc2935e4d8c93a4e" title="obe::Script::loadScrGame\lObject" alt="" coords="1160,5,1332,47"/>
-<area shape="rect" id="node17" href="$classobe_1_1_script_1_1_game_object.html#aadeac0036d2fe21d523acfd4e9011a23" title="obe::Script::GameObject\l::loadGameObject" alt="" coords="1401,5,1568,47"/>
-<area shape="rect" id="node21" href="$namespaceobe_1_1_bindings_1_1_system_bindings.html#a58371d483e59e8389a76ffe9d03ea71c" title="obe::Bindings::SystemBindings\l::BindCursor" alt="" coords="1144,435,1348,476"/>
-<area shape="rect" id="node22" href="$namespaceobe_1_1_modes.html#a5f4a1008892030350b06282b8dee1a89" title="Start the game by loading the boot.lua file in one of the MountedPaths. " alt="" coords="1167,383,1325,410"/>
+<area shape="rect" id="node2" href="$namespaceobe_1_1_bindings_1_1_triggers_bindings.html#ad0676418594da48df3de5b82fe28c8f4" title="obe::Bindings::TriggersBindings\l::LoadTriggerGroup" alt="" coords="232,5,437,47"/>
+<area shape="rect" id="node3" href="$classobe_1_1_debug_1_1_console.html#ae06933282fbd3a5b4721a24eeb1f2f66" title="Scrolls in the Console content. " alt="" coords="731,345,873,387"/>
+<area shape="rect" id="node9" href="$classobe_1_1_debug_1_1_console.html#a95a9f75bf9c421f88d3bdd9ef1a95df3" title="Creates a new Stream to use in the Console. " alt="" coords="731,9,873,51"/>
+<area shape="rect" id="node11" href="$classobe_1_1_debug_1_1_console.html#a371e6e971dfd23464717aeacc5b1a2b2" title="Push a new Message to the Console. " alt="" coords="263,240,406,281"/>
+<area shape="rect" id="node12" href="$classobe_1_1_debug_1_1_console.html#a2afb2eb73b15e82c0b5facddbc30a686" title="Executes a command (Sent to the Script::ScriptEngine) " alt="" coords="513,123,655,164"/>
+<area shape="rect" id="node16" href="$classobe_1_1_debug_1_1_console.html#aa7e3e27ff7e57a18c313c929337a280a" title="Set if the Console is visible or not. " alt="" coords="731,411,873,452"/>
+<area shape="rect" id="node17" href="$classobe_1_1_network_1_1_network_handler.html#a2614539df148bb0fb53c77b728394dff" title="obe::Network::NetworkHandler\l::handleTriggers" alt="" coords="485,464,683,505"/>
+<area shape="rect" id="node18" href="$classobe_1_1_script_1_1_game_object.html#a3ff3f3070f0132be656f3425750cc507" title="obe::Script::GameObject\l::loadGameObject" alt="" coords="251,575,418,616"/>
+<area shape="rect" id="node19" href="$classobe_1_1_script_1_1_game_object.html#a0c5aeaa6b44edcaee6fcb9f37c64b5f9" title="obe::Script::GameObject\l::update" alt="" coords="251,640,418,681"/>
+<area shape="rect" id="node20" href="$namespaceobe_1_1_script_1_1_core_lib.html#a94684c4b34b9c53b5bcf31d052cf6faf" title="obe::Script::CoreLib\l::loadTrigger" alt="" coords="266,509,403,551"/>
+<area shape="rect" id="node4" href="$namespaceobe_1_1_bindings_1_1_debug_bindings.html#a4d144f9af958b9abf8a5e00a58fa117b" title="obe::Bindings::DebugBindings\l::LoadConsole" alt="" coords="921,179,1117,220"/>
+<area shape="rect" id="node7" href="$namespaceobe_1_1_editor.html#a9009207671e71dccb68a31ea2362e9ef" title="Starts the map edition. " alt="" coords="950,353,1089,379"/>
+<area shape="rect" id="node5" href="$namespaceobe_1_1_bindings.html#a41d33207a0199f125c75a0f70a4a3ba8" title="obe::Bindings::IndexBindings" alt="" coords="1167,251,1358,278"/>
+<area shape="rect" id="node6" href="$_ob_engine_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1633,378,1684,405"/>
+<area shape="rect" id="node8" href="$namespaceobe_1_1_modes.html#a6a8b08eee511d4895c4da96d4ba223a6" title="Starts the development Menu where you can starts other menus from. " alt="" coords="1408,403,1585,430"/>
+<area shape="rect" id="node10" href="$classobe_1_1_debug_1_1_console.html#a6120ea12f472acf98bd67f65864e1dc3" title="Creates a new Console. " alt="" coords="948,9,1091,51"/>
+<area shape="rect" id="node14" href="$classobe_1_1_debug_1_1_console_stream.html#a5e6b6ff008579aaa9f2f954cc15d2328" title="Push a new Message to the Console. " alt="" coords="491,240,677,281"/>
+<area shape="rect" id="node13" href="$classobe_1_1_debug_1_1_console.html#a127eda3c0eae398decbbd710122390de" title="Add a new character to the input buffer. " alt="" coords="731,127,873,168"/>
+<area shape="rect" id="node15" href="$namespaceobe_1_1_bindings_1_1_debug_bindings.html#a19f27507c4824eb9d0532cbd007e86be" title="obe::Bindings::DebugBindings\l::LoadConsoleStream" alt="" coords="921,244,1117,285"/>
+<area shape="rect" id="node21" href="$namespaceobe_1_1_script.html#abdb81ec0976f1097cef6711415b8fac3" title="obe::Script::loadCoreLib" alt="" coords="503,535,665,562"/>
+<area shape="rect" id="node22" href="$namespaceobe_1_1_script.html#a4e6ee77032cf7f66544f9b08464a60b7" title="obe::Script::loadLib" alt="" coords="735,594,869,621"/>
+<area shape="rect" id="node25" href="$namespaceobe_1_1_script_1_1_core_lib.html#a07d6c11bbb082bc45bdba50d97965c00" title="obe::Script::CoreLib\l::loadCollision" alt="" coords="733,528,871,569"/>
+<area shape="rect" id="node23" href="$namespaceobe_1_1_modes.html#a1e38c0d9a2ca0230f0de79c298f53ab9" title="A mode that will start the Toolkit. " alt="" coords="1165,487,1360,514"/>
+<area shape="rect" id="node24" href="$namespaceobe_1_1_script.html#aad6ef67388e6d16eb01853f208da410f" title="obe::Script::loadBaseLib" alt="" coords="937,587,1101,614"/>
 </map>

@@ -51,34 +51,34 @@ if (edges && edges.length) {
 <script type="text/javascript">
 var viewWidth = 687;
 var viewHeight = 88;
-var sectionId = 'dynsection-5';
+var sectionId = 'dynsection-3';
 </script>
 <script xlink:href="svgpan.js"/>
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>obe::System::Cursor::getRawY</title>
-<!-- Node71 -->
-<g id="node1" class="node"><title>Node71</title>
+<!-- Node35 -->
+<g id="node1" class="node"><title>Node35</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-24.5 0,-54.5 107,-54.5 107,-24.5 0,-24.5"/>
 <text text-anchor="start" x="8" y="-42.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::System::Cursor</text>
 <text text-anchor="middle" x="53.5" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getRawY</text>
 </g>
-<!-- Node72 -->
-<g id="node2" class="node"><title>Node72</title>
-<g id="a_node2"><a xlink:href="namespaceobe_1_1_bindings_1_1_system_bindings.html#a58371d483e59e8389a76ffe9d03ea71c" target="_top" xlink:title="obe::Bindings::SystemBindings\l::BindCursor">
+<!-- Node36 -->
+<g id="node2" class="node"><title>Node36</title>
+<g id="a_node2"><a xlink:href="namespaceobe_1_1_bindings_1_1_system_bindings.html#a9161034c3e1e14e9e16d9c4ed6dc118f" target="_top" xlink:title="obe::Bindings::SystemBindings\l::LoadSCursor">
 <polygon fill="none" stroke="black" points="143,-49.5 143,-79.5 296,-79.5 296,-49.5 143,-49.5"/>
 <text text-anchor="start" x="151" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Bindings::SystemBindings</text>
-<text text-anchor="middle" x="219.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::BindCursor</text>
+<text text-anchor="middle" x="219.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::LoadSCursor</text>
 </a>
 </g>
 </g>
-<!-- Node71&#45;&gt;Node72 -->
-<g id="edge1" class="edge"><title>Node71&#45;&gt;Node72</title>
+<!-- Node35&#45;&gt;Node36 -->
+<g id="edge1" class="edge"><title>Node35&#45;&gt;Node36</title>
 <path fill="none" stroke="midnightblue" d="M117.308,-49.0744C125.653,-50.3465 134.279,-51.6615 142.814,-52.9625"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="117.707,-45.5948 107.293,-47.5478 116.652,-52.5149 117.707,-45.5948"/>
 </g>
-<!-- Node73 -->
-<g id="node3" class="node"><title>Node73</title>
+<!-- Node37 -->
+<g id="node3" class="node"><title>Node37</title>
 <g id="a_node3"><a xlink:href="namespaceobe_1_1_editor_1_1_g_u_i.html#a0e86f334cbb96c0202f6cf5626aa81a1" target="_top" xlink:title="obe::Editor::GUI::buildEditor\lSettingsMenu">
 <polygon fill="none" stroke="black" points="150.5,-0.5 150.5,-30.5 288.5,-30.5 288.5,-0.5 150.5,-0.5"/>
 <text text-anchor="start" x="158.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Editor::GUI::buildEditor</text>
@@ -86,52 +86,52 @@ var sectionId = 'dynsection-5';
 </a>
 </g>
 </g>
-<!-- Node71&#45;&gt;Node73 -->
-<g id="edge2" class="edge"><title>Node71&#45;&gt;Node73</title>
+<!-- Node35&#45;&gt;Node37 -->
+<g id="edge2" class="edge"><title>Node35&#45;&gt;Node37</title>
 <path fill="none" stroke="midnightblue" d="M117.42,-30.2923C128.156,-28.7211 139.355,-27.0823 150.222,-25.4919"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="116.681,-26.863 107.293,-31.7741 117.695,-33.7892 116.681,-26.863"/>
 </g>
-<!-- Node74 -->
-<g id="node4" class="node"><title>Node74</title>
+<!-- Node38 -->
+<g id="node4" class="node"><title>Node38</title>
 <g id="a_node4"><a xlink:href="namespaceobe_1_1_editor.html#a9009207671e71dccb68a31ea2362e9ef" target="_top" xlink:title="Starts the map edition. ">
 <polygon fill="none" stroke="black" points="332,-6 332,-25 436,-25 436,-6 332,-6"/>
 <text text-anchor="middle" x="384" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Editor::editMap</text>
 </a>
 </g>
 </g>
-<!-- Node73&#45;&gt;Node74 -->
-<g id="edge3" class="edge"><title>Node73&#45;&gt;Node74</title>
+<!-- Node37&#45;&gt;Node38 -->
+<g id="edge3" class="edge"><title>Node37&#45;&gt;Node38</title>
 <path fill="none" stroke="midnightblue" d="M299.134,-15.5C310.277,-15.5 321.486,-15.5 331.92,-15.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="298.944,-12.0001 288.944,-15.5 298.944,-19.0001 298.944,-12.0001"/>
 </g>
-<!-- Node75 -->
-<g id="node5" class="node"><title>Node75</title>
+<!-- Node39 -->
+<g id="node5" class="node"><title>Node39</title>
 <g id="a_node5"><a xlink:href="namespaceobe_1_1_modes.html#a6a8b08eee511d4895c4da96d4ba223a6" target="_top" xlink:title="Starts the development Menu where you can starts other menus from. ">
 <polygon fill="none" stroke="black" points="472,-25 472,-44 605,-44 605,-25 472,-25"/>
 <text text-anchor="middle" x="538.5" y="-32" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Modes::startDevMenu</text>
 </a>
 </g>
 </g>
-<!-- Node74&#45;&gt;Node75 -->
-<g id="edge4" class="edge"><title>Node74&#45;&gt;Node75</title>
+<!-- Node38&#45;&gt;Node39 -->
+<g id="edge4" class="edge"><title>Node38&#45;&gt;Node39</title>
 <path fill="none" stroke="midnightblue" d="M446.292,-23.1364C454.688,-24.1824 463.336,-25.2599 471.806,-26.3152"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="446.561,-19.6429 436.205,-21.8796 445.695,-26.5892 446.561,-19.6429"/>
 </g>
-<!-- Node76 -->
-<g id="node6" class="node"><title>Node76</title>
+<!-- Node40 -->
+<g id="node6" class="node"><title>Node40</title>
 <g id="a_node6"><a xlink:href="_ob_engine_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" target="_top" xlink:title="main">
 <polygon fill="none" stroke="black" points="641,-6 641,-25 679,-25 679,-6 641,-6"/>
 <text text-anchor="middle" x="660" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">main</text>
 </a>
 </g>
 </g>
-<!-- Node74&#45;&gt;Node76 -->
-<g id="edge6" class="edge"><title>Node74&#45;&gt;Node76</title>
+<!-- Node38&#45;&gt;Node40 -->
+<g id="edge6" class="edge"><title>Node38&#45;&gt;Node40</title>
 <path fill="none" stroke="midnightblue" d="M446.356,-15.5C508.863,-15.5 601.971,-15.5 640.885,-15.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="446.216,-12.0001 436.216,-15.5 446.216,-19.0001 446.216,-12.0001"/>
 </g>
-<!-- Node75&#45;&gt;Node76 -->
-<g id="edge5" class="edge"><title>Node75&#45;&gt;Node76</title>
+<!-- Node39&#45;&gt;Node40 -->
+<g id="edge5" class="edge"><title>Node39&#45;&gt;Node40</title>
 <path fill="none" stroke="midnightblue" d="M609.822,-23.3192C621.345,-21.4869 632.327,-19.7409 640.978,-18.3654"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="608.926,-19.9174 599.6,-24.9443 610.026,-26.8306 608.926,-19.9174"/>
 </g>

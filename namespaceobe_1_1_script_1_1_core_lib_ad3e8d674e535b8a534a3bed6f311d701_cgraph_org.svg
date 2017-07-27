@@ -267,7 +267,7 @@
 </g>
 <!-- Node21 -->
 <g id="node22" class="node"><title>Node21</title>
-<g id="a_node22"><a xlink:href="classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b" target="_top" xlink:title="aube::ErrorHandler\l::Raise">
+<g id="a_node22"><a xlink:href="classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b" target="_top" xlink:title="Raises an Error loaded in the Aube Error Database (AED) ">
 <polygon fill="white" stroke="black" points="507,-738.5 507,-768.5 605,-768.5 605,-738.5 507,-738.5"/>
 <text text-anchor="start" x="515" y="-756.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorHandler</text>
 <text text-anchor="middle" x="556" y="-745.5" font-family="Helvetica,sans-Serif" font-size="10.00">::Raise</text>
@@ -561,7 +561,7 @@
 </g>
 <!-- Node22 -->
 <g id="node23" class="node"><title>Node22</title>
-<g id="a_node23"><a xlink:href="classaube_1_1_error_message.html#a3a39b6fcd8fdb12eaf6383123535b8ca" target="_top" xlink:title="aube::ErrorMessage\l::getFile">
+<g id="a_node23"><a xlink:href="classaube_1_1_error_message.html#a3a39b6fcd8fdb12eaf6383123535b8ca" target="_top" xlink:title="Gets the File where is located the ErrorMessage when raised. ">
 <polygon fill="white" stroke="black" points="641,-812.5 641,-842.5 745,-842.5 745,-812.5 641,-812.5"/>
 <text text-anchor="start" x="649" y="-830.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
 <text text-anchor="middle" x="693" y="-819.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getFile</text>
@@ -575,7 +575,7 @@
 </g>
 <!-- Node23 -->
 <g id="node24" class="node"><title>Node23</title>
-<g id="a_node24"><a xlink:href="classaube_1_1_error_message.html#a9184cc96589578f434351c105b0cd5f7" target="_top" xlink:title="aube::ErrorMessage\l::getLocation">
+<g id="a_node24"><a xlink:href="classaube_1_1_error_message.html#a9184cc96589578f434351c105b0cd5f7" target="_top" xlink:title="Gets the location of the error in the code. ">
 <polygon fill="white" stroke="black" points="641,-763.5 641,-793.5 745,-793.5 745,-763.5 641,-763.5"/>
 <text text-anchor="start" x="649" y="-781.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
 <text text-anchor="middle" x="693" y="-770.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getLocation</text>
@@ -589,7 +589,7 @@
 </g>
 <!-- Node24 -->
 <g id="node25" class="node"><title>Node24</title>
-<g id="a_node25"><a xlink:href="classaube_1_1_error_message.html#a07927cb3e2d0712c459cc9e2b5f52696" target="_top" xlink:title="aube::ErrorMessage\l::getMessage">
+<g id="a_node25"><a xlink:href="classaube_1_1_error_message.html#a07927cb3e2d0712c459cc9e2b5f52696" target="_top" xlink:title="Gets the message displayed by the ErrorMessage when raised. ">
 <polygon fill="white" stroke="black" points="641,-714.5 641,-744.5 745,-744.5 745,-714.5 641,-714.5"/>
 <text text-anchor="start" x="649" y="-732.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
 <text text-anchor="middle" x="693" y="-721.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getMessage</text>
@@ -603,7 +603,7 @@
 </g>
 <!-- Node25 -->
 <g id="node26" class="node"><title>Node25</title>
-<g id="a_node26"><a xlink:href="classaube_1_1_error_message.html#a77c2f9b7e93542c958173b52da267989" target="_top" xlink:title="aube::ErrorMessage\l::getHints">
+<g id="a_node26"><a xlink:href="classaube_1_1_error_message.html#a77c2f9b7e93542c958173b52da267989" target="_top" xlink:title="Gets hints that can help the error resolution. ">
 <polygon fill="white" stroke="black" points="641,-665.5 641,-695.5 745,-695.5 745,-665.5 641,-665.5"/>
 <text text-anchor="start" x="649" y="-683.5" font-family="Helvetica,sans-Serif" font-size="10.00">aube::ErrorMessage</text>
 <text text-anchor="middle" x="693" y="-672.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getHints</text>
@@ -669,30 +669,30 @@
 </g>
 <!-- Node41 -->
 <g id="node41" class="node"><title>Node41</title>
-<g id="a_node41"><a xlink:href="classvili_1_1_data_parser.html#ac2744d454c122cb1adff342be588bc8d" target="_top" xlink:title="vili::DataParser::at">
-<polygon fill="white" stroke="red" points="348.5,-969 348.5,-988 444.5,-988 444.5,-969 348.5,-969"/>
-<text text-anchor="middle" x="396.5" y="-976" font-family="Helvetica,sans-Serif" font-size="10.00">vili::DataParser::at</text>
+<g id="a_node41"><a xlink:href="classvili_1_1_vili_parser.html#a19dd443cd86f2c4943beb5de092aa4c1" target="_top" xlink:title="Access a ComplexNode in the tree using a path with slash&#45;separation (.at(&quot;NodeA/NodeB/NodeC&quot;) for exa...">
+<polygon fill="white" stroke="red" points="352,-969 352,-988 441,-988 441,-969 352,-969"/>
+<text text-anchor="middle" x="396.5" y="-976" font-family="Helvetica,sans-Serif" font-size="10.00">vili::ViliParser::at</text>
 </a>
 </g>
 </g>
 <!-- Node37&#45;&gt;Node41 -->
 <g id="edge45" class="edge"><title>Node37&#45;&gt;Node41</title>
-<path fill="none" stroke="midnightblue" d="M266.417,-812.545C273.743,-816.463 280.596,-821.368 286,-827.5 326.204,-873.122 278.717,-916.788 322,-959.5 326.679,-964.117 332.324,-967.656 338.382,-970.363"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="337.569,-973.793 348.162,-973.964 339.988,-967.224 337.569,-973.793"/>
+<path fill="none" stroke="midnightblue" d="M266.417,-812.545C273.743,-816.463 280.596,-821.368 286,-827.5 326.204,-873.122 278.717,-916.788 322,-959.5 327.673,-965.098 334.766,-969.111 342.293,-971.977"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="341.395,-975.363 351.985,-975.024 343.495,-968.685 341.395,-975.363"/>
 </g>
 <!-- Node43 -->
 <g id="node42" class="node"><title>Node43</title>
-<g id="a_node42"><a xlink:href="classvili_1_1_complex_attribute.html#a6225afe489577c1e02e21c6a31387a1a" target="_top" xlink:title="vili::ComplexAttribute\l::getAll">
-<polygon fill="white" stroke="black" points="342.5,-870.5 342.5,-900.5 450.5,-900.5 450.5,-870.5 342.5,-870.5"/>
-<text text-anchor="start" x="350.5" y="-888.5" font-family="Helvetica,sans-Serif" font-size="10.00">vili::ComplexAttribute</text>
-<text text-anchor="middle" x="396.5" y="-877.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getAll</text>
+<g id="a_node42"><a xlink:href="classvili_1_1_complex_node.html#a550584eb0dc76bbcb50e35182ac308cd" target="_top" xlink:title="Get all the Node Ids of the given Type contained in the ComplexNode. ">
+<polygon fill="white" stroke="black" points="346.5,-870.5 346.5,-900.5 446.5,-900.5 446.5,-870.5 346.5,-870.5"/>
+<text text-anchor="start" x="354.5" y="-888.5" font-family="Helvetica,sans-Serif" font-size="10.00">vili::ComplexNode::</text>
+<text text-anchor="middle" x="396.5" y="-877.5" font-family="Helvetica,sans-Serif" font-size="10.00">getAll</text>
 </a>
 </g>
 </g>
 <!-- Node37&#45;&gt;Node43 -->
 <g id="edge46" class="edge"><title>Node37&#45;&gt;Node43</title>
-<path fill="none" stroke="midnightblue" d="M256.912,-812.563C266.807,-816.777 277.038,-821.792 286,-827.5 304.307,-839.161 303.327,-849.436 322,-860.5 325.587,-862.626 329.381,-864.603 333.279,-866.436"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="331.949,-869.674 342.515,-870.455 334.742,-863.255 331.949,-869.674"/>
+<path fill="none" stroke="midnightblue" d="M256.912,-812.563C266.807,-816.777 277.038,-821.792 286,-827.5 304.307,-839.161 303.327,-849.436 322,-860.5 326.711,-863.291 331.777,-865.826 336.968,-868.116"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="335.815,-871.426 346.396,-871.975 338.467,-864.947 335.815,-871.426"/>
 </g>
 <!-- Node44 -->
 <g id="node43" class="node"><title>Node44</title>

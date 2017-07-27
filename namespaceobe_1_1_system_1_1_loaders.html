@@ -80,9 +80,9 @@ Variables</h2></td></tr>
 <tr class="memitem:afdc80167d0e9daae49bcf31a53af0dd1"><td class="memItemLeft" align="right" valign="top">std::function&lt; int(sf::Texture *, std::string)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system_1_1_loaders.html#afdc80167d0e9daae49bcf31a53af0dd1">textureLoader</a> = [](sf::Texture* obj, std::string path) -&gt; int { return obj-&gt;loadFromFile(path); }</td></tr>
 <tr class="memdesc:afdc80167d0e9daae49bcf31a53af0dd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a sf::Texture from a file.  <a href="#afdc80167d0e9daae49bcf31a53af0dd1">More...</a><br /></td></tr>
 <tr class="separator:afdc80167d0e9daae49bcf31a53af0dd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88edd6332bfba1b7dd72adcb28875e44"><td class="memItemLeft" align="right" valign="top">std::function&lt; int(<a class="el" href="classvili_1_1_data_parser.html">vili::DataParser</a> *, std::string)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system_1_1_loaders.html#a88edd6332bfba1b7dd72adcb28875e44">dataLoader</a> = [](<a class="el" href="classvili_1_1_data_parser.html">vili::DataParser</a>* obj, std::string path) -&gt; int { return obj-&gt;parseFile(path); }</td></tr>
-<tr class="memdesc:a88edd6332bfba1b7dd72adcb28875e44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a <a class="el" href="classvili_1_1_data_parser.html">vili::DataParser</a> from a file.  <a href="#a88edd6332bfba1b7dd72adcb28875e44">More...</a><br /></td></tr>
-<tr class="separator:a88edd6332bfba1b7dd72adcb28875e44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a074874da72966d3f9c18bbff0c4eb827"><td class="memItemLeft" align="right" valign="top">std::function&lt; int(<a class="el" href="classvili_1_1_vili_parser.html">vili::ViliParser</a> *, std::string)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system_1_1_loaders.html#a074874da72966d3f9c18bbff0c4eb827">dataLoader</a> = [](<a class="el" href="classvili_1_1_vili_parser.html">vili::ViliParser</a>* obj, std::string path) -&gt; int { return obj-&gt;parseFile(path); }</td></tr>
+<tr class="memdesc:a074874da72966d3f9c18bbff0c4eb827"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a vili::DataParser from a file.  <a href="#a074874da72966d3f9c18bbff0c4eb827">More...</a><br /></td></tr>
+<tr class="separator:a074874da72966d3f9c18bbff0c4eb827"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24ca176b9fa8b2b58ae513e35fc70a69"><td class="memItemLeft" align="right" valign="top">std::function&lt; int(sf::Font *, std::string)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system_1_1_loaders.html#a24ca176b9fa8b2b58ae513e35fc70a69">fontLoader</a> = [](sf::Font* obj, std::string path) -&gt; int { return obj-&gt;loadFromFile(path); }</td></tr>
 <tr class="memdesc:a24ca176b9fa8b2b58ae513e35fc70a69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a sf::Font from a file.  <a href="#a24ca176b9fa8b2b58ae513e35fc70a69">More...</a><br /></td></tr>
 <tr class="separator:a24ca176b9fa8b2b58ae513e35fc70a69"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -105,19 +105,19 @@ Variables</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Lambdas used to load different kind of resources using the <a class="el" href="classobe_1_1_system_1_1_path.html" title="Class used to manipulate paths and dynamically load resources (Based on multiple mounted paths) ...">System::Path</a>. </p>
 </div><h2 class="groupheader">Variable Documentation</h2>
-<a id="a88edd6332bfba1b7dd72adcb28875e44"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a88edd6332bfba1b7dd72adcb28875e44">&#9670;&nbsp;</a></span>dataLoader</h2>
+<a id="a074874da72966d3f9c18bbff0c4eb827"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a074874da72966d3f9c18bbff0c4eb827">&#9670;&nbsp;</a></span>dataLoader</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt; int(<a class="el" href="classvili_1_1_data_parser.html">vili::DataParser</a> *, std::string)&gt; obe::System::Loaders::dataLoader = [](<a class="el" href="classvili_1_1_data_parser.html">vili::DataParser</a>* obj, std::string path) -&gt; int { return obj-&gt;parseFile(path); }</td>
+          <td class="memname">std::function&lt; int(<a class="el" href="classvili_1_1_vili_parser.html">vili::ViliParser</a> *, std::string)&gt; obe::System::Loaders::dataLoader = [](<a class="el" href="classvili_1_1_vili_parser.html">vili::ViliParser</a>* obj, std::string path) -&gt; int { return obj-&gt;parseFile(path); }</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Load a <a class="el" href="classvili_1_1_data_parser.html">vili::DataParser</a> from a file. </p>
+<p>Load a vili::DataParser from a file. </p>
 
 </div>
 </div>
