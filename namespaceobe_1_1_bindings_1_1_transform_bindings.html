@@ -72,7 +72,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p><a class="el" href="namespaceobe_1_1_bindings.html">Bindings</a> to <a class="el" href="namespaceobe_1_1_transform.html" title="Classes and Functions to handle all types of 2d Transformations in the Engine. ">Transform</a> related classes and functions.  
+<p><a class="el" href="namespaceobe_1_1_bindings.html" title="Bind C++ Classes and Functions to Lua VMs. ">Bindings</a> to <a class="el" href="namespaceobe_1_1_transform.html" title="Classes and Functions to handle all types of 2d Transformations in the Engine. ">Transform</a> related classes and functions.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -81,14 +81,1050 @@ Functions</h2></td></tr>
 <tr class="separator:a383561644e3b30fae710789a82b9507b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d8def267651cd36bcbd088923f53600"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings_1_1_transform_bindings.html#a7d8def267651cd36bcbd088923f53600">LoadRect</a> (kaguya::State *lua)</td></tr>
 <tr class="separator:a7d8def267651cd36bcbd088923f53600"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad85fd079e2ade9c31ed27f9075061012"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings_1_1_transform_bindings.html#ad85fd079e2ade9c31ed27f9075061012">LoadReferencial</a> (kaguya::State *lua)</td></tr>
+<tr class="separator:ad85fd079e2ade9c31ed27f9075061012"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3cdba7960fc15ef04cab357ab11e768"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings_1_1_transform_bindings.html#aa3cdba7960fc15ef04cab357ab11e768">LoadUnitBasedObject</a> (kaguya::State *lua)</td></tr>
 <tr class="separator:aa3cdba7960fc15ef04cab357ab11e768"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8cdfa507b4638e51eeac7439c5fc199f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings_1_1_transform_bindings.html#a8cdfa507b4638e51eeac7439c5fc199f">LoadUnitVector</a> (kaguya::State *lua)</td></tr>
 <tr class="separator:a8cdfa507b4638e51eeac7439c5fc199f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89cf84d2915abfdcbc5717f92cbfb032"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings_1_1_transform_bindings.html#a89cf84d2915abfdcbc5717f92cbfb032">LoadUnits</a> (kaguya::State *lua)</td></tr>
+<tr class="separator:a89cf84d2915abfdcbc5717f92cbfb032"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97f1a698c7419cc8a34d340665c58e23"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings_1_1_transform_bindings.html#a97f1a698c7419cc8a34d340665c58e23">KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE</a> (Rect_getPosition_proxy, <a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>, getPosition, 0, 1, <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>(Transform::Rect::*)(<a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>))</td></tr>
+<tr class="separator:a97f1a698c7419cc8a34d340665c58e23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c8f052c4b5788319d125f4efb45197e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings_1_1_transform_bindings.html#a5c8f052c4b5788319d125f4efb45197e">KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE</a> (Rect_getX_proxy, <a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>, getX, 0, 1, double(Transform::Rect::*)(<a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>))</td></tr>
+<tr class="separator:a5c8f052c4b5788319d125f4efb45197e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa67c6024b065a67417a03cd6defbd81c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings_1_1_transform_bindings.html#aa67c6024b065a67417a03cd6defbd81c">KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE</a> (Rect_getY_proxy, <a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>, getY, 0, 1, double(Transform::Rect::*)(<a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>))</td></tr>
+<tr class="separator:aa67c6024b065a67417a03cd6defbd81c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa53121b3309bf3797dd7c8d1dcc5d099"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings_1_1_transform_bindings.html#aa53121b3309bf3797dd7c8d1dcc5d099">KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE</a> (Rect_movePoint_uv_proxy, <a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>, movePoint, 1, 2, void(Transform::Rect::*)(const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;, <a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>))</td></tr>
+<tr class="separator:aa53121b3309bf3797dd7c8d1dcc5d099"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad97fcaf5cee9f3eecdf31ba9ce879318"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings_1_1_transform_bindings.html#ad97fcaf5cee9f3eecdf31ba9ce879318">KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE</a> (Rect_movePoint_dd_proxy, <a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>, movePoint, 2, 3, void(Transform::Rect::*)(double, double, <a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>))</td></tr>
+<tr class="separator:ad97fcaf5cee9f3eecdf31ba9ce879318"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a595678aacb163768e2b88f0cf5db6f4c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings_1_1_transform_bindings.html#a595678aacb163768e2b88f0cf5db6f4c">KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE</a> (Rect_scale_uv_proxy, <a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>, scale, 1, 2, void(Transform::Rect::*)(const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;, <a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>))</td></tr>
+<tr class="separator:a595678aacb163768e2b88f0cf5db6f4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80ad76d4b4da3d6997e63b17fe479caa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings_1_1_transform_bindings.html#a80ad76d4b4da3d6997e63b17fe479caa">KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE</a> (Rect_scale_dd_proxy, <a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>, scale, 2, 3, void(Transform::Rect::*)(double, double, <a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>))</td></tr>
+<tr class="separator:a80ad76d4b4da3d6997e63b17fe479caa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8d410be92610b11a3630a207825319d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings_1_1_transform_bindings.html#ad8d410be92610b11a3630a207825319d">KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE</a> (Rect_setHeight_proxy, <a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>, setHeight, 1, 2, void(Transform::Rect::*)(double, <a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>))</td></tr>
+<tr class="separator:ad8d410be92610b11a3630a207825319d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c44b3bd978f6bc70eba65074c1d57fa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings_1_1_transform_bindings.html#a7c44b3bd978f6bc70eba65074c1d57fa">KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE</a> (Rect_setPointPosition_uv_proxy, <a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>, setPointPosition, 1, 2, void(Transform::Rect::*)(const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;, <a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>))</td></tr>
+<tr class="separator:a7c44b3bd978f6bc70eba65074c1d57fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ed6a1e3458883962e9727056144c7e8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings_1_1_transform_bindings.html#a9ed6a1e3458883962e9727056144c7e8">KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE</a> (Rect_setPointPosition_dd_proxy, <a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>, setPointPosition, 2, 3, void(Transform::Rect::*)(double, double, <a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>))</td></tr>
+<tr class="separator:a9ed6a1e3458883962e9727056144c7e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7423288193cdd5a271a77ba7f4ea9d0f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings_1_1_transform_bindings.html#a7423288193cdd5a271a77ba7f4ea9d0f">KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE</a> (Rect_setPosition_uv_proxy, <a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>, setPosition, 1, 2, void(Transform::Rect::*)(const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;, <a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>))</td></tr>
+<tr class="separator:a7423288193cdd5a271a77ba7f4ea9d0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ba23a7dfeb8a04e90023826ff4ed6bb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings_1_1_transform_bindings.html#a4ba23a7dfeb8a04e90023826ff4ed6bb">KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE</a> (Rect_setPosition_dd_proxy, <a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>, setPosition, 2, 3, void(Transform::Rect::*)(double, double, <a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>))</td></tr>
+<tr class="separator:a4ba23a7dfeb8a04e90023826ff4ed6bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a686cc20c0aada489e3771d94040b8194"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings_1_1_transform_bindings.html#a686cc20c0aada489e3771d94040b8194">KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE</a> (Rect_setPointX_proxy, <a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>, setPointX, 1, 2, void(Transform::Rect::*)(double, <a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>))</td></tr>
+<tr class="separator:a686cc20c0aada489e3771d94040b8194"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fed7352e953d98cb296ba706e1ee082"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings_1_1_transform_bindings.html#a0fed7352e953d98cb296ba706e1ee082">KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE</a> (Rect_setPointY_proxy, <a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>, setPointY, 1, 2, void(Transform::Rect::*)(double, <a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>))</td></tr>
+<tr class="separator:a0fed7352e953d98cb296ba706e1ee082"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c55666bb0981069be2c1b7eb5d135a6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings_1_1_transform_bindings.html#a9c55666bb0981069be2c1b7eb5d135a6">KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE</a> (Rect_setWidth_proxy, <a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>, setWidth, 1, 2, void(Transform::Rect::*)(double, <a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>))</td></tr>
+<tr class="separator:a9c55666bb0981069be2c1b7eb5d135a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82b4263e344e0a30ec924860b0acc5a2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings_1_1_transform_bindings.html#a82b4263e344e0a30ec924860b0acc5a2">KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE</a> (Rect_setSize_uv_proxy, <a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>, setSize, 1, 2, void(Transform::Rect::*)(const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;, <a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>))</td></tr>
+<tr class="separator:a82b4263e344e0a30ec924860b0acc5a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3a671076a913c57e786caa2a920d898"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings_1_1_transform_bindings.html#ac3a671076a913c57e786caa2a920d898">KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE</a> (Rect_setSize_dd_proxy, <a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>, setSize, 2, 3, void(Transform::Rect::*)(double, double, <a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>))</td></tr>
+<tr class="separator:ac3a671076a913c57e786caa2a920d898"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49ba6e826f21758fecd83099b67503fe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings_1_1_transform_bindings.html#a49ba6e826f21758fecd83099b67503fe">KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE</a> (Rect_setX_proxy, <a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>, setX, 1, 2, void(Transform::Rect::*)(double, <a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>))</td></tr>
+<tr class="separator:a49ba6e826f21758fecd83099b67503fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ca65d45f9b1dc74e9025fc778998444"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings_1_1_transform_bindings.html#a7ca65d45f9b1dc74e9025fc778998444">KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE</a> (Rect_setY_proxy, <a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>, setY, 1, 2, void(Transform::Rect::*)(double, <a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>))</td></tr>
+<tr class="separator:a7ca65d45f9b1dc74e9025fc778998444"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="el" href="namespaceobe_1_1_bindings.html">Bindings</a> to <a class="el" href="namespaceobe_1_1_transform.html" title="Classes and Functions to handle all types of 2d Transformations in the Engine. ">Transform</a> related classes and functions. </p>
+<div class="textblock"><p><a class="el" href="namespaceobe_1_1_bindings.html" title="Bind C++ Classes and Functions to Lua VMs. ">Bindings</a> to <a class="el" href="namespaceobe_1_1_transform.html" title="Classes and Functions to handle all types of 2d Transformations in the Engine. ">Transform</a> related classes and functions. </p>
 </div><h2 class="groupheader">Function Documentation</h2>
+<a id="a97f1a698c7419cc8a34d340665c58e23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97f1a698c7419cc8a34d340665c58e23">&#9670;&nbsp;</a></span>KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE() <span class="overload">[1/19]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">obe::Bindings::TransformBindings::KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE </td>
+          <td>(</td>
+          <td class="paramtype">Rect_getPosition_proxy&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">getPosition&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">0&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">1&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>(Transform::Rect::*)(<a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>)&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_bindings_1_1_transform_bindings_a97f1a698c7419cc8a34d340665c58e23_icgraph.svg" width="100%" height="361"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a5c8f052c4b5788319d125f4efb45197e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c8f052c4b5788319d125f4efb45197e">&#9670;&nbsp;</a></span>KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE() <span class="overload">[2/19]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">obe::Bindings::TransformBindings::KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE </td>
+          <td>(</td>
+          <td class="paramtype">Rect_getX_proxy&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">getX&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">0&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">1&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double(Transform::Rect::*)(<a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>)&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa67c6024b065a67417a03cd6defbd81c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa67c6024b065a67417a03cd6defbd81c">&#9670;&nbsp;</a></span>KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE() <span class="overload">[3/19]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">obe::Bindings::TransformBindings::KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE </td>
+          <td>(</td>
+          <td class="paramtype">Rect_getY_proxy&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">getY&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">0&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">1&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double(Transform::Rect::*)(<a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>)&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa53121b3309bf3797dd7c8d1dcc5d099"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa53121b3309bf3797dd7c8d1dcc5d099">&#9670;&nbsp;</a></span>KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE() <span class="overload">[4/19]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">obe::Bindings::TransformBindings::KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE </td>
+          <td>(</td>
+          <td class="paramtype">Rect_movePoint_uv_proxy&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">movePoint&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">1&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">2&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(Transform::Rect::*)(const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;, <a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>)&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad97fcaf5cee9f3eecdf31ba9ce879318"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad97fcaf5cee9f3eecdf31ba9ce879318">&#9670;&nbsp;</a></span>KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE() <span class="overload">[5/19]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">obe::Bindings::TransformBindings::KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE </td>
+          <td>(</td>
+          <td class="paramtype">Rect_movePoint_dd_proxy&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">movePoint&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">2&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">3&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(Transform::Rect::*)(double, double, <a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>)&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a595678aacb163768e2b88f0cf5db6f4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a595678aacb163768e2b88f0cf5db6f4c">&#9670;&nbsp;</a></span>KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE() <span class="overload">[6/19]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">obe::Bindings::TransformBindings::KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE </td>
+          <td>(</td>
+          <td class="paramtype">Rect_scale_uv_proxy&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">scale&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">1&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">2&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(Transform::Rect::*)(const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;, <a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>)&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a80ad76d4b4da3d6997e63b17fe479caa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80ad76d4b4da3d6997e63b17fe479caa">&#9670;&nbsp;</a></span>KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE() <span class="overload">[7/19]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">obe::Bindings::TransformBindings::KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE </td>
+          <td>(</td>
+          <td class="paramtype">Rect_scale_dd_proxy&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">scale&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">2&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">3&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(Transform::Rect::*)(double, double, <a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>)&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad8d410be92610b11a3630a207825319d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8d410be92610b11a3630a207825319d">&#9670;&nbsp;</a></span>KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE() <span class="overload">[8/19]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">obe::Bindings::TransformBindings::KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE </td>
+          <td>(</td>
+          <td class="paramtype">Rect_setHeight_proxy&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">setHeight&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">1&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">2&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(Transform::Rect::*)(double, <a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>)&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7c44b3bd978f6bc70eba65074c1d57fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c44b3bd978f6bc70eba65074c1d57fa">&#9670;&nbsp;</a></span>KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE() <span class="overload">[9/19]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">obe::Bindings::TransformBindings::KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE </td>
+          <td>(</td>
+          <td class="paramtype">Rect_setPointPosition_uv_proxy&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">setPointPosition&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">1&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">2&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(Transform::Rect::*)(const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;, <a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>)&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9ed6a1e3458883962e9727056144c7e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ed6a1e3458883962e9727056144c7e8">&#9670;&nbsp;</a></span>KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE() <span class="overload">[10/19]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">obe::Bindings::TransformBindings::KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE </td>
+          <td>(</td>
+          <td class="paramtype">Rect_setPointPosition_dd_proxy&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">setPointPosition&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">2&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">3&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(Transform::Rect::*)(double, double, <a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>)&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7423288193cdd5a271a77ba7f4ea9d0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7423288193cdd5a271a77ba7f4ea9d0f">&#9670;&nbsp;</a></span>KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE() <span class="overload">[11/19]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">obe::Bindings::TransformBindings::KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE </td>
+          <td>(</td>
+          <td class="paramtype">Rect_setPosition_uv_proxy&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">setPosition&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">1&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">2&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(Transform::Rect::*)(const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;, <a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>)&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4ba23a7dfeb8a04e90023826ff4ed6bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ba23a7dfeb8a04e90023826ff4ed6bb">&#9670;&nbsp;</a></span>KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE() <span class="overload">[12/19]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">obe::Bindings::TransformBindings::KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE </td>
+          <td>(</td>
+          <td class="paramtype">Rect_setPosition_dd_proxy&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">setPosition&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">2&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">3&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(Transform::Rect::*)(double, double, <a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>)&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a686cc20c0aada489e3771d94040b8194"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a686cc20c0aada489e3771d94040b8194">&#9670;&nbsp;</a></span>KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE() <span class="overload">[13/19]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">obe::Bindings::TransformBindings::KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE </td>
+          <td>(</td>
+          <td class="paramtype">Rect_setPointX_proxy&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">setPointX&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">1&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">2&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(Transform::Rect::*)(double, <a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>)&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0fed7352e953d98cb296ba706e1ee082"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fed7352e953d98cb296ba706e1ee082">&#9670;&nbsp;</a></span>KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE() <span class="overload">[14/19]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">obe::Bindings::TransformBindings::KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE </td>
+          <td>(</td>
+          <td class="paramtype">Rect_setPointY_proxy&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">setPointY&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">1&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">2&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(Transform::Rect::*)(double, <a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>)&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9c55666bb0981069be2c1b7eb5d135a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c55666bb0981069be2c1b7eb5d135a6">&#9670;&nbsp;</a></span>KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE() <span class="overload">[15/19]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">obe::Bindings::TransformBindings::KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE </td>
+          <td>(</td>
+          <td class="paramtype">Rect_setWidth_proxy&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">setWidth&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">1&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">2&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(Transform::Rect::*)(double, <a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>)&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a82b4263e344e0a30ec924860b0acc5a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82b4263e344e0a30ec924860b0acc5a2">&#9670;&nbsp;</a></span>KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE() <span class="overload">[16/19]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">obe::Bindings::TransformBindings::KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE </td>
+          <td>(</td>
+          <td class="paramtype">Rect_setSize_uv_proxy&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">setSize&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">1&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">2&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(Transform::Rect::*)(const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;, <a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>)&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac3a671076a913c57e786caa2a920d898"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3a671076a913c57e786caa2a920d898">&#9670;&nbsp;</a></span>KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE() <span class="overload">[17/19]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">obe::Bindings::TransformBindings::KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE </td>
+          <td>(</td>
+          <td class="paramtype">Rect_setSize_dd_proxy&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">setSize&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">2&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">3&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(Transform::Rect::*)(double, double, <a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>)&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a49ba6e826f21758fecd83099b67503fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49ba6e826f21758fecd83099b67503fe">&#9670;&nbsp;</a></span>KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE() <span class="overload">[18/19]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">obe::Bindings::TransformBindings::KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE </td>
+          <td>(</td>
+          <td class="paramtype">Rect_setX_proxy&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">setX&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">1&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">2&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(Transform::Rect::*)(double, <a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>)&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7ca65d45f9b1dc74e9025fc778998444"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ca65d45f9b1dc74e9025fc778998444">&#9670;&nbsp;</a></span>KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE() <span class="overload">[19/19]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">obe::Bindings::TransformBindings::KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE </td>
+          <td>(</td>
+          <td class="paramtype">Rect_setY_proxy&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">setY&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">1&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">2&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(Transform::Rect::*)(double, <a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>)&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a383561644e3b30fae710789a82b9507b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a383561644e3b30fae710789a82b9507b">&#9670;&nbsp;</a></span>LoadProtectedUnitVector()</h2>
 
@@ -104,6 +1140,18 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_bindings_1_1_transform_bindings_a383561644e3b30fae710789a82b9507b_cgraph.svg" width="100%" height="508"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_bindings_1_1_transform_bindings_a383561644e3b30fae710789a82b9507b_icgraph.svg" width="574" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 
 </div>
 </div>
@@ -122,6 +1170,42 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_bindings_1_1_transform_bindings_a7d8def267651cd36bcbd088923f53600_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_bindings_1_1_transform_bindings_a7d8def267651cd36bcbd088923f53600_icgraph.svg" width="515" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ad85fd079e2ade9c31ed27f9075061012"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad85fd079e2ade9c31ed27f9075061012">&#9670;&nbsp;</a></span>LoadReferencial()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::Bindings::TransformBindings::LoadReferencial </td>
+          <td>(</td>
+          <td class="paramtype">kaguya::State *&#160;</td>
+          <td class="paramname"><em>lua</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_bindings_1_1_transform_bindings_ad85fd079e2ade9c31ed27f9075061012_icgraph.svg" width="520" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 
 </div>
 </div>
@@ -146,6 +1230,36 @@ Here is the call graph for this function:</div>
 <div class="center"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_bindings_1_1_transform_bindings_aa3cdba7960fc15ef04cab357ab11e768_cgraph.svg" width="666" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_bindings_1_1_transform_bindings_aa3cdba7960fc15ef04cab357ab11e768_icgraph.svg" width="555" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a89cf84d2915abfdcbc5717f92cbfb032"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89cf84d2915abfdcbc5717f92cbfb032">&#9670;&nbsp;</a></span>LoadUnits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::Bindings::TransformBindings::LoadUnits </td>
+          <td>(</td>
+          <td class="paramtype">kaguya::State *&#160;</td>
+          <td class="paramname"><em>lua</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_bindings_1_1_transform_bindings_a89cf84d2915abfdcbc5717f92cbfb032_icgraph.svg" width="515" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 
 </div>
 </div>
@@ -168,6 +1282,12 @@ Here is the call graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_bindings_1_1_transform_bindings_a8cdfa507b4638e51eeac7439c5fc199f_cgraph.svg" width="100%" height="404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_bindings_1_1_transform_bindings_a8cdfa507b4638e51eeac7439c5fc199f_icgraph.svg" width="518" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 

@@ -1,39 +1,44 @@
 <map id="obe::Bindings::InputBindings::LoadInputManager" name="obe::Bindings::InputBindings::LoadInputManager">
-<area shape="rect" id="node2" href="$classobe_1_1_input_1_1_input_manager.html#a48a3dbfe40468166deb78ab92a445edb" title="Get if a KeyboardAction exists. " alt="" coords="455,153,621,194"/>
-<area shape="rect" id="node3" href="$classobe_1_1_input_1_1_input_manager.html#ac88d9b295acd255a40ebfaa7e20ec346" title="Clear all contexts the KeyboardManager is using. " alt="" coords="455,714,621,755"/>
-<area shape="rect" id="node4" href="$classobe_1_1_input_1_1_input_manager.html#adf10d43635b0d5c29bbb4839d083e150" title="Configure KeyboardAction from a vili configuration file. " alt="" coords="240,394,405,435"/>
-<area shape="rect" id="node29" href="$classobe_1_1_input_1_1_input_manager.html#a60ebf274d7e9dac67f6221e3b6e4db6b" title="Get the KeyboardAction identified by actionId if it exists. " alt="" coords="455,583,621,625"/>
-<area shape="rect" id="node32" href="$classobe_1_1_input_1_1_input_manager.html#a345862be1b2aa13566fb0f8423492fce" title="Handles the Triggers of the KeyboardManager. " alt="" coords="240,763,405,805"/>
-<area shape="rect" id="node33" href="$classobe_1_1_input_1_1_input_manager.html#a043ab7f367b87dbd8dd1b1804e0494d4" title="Cleans all the contexts and adds a new one. " alt="" coords="240,646,405,687"/>
-<area shape="rect" id="node35" href="$classobe_1_1_input_1_1_input_manager.html#a2eb44d200745787de06b22e831a56ca5" title="Enables or disables the KeyboardManager. " alt="" coords="240,829,405,870"/>
-<area shape="rect" id="node36" href="$classobe_1_1_input_1_1_input_manager.html#ac19fc83f52179654aa43fc42e471eaf2" title="Updates the KeyboardManager. " alt="" coords="240,894,405,935"/>
-<area shape="rect" id="node5" href="$classvili_1_1_complex_node.html#a550584eb0dc76bbcb50e35182ac308cd" title="Get all the Node Ids of the given Type contained in the ComplexNode. " alt="" coords="471,335,605,377"/>
-<area shape="rect" id="node6" href="$classvili_1_1_complex_node.html#ab3a269cf4b6899b75bbd789f83b255d5" title="Access a ComplexNode in the tree using a path with slash&#45;separation (.at(&quot;NodeA/NodeB/NodeC&quot;) for exa..." alt="" coords="466,219,610,245"/>
-<area shape="rect" id="node20" href="$classvili_1_1_complex_node.html#a2a280e0b84d7b5b22a49b0938977ab0b" title="Get a DataNode contained in the ComplexNode. " alt="" coords="919,285,1053,326"/>
-<area shape="rect" id="node21" href="$classobe_1_1_input_1_1_input_condition.html#ac2722d5f8ee8a3f5959a0f544e6853fd" title="Uses a parsable string to define the InputCombination &lt;DOCUMENT&gt; " alt="" coords="453,453,623,494"/>
-<area shape="rect" id="node30" href="$classobe_1_1_input_1_1_input_action.html#a66dc8f631d254b7c76c7a9e0a720817c" title="obe::Input::InputAction\l::addCondition" alt="" coords="462,270,614,311"/>
-<area shape="rect" id="node31" href="$classobe_1_1_input_1_1_input_action.html#a0f69ebf36cd8aa261b552dc282c94f6d" title="Adds a context to the KeyboardAction. " alt="" coords="462,518,614,559"/>
-<area shape="rect" id="node7" href="$namespacevili_1_1_functions_1_1_string.html#ad7421099a2ab911f64f06d89abc7d7cf" title="vili::Functions::String\l::extract" alt="" coords="915,219,1057,261"/>
-<area shape="rect" id="node8" href="$classvili_1_1_complex_node.html#af863182abb35759cf98a0a39bde589fa" title="vili::ComplexNode::\lgetPath" alt="" coords="702,161,835,202"/>
-<area shape="rect" id="node9" href="$classvili_1_1_complex_node.html#aa9274f5ba9c9dbe1a0c90d54380a003a" title="Get a ComplexNode contained in the ComplexNode. " alt="" coords="919,102,1053,143"/>
-<area shape="rect" id="node10" href="$classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b" title="Raises an Error loaded in the Aube Error Database (AED) " alt="" coords="1119,289,1249,330"/>
-<area shape="rect" id="node15" href="$classvili_1_1_node.html#a5a6ad518f51d824e06ae7be0328f4864" title="Get the Node Path (Example : GrandParent/Parent/Node) " alt="" coords="1105,107,1263,133"/>
-<area shape="rect" id="node11" href="$classaube_1_1_error_message.html#a3a39b6fcd8fdb12eaf6383123535b8ca" title="Gets the File where is located the ErrorMessage when raised. " alt="" coords="1323,223,1461,265"/>
-<area shape="rect" id="node12" href="$classaube_1_1_error_message.html#a9184cc96589578f434351c105b0cd5f7" title="Gets the location of the error in the code. " alt="" coords="1323,289,1461,330"/>
-<area shape="rect" id="node13" href="$classaube_1_1_error_message.html#a07927cb3e2d0712c459cc9e2b5f52696" title="Gets the message displayed by the ErrorMessage when raised. " alt="" coords="1323,354,1461,395"/>
-<area shape="rect" id="node14" href="$classaube_1_1_error_message.html#a77c2f9b7e93542c958173b52da267989" title="Gets hints that can help the error resolution. " alt="" coords="1323,419,1461,461"/>
-<area shape="rect" id="node16" href="$classvili_1_1_node.html#a58273048e22a9ebd74e576fd8905f709" title="vili::Node::getParent" alt="" coords="1323,5,1461,32"/>
-<area shape="rect" id="node17" href="$classvili_1_1_node.html#ab03908ab3d62e3bfddaf9e7306fdf3b3" title="Gets the id of the Node. " alt="" coords="1337,56,1447,83"/>
-<area shape="rect" id="node18" href="$classvili_1_1_node.html#ad3c91cfe2721eaf9841721d1ec8ee0d8" title="Gets the Node annotation. " alt="" coords="1311,107,1473,133"/>
-<area shape="rect" id="node19" href="$namespacevili_1_1_functions_1_1_vector.html#a10836e1fe04648534cfc59d9de9acd72" title="vili::Functions::Vector\l::join" alt="" coords="1319,158,1465,199"/>
-<area shape="rect" id="node22" href="$namespaceobe_1_1_utils_1_1_string.html#a074d624ca5936545dc32c0b5e423050d" title="Splits a std::string using a delimited. " alt="" coords="709,466,828,507"/>
-<area shape="rect" id="node23" href="$namespaceobe_1_1_utils_1_1_string.html#ad9d5afbd60c8e3c6894ad5c782de001a" title="Replace all the occurences of search to replace in the string subject in place. " alt="" coords="709,335,828,377"/>
-<area shape="rect" id="node25" href="$namespaceobe_1_1_utils_1_1_vector.html#a636b7f465d67c2bf42a297f221af9cfe" title="Check if a given item is in the given std::vector. " alt="" coords="707,649,830,690"/>
-<area shape="rect" id="node26" href="$namespaceobe_1_1_input.html#a38313ff3bc07a1e7d37e3cebaddb1083" title="obe::Input::stringToInput\lButtonState" alt="" coords="688,401,849,442"/>
-<area shape="rect" id="node27" href="$namespaceobe_1_1_input.html#aa9f8742fa8ac61fe14003702d5a6c5bc" title="Get a InputButton that is inside the AllKeys Map. " alt="" coords="921,539,1051,565"/>
-<area shape="rect" id="node28" href="$namespaceobe_1_1_input_1_1_monitors.html#a8cf77046480316d0739eb92ebd3a3dec" title="obe::Input::Monitors\l::Monitor" alt="" coords="700,531,837,573"/>
-<area shape="rect" id="node24" href="$namespaceobe_1_1_utils_1_1_string.html#ad648e63a60e1fce71a321037fbee4e30" title="Replace all the occurences of search to replace in the string subject. " alt="" coords="927,350,1045,391"/>
-<area shape="rect" id="node34" href="$classobe_1_1_input_1_1_input_manager.html#ac53e0a2043b3242a51d0bffcd985ec11" title="Adds a new context the KeyboardManager will use. " alt="" coords="455,649,621,690"/>
-<area shape="rect" id="node37" href="$namespaceobe_1_1_input_1_1_monitors.html#a22df5919d920ce83f6f31322e3d6133e" title="obe::Input::Monitors\l::UpdateMonitors" alt="" coords="469,894,607,935"/>
-<area shape="rect" id="node38" href="$namespaceobe_1_1_input_1_1_monitors.html#a36b65f192edd65eaca09799ff1401d8f" title="obe::Input::Monitors\l::UpdateMonitorsAndRemoveIf\lNoReferences" alt="" coords="671,887,867,943"/>
+<area shape="rect" id="node2" href="$classobe_1_1_input_1_1_input_manager.html#a48a3dbfe40468166deb78ab92a445edb" title="Get if a KeyboardAction exists. " alt="" coords="460,5,625,47"/>
+<area shape="rect" id="node3" href="$classobe_1_1_input_1_1_input_manager.html#af0d3df98daaf9c2e09208876504a3655" title="Clears all Actions. " alt="" coords="240,696,405,737"/>
+<area shape="rect" id="node9" href="$classobe_1_1_input_1_1_input_manager.html#ac88d9b295acd255a40ebfaa7e20ec346" title="Clear all contexts the KeyboardManager is using. " alt="" coords="460,913,625,955"/>
+<area shape="rect" id="node10" href="$classobe_1_1_input_1_1_input_manager.html#adf10d43635b0d5c29bbb4839d083e150" title="Configure KeyboardAction from a vili configuration file. " alt="" coords="240,392,405,433"/>
+<area shape="rect" id="node23" href="$classobe_1_1_input_1_1_input_manager.html#a60ebf274d7e9dac67f6221e3b6e4db6b" title="Get the KeyboardAction identified by actionId if it exists. " alt="" coords="460,764,625,805"/>
+<area shape="rect" id="node36" href="$classobe_1_1_input_1_1_input_manager.html#a345862be1b2aa13566fb0f8423492fce" title="Handles the Triggers of the KeyboardManager. " alt="" coords="240,981,405,1023"/>
+<area shape="rect" id="node37" href="$classobe_1_1_input_1_1_input_manager.html#a043ab7f367b87dbd8dd1b1804e0494d4" title="Cleans all the contexts and adds a new one. " alt="" coords="240,864,405,905"/>
+<area shape="rect" id="node38" href="$classobe_1_1_input_1_1_input_manager.html#ac53e0a2043b3242a51d0bffcd985ec11" title="Adds a new context the KeyboardManager will use. " alt="" coords="460,829,625,871"/>
+<area shape="rect" id="node39" href="$classobe_1_1_input_1_1_input_manager.html#a2eb44d200745787de06b22e831a56ca5" title="Enables or disables the KeyboardManager. " alt="" coords="240,1047,405,1088"/>
+<area shape="rect" id="node40" href="$classobe_1_1_input_1_1_input_manager.html#ac19fc83f52179654aa43fc42e471eaf2" title="Updates the KeyboardManager. " alt="" coords="240,1112,405,1153"/>
+<area shape="rect" id="node43" href="$classobe_1_1_input_1_1_input_manager.html#af6cb95c98b488b77d16d90db431ab208" title="Removes a context in use. " alt="" coords="240,1177,405,1219"/>
+<area shape="rect" id="node4" href="$classobe_1_1_triggers_1_1_trigger_group.html#a6420de5b722a09e6f26b39180841d0ce" title="Removes a Trigger from the TriggerGroup. " alt="" coords="924,680,1103,721"/>
+<area shape="rect" id="node5" href="$classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b" title="Raises an Error loaded in the Aube Error Database (AED) " alt="" coords="1164,436,1295,477"/>
+<area shape="rect" id="node6" href="$classaube_1_1_error_message.html#a9184cc96589578f434351c105b0cd5f7" title="Gets the location of the error in the code. " alt="" coords="1368,436,1507,477"/>
+<area shape="rect" id="node7" href="$classaube_1_1_error_message.html#a07927cb3e2d0712c459cc9e2b5f52696" title="Gets the message displayed by the ErrorMessage when raised. " alt="" coords="1368,501,1507,543"/>
+<area shape="rect" id="node8" href="$classaube_1_1_error_message.html#a77c2f9b7e93542c958173b52da267989" title="Gets hints that can help the error resolution. " alt="" coords="1368,371,1507,412"/>
+<area shape="rect" id="node11" href="$classvili_1_1_complex_node.html#a550584eb0dc76bbcb50e35182ac308cd" title="Get all the Node Ids of the given Type contained in the ComplexNode. " alt="" coords="476,359,609,400"/>
+<area shape="rect" id="node12" href="$classvili_1_1_complex_node.html#ab3a269cf4b6899b75bbd789f83b255d5" title="Access a ComplexNode in the tree using a path with slash&#45;separation (.at(&quot;NodeA/NodeB/NodeC&quot;) for exa..." alt="" coords="471,177,615,203"/>
+<area shape="rect" id="node21" href="$classobe_1_1_triggers_1_1_trigger_group_ptr.html#aa455df793f56e0454b2e3a6a48506b4e" title="obe::Triggers::TriggerGroup\lPtr::get" alt="" coords="453,228,632,269"/>
+<area shape="rect" id="node22" href="$namespaceobe_1_1_utils_1_1_vector.html#a636b7f465d67c2bf42a297f221af9cfe" title="Check if a given item is in the given std::vector. " alt="" coords="717,655,839,696"/>
+<area shape="rect" id="node24" href="$classobe_1_1_input_1_1_input_action.html#a61d7ea91d43a8c67410f32f85d8bf5a0" title="Clears all the InputCondition of the InputAction. " alt="" coords="467,293,619,335"/>
+<area shape="rect" id="node25" href="$classvili_1_1_complex_node.html#a2a280e0b84d7b5b22a49b0938977ab0b" title="Get a DataNode contained in the ComplexNode. " alt="" coords="947,56,1080,97"/>
+<area shape="rect" id="node26" href="$classobe_1_1_input_1_1_input_condition.html#ac2722d5f8ee8a3f5959a0f544e6853fd" title="Uses a parsable string to define the InputCombination &lt;DOCUMENT&gt; " alt="" coords="458,489,627,531"/>
+<area shape="rect" id="node34" href="$classobe_1_1_input_1_1_input_action.html#a66dc8f631d254b7c76c7a9e0a720817c" title="Adds an InputCondition to the InputAction. " alt="" coords="467,424,619,465"/>
+<area shape="rect" id="node35" href="$classobe_1_1_input_1_1_input_action.html#a0f69ebf36cd8aa261b552dc282c94f6d" title="Adds a context to the KeyboardAction. " alt="" coords="467,639,619,680"/>
+<area shape="rect" id="node13" href="$namespacevili_1_1_functions_1_1_string.html#ad7421099a2ab911f64f06d89abc7d7cf" title="vili::Functions::String\l::extract" alt="" coords="942,121,1085,163"/>
+<area shape="rect" id="node14" href="$classvili_1_1_complex_node.html#af863182abb35759cf98a0a39bde589fa" title="vili::ComplexNode::\lgetPath" alt="" coords="711,173,845,215"/>
+<area shape="rect" id="node15" href="$classvili_1_1_complex_node.html#aa9274f5ba9c9dbe1a0c90d54380a003a" title="Get a ComplexNode contained in the ComplexNode. " alt="" coords="947,239,1080,280"/>
+<area shape="rect" id="node16" href="$classvili_1_1_node.html#a5a6ad518f51d824e06ae7be0328f4864" title="Get the Node Path (Example : GrandParent/Parent/Node) " alt="" coords="1151,187,1308,214"/>
+<area shape="rect" id="node17" href="$classvili_1_1_node.html#a58273048e22a9ebd74e576fd8905f709" title="vili::Node::getParent" alt="" coords="1368,217,1507,243"/>
+<area shape="rect" id="node18" href="$classvili_1_1_node.html#ab03908ab3d62e3bfddaf9e7306fdf3b3" title="Gets the id of the Node. " alt="" coords="1382,267,1493,294"/>
+<area shape="rect" id="node19" href="$classvili_1_1_node.html#ad3c91cfe2721eaf9841721d1ec8ee0d8" title="Gets the Node annotation. " alt="" coords="1356,99,1519,126"/>
+<area shape="rect" id="node20" href="$namespacevili_1_1_functions_1_1_vector.html#a10836e1fe04648534cfc59d9de9acd72" title="vili::Functions::Vector\l::join" alt="" coords="1364,151,1511,192"/>
+<area shape="rect" id="node27" href="$namespaceobe_1_1_utils_1_1_string.html#a074d624ca5936545dc32c0b5e423050d" title="Splits a std::string using a delimited. " alt="" coords="719,356,837,397"/>
+<area shape="rect" id="node28" href="$namespaceobe_1_1_utils_1_1_string.html#ad9d5afbd60c8e3c6894ad5c782de001a" title="Replace all the occurences of search to replace in the string subject in place. " alt="" coords="719,291,837,332"/>
+<area shape="rect" id="node30" href="$namespaceobe_1_1_input.html#a38313ff3bc07a1e7d37e3cebaddb1083" title="Converts a string to the corresponding InputButtonState. " alt="" coords="933,356,1094,397"/>
+<area shape="rect" id="node31" href="$namespaceobe_1_1_input.html#aa9f8742fa8ac61fe14003702d5a6c5bc" title="Get a InputButton that is inside the AllKeys Map. " alt="" coords="948,494,1079,521"/>
+<area shape="rect" id="node32" href="$namespaceobe_1_1_input_1_1_monitors.html#a8cf77046480316d0739eb92ebd3a3dec" title="Creates a new InputButtonMonitor from an InputButton id. " alt="" coords="709,487,847,528"/>
+<area shape="rect" id="node33" href="$classobe_1_1_input_1_1_input_button.html#ab694602ebba22d7a412fc352278f69ca" title="Get the name of the Key. " alt="" coords="701,421,855,463"/>
+<area shape="rect" id="node29" href="$namespaceobe_1_1_utils_1_1_string.html#ad648e63a60e1fce71a321037fbee4e30" title="Replace all the occurences of search to replace in the string subject. " alt="" coords="954,421,1073,463"/>
+<area shape="rect" id="node41" href="$namespaceobe_1_1_input_1_1_monitors.html#a22df5919d920ce83f6f31322e3d6133e" title="Updates all the InputButtonMonitor. " alt="" coords="474,1112,611,1153"/>
+<area shape="rect" id="node42" href="$namespaceobe_1_1_input_1_1_monitors.html#a36b65f192edd65eaca09799ff1401d8f" title="Update the InputButtonMonitor or returns true if it has no more references to them. " alt="" coords="680,1105,876,1161"/>
 </map>

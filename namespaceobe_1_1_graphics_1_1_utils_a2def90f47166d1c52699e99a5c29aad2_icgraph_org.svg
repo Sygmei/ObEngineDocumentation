@@ -8,14 +8,14 @@
  viewBox="0.00 0.00 725.00 137.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 133)">
 <title>obe::Graphics::Utils::drawPolygon</title>
-<!-- Node21 -->
-<g id="node1" class="node"><title>Node21</title>
+<!-- Node19 -->
+<g id="node1" class="node"><title>Node19</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-49.5 0,-79.5 103,-79.5 103,-49.5 0,-49.5"/>
 <text text-anchor="start" x="8" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Graphics::Utils</text>
 <text text-anchor="middle" x="51.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::drawPolygon</text>
 </g>
-<!-- Node22 -->
-<g id="node2" class="node"><title>Node22</title>
+<!-- Node20 -->
+<g id="node2" class="node"><title>Node20</title>
 <g id="a_node2"><a xlink:href="classobe_1_1_collision_1_1_polygonal_collider.html#a4db0bd43c8782ecab9c3d9eb012e3763" target="_top" xlink:title="Draws the Polygon on the screen. ">
 <polygon fill="white" stroke="black" points="142.5,-98.5 142.5,-128.5 266.5,-128.5 266.5,-98.5 142.5,-98.5"/>
 <text text-anchor="start" x="150.5" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Collision::Polygonal</text>
@@ -23,97 +23,97 @@
 </a>
 </g>
 </g>
-<!-- Node21&#45;&gt;Node22 -->
-<g id="edge1" class="edge"><title>Node21&#45;&gt;Node22</title>
+<!-- Node19&#45;&gt;Node20 -->
+<g id="edge1" class="edge"><title>Node19&#45;&gt;Node20</title>
 <path fill="none" stroke="midnightblue" d="M108.768,-82.7591C124.694,-87.9273 141.844,-93.4924 157.117,-98.4484"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="109.629,-79.359 99.0371,-79.6014 107.468,-86.0172 109.629,-79.359"/>
 </g>
-<!-- Node26 -->
-<g id="node6" class="node"><title>Node26</title>
-<g id="a_node6"><a xlink:href="classobe_1_1_graphics_1_1_level_sprite.html#a0c0764ee7934ad5c027f488151f7fb66" target="_top" xlink:title="Draws the handle used to scale the Sprite. ">
+<!-- Node21 -->
+<g id="node3" class="node"><title>Node21</title>
+<g id="a_node3"><a xlink:href="classobe_1_1_graphics_1_1_level_sprite.html#a0c0764ee7934ad5c027f488151f7fb66" target="_top" xlink:title="Draws the handle used to scale the Sprite. ">
 <polygon fill="white" stroke="black" points="139,-49.5 139,-79.5 270,-79.5 270,-49.5 139,-49.5"/>
 <text text-anchor="start" x="147" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Graphics::LevelSprite</text>
 <text text-anchor="middle" x="204.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::drawHandle</text>
 </a>
 </g>
 </g>
-<!-- Node21&#45;&gt;Node26 -->
-<g id="edge5" class="edge"><title>Node21&#45;&gt;Node26</title>
+<!-- Node19&#45;&gt;Node21 -->
+<g id="edge2" class="edge"><title>Node19&#45;&gt;Node21</title>
 <path fill="none" stroke="midnightblue" d="M113.343,-64.5C121.785,-64.5 130.482,-64.5 138.988,-64.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="113.201,-61.0001 103.201,-64.5 113.201,-68.0001 113.201,-61.0001"/>
 </g>
-<!-- Node28 -->
-<g id="node8" class="node"><title>Node28</title>
-<g id="a_node8"><a xlink:href="classobe_1_1_transform_1_1_rect.html#ab31686dda7b1cd4a64c04609fa355060" target="_top" xlink:title="Draws the Rect for debug purposes &lt;REMOVE&gt; ">
+<!-- Node25 -->
+<g id="node7" class="node"><title>Node25</title>
+<g id="a_node7"><a xlink:href="classobe_1_1_transform_1_1_rect.html#ab31686dda7b1cd4a64c04609fa355060" target="_top" xlink:title="Draws the Rect for debug purposes &lt;REMOVE&gt; ">
 <polygon fill="white" stroke="black" points="151,-0.5 151,-30.5 258,-30.5 258,-0.5 151,-0.5"/>
 <text text-anchor="start" x="159" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Transform::Rect</text>
 <text text-anchor="middle" x="204.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::display</text>
 </a>
 </g>
 </g>
-<!-- Node21&#45;&gt;Node28 -->
-<g id="edge8" class="edge"><title>Node21&#45;&gt;Node28</title>
+<!-- Node19&#45;&gt;Node25 -->
+<g id="edge6" class="edge"><title>Node19&#45;&gt;Node25</title>
 <path fill="none" stroke="midnightblue" d="M108.768,-46.2409C124.694,-41.0727 141.844,-35.5076 157.117,-30.5516"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="107.468,-42.9828 99.0371,-49.3986 109.629,-49.641 107.468,-42.9828"/>
 </g>
-<!-- Node23 -->
-<g id="node3" class="node"><title>Node23</title>
-<g id="a_node3"><a xlink:href="namespaceobe_1_1_bindings_1_1_collision_bindings.html#a48f290ff49a763532bdf5bc65070d2d2" target="_top" xlink:title="obe::Bindings::Collision\lBindings::LoadPolygonalCollider">
-<polygon fill="white" stroke="black" points="307,-98.5 307,-128.5 463,-128.5 463,-98.5 307,-98.5"/>
-<text text-anchor="start" x="315" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Bindings::Collision</text>
-<text text-anchor="middle" x="385" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">Bindings::LoadPolygonalCollider</text>
-</a>
-</g>
-</g>
-<!-- Node22&#45;&gt;Node23 -->
-<g id="edge2" class="edge"><title>Node22&#45;&gt;Node23</title>
-<path fill="none" stroke="midnightblue" d="M276.984,-113.5C286.755,-113.5 296.822,-113.5 306.691,-113.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="276.93,-110 266.93,-113.5 276.93,-117 276.93,-110"/>
-</g>
-<!-- Node24 -->
-<g id="node4" class="node"><title>Node24</title>
-<g id="a_node4"><a xlink:href="namespaceobe_1_1_bindings.html#a41d33207a0199f125c75a0f70a4a3ba8" target="_top" xlink:title="obe::Bindings::IndexBindings">
-<polygon fill="white" stroke="black" points="500,-79 500,-98 643,-98 643,-79 500,-79"/>
-<text text-anchor="middle" x="571.5" y="-86" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Bindings::IndexBindings</text>
-</a>
-</g>
-</g>
-<!-- Node23&#45;&gt;Node24 -->
-<g id="edge3" class="edge"><title>Node23&#45;&gt;Node24</title>
-<path fill="none" stroke="midnightblue" d="M473.283,-101.673C482.276,-100.455 491.331,-99.2275 500.107,-98.0384"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="472.615,-98.2315 463.176,-103.043 473.555,-105.168 472.615,-98.2315"/>
-</g>
-<!-- Node25 -->
-<g id="node5" class="node"><title>Node25</title>
-<g id="a_node5"><a xlink:href="_ob_engine_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" target="_top" xlink:title="main">
-<polygon fill="white" stroke="black" points="679,-79 679,-98 717,-98 717,-79 679,-79"/>
-<text text-anchor="middle" x="698" y="-86" font-family="Helvetica,sans-Serif" font-size="10.00">main</text>
-</a>
-</g>
-</g>
-<!-- Node24&#45;&gt;Node25 -->
-<g id="edge4" class="edge"><title>Node24&#45;&gt;Node25</title>
-<path fill="none" stroke="midnightblue" d="M653.161,-88.5C662.623,-88.5 671.462,-88.5 678.688,-88.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="653.117,-85.0001 643.117,-88.5 653.117,-92.0001 653.117,-85.0001"/>
-</g>
-<!-- Node27 -->
-<g id="node7" class="node"><title>Node27</title>
-<g id="a_node7"><a xlink:href="namespaceobe_1_1_bindings_1_1_graphics_bindings.html#a93b97087ade5cb2fd2956ea6a4bc10d3" target="_top" xlink:title="obe::Bindings::GraphicsBindings\l::LoadLevelSprite">
+<!-- Node22 -->
+<g id="node4" class="node"><title>Node22</title>
+<g id="a_node4"><a xlink:href="namespaceobe_1_1_bindings_1_1_graphics_bindings.html#a93b97087ade5cb2fd2956ea6a4bc10d3" target="_top" xlink:title="obe::Bindings::GraphicsBindings\l::LoadLevelSprite">
 <polygon fill="white" stroke="black" points="306,-49.5 306,-79.5 464,-79.5 464,-49.5 306,-49.5"/>
 <text text-anchor="start" x="314" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Bindings::GraphicsBindings</text>
 <text text-anchor="middle" x="385" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">::LoadLevelSprite</text>
 </a>
 </g>
 </g>
-<!-- Node26&#45;&gt;Node27 -->
-<g id="edge6" class="edge"><title>Node26&#45;&gt;Node27</title>
+<!-- Node21&#45;&gt;Node22 -->
+<g id="edge3" class="edge"><title>Node21&#45;&gt;Node22</title>
 <path fill="none" stroke="midnightblue" d="M280.36,-64.5C288.783,-64.5 297.381,-64.5 305.843,-64.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="280.195,-61.0001 270.195,-64.5 280.195,-68.0001 280.195,-61.0001"/>
 </g>
-<!-- Node27&#45;&gt;Node24 -->
-<g id="edge7" class="edge"><title>Node27&#45;&gt;Node24</title>
-<path fill="none" stroke="midnightblue" d="M474.245,-75.9791C482.797,-77.0915 491.395,-78.21 499.745,-79.296"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="474.613,-72.4974 464.245,-74.6782 473.71,-79.439 474.613,-72.4974"/>
+<!-- Node23 -->
+<g id="node5" class="node"><title>Node23</title>
+<g id="a_node5"><a xlink:href="namespaceobe_1_1_bindings.html#a41d33207a0199f125c75a0f70a4a3ba8" target="_top" xlink:title="To call when the engine starts, indexes all Lua bindings. ">
+<polygon fill="white" stroke="black" points="500,-30 500,-49 643,-49 643,-30 500,-30"/>
+<text text-anchor="middle" x="571.5" y="-37" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Bindings::IndexBindings</text>
+</a>
+</g>
+</g>
+<!-- Node22&#45;&gt;Node23 -->
+<g id="edge4" class="edge"><title>Node22&#45;&gt;Node23</title>
+<path fill="none" stroke="midnightblue" d="M474.413,-52.52C483.108,-51.3418 491.848,-50.1574 500.325,-49.0088"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="473.684,-49.0866 464.245,-53.8977 474.624,-56.0232 473.684,-49.0866"/>
+</g>
+<!-- Node24 -->
+<g id="node6" class="node"><title>Node24</title>
+<g id="a_node6"><a xlink:href="_ob_engine_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" target="_top" xlink:title="main">
+<polygon fill="white" stroke="black" points="679,-30 679,-49 717,-49 717,-30 679,-30"/>
+<text text-anchor="middle" x="698" y="-37" font-family="Helvetica,sans-Serif" font-size="10.00">main</text>
+</a>
+</g>
+</g>
+<!-- Node23&#45;&gt;Node24 -->
+<g id="edge5" class="edge"><title>Node23&#45;&gt;Node24</title>
+<path fill="none" stroke="midnightblue" d="M653.161,-39.5C662.623,-39.5 671.462,-39.5 678.688,-39.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="653.117,-36.0001 643.117,-39.5 653.117,-43.0001 653.117,-36.0001"/>
+</g>
+<!-- Node26 -->
+<g id="node8" class="node"><title>Node26</title>
+<g id="a_node8"><a xlink:href="namespaceobe_1_1_bindings_1_1_transform_bindings.html#a7d8def267651cd36bcbd088923f53600" target="_top" xlink:title="obe::Bindings::Transform\lBindings::LoadRect">
+<polygon fill="white" stroke="black" points="322.5,-0.5 322.5,-30.5 447.5,-30.5 447.5,-0.5 322.5,-0.5"/>
+<text text-anchor="start" x="330.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Bindings::Transform</text>
+<text text-anchor="middle" x="385" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Bindings::LoadRect</text>
+</a>
+</g>
+</g>
+<!-- Node25&#45;&gt;Node26 -->
+<g id="edge7" class="edge"><title>Node25&#45;&gt;Node26</title>
+<path fill="none" stroke="midnightblue" d="M268.232,-15.5C285.791,-15.5 304.856,-15.5 322.352,-15.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="268.09,-12.0001 258.09,-15.5 268.09,-19.0001 268.09,-12.0001"/>
+</g>
+<!-- Node26&#45;&gt;Node23 -->
+<g id="edge8" class="edge"><title>Node26&#45;&gt;Node23</title>
+<path fill="none" stroke="midnightblue" d="M457.668,-24.8226C471.553,-26.6288 486.093,-28.5203 499.942,-30.3218"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="458.06,-21.3443 447.692,-23.525 457.157,-28.2858 458.06,-21.3443"/>
 </g>
 </g>
 </svg>

@@ -1,11 +1,15 @@
 <map id="obe::Script::CoreHook::getPointer" name="obe::Script::CoreHook::getPointer">
-<area shape="rect" id="node2" href="$namespaceobe_1_1_editor.html#ab548dfe02b4323438bcf9caedd01d696" title="obe::Editor::buildRequires\lObjectTab" alt="" coords="204,5,375,47"/>
-<area shape="rect" id="node8" href="$namespaceobe_1_1_editor.html#a98df387085b87692b2458ada49d8c8a3" title="obe::Editor::addSpriteTo\lWorld" alt="" coords="208,71,371,112"/>
-<area shape="rect" id="node3" href="$namespaceobe_1_1_editor.html#a24423ada9fd467ae78ebf9d21e64db0b" title="obe::Editor::buildObjectTab" alt="" coords="427,13,605,39"/>
-<area shape="rect" id="node4" href="$namespaceobe_1_1_editor_1_1_g_u_i.html#ac209e33d93d1c6b719ed4c5206994ffc" title="obe::Editor::GUI::buildEditor\lObjectsMenu" alt="" coords="657,5,841,47"/>
-<area shape="rect" id="node5" href="$namespaceobe_1_1_editor.html#a9009207671e71dccb68a31ea2362e9ef" title="Starts the map edition. " alt="" coords="889,46,1028,73"/>
-<area shape="rect" id="node6" href="$namespaceobe_1_1_modes.html#a6a8b08eee511d4895c4da96d4ba223a6" title="Starts the development Menu where you can starts other menus from. " alt="" coords="1076,21,1253,47"/>
-<area shape="rect" id="node7" href="$_ob_engine_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1301,46,1352,73"/>
-<area shape="rect" id="node9" href="$namespaceobe_1_1_editor.html#a7700319c196fd0ad0c381df012809869" title="obe::Editor::loadSpriteFolder" alt="" coords="423,78,609,105"/>
-<area shape="rect" id="node10" href="$namespaceobe_1_1_editor_1_1_g_u_i.html#a5d2864942020d4f1bdfe7cf9e7d667bc" title="obe::Editor::GUI::buildEditor\lSpritesMenu" alt="" coords="657,71,841,112"/>
+<area shape="rect" id="node2" href="$namespaceobe_1_1_editor.html#a28799f83f6d2fc2c4fe20479e69fb720" title="Builds the RequiresPanel that will transmit Init parameters to the GameObject. " alt="" coords="415,28,585,69"/>
+<area shape="rect" id="node8" href="$namespaceobe_1_1_editor.html#af8c2ea92f8d718d85f019f9a27a91262" title="Builds an Object through Parameters. " alt="" coords="206,28,365,69"/>
+<area shape="rect" id="node9" href="$namespaceobe_1_1_editor.html#aaed66366b795d2792e154b8eff1241a1" title="Adds a Sprite to the Scene. " alt="" coords="204,93,367,134"/>
+<area shape="rect" id="node12" href="$classobe_1_1_script_1_1_game_object.html#aefaa50fc0a705186429bc4598ff942c4" title="Deletes the GameObject. " alt="" coords="417,152,583,193"/>
+<area shape="rect" id="node3" href="$namespaceobe_1_1_editor.html#a97c53e73ef3b12081baff754032596e9" title="Builds the Editor Object Tab. " alt="" coords="641,35,819,62"/>
+<area shape="rect" id="node4" href="$namespaceobe_1_1_editor_1_1_g_u_i.html#a1daea0dffefb4df9eb22870d7477bcf0" title="obe::Editor::GUI::buildEditor\lObjectsMenu" alt="" coords="878,28,1062,69"/>
+<area shape="rect" id="node5" href="$namespaceobe_1_1_editor.html#a9009207671e71dccb68a31ea2362e9ef" title="Starts the map edition. " alt="" coords="1113,79,1252,106"/>
+<area shape="rect" id="node6" href="$namespaceobe_1_1_modes.html#a6a8b08eee511d4895c4da96d4ba223a6" title="Starts the development Menu where you can starts other menus from. " alt="" coords="1300,58,1477,84"/>
+<area shape="rect" id="node7" href="$_ob_engine_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1525,108,1576,135"/>
+<area shape="rect" id="node10" href="$namespaceobe_1_1_editor.html#a8bca8475fc1405c827c5e114d11f4fb3" title="Loads the Sprite Folder. " alt="" coords="637,100,823,127"/>
+<area shape="rect" id="node11" href="$namespaceobe_1_1_editor_1_1_g_u_i.html#a7d562fc98b8e220d276d3703daf9040b" title="obe::Editor::GUI::buildEditor\lSpritesMenu" alt="" coords="878,93,1062,134"/>
+<area shape="rect" id="node13" href="$namespaceobe_1_1_bindings_1_1_script_bindings.html#a04868f6a764f6509ebe9359f40603aad" title="obe::Bindings::ScriptBindings\l::LoadGameObject" alt="" coords="633,152,827,193"/>
+<area shape="rect" id="node14" href="$namespaceobe_1_1_bindings.html#a41d33207a0199f125c75a0f70a4a3ba8" title="To call when the engine starts, indexes all Lua bindings. " alt="" coords="875,159,1065,186"/>
 </map>

@@ -1,37 +1,29 @@
 <map id="obe::Time::getTickSinceEpoch" name="obe::Time::getTickSinceEpoch">
-<area shape="rect" id="node2" href="$classobe_1_1_animation_1_1_animation.html#aae247711ecb729409e436e7a40448088" title="Updates the Animation (Updates the current AnimationGroup, executes the AnimationCode) ..." alt="" coords="263,231,437,272"/>
-<area shape="rect" id="node20" href="$classobe_1_1_animation_1_1_animation_group.html#a14d260dc9a73e32ed4de0e273040acb0" title="Increment index of the current texture to be displayed. &#160;If max index is reached and no more loops..." alt="" coords="263,103,437,144"/>
-<area shape="rect" id="node23" href="$classobe_1_1_animation_1_1_animation_group.html#a8db016eb6aead5f5cbbe0ed102b57f88" title="Decrement index of the current texture to be displayed. &#160;If index reach 0 and no more loops..." alt="" coords="263,37,437,79"/>
-<area shape="rect" id="node24" href="$classobe_1_1_debug_1_1_console_message.html#a39f2d698c04cd54006ecf0d97f428445" title="Creates a Message. " alt="" coords="252,547,448,588"/>
-<area shape="rect" id="node25" href="$classobe_1_1_time_1_1_f_p_s_counter.html#a566d3fc89be18bdca3d5c3bff744157c" title="Called when screen is refreshed. " alt="" coords="271,481,429,523"/>
-<area shape="rect" id="node27" href="$classobe_1_1_time_1_1_f_p_s_counter.html#a6ba9c8888c7ec299c525c1be0f7bde78" title="Called when game is updated. " alt="" coords="271,416,429,457"/>
-<area shape="rect" id="node28" href="$classobe_1_1_time_1_1_framerate_manager.html#a3f1277cf8e48a32240728104d01fec1a" title="Creates a new FramerateManager. " alt="" coords="252,612,448,653"/>
-<area shape="rect" id="node29" href="$classobe_1_1_time_1_1_framerate_manager.html#aa0385e4163ffdae9d70cce26e2b2ca51" title="Updates the FramerateManager (done everytime in the main loop) " alt="" coords="745,361,941,403"/>
-<area shape="rect" id="node31" href="$classobe_1_1_time_1_1_time_check.html#a98450c6170159bfda3c7430acd9bdc80" title="obe::Time::TimeCheck\l::TimeCheck" alt="" coords="274,677,426,719"/>
-<area shape="rect" id="node32" href="$classobe_1_1_time_1_1_time_check.html#a169dfcdb1c70bc89d1acaf64632fd639" title="obe::Time::TimeCheck\l::reset" alt="" coords="274,808,426,849"/>
-<area shape="rect" id="node36" href="$classobe_1_1_time_1_1_time_check.html#acc6937212751588fd056749114cf3bb3" title="obe::Time::TimeCheck\l::over" alt="" coords="274,743,426,784"/>
-<area shape="rect" id="node3" href="$classobe_1_1_animation_1_1_animator.html#ad84c05c7f7743a98d4e11ba674f07b6d" title="Updates the Animator and the currently played Animation. " alt="" coords="512,231,681,272"/>
-<area shape="rect" id="node19" href="$namespaceobe_1_1_bindings_1_1_animation_bindings.html#a07a26af93fe2b9216dbcb210661ddd4f" title="obe::Bindings::Animation\lBindings::LoadAnimation" alt="" coords="760,100,927,141"/>
-<area shape="rect" id="node4" href="$namespaceobe_1_1_bindings_1_1_animation_bindings.html#ab0eea6adc605854faee6aefa85a9ad10" title="obe::Bindings::Animation\lBindings::LoadAnimator" alt="" coords="760,165,927,207"/>
-<area shape="rect" id="node7" href="$classobe_1_1_system_1_1_cursor.html#a0cfe32fec562dea5a86478ff862f45fc" title="Sets the root path to the Cursor Animator. " alt="" coords="771,296,915,337"/>
-<area shape="rect" id="node17" href="$classobe_1_1_system_1_1_cursor.html#aa2612f2e00886a203572adb91dfa4f46" title="Updates the Cursor. " alt="" coords="772,231,915,272"/>
-<area shape="rect" id="node5" href="$namespaceobe_1_1_bindings.html#a41d33207a0199f125c75a0f70a4a3ba8" title="obe::Bindings::IndexBindings" alt="" coords="996,113,1187,139"/>
-<area shape="rect" id="node6" href="$_ob_engine_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="2316,317,2367,343"/>
-<area shape="rect" id="node8" href="$namespaceobe_1_1_bindings_1_1_system_bindings.html#a9161034c3e1e14e9e16d9c4ed6dc118f" title="obe::Bindings::SystemBindings\l::LoadSCursor" alt="" coords="989,220,1193,261"/>
-<area shape="rect" id="node9" href="$namespaceobe_1_1_editor.html#a9009207671e71dccb68a31ea2362e9ef" title="Starts the map edition. " alt="" coords="1022,469,1161,495"/>
-<area shape="rect" id="node11" href="$namespaceobe_1_1_script_1_1_core_lib.html#adc976091c779b7a03984d210b9285983" title="obe::Script::CoreLib\l::loadCursor" alt="" coords="1023,285,1160,327"/>
-<area shape="rect" id="node10" href="$namespaceobe_1_1_modes.html#a6a8b08eee511d4895c4da96d4ba223a6" title="Starts the development Menu where you can starts other menus from. " alt="" coords="2091,367,2268,394"/>
-<area shape="rect" id="node12" href="$namespaceobe_1_1_script.html#abdb81ec0976f1097cef6711415b8fac3" title="obe::Script::loadCoreLib" alt="" coords="1241,198,1403,225"/>
-<area shape="rect" id="node13" href="$namespaceobe_1_1_script.html#a4e6ee77032cf7f66544f9b08464a60b7" title="obe::Script::loadLib" alt="" coords="1452,257,1587,283"/>
-<area shape="rect" id="node16" href="$namespaceobe_1_1_script_1_1_core_lib.html#a07d6c11bbb082bc45bdba50d97965c00" title="obe::Script::CoreLib\l::loadCollision" alt="" coords="1451,191,1588,232"/>
-<area shape="rect" id="node14" href="$namespaceobe_1_1_modes.html#a1e38c0d9a2ca0230f0de79c298f53ab9" title="A mode that will start the Toolkit. " alt="" coords="1848,266,2043,293"/>
-<area shape="rect" id="node15" href="$namespaceobe_1_1_script.html#aad6ef67388e6d16eb01853f208da410f" title="obe::Script::loadBaseLib" alt="" coords="1636,215,1800,242"/>
-<area shape="rect" id="node18" href="$namespaceobe_1_1_modes.html#a5f4a1008892030350b06282b8dee1a89" title="Start the game by loading the boot.lua file in one of the MountedPaths. " alt="" coords="1243,334,1401,361"/>
-<area shape="rect" id="node21" href="$namespaceobe_1_1_bindings_1_1_animation_bindings.html#a3bd243c008ffc0791c613dd0903b5101" title="obe::Bindings::Animation\lBindings::LoadAnimationGroup" alt="" coords="496,71,697,112"/>
-<area shape="rect" id="node22" href="$namespaceobe_1_1_script_1_1_core_lib.html#ad3e8d674e535b8a534a3bed6f311d701" title="obe::Script::CoreLib\l::loadAnimation" alt="" coords="528,5,665,47"/>
-<area shape="rect" id="node26" href="$namespaceobe_1_1_bindings_1_1_time_bindings.html#a6479f47dae40309bdc479b0e60fdc758" title="obe::Bindings::TimeBindings\l::LoadFPSCounter" alt="" coords="503,479,690,520"/>
-<area shape="rect" id="node30" href="$namespaceobe_1_1_bindings_1_1_time_bindings.html#a99872b13f9283481e0b2a3dff87eb9a5" title="obe::Bindings::TimeBindings\l::LoadFramerateManager" alt="" coords="998,403,1185,444"/>
-<area shape="rect" id="node33" href="$classobe_1_1_time_1_1_time_check.html#aaecdfe048a694d55c6fc0e2bda99765c" title="obe::Time::TimeCheck\l::resetIfOver" alt="" coords="521,775,673,816"/>
-<area shape="rect" id="node34" href="$classobe_1_1_input_1_1_input_action.html#a146f4895528802dbc5c17b5adab035e4" title="Updates the KeyboardAction. " alt="" coords="767,775,919,816"/>
-<area shape="rect" id="node35" href="$namespaceobe_1_1_bindings_1_1_input_bindings.html#a3898ecb1ad8534de564c8153802dc789" title="obe::Bindings::InputBindings\l::LoadInputAction" alt="" coords="998,775,1185,816"/>
+<area shape="rect" id="node2" href="$classobe_1_1_animation_1_1_animation.html#aae247711ecb729409e436e7a40448088" title="Updates the Animation (Updates the current AnimationGroup, executes the AnimationCode) ..." alt="" coords="509,387,684,429"/>
+<area shape="rect" id="node8" href="$classobe_1_1_animation_1_1_animation_group.html#a14d260dc9a73e32ed4de0e273040acb0" title="Increment index of the current texture to be displayed. &#160;If max index is reached and no more loops..." alt="" coords="263,429,437,470"/>
+<area shape="rect" id="node10" href="$classobe_1_1_animation_1_1_animation_group.html#a8db016eb6aead5f5cbbe0ed102b57f88" title="Decrement index of the current texture to be displayed. &#160;If index reach 0 and no more loops..." alt="" coords="263,494,437,535"/>
+<area shape="rect" id="node11" href="$classobe_1_1_debug_1_1_console_message.html#a39f2d698c04cd54006ecf0d97f428445" title="Creates a Message. " alt="" coords="252,559,448,601"/>
+<area shape="rect" id="node12" href="$classobe_1_1_time_1_1_f_p_s_counter.html#a566d3fc89be18bdca3d5c3bff744157c" title="Called when screen is refreshed. " alt="" coords="764,86,923,127"/>
+<area shape="rect" id="node16" href="$classobe_1_1_time_1_1_f_p_s_counter.html#a6ba9c8888c7ec299c525c1be0f7bde78" title="Called when game is updated. " alt="" coords="764,151,923,193"/>
+<area shape="rect" id="node17" href="$classobe_1_1_time_1_1_framerate_manager.html#a3f1277cf8e48a32240728104d01fec1a" title="Creates a new FramerateManager. " alt="" coords="252,625,448,666"/>
+<area shape="rect" id="node18" href="$classobe_1_1_time_1_1_framerate_manager.html#aa0385e4163ffdae9d70cce26e2b2ca51" title="Updates the FramerateManager (done everytime in the main loop) " alt="" coords="745,21,941,62"/>
+<area shape="rect" id="node21" href="$classobe_1_1_time_1_1_time_check.html#a98450c6170159bfda3c7430acd9bdc80" title="Constructor of TimeCheck. " alt="" coords="274,690,426,731"/>
+<area shape="rect" id="node22" href="$classobe_1_1_time_1_1_time_check.html#a169dfcdb1c70bc89d1acaf64632fd639" title="obe::Time::TimeCheck\l::reset" alt="" coords="274,246,426,287"/>
+<area shape="rect" id="node26" href="$classobe_1_1_time_1_1_time_check.html#acc6937212751588fd056749114cf3bb3" title="Checks if the TimeCheck is elapsed. " alt="" coords="274,311,426,353"/>
+<area shape="rect" id="node28" href="$classobe_1_1_time_1_1_time_check.html#accefb84002e7796f31828c7b6f856489" title="Directly overs the TimeCheck so ::over() will return true. " alt="" coords="521,191,673,233"/>
+<area shape="rect" id="node3" href="$classobe_1_1_animation_1_1_animator.html#ad84c05c7f7743a98d4e11ba674f07b6d" title="Updates the Animator and the currently played Animation. " alt="" coords="759,334,928,375"/>
+<area shape="rect" id="node7" href="$namespaceobe_1_1_bindings_1_1_animation_bindings.html#a07a26af93fe2b9216dbcb210661ddd4f" title="obe::Bindings::Animation\lBindings::LoadAnimation" alt="" coords="760,399,927,441"/>
+<area shape="rect" id="node4" href="$namespaceobe_1_1_bindings_1_1_animation_bindings.html#ab0eea6adc605854faee6aefa85a9ad10" title="obe::Bindings::Animation\lBindings::LoadAnimator" alt="" coords="999,321,1166,362"/>
+<area shape="rect" id="node5" href="$namespaceobe_1_1_bindings.html#a41d33207a0199f125c75a0f70a4a3ba8" title="To call when the engine starts, indexes all Lua bindings. " alt="" coords="1224,249,1415,276"/>
+<area shape="rect" id="node6" href="$_ob_engine_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1463,97,1513,124"/>
+<area shape="rect" id="node9" href="$namespaceobe_1_1_bindings_1_1_animation_bindings.html#a3bd243c008ffc0791c613dd0903b5101" title="obe::Bindings::Animation\lBindings::LoadAnimationGroup" alt="" coords="496,458,697,499"/>
+<area shape="rect" id="node13" href="$namespaceobe_1_1_bindings_1_1_time_bindings.html#a6479f47dae40309bdc479b0e60fdc758" title="obe::Bindings::TimeBindings\l::LoadFPSCounter" alt="" coords="989,174,1176,215"/>
+<area shape="rect" id="node14" href="$namespaceobe_1_1_editor.html#a9009207671e71dccb68a31ea2362e9ef" title="Starts the map edition. " alt="" coords="1013,123,1152,149"/>
+<area shape="rect" id="node15" href="$namespaceobe_1_1_modes.html#a6a8b08eee511d4895c4da96d4ba223a6" title="Starts the development Menu where you can starts other menus from. " alt="" coords="1231,72,1408,99"/>
+<area shape="rect" id="node19" href="$namespaceobe_1_1_bindings_1_1_time_bindings.html#a99872b13f9283481e0b2a3dff87eb9a5" title="obe::Bindings::TimeBindings\l::LoadFramerateManager" alt="" coords="989,57,1176,98"/>
+<area shape="rect" id="node20" href="$namespaceobe_1_1_modes.html#a5f4a1008892030350b06282b8dee1a89" title="Start the game by loading the boot.lua file in one of the MountedPaths. " alt="" coords="1003,5,1162,32"/>
+<area shape="rect" id="node23" href="$classobe_1_1_time_1_1_time_check.html#aaecdfe048a694d55c6fc0e2bda99765c" title="Resets the TimeCheck if elapsed. " alt="" coords="521,257,673,298"/>
+<area shape="rect" id="node24" href="$classobe_1_1_input_1_1_input_action.html#a146f4895528802dbc5c17b5adab035e4" title="Updates the KeyboardAction. " alt="" coords="767,217,919,258"/>
+<area shape="rect" id="node25" href="$namespaceobe_1_1_bindings_1_1_input_bindings.html#a3898ecb1ad8534de564c8153802dc789" title="obe::Bindings::InputBindings\l::LoadInputAction" alt="" coords="989,242,1176,283"/>
+<area shape="rect" id="node27" href="$classobe_1_1_input_1_1_input_action.html#a6b73e640fa0d70128d4ca411095f5e3d" title="Check if the InputAction is enabled. " alt="" coords="521,322,673,363"/>
 </map>

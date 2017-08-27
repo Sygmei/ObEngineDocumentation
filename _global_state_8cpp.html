@@ -66,16 +66,21 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">GlobalState.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="_global_state_8hpp_source.html">Script/GlobalState.hpp</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="_bindings_8hpp_source.html">Bindings/Bindings.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_global_state_8hpp_source.html">Script/GlobalState.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_loaders_8hpp_source.html">System/Loaders.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_path_8hpp_source.html">System/Path.hpp</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for GlobalState.cpp:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="_global_state_8cpp__incl.svg" width="190" height="202"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="_global_state_8cpp__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -86,6 +91,19 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespaceobe_1_1_script"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html">obe::Script</a></td></tr>
 <tr class="memdesc:namespaceobe_1_1_script"><td class="mdescLeft">&#160;</td><td class="mdescRight">Classes and Functions about Scripting support. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:aee6606178e25a578119fd378d21ca29f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#aee6606178e25a578119fd378d21ca29f">obe::Script::InitScriptEngine</a> ()</td></tr>
+<tr class="memdesc:aee6606178e25a578119fd378d21ca29f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the Lua VM.  <a href="namespaceobe_1_1_script.html#aee6606178e25a578119fd378d21ca29f">More...</a><br /></td></tr>
+<tr class="separator:aee6606178e25a578119fd378d21ca29f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff4cb801e5fb7c212fb1b44dfd282f94"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#aff4cb801e5fb7c212fb1b44dfd282f94">obe::Script::createNewEnvironment</a> ()</td></tr>
+<tr class="memdesc:aff4cb801e5fb7c212fb1b44dfd282f94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new Lua environment and return the index (id) of the new environment.  <a href="namespaceobe_1_1_script.html#aff4cb801e5fb7c212fb1b44dfd282f94">More...</a><br /></td></tr>
+<tr class="separator:aff4cb801e5fb7c212fb1b44dfd282f94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ad3c8f9d399388c43a953d7a570ce76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#a1ad3c8f9d399388c43a953d7a570ce76">obe::Script::executeFile</a> (unsigned envIndex, const std::string &amp;file)</td></tr>
+<tr class="separator:a1ad3c8f9d399388c43a953d7a570ce76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade068b5fe150ea37d7e3f91f2ada3118"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#ade068b5fe150ea37d7e3f91f2ada3118">obe::Script::executeString</a> (unsigned envIndex, const std::string &amp;string)</td></tr>
+<tr class="separator:ade068b5fe150ea37d7e3f91f2ada3118"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

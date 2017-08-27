@@ -51,20 +51,20 @@ if (edges && edges.length) {
 <script type="text/javascript">
 var viewWidth = 583;
 var viewHeight = 39;
-var sectionId = 'dynsection-15';
+var sectionId = 'dynsection-14';
 </script>
 <script xlink:href="svgpan.js"/>
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>obe::Collision::PolygonalCollider::doesHaveAnyTag</title>
-<!-- Node98 -->
-<g id="node1" class="node"><title>Node98</title>
+<!-- Node58 -->
+<g id="node1" class="node"><title>Node58</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-0.5 0,-30.5 130,-30.5 130,-0.5 0,-0.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Collision::Polygonal</text>
 <text text-anchor="middle" x="65" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Collider::doesHaveAnyTag</text>
 </g>
-<!-- Node99 -->
-<g id="node2" class="node"><title>Node99</title>
+<!-- Node59 -->
+<g id="node2" class="node"><title>Node59</title>
 <g id="a_node2"><a xlink:href="namespaceobe_1_1_bindings_1_1_collision_bindings.html#a48f290ff49a763532bdf5bc65070d2d2" target="_top" xlink:title="obe::Bindings::Collision\lBindings::LoadPolygonalCollider">
 <polygon fill="none" stroke="black" points="166,-0.5 166,-30.5 322,-30.5 322,-0.5 166,-0.5"/>
 <text text-anchor="start" x="174" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Bindings::Collision</text>
@@ -72,34 +72,34 @@ var sectionId = 'dynsection-15';
 </a>
 </g>
 </g>
-<!-- Node98&#45;&gt;Node99 -->
-<g id="edge1" class="edge"><title>Node98&#45;&gt;Node99</title>
+<!-- Node58&#45;&gt;Node59 -->
+<g id="edge1" class="edge"><title>Node58&#45;&gt;Node59</title>
 <path fill="none" stroke="midnightblue" d="M140.319,-15.5C148.744,-15.5 157.345,-15.5 165.805,-15.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="140.151,-12.0001 130.151,-15.5 140.151,-19.0001 140.151,-12.0001"/>
 </g>
-<!-- Node100 -->
-<g id="node3" class="node"><title>Node100</title>
-<g id="a_node3"><a xlink:href="namespaceobe_1_1_bindings.html#a41d33207a0199f125c75a0f70a4a3ba8" target="_top" xlink:title="obe::Bindings::IndexBindings">
+<!-- Node60 -->
+<g id="node3" class="node"><title>Node60</title>
+<g id="a_node3"><a xlink:href="namespaceobe_1_1_bindings.html#a41d33207a0199f125c75a0f70a4a3ba8" target="_top" xlink:title="To call when the engine starts, indexes all Lua bindings. ">
 <polygon fill="none" stroke="black" points="358,-6 358,-25 501,-25 501,-6 358,-6"/>
 <text text-anchor="middle" x="429.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Bindings::IndexBindings</text>
 </a>
 </g>
 </g>
-<!-- Node99&#45;&gt;Node100 -->
-<g id="edge2" class="edge"><title>Node99&#45;&gt;Node100</title>
+<!-- Node59&#45;&gt;Node60 -->
+<g id="edge2" class="edge"><title>Node59&#45;&gt;Node60</title>
 <path fill="none" stroke="midnightblue" d="M332.098,-15.5C340.718,-15.5 349.392,-15.5 357.816,-15.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="332.023,-12.0001 322.023,-15.5 332.023,-19.0001 332.023,-12.0001"/>
 </g>
-<!-- Node101 -->
-<g id="node4" class="node"><title>Node101</title>
+<!-- Node61 -->
+<g id="node4" class="node"><title>Node61</title>
 <g id="a_node4"><a xlink:href="_ob_engine_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" target="_top" xlink:title="main">
 <polygon fill="none" stroke="black" points="537,-6 537,-25 575,-25 575,-6 537,-6"/>
 <text text-anchor="middle" x="556" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">main</text>
 </a>
 </g>
 </g>
-<!-- Node100&#45;&gt;Node101 -->
-<g id="edge3" class="edge"><title>Node100&#45;&gt;Node101</title>
+<!-- Node60&#45;&gt;Node61 -->
+<g id="edge3" class="edge"><title>Node60&#45;&gt;Node61</title>
 <path fill="none" stroke="midnightblue" d="M511.161,-15.5C520.623,-15.5 529.462,-15.5 536.688,-15.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="511.117,-12.0001 501.117,-15.5 511.117,-19.0001 511.117,-12.0001"/>
 </g>

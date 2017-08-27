@@ -51,34 +51,34 @@ if (edges && edges.length) {
 <script type="text/javascript">
 var viewWidth = 596;
 var viewHeight = 88;
-var sectionId = 'dynsection-13';
+var sectionId = 'dynsection-10';
 </script>
 <script xlink:href="svgpan.js"/>
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>obe::Triggers::Trigger::pushParameter</title>
-<!-- Node194 -->
-<g id="node1" class="node"><title>Node194</title>
+<!-- Node259 -->
+<g id="node1" class="node"><title>Node259</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-24.5 0,-54.5 108,-54.5 108,-24.5 0,-24.5"/>
 <text text-anchor="start" x="8" y="-42.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Triggers::Trigger</text>
 <text text-anchor="middle" x="54" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">::pushParameter</text>
 </g>
-<!-- Node195 -->
-<g id="node2" class="node"><title>Node195</title>
-<g id="a_node2"><a xlink:href="classobe_1_1_triggers_1_1_trigger.html#ad83456f23a1e90dc2b7f816628c93e36" target="_top" xlink:title="obe::Triggers::Trigger\l::getTriggerLuaTableName">
+<!-- Node260 -->
+<g id="node2" class="node"><title>Node260</title>
+<g id="a_node2"><a xlink:href="classobe_1_1_triggers_1_1_trigger.html#ad83456f23a1e90dc2b7f816628c93e36" target="_top" xlink:title="Gets the Lua Table path used to store Trigger Parameters. ">
 <polygon fill="none" stroke="black" points="144,-24.5 144,-54.5 274,-54.5 274,-24.5 144,-24.5"/>
 <text text-anchor="start" x="152" y="-42.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Triggers::Trigger</text>
 <text text-anchor="middle" x="209" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">::getTriggerLuaTableName</text>
 </a>
 </g>
 </g>
-<!-- Node194&#45;&gt;Node195 -->
-<g id="edge1" class="edge"><title>Node194&#45;&gt;Node195</title>
+<!-- Node259&#45;&gt;Node260 -->
+<g id="edge1" class="edge"><title>Node259&#45;&gt;Node260</title>
 <path fill="none" stroke="midnightblue" d="M108.083,-39.5C116.395,-39.5 125.116,-39.5 133.797,-39.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="133.944,-43.0001 143.944,-39.5 133.944,-36.0001 133.944,-43.0001"/>
 </g>
-<!-- Node196 -->
-<g id="node3" class="node"><title>Node196</title>
+<!-- Node261 -->
+<g id="node3" class="node"><title>Node261</title>
 <g id="a_node3"><a xlink:href="classobe_1_1_triggers_1_1_trigger.html#a5649d751353ffb6fd27051f7f21eee6e" target="_top" xlink:title="Get the name of the namespace of the parent (TriggerGroup) of the Trigger. ">
 <polygon fill="none" stroke="black" points="310,-49.5 310,-79.5 418,-79.5 418,-49.5 310,-49.5"/>
 <text text-anchor="start" x="318" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Triggers::Trigger</text>
@@ -86,13 +86,13 @@ var sectionId = 'dynsection-13';
 </a>
 </g>
 </g>
-<!-- Node195&#45;&gt;Node196 -->
-<g id="edge2" class="edge"><title>Node195&#45;&gt;Node196</title>
+<!-- Node260&#45;&gt;Node261 -->
+<g id="edge2" class="edge"><title>Node260&#45;&gt;Node261</title>
 <path fill="none" stroke="midnightblue" d="M274.442,-50.0298C282.803,-51.3959 291.361,-52.7943 299.703,-54.1573"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="299.31,-57.6394 309.743,-55.7979 300.438,-50.731 299.31,-57.6394"/>
 </g>
-<!-- Node198 -->
-<g id="node5" class="node"><title>Node198</title>
+<!-- Node263 -->
+<g id="node5" class="node"><title>Node263</title>
 <g id="a_node5"><a xlink:href="classobe_1_1_triggers_1_1_trigger.html#ab0eb4ecf6b771aadfc966a10cd620160" target="_top" xlink:title="Get the name of the TriggerGroup which is the parent of the Trigger. ">
 <polygon fill="none" stroke="black" points="310,-0.5 310,-30.5 418,-30.5 418,-0.5 310,-0.5"/>
 <text text-anchor="start" x="318" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Triggers::Trigger</text>
@@ -100,13 +100,13 @@ var sectionId = 'dynsection-13';
 </a>
 </g>
 </g>
-<!-- Node195&#45;&gt;Node198 -->
-<g id="edge4" class="edge"><title>Node195&#45;&gt;Node198</title>
+<!-- Node260&#45;&gt;Node263 -->
+<g id="edge4" class="edge"><title>Node260&#45;&gt;Node263</title>
 <path fill="none" stroke="midnightblue" d="M274.442,-29.3914C282.803,-28.0799 291.361,-26.7375 299.703,-25.429"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="300.406,-28.8615 309.743,-23.854 299.321,-21.9461 300.406,-28.8615"/>
 </g>
-<!-- Node197 -->
-<g id="node4" class="node"><title>Node197</title>
+<!-- Node262 -->
+<g id="node4" class="node"><title>Node262</title>
 <g id="a_node4"><a xlink:href="classobe_1_1_triggers_1_1_trigger_group.html#a4444bdd3126c3cee2c09f5f20f799256" target="_top" xlink:title="Get the name of the namespace the Trigger is in. ">
 <polygon fill="none" stroke="black" points="454,-49.5 454,-79.5 588,-79.5 588,-49.5 454,-49.5"/>
 <text text-anchor="start" x="462" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Triggers::TriggerGroup</text>
@@ -114,13 +114,13 @@ var sectionId = 'dynsection-13';
 </a>
 </g>
 </g>
-<!-- Node196&#45;&gt;Node197 -->
-<g id="edge3" class="edge"><title>Node196&#45;&gt;Node197</title>
+<!-- Node261&#45;&gt;Node262 -->
+<g id="edge3" class="edge"><title>Node261&#45;&gt;Node262</title>
 <path fill="none" stroke="midnightblue" d="M418.342,-64.5C426.587,-64.5 435.238,-64.5 443.866,-64.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="443.959,-68.0001 453.959,-64.5 443.959,-61.0001 443.959,-68.0001"/>
 </g>
-<!-- Node199 -->
-<g id="node6" class="node"><title>Node199</title>
+<!-- Node264 -->
+<g id="node6" class="node"><title>Node264</title>
 <g id="a_node6"><a xlink:href="classobe_1_1_triggers_1_1_trigger_group.html#afd615ae94ece6e7d978aab0ae9de80f8" target="_top" xlink:title="Get the name of the TriggerGroup. ">
 <polygon fill="none" stroke="black" points="454,-0.5 454,-30.5 588,-30.5 588,-0.5 454,-0.5"/>
 <text text-anchor="start" x="462" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Triggers::TriggerGroup</text>
@@ -128,8 +128,8 @@ var sectionId = 'dynsection-13';
 </a>
 </g>
 </g>
-<!-- Node198&#45;&gt;Node199 -->
-<g id="edge5" class="edge"><title>Node198&#45;&gt;Node199</title>
+<!-- Node263&#45;&gt;Node264 -->
+<g id="edge5" class="edge"><title>Node263&#45;&gt;Node264</title>
 <path fill="none" stroke="midnightblue" d="M418.342,-15.5C426.587,-15.5 435.238,-15.5 443.866,-15.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="443.959,-19.0001 453.959,-15.5 443.959,-12.0001 443.959,-19.0001"/>
 </g>

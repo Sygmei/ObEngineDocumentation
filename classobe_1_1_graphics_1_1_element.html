@@ -74,21 +74,28 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>Basic class for <a class="el" href="classobe_1_1_graphics_1_1_canvas_element.html" title="A CanvasElement (Base class for all real CanvasElements) ">CanvasElement</a>.  
+ <a href="classobe_1_1_graphics_1_1_element.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_canvas_8hpp_source.html">Canvas.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for obe::Graphics::Element:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_graphics_1_1_element__inherit__graph.svg" width="100%" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_graphics_1_1_element__inherit__graph.svg" width="100%" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad149e881d1d5c07672d93cfc2a461f66"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_element.html#ad149e881d1d5c07672d93cfc2a461f66">Element</a> (const std::string &amp;id)</td></tr>
+<tr class="memdesc:ad149e881d1d5c07672d93cfc2a461f66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new <a class="el" href="classobe_1_1_graphics_1_1_canvas.html" title="A Canvas where you can draw CanvasElements on. ">Canvas</a> <a class="el" href="classobe_1_1_graphics_1_1_element.html" title="Basic class for CanvasElement. ">Element</a>.  <a href="#ad149e881d1d5c07672d93cfc2a461f66">More...</a><br /></td></tr>
 <tr class="separator:ad149e881d1d5c07672d93cfc2a461f66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ef15fcffb5c3fdc5e5ab99e3b5db1d5"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_element.html#a7ef15fcffb5c3fdc5e5ab99e3b5db1d5">~Element</a> ()=default</td></tr>
+<tr class="memdesc:a7ef15fcffb5c3fdc5e5ab99e3b5db1d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default destructor of <a class="el" href="classobe_1_1_graphics_1_1_element.html" title="Basic class for CanvasElement. ">Element</a>.  <a href="#a7ef15fcffb5c3fdc5e5ab99e3b5db1d5">More...</a><br /></td></tr>
 <tr class="separator:a7ef15fcffb5c3fdc5e5ab99e3b5db1d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe5f24dae0167fb570b27a71afa15757"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_element.html#afe5f24dae0167fb570b27a71afa15757">update</a> (kaguya::State *state)=0</td></tr>
-<tr class="separator:afe5f24dae0167fb570b27a71afa15757"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac01499abba6d03edb76fecc12d81f7a4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_element.html#ac01499abba6d03edb76fecc12d81f7a4">update</a> ()=0</td></tr>
+<tr class="memdesc:ac01499abba6d03edb76fecc12d81f7a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract update method.  <a href="#ac01499abba6d03edb76fecc12d81f7a4">More...</a><br /></td></tr>
+<tr class="separator:ac01499abba6d03edb76fecc12d81f7a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -97,7 +104,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a6ba32f130f27bf6c2335da316d268c18"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_element.html#a6ba32f130f27bf6c2335da316d268c18">m_id</a></td></tr>
 <tr class="separator:a6ba32f130f27bf6c2335da316d268c18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Basic class for <a class="el" href="classobe_1_1_graphics_1_1_canvas_element.html" title="A CanvasElement (Base class for all real CanvasElements) ">CanvasElement</a>. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad149e881d1d5c07672d93cfc2a461f66"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad149e881d1d5c07672d93cfc2a461f66">&#9670;&nbsp;</a></span>Element()</h2>
 
@@ -121,6 +130,14 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Creates a new <a class="el" href="classobe_1_1_graphics_1_1_canvas.html" title="A Canvas where you can draw CanvasElements on. ">Canvas</a> <a class="el" href="classobe_1_1_graphics_1_1_element.html" title="Basic class for CanvasElement. ">Element</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>Id of the new <a class="el" href="classobe_1_1_graphics_1_1_element.html" title="Basic class for CanvasElement. ">Element</a> </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -147,11 +164,13 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Default destructor of <a class="el" href="classobe_1_1_graphics_1_1_element.html" title="Basic class for CanvasElement. ">Element</a>. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="afe5f24dae0167fb570b27a71afa15757"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe5f24dae0167fb570b27a71afa15757">&#9670;&nbsp;</a></span>update()</h2>
+<a id="ac01499abba6d03edb76fecc12d81f7a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac01499abba6d03edb76fecc12d81f7a4">&#9670;&nbsp;</a></span>update()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -162,8 +181,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">virtual void obe::Graphics::Element::update </td>
           <td>(</td>
-          <td class="paramtype">kaguya::State *&#160;</td>
-          <td class="paramname"><em>state</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -174,7 +192,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classobe_1_1_graphics_1_1_circle.html#aa3497a8bbd2ba640495d06314b860cc6">obe::Graphics::Circle</a>, <a class="el" href="classobe_1_1_graphics_1_1_text.html#aa61f790a2d8e651a23ee4026c64812c1">obe::Graphics::Text</a>, <a class="el" href="classobe_1_1_graphics_1_1_rectangle.html#ac99112b02371c45de71a3c39793cd87c">obe::Graphics::Rectangle</a>, <a class="el" href="classobe_1_1_graphics_1_1_line.html#a8c56e6c5e279ec18bcecbf9638bc3833">obe::Graphics::Line</a>, <a class="el" href="classobe_1_1_graphics_1_1_canvas_element.html#a410f7b984fb4ccff1d847471267e7f7b">obe::Graphics::CanvasElement</a>, <a class="el" href="classobe_1_1_graphics_1_1_transformable.html#abca614507b3a96689ad8ad76d7d1e11e">obe::Graphics::Transformable</a>, <a class="el" href="classobe_1_1_graphics_1_1_colorable.html#a83e2011dfde7d663a0c0f61386e65336">obe::Graphics::Colorable</a>, <a class="el" href="classobe_1_1_graphics_1_1_drawable.html#a12a2977ef07f89f6645fb79b09026862">obe::Graphics::Drawable</a>, and <a class="el" href="classobe_1_1_graphics_1_1_configurable.html#a53b5a81892b395c0326625dca2aa2d49">obe::Graphics::Configurable</a>.</p>
+<p>Abstract update method. </p>
+
+<p>Implemented in <a class="el" href="classobe_1_1_graphics_1_1_circle.html#aaa1b084224da684ca7b11068a193c766">obe::Graphics::Circle</a>, <a class="el" href="classobe_1_1_graphics_1_1_text.html#a77ea8e3bb1e9cefb0dee83bccf949d81">obe::Graphics::Text</a>, <a class="el" href="classobe_1_1_graphics_1_1_rectangle.html#ae93141b4d30aa55c7d7c3e7e23461610">obe::Graphics::Rectangle</a>, <a class="el" href="classobe_1_1_graphics_1_1_line.html#a9be202efb19c11a5e23c408b76ab1ded">obe::Graphics::Line</a>, <a class="el" href="classobe_1_1_graphics_1_1_canvas_element.html#a4a1b463a388a056ca8753a43180adea5">obe::Graphics::CanvasElement</a>, <a class="el" href="classobe_1_1_graphics_1_1_transformable.html#a4da9d060aed6eb5ba34ce40684c0c1ed">obe::Graphics::Transformable</a>, <a class="el" href="classobe_1_1_graphics_1_1_colorable.html#a62aff2530f2f1de1597868e78d6fbb22">obe::Graphics::Colorable</a>, <a class="el" href="classobe_1_1_graphics_1_1_drawable.html#a2a98ee356ed7c1f6bee08f8fea54fa9b">obe::Graphics::Drawable</a>, and <a class="el" href="classobe_1_1_graphics_1_1_configurable.html#a8f34bef7b9e5533bb3b15e3e54199e72">obe::Graphics::Configurable</a>.</p>
 
 </div>
 </div>

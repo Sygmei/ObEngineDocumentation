@@ -1,0 +1,51 @@
+<map id="obe::Bindings::SceneBindings::LoadScene" name="obe::Bindings::SceneBindings::LoadScene">
+<area shape="rect" id="node2" href="$classobe_1_1_scene_1_1_scene.html#a9a0ff2e3bd9fa05636d431054e9a7f14" title="Removes all elements in the Scene. " alt="" coords="276,5,417,47"/>
+<area shape="rect" id="node3" href="$classobe_1_1_scene_1_1_scene.html#a0f671e2bd6abe5509a38d647394b3080" title="Creates a new Collider. " alt="" coords="276,71,417,112"/>
+<area shape="rect" id="node4" href="$classobe_1_1_scene_1_1_scene.html#ac868d2b68177aa7aa584bf6af81823d9" title="Creates a new LevelSprite. " alt="" coords="276,188,417,229"/>
+<area shape="rect" id="node5" href="$classobe_1_1_scene_1_1_scene.html#aa138ef5c7a9f869e4e8b5464a49918d5" title="Reorganize all the LevelSprite (by Layer and z&#45;depth) " alt="" coords="519,129,661,171"/>
+<area shape="rect" id="node6" href="$classobe_1_1_scene_1_1_scene.html#a0f7a2b5789b697ca7023bc62c770ff90" title="Display all elements of the Scene of target. " alt="" coords="276,253,417,295"/>
+<area shape="rect" id="node9" href="$classobe_1_1_scene_1_1_scene.html#aa74d9fe8748a8c28cf1b5d65e8fbc2d2" title="Check the existence of the Collider with given Id in the Scene. " alt="" coords="276,619,417,660"/>
+<area shape="rect" id="node10" href="$classobe_1_1_scene_1_1_scene.html#a30080d51979ce7f0a8a1d693bb30352e" title="Check if a GameObject exists in the Scene. " alt="" coords="267,684,427,725"/>
+<area shape="rect" id="node11" href="$classobe_1_1_scene_1_1_scene.html#adbadedd41641b7dbcdc00682395f6925" title="Check if a LevelSprite exists in the Scene. " alt="" coords="271,749,422,791"/>
+<area shape="rect" id="node12" href="$classobe_1_1_scene_1_1_scene.html#a7af64c188e60cc5b6588223a0118625c" title="Dumps all elements of the Scene in a vili tree. " alt="" coords="260,450,433,477"/>
+<area shape="rect" id="node22" href="$classobe_1_1_scene_1_1_scene.html#aff9e21ec2c008cc85b8cb3cbbfb1b1e4" title="Draws some elements of the Colliders. " alt="" coords="276,815,417,856"/>
+<area shape="rect" id="node23" href="$classobe_1_1_scene_1_1_scene.html#a4fbcca4ca42856c60f30b9c233ad0446" title="Get all the pointers of the Colliders in the Scene. " alt="" coords="276,880,417,921"/>
+<area shape="rect" id="node24" href="$classobe_1_1_scene_1_1_scene.html#aafba69cfeec4439241860654b04253ea" title="Get all the GameObjects present in the Scene. " alt="" coords="276,945,417,987"/>
+<area shape="rect" id="node25" href="$classobe_1_1_scene_1_1_scene.html#a19910f310756dc863074a6668c3fd220" title="Get all the LevelSprites present in the Scene. " alt="" coords="276,1011,417,1052"/>
+<area shape="rect" id="node26" href="$classobe_1_1_scene_1_1_scene.html#aa98b2e2251930f855447c42cb25440ba" title="Folder where was the map loaded with loadFromFile method. " alt="" coords="276,1076,417,1117"/>
+<area shape="rect" id="node27" href="$classobe_1_1_scene_1_1_scene.html#a8e846af715af6b26fa13b8429d16f208" title="obe::Scene::Scene::\lgetCamera" alt="" coords="276,1141,417,1183"/>
+<area shape="rect" id="node28" href="$classobe_1_1_scene_1_1_scene.html#ad4253061bc0a5311d24e67e782188c4b" title="Get how many Colliders are present in the Scene. " alt="" coords="276,1207,417,1248"/>
+<area shape="rect" id="node29" href="$classobe_1_1_scene_1_1_scene.html#a0a5360e26464d98ff79f818cb9787712" title="Get the Collider using the centroid Position. " alt="" coords="249,319,444,360"/>
+<area shape="rect" id="node30" href="$classobe_1_1_scene_1_1_scene.html#a3f23b4795a2cdc3540c55f79c09788c4" title="Get the Collider with the given Id (Raises an exception if not found) " alt="" coords="276,1272,417,1313"/>
+<area shape="rect" id="node31" href="$classobe_1_1_scene_1_1_scene.html#ad5f38d73ee06c61d4f11612f48e240cd" title="Get the first Collider found with a point on the given position. " alt="" coords="259,384,435,425"/>
+<area shape="rect" id="node32" href="$classobe_1_1_scene_1_1_scene.html#a6f36a3b3cc389504a75c1b327e6045de" title="Get how many GameObjects are present in the Scene. " alt="" coords="267,1337,426,1379"/>
+<area shape="rect" id="node33" href="$classobe_1_1_scene_1_1_scene.html#a9bd95fb2dd9381d95bd490890dc688e3" title="Get the name of the level. " alt="" coords="276,1403,417,1444"/>
+<area shape="rect" id="node34" href="$classobe_1_1_scene_1_1_scene.html#a30fa749216d62e9a346ffee79ba5aa13" title="Get how many LevelSprites are present in the Scene. " alt="" coords="273,1468,421,1509"/>
+<area shape="rect" id="node35" href="$classobe_1_1_scene_1_1_scene.html#ad39b6762005574c24f0e54ba010a4ee1" title="Get a LevelSprite by Id (Raises an exception if not found) " alt="" coords="276,1533,417,1575"/>
+<area shape="rect" id="node36" href="$classobe_1_1_scene_1_1_scene.html#a2d4ce9efc3d2145ae05f8b959e73b391" title="Get the first found LevelSprite with the BoundingRect including the given position. " alt="" coords="263,501,430,543"/>
+<area shape="rect" id="node37" href="$classobe_1_1_scene_1_1_scene.html#a3c3beeb3d7737bda83b3c214bc80dd93" title="Get all the LevelSprites present in the Scene in the given layer. " alt="" coords="511,845,669,887"/>
+<area shape="rect" id="node38" href="$classobe_1_1_scene_1_1_scene.html#a309bc4677e6496b3c53d9d68c131f7cc" title="obe::Scene::Scene::\lisCameraLocked" alt="" coords="276,1599,417,1640"/>
+<area shape="rect" id="node39" href="$classobe_1_1_scene_1_1_scene.html#a4095cb168b6394bc916c271c08f22f5c" title="Same that loadFromFile excepts the map will load at the next update. " alt="" coords="269,1664,425,1705"/>
+<area shape="rect" id="node40" href="$classobe_1_1_scene_1_1_scene.html#a245d58c1583675d779ecd0f11c5c898b" title="Removes the Collider with the given Id from the Scene. " alt="" coords="276,1729,417,1771"/>
+<area shape="rect" id="node41" href="$classobe_1_1_scene_1_1_scene.html#a02a05700bbf187602104cd973052ae7d" title="Removes a GameObject from the Scene. " alt="" coords="265,1795,428,1836"/>
+<area shape="rect" id="node42" href="$classobe_1_1_scene_1_1_scene.html#a42a57ced855391468859b3b6fdc7ddde" title="Removes the LevelSprite with the given Id. " alt="" coords="271,1860,423,1901"/>
+<area shape="rect" id="node43" href="$classobe_1_1_scene_1_1_scene.html#a39cfc59790a1aed24796887dc18955f8" title="obe::Scene::Scene::\lsetCameraLock" alt="" coords="276,1925,417,1967"/>
+<area shape="rect" id="node44" href="$classobe_1_1_scene_1_1_scene.html#a00b6df76c8b8ad45b280b56422f5564c" title="Sets the name of the level. " alt="" coords="276,1991,417,2032"/>
+<area shape="rect" id="node45" href="$classobe_1_1_scene_1_1_scene.html#a1cab47932ee98e92a6878d68f702e25a" title="Enables or disables the Scene update. " alt="" coords="276,2056,417,2097"/>
+<area shape="rect" id="node46" href="$classobe_1_1_scene_1_1_scene.html#a99bd0a38bd93c1ca105c34bb04776f47" title="Updates all elements in the Scene. " alt="" coords="276,2121,417,2163"/>
+<area shape="rect" id="node47" href="$classobe_1_1_scene_1_1_scene.html#aa76b89c6c9f33af7689097272976f7b8" title="Get a GameObject by Id (Raises an exception if not found) " alt="" coords="276,2187,417,2228"/>
+<area shape="rect" id="node48" href="$classobe_1_1_script_1_1_game_object.html#a3421e29d6fcefbf8e2db92414e29a178" title="Access the exposition table of the GameObject. " alt="" coords="263,2252,430,2293"/>
+<area shape="rect" id="node49" href="$classobe_1_1_scene_1_1_scene.html#a4cd121904533663534f9bd7cbedf6913" title="Creates a new GameObject. " alt="" coords="276,2317,417,2359"/>
+<area shape="rect" id="node50" href="$classobe_1_1_script_1_1_game_object.html#a9c82b69d3ab813a802c751c60728b944" title="Gets a reference to the Lua function used to build the GameObject (Local.Init proxy) ..." alt="" coords="263,2383,430,2424"/>
+<area shape="rect" id="node7" href="$classobe_1_1_scene_1_1_camera.html#a0784974770837ae195a7738debcf6dec" title="Gets the Position of the Camera. " alt="" coords="519,195,661,236"/>
+<area shape="rect" id="node8" href="$classobe_1_1_transform_1_1_unit_vector.html#ac3baab00050c329e70453fd646224a0d" title="Return an UnitVector with the converted values (x, y) to the Unit you want. " alt="" coords="492,261,688,287"/>
+<area shape="rect" id="node13" href="$classvili_1_1_complex_node.html#aa6146d2b1da881ab97605bb700f5d7c4" title="Creates a ComplexNode in the ComplexNode. " alt="" coords="521,480,659,521"/>
+<area shape="rect" id="node14" href="$classvili_1_1_complex_node.html#ab3a269cf4b6899b75bbd789f83b255d5" title="Access a ComplexNode in the tree using a path with slash&#45;separation (.at(&quot;NodeA/NodeB/NodeC&quot;) for exa..." alt="" coords="518,546,662,573"/>
+<area shape="rect" id="node15" href="$classvili_1_1_complex_node.html#a5fb28422d884d1ed937026ba88014a87" title="Creates a DataNode in the ComplexNode. " alt="" coords="523,597,657,639"/>
+<area shape="rect" id="node16" href="$classobe_1_1_scene_1_1_camera.html#adfde56d24721c9247c7d50bc8a3603da" title="Gets an UnitVector containing the size of the Camera (Width and Height) " alt="" coords="519,663,661,704"/>
+<area shape="rect" id="node17" href="$namespaceobe_1_1_transform.html#a0c442ce5e518937ecb1b208f57baf56d" title="Converts an Unit to a std::string. " alt="" coords="494,729,686,755"/>
+<area shape="rect" id="node18" href="$classvili_1_1_complex_node.html#ad1851d54910febe00a646871847d30d6" title="Tells the ComplexNode to use the given NodeTemplate. " alt="" coords="523,780,657,821"/>
+<area shape="rect" id="node19" href="$classvili_1_1_complex_node.html#ad0fb0be46ef509c3edd1046b5d584a4c" title="Creates an ArrayNode in the ComplexNode. " alt="" coords="523,312,657,353"/>
+<area shape="rect" id="node20" href="$classvili_1_1_complex_node.html#abfafad10954568b678b208b7fefb074a" title="Get a ArrayNode contained in the ComplexNode. " alt="" coords="736,341,869,383"/>
+<area shape="rect" id="node21" href="$classvili_1_1_array_node.html#a1b7bb99117b83862f497c42ecc03b4bd" title="Pushes a new String&#45;typed DataNode in the ArrayNode. " alt="" coords="519,429,661,455"/>
+</map>

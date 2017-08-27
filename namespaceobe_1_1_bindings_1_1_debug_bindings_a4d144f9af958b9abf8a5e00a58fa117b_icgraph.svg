@@ -8,35 +8,35 @@
  viewBox="0.00 0.00 408.00 39.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 35)">
 <title>obe::Bindings::DebugBindings::LoadConsole</title>
-<!-- Node34 -->
-<g id="node1" class="node"><title>Node34</title>
+<!-- Node33 -->
+<g id="node1" class="node"><title>Node33</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-0.5 0,-30.5 147,-30.5 147,-0.5 0,-0.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Bindings::DebugBindings</text>
 <text text-anchor="middle" x="73.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">::LoadConsole</text>
 </g>
-<!-- Node35 -->
-<g id="node2" class="node"><title>Node35</title>
-<g id="a_node2"><a xlink:href="namespaceobe_1_1_bindings.html#a41d33207a0199f125c75a0f70a4a3ba8" target="_top" xlink:title="obe::Bindings::IndexBindings">
+<!-- Node34 -->
+<g id="node2" class="node"><title>Node34</title>
+<g id="a_node2"><a xlink:href="namespaceobe_1_1_bindings.html#a41d33207a0199f125c75a0f70a4a3ba8" target="_top" xlink:title="To call when the engine starts, indexes all Lua bindings. ">
 <polygon fill="white" stroke="black" points="183,-6 183,-25 326,-25 326,-6 183,-6"/>
 <text text-anchor="middle" x="254.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Bindings::IndexBindings</text>
 </a>
 </g>
 </g>
-<!-- Node34&#45;&gt;Node35 -->
-<g id="edge1" class="edge"><title>Node34&#45;&gt;Node35</title>
+<!-- Node33&#45;&gt;Node34 -->
+<g id="edge1" class="edge"><title>Node33&#45;&gt;Node34</title>
 <path fill="none" stroke="midnightblue" d="M157.102,-15.5C165.716,-15.5 174.416,-15.5 182.88,-15.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="157.048,-12.0001 147.048,-15.5 157.048,-19.0001 157.048,-12.0001"/>
 </g>
-<!-- Node36 -->
-<g id="node3" class="node"><title>Node36</title>
+<!-- Node35 -->
+<g id="node3" class="node"><title>Node35</title>
 <g id="a_node3"><a xlink:href="_ob_engine_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" target="_top" xlink:title="main">
 <polygon fill="white" stroke="black" points="362,-6 362,-25 400,-25 400,-6 362,-6"/>
 <text text-anchor="middle" x="381" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">main</text>
 </a>
 </g>
 </g>
-<!-- Node35&#45;&gt;Node36 -->
-<g id="edge2" class="edge"><title>Node35&#45;&gt;Node36</title>
+<!-- Node34&#45;&gt;Node35 -->
+<g id="edge2" class="edge"><title>Node34&#45;&gt;Node35</title>
 <path fill="none" stroke="midnightblue" d="M336.161,-15.5C345.623,-15.5 354.462,-15.5 361.688,-15.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="336.117,-12.0001 326.117,-15.5 336.117,-19.0001 336.117,-12.0001"/>
 </g>

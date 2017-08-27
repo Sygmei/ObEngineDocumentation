@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['package',['Package',['../namespaceobe_1_1_system.html#a694fe83b30a254b5c66650c9dc3bb497a209802fb858e2c83205027dbbb5d9e6c',1,'obe::System']]],
-  ['path',['Path',['../namespaceobe_1_1_system.html#a694fe83b30a254b5c66650c9dc3bb497aac70412e939d72a9234cdebb1af5867b',1,'obe::System']]],
-  ['play',['Play',['../namespaceobe_1_1_animation.html#ade1d37c9a3b741730d422de4b0e6bb31ade3c731be5633838089a07179d301d7b',1,'obe::Animation']]],
-  ['pressed',['Pressed',['../namespaceobe_1_1_input.html#a7c34dc018f96813bc8b63f4c9c6cbc47ad78a68f6a85421ae121c2cb5b73a1040',1,'obe::Input::Pressed()'],['../namespaceobe_1_1_system.html#a265100c672e81c1bb5c5e016e3ef89caad78a68f6a85421ae121c2cb5b73a1040',1,'obe::System::Pressed()']]]
+  ['onetime',['OneTime',['../namespaceobe_1_1_animation.html#a346c6729e9af989f6b063e6086637fbbaef01a357e0efe7452a8aaf4fcf9df1c8',1,'obe::Animation']]],
+  ['others',['Others',['../namespaceobe_1_1_input.html#a08f2b5990899bb151cc4fedfb35b716ba52ef9633d88a7480b3a938ff9eaa2a25',1,'obe::Input']]]
 ];

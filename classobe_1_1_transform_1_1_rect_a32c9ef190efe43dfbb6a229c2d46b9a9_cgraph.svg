@@ -51,20 +51,20 @@ if (edges && edges.length) {
 <script type="text/javascript">
 var viewWidth = 775;
 var viewHeight = 113;
-var sectionId = 'dynsection-24';
+var sectionId = 'dynsection-30';
 </script>
 <script xlink:href="svgpan.js"/>
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>obe::Transform::Rect::setPosition</title>
-<!-- Node172 -->
-<g id="node1" class="node"><title>Node172</title>
+<!-- Node214 -->
+<g id="node1" class="node"><title>Node214</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-59 0,-89 107,-89 107,-59 0,-59"/>
 <text text-anchor="start" x="8" y="-77" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Transform::Rect</text>
 <text text-anchor="middle" x="53.5" y="-66" font-family="Helvetica,sans-Serif" font-size="10.00">::setPosition</text>
 </g>
-<!-- Node173 -->
-<g id="node2" class="node"><title>Node173</title>
+<!-- Node215 -->
+<g id="node2" class="node"><title>Node215</title>
 <g id="a_node2"><a xlink:href="classobe_1_1_transform_1_1_rect.html#a76c0e31ad4c6f81b974e99be7a1bc088" target="_top" xlink:title="Set the position of the Rect using an UnitVector. ">
 <polygon fill="none" stroke="black" points="143,-59 143,-89 250,-89 250,-59 143,-59"/>
 <text text-anchor="start" x="151" y="-77" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Transform::Rect</text>
@@ -72,26 +72,26 @@ var sectionId = 'dynsection-24';
 </a>
 </g>
 </g>
-<!-- Node172&#45;&gt;Node173 -->
-<g id="edge1" class="edge"><title>Node172&#45;&gt;Node173</title>
+<!-- Node214&#45;&gt;Node215 -->
+<g id="edge1" class="edge"><title>Node214&#45;&gt;Node215</title>
 <path fill="none" stroke="midnightblue" d="M107.003,-74C115.445,-74 124.255,-74 132.905,-74"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="132.953,-77.5001 142.953,-74 132.953,-70.5001 132.953,-77.5001"/>
 </g>
-<!-- Node174 -->
-<g id="node3" class="node"><title>Node174</title>
+<!-- Node216 -->
+<g id="node3" class="node"><title>Node216</title>
 <g id="a_node3"><a xlink:href="classobe_1_1_transform_1_1_unit_vector.html#ac3baab00050c329e70453fd646224a0d" target="_top" xlink:title="Return an UnitVector with the converted values (x, y) to the Unit you want. ">
 <polygon fill="none" stroke="black" points="620,-57.5 620,-76.5 767,-76.5 767,-57.5 620,-57.5"/>
 <text text-anchor="middle" x="693.5" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Transform::UnitVector::to</text>
 </a>
 </g>
 </g>
-<!-- Node173&#45;&gt;Node174 -->
-<g id="edge2" class="edge"><title>Node173&#45;&gt;Node174</title>
+<!-- Node215&#45;&gt;Node216 -->
+<g id="edge2" class="edge"><title>Node215&#45;&gt;Node216</title>
 <path fill="none" stroke="midnightblue" d="M241.559,-89.0211C255.591,-93.106 271.292,-96.9625 286,-99 411.829,-116.431 560.984,-93.703 638.941,-78.5504"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="639.872,-81.9341 649.002,-76.5595 638.513,-75.0673 639.872,-81.9341"/>
 </g>
-<!-- Node175 -->
-<g id="node4" class="node"><title>Node175</title>
+<!-- Node217 -->
+<g id="node4" class="node"><title>Node217</title>
 <g id="a_node4"><a xlink:href="classobe_1_1_transform_1_1_rect.html#a02a40e3f622105b27fa3841002d8739e" target="_top" xlink:title="Transform the UnitVector passed by reference using the given Referencial. ">
 <polygon fill="none" stroke="black" points="286,-59 286,-89 393,-89 393,-59 286,-59"/>
 <text text-anchor="start" x="294" y="-77" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Transform::Rect</text>
@@ -99,49 +99,49 @@ var sectionId = 'dynsection-24';
 </a>
 </g>
 </g>
-<!-- Node173&#45;&gt;Node175 -->
-<g id="edge3" class="edge"><title>Node173&#45;&gt;Node175</title>
+<!-- Node215&#45;&gt;Node217 -->
+<g id="edge3" class="edge"><title>Node215&#45;&gt;Node217</title>
 <path fill="none" stroke="midnightblue" d="M250.003,-74C258.445,-74 267.255,-74 275.905,-74"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="275.953,-77.5001 285.953,-74 275.953,-70.5001 275.953,-77.5001"/>
 </g>
-<!-- Node177 -->
-<g id="node6" class="node"><title>Node177</title>
+<!-- Node219 -->
+<g id="node6" class="node"><title>Node219</title>
 <g id="a_node6"><a xlink:href="classobe_1_1_transform_1_1_unit_vector.html#af3867f780ceba4d23046a85314bfa077" target="_top" xlink:title="Set the values of the given UnitVector but keeps base Unit. ">
 <polygon fill="none" stroke="black" points="430.5,-0.5 430.5,-19.5 582.5,-19.5 582.5,-0.5 430.5,-0.5"/>
 <text text-anchor="middle" x="506.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Transform::UnitVector::set</text>
 </a>
 </g>
 </g>
-<!-- Node173&#45;&gt;Node177 -->
-<g id="edge7" class="edge"><title>Node173&#45;&gt;Node177</title>
+<!-- Node215&#45;&gt;Node219 -->
+<g id="edge7" class="edge"><title>Node215&#45;&gt;Node219</title>
 <path fill="none" stroke="midnightblue" d="M247.356,-58.9797C259.907,-55.4575 273.395,-51.8926 286,-49 334.37,-37.9 389.351,-28.1354 432.186,-21.1532"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="432.931,-24.5784 442.245,-19.5283 431.814,-17.668 432.931,-24.5784"/>
 </g>
-<!-- Node175&#45;&gt;Node174 -->
-<g id="edge6" class="edge"><title>Node175&#45;&gt;Node174</title>
+<!-- Node217&#45;&gt;Node216 -->
+<g id="edge6" class="edge"><title>Node217&#45;&gt;Node216</title>
 <path fill="none" stroke="midnightblue" d="M393.198,-72.952C450.479,-71.8129 542.779,-69.9774 609.75,-68.6456"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="609.927,-72.1429 619.856,-68.4446 609.788,-65.1442 609.927,-72.1429"/>
 </g>
-<!-- Node176 -->
-<g id="node5" class="node"><title>Node176</title>
+<!-- Node218 -->
+<g id="node5" class="node"><title>Node218</title>
 <g id="a_node5"><a xlink:href="classobe_1_1_transform_1_1_unit_vector.html#ace41a69769656febcf45cb2f4b90fa0e" target="_top" xlink:title="Adds the values of the the given UnitVector but keeps base Unit. ">
 <polygon fill="none" stroke="black" points="429,-38.5 429,-57.5 584,-57.5 584,-38.5 429,-38.5"/>
 <text text-anchor="middle" x="506.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Transform::UnitVector::add</text>
 </a>
 </g>
 </g>
-<!-- Node175&#45;&gt;Node176 -->
-<g id="edge4" class="edge"><title>Node175&#45;&gt;Node176</title>
+<!-- Node217&#45;&gt;Node218 -->
+<g id="edge4" class="edge"><title>Node217&#45;&gt;Node218</title>
 <path fill="none" stroke="midnightblue" d="M393.161,-65.702C406.442,-63.6092 420.916,-61.3285 434.921,-59.1216"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="435.679,-62.5453 445.013,-57.5314 434.59,-55.6307 435.679,-62.5453"/>
 </g>
-<!-- Node176&#45;&gt;Node174 -->
-<g id="edge5" class="edge"><title>Node176&#45;&gt;Node174</title>
+<!-- Node218&#45;&gt;Node216 -->
+<g id="edge5" class="edge"><title>Node218&#45;&gt;Node216</title>
 <path fill="none" stroke="midnightblue" d="M584.082,-55.8652C592.584,-56.7384 601.271,-57.6306 609.844,-58.511"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="609.533,-61.9973 619.838,-59.5374 610.248,-55.034 609.533,-61.9973"/>
 </g>
-<!-- Node177&#45;&gt;Node174 -->
-<g id="edge8" class="edge"><title>Node177&#45;&gt;Node174</title>
+<!-- Node219&#45;&gt;Node216 -->
+<g id="edge8" class="edge"><title>Node219&#45;&gt;Node216</title>
 <path fill="none" stroke="midnightblue" d="M548.982,-19.5535C560.39,-22.3838 572.723,-25.6329 584,-29 608.93,-36.4437 636.603,-46.1596 657.763,-53.9036"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="656.696,-57.2404 667.289,-57.4176 659.118,-50.673 656.696,-57.2404"/>
 </g>

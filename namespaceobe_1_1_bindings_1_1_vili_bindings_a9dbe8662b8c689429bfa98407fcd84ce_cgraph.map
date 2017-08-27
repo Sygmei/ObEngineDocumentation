@@ -1,0 +1,20 @@
+<map id="obe::Bindings::ViliBindings::LoadViliNode" name="obe::Bindings::ViliBindings::LoadViliNode">
+<area shape="rect" id="node2" href="$classvili_1_1_node.html#acb14e48c6734307180af119401103894" title="Copies the Node into a new ContainerNode (Abstract method, must be implemented by derived nodes) ..." alt="" coords="257,5,367,32"/>
+<area shape="rect" id="node3" href="$classvili_1_1_node.html#ad3c91cfe2721eaf9841721d1ec8ee0d8" title="Gets the Node annotation. " alt="" coords="647,69,809,96"/>
+<area shape="rect" id="node4" href="$classvili_1_1_node.html#aa2339b7f9971303acb8266c397e2506d" title="Get the depth of the Node (While the parent of the Node has a parent etc..) A Node without parent has..." alt="" coords="453,112,587,139"/>
+<area shape="rect" id="node6" href="$classvili_1_1_node.html#ab03908ab3d62e3bfddaf9e7306fdf3b3" title="Gets the id of the Node. " alt="" coords="673,300,783,327"/>
+<area shape="rect" id="node7" href="$classvili_1_1_node.html#a5a6ad518f51d824e06ae7be0328f4864" title="Get the Node Path (Example : GrandParent/Parent/Node) " alt="" coords="441,197,599,224"/>
+<area shape="rect" id="node9" href="$classvili_1_1_node.html#a9d438d0731569aeeb9cae121796c1d41" title="Returns the ClassType of the Node (All Types in vili::NodeType) " alt="" coords="248,259,376,285"/>
+<area shape="rect" id="node10" href="$classvili_1_1_node.html#adeb5c24fe01f2e740cf11180f7e8a961" title="Gets if the Node is visible or not (Visible means it exists in the dumped file) " alt="" coords="247,309,377,336"/>
+<area shape="rect" id="node11" href="$classvili_1_1_node.html#a447ad4f34cfd7c14c14796d85dd910a7" title="Sets the Node annotation (Little Node description displayed when calling Node::getNodePath()) ..." alt="" coords="231,360,393,387"/>
+<area shape="rect" id="node12" href="$classvili_1_1_node.html#a1f031a14b8baed3a83123ded73d8d37a" title="Sets the new id of the Node (can&#39;t be changed if the Node has a parent) " alt="" coords="257,461,367,488"/>
+<area shape="rect" id="node17" href="$classvili_1_1_node.html#a41778b86287edc07882460db4d55415e" title="Sets the new parent of the Node (Raises error if the Node already has a parent) " alt="" coords="243,208,381,235"/>
+<area shape="rect" id="node18" href="$classvili_1_1_node.html#a7bb541d854deec79487aed0a4184de8e" title="Sets if the Node should be visible or not (Visible means it exists in the dumped file) ..." alt="" coords="243,512,381,539"/>
+<area shape="rect" id="node19" href="$classvili_1_1_node.html#af1a2dc5d1eb2d18dd7380d10b908361c" title="Writes the Node to a file (Abstract method, must be implemented by derived nodes) ..." alt="" coords="257,563,367,589"/>
+<area shape="rect" id="node5" href="$classvili_1_1_node.html#a58273048e22a9ebd74e576fd8905f709" title="vili::Node::getParent" alt="" coords="659,133,797,160"/>
+<area shape="rect" id="node8" href="$namespacevili_1_1_functions_1_1_vector.html#a10836e1fe04648534cfc59d9de9acd72" title="vili::Functions::Vector\l::join" alt="" coords="655,190,801,231"/>
+<area shape="rect" id="node13" href="$classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b" title="Raises an Error loaded in the Aube Error Database (AED) " alt="" coords="455,462,585,503"/>
+<area shape="rect" id="node14" href="$classaube_1_1_error_message.html#a9184cc96589578f434351c105b0cd5f7" title="Gets the location of the error in the code. " alt="" coords="659,462,797,503"/>
+<area shape="rect" id="node15" href="$classaube_1_1_error_message.html#a07927cb3e2d0712c459cc9e2b5f52696" title="Gets the message displayed by the ErrorMessage when raised. " alt="" coords="659,527,797,569"/>
+<area shape="rect" id="node16" href="$classaube_1_1_error_message.html#a77c2f9b7e93542c958173b52da267989" title="Gets hints that can help the error resolution. " alt="" coords="659,397,797,438"/>
+</map>

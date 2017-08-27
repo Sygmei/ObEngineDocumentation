@@ -121,11 +121,16 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
+<tr class="memitem:ac5fd619fdb4ab8ab6d22c9810106ab0b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_input.html#ac5fd619fdb4ab8ab6d22c9810106ab0b">AxisCompareType</a> { <a class="el" href="namespaceobe_1_1_input.html#ac5fd619fdb4ab8ab6d22c9810106ab0ba1798e8c3621ca53d9e3a80d257306000">AxisCompareType::LESS</a>, 
+<a class="el" href="namespaceobe_1_1_input.html#ac5fd619fdb4ab8ab6d22c9810106ab0baf23c5f6001b935da226312ad26369232">AxisCompareType::MORE</a>
+ }</td></tr>
+<tr class="separator:ac5fd619fdb4ab8ab6d22c9810106ab0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c34dc018f96813bc8b63f4c9c6cbc47"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_input.html#a7c34dc018f96813bc8b63f4c9c6cbc47">InputButtonState</a> { <a class="el" href="namespaceobe_1_1_input.html#a7c34dc018f96813bc8b63f4c9c6cbc47ae599161956d626eda4cb0a5ffb85271c">InputButtonState::Idle</a>, 
 <a class="el" href="namespaceobe_1_1_input.html#a7c34dc018f96813bc8b63f4c9c6cbc47abcd8db575b47c838e5d551e3973db4ac">InputButtonState::Hold</a>, 
 <a class="el" href="namespaceobe_1_1_input.html#a7c34dc018f96813bc8b63f4c9c6cbc47ad78a68f6a85421ae121c2cb5b73a1040">InputButtonState::Pressed</a>, 
 <a class="el" href="namespaceobe_1_1_input.html#a7c34dc018f96813bc8b63f4c9c6cbc47aea1e34304a5d8ffa7c9b0ed8ede4ef1a">InputButtonState::Released</a>
- }</td></tr>
+ }<tr class="memdesc:a7c34dc018f96813bc8b63f4c9c6cbc47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Possible states of InputButton.  <a href="namespaceobe_1_1_input.html#a7c34dc018f96813bc8b63f4c9c6cbc47">More...</a><br /></td></tr>
+</td></tr>
 <tr class="separator:a7c34dc018f96813bc8b63f4c9c6cbc47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08f2b5990899bb151cc4fedfb35b716b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_input.html#a08f2b5990899bb151cc4fedfb35b716b">InputType</a> { <br />
 &#160;&#160;<a class="el" href="namespaceobe_1_1_input.html#a08f2b5990899bb151cc4fedfb35b716ba6132295fcf5570fb8b0a944ef322a598">InputType::Alpha</a>, 
@@ -135,7 +140,10 @@ Enumerations</h2></td></tr>
 <br />
 &#160;&#160;<a class="el" href="namespaceobe_1_1_input.html#a08f2b5990899bb151cc4fedfb35b716bae93acb146e114b5dfa6ce2d12dcb96e4">InputType::Functions</a>, 
 <a class="el" href="namespaceobe_1_1_input.html#a08f2b5990899bb151cc4fedfb35b716baf2a47c6809d88e175dade0ef7b16aa13">InputType::Mouse</a>, 
-<a class="el" href="namespaceobe_1_1_input.html#a08f2b5990899bb151cc4fedfb35b716ba52ef9633d88a7480b3a938ff9eaa2a25">InputType::Others</a>
+<a class="el" href="namespaceobe_1_1_input.html#a08f2b5990899bb151cc4fedfb35b716ba52ef9633d88a7480b3a938ff9eaa2a25">InputType::Others</a>, 
+<a class="el" href="namespaceobe_1_1_input.html#a08f2b5990899bb151cc4fedfb35b716ba4763e000c5c9b3689e9ed5d797eae210">InputType::GamepadButton</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespaceobe_1_1_input.html#a08f2b5990899bb151cc4fedfb35b716baa34eee0c70fa74cf765b8a650d4497f7">InputType::GamepadAxis</a>
 <br />
  }<tr class="memdesc:a08f2b5990899bb151cc4fedfb35b716b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of Input.  <a href="namespaceobe_1_1_input.html#a08f2b5990899bb151cc4fedfb35b716b">More...</a><br /></td></tr>
 </td></tr>
@@ -143,20 +151,30 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a24527a6923bdecb58fcd938b964b4c8d"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_input.html#a24527a6923bdecb58fcd938b964b4c8d">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="namespaceobe_1_1_input.html#ac5fd619fdb4ab8ab6d22c9810106ab0b">AxisCompareType</a> &amp;m)</td></tr>
+<tr class="separator:a24527a6923bdecb58fcd938b964b4c8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a873e309e70013bfbce5a528d6daa6db6"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_input.html#a873e309e70013bfbce5a528d6daa6db6">operator&lt;&lt;</a> (std::ostream &amp;os, <a class="el" href="namespaceobe_1_1_input.html#a7c34dc018f96813bc8b63f4c9c6cbc47">InputButtonState</a> m)</td></tr>
 <tr class="separator:a873e309e70013bfbce5a528d6daa6db6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38313ff3bc07a1e7d37e3cebaddb1083"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceobe_1_1_input.html#a7c34dc018f96813bc8b63f4c9c6cbc47">InputButtonState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_input.html#a38313ff3bc07a1e7d37e3cebaddb1083">stringToInputButtonState</a> (const std::string &amp;state)</td></tr>
+<tr class="memdesc:a38313ff3bc07a1e7d37e3cebaddb1083"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a string to the corresponding InputButtonState.  <a href="#a38313ff3bc07a1e7d37e3cebaddb1083">More...</a><br /></td></tr>
 <tr class="separator:a38313ff3bc07a1e7d37e3cebaddb1083"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a9a1045b223bb975e25e63c4977e724"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_input.html#a1a9a1045b223bb975e25e63c4977e724">inputButtonStateToString</a> (<a class="el" href="namespaceobe_1_1_input.html#a7c34dc018f96813bc8b63f4c9c6cbc47">InputButtonState</a> state)</td></tr>
+<tr class="memdesc:a1a9a1045b223bb975e25e63c4977e724"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an InputButtonState to a std::string.  <a href="#a1a9a1045b223bb975e25e63c4977e724">More...</a><br /></td></tr>
 <tr class="separator:a1a9a1045b223bb975e25e63c4977e724"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21d04b8fc51590326b444a84dcc9add9"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_input.html#a21d04b8fc51590326b444a84dcc9add9">operator&lt;&lt;</a> (std::ostream &amp;os, <a class="el" href="namespaceobe_1_1_input.html#a08f2b5990899bb151cc4fedfb35b716b">InputType</a> m)</td></tr>
 <tr class="separator:a21d04b8fc51590326b444a84dcc9add9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52d7c1e958b20be309ad7c868975c14c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_input.html#a52d7c1e958b20be309ad7c868975c14c">InitKeyList</a> ()</td></tr>
 <tr class="memdesc:a52d7c1e958b20be309ad7c868975c14c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the list of all the keys.  <a href="#a52d7c1e958b20be309ad7c868975c14c">More...</a><br /></td></tr>
 <tr class="separator:a52d7c1e958b20be309ad7c868975c14c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaf8f3c95bf59ca5128cf7d36d6fa59f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_input.html#aeaf8f3c95bf59ca5128cf7d36d6fa59f">SetGamepadList</a> ()</td></tr>
+<tr class="memdesc:aeaf8f3c95bf59ca5128cf7d36d6fa59f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize (or reinitialize) the list of all gamepad buttons and axis.  <a href="#aeaf8f3c95bf59ca5128cf7d36d6fa59f">More...</a><br /></td></tr>
+<tr class="separator:aeaf8f3c95bf59ca5128cf7d36d6fa59f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9f8742fa8ac61fe14003702d5a6c5bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_input_1_1_input_button.html">InputButton</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_input.html#aa9f8742fa8ac61fe14003702d5a6c5bc">GetKey</a> (const std::string &amp;keyId)</td></tr>
 <tr class="memdesc:aa9f8742fa8ac61fe14003702d5a6c5bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a <a class="el" href="classobe_1_1_input_1_1_input_button.html" title="Class that does represent an Input button . ">InputButton</a> that is inside the AllKeys Map.  <a href="#aa9f8742fa8ac61fe14003702d5a6c5bc">More...</a><br /></td></tr>
 <tr class="separator:aa9f8742fa8ac61fe14003702d5a6c5bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6095da1ffde8135c066cc215dd0c1d54"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classobe_1_1_input_1_1_input_button.html">InputButton</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_input.html#a6095da1ffde8135c066cc215dd0c1d54">GetAllPressedButtons</a> ()</td></tr>
+<tr class="memdesc:a6095da1ffde8135c066cc215dd0c1d54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return all currently pressed <a class="el" href="classobe_1_1_input_1_1_input_button.html" title="Class that does represent an Input button . ">InputButton</a> in a std::vector.  <a href="#a6095da1ffde8135c066cc215dd0c1d54">More...</a><br /></td></tr>
+<tr class="separator:a6095da1ffde8135c066cc215dd0c1d54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -211,6 +229,32 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="ac5fd619fdb4ab8ab6d22c9810106ab0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5fd619fdb4ab8ab6d22c9810106ab0b">&#9670;&nbsp;</a></span>AxisCompareType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespaceobe_1_1_input.html#ac5fd619fdb4ab8ab6d22c9810106ab0b">obe::Input::AxisCompareType</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac5fd619fdb4ab8ab6d22c9810106ab0ba1798e8c3621ca53d9e3a80d257306000"></a>LESS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac5fd619fdb4ab8ab6d22c9810106ab0baf23c5f6001b935da226312ad26369232"></a>MORE&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <a id="a7c34dc018f96813bc8b63f4c9c6cbc47"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7c34dc018f96813bc8b63f4c9c6cbc47">&#9670;&nbsp;</a></span>InputButtonState</h2>
 
@@ -230,11 +274,17 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Possible states of <a class="el" href="classobe_1_1_input_1_1_input_button.html" title="Class that does represent an Input button . ">InputButton</a>. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a7c34dc018f96813bc8b63f4c9c6cbc47ae599161956d626eda4cb0a5ffb85271c"></a>Idle&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7c34dc018f96813bc8b63f4c9c6cbc47abcd8db575b47c838e5d551e3973db4ac"></a>Hold&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7c34dc018f96813bc8b63f4c9c6cbc47ad78a68f6a85421ae121c2cb5b73a1040"></a>Pressed&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7c34dc018f96813bc8b63f4c9c6cbc47aea1e34304a5d8ffa7c9b0ed8ede4ef1a"></a>Released&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a7c34dc018f96813bc8b63f4c9c6cbc47ae599161956d626eda4cb0a5ffb85271c"></a>Idle&#160;</td><td class="fielddoc"><p><a class="el" href="classobe_1_1_input_1_1_input_button.html" title="Class that does represent an Input button . ">InputButton</a> is not pressed. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a7c34dc018f96813bc8b63f4c9c6cbc47abcd8db575b47c838e5d551e3973db4ac"></a>Hold&#160;</td><td class="fielddoc"><p><a class="el" href="classobe_1_1_input_1_1_input_button.html" title="Class that does represent an Input button . ">InputButton</a> is being hold. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a7c34dc018f96813bc8b63f4c9c6cbc47ad78a68f6a85421ae121c2cb5b73a1040"></a>Pressed&#160;</td><td class="fielddoc"><p><a class="el" href="classobe_1_1_input_1_1_input_button.html" title="Class that does represent an Input button . ">InputButton</a> is just being pressed. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a7c34dc018f96813bc8b63f4c9c6cbc47aea1e34304a5d8ffa7c9b0ed8ede4ef1a"></a>Released&#160;</td><td class="fielddoc"><p><a class="el" href="classobe_1_1_input_1_1_input_button.html" title="Class that does represent an Input button . ">InputButton</a> is just being released. </p>
+</td></tr>
 </table>
 
 </div>
@@ -275,11 +325,41 @@ Variables</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="a08f2b5990899bb151cc4fedfb35b716ba52ef9633d88a7480b3a938ff9eaa2a25"></a>Others&#160;</td><td class="fielddoc"><p>Other keys (Symbols etc..) </p>
 </td></tr>
+<tr><td class="fieldname"><a id="a08f2b5990899bb151cc4fedfb35b716ba4763e000c5c9b3689e9ed5d797eae210"></a>GamepadButton&#160;</td><td class="fielddoc"><p>All Gamepad buttons. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a08f2b5990899bb151cc4fedfb35b716baa34eee0c70fa74cf765b8a650d4497f7"></a>GamepadAxis&#160;</td><td class="fielddoc"><p>All Gamepad Axis (Joysticks, triggers) </p>
+</td></tr>
 </table>
 
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a6095da1ffde8135c066cc215dd0c1d54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6095da1ffde8135c066cc215dd0c1d54">&#9670;&nbsp;</a></span>GetAllPressedButtons()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="classobe_1_1_input_1_1_input_button.html">InputButton</a> * &gt; obe::Input::GetAllPressedButtons </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return all currently pressed <a class="el" href="classobe_1_1_input_1_1_input_button.html" title="Class that does represent an Input button . ">InputButton</a> in a std::vector. </p>
+<dl class="section return"><dt>Returns</dt><dd>Returns a std::vector of <a class="el" href="classobe_1_1_input_1_1_input_button.html" title="Class that does represent an Input button . ">InputButton</a> pointers being currently pressed </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_input_a6095da1ffde8135c066cc215dd0c1d54_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
 <a id="aa9f8742fa8ac61fe14003702d5a6c5bc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa9f8742fa8ac61fe14003702d5a6c5bc">&#9670;&nbsp;</a></span>GetKey()</h2>
 
@@ -307,13 +387,13 @@ Variables</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_input_aa9f8742fa8ac61fe14003702d5a6c5bc_cgraph.svg" width="507" height="248"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_input_aa9f8742fa8ac61fe14003702d5a6c5bc_cgraph.svg" width="507" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_input_aa9f8742fa8ac61fe14003702d5a6c5bc_icgraph.svg" width="100%" height="455"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_input_aa9f8742fa8ac61fe14003702d5a6c5bc_icgraph.svg" width="100%" height="498"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -336,9 +416,15 @@ Here is the caller graph for this function:</div>
 
 <p>Initialize the list of all the keys. </p>
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_input_a52d7c1e958b20be309ad7c868975c14c_cgraph.svg" width="391" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_input_a52d7c1e958b20be309ad7c868975c14c_icgraph.svg" width="394" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_input_a52d7c1e958b20be309ad7c868975c14c_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -360,10 +446,47 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Converts an InputButtonState to a std::string. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state</td><td>InputButtonState to convert </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A std::string containing the name of the given InputButtonState </dd></dl>
+
+</div>
+</div>
+<a id="a24527a6923bdecb58fcd938b964b4c8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24527a6923bdecb58fcd938b964b4c8d">&#9670;&nbsp;</a></span>operator<<() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream &amp; obe::Input::operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceobe_1_1_input.html#ac5fd619fdb4ab8ab6d22c9810106ab0b">AxisCompareType</a> &amp;&#160;</td>
+          <td class="paramname"><em>m</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
 </div>
 </div>
 <a id="a873e309e70013bfbce5a528d6daa6db6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a873e309e70013bfbce5a528d6daa6db6">&#9670;&nbsp;</a></span>operator<<() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a873e309e70013bfbce5a528d6daa6db6">&#9670;&nbsp;</a></span>operator<<() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -387,11 +510,17 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_input_a873e309e70013bfbce5a528d6daa6db6_cgraph.svg" width="527" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 
 </div>
 </div>
 <a id="a21d04b8fc51590326b444a84dcc9add9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a21d04b8fc51590326b444a84dcc9add9">&#9670;&nbsp;</a></span>operator<<() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a21d04b8fc51590326b444a84dcc9add9">&#9670;&nbsp;</a></span>operator<<() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -418,6 +547,31 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="aeaf8f3c95bf59ca5128cf7d36d6fa59f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaf8f3c95bf59ca5128cf7d36d6fa59f">&#9670;&nbsp;</a></span>SetGamepadList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::Input::SetGamepadList </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize (or reinitialize) the list of all gamepad buttons and axis. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_input_aeaf8f3c95bf59ca5128cf7d36d6fa59f_icgraph.svg" width="100%" height="428"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
 <a id="a38313ff3bc07a1e7d37e3cebaddb1083"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a38313ff3bc07a1e7d37e3cebaddb1083">&#9670;&nbsp;</a></span>stringToInputButtonState()</h2>
 
@@ -433,10 +587,25 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Converts a string to the corresponding InputButtonState. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">state</td><td>InputButtonState in string form </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The corresponding InputButtonState </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_input_a38313ff3bc07a1e7d37e3cebaddb1083_cgraph.svg" width="538" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_input_a38313ff3bc07a1e7d37e3cebaddb1083_icgraph.svg" width="100%" height="421"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_input_a38313ff3bc07a1e7d37e3cebaddb1083_icgraph.svg" width="100%" height="453"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 

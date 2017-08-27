@@ -75,12 +75,14 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;kaguya/kaguya.hpp&gt;</code><br />
+<code>#include &lt;<a class="el" href="_global_state_8hpp_source.html">Script/GlobalState.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_any_8hpp_source.html">Types/Any.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_type_utils_8hpp_source.html">Utils/TypeUtils.hpp</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for Script.hpp:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="_script_8hpp__incl.svg" width="100%" height="563"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="_script_8hpp__incl.svg" width="100%" height="563"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
@@ -104,63 +106,11 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespaceobe_1_1_script"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html">obe::Script</a></td></tr>
 <tr class="memdesc:namespaceobe_1_1_script"><td class="mdescLeft">&#160;</td><td class="mdescRight">Classes and Functions about Scripting support. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespaceobe_1_1_script_1_1_core_lib"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script_1_1_core_lib.html">obe::Script::CoreLib</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a4e6ee77032cf7f66544f9b08464a60b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#a4e6ee77032cf7f66544f9b08464a60b7">obe::Script::loadLib</a> (kaguya::State *lua, std::string lib)</td></tr>
-<tr class="separator:a4e6ee77032cf7f66544f9b08464a60b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93f11dc0cdd5fc4a7ff54cb89f54c877"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#a93f11dc0cdd5fc4a7ff54cb89f54c877">obe::Script::loadHook</a> (kaguya::State *lua, std::string hookname)</td></tr>
 <tr class="separator:a93f11dc0cdd5fc4a7ff54cb89f54c877"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abdb81ec0976f1097cef6711415b8fac3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#abdb81ec0976f1097cef6711415b8fac3">obe::Script::loadCoreLib</a> (kaguya::State *lua, std::vector&lt; std::string &gt; lib, bool alreadyImportedWarning=true)</td></tr>
-<tr class="separator:abdb81ec0976f1097cef6711415b8fac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9582bae7b61bf604c2a68a8a016356ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#a9582bae7b61bf604c2a68a8a016356ec">obe::Script::registerLib</a> (kaguya::State *lua, std::string lib)</td></tr>
-<tr class="separator:a9582bae7b61bf604c2a68a8a016356ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad6ef67388e6d16eb01853f208da410f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#aad6ef67388e6d16eb01853f208da410f">obe::Script::loadBaseLib</a> (kaguya::State *lua)</td></tr>
-<tr class="separator:aad6ef67388e6d16eb01853f208da410f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a693e94bba1739aff313696a126a19253"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#a693e94bba1739aff313696a126a19253">obe::Script::checkIfAlreadyImported</a> (kaguya::State *lua, std::string lib)</td></tr>
-<tr class="separator:a693e94bba1739aff313696a126a19253"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3e8d674e535b8a534a3bed6f311d701"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script_1_1_core_lib.html#ad3e8d674e535b8a534a3bed6f311d701">obe::Script::CoreLib::loadAnimation</a> (kaguya::State *lua, std::vector&lt; std::string &gt; args)</td></tr>
-<tr class="separator:ad3e8d674e535b8a534a3bed6f311d701"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a772776d97a60ef5addf168dfe2ac0be7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script_1_1_core_lib.html#a772776d97a60ef5addf168dfe2ac0be7">obe::Script::CoreLib::loadCamera</a> (kaguya::State *lua, std::vector&lt; std::string &gt; args)</td></tr>
-<tr class="separator:a772776d97a60ef5addf168dfe2ac0be7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af26163717868816732249a1232b38e23"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script_1_1_core_lib.html#af26163717868816732249a1232b38e23">obe::Script::CoreLib::loadCanvas</a> (kaguya::State *lua, std::vector&lt; std::string &gt; args)</td></tr>
-<tr class="separator:af26163717868816732249a1232b38e23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07d6c11bbb082bc45bdba50d97965c00"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script_1_1_core_lib.html#a07d6c11bbb082bc45bdba50d97965c00">obe::Script::CoreLib::loadCollision</a> (kaguya::State *lua, std::vector&lt; std::string &gt; args)</td></tr>
-<tr class="separator:a07d6c11bbb082bc45bdba50d97965c00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0a0a4d8fdd1cdfe5d7177c1267e4d16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script_1_1_core_lib.html#ad0a0a4d8fdd1cdfe5d7177c1267e4d16">obe::Script::CoreLib::loadConsole</a> (kaguya::State *lua, std::vector&lt; std::string &gt; args)</td></tr>
-<tr class="separator:ad0a0a4d8fdd1cdfe5d7177c1267e4d16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac402ed4d67a537e338d92ee57d2441aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script_1_1_core_lib.html#ac402ed4d67a537e338d92ee57d2441aa">obe::Script::CoreLib::loadConstants</a> (kaguya::State *lua, std::vector&lt; std::string &gt; args)</td></tr>
-<tr class="separator:ac402ed4d67a537e338d92ee57d2441aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b313257cdb3bef245614c95a6fe0d6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script_1_1_core_lib.html#a8b313257cdb3bef245614c95a6fe0d6e">obe::Script::CoreLib::loadCoordinates</a> (kaguya::State *lua, std::vector&lt; std::string &gt; args)</td></tr>
-<tr class="separator:a8b313257cdb3bef245614c95a6fe0d6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc976091c779b7a03984d210b9285983"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script_1_1_core_lib.html#adc976091c779b7a03984d210b9285983">obe::Script::CoreLib::loadCursor</a> (kaguya::State *lua, std::vector&lt; std::string &gt; args)</td></tr>
-<tr class="separator:adc976091c779b7a03984d210b9285983"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76d426d953a15194b3903710bbbc79e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script_1_1_core_lib.html#a76d426d953a15194b3903710bbbc79e5">obe::Script::CoreLib::loadFilesystem</a> (kaguya::State *lua, std::vector&lt; std::string &gt; args)</td></tr>
-<tr class="separator:a76d426d953a15194b3903710bbbc79e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a322becadd912e278e81c00894bf83fec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script_1_1_core_lib.html#a322becadd912e278e81c00894bf83fec">obe::Script::CoreLib::loadKeyBind</a> (kaguya::State *lua, std::vector&lt; std::string &gt; args)</td></tr>
-<tr class="separator:a322becadd912e278e81c00894bf83fec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0acdeaec72b98cd716f4a56bd9fd4571"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script_1_1_core_lib.html#a0acdeaec72b98cd716f4a56bd9fd4571">obe::Script::CoreLib::loadLevelSprite</a> (kaguya::State *lua, std::vector&lt; std::string &gt; args)</td></tr>
-<tr class="separator:a0acdeaec72b98cd716f4a56bd9fd4571"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f5462552ef202ab28d4e0613eeda3f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script_1_1_core_lib.html#a1f5462552ef202ab28d4e0613eeda3f7">obe::Script::CoreLib::loadPackage</a> (kaguya::State *lua, std::vector&lt; std::string &gt; args)</td></tr>
-<tr class="separator:a1f5462552ef202ab28d4e0613eeda3f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a474d9f2d7938ff05a78649907b8a77d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script_1_1_core_lib.html#a474d9f2d7938ff05a78649907b8a77d3">obe::Script::CoreLib::loadPath</a> (kaguya::State *lua, std::vector&lt; std::string &gt; args)</td></tr>
-<tr class="separator:a474d9f2d7938ff05a78649907b8a77d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d760984dbfe9e6ea73ad803f6b0e0cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script_1_1_core_lib.html#a0d760984dbfe9e6ea73ad803f6b0e0cd">obe::Script::CoreLib::loadSelectable</a> (kaguya::State *lua, std::vector&lt; std::string &gt; args)</td></tr>
-<tr class="separator:a0d760984dbfe9e6ea73ad803f6b0e0cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6f9468f6539a68808b99868ba38a5de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script_1_1_core_lib.html#ac6f9468f6539a68808b99868ba38a5de">obe::Script::CoreLib::loadSFML</a> (kaguya::State *lua, std::vector&lt; std::string &gt; args)</td></tr>
-<tr class="separator:ac6f9468f6539a68808b99868ba38a5de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90640a9a9da1a14786a445076cf66f5b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script_1_1_core_lib.html#a90640a9a9da1a14786a445076cf66f5b">obe::Script::CoreLib::loadSound</a> (kaguya::State *lua, std::vector&lt; std::string &gt; args)</td></tr>
-<tr class="separator:a90640a9a9da1a14786a445076cf66f5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78bcbf0e6332639829199d3518c7dc3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script_1_1_core_lib.html#a78bcbf0e6332639829199d3518c7dc3b">obe::Script::CoreLib::loadSTD</a> (kaguya::State *lua, std::vector&lt; std::string &gt; args)</td></tr>
-<tr class="separator:a78bcbf0e6332639829199d3518c7dc3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94684c4b34b9c53b5bcf31d052cf6faf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script_1_1_core_lib.html#a94684c4b34b9c53b5bcf31d052cf6faf">obe::Script::CoreLib::loadTrigger</a> (kaguya::State *lua, std::vector&lt; std::string &gt; args)</td></tr>
-<tr class="separator:a94684c4b34b9c53b5bcf31d052cf6faf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a370267169d9423accfb45268eedd9fe0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script_1_1_core_lib.html#a370267169d9423accfb45268eedd9fe0">obe::Script::CoreLib::loadUtils</a> (kaguya::State *lua, std::vector&lt; std::string &gt; args)</td></tr>
-<tr class="separator:a370267169d9423accfb45268eedd9fe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a144f31cc8b37c8d19a05138691229059"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script_1_1_core_lib.html#a144f31cc8b37c8d19a05138691229059">obe::Script::CoreLib::loadVili</a> (kaguya::State *lua, std::vector&lt; std::string &gt; args)</td></tr>
-<tr class="separator:a144f31cc8b37c8d19a05138691229059"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>

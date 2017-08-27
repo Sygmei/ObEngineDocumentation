@@ -8,14 +8,14 @@
  viewBox="0.00 0.00 488.00 186.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 182)">
 <title>obe::Bindings::TimeBindings::LoadFPSCounter</title>
-<!-- Node7 -->
-<g id="node1" class="node"><title>Node7</title>
+<!-- Node9 -->
+<g id="node1" class="node"><title>Node9</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-73.5 0,-103.5 140,-103.5 140,-73.5 0,-73.5"/>
 <text text-anchor="start" x="8" y="-91.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Bindings::TimeBindings</text>
 <text text-anchor="middle" x="70" y="-80.5" font-family="Helvetica,sans-Serif" font-size="10.00">::LoadFPSCounter</text>
 </g>
-<!-- Node8 -->
-<g id="node2" class="node"><title>Node8</title>
+<!-- Node10 -->
+<g id="node2" class="node"><title>Node10</title>
 <g id="a_node2"><a xlink:href="classobe_1_1_time_1_1_f_p_s_counter.html#a32213ba8213090cfeb3979a9161bb5b4" target="_top" xlink:title="Draws the calculated stats on the screen. ">
 <polygon fill="white" stroke="black" points="176,-147.5 176,-177.5 295,-177.5 295,-147.5 176,-147.5"/>
 <text text-anchor="start" x="184" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Time::FPSCounter</text>
@@ -23,13 +23,13 @@
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node8 -->
-<g id="edge1" class="edge"><title>Node7&#45;&gt;Node8</title>
+<!-- Node9&#45;&gt;Node10 -->
+<g id="edge1" class="edge"><title>Node9&#45;&gt;Node10</title>
 <path fill="none" stroke="midnightblue" d="M101.577,-103.607C122.415,-113.768 150.708,-127.3 176,-138.5 179.783,-140.175 183.72,-141.877 187.684,-143.562"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="186.345,-146.796 196.921,-147.441 189.056,-140.342 186.345,-146.796"/>
 </g>
-<!-- Node9 -->
-<g id="node3" class="node"><title>Node9</title>
+<!-- Node11 -->
+<g id="node3" class="node"><title>Node11</title>
 <g id="a_node3"><a xlink:href="classobe_1_1_time_1_1_f_p_s_counter.html#ad3dfdc34721c2c87ead665b5a4fe9fc2" target="_top" xlink:title="Load a new font to use when drawing the stats. ">
 <polygon fill="white" stroke="black" points="176,-98.5 176,-128.5 295,-128.5 295,-98.5 176,-98.5"/>
 <text text-anchor="start" x="184" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Time::FPSCounter</text>
@@ -37,13 +37,13 @@
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node9 -->
-<g id="edge2" class="edge"><title>Node7&#45;&gt;Node9</title>
+<!-- Node9&#45;&gt;Node11 -->
+<g id="edge2" class="edge"><title>Node9&#45;&gt;Node11</title>
 <path fill="none" stroke="midnightblue" d="M140.339,-99.1023C148.754,-100.389 157.349,-101.703 165.755,-102.989"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="165.477,-106.487 175.891,-104.538 166.535,-99.5671 165.477,-106.487"/>
 </g>
-<!-- Node10 -->
-<g id="node4" class="node"><title>Node10</title>
+<!-- Node12 -->
+<g id="node4" class="node"><title>Node12</title>
 <g id="a_node4"><a xlink:href="classobe_1_1_time_1_1_f_p_s_counter.html#a566d3fc89be18bdca3d5c3bff744157c" target="_top" xlink:title="Called when screen is refreshed. ">
 <polygon fill="white" stroke="black" points="176,-49.5 176,-79.5 295,-79.5 295,-49.5 176,-49.5"/>
 <text text-anchor="start" x="184" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Time::FPSCounter</text>
@@ -51,13 +51,13 @@
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node10 -->
-<g id="edge3" class="edge"><title>Node7&#45;&gt;Node10</title>
+<!-- Node9&#45;&gt;Node12 -->
+<g id="edge3" class="edge"><title>Node9&#45;&gt;Node12</title>
 <path fill="none" stroke="midnightblue" d="M140.339,-78.3218C148.754,-77.0866 157.349,-75.825 165.755,-74.591"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="166.506,-78.0184 175.891,-73.1031 165.489,-71.0926 166.506,-78.0184"/>
 </g>
-<!-- Node12 -->
-<g id="node6" class="node"><title>Node12</title>
+<!-- Node14 -->
+<g id="node6" class="node"><title>Node14</title>
 <g id="a_node6"><a xlink:href="classobe_1_1_time_1_1_f_p_s_counter.html#a6ba9c8888c7ec299c525c1be0f7bde78" target="_top" xlink:title="Called when game is updated. ">
 <polygon fill="white" stroke="black" points="176,-0.5 176,-30.5 295,-30.5 295,-0.5 176,-0.5"/>
 <text text-anchor="start" x="184" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Time::FPSCounter</text>
@@ -65,26 +65,26 @@
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node12 -->
-<g id="edge5" class="edge"><title>Node7&#45;&gt;Node12</title>
+<!-- Node9&#45;&gt;Node14 -->
+<g id="edge5" class="edge"><title>Node9&#45;&gt;Node14</title>
 <path fill="none" stroke="midnightblue" d="M103.54,-73.3715C124.231,-63.8151 151.619,-51.2804 176,-40.5 180.378,-38.5641 184.951,-36.567 189.527,-34.5851"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="191.064,-37.734 198.862,-30.5624 188.293,-31.3055 191.064,-37.734"/>
 </g>
-<!-- Node11 -->
-<g id="node5" class="node"><title>Node11</title>
+<!-- Node13 -->
+<g id="node5" class="node"><title>Node13</title>
 <g id="a_node5"><a xlink:href="namespaceobe_1_1_time.html#a8ae76b1e66dea054aced3ab86ecb6d3f" target="_top" xlink:title="Get the amount of milliseconds elapsed since Epoch. ">
 <polygon fill="white" stroke="black" points="331,-30 331,-49 480,-49 480,-30 331,-30"/>
 <text text-anchor="middle" x="405.5" y="-37" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Time::getTickSinceEpoch</text>
 </a>
 </g>
 </g>
-<!-- Node10&#45;&gt;Node11 -->
-<g id="edge4" class="edge"><title>Node10&#45;&gt;Node11</title>
+<!-- Node12&#45;&gt;Node13 -->
+<g id="edge4" class="edge"><title>Node12&#45;&gt;Node13</title>
 <path fill="none" stroke="midnightblue" d="M295.258,-55.7562C306.602,-54.0682 318.622,-52.2794 330.381,-50.5296"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="331.247,-53.9393 340.623,-49.0055 330.217,-47.0156 331.247,-53.9393"/>
 </g>
-<!-- Node12&#45;&gt;Node11 -->
-<g id="edge6" class="edge"><title>Node12&#45;&gt;Node11</title>
+<!-- Node14&#45;&gt;Node13 -->
+<g id="edge6" class="edge"><title>Node14&#45;&gt;Node13</title>
 <path fill="none" stroke="midnightblue" d="M295.258,-23.894C305.763,-25.3947 316.848,-26.9783 327.768,-28.5383"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="327.334,-32.0118 337.729,-29.9612 328.324,-25.0821 327.334,-32.0118"/>
 </g>

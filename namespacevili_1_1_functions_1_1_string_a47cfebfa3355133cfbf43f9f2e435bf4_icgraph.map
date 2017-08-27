@@ -1,41 +1,44 @@
 <map id="vili::Functions::String::isStringInt" name="vili::Functions::String::isStringInt">
-<area shape="rect" id="node2" href="$namespacevili_1_1_functions_1_1_string.html#aca6ed3733eb589db103e3a2b0fcc24b2" title="Get if the string is a number. " alt="" coords="205,195,347,237"/>
-<area shape="rect" id="node3" href="$namespaceobe_1_1_bindings_1_1_utils_bindings.html#ac6a7876ca7b713af93592696f54740e9" title="obe::Bindings::UtilsBindings\l::loadStringUtils" alt="" coords="405,195,591,237"/>
-<area shape="rect" id="node4" href="$classvili_1_1_complex_node.html#a1ef080cca91f585d1ef616c678057ede" title="Writes the ComplexNode to a file. " alt="" coords="669,78,803,119"/>
-<area shape="rect" id="node6" href="$classvili_1_1_link_node.html#a7d237573208ae570b0711ffa537488b8" title="Get the Node the LinkNode is pointing to. " alt="" coords="196,597,356,624"/>
-<area shape="rect" id="node11" href="$namespacevili_1_1_types.html#a954a0d867af2b4d9b5aba4a5e9ce3603" title="Determines the DataType of a string representation of the value. " alt="" coords="199,377,353,404"/>
-<area shape="rect" id="node37" href="$namespaceobe_1_1_editor_1_1_g_u_i.html#a0e86f334cbb96c0202f6cf5626aa81a1" title="obe::Editor::GUI::buildEditor\lSettingsMenu" alt="" coords="1121,538,1305,579"/>
-<area shape="rect" id="node38" href="$namespaceobe_1_1_script_1_1_data_bridge.html#ac301b43d6ca9d8bbbec21147eef4076b" title="Converts a Lua Variable to a Vili BaseAttribute. " alt="" coords="404,479,592,521"/>
-<area shape="rect" id="node40" href="$namespaceobe_1_1_utils_1_1_string.html#a4a0ce1266a31a750dfeeab20ecdd155f" title="Get if the string is a number. " alt="" coords="215,261,337,302"/>
-<area shape="rect" id="node5" href="$classvili_1_1_complex_node.html#ad6d24a98270eaba537a3641632f7e1e7" title="Access a casted Node in the tree using a path (with multiple path parts) (.at(&quot;NodeA&quot;, &quot;NodeB&quot;, &quot;NodeB&quot;) for example) " alt="" coords="899,5,1043,32"/>
-<area shape="rect" id="node7" href="$classvili_1_1_link_node.html#a4912faf06362f3c85c9eac8b3bab2e62" title="Transforms the LinkNode to a copy of the pointed Node. " alt="" coords="429,597,567,624"/>
-<area shape="rect" id="node10" href="$classvili_1_1_link_node.html#aeff8225b14125edbfaf6ffeed9949d70" title="vili::LinkNode::get" alt="" coords="436,648,560,675"/>
-<area shape="rect" id="node8" href="$classvili_1_1_link_node.html#ab2e7abc29a9e7f39a49cf836772c8d34" title="Gets the Node the LinkNode is pointing to and casts it. " alt="" coords="674,600,798,627"/>
-<area shape="rect" id="node9" href="$classvili_1_1_node_constraint_manager.html#ac5b60874aec02ede1226715337b60828" title="Checks if all constraints on the Argument value are accepted. " alt="" coords="880,597,1063,638"/>
-<area shape="rect" id="node12" href="$classvili_1_1_data_node.html#a8899a6a4145920b0c28059e364b0653c" title="Automatically determines the DataType and affects the value. " alt="" coords="422,377,574,404"/>
-<area shape="rect" id="node15" href="$classvili_1_1_vili_parser.html#abf78e297a322d2e500a04172928d7c67" title="Parses a .vili file. " alt="" coords="1132,297,1293,324"/>
-<area shape="rect" id="node13" href="$classvili_1_1_complex_node.html#a5fb28422d884d1ed937026ba88014a87" title="Creates a DataNode in the ComplexNode. " alt="" coords="669,202,803,243"/>
-<area shape="rect" id="node29" href="$classvili_1_1_vili_parser.html#a17a7a333c47610bd163316256c994b67" title="Generates a NodeTemplate from a ComplexNode which should be a direct child of the Root..." alt="" coords="892,290,1051,331"/>
-<area shape="rect" id="node36" href="$classvili_1_1_data_node.html#acb7b4c282649f20d2c864f7cd172c83b" title="vili::DataNode::~DataNode" alt="" coords="649,377,823,404"/>
-<area shape="rect" id="node14" href="$classvili_1_1_complex_node.html#a3cd795e46a0b11466df1486ee982e69f" title="Creates a DataNode in the ComplexNode. " alt="" coords="905,107,1038,149"/>
-<area shape="rect" id="node18" href="$namespaceobe_1_1_modes.html#aba069f9abc42724d76690602326d6b7d" title="obe::Modes::createLevel" alt="" coords="1585,160,1748,187"/>
-<area shape="rect" id="node30" href="$classobe_1_1_scene_1_1_scene.html#a7af64c188e60cc5b6588223a0118625c" title="Dumps all elements of the Scene in a vili tree. " alt="" coords="885,480,1058,507"/>
-<area shape="rect" id="node33" href="$namespaceobe_1_1_system_1_1_package.html#ad8db0c0875d239ceec4b89383b410c51" title="Installs a Package. " alt="" coords="894,173,1049,214"/>
-<area shape="rect" id="node16" href="$classvili_1_1_vili_parser.html#a99cb54088fabdcf4182fd1593648a47f" title="Creates a ViliParser and parses the file at the given path. " alt="" coords="1368,297,1532,324"/>
-<area shape="rect" id="node17" href="$classvili_1_1_vili_parser.html#ab0484fbda61b08d2a97c6fc229638d06" title="Includes a .vili file (all parsed content will be non&#45;visible) " alt="" coords="1365,247,1535,273"/>
-<area shape="rect" id="node22" href="$namespaceobe_1_1_system.html#ab44a678f8f4dc351d966f90283ba67e1" title="Function called to Mount all Paths using &#39;Mount.vili&#39; file. " alt="" coords="1363,348,1537,375"/>
-<area shape="rect" id="node19" href="$namespaceobe_1_1_modes.html#a3f3265818dfb12925bf614e517346f73" title="Starts the menu used to chose a map to edit. " alt="" coords="2403,227,2600,253"/>
-<area shape="rect" id="node20" href="$namespaceobe_1_1_modes.html#a6a8b08eee511d4895c4da96d4ba223a6" title="Starts the development Menu where you can starts other menus from. " alt="" coords="2648,277,2825,304"/>
-<area shape="rect" id="node21" href="$_ob_engine_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="2873,328,2924,355"/>
-<area shape="rect" id="node23" href="$namespaceobe_1_1_script_1_1_core_lib.html#a474d9f2d7938ff05a78649907b8a77d3" title="obe::Script::CoreLib\l::loadPath" alt="" coords="1598,309,1735,350"/>
-<area shape="rect" id="node24" href="$namespaceobe_1_1_script.html#abdb81ec0976f1097cef6711415b8fac3" title="obe::Script::loadCoreLib" alt="" coords="1796,219,1957,245"/>
-<area shape="rect" id="node25" href="$namespaceobe_1_1_script.html#a4e6ee77032cf7f66544f9b08464a60b7" title="obe::Script::loadLib" alt="" coords="2007,328,2141,355"/>
-<area shape="rect" id="node28" href="$namespaceobe_1_1_script_1_1_core_lib.html#a07d6c11bbb082bc45bdba50d97965c00" title="obe::Script::CoreLib\l::loadCollision" alt="" coords="2005,211,2143,253"/>
-<area shape="rect" id="node26" href="$namespaceobe_1_1_modes.html#a1e38c0d9a2ca0230f0de79c298f53ab9" title="A mode that will start the Toolkit. " alt="" coords="2404,328,2599,355"/>
-<area shape="rect" id="node27" href="$namespaceobe_1_1_script.html#aad6ef67388e6d16eb01853f208da410f" title="obe::Script::loadBaseLib" alt="" coords="2191,379,2355,405"/>
-<area shape="rect" id="node31" href="$namespaceobe_1_1_editor.html#ac84a3ef3300fd334ad4e8adbfa050578" title="obe::Editor::connectSave\lActions" alt="" coords="1129,473,1296,514"/>
-<area shape="rect" id="node32" href="$namespaceobe_1_1_editor.html#a9009207671e71dccb68a31ea2362e9ef" title="Starts the map edition. " alt="" coords="1807,480,1946,507"/>
-<area shape="rect" id="node34" href="$namespaceobe_1_1_bindings_1_1_system_bindings.html#a22c5b1adb0db866c60e5dd2e4cd73c1b" title="obe::Bindings::SystemBindings\l::LoadPackage" alt="" coords="1111,231,1315,273"/>
-<area shape="rect" id="node35" href="$namespaceobe_1_1_script_1_1_core_lib.html#a1f5462552ef202ab28d4e0613eeda3f7" title="obe::Script::CoreLib\l::loadPackage" alt="" coords="1598,211,1735,253"/>
-<area shape="rect" id="node39" href="$namespaceobe_1_1_script_1_1_data_bridge.html#ab84835ac688f75b78af2d61fb48f1a18" title="Converts a Lua Table to a Vili ComplexAttribute. " alt="" coords="640,479,832,521"/>
+<area shape="rect" id="node2" href="$namespacevili_1_1_functions_1_1_string.html#aca6ed3733eb589db103e3a2b0fcc24b2" title="Get if the string is a number. " alt="" coords="208,96,351,138"/>
+<area shape="rect" id="node3" href="$namespaceobe_1_1_bindings_1_1_utils_bindings.html#ac6a7876ca7b713af93592696f54740e9" title="obe::Bindings::UtilsBindings\l::loadStringUtils" alt="" coords="411,96,596,138"/>
+<area shape="rect" id="node6" href="$classvili_1_1_complex_node.html#a1ef080cca91f585d1ef616c678057ede" title="Writes the ComplexNode to a file. " alt="" coords="646,526,779,567"/>
+<area shape="rect" id="node9" href="$classvili_1_1_link_node.html#a7d237573208ae570b0711ffa537488b8" title="Get the Node the LinkNode is pointing to. " alt="" coords="423,598,583,625"/>
+<area shape="rect" id="node22" href="$namespacevili_1_1_types.html#a954a0d867af2b4d9b5aba4a5e9ce3603" title="Determines the DataType of a string representation of the value. " alt="" coords="203,278,356,305"/>
+<area shape="rect" id="node40" href="$namespaceobe_1_1_editor_1_1_g_u_i.html#a0e86f334cbb96c0202f6cf5626aa81a1" title="obe::Editor::GUI::buildEditor\lSettingsMenu" alt="" coords="411,650,595,691"/>
+<area shape="rect" id="node41" href="$namespaceobe_1_1_script_1_1_data_bridge.html#a7c8d40def72e58e44ec2e3efbed68536" title="Converts a Lua Variable to a Vili BaseAttribute. " alt="" coords="196,640,363,682"/>
+<area shape="rect" id="node43" href="$namespaceobe_1_1_utils_1_1_string.html#a4a0ce1266a31a750dfeeab20ecdd155f" title="Get if the string is a number. " alt="" coords="218,162,341,203"/>
+<area shape="rect" id="node4" href="$namespaceobe_1_1_bindings.html#a41d33207a0199f125c75a0f70a4a3ba8" title="To call when the engine starts, indexes all Lua bindings. " alt="" coords="1825,322,2015,349"/>
+<area shape="rect" id="node5" href="$_ob_engine_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="2292,373,2343,400"/>
+<area shape="rect" id="node7" href="$classvili_1_1_complex_node.html#ad6d24a98270eaba537a3641632f7e1e7" title="Access a casted Node in the tree using a path (with multiple path parts) (.at(&quot;NodeA&quot;, &quot;NodeB&quot;, &quot;NodeB&quot;) for example) " alt="" coords="846,533,990,560"/>
+<area shape="rect" id="node8" href="$namespaceobe_1_1_bindings_1_1_vili_bindings.html#a1e41fb34d5eef62ebd8c29b99f499276" title="obe::Bindings::ViliBindings\l::LoadViliComplexNode" alt="" coords="829,584,1007,626"/>
+<area shape="rect" id="node10" href="$classvili_1_1_link_node.html#a4912faf06362f3c85c9eac8b3bab2e62" title="Transforms the LinkNode to a copy of the pointed Node. " alt="" coords="644,673,781,700"/>
+<area shape="rect" id="node14" href="$namespaceobe_1_1_bindings_1_1_vili_bindings.html#af5e34049e0220ae5eb0801dc909a93ec" title="obe::Bindings::ViliBindings\l::LoadViliLinkNode" alt="" coords="829,767,1007,808"/>
+<area shape="rect" id="node21" href="$classvili_1_1_link_node.html#aeff8225b14125edbfaf6ffeed9949d70" title="vili::LinkNode::get" alt="" coords="651,598,775,625"/>
+<area shape="rect" id="node11" href="$classvili_1_1_link_node.html#ab2e7abc29a9e7f39a49cf836772c8d34" title="Gets the Node the LinkNode is pointing to and casts it. " alt="" coords="856,716,980,742"/>
+<area shape="rect" id="node15" href="$namespaceobe_1_1_editor.html#af8c2ea92f8d718d85f019f9a27a91262" title="Builds an Object through Parameters. " alt="" coords="839,650,997,691"/>
+<area shape="rect" id="node12" href="$classvili_1_1_node_constraint_manager.html#ac5b60874aec02ede1226715337b60828" title="Checks if all constraints on the Argument value are accepted. " alt="" coords="1065,690,1248,731"/>
+<area shape="rect" id="node13" href="$namespaceobe_1_1_bindings_1_1_vili_bindings.html#abb316424dd526a33b33a311f152281ea" title="obe::Bindings::ViliBindings\l::LoadViliNodeConstraintManager" alt="" coords="1307,678,1521,719"/>
+<area shape="rect" id="node16" href="$namespaceobe_1_1_editor.html#a28799f83f6d2fc2c4fe20479e69fb720" title="Builds the RequiresPanel that will transmit Init parameters to the GameObject. " alt="" coords="1071,607,1242,648"/>
+<area shape="rect" id="node17" href="$namespaceobe_1_1_editor.html#a97c53e73ef3b12081baff754032596e9" title="Builds the Editor Object Tab. " alt="" coords="1325,614,1503,641"/>
+<area shape="rect" id="node18" href="$namespaceobe_1_1_editor_1_1_g_u_i.html#a1daea0dffefb4df9eb22870d7477bcf0" title="obe::Editor::GUI::buildEditor\lObjectsMenu" alt="" coords="1579,607,1763,648"/>
+<area shape="rect" id="node19" href="$namespaceobe_1_1_editor.html#a9009207671e71dccb68a31ea2362e9ef" title="Starts the map edition. " alt="" coords="1851,549,1989,576"/>
+<area shape="rect" id="node20" href="$namespaceobe_1_1_modes.html#a6a8b08eee511d4895c4da96d4ba223a6" title="Starts the development Menu where you can starts other menus from. " alt="" coords="2067,424,2244,450"/>
+<area shape="rect" id="node23" href="$classvili_1_1_data_node.html#a8899a6a4145920b0c28059e364b0653c" title="Automatically determines the DataType and affects the value. " alt="" coords="427,162,579,189"/>
+<area shape="rect" id="node25" href="$classvili_1_1_vili_parser.html#abf78e297a322d2e500a04172928d7c67" title="Parses a .vili file. " alt="" coords="1076,221,1237,248"/>
+<area shape="rect" id="node24" href="$classvili_1_1_complex_node.html#a5fb28422d884d1ed937026ba88014a87" title="Creates a DataNode in the ComplexNode. " alt="" coords="646,399,779,440"/>
+<area shape="rect" id="node33" href="$classvili_1_1_vili_parser.html#a17a7a333c47610bd163316256c994b67" title="Generates a NodeTemplate from a ComplexNode which should be a direct child of the Root..." alt="" coords="839,96,997,138"/>
+<area shape="rect" id="node39" href="$namespaceobe_1_1_bindings_1_1_vili_bindings.html#ae4c87ab5a464ebb9aa3b3dc0fdc45678" title="obe::Bindings::ViliBindings\l::LoadViliDataNode" alt="" coords="1068,54,1245,95"/>
+<area shape="rect" id="node29" href="$namespaceobe_1_1_modes.html#aba069f9abc42724d76690602326d6b7d" title="obe::Modes::createLevel" alt="" coords="1590,373,1753,400"/>
+<area shape="rect" id="node34" href="$classobe_1_1_scene_1_1_scene.html#a7af64c188e60cc5b6588223a0118625c" title="Dumps all elements of the Scene in a vili tree. " alt="" coords="1327,432,1501,458"/>
+<area shape="rect" id="node37" href="$namespaceobe_1_1_system_1_1_package.html#ad8db0c0875d239ceec4b89383b410c51" title="Installs a Package. " alt="" coords="841,315,995,356"/>
+<area shape="rect" id="node26" href="$classvili_1_1_vili_parser.html#a99cb54088fabdcf4182fd1593648a47f" title="Creates a ViliParser and parses the file at the given path. " alt="" coords="1332,272,1496,298"/>
+<area shape="rect" id="node27" href="$classvili_1_1_vili_parser.html#ab0484fbda61b08d2a97c6fc229638d06" title="Includes a .vili file (all parsed content will be non&#45;visible) " alt="" coords="1329,221,1499,248"/>
+<area shape="rect" id="node31" href="$namespaceobe_1_1_system.html#ab44a678f8f4dc351d966f90283ba67e1" title="Function called to Mount all Paths using &#39;Mount.vili&#39; file. " alt="" coords="1327,120,1501,146"/>
+<area shape="rect" id="node28" href="$namespaceobe_1_1_bindings_1_1_vili_bindings.html#a2a6e6e94c5f087a6db0ede8023deb0c8" title="obe::Bindings::ViliBindings\l::LoadViliViliParser" alt="" coords="1583,214,1760,255"/>
+<area shape="rect" id="node30" href="$namespaceobe_1_1_modes.html#a3f3265818dfb12925bf614e517346f73" title="Starts the menu used to chose a map to edit. " alt="" coords="1821,373,2019,400"/>
+<area shape="rect" id="node32" href="$namespaceobe_1_1_bindings_1_1_system_bindings.html#a2cd44a60b6250b8e4279e7bd0ad077db" title="obe::Bindings::SystemBindings\l::LoadMountablePath" alt="" coords="1569,147,1773,188"/>
+<area shape="rect" id="node35" href="$namespaceobe_1_1_bindings_1_1_scene_bindings.html#af7c6cb8cc46286eba7ddbe55ffe7d296" title="obe::Bindings::SceneBindings\l::LoadScene" alt="" coords="1573,424,1769,466"/>
+<area shape="rect" id="node36" href="$namespaceobe_1_1_editor.html#a19631d61170bd127227951fc535189ea" title="obe::Editor::connectSave\lActions" alt="" coords="1588,542,1755,583"/>
+<area shape="rect" id="node38" href="$namespaceobe_1_1_bindings_1_1_system_bindings.html#a22c5b1adb0db866c60e5dd2e4cd73c1b" title="obe::Bindings::SystemBindings\l::LoadPackage" alt="" coords="1055,315,1259,356"/>
+<area shape="rect" id="node42" href="$namespaceobe_1_1_script_1_1_data_bridge.html#ae7828933b076f3f89fb2a806132e7720" title="Converts a Lua Table to a Vili ComplexAttribute. " alt="" coords="417,715,590,756"/>
 </map>

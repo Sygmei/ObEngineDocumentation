@@ -8,27 +8,27 @@
  viewBox="0.00 0.00 449.00 77.50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 73.5)">
 <title>obe::Animation::Animation::update</title>
-<!-- Node304 -->
-<g id="node1" class="node"><title>Node304</title>
+<!-- Node179 -->
+<g id="node1" class="node"><title>Node179</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-22.5 0,-52.5 131,-52.5 131,-22.5 0,-22.5"/>
 <text text-anchor="start" x="8" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Animation::Animation</text>
 <text text-anchor="middle" x="65.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">::update</text>
 </g>
-<!-- Node305 -->
-<g id="node2" class="node"><title>Node305</title>
+<!-- Node180 -->
+<g id="node2" class="node"><title>Node180</title>
 <g id="a_node2"><a xlink:href="namespaceobe_1_1_time.html#a8ae76b1e66dea054aced3ab86ecb6d3f" target="_top" xlink:title="Get the amount of milliseconds elapsed since Epoch. ">
 <polygon fill="white" stroke="black" points="167,-50 167,-69 316,-69 316,-50 167,-50"/>
 <text text-anchor="middle" x="241.5" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Time::getTickSinceEpoch</text>
 </a>
 </g>
 </g>
-<!-- Node304&#45;&gt;Node305 -->
-<g id="edge1" class="edge"><title>Node304&#45;&gt;Node305</title>
+<!-- Node179&#45;&gt;Node180 -->
+<g id="edge1" class="edge"><title>Node179&#45;&gt;Node180</title>
 <path fill="none" stroke="midnightblue" d="M131.291,-45.692C139.625,-46.7457 148.25,-47.8362 156.832,-48.9212"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="156.506,-52.4078 166.866,-50.19 157.384,-45.4631 156.506,-52.4078"/>
 </g>
-<!-- Node306 -->
-<g id="node3" class="node"><title>Node306</title>
+<!-- Node181 -->
+<g id="node3" class="node"><title>Node181</title>
 <g id="a_node3"><a xlink:href="namespaceobe_1_1_utils_1_1_string.html#ad9d5afbd60c8e3c6894ad5c782de001a" target="_top" xlink:title="Replace all the occurences of search to replace in the string subject in place. ">
 <polygon fill="white" stroke="black" points="197,-0.5 197,-30.5 286,-30.5 286,-0.5 197,-0.5"/>
 <text text-anchor="start" x="205" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Utils::String</text>
@@ -36,13 +36,13 @@
 </a>
 </g>
 </g>
-<!-- Node304&#45;&gt;Node306 -->
-<g id="edge2" class="edge"><title>Node304&#45;&gt;Node306</title>
+<!-- Node179&#45;&gt;Node181 -->
+<g id="edge2" class="edge"><title>Node179&#45;&gt;Node181</title>
 <path fill="none" stroke="midnightblue" d="M131.291,-29.308C149.545,-27 169.197,-24.5153 186.73,-22.2985"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="187.3,-25.7544 196.782,-21.0276 186.422,-18.8097 187.3,-25.7544"/>
 </g>
-<!-- Node307 -->
-<g id="node4" class="node"><title>Node307</title>
+<!-- Node182 -->
+<g id="node4" class="node"><title>Node182</title>
 <g id="a_node4"><a xlink:href="namespaceobe_1_1_utils_1_1_string.html#ad648e63a60e1fce71a321037fbee4e30" target="_top" xlink:title="Replace all the occurences of search to replace in the string subject. ">
 <polygon fill="white" stroke="black" points="352,-0.5 352,-30.5 441,-30.5 441,-0.5 352,-0.5"/>
 <text text-anchor="start" x="360" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Utils::String</text>
@@ -50,8 +50,8 @@
 </a>
 </g>
 </g>
-<!-- Node306&#45;&gt;Node307 -->
-<g id="edge3" class="edge"><title>Node306&#45;&gt;Node307</title>
+<!-- Node181&#45;&gt;Node182 -->
+<g id="edge3" class="edge"><title>Node181&#45;&gt;Node182</title>
 <path fill="none" stroke="midnightblue" d="M286.344,-15.5C303.623,-15.5 323.639,-15.5 341.776,-15.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="341.915,-19.0001 351.915,-15.5 341.915,-12.0001 341.915,-19.0001"/>
 </g>

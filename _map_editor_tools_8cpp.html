@@ -73,6 +73,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;cmath&gt;</code><br />
+<code>#include &lt;unordered_map&gt;</code><br />
 <code>#include &lt;<a class="el" href="_map_editor_tools_8hpp_source.html">Editor/MapEditorTools.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_scene_8hpp_source.html">Scene/Scene.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_game_object_8hpp_source.html">Script/GameObject.hpp</a>&gt;</code><br />
@@ -99,16 +100,21 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a24423ada9fd467ae78ebf9d21e64db0b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_editor.html#a24423ada9fd467ae78ebf9d21e64db0b">obe::Editor::buildObjectTab</a> (tgui::Panel::Ptr &amp;objectPanel, tgui::Panel::Ptr &amp;requiresPanel, tgui::Theme &amp;baseTheme)</td></tr>
-<tr class="separator:a24423ada9fd467ae78ebf9d21e64db0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab548dfe02b4323438bcf9caedd01d696"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_editor.html#ab548dfe02b4323438bcf9caedd01d696">obe::Editor::buildRequiresObjectTab</a> (tgui::Panel::Ptr &amp;requiresPanel, tgui::Theme &amp;baseTheme, std::string objName)</td></tr>
-<tr class="separator:ab548dfe02b4323438bcf9caedd01d696"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a7fb0b670f18cdbc1c6858344f77a86"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_editor.html#a4a7fb0b670f18cdbc1c6858344f77a86">obe::Editor::buildObjectThroughRequire</a> (std::string objName)</td></tr>
-<tr class="separator:a4a7fb0b670f18cdbc1c6858344f77a86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7700319c196fd0ad0c381df012809869"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_editor.html#a7700319c196fd0ad0c381df012809869">obe::Editor::loadSpriteFolder</a> (tgui::Panel::Ptr spritesPanel, tgui::Label::Ptr spritesCatLabel, std::string path)</td></tr>
-<tr class="separator:a7700319c196fd0ad0c381df012809869"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98df387085b87692b2458ada49d8c8a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_editor.html#a98df387085b87692b2458ada49d8c8a3">obe::Editor::addSpriteToWorld</a> (std::string geid)</td></tr>
-<tr class="separator:a98df387085b87692b2458ada49d8c8a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97c53e73ef3b12081baff754032596e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_editor.html#a97c53e73ef3b12081baff754032596e9">obe::Editor::buildObjectTab</a> (tgui::Panel::Ptr &amp;objectPanel, tgui::Panel::Ptr &amp;requiresPanel, tgui::Theme &amp;baseTheme, tgui::Scrollbar::Ptr objectsScrollbar)</td></tr>
+<tr class="memdesc:a97c53e73ef3b12081baff754032596e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds the <a class="el" href="namespaceobe_1_1_editor.html" title="Classes and Functions related to the Map Editor. ">Editor</a> Object Tab.  <a href="namespaceobe_1_1_editor.html#a97c53e73ef3b12081baff754032596e9">More...</a><br /></td></tr>
+<tr class="separator:a97c53e73ef3b12081baff754032596e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28799f83f6d2fc2c4fe20479e69fb720"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_editor.html#a28799f83f6d2fc2c4fe20479e69fb720">obe::Editor::buildRequiresObjectTab</a> (tgui::Panel::Ptr &amp;requiresPanel, tgui::Theme &amp;baseTheme, const std::string &amp;objName)</td></tr>
+<tr class="memdesc:a28799f83f6d2fc2c4fe20479e69fb720"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds the RequiresPanel that will transmit Init parameters to the GameObject.  <a href="namespaceobe_1_1_editor.html#a28799f83f6d2fc2c4fe20479e69fb720">More...</a><br /></td></tr>
+<tr class="separator:a28799f83f6d2fc2c4fe20479e69fb720"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8c2ea92f8d718d85f019f9a27a91262"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_editor.html#af8c2ea92f8d718d85f019f9a27a91262">obe::Editor::buildObjectThroughRequire</a> (const std::string &amp;objName, <a class="el" href="classvili_1_1_complex_node.html">vili::ComplexNode</a> *requires)</td></tr>
+<tr class="memdesc:af8c2ea92f8d718d85f019f9a27a91262"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds an Object through Parameters.  <a href="namespaceobe_1_1_editor.html#af8c2ea92f8d718d85f019f9a27a91262">More...</a><br /></td></tr>
+<tr class="separator:af8c2ea92f8d718d85f019f9a27a91262"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bca8475fc1405c827c5e114d11f4fb3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_editor.html#a8bca8475fc1405c827c5e114d11f4fb3">obe::Editor::loadSpriteFolder</a> (tgui::Panel::Ptr spritesPanel, tgui::Label::Ptr spritesCatLabel, const std::string &amp;path, tgui::Scrollbar::Ptr spritesScrollbar)</td></tr>
+<tr class="memdesc:a8bca8475fc1405c827c5e114d11f4fb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the Sprite Folder.  <a href="namespaceobe_1_1_editor.html#a8bca8475fc1405c827c5e114d11f4fb3">More...</a><br /></td></tr>
+<tr class="separator:a8bca8475fc1405c827c5e114d11f4fb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaed66366b795d2792e154b8eff1241a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_editor.html#aaed66366b795d2792e154b8eff1241a1">obe::Editor::addSpriteToScene</a> (const std::string &amp;spritePath)</td></tr>
+<tr class="memdesc:aaed66366b795d2792e154b8eff1241a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a Sprite to the <a class="el" href="namespaceobe_1_1_scene.html" title="Classes and Functions to work with the Scene. ">Scene</a>.  <a href="namespaceobe_1_1_editor.html#aaed66366b795d2792e154b8eff1241a1">More...</a><br /></td></tr>
+<tr class="separator:aaed66366b795d2792e154b8eff1241a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

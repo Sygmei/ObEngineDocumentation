@@ -81,11 +81,11 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a0afc65ec988650f9dc3ddf05226a659c"><td class="memItemLeft" align="right" valign="top">sf::Texture *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_resource_manager.html#a0afc65ec988650f9dc3ddf05226a659c">getTexture</a> (const std::string &amp;path)</td></tr>
-<tr class="memdesc:a0afc65ec988650f9dc3ddf05226a659c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the texture at the given path.<br />
+<tr class="memitem:a3b86e7ca642d84df71879b05fbbee49c"><td class="memItemLeft" align="right" valign="top">sf::Texture *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_resource_manager.html#a3b86e7ca642d84df71879b05fbbee49c">getTexture</a> (const std::string &amp;path, bool antiAliasing=false)</td></tr>
+<tr class="memdesc:a3b86e7ca642d84df71879b05fbbee49c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the texture at the given path.<br />
  If it's already in cache it returns the cached version.<br />
- Otherwise it loads the texture and caches it.  <a href="#a0afc65ec988650f9dc3ddf05226a659c">More...</a><br /></td></tr>
-<tr class="separator:a0afc65ec988650f9dc3ddf05226a659c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+ Otherwise it loads the texture and caches it.  <a href="#a3b86e7ca642d84df71879b05fbbee49c">More...</a><br /></td></tr>
+<tr class="separator:a3b86e7ca642d84df71879b05fbbee49c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -124,14 +124,14 @@ Static Public Member Functions</h2></td></tr>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_graphics_1_1_resource_manager_a472f230262b5d4f8e42ccef134376dac_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_graphics_1_1_resource_manager_a472f230262b5d4f8e42ccef134376dac_icgraph.svg" width="100%" height="597"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
 </div>
 </div>
-<a id="a0afc65ec988650f9dc3ddf05226a659c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0afc65ec988650f9dc3ddf05226a659c">&#9670;&nbsp;</a></span>getTexture()</h2>
+<a id="a3b86e7ca642d84df71879b05fbbee49c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b86e7ca642d84df71879b05fbbee49c">&#9670;&nbsp;</a></span>getTexture()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -140,8 +140,18 @@ Here is the caller graph for this function:</div>
           <td class="memname">sf::Texture * obe::Graphics::ResourceManager::getTexture </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>path</em></td><td>)</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>antiAliasing</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -152,6 +162,7 @@ Here is the caller graph for this function:</div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">path</td><td>Relative of absolute path to the texture, it uses the <a class="el" href="classobe_1_1_system_1_1_path.html" title="Class used to manipulate paths and dynamically load resources (Based on multiple mounted paths) ...">obe::System::Path</a> loading system </td></tr>
+    <tr><td class="paramname">antiAliasing</td><td>Uses Anti-Aliasing for the texture when first loading it </td></tr>
   </table>
   </dd>
 </dl>
@@ -159,13 +170,13 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_graphics_1_1_resource_manager_a0afc65ec988650f9dc3ddf05226a659c_cgraph.svg" width="100%" height="486"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_graphics_1_1_resource_manager_a3b86e7ca642d84df71879b05fbbee49c_cgraph.svg" width="100%" height="552"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_graphics_1_1_resource_manager_a0afc65ec988650f9dc3ddf05226a659c_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_graphics_1_1_resource_manager_a3b86e7ca642d84df71879b05fbbee49c_icgraph.svg" width="100%" height="597"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 

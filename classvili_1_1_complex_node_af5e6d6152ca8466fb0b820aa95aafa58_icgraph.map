@@ -1,21 +1,25 @@
 <map id="vili::ComplexNode::getLinkNode" name="vili::ComplexNode::getLinkNode">
-<area shape="rect" id="node2" href="$classvili_1_1_complex_node.html#a752c953cc9c13b9578971fa147b2b53e" title="Creates a LinkNode in the ComplexNode. " alt="" coords="187,78,320,119"/>
-<area shape="rect" id="node3" href="$classvili_1_1_vili_parser.html#abf78e297a322d2e500a04172928d7c67" title="Parses a .vili file. " alt="" coords="368,56,529,83"/>
-<area shape="rect" id="node17" href="$classvili_1_1_complex_node.html#ad6d24a98270eaba537a3641632f7e1e7" title="Access a casted Node in the tree using a path (with multiple path parts) (.at(&quot;NodeA&quot;, &quot;NodeB&quot;, &quot;NodeB&quot;) for example) " alt="" coords="377,173,521,200"/>
-<area shape="rect" id="node18" href="$classvili_1_1_complex_node.html#aaf217c8a5f9c985378f85e4b714b8d5a" title="Pushes an existing LinkNode in the ComplexNode. " alt="" coords="187,195,320,237"/>
-<area shape="rect" id="node19" href="$classvili_1_1_complex_node.html#a1ef080cca91f585d1ef616c678057ede" title="Writes the ComplexNode to a file. " alt="" coords="187,261,320,302"/>
-<area shape="rect" id="node20" href="$classvili_1_1_node_template.html#a057fe6cb4fd621a62443ad2b2dd004ff" title="Builds the NodeTemplate and creates the ComplexNode in parent. " alt="" coords="190,326,317,367"/>
-<area shape="rect" id="node4" href="$classvili_1_1_vili_parser.html#a99cb54088fabdcf4182fd1593648a47f" title="Creates a ViliParser and parses the file at the given path. " alt="" coords="583,5,747,32"/>
-<area shape="rect" id="node5" href="$classvili_1_1_vili_parser.html#ab0484fbda61b08d2a97c6fc229638d06" title="Includes a .vili file (all parsed content will be non&#45;visible) " alt="" coords="579,56,750,83"/>
-<area shape="rect" id="node10" href="$namespaceobe_1_1_system.html#ab44a678f8f4dc351d966f90283ba67e1" title="Function called to Mount all Paths using &#39;Mount.vili&#39; file. " alt="" coords="577,136,752,163"/>
-<area shape="rect" id="node6" href="$namespaceobe_1_1_modes.html#aba069f9abc42724d76690602326d6b7d" title="obe::Modes::createLevel" alt="" coords="800,41,963,68"/>
-<area shape="rect" id="node7" href="$namespaceobe_1_1_modes.html#a3f3265818dfb12925bf614e517346f73" title="Starts the menu used to chose a map to edit. " alt="" coords="1617,35,1815,61"/>
-<area shape="rect" id="node8" href="$namespaceobe_1_1_modes.html#a6a8b08eee511d4895c4da96d4ba223a6" title="Starts the development Menu where you can starts other menus from. " alt="" coords="1863,85,2040,112"/>
-<area shape="rect" id="node9" href="$_ob_engine_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="2088,111,2139,137"/>
-<area shape="rect" id="node11" href="$namespaceobe_1_1_script_1_1_core_lib.html#a474d9f2d7938ff05a78649907b8a77d3" title="obe::Script::CoreLib\l::loadPath" alt="" coords="813,129,950,170"/>
-<area shape="rect" id="node12" href="$namespaceobe_1_1_script.html#abdb81ec0976f1097cef6711415b8fac3" title="obe::Script::loadCoreLib" alt="" coords="1011,136,1172,163"/>
-<area shape="rect" id="node13" href="$namespaceobe_1_1_script.html#a4e6ee77032cf7f66544f9b08464a60b7" title="obe::Script::loadLib" alt="" coords="1221,77,1356,104"/>
-<area shape="rect" id="node16" href="$namespaceobe_1_1_script_1_1_core_lib.html#a07d6c11bbb082bc45bdba50d97965c00" title="obe::Script::CoreLib\l::loadCollision" alt="" coords="1220,129,1357,170"/>
-<area shape="rect" id="node14" href="$namespaceobe_1_1_modes.html#a1e38c0d9a2ca0230f0de79c298f53ab9" title="A mode that will start the Toolkit. " alt="" coords="1619,103,1813,129"/>
-<area shape="rect" id="node15" href="$namespaceobe_1_1_script.html#aad6ef67388e6d16eb01853f208da410f" title="obe::Script::loadBaseLib" alt="" coords="1405,128,1569,155"/>
+<area shape="rect" id="node2" href="$classvili_1_1_complex_node.html#a752c953cc9c13b9578971fa147b2b53e" title="Creates a LinkNode in the ComplexNode. " alt="" coords="199,53,333,94"/>
+<area shape="rect" id="node3" href="$classvili_1_1_vili_parser.html#abf78e297a322d2e500a04172928d7c67" title="Parses a .vili file. " alt="" coords="401,59,563,85"/>
+<area shape="rect" id="node14" href="$classvili_1_1_complex_node.html#ad6d24a98270eaba537a3641632f7e1e7" title="Access a casted Node in the tree using a path (with multiple path parts) (.at(&quot;NodeA&quot;, &quot;NodeB&quot;, &quot;NodeB&quot;) for example) " alt="" coords="410,240,554,267"/>
+<area shape="rect" id="node15" href="$namespaceobe_1_1_bindings_1_1_vili_bindings.html#a1e41fb34d5eef62ebd8c29b99f499276" title="obe::Bindings::ViliBindings\l::LoadViliComplexNode" alt="" coords="393,170,571,211"/>
+<area shape="rect" id="node16" href="$classvili_1_1_complex_node.html#aaf217c8a5f9c985378f85e4b714b8d5a" title="Pushes an existing LinkNode in the ComplexNode. " alt="" coords="199,170,333,211"/>
+<area shape="rect" id="node17" href="$classvili_1_1_complex_node.html#a1ef080cca91f585d1ef616c678057ede" title="Writes the ComplexNode to a file. " alt="" coords="199,235,333,277"/>
+<area shape="rect" id="node18" href="$classvili_1_1_node_template.html#a057fe6cb4fd621a62443ad2b2dd004ff" title="Builds the NodeTemplate and creates the ComplexNode in parent. " alt="" coords="419,338,545,379"/>
+<area shape="rect" id="node20" href="$namespaceobe_1_1_editor.html#af8c2ea92f8d718d85f019f9a27a91262" title="Builds an Object through Parameters. " alt="" coords="187,403,345,445"/>
+<area shape="rect" id="node4" href="$classvili_1_1_vili_parser.html#a99cb54088fabdcf4182fd1593648a47f" title="Creates a ViliParser and parses the file at the given path. " alt="" coords="626,5,790,32"/>
+<area shape="rect" id="node5" href="$classvili_1_1_vili_parser.html#ab0484fbda61b08d2a97c6fc229638d06" title="Includes a .vili file (all parsed content will be non&#45;visible) " alt="" coords="623,107,793,133"/>
+<area shape="rect" id="node12" href="$namespaceobe_1_1_system.html#ab44a678f8f4dc351d966f90283ba67e1" title="Function called to Mount all Paths using &#39;Mount.vili&#39; file. " alt="" coords="621,56,795,83"/>
+<area shape="rect" id="node6" href="$namespaceobe_1_1_bindings_1_1_vili_bindings.html#a2a6e6e94c5f087a6db0ede8023deb0c8" title="obe::Bindings::ViliBindings\l::LoadViliViliParser" alt="" coords="859,221,1036,262"/>
+<area shape="rect" id="node9" href="$namespaceobe_1_1_modes.html#aba069f9abc42724d76690602326d6b7d" title="obe::Modes::createLevel" alt="" coords="866,104,1029,131"/>
+<area shape="rect" id="node7" href="$namespaceobe_1_1_bindings.html#a41d33207a0199f125c75a0f70a4a3ba8" title="To call when the engine starts, indexes all Lua bindings. " alt="" coords="1101,228,1291,255"/>
+<area shape="rect" id="node8" href="$_ob_engine_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="1568,203,1619,229"/>
+<area shape="rect" id="node10" href="$namespaceobe_1_1_modes.html#a3f3265818dfb12925bf614e517346f73" title="Starts the menu used to chose a map to edit. " alt="" coords="1097,152,1295,179"/>
+<area shape="rect" id="node11" href="$namespaceobe_1_1_modes.html#a6a8b08eee511d4895c4da96d4ba223a6" title="Starts the development Menu where you can starts other menus from. " alt="" coords="1343,253,1520,280"/>
+<area shape="rect" id="node13" href="$namespaceobe_1_1_bindings_1_1_system_bindings.html#a2cd44a60b6250b8e4279e7bd0ad077db" title="obe::Bindings::SystemBindings\l::LoadMountablePath" alt="" coords="845,155,1049,197"/>
+<area shape="rect" id="node19" href="$namespaceobe_1_1_bindings_1_1_vili_bindings.html#a67d684da80239e641ce57cc87e1ce095" title="obe::Bindings::ViliBindings\l::LoadViliNodeTemplate" alt="" coords="619,338,797,379"/>
+<area shape="rect" id="node21" href="$namespaceobe_1_1_editor.html#a28799f83f6d2fc2c4fe20479e69fb720" title="Builds the RequiresPanel that will transmit Init parameters to the GameObject. " alt="" coords="397,403,567,445"/>
+<area shape="rect" id="node22" href="$namespaceobe_1_1_editor.html#a97c53e73ef3b12081baff754032596e9" title="Builds the Editor Object Tab. " alt="" coords="619,407,797,433"/>
+<area shape="rect" id="node23" href="$namespaceobe_1_1_editor_1_1_g_u_i.html#a1daea0dffefb4df9eb22870d7477bcf0" title="obe::Editor::GUI::buildEditor\lObjectsMenu" alt="" coords="855,398,1039,439"/>
+<area shape="rect" id="node24" href="$namespaceobe_1_1_editor.html#a9009207671e71dccb68a31ea2362e9ef" title="Starts the map edition. " alt="" coords="1127,304,1265,331"/>
 </map>

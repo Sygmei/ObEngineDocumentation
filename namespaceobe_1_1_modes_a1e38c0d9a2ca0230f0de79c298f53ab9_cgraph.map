@@ -1,51 +1,16 @@
 <map id="obe::Modes::startToolkitMode" name="obe::Modes::startToolkitMode">
-<area shape="rect" id="node2" href="$namespaceobe_1_1_script.html#a4e6ee77032cf7f66544f9b08464a60b7" title="obe::Script::loadLib" alt="" coords="466,1965,601,1991"/>
-<area shape="rect" id="node48" href="$namespaceobe_1_1_script.html#aad6ef67388e6d16eb01853f208da410f" title="obe::Script::loadBaseLib" alt="" coords="248,2015,412,2042"/>
-<area shape="rect" id="node3" href="$namespaceobe_1_1_utils_1_1_string.html#a6304ccfbd6a3bf086bd3189609381f70" title="Count of the occurences of occur in string str. " alt="" coords="665,1989,806,2031"/>
-<area shape="rect" id="node4" href="$namespaceobe_1_1_utils_1_1_string.html#a074d624ca5936545dc32c0b5e423050d" title="Splits a std::string using a delimited. " alt="" coords="676,2055,795,2096"/>
-<area shape="rect" id="node5" href="$namespaceobe_1_1_script.html#abdb81ec0976f1097cef6711415b8fac3" title="obe::Script::loadCoreLib" alt="" coords="655,1110,816,1137"/>
-<area shape="rect" id="node23" href="$classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b" title="Raises an Error loaded in the Aube Error Database (AED) " alt="" coords="1123,1332,1254,1373"/>
-<area shape="rect" id="node47" href="$namespaceobe_1_1_utils_1_1_vector.html#aa91429dca9edd1a2e438eaa4928ab65c" title="Get a subpart of the given std::vector. " alt="" coords="674,1924,797,1965"/>
-<area shape="rect" id="node6" href="$namespaceobe_1_1_script.html#a693e94bba1739aff313696a126a19253" title="obe::Script::checkIfAlready\lImported" alt="" coords="864,776,1043,817"/>
-<area shape="rect" id="node7" href="$namespaceobe_1_1_script_1_1_core_lib.html#ad3e8d674e535b8a534a3bed6f311d701" title="obe::Script::CoreLib\l::loadAnimation" alt="" coords="885,397,1022,439"/>
-<area shape="rect" id="node9" href="$namespaceobe_1_1_utils_1_1_vector.html#a964ff22524706c50e054f29d98b8ba6d" title="Join all elements of a std::string into a std::string using a separator. " alt="" coords="1127,1041,1250,1083"/>
-<area shape="rect" id="node28" href="$namespaceobe_1_1_script_1_1_core_lib.html#a772776d97a60ef5addf168dfe2ac0be7" title="obe::Script::CoreLib\l::loadCamera" alt="" coords="885,1495,1022,1536"/>
-<area shape="rect" id="node29" href="$namespaceobe_1_1_script_1_1_core_lib.html#af26163717868816732249a1232b38e23" title="obe::Script::CoreLib\l::loadCanvas" alt="" coords="885,1560,1022,1601"/>
-<area shape="rect" id="node30" href="$namespaceobe_1_1_script_1_1_core_lib.html#a07d6c11bbb082bc45bdba50d97965c00" title="obe::Script::CoreLib\l::loadCollision" alt="" coords="885,711,1022,752"/>
-<area shape="rect" id="node31" href="$namespaceobe_1_1_script_1_1_core_lib.html#ad0a0a4d8fdd1cdfe5d7177c1267e4d16" title="obe::Script::CoreLib\l::loadConsole" alt="" coords="885,1233,1022,1275"/>
-<area shape="rect" id="node32" href="$namespaceobe_1_1_script_1_1_core_lib.html#ac402ed4d67a537e338d92ee57d2441aa" title="obe::Script::CoreLib\l::loadConstants" alt="" coords="885,1429,1022,1471"/>
-<area shape="rect" id="node33" href="$namespaceobe_1_1_script_1_1_core_lib.html#a8b313257cdb3bef245614c95a6fe0d6e" title="obe::Script::CoreLib\l::loadCoordinates" alt="" coords="885,1364,1022,1405"/>
-<area shape="rect" id="node34" href="$namespaceobe_1_1_script_1_1_core_lib.html#adc976091c779b7a03984d210b9285983" title="obe::Script::CoreLib\l::loadCursor" alt="" coords="885,841,1022,883"/>
-<area shape="rect" id="node35" href="$namespaceobe_1_1_script_1_1_core_lib.html#a76d426d953a15194b3903710bbbc79e5" title="obe::Script::CoreLib\l::loadFilesystem" alt="" coords="885,580,1022,621"/>
-<area shape="rect" id="node36" href="$namespaceobe_1_1_script_1_1_core_lib.html#a322becadd912e278e81c00894bf83fec" title="obe::Script::CoreLib\l::loadKeyBind" alt="" coords="885,907,1022,948"/>
-<area shape="rect" id="node37" href="$namespaceobe_1_1_script_1_1_core_lib.html#a0acdeaec72b98cd716f4a56bd9fd4571" title="obe::Script::CoreLib\l::loadLevelSprite" alt="" coords="885,1103,1022,1144"/>
-<area shape="rect" id="node38" href="$namespaceobe_1_1_script_1_1_core_lib.html#a1f5462552ef202ab28d4e0613eeda3f7" title="obe::Script::CoreLib\l::loadPackage" alt="" coords="885,1168,1022,1209"/>
-<area shape="rect" id="node39" href="$namespaceobe_1_1_script_1_1_core_lib.html#a474d9f2d7938ff05a78649907b8a77d3" title="obe::Script::CoreLib\l::loadPath" alt="" coords="885,645,1022,687"/>
-<area shape="rect" id="node40" href="$namespaceobe_1_1_script_1_1_core_lib.html#a0d760984dbfe9e6ea73ad803f6b0e0cd" title="obe::Script::CoreLib\l::loadSelectable" alt="" coords="885,515,1022,556"/>
-<area shape="rect" id="node41" href="$namespaceobe_1_1_script_1_1_core_lib.html#ac6f9468f6539a68808b99868ba38a5de" title="obe::Script::CoreLib\l::loadSFML" alt="" coords="885,1756,1022,1797"/>
-<area shape="rect" id="node42" href="$namespaceobe_1_1_script_1_1_core_lib.html#a90640a9a9da1a14786a445076cf66f5b" title="obe::Script::CoreLib\l::loadSound" alt="" coords="885,1299,1022,1340"/>
-<area shape="rect" id="node43" href="$namespaceobe_1_1_script_1_1_core_lib.html#a78bcbf0e6332639829199d3518c7dc3b" title="obe::Script::CoreLib\l::loadSTD" alt="" coords="885,972,1022,1013"/>
-<area shape="rect" id="node44" href="$namespaceobe_1_1_script_1_1_core_lib.html#a94684c4b34b9c53b5bcf31d052cf6faf" title="obe::Script::CoreLib\l::loadTrigger" alt="" coords="885,1037,1022,1079"/>
-<area shape="rect" id="node45" href="$namespaceobe_1_1_script_1_1_core_lib.html#a370267169d9423accfb45268eedd9fe0" title="obe::Script::CoreLib\l::loadUtils" alt="" coords="885,1625,1022,1667"/>
-<area shape="rect" id="node46" href="$namespaceobe_1_1_script_1_1_core_lib.html#a144f31cc8b37c8d19a05138691229059" title="obe::Script::CoreLib\l::loadVili" alt="" coords="885,1691,1022,1732"/>
-<area shape="rect" id="node8" href="$namespaceobe_1_1_script.html#a9582bae7b61bf604c2a68a8a016356ec" title="obe::Script::registerLib" alt="" coords="1112,1110,1265,1137"/>
-<area shape="rect" id="node10" href="$classobe_1_1_animation_1_1_animation_group.html#a0b056c66c2d92069410cdb55e2b6909f" title="Set the delay between each frame of the AnimationGroup. " alt="" coords="1101,593,1276,635"/>
-<area shape="rect" id="node11" href="$classobe_1_1_animation_1_1_animation_group.html#a290408374f6903f3f237daadd2178862" title="Set how many times the AnimationGroup should be replayed before end. " alt="" coords="1101,659,1276,700"/>
-<area shape="rect" id="node12" href="$classobe_1_1_animation_1_1_animation_group.html#af60aa78a4377e33f6a0e18083418fbca" title="Get the name of the AnimationGroup. " alt="" coords="1101,724,1276,765"/>
-<area shape="rect" id="node13" href="$classobe_1_1_animation_1_1_animation_group.html#a8beccd25d19e3b36161b027a9a0ef8f6" title="Get the delay between each frame of the AnimationGroup. " alt="" coords="1101,789,1276,831"/>
-<area shape="rect" id="node14" href="$classobe_1_1_animation_1_1_animation_group.html#a013a9f7ec1616283e6e332778f6cc434" title="Get the current index of AnimationGroup. " alt="" coords="1101,5,1276,47"/>
-<area shape="rect" id="node15" href="$classobe_1_1_animation_1_1_animation_group.html#ac5c095a14efd953ff555dae844cbec64" title="Get if the AnimationGroup is done playing. " alt="" coords="1101,71,1276,112"/>
-<area shape="rect" id="node16" href="$classobe_1_1_animation_1_1_animation_group.html#a8a85e1a1f2fd23675150e39c7b294f98" title="Adds a new texture to the AnimationGroup. " alt="" coords="1101,136,1276,177"/>
-<area shape="rect" id="node17" href="$classobe_1_1_animation_1_1_animation_group.html#a0f76d691aa6fd17851817ee5ce305a11" title="Removes the texture at the given index in the AnimationGroup. " alt="" coords="1091,201,1287,243"/>
-<area shape="rect" id="node18" href="$classobe_1_1_animation_1_1_animation_group.html#a6a5f30969a518dac497e90eaef18df4e" title="Resets the AnimationGroup (Index to 0, Loops to 0, Delay to 0) " alt="" coords="1101,267,1276,308"/>
-<area shape="rect" id="node19" href="$classobe_1_1_animation_1_1_animation_group.html#a14d260dc9a73e32ed4de0e273040acb0" title="Increment index of the current texture to be displayed. &#160;If max index is reached and no more loops..." alt="" coords="1101,332,1276,373"/>
-<area shape="rect" id="node20" href="$classobe_1_1_animation_1_1_animation_group.html#a8db016eb6aead5f5cbbe0ed102b57f88" title="Decrement index of the current texture to be displayed. &#160;If index reach 0 and no more loops..." alt="" coords="1101,397,1276,439"/>
-<area shape="rect" id="node21" href="$classobe_1_1_animation_1_1_animation_group.html#ad86bb28de21445e1b72cdc43941d61f1" title="Just like AnimationGroup::next without any checks. " alt="" coords="1101,463,1276,504"/>
-<area shape="rect" id="node22" href="$classobe_1_1_animation_1_1_animation_group.html#a6a1b08ad59cec8a89622a6bede04aded" title="Just like AnimationGroup::previous without any checks. " alt="" coords="1101,528,1276,569"/>
-<area shape="rect" id="node24" href="$classaube_1_1_error_message.html#a3a39b6fcd8fdb12eaf6383123535b8ca" title="Gets the File where is located the ErrorMessage when raised. " alt="" coords="1335,1233,1473,1275"/>
-<area shape="rect" id="node25" href="$classaube_1_1_error_message.html#a9184cc96589578f434351c105b0cd5f7" title="Gets the location of the error in the code. " alt="" coords="1335,1299,1473,1340"/>
-<area shape="rect" id="node26" href="$classaube_1_1_error_message.html#a07927cb3e2d0712c459cc9e2b5f52696" title="Gets the message displayed by the ErrorMessage when raised. " alt="" coords="1335,1364,1473,1405"/>
-<area shape="rect" id="node27" href="$classaube_1_1_error_message.html#a77c2f9b7e93542c958173b52da267989" title="Gets hints that can help the error resolution. " alt="" coords="1335,1429,1473,1471"/>
-<area shape="rect" id="node49" href="$namespaceobe_1_1_script.html#a93f11dc0cdd5fc4a7ff54cb89f54c877" title="obe::Script::loadHook" alt="" coords="460,2055,607,2082"/>
-<area shape="rect" id="node50" href="$classobe_1_1_script_1_1_core_hook.html#a538af6eb1b935aa7cbf6623a404675ea" title="obe::Script::CoreHook\l::getValue" alt="" coords="660,2120,811,2161"/>
+<area shape="rect" id="node2" href="$classtgui_1_1_toolkit_content_box.html#ac91f5d8d0936313a2e8ca904facaa4a2" title="Creates a new chat box widget. " alt="" coords="248,77,405,119"/>
+<area shape="rect" id="node3" href="$namespaceobe_1_1_bindings.html#ad571e5338f682c5657773d5b96de5a40" title="Loads a Library in the Lua VM. " alt="" coords="258,143,395,170"/>
+<area shape="rect" id="node13" href="$namespaceobe_1_1_script.html#a93f11dc0cdd5fc4a7ff54cb89f54c877" title="obe::Script::loadHook" alt="" coords="253,194,400,221"/>
+<area shape="rect" id="node15" href="$namespaceobe_1_1_utils_1_1_string.html#ad648e63a60e1fce71a321037fbee4e30" title="Replace all the occurences of search to replace in the string subject. " alt="" coords="267,245,386,287"/>
+<area shape="rect" id="node4" href="$namespaceobe_1_1_utils_1_1_string.html#a074d624ca5936545dc32c0b5e423050d" title="Splits a std::string using a delimited. " alt="" coords="483,47,601,88"/>
+<area shape="rect" id="node5" href="$classobe_1_1_bindings_1_1_binding_tree.html#abd1469a96862ddff5207480ac94d2172" title="Walks to BindingTree node at path. " alt="" coords="453,136,631,177"/>
+<area shape="rect" id="node6" href="$classobe_1_1_bindings_1_1_binding_tree.html#aee1b95444575e106c46e13bf399bf454" title="Checks if the BindingTree node contains a child with the given id. " alt="" coords="679,5,856,47"/>
+<area shape="rect" id="node7" href="$namespaceobe_1_1_utils_1_1_vector.html#aa91429dca9edd1a2e438eaa4928ab65c" title="Get a subpart of the given std::vector. " alt="" coords="706,71,829,112"/>
+<area shape="rect" id="node8" href="$classobe_1_1_bindings_1_1_binding_tree.html#ab8d6c8f7cd6703e6f86e861ce276a1dd" title="Accesses a direct child of the BindingTree Node. " alt="" coords="679,136,856,177"/>
+<area shape="rect" id="node9" href="$classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b" title="Raises an Error loaded in the Aube Error Database (AED) " alt="" coords="904,195,1035,236"/>
+<area shape="rect" id="node10" href="$classaube_1_1_error_message.html#a9184cc96589578f434351c105b0cd5f7" title="Gets the location of the error in the code. " alt="" coords="1083,129,1221,171"/>
+<area shape="rect" id="node11" href="$classaube_1_1_error_message.html#a07927cb3e2d0712c459cc9e2b5f52696" title="Gets the message displayed by the ErrorMessage when raised. " alt="" coords="1083,195,1221,236"/>
+<area shape="rect" id="node12" href="$classaube_1_1_error_message.html#a77c2f9b7e93542c958173b52da267989" title="Gets hints that can help the error resolution. " alt="" coords="1083,260,1221,301"/>
+<area shape="rect" id="node14" href="$classobe_1_1_script_1_1_core_hook.html#a538af6eb1b935aa7cbf6623a404675ea" title="obe::Script::CoreHook\l::getValue" alt="" coords="467,224,617,265"/>
 </map>

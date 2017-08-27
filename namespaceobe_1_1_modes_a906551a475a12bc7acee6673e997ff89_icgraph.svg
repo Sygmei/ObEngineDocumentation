@@ -57,52 +57,52 @@ var sectionId = 'dynsection-1';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>obe::Modes::chooseMapAddMaps</title>
-<!-- Node26 -->
-<g id="node1" class="node"><title>Node26</title>
+<!-- Node25 -->
+<g id="node1" class="node"><title>Node25</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-0.5 0,-19.5 165,-19.5 165,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="82.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Modes::chooseMapAddMaps</text>
 </g>
-<!-- Node27 -->
-<g id="node2" class="node"><title>Node27</title>
+<!-- Node26 -->
+<g id="node2" class="node"><title>Node26</title>
 <g id="a_node2"><a xlink:href="namespaceobe_1_1_modes.html#a3f3265818dfb12925bf614e517346f73" target="_top" xlink:title="Starts the menu used to chose a map to edit. ">
-<polygon fill="white" stroke="black" points="201,-0.5 201,-19.5 349,-19.5 349,-0.5 201,-0.5"/>
+<polygon fill="none" stroke="black" points="201,-0.5 201,-19.5 349,-19.5 349,-0.5 201,-0.5"/>
 <text text-anchor="middle" x="275" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Modes::chooseMapMenu</text>
 </a>
 </g>
 </g>
-<!-- Node26&#45;&gt;Node27 -->
-<g id="edge1" class="edge"><title>Node26&#45;&gt;Node27</title>
+<!-- Node25&#45;&gt;Node26 -->
+<g id="edge1" class="edge"><title>Node25&#45;&gt;Node26</title>
 <path fill="none" stroke="midnightblue" d="M175.225,-10C183.863,-10 192.541,-10 200.972,-10"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="175.118,-6.5001 165.118,-10 175.118,-13.5001 175.118,-6.5001"/>
 </g>
-<!-- Node28 -->
-<g id="node3" class="node"><title>Node28</title>
+<!-- Node27 -->
+<g id="node3" class="node"><title>Node27</title>
 <g id="a_node3"><a xlink:href="namespaceobe_1_1_modes.html#a6a8b08eee511d4895c4da96d4ba223a6" target="_top" xlink:title="Starts the development Menu where you can starts other menus from. ">
-<polygon fill="white" stroke="black" points="385,-19.5 385,-38.5 518,-38.5 518,-19.5 385,-19.5"/>
+<polygon fill="none" stroke="black" points="385,-19.5 385,-38.5 518,-38.5 518,-19.5 385,-19.5"/>
 <text text-anchor="middle" x="451.5" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Modes::startDevMenu</text>
 </a>
 </g>
 </g>
-<!-- Node27&#45;&gt;Node28 -->
-<g id="edge2" class="edge"><title>Node27&#45;&gt;Node28</title>
+<!-- Node26&#45;&gt;Node27 -->
+<g id="edge2" class="edge"><title>Node26&#45;&gt;Node27</title>
 <path fill="none" stroke="midnightblue" d="M359.303,-19.0703C367.909,-20.0072 376.565,-20.9498 384.937,-21.8614"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="359.565,-15.5782 349.245,-17.9751 358.808,-22.5371 359.565,-15.5782"/>
 </g>
-<!-- Node29 -->
-<g id="node4" class="node"><title>Node29</title>
+<!-- Node28 -->
+<g id="node4" class="node"><title>Node28</title>
 <g id="a_node4"><a xlink:href="_ob_engine_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" target="_top" xlink:title="main">
-<polygon fill="white" stroke="black" points="554,-0.5 554,-19.5 592,-19.5 592,-0.5 554,-0.5"/>
+<polygon fill="none" stroke="black" points="554,-0.5 554,-19.5 592,-19.5 592,-0.5 554,-0.5"/>
 <text text-anchor="middle" x="573" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">main</text>
 </a>
 </g>
 </g>
-<!-- Node27&#45;&gt;Node29 -->
-<g id="edge4" class="edge"><title>Node27&#45;&gt;Node29</title>
+<!-- Node26&#45;&gt;Node28 -->
+<g id="edge4" class="edge"><title>Node26&#45;&gt;Node28</title>
 <path fill="none" stroke="midnightblue" d="M359.345,-10C426.628,-10 516.101,-10 553.912,-10"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="359.169,-6.5001 349.169,-10 359.169,-13.5001 359.169,-6.5001"/>
 </g>
-<!-- Node28&#45;&gt;Node29 -->
-<g id="edge3" class="edge"><title>Node28&#45;&gt;Node29</title>
+<!-- Node27&#45;&gt;Node28 -->
+<g id="edge3" class="edge"><title>Node27&#45;&gt;Node28</title>
 <path fill="none" stroke="midnightblue" d="M522.822,-17.8192C534.345,-15.9869 545.327,-14.2409 553.978,-12.8654"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="521.926,-14.4174 512.6,-19.4443 523.026,-21.3306 521.926,-14.4174"/>
 </g>

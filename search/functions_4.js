@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['datanode',['DataNode',['../classvili_1_1_data_node.html#a054a8a7e218425e9bcc16d884f2b00cb',1,'vili::DataNode::DataNode(ContainerNode *parent, const std::string &amp;id, const DataType &amp;dataType)'],['../classvili_1_1_data_node.html#ad228e07e6db3f3eb424306dbe28cfda5',1,'vili::DataNode::DataNode(const std::string &amp;id, const DataType &amp;dataType)']]],
-  ['datatolua',['dataToLua',['../namespaceobe_1_1_script_1_1_data_bridge.html#a8ca78c3e79031b87ebe233c6c79bfbcf',1,'obe::Script::DataBridge']]],
+  ['data',['Data',['../unionvili_1_1_data_node_1_1_data.html#aa6379ed7541bfd5694e6868145969437',1,'vili::DataNode::Data']]],
+  ['datanode',['DataNode',['../classvili_1_1_data_node.html#a054a8a7e218425e9bcc16d884f2b00cb',1,'vili::DataNode::DataNode(ContainerNode *parent, const std::string &amp;id, const DataType &amp;dataType)'],['../classvili_1_1_data_node.html#ad228e07e6db3f3eb424306dbe28cfda5',1,'vili::DataNode::DataNode(const std::string &amp;id, const DataType &amp;dataType)'],['../classvili_1_1_data_node.html#a79c17e162ba7d3c6c8b31b848769c685',1,'vili::DataNode::DataNode(const DataNode &amp;copy)']]],
+  ['datanodetoluaelement',['dataNodeToLuaElement',['../namespaceobe_1_1_script_1_1_data_bridge.html#a6562bae55ed86f92737628638fd835fc',1,'obe::Script::DataBridge']]],
+  ['datatolua',['dataToLua',['../namespaceobe_1_1_script_1_1_data_bridge.html#a7861dbbae848d140daac164976c457dd',1,'obe::Script::DataBridge']]],
   ['datatypetostring',['dataTypeToString',['../namespacevili_1_1_types.html#ac195a27b2ff3164cfb8aeba0222fad03',1,'vili::Types']]],
   ['delaytriggerstate',['delayTriggerState',['../classobe_1_1_triggers_1_1_trigger_group.html#a9f4f062f25c20132efc022fbadd5745a',1,'obe::Triggers::TriggerGroup']]],
   ['deletedirectory',['deleteDirectory',['../namespaceobe_1_1_utils_1_1_file.html#a2360d4034efd2fb6dd7beedece7b42a7',1,'obe::Utils::File']]],
@@ -10,7 +12,7 @@ var searchData=
   ['deletepoint',['deletePoint',['../classobe_1_1_collision_1_1_polygonal_collider.html#ade0d925b13fbd4d9a6188ad3ab4996c4',1,'obe::Collision::PolygonalCollider']]],
   ['directoryexists',['directoryExists',['../namespaceobe_1_1_utils_1_1_file.html#a9a3888e6d0bc0fdb87bce0ee16f5cfe3',1,'obe::Utils::File']]],
   ['disable',['disable',['../classobe_1_1_types_1_1_togglable.html#a609f06170810a0e6a13c607f2e3a66fb',1,'obe::Types::Togglable']]],
-  ['display',['display',['../classobe_1_1_debug_1_1_console.html#a1fa3a050a1b70270e39ed955f72f15b9',1,'obe::Debug::Console::display()'],['../classobe_1_1_scene_1_1_scene.html#a0f7a2b5789b697ca7023bc62c770ff90',1,'obe::Scene::Scene::display()'],['../classobe_1_1_system_1_1_cursor.html#a74d6631529346dc12cc2ac7eca55b333',1,'obe::System::Cursor::display()'],['../classobe_1_1_transform_1_1_rect.html#ab31686dda7b1cd4a64c04609fa355060',1,'obe::Transform::Rect::display()']]],
+  ['display',['display',['../classobe_1_1_debug_1_1_console.html#a1fa3a050a1b70270e39ed955f72f15b9',1,'obe::Debug::Console::display()'],['../classobe_1_1_scene_1_1_scene.html#a0f7a2b5789b697ca7023bc62c770ff90',1,'obe::Scene::Scene::display()'],['../classobe_1_1_transform_1_1_rect.html#ab31686dda7b1cd4a64c04609fa355060',1,'obe::Transform::Rect::display()']]],
   ['doescollide',['doesCollide',['../classobe_1_1_collision_1_1_polygonal_collider.html#a0e3b07c0581d4383f5c14f48ca83de33',1,'obe::Collision::PolygonalCollider']]],
   ['doescolliderexists',['doesColliderExists',['../classobe_1_1_scene_1_1_scene.html#aa74d9fe8748a8c28cf1b5d65e8fbc2d2',1,'obe::Scene::Scene']]],
   ['doesgameobjectexists',['doesGameObjectExists',['../classobe_1_1_scene_1_1_scene.html#a30080d51979ce7f0a8a1d693bb30352e',1,'obe::Scene::Scene']]],

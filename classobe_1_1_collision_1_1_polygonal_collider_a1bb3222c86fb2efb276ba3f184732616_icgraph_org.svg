@@ -8,14 +8,14 @@
  viewBox="0.00 0.00 590.00 88.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 84)">
 <title>obe::Collision::PolygonalCollider::clearOriginChildren</title>
-<!-- Node61 -->
-<g id="node1" class="node"><title>Node61</title>
+<!-- Node32 -->
+<g id="node1" class="node"><title>Node32</title>
 <polygon fill="#bfbfbf" stroke="black" points="0,-24.5 0,-54.5 137,-54.5 137,-24.5 0,-24.5"/>
 <text text-anchor="start" x="8" y="-42.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Collision::Polygonal</text>
 <text text-anchor="middle" x="68.5" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">Collider::clearOriginChildren</text>
 </g>
-<!-- Node62 -->
-<g id="node2" class="node"><title>Node62</title>
+<!-- Node33 -->
+<g id="node2" class="node"><title>Node33</title>
 <g id="a_node2"><a xlink:href="namespaceobe_1_1_bindings_1_1_collision_bindings.html#a48f290ff49a763532bdf5bc65070d2d2" target="_top" xlink:title="obe::Bindings::Collision\lBindings::LoadPolygonalCollider">
 <polygon fill="white" stroke="black" points="173,-49.5 173,-79.5 329,-79.5 329,-49.5 173,-49.5"/>
 <text text-anchor="start" x="181" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Bindings::Collision</text>
@@ -23,13 +23,13 @@
 </a>
 </g>
 </g>
-<!-- Node61&#45;&gt;Node62 -->
-<g id="edge1" class="edge"><title>Node61&#45;&gt;Node62</title>
+<!-- Node32&#45;&gt;Node33 -->
+<g id="edge1" class="edge"><title>Node32&#45;&gt;Node33</title>
 <path fill="none" stroke="midnightblue" d="M147.401,-50.2896C155.819,-51.4555 164.383,-52.6417 172.793,-53.8065"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="147.611,-46.7853 137.225,-48.8802 146.65,-53.7191 147.611,-46.7853"/>
 </g>
-<!-- Node65 -->
-<g id="node5" class="node"><title>Node65</title>
+<!-- Node36 -->
+<g id="node5" class="node"><title>Node36</title>
 <g id="a_node5"><a xlink:href="classobe_1_1_collision_1_1_polygonal_collider.html#aad9b493d745dca4fa6ec11a049c02ca5" target="_top" xlink:title="Destructor of PolygonalCollider, removes origins. ">
 <polygon fill="white" stroke="black" points="183,-0.5 183,-30.5 319,-30.5 319,-0.5 183,-0.5"/>
 <text text-anchor="start" x="191" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Collision::Polygonal</text>
@@ -37,34 +37,34 @@
 </a>
 </g>
 </g>
-<!-- Node61&#45;&gt;Node65 -->
-<g id="edge4" class="edge"><title>Node61&#45;&gt;Node65</title>
+<!-- Node32&#45;&gt;Node36 -->
+<g id="edge4" class="edge"><title>Node32&#45;&gt;Node36</title>
 <path fill="none" stroke="midnightblue" d="M147.47,-29.1328C159.235,-27.5685 171.283,-25.9665 182.795,-24.4358"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="146.676,-25.7074 137.225,-30.495 147.599,-32.6463 146.676,-25.7074"/>
 </g>
-<!-- Node63 -->
-<g id="node3" class="node"><title>Node63</title>
-<g id="a_node3"><a xlink:href="namespaceobe_1_1_bindings.html#a41d33207a0199f125c75a0f70a4a3ba8" target="_top" xlink:title="obe::Bindings::IndexBindings">
+<!-- Node34 -->
+<g id="node3" class="node"><title>Node34</title>
+<g id="a_node3"><a xlink:href="namespaceobe_1_1_bindings.html#a41d33207a0199f125c75a0f70a4a3ba8" target="_top" xlink:title="To call when the engine starts, indexes all Lua bindings. ">
 <polygon fill="white" stroke="black" points="365,-55 365,-74 508,-74 508,-55 365,-55"/>
 <text text-anchor="middle" x="436.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">obe::Bindings::IndexBindings</text>
 </a>
 </g>
 </g>
-<!-- Node62&#45;&gt;Node63 -->
-<g id="edge2" class="edge"><title>Node62&#45;&gt;Node63</title>
+<!-- Node33&#45;&gt;Node34 -->
+<g id="edge2" class="edge"><title>Node33&#45;&gt;Node34</title>
 <path fill="none" stroke="midnightblue" d="M339.098,-64.5C347.718,-64.5 356.392,-64.5 364.816,-64.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="339.023,-61.0001 329.023,-64.5 339.023,-68.0001 339.023,-61.0001"/>
 </g>
-<!-- Node64 -->
-<g id="node4" class="node"><title>Node64</title>
+<!-- Node35 -->
+<g id="node4" class="node"><title>Node35</title>
 <g id="a_node4"><a xlink:href="_ob_engine_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" target="_top" xlink:title="main">
 <polygon fill="white" stroke="black" points="544,-55 544,-74 582,-74 582,-55 544,-55"/>
 <text text-anchor="middle" x="563" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">main</text>
 </a>
 </g>
 </g>
-<!-- Node63&#45;&gt;Node64 -->
-<g id="edge3" class="edge"><title>Node63&#45;&gt;Node64</title>
+<!-- Node34&#45;&gt;Node35 -->
+<g id="edge3" class="edge"><title>Node34&#45;&gt;Node35</title>
 <path fill="none" stroke="midnightblue" d="M518.161,-64.5C527.623,-64.5 536.462,-64.5 543.688,-64.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="518.117,-61.0001 508.117,-64.5 518.117,-68.0001 518.117,-61.0001"/>
 </g>

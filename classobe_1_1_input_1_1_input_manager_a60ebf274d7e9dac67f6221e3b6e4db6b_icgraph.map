@@ -1,15 +1,17 @@
 <map id="obe::Input::InputManager::getAction" name="obe::Input::InputManager::getAction">
-<area shape="rect" id="node2" href="$namespaceobe_1_1_bindings_1_1_input_bindings.html#a0e18c5fd5d863156b05c62dafface3b3" title="obe::Bindings::InputBindings\l::LoadInputManager" alt="" coords="492,25,679,67"/>
-<area shape="rect" id="node3" href="$namespaceobe_1_1_editor.html#a56ffe9497d350fd93d16d6b490538827" title="obe::Editor::connectColliders\lActions" alt="" coords="237,120,426,161"/>
-<area shape="rect" id="node4" href="$namespaceobe_1_1_editor.html#a9009207671e71dccb68a31ea2362e9ef" title="Starts the map edition. " alt="" coords="516,278,655,305"/>
-<area shape="rect" id="node7" href="$namespaceobe_1_1_editor.html#a50a7216d560227760c45d08bcbb16406" title="obe::Editor::connectCamMovement\lActions" alt="" coords="219,237,444,279"/>
-<area shape="rect" id="node8" href="$namespaceobe_1_1_editor.html#acb4c6766b5ad0659a806beac5ee111db" title="obe::Editor::connectMagnet\lActions" alt="" coords="240,303,423,344"/>
-<area shape="rect" id="node9" href="$namespaceobe_1_1_editor.html#a7d7c2fb31adfb86503b7f274e382ef3a" title="obe::Editor::connectMenu\lActions" alt="" coords="246,368,417,409"/>
-<area shape="rect" id="node10" href="$namespaceobe_1_1_editor.html#ac84a3ef3300fd334ad4e8adbfa050578" title="obe::Editor::connectSave\lActions" alt="" coords="248,433,415,475"/>
-<area shape="rect" id="node11" href="$namespaceobe_1_1_editor.html#a5de5f94b8886ba2a835eba8734a888df" title="obe::Editor::connectSprite\lLayerActions" alt="" coords="245,499,418,540"/>
-<area shape="rect" id="node12" href="$namespaceobe_1_1_editor.html#abb65591bc39719e5fb6c9be98d9ae1ee" title="obe::Editor::connectSprite\lActions" alt="" coords="245,564,418,605"/>
-<area shape="rect" id="node13" href="$classobe_1_1_input_1_1_input_manager.html#adf10d43635b0d5c29bbb4839d083e150" title="Configure KeyboardAction from a vili configuration file. " alt="" coords="249,55,414,96"/>
-<area shape="rect" id="node5" href="$namespaceobe_1_1_modes.html#a6a8b08eee511d4895c4da96d4ba223a6" title="Starts the development Menu where you can starts other menus from. " alt="" coords="727,227,904,254"/>
-<area shape="rect" id="node6" href="$_ob_engine_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="952,227,1003,254"/>
-<area shape="rect" id="node14" href="$namespaceobe_1_1_modes.html#a5f4a1008892030350b06282b8dee1a89" title="Start the game by loading the boot.lua file in one of the MountedPaths. " alt="" coords="506,177,665,203"/>
+<area shape="rect" id="node2" href="$namespaceobe_1_1_bindings_1_1_input_bindings.html#a0e18c5fd5d863156b05c62dafface3b3" title="obe::Bindings::InputBindings\l::LoadInputManager" alt="" coords="492,50,679,91"/>
+<area shape="rect" id="node5" href="$namespaceobe_1_1_editor.html#aa3cb1a8c423af767355cc211d0cfb805" title="Connects all Colliders&#39; related Actions in the Editor. " alt="" coords="237,115,426,157"/>
+<area shape="rect" id="node6" href="$namespaceobe_1_1_editor.html#a9009207671e71dccb68a31ea2362e9ef" title="Starts the map edition. " alt="" coords="516,300,655,327"/>
+<area shape="rect" id="node8" href="$namespaceobe_1_1_editor.html#a735e212bb83551b65407b45dba110cc6" title="obe::Editor::connectCamMovement\lActions" alt="" coords="219,233,444,274"/>
+<area shape="rect" id="node9" href="$namespaceobe_1_1_editor.html#a2d8998fcd282e0d972194002d2a43bb2" title="obe::Editor::connectGrid\lActions" alt="" coords="250,298,413,339"/>
+<area shape="rect" id="node10" href="$namespaceobe_1_1_editor.html#a182ecd233967e437f70f9cdeae0e7144" title="obe::Editor::connectMenu\lActions" alt="" coords="246,363,417,405"/>
+<area shape="rect" id="node11" href="$namespaceobe_1_1_editor.html#a19631d61170bd127227951fc535189ea" title="obe::Editor::connectSave\lActions" alt="" coords="248,429,415,470"/>
+<area shape="rect" id="node12" href="$namespaceobe_1_1_editor.html#a49bd88e66380497c81af8fc4d8c8b864" title="Connects Console&#39;s related Triggers. " alt="" coords="244,494,419,535"/>
+<area shape="rect" id="node13" href="$namespaceobe_1_1_editor.html#a4513c77341144adcdbdf7114e1f6f605" title="obe::Editor::connectSprite\lLayerActions" alt="" coords="245,559,418,601"/>
+<area shape="rect" id="node14" href="$namespaceobe_1_1_editor.html#ab6bfdaa8e8de8a30a00d270cd9d70d12" title="obe::Editor::connectSprite\lActions" alt="" coords="245,625,418,666"/>
+<area shape="rect" id="node15" href="$classobe_1_1_input_1_1_input_manager.html#adf10d43635b0d5c29bbb4839d083e150" title="Configure KeyboardAction from a vili configuration file. " alt="" coords="249,50,414,91"/>
+<area shape="rect" id="node3" href="$namespaceobe_1_1_bindings.html#a41d33207a0199f125c75a0f70a4a3ba8" title="To call when the engine starts, indexes all Lua bindings. " alt="" coords="727,64,917,91"/>
+<area shape="rect" id="node4" href="$_ob_engine_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="965,188,1016,215"/>
+<area shape="rect" id="node7" href="$namespaceobe_1_1_modes.html#a6a8b08eee511d4895c4da96d4ba223a6" title="Starts the development Menu where you can starts other menus from. " alt="" coords="733,213,911,240"/>
+<area shape="rect" id="node16" href="$namespaceobe_1_1_modes.html#a5f4a1008892030350b06282b8dee1a89" title="Start the game by loading the boot.lua file in one of the MountedPaths. " alt="" coords="506,163,665,189"/>
 </map>

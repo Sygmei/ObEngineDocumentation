@@ -67,6 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">GlobalState.hpp File Reference</div>  </div>
@@ -81,7 +82,7 @@ Include dependency graph for GlobalState.hpp:</div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="_global_state_8hpp__dep__incl.svg" width="100%" height="406"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="_global_state_8hpp__dep__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </div>
@@ -96,9 +97,25 @@ Namespaces</h2></td></tr>
 <tr class="memdesc:namespaceobe_1_1_script"><td class="mdescLeft">&#160;</td><td class="mdescRight">Classes and Functions about Scripting support. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:aee6606178e25a578119fd378d21ca29f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#aee6606178e25a578119fd378d21ca29f">obe::Script::InitScriptEngine</a> ()</td></tr>
+<tr class="memdesc:aee6606178e25a578119fd378d21ca29f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the Lua VM.  <a href="namespaceobe_1_1_script.html#aee6606178e25a578119fd378d21ca29f">More...</a><br /></td></tr>
+<tr class="separator:aee6606178e25a578119fd378d21ca29f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff4cb801e5fb7c212fb1b44dfd282f94"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#aff4cb801e5fb7c212fb1b44dfd282f94">obe::Script::createNewEnvironment</a> ()</td></tr>
+<tr class="memdesc:aff4cb801e5fb7c212fb1b44dfd282f94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new Lua environment and return the index (id) of the new environment.  <a href="namespaceobe_1_1_script.html#aff4cb801e5fb7c212fb1b44dfd282f94">More...</a><br /></td></tr>
+<tr class="separator:aff4cb801e5fb7c212fb1b44dfd282f94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6e5d26d51a96139f95045d01a216e23"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#ad6e5d26d51a96139f95045d01a216e23">obe::Script::executeFile</a> (unsigned int envIndex, const std::string &amp;file)</td></tr>
+<tr class="memdesc:ad6e5d26d51a96139f95045d01a216e23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes a Lua source file on the given environment.  <a href="namespaceobe_1_1_script.html#ad6e5d26d51a96139f95045d01a216e23">More...</a><br /></td></tr>
+<tr class="separator:ad6e5d26d51a96139f95045d01a216e23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcf070faebc17f296aad261fd2ceff1d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#afcf070faebc17f296aad261fd2ceff1d">obe::Script::executeString</a> (unsigned int envIndex, const std::string &amp;string)</td></tr>
+<tr class="memdesc:afcf070faebc17f296aad261fd2ceff1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes a Lua string on the given environment.  <a href="namespaceobe_1_1_script.html#afcf070faebc17f296aad261fd2ceff1d">More...</a><br /></td></tr>
+<tr class="separator:afcf070faebc17f296aad261fd2ceff1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a90d73c6b8ff9bcb7caa1289cc62edbae"><td class="memItemLeft" align="right" valign="top">kaguya::State&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#a90d73c6b8ff9bcb7caa1289cc62edbae">obe::Script::ScriptEngine</a></td></tr>
+<tr class="memdesc:a90d73c6b8ff9bcb7caa1289cc62edbae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lua VM used everywhere in the code.  <a href="namespaceobe_1_1_script.html#a90d73c6b8ff9bcb7caa1289cc62edbae">More...</a><br /></td></tr>
 <tr class="separator:a90d73c6b8ff9bcb7caa1289cc62edbae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
