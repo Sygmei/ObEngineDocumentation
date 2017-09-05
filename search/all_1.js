@@ -8,7 +8,7 @@ var searchData=
   ['addacceleration',['addAcceleration',['../classobe_1_1_collision_1_1_trajectory.html#a267359e7a1b90d7c46b35c9f2e15834c',1,'obe::Collision::Trajectory']]],
   ['addangle',['addAngle',['../classobe_1_1_collision_1_1_trajectory.html#abf1fe00bde8f198dd50769faafa218a9',1,'obe::Collision::Trajectory']]],
   ['addcheck',['addCheck',['../classobe_1_1_collision_1_1_trajectory_node.html#ae47d3ecd1be77e278fcce35ccd570596',1,'obe::Collision::TrajectoryNode']]],
-  ['addchild',['addChild',['../classobe_1_1_transform_1_1_node2_d.html#a635f3476131318a8fd6fd2a8cbbe145b',1,'obe::Transform::Node2D']]],
+  ['addchild',['addChild',['../classobe_1_1_transform_1_1_scene_node.html#a7f3f060d307fe04dadc8d41e83aa12d2',1,'obe::Transform::SceneNode']]],
   ['addcombinationelement',['addCombinationElement',['../classobe_1_1_input_1_1_input_condition.html#aa9528e80d82e90b23a458ab1e84d31a3',1,'obe::Input::InputCondition']]],
   ['addcondition',['addCondition',['../classobe_1_1_input_1_1_input_action.html#a66dc8f631d254b7c76c7a9e0a720817c',1,'obe::Input::InputAction']]],
   ['addconstraint',['addConstraint',['../classvili_1_1_node_constraint_manager.html#a813a7bd5c408b6992ed3f6541aabe94f',1,'vili::NodeConstraintManager']]],

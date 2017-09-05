@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ObEngine: sources/include/Bindings/BindingTree.hpp File Reference</title>
+<title>ObEngine: sources/include/Transform/SceneNode.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,29 +61,27 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_08d237fc27d4ecd563f71c5d52f2fecc.html">sources</a></li><li class="navelem"><a class="el" href="dir_da0f06c86f1c908881a669eb19c3ce89.html">include</a></li><li class="navelem"><a class="el" href="dir_c538cdad6aa0192aa59114c725faa4c6.html">Bindings</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_08d237fc27d4ecd563f71c5d52f2fecc.html">sources</a></li><li class="navelem"><a class="el" href="dir_da0f06c86f1c908881a669eb19c3ce89.html">include</a></li><li class="navelem"><a class="el" href="dir_e79152f0b35df9ae389c1532ecc873f4.html">Transform</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
-<div class="title">BindingTree.hpp File Reference</div>  </div>
+<div class="title">SceneNode.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;functional&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
-<code>#include &lt;kaguya/kaguya.hpp&gt;</code><br />
+<div class="textblock"><code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;<a class="el" href="_movable_8hpp_source.html">Transform/Movable.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_identifiable_8hpp_source.html">Types/Identifiable.hpp</a>&gt;</code><br />
 </div>
-<p><a href="_binding_tree_8hpp_source.html">Go to the source code of this file.</a></p>
+<p><a href="_scene_node_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_bindings_1_1_binding_tree.html">obe::Bindings::BindingTree</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds and indexes all the CXX <a class="el" href="namespaceobe_1_1_bindings.html" title="Bind C++ Classes and Functions to Lua VMs. ">Bindings</a> for Lua.  <a href="classobe_1_1_bindings_1_1_binding_tree.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_scene_node.html">obe::Transform::SceneNode</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A <a class="el" href="classobe_1_1_transform_1_1_scene_node.html" title="A SceneNode holds objects herited from Movable class and &quot;links&quot; their position. ">SceneNode</a> holds objects herited from <a class="el" href="classobe_1_1_transform_1_1_movable.html">Movable</a> class and "links" their position.  <a href="classobe_1_1_transform_1_1_scene_node.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -91,14 +89,9 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespaceobe"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe.html">obe</a></td></tr>
 <tr class="memdesc:namespaceobe"><td class="mdescLeft">&#160;</td><td class="mdescRight">The wonderful ObEngine's namespace ! <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespaceobe_1_1_bindings"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings.html">obe::Bindings</a></td></tr>
-<tr class="memdesc:namespaceobe_1_1_bindings"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bind C++ Classes and Functions to Lua VMs. <br /></td></tr>
+<tr class="memitem:namespaceobe_1_1_transform"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_transform.html">obe::Transform</a></td></tr>
+<tr class="memdesc:namespaceobe_1_1_transform"><td class="mdescLeft">&#160;</td><td class="mdescRight">Classes and Functions to handle all types of 2d Transformations in the Engine. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:afcc2be486e072551813e6a367c0bbd04"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(kaguya::State *)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings.html#afcc2be486e072551813e6a367c0bbd04">obe::Bindings::RegisterLib</a></td></tr>
-<tr class="separator:afcc2be486e072551813e6a367c0bbd04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -2,7 +2,6 @@ var searchData=
 [
   ['networkhandler',['NetworkHandler',['../classobe_1_1_network_1_1_network_handler.html',1,'obe::Network']]],
   ['node',['Node',['../classvili_1_1_node.html',1,'vili']]],
-  ['node2d',['Node2D',['../classobe_1_1_transform_1_1_node2_d.html',1,'obe::Transform']]],
   ['nodeconstraintmanager',['NodeConstraintManager',['../classvili_1_1_node_constraint_manager.html',1,'vili']]],
   ['nodeiterator',['NodeIterator',['../classvili_1_1_node_iterator.html',1,'vili']]],
   ['nodetemplate',['NodeTemplate',['../classvili_1_1_node_template.html',1,'vili']]],
