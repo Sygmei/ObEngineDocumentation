@@ -81,17 +81,8 @@ $(function() {
  <a href="classvili_1_1_node.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_node_8hpp_source.html">Node.hpp</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for vili::Node:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classvili_1_1_node__inherit__graph.svg" width="447" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
-<div class="dynheader">
-Collaboration diagram for vili::Node:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classvili_1_1_node__coll__graph.svg" width="140" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+
+<p>Inherited by <a class="el" href="classvili_1_1_container_node.html">vili::ContainerNode</a>, <a class="el" href="classvili_1_1_data_node.html">vili::DataNode</a>, and <a class="el" href="classvili_1_1_link_node.html">vili::LinkNode</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -121,6 +112,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5a6ad518f51d824e06ae7be0328f4864"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvili_1_1_node.html#a5a6ad518f51d824e06ae7be0328f4864">getNodePath</a> () const</td></tr>
 <tr class="memdesc:a5a6ad518f51d824e06ae7be0328f4864"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="classvili_1_1_node.html" title="Base Class for every Node in the Tree . ">Node</a> Path (Example : GrandParent/Parent/Node)  <a href="#a5a6ad518f51d824e06ae7be0328f4864">More...</a><br /></td></tr>
 <tr class="separator:a5a6ad518f51d824e06ae7be0328f4864"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f8eba487ac4bea4f825dbb08554fa01"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvili_1_1_node.html#a7f8eba487ac4bea4f825dbb08554fa01">getRawNodePath</a> () const</td></tr>
+<tr class="memdesc:a7f8eba487ac4bea4f825dbb08554fa01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="classvili_1_1_node.html" title="Base Class for every Node in the Tree . ">Node</a> Path (Example : GrandParent/Parent/Node) without annotations.  <a href="#a7f8eba487ac4bea4f825dbb08554fa01">More...</a><br /></td></tr>
+<tr class="separator:a7f8eba487ac4bea4f825dbb08554fa01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2339b7f9971303acb8266c397e2506d"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvili_1_1_node.html#aa2339b7f9971303acb8266c397e2506d">getDepth</a> () const</td></tr>
 <tr class="memdesc:aa2339b7f9971303acb8266c397e2506d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the depth of the <a class="el" href="classvili_1_1_node.html" title="Base Class for every Node in the Tree . ">Node</a> (While the parent of the <a class="el" href="classvili_1_1_node.html" title="Base Class for every Node in the Tree . ">Node</a> has a parent etc..) A <a class="el" href="classvili_1_1_node.html" title="Base Class for every Node in the Tree . ">Node</a> without parent has depth = 0.  <a href="#aa2339b7f9971303acb8266c397e2506d">More...</a><br /></td></tr>
 <tr class="separator:aa2339b7f9971303acb8266c397e2506d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -265,12 +259,6 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Virtual Destructor for proper memory management. </p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classvili_1_1_node_a223474ecdea0b06720de027729b83c2c_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -319,12 +307,6 @@ Here is the call graph for this function:</div>
 </dl>
 
 <p>Implemented in <a class="el" href="classvili_1_1_complex_node.html#a09c2de8fb5e7b79e407c08405624091a">vili::ComplexNode</a>, <a class="el" href="classvili_1_1_data_node.html#a7f30e8836aedbe34f8936b5d30da5413">vili::DataNode</a>, <a class="el" href="classvili_1_1_array_node.html#ad556cbc172d7496ba917f67596fd96cd">vili::ArrayNode</a>, <a class="el" href="classvili_1_1_link_node.html#a4b4a339604e69b5bb5bafa70e455430b">vili::LinkNode</a>, and <a class="el" href="classvili_1_1_container_node.html#a6427f4093aac2c67956675830dbc2acb">vili::ContainerNode</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classvili_1_1_node_acb14e48c6734307180af119401103894_icgraph.svg" width="100%" height="556"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -353,12 +335,6 @@ Here is the caller graph for this function:</div>
 
 <p>Gets the <a class="el" href="classvili_1_1_node.html" title="Base Class for every Node in the Tree . ">Node</a> annotation. </p>
 <dl class="section return"><dt>Returns</dt><dd>A std::string that contains the <a class="el" href="classvili_1_1_node.html" title="Base Class for every Node in the Tree . ">Node</a> annotation </dd></dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classvili_1_1_node_ad3c91cfe2721eaf9841721d1ec8ee0d8_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -379,18 +355,6 @@ Here is the caller graph for this function:</div>
 
 <p>Get the depth of the <a class="el" href="classvili_1_1_node.html" title="Base Class for every Node in the Tree . ">Node</a> (While the parent of the <a class="el" href="classvili_1_1_node.html" title="Base Class for every Node in the Tree . ">Node</a> has a parent etc..) A <a class="el" href="classvili_1_1_node.html" title="Base Class for every Node in the Tree . ">Node</a> without parent has depth = 0. </p>
 <dl class="section return"><dt>Returns</dt><dd>An int containing the depth of the <a class="el" href="classvili_1_1_node.html" title="Base Class for every Node in the Tree . ">Node</a> </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classvili_1_1_node_aa2339b7f9971303acb8266c397e2506d_cgraph.svg" width="332" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classvili_1_1_node_aa2339b7f9971303acb8266c397e2506d_icgraph.svg" width="100%" height="378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -419,12 +383,6 @@ Here is the caller graph for this function:</div>
 
 <p>Gets the id of the <a class="el" href="classvili_1_1_node.html" title="Base Class for every Node in the Tree . ">Node</a>. </p>
 <dl class="section return"><dt>Returns</dt><dd>A std::string containing the id of the <a class="el" href="classvili_1_1_node.html" title="Base Class for every Node in the Tree . ">Node</a> </dd></dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classvili_1_1_node_ab03908ab3d62e3bfddaf9e7306fdf3b3_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -453,18 +411,6 @@ Here is the caller graph for this function:</div>
 
 <p>Get the <a class="el" href="classvili_1_1_node.html" title="Base Class for every Node in the Tree . ">Node</a> Path (Example : GrandParent/Parent/Node) </p>
 <dl class="section return"><dt>Returns</dt><dd>A std::string that contains the NodePath of the <a class="el" href="classvili_1_1_node.html" title="Base Class for every Node in the Tree . ">Node</a> </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classvili_1_1_node_a5a6ad518f51d824e06ae7be0328f4864_cgraph.svg" width="379" height="206"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classvili_1_1_node_a5a6ad518f51d824e06ae7be0328f4864_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -490,12 +436,34 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classvili_1_1_node_a58273048e22a9ebd74e576fd8905f709_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+
 </div>
 </div>
+<a id="a7f8eba487ac4bea4f825dbb08554fa01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f8eba487ac4bea4f825dbb08554fa01">&#9670;&nbsp;</a></span>getRawNodePath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string vili::Node::getRawNodePath </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the <a class="el" href="classvili_1_1_node.html" title="Base Class for every Node in the Tree . ">Node</a> Path (Example : GrandParent/Parent/Node) without annotations. </p>
+<dl class="section return"><dt>Returns</dt><dd>A std::string that contains the NodePath of the <a class="el" href="classvili_1_1_node.html" title="Base Class for every Node in the Tree . ">Node</a> </dd></dl>
 
 </div>
 </div>
@@ -524,12 +492,6 @@ Here is the caller graph for this function:</div>
 
 <p>Returns the ClassType of the <a class="el" href="classvili_1_1_node.html" title="Base Class for every Node in the Tree . ">Node</a> (All <a class="el" href="namespacevili_1_1_types.html">Types</a> in <a class="el" href="namespacevili.html#a30ec1b00a269997777efe72685ed7c2b" title="An enum representing Types of existing Nodes. ">vili::NodeType</a>) </p>
 <dl class="section return"><dt>Returns</dt><dd>An NodeType enum value defining the NodeType of the <a class="el" href="classvili_1_1_node.html" title="Base Class for every Node in the Tree . ">Node</a> </dd></dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classvili_1_1_node_a9d438d0731569aeeb9cae121796c1d41_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -550,12 +512,6 @@ Here is the caller graph for this function:</div>
 
 <p>Gets if the <a class="el" href="classvili_1_1_node.html" title="Base Class for every Node in the Tree . ">Node</a> is visible or not (Visible means it exists in the dumped file) </p>
 <dl class="section return"><dt>Returns</dt><dd>true if the <a class="el" href="classvili_1_1_node.html" title="Base Class for every Node in the Tree . ">Node</a> is visible, false otherwise </dd></dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classvili_1_1_node_adeb5c24fe01f2e740cf11180f7e8a961_icgraph.svg" width="100%" height="378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -582,18 +538,6 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classvili_1_1_node_a4d9ca9770bcc615dfc083c1f5df0fb1b_cgraph.svg" width="588" height="402"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classvili_1_1_node_a4d9ca9770bcc615dfc083c1f5df0fb1b_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -628,12 +572,6 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classvili_1_1_node_a447ad4f34cfd7c14c14796d85dd910a7_icgraph.svg" width="100%" height="502"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -668,18 +606,6 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classvili_1_1_node_a1f031a14b8baed3a83123ded73d8d37a_cgraph.svg" width="538" height="402"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classvili_1_1_node_a1f031a14b8baed3a83123ded73d8d37a_icgraph.svg" width="100%" height="544"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -714,18 +640,6 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classvili_1_1_node_a41778b86287edc07882460db4d55415e_cgraph.svg" width="566" height="402"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classvili_1_1_node_a41778b86287edc07882460db4d55415e_icgraph.svg" width="100%" height="546"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -752,12 +666,6 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classvili_1_1_node_a7bb541d854deec79487aed0a4184de8e_icgraph.svg" width="100%" height="553"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -812,12 +720,6 @@ Here is the caller graph for this function:</div>
 </dl>
 
 <p>Implemented in <a class="el" href="classvili_1_1_complex_node.html#a1ef080cca91f585d1ef616c678057ede">vili::ComplexNode</a>, <a class="el" href="classvili_1_1_data_node.html#ac00a0ebfb6c627d51262dd140a5dff14">vili::DataNode</a>, <a class="el" href="classvili_1_1_array_node.html#a17ab9efd650c24e58961ba1fbc565788">vili::ArrayNode</a>, <a class="el" href="classvili_1_1_link_node.html#ad3db3793a84a416a3299c120e8b775d4">vili::LinkNode</a>, and <a class="el" href="classvili_1_1_container_node.html#af81fae093d5540a502ca6c09cb3dbad3">vili::ContainerNode</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classvili_1_1_node_af1a2dc5d1eb2d18dd7380d10b908361c_icgraph.svg" width="100%" height="378"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -1036,8 +938,8 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>E:/Dev/ObEngine/Git/extlibs/include/vili/vili/<a class="el" href="_node_8hpp_source.html">Node.hpp</a></li>
-<li>E:/Dev/ObEngine/Git/extlibs/build/vili/src/vili/<a class="el" href="_node_8cpp.html">Node.cpp</a></li>
+<li>sources/extlibs/include/vili/vili/<a class="el" href="_node_8hpp_source.html">Node.hpp</a></li>
+<li>sources/extlibs/build/vili/src/vili/<a class="el" href="_node_8cpp.html">Node.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

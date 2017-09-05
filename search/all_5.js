@@ -17,6 +17,7 @@ var searchData=
   ['enable',['enable',['../classobe_1_1_types_1_1_togglable.html#a585deda7e0476f2eabca4642006f1dcb',1,'obe::Types::Togglable']]],
   ['enableshowcollision',['enableShowCollision',['../classobe_1_1_scene_1_1_scene.html#aff9e21ec2c008cc85b8cb3cbbfb1b1e4',1,'obe::Scene::Scene']]],
   ['end',['end',['../classvili_1_1_array_node.html#a06931af2499cb6f0d50d38629f1503e8',1,'vili::ArrayNode']]],
+  ['endswith',['endsWith',['../namespaceobe_1_1_utils_1_1_string.html#a7aa2a2dbb48482e8961ba0dcb6bc60b4',1,'obe::Utils::String']]],
   ['erase',['erase',['../classvili_1_1_array_node.html#a55d8e92d562a18a564a73a5530678646',1,'vili::ArrayNode']]],
   ['eraseall',['eraseAll',['../namespaceobe_1_1_utils_1_1_vector.html#a23025fec4c0f6a612e8ee83cc2840aa1',1,'obe::Utils::Vector::eraseAll()'],['../namespacevili_1_1_functions_1_1_vector.html#a0454c8e5ff5eef5cc9bb4977316a3c33',1,'vili::Functions::Vector::eraseAll()']]],
   ['errorhandler',['ErrorHandler',['../classaube_1_1_error_handler.html',1,'aube']]],

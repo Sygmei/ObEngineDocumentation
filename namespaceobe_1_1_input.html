@@ -83,6 +83,7 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceobe_1_1_input_1_1_monitors"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_input_1_1_monitors.html">Monitors</a></td></tr>
+<tr class="memdesc:namespaceobe_1_1_input_1_1_monitors"><td class="mdescLeft">&#160;</td><td class="mdescRight">Various functions used to manage <a class="el" href="classobe_1_1_input_1_1_input_button_monitor.html" title="A class to monitor and update states of an InputButton . ">InputButtonMonitor</a>. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -161,6 +162,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a1a9a1045b223bb975e25e63c4977e724"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_input.html#a1a9a1045b223bb975e25e63c4977e724">inputButtonStateToString</a> (<a class="el" href="namespaceobe_1_1_input.html#a7c34dc018f96813bc8b63f4c9c6cbc47">InputButtonState</a> state)</td></tr>
 <tr class="memdesc:a1a9a1045b223bb975e25e63c4977e724"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an InputButtonState to a std::string.  <a href="#a1a9a1045b223bb975e25e63c4977e724">More...</a><br /></td></tr>
 <tr class="separator:a1a9a1045b223bb975e25e63c4977e724"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97a6e23228d8bc66676f6b38e15248b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceobe_1_1_input.html#a1138c2d907ef4686a623304d91d1e7b9">InputCombinationElement</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_input.html#a97a6e23228d8bc66676f6b38e15248b1">parseCombinationCode</a> (const std::string &amp;code)</td></tr>
+<tr class="separator:a97a6e23228d8bc66676f6b38e15248b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21d04b8fc51590326b444a84dcc9add9"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_input.html#a21d04b8fc51590326b444a84dcc9add9">operator&lt;&lt;</a> (std::ostream &amp;os, <a class="el" href="namespaceobe_1_1_input.html#a08f2b5990899bb151cc4fedfb35b716b">InputType</a> m)</td></tr>
 <tr class="separator:a21d04b8fc51590326b444a84dcc9add9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52d7c1e958b20be309ad7c868975c14c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_input.html#a52d7c1e958b20be309ad7c868975c14c">InitKeyList</a> ()</td></tr>
@@ -351,12 +354,6 @@ Variables</h2></td></tr>
 
 <p>Return all currently pressed <a class="el" href="classobe_1_1_input_1_1_input_button.html" title="Class that does represent an Input button . ">InputButton</a> in a std::vector. </p>
 <dl class="section return"><dt>Returns</dt><dd>Returns a std::vector of <a class="el" href="classobe_1_1_input_1_1_input_button.html" title="Class that does represent an Input button . ">InputButton</a> pointers being currently pressed </dd></dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_input_a6095da1ffde8135c066cc215dd0c1d54_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -384,18 +381,6 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the <a class="el" href="classobe_1_1_input_1_1_input_button.html" title="Class that does represent an Input button . ">InputButton</a> if found  </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_input_aa9f8742fa8ac61fe14003702d5a6c5bc_cgraph.svg" width="507" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_input_aa9f8742fa8ac61fe14003702d5a6c5bc_icgraph.svg" width="100%" height="498"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -415,18 +400,6 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Initialize the list of all the keys. </p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_input_a52d7c1e958b20be309ad7c868975c14c_cgraph.svg" width="391" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_input_a52d7c1e958b20be309ad7c868975c14c_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -510,12 +483,6 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_input_a873e309e70013bfbce5a528d6daa6db6_cgraph.svg" width="527" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
 
 </div>
 </div>
@@ -547,6 +514,24 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a97a6e23228d8bc66676f6b38e15248b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97a6e23228d8bc66676f6b38e15248b1">&#9670;&nbsp;</a></span>parseCombinationCode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceobe_1_1_input.html#a1138c2d907ef4686a623304d91d1e7b9">InputCombinationElement</a> obe::Input::parseCombinationCode </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>code</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aeaf8f3c95bf59ca5128cf7d36d6fa59f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeaf8f3c95bf59ca5128cf7d36d6fa59f">&#9670;&nbsp;</a></span>SetGamepadList()</h2>
 
@@ -563,12 +548,6 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Initialize (or reinitialize) the list of all gamepad buttons and axis. </p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_input_aeaf8f3c95bf59ca5128cf7d36d6fa59f_icgraph.svg" width="100%" height="428"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -596,18 +575,6 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The corresponding InputButtonState </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_input_a38313ff3bc07a1e7d37e3cebaddb1083_cgraph.svg" width="538" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_input_a38313ff3bc07a1e7d37e3cebaddb1083_icgraph.svg" width="100%" height="453"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>

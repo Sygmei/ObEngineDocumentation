@@ -78,18 +78,8 @@ $(function() {
  <a href="classvili_1_1_array_node.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_array_node_8hpp_source.html">ArrayNode.hpp</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for vili::ArrayNode:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classvili_1_1_array_node__inherit__graph.svg" width="140" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
-<div class="dynheader">
-Collaboration diagram for vili::ArrayNode:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classvili_1_1_array_node__coll__graph.svg" width="220" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+
+<p>Inherits <a class="el" href="classvili_1_1_container_node.html">vili::ContainerNode</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -195,6 +185,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5a6ad518f51d824e06ae7be0328f4864 inherit pub_methods_classvili_1_1_node"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvili_1_1_node.html#a5a6ad518f51d824e06ae7be0328f4864">getNodePath</a> () const</td></tr>
 <tr class="memdesc:a5a6ad518f51d824e06ae7be0328f4864 inherit pub_methods_classvili_1_1_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="classvili_1_1_node.html" title="Base Class for every Node in the Tree . ">Node</a> Path (Example : GrandParent/Parent/Node)  <a href="classvili_1_1_node.html#a5a6ad518f51d824e06ae7be0328f4864">More...</a><br /></td></tr>
 <tr class="separator:a5a6ad518f51d824e06ae7be0328f4864 inherit pub_methods_classvili_1_1_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f8eba487ac4bea4f825dbb08554fa01 inherit pub_methods_classvili_1_1_node"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvili_1_1_node.html#a7f8eba487ac4bea4f825dbb08554fa01">getRawNodePath</a> () const</td></tr>
+<tr class="memdesc:a7f8eba487ac4bea4f825dbb08554fa01 inherit pub_methods_classvili_1_1_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="classvili_1_1_node.html" title="Base Class for every Node in the Tree . ">Node</a> Path (Example : GrandParent/Parent/Node) without annotations.  <a href="classvili_1_1_node.html#a7f8eba487ac4bea4f825dbb08554fa01">More...</a><br /></td></tr>
+<tr class="separator:a7f8eba487ac4bea4f825dbb08554fa01 inherit pub_methods_classvili_1_1_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2339b7f9971303acb8266c397e2506d inherit pub_methods_classvili_1_1_node"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvili_1_1_node.html#aa2339b7f9971303acb8266c397e2506d">getDepth</a> () const</td></tr>
 <tr class="memdesc:aa2339b7f9971303acb8266c397e2506d inherit pub_methods_classvili_1_1_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the depth of the <a class="el" href="classvili_1_1_node.html" title="Base Class for every Node in the Tree . ">Node</a> (While the parent of the <a class="el" href="classvili_1_1_node.html" title="Base Class for every Node in the Tree . ">Node</a> has a parent etc..) A <a class="el" href="classvili_1_1_node.html" title="Base Class for every Node in the Tree . ">Node</a> without parent has depth = 0.  <a href="classvili_1_1_node.html#aa2339b7f9971303acb8266c397e2506d">More...</a><br /></td></tr>
 <tr class="separator:aa2339b7f9971303acb8266c397e2506d inherit pub_methods_classvili_1_1_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -387,12 +380,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Clears all DataNodes contained in the <a class="el" href="classvili_1_1_array_node.html" title="An ArrayNode is a Node that can contains multiple DataNodes with an index . ">ArrayNode</a>. </p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classvili_1_1_array_node_a6dc3937bda1f57062ba6e0f1031fabf0_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -440,18 +427,6 @@ Here is the caller graph for this function:</div>
 </dl>
 
 <p>Implements <a class="el" href="classvili_1_1_container_node.html#a6427f4093aac2c67956675830dbc2acb">vili::ContainerNode</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classvili_1_1_array_node_ad556cbc172d7496ba917f67596fd96cd_cgraph.svg" width="568" height="402"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classvili_1_1_array_node_ad556cbc172d7496ba917f67596fd96cd_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -498,12 +473,6 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classvili_1_1_array_node_a55d8e92d562a18a564a73a5530678646_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -541,18 +510,6 @@ Here is the caller graph for this function:</div>
 <dl class="section return"><dt>Returns</dt><dd>Pointer to the child <a class="el" href="classvili_1_1_node.html" title="Base Class for every Node in the Tree . ">Node</a> </dd></dl>
 
 <p>Implements <a class="el" href="classvili_1_1_container_node.html#a94450ed32584cb3c2f3fc0368db1f2a5">vili::ContainerNode</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classvili_1_1_array_node_aa87333efc6d23b09e352cd1081296dba_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classvili_1_1_array_node_aa87333efc6d23b09e352cd1081296dba_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -580,18 +537,6 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A reference to the contained <a class="el" href="classvili_1_1_data_node.html" title="A terminal Node that contains data (One of the types defined in vili::DataType) . ...">DataNode</a> at the given index </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classvili_1_1_array_node_aba67c18c26c9a7c78973cae023e6f374_cgraph.svg" width="558" height="402"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classvili_1_1_array_node_aba67c18c26c9a7c78973cae023e6f374_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -629,12 +574,6 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classvili_1_1_array_node_a15064e0962392ca5dc55fe355c625178_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -799,12 +738,6 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classvili_1_1_array_node_a1b7bb99117b83862f497c42ecc03b4bd_icgraph.svg" width="100%" height="591"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -903,12 +836,6 @@ Here is the caller graph for this function:</div>
 
 <p>Gets the size of the <a class="el" href="classvili_1_1_array_node.html" title="An ArrayNode is a Node that can contains multiple DataNodes with an index . ">ArrayNode</a> (Amount of contained Nodes) </p>
 <dl class="section return"><dt>Returns</dt><dd>An unsigned int containing the size of the <a class="el" href="classvili_1_1_array_node.html" title="An ArrayNode is a Node that can contains multiple DataNodes with an index . ">ArrayNode</a> </dd></dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classvili_1_1_array_node_a550ab855eda9d07c47477cf7fddf2c4b_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -963,18 +890,6 @@ Here is the caller graph for this function:</div>
 </dl>
 
 <p>Implements <a class="el" href="classvili_1_1_container_node.html#af81fae093d5540a502ca6c09cb3dbad3">vili::ContainerNode</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classvili_1_1_array_node_a17ab9efd650c24e58961ba1fbc565788_cgraph.svg" width="336" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classvili_1_1_array_node_a17ab9efd650c24e58961ba1fbc565788_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -1004,9 +919,9 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>E:/Dev/ObEngine/Git/extlibs/include/vili/vili/<a class="el" href="_array_node_8hpp_source.html">ArrayNode.hpp</a></li>
-<li>E:/Dev/ObEngine/Git/extlibs/build/vili/src/vili/<a class="el" href="_array_node_8cpp.html">ArrayNode.cpp</a></li>
-<li>E:/Dev/ObEngine/Git/extlibs/build/vili/src/vili/<a class="el" href="_link_node_8cpp.html">LinkNode.cpp</a></li>
+<li>sources/extlibs/include/vili/vili/<a class="el" href="_array_node_8hpp_source.html">ArrayNode.hpp</a></li>
+<li>sources/extlibs/build/vili/src/vili/<a class="el" href="_array_node_8cpp.html">ArrayNode.cpp</a></li>
+<li>sources/extlibs/build/vili/src/vili/<a class="el" href="_link_node_8cpp.html">LinkNode.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

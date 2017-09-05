@@ -68,6 +68,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="classobe_1_1_script_1_1_game_object-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -79,16 +80,8 @@ $(function() {
  <a href="classobe_1_1_script_1_1_game_object.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_game_object_8hpp_source.html">GameObject.hpp</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for obe::Script::GameObject:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_script_1_1_game_object__inherit__graph.svg" width="178" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
-<div class="dynheader">
-Collaboration diagram for obe::Script::GameObject:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_script_1_1_game_object__coll__graph.svg" width="178" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+
+<p>Inherits <a class="el" href="classobe_1_1_types_1_1_identifiable.html">obe::Types::Identifiable</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -131,6 +124,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afa42c9afe6e9a3a8c654bfaab5908782"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html">Graphics::LevelSprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_game_object.html#afa42c9afe6e9a3a8c654bfaab5908782">getLevelSprite</a> ()</td></tr>
 <tr class="memdesc:afa42c9afe6e9a3a8c654bfaab5908782"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the LevelSprite Component of the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> (Raises ObEngine.Script.GameObject.NoLevelSprite if no LevelSprite Component)  <a href="#afa42c9afe6e9a3a8c654bfaab5908782">More...</a><br /></td></tr>
 <tr class="separator:afa42c9afe6e9a3a8c654bfaab5908782"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a486011151f5925d3fe9f6d58ed0e39f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_node2_d.html">Transform::Node2D</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_game_object.html#a486011151f5925d3fe9f6d58ed0e39f5">getSceneNode</a> ()</td></tr>
+<tr class="memdesc:a486011151f5925d3fe9f6d58ed0e39f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the <a class="el" href="namespaceobe_1_1_scene.html" title="Classes and Functions to work with the Scene. ">Scene</a> Node of the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> (Node2D that can manipulate the position of all <a class="el" href="namespaceobe_1_1_scene.html" title="Classes and Functions to work with the Scene. ">Scene</a> Components)  <a href="#a486011151f5925d3fe9f6d58ed0e39f5">More...</a><br /></td></tr>
+<tr class="separator:a486011151f5925d3fe9f6d58ed0e39f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06fb9ce4d34078fe1368e945c7b8521e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html">Triggers::TriggerGroup</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_game_object.html#a06fb9ce4d34078fe1368e945c7b8521e">getLocalTriggers</a> () const</td></tr>
 <tr class="memdesc:a06fb9ce4d34078fe1368e945c7b8521e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the TriggerGroup managing Local <a class="el" href="namespaceobe_1_1_triggers.html" title="Classes and Functions to handle Triggers (Events) ">Triggers</a> of the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a>.  <a href="#a06fb9ce4d34078fe1368e945c7b8521e">More...</a><br /></td></tr>
 <tr class="separator:a06fb9ce4d34078fe1368e945c7b8521e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -174,6 +170,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abaff76040f61d6bfb4e3c6ec39a33ad2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_game_object.html#abaff76040f61d6bfb4e3c6ec39a33ad2">initialize</a> ()</td></tr>
 <tr class="memdesc:abaff76040f61d6bfb4e3c6ec39a33ad2"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespaceobe_1_1_triggers.html" title="Classes and Functions to handle Triggers (Events) ">Triggers</a> the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a>'s Local.Init.  <a href="#abaff76040f61d6bfb4e3c6ec39a33ad2">More...</a><br /></td></tr>
 <tr class="separator:abaff76040f61d6bfb4e3c6ec39a33ad2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20c1377c8e14cdc54bdf59c9f2a027e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_game_object.html#a20c1377c8e14cdc54bdf59c9f2a027e9">setPermanent</a> (bool permanent)</td></tr>
+<tr class="memdesc:a20c1377c8e14cdc54bdf59c9f2a027e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configures the permanent parameter of the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a>.  <a href="#a20c1377c8e14cdc54bdf59c9f2a027e9">More...</a><br /></td></tr>
+<tr class="separator:a20c1377c8e14cdc54bdf59c9f2a027e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5999c1400c3e267473b7887d0d183894"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_game_object.html#a5999c1400c3e267473b7887d0d183894">isPermanent</a> ()</td></tr>
+<tr class="memdesc:a5999c1400c3e267473b7887d0d183894"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets if the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> is permanent (Will stay after loading another map)  <a href="#a5999c1400c3e267473b7887d0d183894">More...</a><br /></td></tr>
+<tr class="separator:a5999c1400c3e267473b7887d0d183894"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classobe_1_1_types_1_1_identifiable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classobe_1_1_types_1_1_identifiable')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classobe_1_1_types_1_1_identifiable.html">obe::Types::Identifiable</a></td></tr>
 <tr class="memitem:a0f3dfd21c84ad420f26395d5e62c5e2d inherit pub_methods_classobe_1_1_types_1_1_identifiable"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_types_1_1_identifiable.html#a0f3dfd21c84ad420f26395d5e62c5e2d">Identifiable</a> (const std::string &amp;id)</td></tr>
 <tr class="memdesc:a0f3dfd21c84ad420f26395d5e62c5e2d inherit pub_methods_classobe_1_1_types_1_1_identifiable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new <a class="el" href="classobe_1_1_types_1_1_identifiable.html" title="A Base class that does carry an unique identifier for a given category (Sprites / Colliders etc...">Identifiable</a>.  <a href="classobe_1_1_types_1_1_identifiable.html#a0f3dfd21c84ad420f26395d5e62c5e2d">More...</a><br /></td></tr>
@@ -190,6 +192,11 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a3c2e467359f6c87a83a7a2973aad3cca"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_game_object.html#a3c2e467359f6c87a83a7a2973aad3cca">deletable</a> = false</td></tr>
 <tr class="memdesc:a3c2e467359f6c87a83a7a2973aad3cca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete State of the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> (false = not deleted)  <a href="#a3c2e467359f6c87a83a7a2973aad3cca">More...</a><br /></td></tr>
 <tr class="separator:a3c2e467359f6c87a83a7a2973aad3cca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:abb1d8b7919db452329dba1d20d5a6228"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; unsigned int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_game_object.html#abb1d8b7919db452329dba1d20d5a6228">AllEnvs</a></td></tr>
+<tr class="separator:abb1d8b7919db452329dba1d20d5a6228"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -266,12 +273,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Destructor of the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a>. </p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_script_1_1_game_object_a760f07c70ec6b0e0af5508bdbef3a41f_cgraph.svg" width="100%" height="437"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -293,12 +294,6 @@ Here is the call graph for this function:</div>
 
 <p>Access the exposition table of the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a>. </p>
 <dl class="section return"><dt>Returns</dt><dd>A reference to the exposition table of the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> </dd></dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_script_1_1_game_object_a3421e29d6fcefbf8e2db92414e29a178_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -318,18 +313,6 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Deletes the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a>. </p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_script_1_1_game_object_aefaa50fc0a705186429bc4598ff942c4_cgraph.svg" width="100%" height="563"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_script_1_1_game_object_aefaa50fc0a705186429bc4598ff942c4_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -436,12 +419,6 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_script_1_1_game_object_ae71d91458153b6da25c0c9c1237ca319_icgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -462,18 +439,6 @@ Here is the caller graph for this function:</div>
 
 <p>Gets the Animator Component of the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> (Raises ObEngine.Script.GameObject.NoAnimator if no Animator Component) </p>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the Animator Component of the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_script_1_1_game_object_a67bba7cf8af751d773776e23bee9cc66_cgraph.svg" width="543" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_script_1_1_game_object_a67bba7cf8af751d773776e23bee9cc66_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -494,18 +459,6 @@ Here is the caller graph for this function:</div>
 
 <p>Gets the Collider Component of the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> (Raises ObEngine.Script.GameObject.NoCollider if no Collider Component) </p>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the Collider Component of the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_script_1_1_game_object_a2de72386348eb2253c052a4b59bac002_cgraph.svg" width="543" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_script_1_1_game_object_a2de72386348eb2253c052a4b59bac002_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -526,12 +479,6 @@ Here is the caller graph for this function:</div>
 
 <p>Gets a reference to the Lua function used to build the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> (Local.Init proxy) </p>
 <dl class="section return"><dt>Returns</dt><dd>A reference to the Lua function used to build the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> </dd></dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_script_1_1_game_object_a9c82b69d3ab813a802c751c60728b944_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -552,12 +499,6 @@ Here is the caller graph for this function:</div>
 
 <p>Gets the id (index) of the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> Lua environement. </p>
 <dl class="section return"><dt>Returns</dt><dd>An unsigned int representing the id (index) of the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> Lua environement </dd></dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_script_1_1_game_object_aebae20d22f51415b021ba6600fc39ec6_icgraph.svg" width="100%" height="481"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -578,18 +519,6 @@ Here is the caller graph for this function:</div>
 
 <p>Gets the LevelSprite Component of the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> (Raises ObEngine.Script.GameObject.NoLevelSprite if no LevelSprite Component) </p>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the LevelSprite Component of the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_script_1_1_game_object_afa42c9afe6e9a3a8c654bfaab5908782_cgraph.svg" width="543" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_script_1_1_game_object_afa42c9afe6e9a3a8c654bfaab5908782_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -630,12 +559,26 @@ Here is the caller graph for this function:</div>
 
 <p>Get the public key of the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a>. </p>
 <dl class="section return"><dt>Returns</dt><dd>A std::string containing the public key of the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> </dd></dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_script_1_1_game_object_a7333ead724f83471fdfa36d79546952b_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+
 </div>
 </div>
+<a id="a486011151f5925d3fe9f6d58ed0e39f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a486011151f5925d3fe9f6d58ed0e39f5">&#9670;&nbsp;</a></span>getSceneNode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classobe_1_1_transform_1_1_node2_d.html">Transform::Node2D</a> * obe::Script::GameObject::getSceneNode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the <a class="el" href="namespaceobe_1_1_scene.html" title="Classes and Functions to work with the Scene. ">Scene</a> Node of the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> (Node2D that can manipulate the position of all <a class="el" href="namespaceobe_1_1_scene.html" title="Classes and Functions to work with the Scene. ">Scene</a> Components) </p>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a>'s <a class="el" href="namespaceobe_1_1_scene.html" title="Classes and Functions to work with the Scene. ">Scene</a> Node </dd></dl>
 
 </div>
 </div>
@@ -695,18 +638,26 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p><a class="el" href="namespaceobe_1_1_triggers.html" title="Classes and Functions to handle Triggers (Events) ">Triggers</a> the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a>'s Local.Init. </p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_script_1_1_game_object_abaff76040f61d6bfb4e3c6ec39a33ad2_cgraph.svg" width="100%" height="535"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+
 </div>
 </div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_script_1_1_game_object_abaff76040f61d6bfb4e3c6ec39a33ad2_icgraph.svg" width="100%" height="427"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
+<a id="a5999c1400c3e267473b7887d0d183894"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5999c1400c3e267473b7887d0d183894">&#9670;&nbsp;</a></span>isPermanent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool obe::Script::GameObject::isPermanent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets if the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> is permanent (Will stay after loading another map) </p>
+<dl class="section return"><dt>Returns</dt><dd>true if the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> is permanent, false otherwise </dd></dl>
 
 </div>
 </div>
@@ -744,12 +695,6 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_script_1_1_game_object_a1cfdaac0ab4bd6ce11b4ccba4b2f0a52_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -787,12 +732,6 @@ Here is the call graph for this function:</div>
   </table>
   </dd>
 </dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_script_1_1_game_object_a094b1d46c481585d1a3e1aa14788e2ff_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -875,18 +814,32 @@ template&lt;typename U &gt; </div>
   </table>
   </dd>
 </dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_script_1_1_game_object_a878bcd5a7eac67a1c2383c07b5e1b6a1_cgraph.svg" width="100%" height="535"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+
 </div>
 </div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_script_1_1_game_object_a878bcd5a7eac67a1c2383c07b5e1b6a1_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
+<a id="a20c1377c8e14cdc54bdf59c9f2a027e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20c1377c8e14cdc54bdf59c9f2a027e9">&#9670;&nbsp;</a></span>setPermanent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::Script::GameObject::setPermanent </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>permanent</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Configures the permanent parameter of the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">permanent</td><td>Should be true if the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> should be permanent, false otherwise </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -932,12 +885,6 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Updates the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a>. </p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_script_1_1_game_object_a342e95961758ac34f3e01168b3a629c9_cgraph.svg" width="400" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
 
 </div>
 </div>
@@ -989,12 +936,6 @@ Here is the call graph for this function:</div>
   </table>
   </dd>
 </dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_script_1_1_game_object_a1f3800347fe82381b78d2cdc59f91c16_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -1021,18 +962,6 @@ Here is the call graph for this function:</div>
   </table>
   </dd>
 </dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_script_1_1_game_object_a107b92564995af3057dcd897be16d5af_cgraph.svg" width="100%" height="547"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_script_1_1_game_object_a107b92564995af3057dcd897be16d5af_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -1060,6 +989,28 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="abb1d8b7919db452329dba1d20d5a6228"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb1d8b7919db452329dba1d20d5a6228">&#9670;&nbsp;</a></span>AllEnvs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; unsigned int &gt; obe::Script::GameObject::AllEnvs</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a3c2e467359f6c87a83a7a2973aad3cca"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3c2e467359f6c87a83a7a2973aad3cca">&#9670;&nbsp;</a></span>deletable</h2>
 
@@ -1077,8 +1028,8 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>E:/Dev/ObEngine/Git/include/Script/<a class="el" href="_game_object_8hpp_source.html">GameObject.hpp</a></li>
-<li>E:/Dev/ObEngine/Git/src/Script/<a class="el" href="_game_object_8cpp.html">GameObject.cpp</a></li>
+<li>sources/include/Script/<a class="el" href="_game_object_8hpp_source.html">GameObject.hpp</a></li>
+<li>sources/src/Script/<a class="el" href="_game_object_8cpp.html">GameObject.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -7,6 +7,8 @@ var searchData=
   ['tinydir_5ffile',['tinydir_file',['../structtinydir__file.html',1,'']]],
   ['togglable',['Togglable',['../classobe_1_1_types_1_1_togglable.html',1,'obe::Types']]],
   ['toolkitcontentbox',['ToolkitContentBox',['../classtgui_1_1_toolkit_content_box.html',1,'tgui']]],
+  ['trajectory',['Trajectory',['../classobe_1_1_collision_1_1_trajectory.html',1,'obe::Collision']]],
+  ['trajectorynode',['TrajectoryNode',['../classobe_1_1_collision_1_1_trajectory_node.html',1,'obe::Collision']]],
   ['transformable',['Transformable',['../classobe_1_1_graphics_1_1_transformable.html',1,'obe::Graphics']]],
   ['trigger',['Trigger',['../classobe_1_1_triggers_1_1_trigger.html',1,'obe::Triggers']]],
   ['triggerdatabase',['TriggerDatabase',['../classobe_1_1_triggers_1_1_trigger_database.html',1,'obe::Triggers']]],

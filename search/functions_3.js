@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['calculatefontsize',['calculateFontSize',['../namespaceobe_1_1_editor_1_1_g_u_i.html#a01fc7b49b5f1f9f628f6cc66cf18ac0a',1,'obe::Editor::GUI']]],
   ['camera',['Camera',['../classobe_1_1_scene_1_1_camera.html#a5cbcedbaa8ee1245e7eae186a8278452',1,'obe::Scene::Camera']]],
   ['canvas',['Canvas',['../classobe_1_1_graphics_1_1_canvas.html#a807bb9495715dc739a5c81ddb989c1ff',1,'obe::Graphics::Canvas']]],
   ['canvaselement',['CanvasElement',['../classobe_1_1_graphics_1_1_canvas_element.html#a363f7148a87d16b77f6988cfe71bc94f',1,'obe::Graphics::CanvasElement']]],
@@ -32,9 +33,9 @@ var searchData=
   ['connectcollidersactions',['connectCollidersActions',['../namespaceobe_1_1_editor.html#aa3cb1a8c423af767355cc211d0cfb805',1,'obe::Editor']]],
   ['connectgameconsoleactions',['connectGameConsoleActions',['../namespaceobe_1_1_editor.html#a49bd88e66380497c81af8fc4d8c8b864',1,'obe::Editor']]],
   ['connectgridactions',['connectGridActions',['../namespaceobe_1_1_editor.html#a2d8998fcd282e0d972194002d2a43bb2',1,'obe::Editor']]],
-  ['connectmenuactions',['connectMenuActions',['../namespaceobe_1_1_editor.html#a182ecd233967e437f70f9cdeae0e7144',1,'obe::Editor']]],
+  ['connectmenuactions',['connectMenuActions',['../namespaceobe_1_1_editor.html#a1d2517985f85260cdc2248dfe4778b1e',1,'obe::Editor']]],
   ['connectsaveactions',['connectSaveActions',['../namespaceobe_1_1_editor.html#a19631d61170bd127227951fc535189ea',1,'obe::Editor']]],
-  ['connectspriteactions',['connectSpriteActions',['../namespaceobe_1_1_editor.html#ab6bfdaa8e8de8a30a00d270cd9d70d12',1,'obe::Editor']]],
+  ['connectspriteactions',['connectSpriteActions',['../namespaceobe_1_1_editor.html#a0e522bb0eb9ba1466553f514683c7caa',1,'obe::Editor']]],
   ['connectspritelayeractions',['connectSpriteLayerActions',['../namespaceobe_1_1_editor.html#a4513c77341144adcdbdf7114e1f6f605',1,'obe::Editor']]],
   ['console',['Console',['../classobe_1_1_debug_1_1_console.html#a6120ea12f472acf98bd67f65864e1dc3',1,'obe::Debug::Console']]],
   ['consolemessage',['ConsoleMessage',['../classobe_1_1_debug_1_1_console_message.html#a39f2d698c04cd54006ecf0d97f428445',1,'obe::Debug::ConsoleMessage']]],
@@ -45,20 +46,20 @@ var searchData=
   ['copy',['copy',['../classtgui_1_1_toolkit_content_box.html#a0dacc49ee6a86e8525ce9b64595e3a3a',1,'tgui::ToolkitContentBox::copy()'],['../classvili_1_1_array_node.html#ad556cbc172d7496ba917f67596fd96cd',1,'vili::ArrayNode::copy()'],['../classvili_1_1_complex_node.html#a09c2de8fb5e7b79e407c08405624091a',1,'vili::ComplexNode::copy()'],['../classvili_1_1_container_node.html#a6427f4093aac2c67956675830dbc2acb',1,'vili::ContainerNode::copy()'],['../classvili_1_1_data_node.html#a7f30e8836aedbe34f8936b5d30da5413',1,'vili::DataNode::copy()'],['../classvili_1_1_link_node.html#a4b4a339604e69b5bb5bafa70e455430b',1,'vili::LinkNode::copy()'],['../classvili_1_1_node.html#acb14e48c6734307180af119401103894',1,'vili::Node::copy()'],['../namespaceobe_1_1_utils_1_1_file.html#adfe308b82b00d48d2110609c8019e2f2',1,'obe::Utils::File::copy()']]],
   ['create',['create',['../classtgui_1_1_toolkit_content_box.html#ac91f5d8d0936313a2e8ca904facaa4a2',1,'tgui::ToolkitContentBox']]],
   ['createarraynode',['createArrayNode',['../classvili_1_1_complex_node.html#ad0fb0be46ef509c3edd1046b5d584a4c',1,'vili::ComplexNode']]],
-  ['createcollider',['createCollider',['../classobe_1_1_scene_1_1_scene.html#a0f671e2bd6abe5509a38d647394b3080',1,'obe::Scene::Scene']]],
+  ['createcollider',['createCollider',['../classobe_1_1_scene_1_1_scene.html#ae07448becda12e1b83014b8bc22fafc6',1,'obe::Scene::Scene']]],
   ['createcomplexnode',['createComplexNode',['../classvili_1_1_complex_node.html#aa6146d2b1da881ab97605bb700f5d7c4',1,'vili::ComplexNode']]],
   ['createdatanode',['createDataNode',['../classvili_1_1_complex_node.html#a5fb28422d884d1ed937026ba88014a87',1,'vili::ComplexNode::createDataNode(const std::string &amp;id, const DataType &amp;type, const std::string &amp;data)'],['../classvili_1_1_complex_node.html#a4120799beb497e9393351f7a35cf0753',1,'vili::ComplexNode::createDataNode(const std::string &amp;id, const DataType &amp;type)'],['../classvili_1_1_complex_node.html#a97a91ea44fe648bd1adc5ed7a8d7ad3a',1,'vili::ComplexNode::createDataNode(const std::string &amp;id, const std::string &amp;data)'],['../classvili_1_1_complex_node.html#a3cd795e46a0b11466df1486ee982e69f',1,'vili::ComplexNode::createDataNode(const std::string &amp;id, const char *data)'],['../classvili_1_1_complex_node.html#a31d7995c5fffd4f4459be0279e58f87f',1,'vili::ComplexNode::createDataNode(const std::string &amp;id, bool data)'],['../classvili_1_1_complex_node.html#ac358ebfe999ab391511c39f8673ae5a7',1,'vili::ComplexNode::createDataNode(const std::string &amp;id, int data)'],['../classvili_1_1_complex_node.html#a0e467de2c707589eebca025ed52f4b9e',1,'vili::ComplexNode::createDataNode(const std::string &amp;id, double data)']]],
   ['createdir',['createDir',['../elzip__fallback_8cpp.html#a08c99acf1e5bfb4797cc9563ab23eb48',1,'elzip_fallback.cpp']]],
   ['createdirectory',['createDirectory',['../namespaceobe_1_1_utils_1_1_file.html#ac4b87c8e3d1f46f868cc190b6f064466',1,'obe::Utils::File']]],
   ['createfile',['createFile',['../namespaceobe_1_1_utils_1_1_file.html#ad16b6a852ef93c703cc6aaeeac3888cb',1,'obe::Utils::File']]],
-  ['creategameobject',['createGameObject',['../classobe_1_1_scene_1_1_scene.html#a4cd121904533663534f9bd7cbedf6913',1,'obe::Scene::Scene']]],
+  ['creategameobject',['createGameObject',['../classobe_1_1_scene_1_1_scene.html#ac646660b22c099f3d126dae645cf135e',1,'obe::Scene::Scene']]],
   ['createlevel',['createLevel',['../namespaceobe_1_1_modes.html#aba069f9abc42724d76690602326d6b7d',1,'obe::Modes']]],
-  ['createlevelsprite',['createLevelSprite',['../classobe_1_1_scene_1_1_scene.html#ac868d2b68177aa7aa584bf6af81823d9',1,'obe::Scene::Scene']]],
+  ['createlevelsprite',['createLevelSprite',['../classobe_1_1_scene_1_1_scene.html#a095effc5567447fcb3a29bd69f2ff299',1,'obe::Scene::Scene']]],
   ['createlinknode',['createLinkNode',['../classvili_1_1_complex_node.html#a752c953cc9c13b9578971fa147b2b53e',1,'vili::ComplexNode']]],
   ['createnamespace',['createNamespace',['../classobe_1_1_triggers_1_1_trigger_database.html#a629434b22f321c5e1dd213b04706584c',1,'obe::Triggers::TriggerDatabase']]],
   ['createnewenvironment',['createNewEnvironment',['../namespaceobe_1_1_script.html#aff4cb801e5fb7c212fb1b44dfd282f94',1,'obe::Script']]],
   ['createstream',['createStream',['../classobe_1_1_debug_1_1_console.html#a95a9f75bf9c421f88d3bdd9ef1a95df3',1,'obe::Debug::Console']]],
   ['createtriggergroup',['createTriggerGroup',['../classobe_1_1_triggers_1_1_trigger_database.html#a646a92ae2fd7d8947ec23ae301f12483',1,'obe::Triggers::TriggerDatabase']]],
   ['cross',['cross',['../namespaceobe_1_1_collision.html#ac098e4b3ea591fcbbac2946f2d05ec67',1,'obe::Collision']]],
-  ['cursor',['Cursor',['../classobe_1_1_system_1_1_cursor.html#a5e568fefd6990cd6945ab0ce6ae54328',1,'obe::System::Cursor']]]
+  ['cursor',['Cursor',['../classobe_1_1_system_1_1_cursor.html#a97cc621e093c133754f6b7c834bb809c',1,'obe::System::Cursor']]]
 ];

@@ -77,27 +77,13 @@ $(function() {
  <a href="classobe_1_1_scene_1_1_camera.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_camera_8hpp_source.html">Camera.hpp</a>&gt;</code></p>
-<div class="dynheader">
-Inheritance diagram for obe::Scene::Camera:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_scene_1_1_camera__inherit__graph.svg" width="154" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
-<div class="dynheader">
-Collaboration diagram for obe::Scene::Camera:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_scene_1_1_camera__coll__graph.svg" width="406" height="307"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+
+<p>Inherits <a class="el" href="classobe_1_1_transform_1_1_rect.html">obe::Transform::Rect</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a5cbcedbaa8ee1245e7eae186a8278452"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_camera.html#a5cbcedbaa8ee1245e7eae186a8278452">Camera</a> ()</td></tr>
 <tr class="separator:a5cbcedbaa8ee1245e7eae186a8278452"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a949f9320fcb448cc02c8b1da9b31f01d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_camera.html#a949f9320fcb448cc02c8b1da9b31f01d">lock</a> ()</td></tr>
-<tr class="memdesc:a949f9320fcb448cc02c8b1da9b31f01d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Locks the <a class="el" href="classobe_1_1_scene_1_1_camera.html" title="The Camera that views the Scene . ">Camera</a> so it can't be modified until unlock.  <a href="#a949f9320fcb448cc02c8b1da9b31f01d">More...</a><br /></td></tr>
-<tr class="separator:a949f9320fcb448cc02c8b1da9b31f01d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e7e2afd5d3ad5137b91aa489f87c083"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_camera.html#a9e7e2afd5d3ad5137b91aa489f87c083">unlock</a> ()</td></tr>
-<tr class="memdesc:a9e7e2afd5d3ad5137b91aa489f87c083"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unlock the <a class="el" href="classobe_1_1_scene_1_1_camera.html" title="The Camera that views the Scene . ">Camera</a> so it can be modified again.  <a href="#a9e7e2afd5d3ad5137b91aa489f87c083">More...</a><br /></td></tr>
-<tr class="separator:a9e7e2afd5d3ad5137b91aa489f87c083"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5608b33a0f0be34d42711c2dee41c2c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_camera.html#aa5608b33a0f0be34d42711c2dee41c2c">setPosition</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;position, <a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a> ref=<a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728ab32beb056fbfe36afbabc6c88c81ab36">Transform::Referencial::TopLeft</a>)</td></tr>
 <tr class="memdesc:aa5608b33a0f0be34d42711c2dee41c2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the Position of the <a class="el" href="classobe_1_1_scene_1_1_camera.html" title="The Camera that views the Scene . ">Camera</a>.  <a href="#aa5608b33a0f0be34d42711c2dee41c2c">More...</a><br /></td></tr>
 <tr class="separator:aa5608b33a0f0be34d42711c2dee41c2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -135,11 +121,6 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_scene_1_1_camera_a5cbcedbaa8ee1245e7eae186a8278452_cgraph.svg" width="378" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
 
 </div>
 </div>
@@ -168,12 +149,6 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The Position of the <a class="el" href="classobe_1_1_scene_1_1_camera.html" title="The Camera that views the Scene . ">Camera</a> </dd></dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_scene_1_1_camera_a0784974770837ae195a7738debcf6dec_icgraph.svg" width="100%" height="515"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -194,37 +169,6 @@ Here is the caller graph for this function:</div>
 
 <p>Gets an UnitVector containing the size of the <a class="el" href="classobe_1_1_scene_1_1_camera.html" title="The Camera that views the Scene . ">Camera</a> (Width and Height) </p>
 <dl class="section return"><dt>Returns</dt><dd>An UnitVector containing the size of the <a class="el" href="classobe_1_1_scene_1_1_camera.html" title="The Camera that views the Scene . ">Camera</a> (Width and Height) </dd></dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_scene_1_1_camera_adfde56d24721c9247c7d50bc8a3603da_icgraph.svg" width="100%" height="440"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-
-</div>
-</div>
-<a id="a949f9320fcb448cc02c8b1da9b31f01d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a949f9320fcb448cc02c8b1da9b31f01d">&#9670;&nbsp;</a></span>lock()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void obe::Scene::Camera::lock </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Locks the <a class="el" href="classobe_1_1_scene_1_1_camera.html" title="The Camera that views the Scene . ">Camera</a> so it can't be modified until unlock. </p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_scene_1_1_camera_a949f9320fcb448cc02c8b1da9b31f01d_icgraph.svg" width="100%" height="438"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -233,6 +177,9 @@ Here is the caller graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void obe::Scene::Camera::move </td>
@@ -242,6 +189,11 @@ Here is the caller graph for this function:</div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Moves the <a class="el" href="classobe_1_1_scene_1_1_camera.html" title="The Camera that views the Scene . ">Camera</a>. </p>
@@ -251,12 +203,8 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_scene_1_1_camera_a728fbdde50e94f132bac1123fbee2628_icgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
+
+<p>Reimplemented from <a class="el" href="classobe_1_1_transform_1_1_movable.html#a3e5af5ce054a20242a7acac2d449cd8e">obe::Transform::Movable</a>.</p>
 
 </div>
 </div>
@@ -294,18 +242,6 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_scene_1_1_camera_aff827179f391aacdc9d6a9d23d16b5ea_cgraph.svg" width="342" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_scene_1_1_camera_aff827179f391aacdc9d6a9d23d16b5ea_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -343,12 +279,6 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_scene_1_1_camera_aa5608b33a0f0be34d42711c2dee41c2c_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -386,49 +316,12 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_scene_1_1_camera_a9b012e591aba22a5a3f23ca2243eaba1_icgraph.svg" width="100%" height="516"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-
-</div>
-</div>
-<a id="a9e7e2afd5d3ad5137b91aa489f87c083"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e7e2afd5d3ad5137b91aa489f87c083">&#9670;&nbsp;</a></span>unlock()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void obe::Scene::Camera::unlock </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Unlock the <a class="el" href="classobe_1_1_scene_1_1_camera.html" title="The Camera that views the Scene . ">Camera</a> so it can be modified again. </p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_scene_1_1_camera_a9e7e2afd5d3ad5137b91aa489f87c083_cgraph.svg" width="396" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_scene_1_1_camera_a9e7e2afd5d3ad5137b91aa489f87c083_icgraph.svg" width="100%" height="438"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>E:/Dev/ObEngine/Git/include/Scene/<a class="el" href="_camera_8hpp_source.html">Camera.hpp</a></li>
-<li>E:/Dev/ObEngine/Git/src/Scene/<a class="el" href="_camera_8cpp.html">Camera.cpp</a></li>
+<li>sources/include/Scene/<a class="el" href="_camera_8hpp_source.html">Camera.hpp</a></li>
+<li>sources/src/Scene/<a class="el" href="_camera_8cpp.html">Camera.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

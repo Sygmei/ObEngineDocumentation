@@ -79,6 +79,10 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_movable.html">Movable</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_node2_d.html">Node2D</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_protected_unit_vector.html">ProtectedUnitVector</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html" title="Class widely used in the Engine to scale and position elements in a Scene . ">UnitVector</a> where you can't access the unit .  <a href="classobe_1_1_transform_1_1_protected_unit_vector.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -100,6 +104,17 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
+<tr class="memitem:afa663032e66eaf5d647861418b975ecc"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_transform.html#afa663032e66eaf5d647861418b975ecc">MovableType</a> { <br />
+&#160;&#160;<a class="el" href="namespaceobe_1_1_transform.html#afa663032e66eaf5d647861418b975ecca7088d0affb208681b3cdbec3f72c59e3">MovableType::Movable</a>, 
+<a class="el" href="namespaceobe_1_1_transform.html#afa663032e66eaf5d647861418b975ecca69ad58d91eec91b5c152d21ca117dc81">MovableType::Rect</a>, 
+<a class="el" href="namespaceobe_1_1_transform.html#afa663032e66eaf5d647861418b975ecca967d35e40f3f95b1f538bd248640bf3b">MovableType::Camera</a>, 
+<a class="el" href="namespaceobe_1_1_transform.html#afa663032e66eaf5d647861418b975ecca533e05bb769531c5fb14f8b3910b30f1">MovableType::LevelSprite</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespaceobe_1_1_transform.html#afa663032e66eaf5d647861418b975eccac8a23afcabc3952c4cd658d78d4c8ed9">MovableType::PolygonalCollider</a>, 
+<a class="el" href="namespaceobe_1_1_transform.html#afa663032e66eaf5d647861418b975ecca427018d0acbb14bdbd836be0ba6b7edd">MovableType::Node2D</a>
+<br />
+ }</td></tr>
+<tr class="separator:afa663032e66eaf5d647861418b975ecc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa65ff49b93d52a9bcb4ffa7ec006728"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Referencial</a> { <br />
 &#160;&#160;<a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728ab32beb056fbfe36afbabc6c88c81ab36">Referencial::TopLeft</a>, 
 <a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728aa4ffdcf0dc1f31b9acaf295d75b51d00">Referencial::Top</a>, 
@@ -164,6 +179,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a3b7172a1c9bd7266c8997af31dc78f6e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_transform.html#a3b7172a1c9bd7266c8997af31dc78f6e">referencialToString</a> (<a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Referencial</a> ref)</td></tr>
 <tr class="memdesc:a3b7172a1c9bd7266c8997af31dc78f6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of a Referencial in std::string form.  <a href="#a3b7172a1c9bd7266c8997af31dc78f6e">More...</a><br /></td></tr>
 <tr class="separator:a3b7172a1c9bd7266c8997af31dc78f6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a51027aa439a6bdda18a299c556854c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Referencial</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_transform.html#a5a51027aa439a6bdda18a299c556854c">stringToReferencial</a> (const std::string &amp;ref)</td></tr>
+<tr class="memdesc:a5a51027aa439a6bdda18a299c556854c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a Referencial based on its name.  <a href="#a5a51027aa439a6bdda18a299c556854c">More...</a><br /></td></tr>
+<tr class="separator:a5a51027aa439a6bdda18a299c556854c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a859401b983e08e9ae69214a5b29b2b6b"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_transform.html#a859401b983e08e9ae69214a5b29b2b6b">operator&lt;&lt;</a> (std::ostream &amp;os, <a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Referencial</a> m)</td></tr>
 <tr class="memdesc:a859401b983e08e9ae69214a5b29b2b6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overload of operator&lt;&lt; to print Referencials.  <a href="#a859401b983e08e9ae69214a5b29b2b6b">More...</a><br /></td></tr>
 <tr class="separator:a859401b983e08e9ae69214a5b29b2b6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -195,6 +213,36 @@ Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Classes and Functions to handle all types of 2d Transformations in the Engine. </p>
 </div><h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="afa663032e66eaf5d647861418b975ecc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa663032e66eaf5d647861418b975ecc">&#9670;&nbsp;</a></span>MovableType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespaceobe_1_1_transform.html#afa663032e66eaf5d647861418b975ecc">obe::Transform::MovableType</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="afa663032e66eaf5d647861418b975ecca7088d0affb208681b3cdbec3f72c59e3"></a>Movable&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afa663032e66eaf5d647861418b975ecca69ad58d91eec91b5c152d21ca117dc81"></a>Rect&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afa663032e66eaf5d647861418b975ecca967d35e40f3f95b1f538bd248640bf3b"></a>Camera&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afa663032e66eaf5d647861418b975ecca533e05bb769531c5fb14f8b3910b30f1"></a>LevelSprite&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afa663032e66eaf5d647861418b975eccac8a23afcabc3952c4cd658d78d4c8ed9"></a>PolygonalCollider&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afa663032e66eaf5d647861418b975ecca427018d0acbb14bdbd836be0ba6b7edd"></a>Node2D&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <a id="aaa65ff49b93d52a9bcb4ffa7ec006728"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaa65ff49b93d52a9bcb4ffa7ec006728">&#9670;&nbsp;</a></span>Referencial</h2>
 
@@ -309,12 +357,6 @@ Exemple : x = 4.5, y = 2.5. </p>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The normalized position of a Referencial in a <a class="el" href="classobe_1_1_transform_1_1_rect.html" title="A Class that does represent a Rectangle with various methods to manipulate it . ">Rect</a> </dd></dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_transform_a0e610f7800bbfa83dde8e012d6f62b9f_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -369,12 +411,6 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if Referencial is on bottom side, false otherwise </dd></dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_transform_a2c1ad33a5081603fa80cdfb59fbddcdc_icgraph.svg" width="100%" height="495"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -402,12 +438,6 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if Referencial is on a corner, false otherwise </dd></dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_transform_ad663f915014f2baf6f442a7f954719fb_icgraph.svg" width="100%" height="495"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -435,12 +465,6 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if Referencial is on left side, false otherwise </dd></dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_transform_aa691fbdecf757ac44a346cfd94250af5_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -468,12 +492,6 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if Referencial is on right side, false otherwise </dd></dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_transform_ad3ae4d57d1e06878ea5355878dc9b502_icgraph.svg" width="100%" height="495"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -528,12 +546,6 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if Referencial is on top side, false otherwise </dd></dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_transform_ad264cfdb85442817ba8fe485b4442393_icgraph.svg" width="100%" height="388"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -572,18 +584,6 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The given stream to chain calls </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_transform_a859401b983e08e9ae69214a5b29b2b6b_cgraph.svg" width="412" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_transform_a859401b983e08e9ae69214a5b29b2b6b_icgraph.svg" width="386" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
 
 </div>
 </div>
@@ -622,12 +622,6 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The stream passed by reference (To chain calls) </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_transform_a22f1149bf6765e0de4b5fd646de06f7b_cgraph.svg" width="430" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
 
 </div>
 </div>
@@ -655,12 +649,6 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The name of the Referencial in std::string form </dd></dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_transform_a3b7172a1c9bd7266c8997af31dc78f6e_icgraph.svg" width="608" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
 
 </div>
 </div>
@@ -688,12 +676,33 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The opposite of the given Referencial (BottomRight =&gt; TopLeft for example) </dd></dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_transform_ad1159d36faebe48e25fca817cdfe4637_icgraph.svg" width="100%" height="495"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+
 </div>
 </div>
+<a id="a5a51027aa439a6bdda18a299c556854c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a51027aa439a6bdda18a299c556854c">&#9670;&nbsp;</a></span>stringToReferencial()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Referencial</a> obe::Transform::stringToReferencial </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>ref</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets a Referencial based on its name. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ref</td><td>Name of the Referencial </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The Referencial enum value corresponding to the given name </dd></dl>
 
 </div>
 </div>
@@ -721,12 +730,6 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The convert Units enum value </dd></dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_transform_a0c41545b9457f8c90503cd4de06db7f0_icgraph.svg" width="100%" height="505"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -754,12 +757,6 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A std::string containing the Units enum value in string form </dd></dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_transform_a0c442ce5e518937ecb1b208f57baf56d_icgraph.svg" width="100%" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -787,12 +784,6 @@ template&lt;&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_transform_a7e36571450b0a5a33cd0fa2308ec7056_cgraph.svg" width="415" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
 
 </div>
 </div>
@@ -820,12 +811,6 @@ template&lt;&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_transform_ae993fb492684212ba7fd57821575b29b_cgraph.svg" width="384" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
 
 </div>
 </div>
@@ -853,12 +838,6 @@ template&lt;&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_transform_ac760ac1c371c8ab7e02b08f873e7f7ee_cgraph.svg" width="379" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
 
 </div>
 </div>
@@ -886,12 +865,6 @@ template&lt;&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_transform_a8a7d37a78ae3d8b982dda27b37b48ac2_cgraph.svg" width="391" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
 
 </div>
 </div>
@@ -919,12 +892,6 @@ template&lt;&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceobe_1_1_transform_ad971e6791f4dbb78690590ef6f23220f_cgraph.svg" width="608" height="111"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
 
 </div>
 </div>

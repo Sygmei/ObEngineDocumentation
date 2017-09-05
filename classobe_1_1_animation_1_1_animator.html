@@ -108,6 +108,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac335331eb08fe4d3151505780a3a30fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_animation_1_1_animator.html#ac335331eb08fe4d3151505780a3a30fa">setKey</a> (const std::string &amp;key)</td></tr>
 <tr class="memdesc:ac335331eb08fe4d3151505780a3a30fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the <a class="el" href="classobe_1_1_animation_1_1_animation.html" title="A whole Animation that contains one or more AnimationGroup. . ">Animation</a> to play by name.  <a href="#ac335331eb08fe4d3151505780a3a30fa">More...</a><br /></td></tr>
 <tr class="separator:ac335331eb08fe4d3151505780a3a30fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add4d45415f670de94c92ca8b29728bdc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_animation_1_1_animator.html#add4d45415f670de94c92ca8b29728bdc">setPaused</a> (bool pause)</td></tr>
+<tr class="memdesc:add4d45415f670de94c92ca8b29728bdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts or Pause the <a class="el" href="classobe_1_1_animation_1_1_animator.html" title="A Class that will manage a set of Animation.  Example : ">Animator</a> (won't do anything even if updated)  <a href="#add4d45415f670de94c92ca8b29728bdc">More...</a><br /></td></tr>
+<tr class="separator:add4d45415f670de94c92ca8b29728bdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04c9d6baabb9a1b193cd26ab0b3e4766"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_animation_1_1_animator.html#a04c9d6baabb9a1b193cd26ab0b3e4766">loadAnimator</a> ()</td></tr>
 <tr class="memdesc:a04c9d6baabb9a1b193cd26ab0b3e4766"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the <a class="el" href="classobe_1_1_animation_1_1_animator.html" title="A Class that will manage a set of Animation.  Example : ">Animator</a> (Using the <a class="el" href="classobe_1_1_animation_1_1_animator.html" title="A Class that will manage a set of Animation.  Example : ">Animator</a> root path).<br />
  It will also load all the <a class="el" href="classobe_1_1_animation_1_1_animation.html" title="A whole Animation that contains one or more AnimationGroup. . ">Animation</a> contained in the <a class="el" href="classobe_1_1_animation_1_1_animator.html" title="A Class that will manage a set of Animation.  Example : ">Animator</a>. If an <a class="el" href="classobe_1_1_animation_1_1_animator.html" title="A Class that will manage a set of Animation.  Example : ">Animator</a> configuration file is found it will load it.  <a href="#a04c9d6baabb9a1b193cd26ab0b3e4766">More...</a><br /></td></tr>
@@ -230,12 +233,6 @@ Example : <br />
   </table>
   </dd>
 </dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animator_a882f333d9e80d1ba02c3a00141867eb2_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -256,12 +253,6 @@ Here is the caller graph for this function:</div>
 
 <p>Get the name of all contained <a class="el" href="classobe_1_1_animation_1_1_animation.html" title="A whole Animation that contains one or more AnimationGroup. . ">Animation</a>. </p>
 <dl class="section return"><dt>Returns</dt><dd>A std::vector of std::string containing the name of all contained <a class="el" href="classobe_1_1_animation_1_1_animation.html" title="A whole Animation that contains one or more AnimationGroup. . ">Animation</a> </dd></dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animator_aef879d34e09310ab19a3f7f244d57b96_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -290,18 +281,6 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the wanted <a class="el" href="classobe_1_1_animation_1_1_animation.html" title="A whole Animation that contains one or more AnimationGroup. . ">Animation</a>.<br />
  Throws a ObEngine.Animation.Animator.AnimationNotFound if the <a class="el" href="classobe_1_1_animation_1_1_animation.html" title="A whole Animation that contains one or more AnimationGroup. . ">Animation</a> is not found </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animator_a6dc4d7317a42647f9353c48d66f2c9d0_cgraph.svg" width="554" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animator_a6dc4d7317a42647f9353c48d66f2c9d0_icgraph.svg" width="100%" height="361"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -322,12 +301,6 @@ Here is the caller graph for this function:</div>
 
 <p>Get the name of the currently played <a class="el" href="classobe_1_1_animation_1_1_animation.html" title="A whole Animation that contains one or more AnimationGroup. . ">Animation</a>. </p>
 <dl class="section return"><dt>Returns</dt><dd>A std::string containing the name of the currently played <a class="el" href="classobe_1_1_animation_1_1_animation.html" title="A whole Animation that contains one or more AnimationGroup. . ">Animation</a> </dd></dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animator_a55671134e7608fa71f46cc2ae3aa51a6_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -348,18 +321,6 @@ Here is the caller graph for this function:</div>
 
 <p>Get the x Coordinate of the current offset of the current Sprite. </p>
 <dl class="section return"><dt>Returns</dt><dd>The x Coordinate of the current offset of the current Sprite (in pixels) </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animator_a8c405521beb299e67916cdccdc0b8615_cgraph.svg" width="403" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animator_a8c405521beb299e67916cdccdc0b8615_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -380,18 +341,6 @@ Here is the caller graph for this function:</div>
 
 <p>Get the y Coordinate of the current offset of the current Sprite. </p>
 <dl class="section return"><dt>Returns</dt><dd>The y Coordinate of the current offset of the current Sprite (in pixels) </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animator_a4af612a762b60d30edc0ddca2d9b4832_cgraph.svg" width="403" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animator_a4af612a762b60d30edc0ddca2d9b4832_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -412,18 +361,6 @@ Here is the caller graph for this function:</div>
 
 <p>Get the current sf::Sprite of the current <a class="el" href="classobe_1_1_animation_1_1_animation.html" title="A whole Animation that contains one or more AnimationGroup. . ">Animation</a>. </p>
 <dl class="section return"><dt>Returns</dt><dd>A pointer of the sf::Sprite currently played by the current <a class="el" href="classobe_1_1_animation_1_1_animation.html" title="A whole Animation that contains one or more AnimationGroup. . ">Animation</a> </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animator_ada6c0858d3fd693de9ae05350f56ef23_cgraph.svg" width="403" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animator_ada6c0858d3fd693de9ae05350f56ef23_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -462,18 +399,6 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the Texture </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animator_a608b6df6159ee25a6f2e4afa7db2a162_cgraph.svg" width="100%" height="461"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animator_a608b6df6159ee25a6f2e4afa7db2a162_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -494,18 +419,6 @@ Here is the caller graph for this function:</div>
 
 <p>Loads the <a class="el" href="classobe_1_1_animation_1_1_animator.html" title="A Class that will manage a set of Animation.  Example : ">Animator</a> (Using the <a class="el" href="classobe_1_1_animation_1_1_animator.html" title="A Class that will manage a set of Animation.  Example : ">Animator</a> root path).<br />
  It will also load all the <a class="el" href="classobe_1_1_animation_1_1_animation.html" title="A whole Animation that contains one or more AnimationGroup. . ">Animation</a> contained in the <a class="el" href="classobe_1_1_animation_1_1_animator.html" title="A Class that will manage a set of Animation.  Example : ">Animator</a>. If an <a class="el" href="classobe_1_1_animation_1_1_animator.html" title="A Class that will manage a set of Animation.  Example : ">Animator</a> configuration file is found it will load it. </p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animator_a04c9d6baabb9a1b193cd26ab0b3e4766_cgraph.svg" width="100%" height="591"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animator_a04c9d6baabb9a1b193cd26ab0b3e4766_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -533,18 +446,6 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animator_ac335331eb08fe4d3151505780a3a30fa_cgraph.svg" width="590" height="314"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animator_ac335331eb08fe4d3151505780a3a30fa_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -571,12 +472,6 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animator_a0d8e801b4cbfec51169e058521776d48_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -606,6 +501,32 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="add4d45415f670de94c92ca8b29728bdc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add4d45415f670de94c92ca8b29728bdc">&#9670;&nbsp;</a></span>setPaused()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::Animation::Animator::setPaused </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>pause</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Starts or Pause the <a class="el" href="classobe_1_1_animation_1_1_animator.html" title="A Class that will manage a set of Animation.  Example : ">Animator</a> (won't do anything even if updated) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pause</td><td>true if the <a class="el" href="classobe_1_1_animation_1_1_animator.html" title="A Class that will manage a set of Animation.  Example : ">Animator</a> should pause, false otherwise </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ad710964804f5673b13e3628590f93665"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad710964804f5673b13e3628590f93665">&#9670;&nbsp;</a></span>textureChanged()</h2>
 
@@ -623,18 +544,6 @@ Here is the caller graph for this function:</div>
 
 <p>Return if the Texture changed since the last call to <a class="el" href="classobe_1_1_animation_1_1_animator.html#ada6c0858d3fd693de9ae05350f56ef23" title="Get the current sf::Sprite of the current Animation. ">getTexture()</a> </p>
 <dl class="section return"><dt>Returns</dt><dd>true if the Texture has changed, false otherwise </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animator_ad710964804f5673b13e3628590f93665_cgraph.svg" width="403" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animator_ad710964804f5673b13e3628590f93665_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
@@ -654,24 +563,12 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Updates the <a class="el" href="classobe_1_1_animation_1_1_animator.html" title="A Class that will manage a set of Animation.  Example : ">Animator</a> and the currently played <a class="el" href="classobe_1_1_animation_1_1_animation.html" title="A whole Animation that contains one or more AnimationGroup. . ">Animation</a>. </p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animator_ad84c05c7f7743a98d4e11ba674f07b6d_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classobe_1_1_animation_1_1_animator_ad84c05c7f7743a98d4e11ba674f07b6d_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>E:/Dev/ObEngine/Git/include/Animation/<a class="el" href="_animator_8hpp_source.html">Animator.hpp</a></li>
-<li>E:/Dev/ObEngine/Git/src/Animation/<a class="el" href="_animator_8cpp.html">Animator.cpp</a></li>
+<li>sources/include/Animation/<a class="el" href="_animator_8hpp_source.html">Animator.hpp</a></li>
+<li>sources/src/Animation/<a class="el" href="_animator_8cpp.html">Animator.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

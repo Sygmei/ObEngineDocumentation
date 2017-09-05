@@ -1,2 +1,0 @@
-# ObEngineDocumentation
-Documentation of ObEngine
