@@ -152,6 +152,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a98dc8b2400f9e7acbe31f2b5cca990b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a98dc8b2400f9e7acbe31f2b5cca990b8">getMasterPointPosition</a> () const</td></tr>
 <tr class="memdesc:a98dc8b2400f9e7acbe31f2b5cca990b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the position of the Master Point (centroid) of the Polygon.  <a href="#a98dc8b2400f9e7acbe31f2b5cca990b8">More...</a><br /></td></tr>
 <tr class="separator:a98dc8b2400f9e7acbe31f2b5cca990b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8754aa927e14c9ec09a82bc0b1e84561"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a8754aa927e14c9ec09a82bc0b1e84561">setRotation</a> (float angle, <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> origin)</td></tr>
+<tr class="memdesc:a8754aa927e14c9ec09a82bc0b1e84561"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the angle of the <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html" title="Class used for all Collisions in the engine, it&#39;s a Polygon containing n points . ...">PolygonalCollider</a> (will rotate all points around the given origin)  <a href="#a8754aa927e14c9ec09a82bc0b1e84561">More...</a><br /></td></tr>
+<tr class="separator:a8754aa927e14c9ec09a82bc0b1e84561"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9edb9ab58573a3ccade3fb2840d02e94"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a9edb9ab58573a3ccade3fb2840d02e94">getRotation</a> () const</td></tr>
+<tr class="memdesc:a9edb9ab58573a3ccade3fb2840d02e94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the current angle of the <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html" title="Class used for all Collisions in the engine, it&#39;s a Polygon containing n points . ...">PolygonalCollider</a>.  <a href="#a9edb9ab58573a3ccade3fb2840d02e94">More...</a><br /></td></tr>
+<tr class="separator:a9edb9ab58573a3ccade3fb2840d02e94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99bfc6e7ec2a10b807dd6e8111ee24b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a99bfc6e7ec2a10b807dd6e8111ee24b6">rotate</a> (float angle, <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> origin)</td></tr>
+<tr class="memdesc:a99bfc6e7ec2a10b807dd6e8111ee24b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an angle to the current angle of the <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html" title="Class used for all Collisions in the engine, it&#39;s a Polygon containing n points . ...">PolygonalCollider</a> (will rotate all points around the given origin)  <a href="#a99bfc6e7ec2a10b807dd6e8111ee24b6">More...</a><br /></td></tr>
+<tr class="separator:a99bfc6e7ec2a10b807dd6e8111ee24b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aacaa0b2ad49e97180cc0025bc294eb84"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#aacaa0b2ad49e97180cc0025bc294eb84">move</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;vec) override</td></tr>
 <tr class="memdesc:aacaa0b2ad49e97180cc0025bc294eb84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves the Polygon (relative to the current position)  <a href="#aacaa0b2ad49e97180cc0025bc294eb84">More...</a><br /></td></tr>
 <tr class="separator:aacaa0b2ad49e97180cc0025bc294eb84"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1122,6 +1131,26 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a9edb9ab58573a3ccade3fb2840d02e94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9edb9ab58573a3ccade3fb2840d02e94">&#9670;&nbsp;</a></span>getRotation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float obe::Collision::PolygonalCollider::getRotation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the current angle of the <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html" title="Class used for all Collisions in the engine, it&#39;s a Polygon containing n points . ...">PolygonalCollider</a>. </p>
+<dl class="section return"><dt>Returns</dt><dd>A float containing the value of the current angle of the <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html" title="Class used for all Collisions in the engine, it&#39;s a Polygon containing n points . ...">PolygonalCollider</a> </dd></dl>
+
+</div>
+</div>
 <a id="a2f952842bdac49eec3cff1c065cfe167"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2f952842bdac49eec3cff1c065cfe167">&#9670;&nbsp;</a></span>getSideAngle()</h2>
 
@@ -1499,6 +1528,43 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a99bfc6e7ec2a10b807dd6e8111ee24b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99bfc6e7ec2a10b807dd6e8111ee24b6">&#9670;&nbsp;</a></span>rotate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::Collision::PolygonalCollider::rotate </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>angle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>&#160;</td>
+          <td class="paramname"><em>origin</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds an angle to the current angle of the <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html" title="Class used for all Collisions in the engine, it&#39;s a Polygon containing n points . ...">PolygonalCollider</a> (will rotate all points around the given origin) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">angle</td><td>Angle to add to the <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html" title="Class used for all Collisions in the engine, it&#39;s a Polygon containing n points . ...">PolygonalCollider</a> </td></tr>
+    <tr><td class="paramname">origin</td><td>Origin to rotate all the points around </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a9d692c2e88779313fde0bdde2b3ddb4f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9d692c2e88779313fde0bdde2b3ddb4f">&#9670;&nbsp;</a></span>setOrigin()</h2>
 
@@ -1718,6 +1784,43 @@ Additional Inherited Members</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">vec</td><td>UnitVector containing the new Position of the Polygon </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8754aa927e14c9ec09a82bc0b1e84561"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8754aa927e14c9ec09a82bc0b1e84561">&#9670;&nbsp;</a></span>setRotation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::Collision::PolygonalCollider::setRotation </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>angle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>&#160;</td>
+          <td class="paramname"><em>origin</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the angle of the <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html" title="Class used for all Collisions in the engine, it&#39;s a Polygon containing n points . ...">PolygonalCollider</a> (will rotate all points around the given origin) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">angle</td><td>Angle to set to the <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html" title="Class used for all Collisions in the engine, it&#39;s a Polygon containing n points . ...">PolygonalCollider</a> </td></tr>
+    <tr><td class="paramname">origin</td><td>Origin to rotate all the points around </td></tr>
   </table>
   </dd>
 </dl>
