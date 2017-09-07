@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['m_5fangle',['m_angle',['../classobe_1_1_transform_1_1_rect.html#a8061139cbbdcde254c9d59d61c64cd07',1,'obe::Transform::Rect']]],
   ['m_5fannotation',['m_annotation',['../classvili_1_1_node.html#acf626bf76682f50ad7326f00502adf5d',1,'vili::Node']]],
   ['m_5fbackgroundcolorcached',['m_backgroundColorCached',['../classtgui_1_1_toolkit_content_box.html#a91e50864539df21f1b1bb0dcb6f49b3a',1,'tgui::ToolkitContentBox']]],
   ['m_5fbordercolorcached',['m_borderColorCached',['../classtgui_1_1_toolkit_content_box.html#ab4adaf86acd2a4ea26b2faed025c1dee',1,'tgui::ToolkitContentBox']]],

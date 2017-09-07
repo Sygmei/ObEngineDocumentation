@@ -57,6 +57,6 @@ var searchData=
   ['right',['Right',['../namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728a92b09c7c48c520c3c55e497875da437c',1,'obe::Transform']]],
   ['rng',['rng',['../namespaceobe_1_1_utils_1_1_math.html#a675729380c54b579e88c541098a50258',1,'obe::Utils::Math']]],
   ['root',['root',['../classvili_1_1_vili_parser.html#a0a8509febfba3b5bc5a4b3db10e945dd',1,'vili::ViliParser']]],
-  ['rotate',['rotate',['../classobe_1_1_collision_1_1_polygonal_collider.html#a99bfc6e7ec2a10b807dd6e8111ee24b6',1,'obe::Collision::PolygonalCollider::rotate()'],['../classobe_1_1_graphics_1_1_level_sprite.html#a1b66251ed9abac7885f07d8e39118664',1,'obe::Graphics::LevelSprite::rotate()']]],
+  ['rotate',['rotate',['../classobe_1_1_collision_1_1_polygonal_collider.html#a99bfc6e7ec2a10b807dd6e8111ee24b6',1,'obe::Collision::PolygonalCollider::rotate()'],['../classobe_1_1_graphics_1_1_level_sprite.html#a1b66251ed9abac7885f07d8e39118664',1,'obe::Graphics::LevelSprite::rotate()'],['../classobe_1_1_transform_1_1_rect.html#a7e0edd265ac2c44e9bda592b518ca989',1,'obe::Transform::Rect::rotate()']]],
   ['runargsparser',['RunArgsParser',['../classobe_1_1_utils_1_1_exec_1_1_run_args_parser.html',1,'obe::Utils::Exec::RunArgsParser'],['../classobe_1_1_utils_1_1_exec_1_1_run_args_parser.html#aa1a429f50cbeba080981ed78384c6998',1,'obe::Utils::Exec::RunArgsParser::RunArgsParser()']]]
 ];

@@ -59,7 +59,7 @@ var searchData=
   ['setprobe',['setProbe',['../classobe_1_1_collision_1_1_trajectory_node.html#aea9afaf4e87efeb9fe21cd4ab8af6e43',1,'obe::Collision::TrajectoryNode']]],
   ['setquicklookattributes',['setQuickLookAttributes',['../classvili_1_1_vili_parser.html#aa243d0a0603985e346f3ef00ee60fa3d',1,'vili::ViliParser']]],
   ['setrepeat',['setRepeat',['../classobe_1_1_input_1_1_input_action.html#a50b9de11510ccb3d49d2c6988418e39f',1,'obe::Input::InputAction']]],
-  ['setrotation',['setRotation',['../classobe_1_1_collision_1_1_polygonal_collider.html#a8754aa927e14c9ec09a82bc0b1e84561',1,'obe::Collision::PolygonalCollider::setRotation()'],['../classobe_1_1_graphics_1_1_level_sprite.html#adc82bcb6c31078c63147f2d25632f55f',1,'obe::Graphics::LevelSprite::setRotation()']]],
+  ['setrotation',['setRotation',['../classobe_1_1_collision_1_1_polygonal_collider.html#a8754aa927e14c9ec09a82bc0b1e84561',1,'obe::Collision::PolygonalCollider::setRotation()'],['../classobe_1_1_graphics_1_1_level_sprite.html#adc82bcb6c31078c63147f2d25632f55f',1,'obe::Graphics::LevelSprite::setRotation()'],['../classobe_1_1_transform_1_1_rect.html#aa5c15c8fbef30416f5e367ed0b502644',1,'obe::Transform::Rect::setRotation()']]],
   ['setrotationorigin',['setRotationOrigin',['../classobe_1_1_graphics_1_1_level_sprite.html#aa07a2be936ef399032ee491d1c2221cf',1,'obe::Graphics::LevelSprite']]],
   ['setscalingorigin',['setScalingOrigin',['../classobe_1_1_graphics_1_1_level_sprite.html#a117084b1a6e4e3cc0c50fb32e98d154e',1,'obe::Graphics::LevelSprite']]],
   ['setselected',['setSelected',['../classobe_1_1_types_1_1_selectable.html#a6509bfcbf860ab53ab88ff4633ca1512',1,'obe::Types::Selectable']]],

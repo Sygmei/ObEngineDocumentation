@@ -155,7 +155,7 @@ var searchData=
   ['getrenderer',['getRenderer',['../classtgui_1_1_toolkit_content_box.html#abe309614d2505e1d9447a05835d1264e',1,'tgui::ToolkitContentBox']]],
   ['getrepeat',['getRepeat',['../classobe_1_1_input_1_1_input_action.html#af95b7979954810d3425445e57683c788',1,'obe::Input::InputAction']]],
   ['getrequirementsforgameobject',['GetRequirementsForGameObject',['../classobe_1_1_script_1_1_game_object_database.html#a731774150034a4d3fcf35a12b4c4484c',1,'obe::Script::GameObjectDatabase']]],
-  ['getrotation',['getRotation',['../classobe_1_1_collision_1_1_polygonal_collider.html#a9edb9ab58573a3ccade3fb2840d02e94',1,'obe::Collision::PolygonalCollider::getRotation()'],['../classobe_1_1_graphics_1_1_level_sprite.html#a8f8d4558fc6136111406fe1a0153dcdb',1,'obe::Graphics::LevelSprite::getRotation()']]],
+  ['getrotation',['getRotation',['../classobe_1_1_collision_1_1_polygonal_collider.html#a9edb9ab58573a3ccade3fb2840d02e94',1,'obe::Collision::PolygonalCollider::getRotation()'],['../classobe_1_1_transform_1_1_rect.html#a966ebc6e484d8e91ac90fbd1f7cbdf3a',1,'obe::Transform::Rect::getRotation()']]],
   ['getscalefactor',['getScaleFactor',['../classobe_1_1_transform_1_1_rect.html#adb11d102b95d83cd928159f866382c7f',1,'obe::Transform::Rect']]],
   ['getscenenode',['getSceneNode',['../classobe_1_1_collision_1_1_trajectory_node.html#ae7e504a15c8f82c618124b1c6198c590',1,'obe::Collision::TrajectoryNode::getSceneNode()'],['../classobe_1_1_script_1_1_game_object.html#aa9573ee47064c60a07417869e63b9c27',1,'obe::Script::GameObject::getSceneNode()']]],
   ['getscenerootnode',['getSceneRootNode',['../classobe_1_1_scene_1_1_scene.html#a0052434784c5d8d2e5bd941b3dcf0cf5',1,'obe::Scene::Scene']]],
