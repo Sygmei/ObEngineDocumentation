@@ -103,6 +103,15 @@ Functions</h2></td></tr>
 <tr class="memitem:aab07790691a81fe5de9bc02b655f64ac"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_utils_1_1_math.html#aab07790691a81fe5de9bc02b655f64ac">sign</a> (T val)</td></tr>
 <tr class="memdesc:aab07790691a81fe5de9bc02b655f64ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the sign of the given number.  <a href="#aab07790691a81fe5de9bc02b655f64ac">More...</a><br /></td></tr>
 <tr class="separator:aab07790691a81fe5de9bc02b655f64ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7a4d0dd9e4c36ea59d7f64ffd5c3430"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_utils_1_1_math.html#aa7a4d0dd9e4c36ea59d7f64ffd5c3430">convertToRadian</a> (double value)</td></tr>
+<tr class="memdesc:aa7a4d0dd9e4c36ea59d7f64ffd5c3430"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a degrees angle to radians.  <a href="#aa7a4d0dd9e4c36ea59d7f64ffd5c3430">More...</a><br /></td></tr>
+<tr class="separator:aa7a4d0dd9e4c36ea59d7f64ffd5c3430"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a907720277313bf2fde13320164dab92c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_utils_1_1_math.html#a907720277313bf2fde13320164dab92c">convertToDegree</a> (double value)</td></tr>
+<tr class="memdesc:a907720277313bf2fde13320164dab92c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a radians angle to degrees.  <a href="#a907720277313bf2fde13320164dab92c">More...</a><br /></td></tr>
+<tr class="separator:a907720277313bf2fde13320164dab92c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53107891c19b47288c175bf6a99d508f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_utils_1_1_math.html#a53107891c19b47288c175bf6a99d508f">normalise</a> (const double value, const double start, const double end)</td></tr>
+<tr class="memdesc:a53107891c19b47288c175bf6a99d508f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalizes a value between start and end.  <a href="#a53107891c19b47288c175bf6a99d508f">More...</a><br /></td></tr>
+<tr class="separator:a53107891c19b47288c175bf6a99d508f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a675729380c54b579e88c541098a50258"><td class="memItemLeft" align="right" valign="top">std::mt19937&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_utils_1_1_math.html#a675729380c54b579e88c541098a50258">rng</a> (<a class="el" href="namespaceobe_1_1_utils_1_1_math.html#aea98e6fdb5d6faaf67214b54ee5b5369">rd</a>())</td></tr>
 <tr class="separator:a675729380c54b579e88c541098a50258"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -116,6 +125,60 @@ Variables</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Functions to work with maths . </p>
 </div><h2 class="groupheader">Function Documentation</h2>
+<a id="a907720277313bf2fde13320164dab92c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a907720277313bf2fde13320164dab92c">&#9670;&nbsp;</a></span>convertToDegree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double obe::Utils::Math::convertToDegree </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts a radians angle to degrees. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>Angle in radians </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A double containing the converted value </dd></dl>
+
+</div>
+</div>
+<a id="aa7a4d0dd9e4c36ea59d7f64ffd5c3430"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7a4d0dd9e4c36ea59d7f64ffd5c3430">&#9670;&nbsp;</a></span>convertToRadian()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double obe::Utils::Math::convertToRadian </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts a degrees angle to radians. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>Angle in degrees </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A double containing the converted value </dd></dl>
+
+</div>
+</div>
 <a id="a8b268a1c0fa04da4e2e6b8b29dbfed86"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8b268a1c0fa04da4e2e6b8b29dbfed86">&#9670;&nbsp;</a></span>getMax()</h2>
 
@@ -287,6 +350,51 @@ template&lt;typename N , typename N1 , typename N2 &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the double is an integer, false otherwise </dd></dl>
+
+</div>
+</div>
+<a id="a53107891c19b47288c175bf6a99d508f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53107891c19b47288c175bf6a99d508f">&#9670;&nbsp;</a></span>normalise()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double obe::Utils::Math::normalise </td>
+          <td>(</td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>end</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Normalizes a value between start and end. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>Value to normalize </td></tr>
+    <tr><td class="paramname">start</td><td>Lower bound </td></tr>
+    <tr><td class="paramname">end</td><td>Higher bound </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Normalized value </dd></dl>
 
 </div>
 </div>

@@ -4,7 +4,7 @@ var searchData=
   ['leftmousepressed',['leftMousePressed',['../classtgui_1_1_toolkit_content_box.html#ab624b143a8d25fb02e55a47214944839',1,'tgui::ToolkitContentBox']]],
   ['leftmousereleased',['leftMouseReleased',['../classtgui_1_1_toolkit_content_box.html#acc2b150347580ba12257af70a955cf9b',1,'tgui::ToolkitContentBox']]],
   ['levelsprite',['LevelSprite',['../classobe_1_1_graphics_1_1_level_sprite.html#a03469a2646eaa31df13bd942fbbbcb6b',1,'obe::Graphics::LevelSprite']]],
-  ['levelspritehandlepoint',['LevelSpriteHandlePoint',['../classobe_1_1_graphics_1_1_level_sprite_handle_point.html#a7223bcb01e2b15bde2d24739edbb3f40',1,'obe::Graphics::LevelSpriteHandlePoint']]],
+  ['levelspritehandlepoint',['LevelSpriteHandlePoint',['../classobe_1_1_graphics_1_1_level_sprite_handle_point.html#a7223bcb01e2b15bde2d24739edbb3f40',1,'obe::Graphics::LevelSpriteHandlePoint::LevelSpriteHandlePoint(Transform::Rect *parentRect, Transform::Referencial ref)'],['../classobe_1_1_graphics_1_1_level_sprite_handle_point.html#a239032260adcd5b9fd5b7d8b8ff52448',1,'obe::Graphics::LevelSpriteHandlePoint::LevelSpriteHandlePoint(Transform::Rect *parentRect)']]],
   ['limitexceeded',['limitExceeded',['../classobe_1_1_time_1_1_chronometer.html#a9f6569f865579a2f25aee3828dec1df4',1,'obe::Time::Chronometer']]],
   ['limitframerate',['limitFramerate',['../classobe_1_1_time_1_1_framerate_manager.html#a7ad46f2be1c10e1508e9fcb69285046c',1,'obe::Time::FramerateManager']]],
   ['line',['Line',['../classobe_1_1_graphics_1_1_line.html#a4177efa96824d8c2bb66d2b0ee7cf00e',1,'obe::Graphics::Line::Line()'],['../classobe_1_1_graphics_1_1_canvas.html#ac59370e0a4fb56908aec189b6147388f',1,'obe::Graphics::Canvas::line()']]],

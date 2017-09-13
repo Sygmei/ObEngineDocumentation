@@ -21,6 +21,7 @@ var searchData=
   ['nodevalidator',['NodeValidator',['../classvili_1_1_node_validator.html',1,'vili::NodeValidator&lt; T &gt;'],['../classvili_1_1_node_validator.html#a99d47be7912ea51792224bb4e4ee9a50',1,'vili::NodeValidator::NodeValidator()'],['../classvili_1_1_node_validator.html#a7cb2ae3a88ca4ce4a223ba59160cd88e',1,'vili::NodeValidator::NodeValidator(ComplexNode *node)']]],
   ['nodevalidator_2ehpp',['NodeValidator.hpp',['../_node_validator_8hpp.html',1,'']]],
   ['nodevalidator_2einl',['NodeValidator.inl',['../_node_validator_8inl.html',1,'']]],
+  ['normalise',['normalise',['../namespaceobe_1_1_utils_1_1_math.html#a53107891c19b47288c175bf6a99d508f',1,'obe::Utils::Math']]],
   ['numbers',['Numbers',['../namespaceobe_1_1_utils_1_1_string.html#adb599acd8732126fb416fcde24fa413d',1,'obe::Utils::String']]],
   ['numeric',['Numeric',['../namespaceobe_1_1_input.html#a08f2b5990899bb151cc4fedfb35b716ba87322391cc6e8948ce9fd5d6cb84fced',1,'obe::Input']]],
   ['numericnp',['NumericNP',['../namespaceobe_1_1_input.html#a08f2b5990899bb151cc4fedfb35b716baeef6f62071f4392c6340d9b2db1cb7c9',1,'obe::Input']]]

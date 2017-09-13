@@ -7,5 +7,6 @@ var searchData=
   ['nodeiterator',['NodeIterator',['../classvili_1_1_node_iterator.html#afeb8091850ed0785986858f803c5c873',1,'vili::NodeIterator::NodeIterator()'],['../classvili_1_1_node_iterator.html#adcaafafa210775f2f0879298fa7b3a7a',1,'vili::NodeIterator::NodeIterator(ComplexNode *node)']]],
   ['nodetemplate',['NodeTemplate',['../classvili_1_1_node_template.html#a79ef38ecab704f6f4771dd59e4ddaba9',1,'vili::NodeTemplate']]],
   ['nodetypetostring',['nodeTypeToString',['../namespacevili_1_1_types.html#a7949c98113e814fa11c200a6ad402e59',1,'vili::Types']]],
-  ['nodevalidator',['NodeValidator',['../classvili_1_1_node_validator.html#a99d47be7912ea51792224bb4e4ee9a50',1,'vili::NodeValidator::NodeValidator()'],['../classvili_1_1_node_validator.html#a7cb2ae3a88ca4ce4a223ba59160cd88e',1,'vili::NodeValidator::NodeValidator(ComplexNode *node)']]]
+  ['nodevalidator',['NodeValidator',['../classvili_1_1_node_validator.html#a99d47be7912ea51792224bb4e4ee9a50',1,'vili::NodeValidator::NodeValidator()'],['../classvili_1_1_node_validator.html#a7cb2ae3a88ca4ce4a223ba59160cd88e',1,'vili::NodeValidator::NodeValidator(ComplexNode *node)']]],
+  ['normalise',['normalise',['../namespaceobe_1_1_utils_1_1_math.html#a53107891c19b47288c175bf6a99d508f',1,'obe::Utils::Math']]]
 ];
