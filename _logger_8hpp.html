@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ObEngine: sources/include/System/Path.hpp File Reference</title>
+<title>ObEngine: sources/include/Debug/Logger.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,47 +61,40 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_08d237fc27d4ecd563f71c5d52f2fecc.html">sources</a></li><li class="navelem"><a class="el" href="dir_da0f06c86f1c908881a669eb19c3ce89.html">include</a></li><li class="navelem"><a class="el" href="dir_4d3c08e4f43a5149c57a84cbd090209a.html">System</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_08d237fc27d4ecd563f71c5d52f2fecc.html">sources</a></li><li class="navelem"><a class="el" href="dir_da0f06c86f1c908881a669eb19c3ce89.html">include</a></li><li class="navelem"><a class="el" href="dir_f340fefd4ab03d753dbe31e8bc6d0581.html">Debug</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">Path.hpp File Reference</div>  </div>
+<div class="title">Logger.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="_error_handler_8hpp_source.html">vili/ErrorHandler.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_logger_8hpp_source.html">Debug/Logger.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_mountable_path_8hpp_source.html">System/MountablePath.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_file_utils_8hpp_source.html">Utils/FileUtils.hpp</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;spdlog/spdlog.h&gt;</code><br />
 </div>
-<p><a href="_path_8hpp_source.html">Go to the source code of this file.</a></p>
+<p><a href="_logger_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_path.html">obe::System::Path</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class used to manipulate paths and dynamically load resources (Based on multiple mounted paths) .  <a href="classobe_1_1_system_1_1_path.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceobe"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe.html">obe</a></td></tr>
 <tr class="memdesc:namespaceobe"><td class="mdescLeft">&#160;</td><td class="mdescRight">The wonderful ObEngine's namespace ! <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespaceobe_1_1_system"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system.html">obe::System</a></td></tr>
-<tr class="memdesc:namespaceobe_1_1_system"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespaceobe_1_1_system.html" title="System Classes and Functions. ">System</a> Classes and Functions. <br /></td></tr>
+<tr class="memitem:namespaceobe_1_1_debug"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_debug.html">obe::Debug</a></td></tr>
+<tr class="memdesc:namespaceobe_1_1_debug"><td class="mdescLeft">&#160;</td><td class="mdescRight">Classes and Functions to <a class="el" href="namespaceobe_1_1_debug.html" title="Classes and Functions to Debug games created with the Engine. ">Debug</a> games created with the Engine. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a694fe83b30a254b5c66650c9dc3bb497"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system.html#a694fe83b30a254b5c66650c9dc3bb497">obe::System::PathType</a> { <a class="el" href="namespaceobe_1_1_system.html#a694fe83b30a254b5c66650c9dc3bb497ab1c94ca2fbc3e78fc30069c8d0f01680">obe::System::PathType::All</a>, 
-<a class="el" href="namespaceobe_1_1_system.html#a694fe83b30a254b5c66650c9dc3bb497ae73cda510e8bb947f7e61089e5581494">obe::System::PathType::Directory</a>, 
-<a class="el" href="namespaceobe_1_1_system.html#a694fe83b30a254b5c66650c9dc3bb497a0b27918290ff5323bea1e3b78a9cf04e">obe::System::PathType::File</a>
- }</td></tr>
-<tr class="separator:a694fe83b30a254b5c66650c9dc3bb497"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a410aebf0bd73d9e0e2d625a0e5b1ade9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_debug.html#a410aebf0bd73d9e0e2d625a0e5b1ade9">obe::Debug::InitLogger</a> ()</td></tr>
+<tr class="separator:a410aebf0bd73d9e0e2d625a0e5b1ade9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ad3583000bcb30c11762c61622bdb3c99"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; spd::logger &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_debug.html#ad3583000bcb30c11762c61622bdb3c99">obe::Debug::Log</a></td></tr>
+<tr class="separator:ad3583000bcb30c11762c61622bdb3c99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

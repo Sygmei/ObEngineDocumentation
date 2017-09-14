@@ -8,6 +8,7 @@ var searchData=
   ['init',['Init',['../classobe_1_1_transform_1_1_unit_vector.html#a261f7f29364269ae6b4dc5b3fce29b82',1,'obe::Transform::UnitVector::Init(ViewStruct *&amp;)'],['../classobe_1_1_transform_1_1_unit_vector.html#a8a7b89250a960b2fae16bc26c2264509',1,'obe::Transform::UnitVector::Init(int width, int height)'],['../classobe_1_1_graphics_1_1_configurable.html#a4e04db8747b7531f0c3629975da10441',1,'obe::Graphics::Configurable::init()'],['../namespaceobe_1_1_editor_1_1_g_u_i.html#a10ac68cfe87c5388b159dd7aa70dc402',1,'obe::Editor::GUI::init()']]],
   ['initialize',['initialize',['../classobe_1_1_script_1_1_game_object.html#abaff76040f61d6bfb4e3c6ec39a33ad2',1,'obe::Script::GameObject']]],
   ['initkeylist',['InitKeyList',['../namespaceobe_1_1_input.html#a52d7c1e958b20be309ad7c868975c14c',1,'obe::Input']]],
+  ['initlogger',['InitLogger',['../namespaceobe_1_1_debug.html#a410aebf0bd73d9e0e2d625a0e5b1ade9',1,'obe::Debug']]],
   ['initpositiontransformer',['InitPositionTransformer',['../namespaceobe_1_1_graphics.html#a179b75b8c9035e8fb67f4535abede2a8',1,'obe::Graphics']]],
   ['initscriptengine',['InitScriptEngine',['../namespaceobe_1_1_script.html#aee6606178e25a578119fd378d21ca29f',1,'obe::Script']]],
   ['inputaction',['InputAction',['../classobe_1_1_input_1_1_input_action.html#a1c42a4363a0d7340c976b1f7cd0dba39',1,'obe::Input::InputAction']]],

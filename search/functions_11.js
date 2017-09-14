@@ -4,7 +4,7 @@ var searchData=
   ['randfloat',['randfloat',['../namespaceobe_1_1_utils_1_1_math.html#a3bbd8898660b36f9319be7b115c99216',1,'obe::Utils::Math']]],
   ['randint',['randint',['../namespaceobe_1_1_utils_1_1_math.html#af79008fea1a281ec434372d59249e7d4',1,'obe::Utils::Math']]],
   ['rect',['Rect',['../classobe_1_1_transform_1_1_rect.html#a6936d517bfdc9e33e4d30c3b65ec392b',1,'obe::Transform::Rect']]],
-  ['rectangle',['Rectangle',['../classobe_1_1_graphics_1_1_rectangle.html#a2727083ac9fc62fe56371c5cf19c8757',1,'obe::Graphics::Rectangle::Rectangle()'],['../classobe_1_1_graphics_1_1_canvas.html#a1f9e81fe834940b058ff80721d910aff',1,'obe::Graphics::Canvas::rectangle()']]],
+  ['rectangle',['rectangle',['../classobe_1_1_graphics_1_1_canvas.html#a1f9e81fe834940b058ff80721d910aff',1,'obe::Graphics::Canvas::rectangle()'],['../classobe_1_1_graphics_1_1_rectangle.html#a2727083ac9fc62fe56371c5cf19c8757',1,'obe::Graphics::Rectangle::Rectangle()']]],
   ['referencialtostring',['referencialToString',['../namespaceobe_1_1_transform.html#a3b7172a1c9bd7266c8997af31dc78f6e',1,'obe::Transform']]],
   ['registerenvironment',['registerEnvironment',['../classobe_1_1_triggers_1_1_trigger.html#ac5f3cf098ffcdcd75a5b9f82c80a57c5',1,'obe::Triggers::Trigger']]],
   ['registertrigger',['registerTrigger',['../classobe_1_1_script_1_1_game_object.html#a094b1d46c481585d1a3e1aa14788e2ff',1,'obe::Script::GameObject']]],
