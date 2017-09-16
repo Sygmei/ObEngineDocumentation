@@ -62,6 +62,7 @@ var searchData=
   ['isgroupover',['isGroupOver',['../classobe_1_1_animation_1_1_animation_group.html#ac5c095a14efd953ff555dae844cbec64',1,'obe::Animation::AnimationGroup']]],
   ['isinlist',['isInList',['../namespaceobe_1_1_utils_1_1_vector.html#a636b7f465d67c2bf42a297f221af9cfe',1,'obe::Utils::Vector::isInList()'],['../include_2elzip_2elzip__fallback_8hpp.html#a90c35dca7c8fe4875150ddd8b78f878b',1,'isInList():&#160;elzip_fallback.hpp'],['../namespacevili_1_1_functions_1_1_vector.html#aa9f0dd6b1c4be1e3d86846944329d9f2',1,'vili::Functions::Vector::isInList()'],['../build_2elzip_2src_2elzip__fallback_8hpp.html#a90c35dca7c8fe4875150ddd8b78f878b',1,'isInList():&#160;elzip_fallback.hpp']]],
   ['isjoinable',['isJoinable',['../classobe_1_1_triggers_1_1_trigger_group.html#adba28eca706feec3e0d01af49ef659c8',1,'obe::Triggers::TriggerGroup']]],
+  ['islooping',['isLooping',['../classobe_1_1_sound_1_1_music_wrapper.html#a9358405a336ff7830148d98385f5d8e8',1,'obe::Sound::MusicWrapper::isLooping()'],['../classobe_1_1_sound_1_1_sound_wrapper.html#a38fcf9776000efb79540390a68e2c89e',1,'obe::Sound::SoundWrapper::isLooping()']]],
   ['isonbottomside',['isOnBottomSide',['../namespaceobe_1_1_transform.html#a2c1ad33a5081603fa80cdfb59fbddcdc',1,'obe::Transform']]],
   ['isoncorner',['isOnCorner',['../namespaceobe_1_1_transform.html#ad663f915014f2baf6f442a7f954719fb',1,'obe::Transform']]],
   ['isonleftside',['isOnLeftSide',['../namespaceobe_1_1_transform.html#aa691fbdecf757ac44a346cfd94250af5',1,'obe::Transform']]],
