@@ -89,9 +89,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a385bccf95deb10358169dffe5547e567"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html#a385bccf95deb10358169dffe5547e567">loadFromFile</a> (const std::string &amp;filename)</td></tr>
 <tr class="memdesc:a385bccf95deb10358169dffe5547e567"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the <a class="el" href="classobe_1_1_scene_1_1_scene.html" title="The Scene class is a container of all the game elements . ">Scene</a> from a .map.vili file.  <a href="#a385bccf95deb10358169dffe5547e567">More...</a><br /></td></tr>
 <tr class="separator:a385bccf95deb10358169dffe5547e567"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4095cb168b6394bc916c271c08f22f5c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html#a4095cb168b6394bc916c271c08f22f5c">setFutureLoadFromFile</a> (const std::string &amp;filename)</td></tr>
-<tr class="memdesc:a4095cb168b6394bc916c271c08f22f5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same that loadFromFile excepts the map will load at the next update.  <a href="#a4095cb168b6394bc916c271c08f22f5c">More...</a><br /></td></tr>
-<tr class="separator:a4095cb168b6394bc916c271c08f22f5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f583386c2285976fd0896c66d92943f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html#a6f583386c2285976fd0896c66d92943f">setFutureLoadFromFile</a> (const std::string &amp;filename, kaguya::LuaFunction callback=kaguya::State().loadstring(&quot;&quot;))</td></tr>
+<tr class="memdesc:a6f583386c2285976fd0896c66d92943f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same that loadFromFile excepts the map will load at the next update.  <a href="#a6f583386c2285976fd0896c66d92943f">More...</a><br /></td></tr>
+<tr class="separator:a6f583386c2285976fd0896c66d92943f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a0ff2e3bd9fa05636d431054e9a7f14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html#a9a0ff2e3bd9fa05636d431054e9a7f14">clearWorld</a> ()</td></tr>
 <tr class="memdesc:a9a0ff2e3bd9fa05636d431054e9a7f14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all elements in the <a class="el" href="classobe_1_1_scene_1_1_scene.html" title="The Scene class is a container of all the game elements . ">Scene</a>.  <a href="#a9a0ff2e3bd9fa05636d431054e9a7f14">More...</a><br /></td></tr>
 <tr class="separator:a9a0ff2e3bd9fa05636d431054e9a7f14"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -190,9 +190,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa98b2e2251930f855447c42cb25440ba"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html#aa98b2e2251930f855447c42cb25440ba">getBaseFolder</a> () const</td></tr>
 <tr class="memdesc:aa98b2e2251930f855447c42cb25440ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Folder where was the map loaded with loadFromFile method.  <a href="#aa98b2e2251930f855447c42cb25440ba">More...</a><br /></td></tr>
 <tr class="separator:aa98b2e2251930f855447c42cb25440ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45391196be11a436e66660da0b194e45"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html#a45391196be11a436e66660da0b194e45">reload</a> ()</td></tr>
-<tr class="memdesc:a45391196be11a436e66660da0b194e45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reloads the <a class="el" href="classobe_1_1_scene_1_1_scene.html" title="The Scene class is a container of all the game elements . ">Scene</a> from the level file.  <a href="#a45391196be11a436e66660da0b194e45">More...</a><br /></td></tr>
-<tr class="separator:a45391196be11a436e66660da0b194e45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93965fe2904e3f540876491e807e9064"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html#a93965fe2904e3f540876491e807e9064">reload</a> (kaguya::LuaFunction callback=kaguya::State().loadstring(&quot;&quot;))</td></tr>
+<tr class="memdesc:a93965fe2904e3f540876491e807e9064"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reloads the <a class="el" href="classobe_1_1_scene_1_1_scene.html" title="The Scene class is a container of all the game elements . ">Scene</a> from the level file.  <a href="#a93965fe2904e3f540876491e807e9064">More...</a><br /></td></tr>
+<tr class="separator:a93965fe2904e3f540876491e807e9064"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab49de4277dbc50ca944f833047463ae0"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html#ab49de4277dbc50ca944f833047463ae0">getLevelFile</a> () const</td></tr>
 <tr class="memdesc:ab49de4277dbc50ca944f833047463ae0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of the last loaded map file with loadFromFile method.  <a href="#ab49de4277dbc50ca944f833047463ae0">More...</a><br /></td></tr>
 <tr class="separator:ab49de4277dbc50ca944f833047463ae0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -994,8 +994,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a45391196be11a436e66660da0b194e45"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a45391196be11a436e66660da0b194e45">&#9670;&nbsp;</a></span>reload()</h2>
+<a id="a93965fe2904e3f540876491e807e9064"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93965fe2904e3f540876491e807e9064">&#9670;&nbsp;</a></span>reload()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1003,7 +1003,8 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void obe::Scene::Scene::reload </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">kaguya::LuaFunction&#160;</td>
+          <td class="paramname"><em>callback</em> = <code>kaguya::State().loadstring(&quot;&quot;)</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1110,8 +1111,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a4095cb168b6394bc916c271c08f22f5c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4095cb168b6394bc916c271c08f22f5c">&#9670;&nbsp;</a></span>setFutureLoadFromFile()</h2>
+<a id="a6f583386c2285976fd0896c66d92943f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f583386c2285976fd0896c66d92943f">&#9670;&nbsp;</a></span>setFutureLoadFromFile()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1120,8 +1121,18 @@ Public Member Functions</h2></td></tr>
           <td class="memname">void obe::Scene::Scene::setFutureLoadFromFile </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>filename</em></td><td>)</td>
+          <td class="paramname"><em>filename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">kaguya::LuaFunction&#160;</td>
+          <td class="paramname"><em>callback</em> = <code>kaguya::State().loadstring(&quot;&quot;)</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
