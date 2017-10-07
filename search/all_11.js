@@ -19,7 +19,7 @@ var searchData=
   ['registertrigger',['registerTrigger',['../classobe_1_1_script_1_1_game_object.html#a094b1d46c481585d1a3e1aa14788e2ff',1,'obe::Script::GameObject']]],
   ['rejected',['Rejected',['../namespaceobe_1_1_collision.html#aa8080687fb294144f0bc8de1423b3f3dad37b1f6c0512e2118cee17fea015b699',1,'obe::Collision']]],
   ['released',['Released',['../namespaceobe_1_1_input.html#a7c34dc018f96813bc8b63f4c9c6cbc47aea1e34304a5d8ffa7c9b0ed8ede4ef1a',1,'obe::Input']]],
-  ['reload',['reload',['../classobe_1_1_scene_1_1_scene.html#ac82833100cde525ec968595687ddd78d',1,'obe::Scene::Scene']]],
+  ['reload',['reload',['../classobe_1_1_scene_1_1_scene.html#a45391196be11a436e66660da0b194e45',1,'obe::Scene::Scene::reload()'],['../classobe_1_1_scene_1_1_scene.html#ac82833100cde525ec968595687ddd78d',1,'obe::Scene::Scene::reload(kaguya::LuaFunction callback)']]],
   ['removealllines',['removeAllLines',['../classtgui_1_1_toolkit_content_box.html#a58103b84a08c5400c003c1c2aaf6eb72',1,'tgui::ToolkitContentBox']]],
   ['removecharfromstring',['removeCharFromString',['../namespacevili_1_1_functions_1_1_string.html#a8d1e845c06f563c1a18e8c9d2adc34af',1,'vili::Functions::String']]],
   ['removecollider',['removeCollider',['../classobe_1_1_scene_1_1_scene.html#a0782811a07a2647080ad32384f1f1f73',1,'obe::Scene::Scene']]],

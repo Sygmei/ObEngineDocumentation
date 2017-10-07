@@ -25,7 +25,7 @@ var searchData=
   ['setdelay',['setDelay',['../classobe_1_1_time_1_1_time_check.html#a879d0e9bc98776a5534a4518b1e63be7',1,'obe::Time::TimeCheck']]],
   ['setenabled',['setEnabled',['../classobe_1_1_input_1_1_input_manager.html#a2eb44d200745787de06b22e831a56ca5',1,'obe::Input::InputManager::setEnabled()'],['../classobe_1_1_types_1_1_togglable.html#a08322e47c0c94ebd0320c5ab56fa3274',1,'obe::Types::Togglable::setEnabled()']]],
   ['setframeratetarget',['setFramerateTarget',['../classobe_1_1_time_1_1_framerate_manager.html#a950474858d81bd9c7abdee5b505a6f80',1,'obe::Time::FramerateManager']]],
-  ['setfutureloadfromfile',['setFutureLoadFromFile',['../classobe_1_1_scene_1_1_scene.html#af93a3aeebb4bb30127e9f1308f959598',1,'obe::Scene::Scene']]],
+  ['setfutureloadfromfile',['setFutureLoadFromFile',['../classobe_1_1_scene_1_1_scene.html#a4095cb168b6394bc916c271c08f22f5c',1,'obe::Scene::Scene::setFutureLoadFromFile(const std::string &amp;filename)'],['../classobe_1_1_scene_1_1_scene.html#af93a3aeebb4bb30127e9f1308f959598',1,'obe::Scene::Scene::setFutureLoadFromFile(const std::string &amp;filename, kaguya::LuaFunction callback)']]],
   ['setgamepadlist',['SetGamepadList',['../namespaceobe_1_1_input.html#aeaf8f3c95bf59ca5128cf7d36d6fa59f',1,'obe::Input']]],
   ['setgroupdelay',['setGroupDelay',['../classobe_1_1_animation_1_1_animation_group.html#a0b056c66c2d92069410cdb55e2b6909f',1,'obe::Animation::AnimationGroup']]],
   ['setgrouploop',['setGroupLoop',['../classobe_1_1_animation_1_1_animation_group.html#a290408374f6903f3f237daadd2178862',1,'obe::Animation::AnimationGroup']]],

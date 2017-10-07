@@ -89,6 +89,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a385bccf95deb10358169dffe5547e567"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html#a385bccf95deb10358169dffe5547e567">loadFromFile</a> (const std::string &amp;filename)</td></tr>
 <tr class="memdesc:a385bccf95deb10358169dffe5547e567"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the <a class="el" href="classobe_1_1_scene_1_1_scene.html" title="The Scene class is a container of all the game elements . ">Scene</a> from a .map.vili file.  <a href="#a385bccf95deb10358169dffe5547e567">More...</a><br /></td></tr>
 <tr class="separator:a385bccf95deb10358169dffe5547e567"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4095cb168b6394bc916c271c08f22f5c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html#a4095cb168b6394bc916c271c08f22f5c">setFutureLoadFromFile</a> (const std::string &amp;filename)</td></tr>
+<tr class="memdesc:a4095cb168b6394bc916c271c08f22f5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same that loadFromFile excepts the map will load at the next update.  <a href="#a4095cb168b6394bc916c271c08f22f5c">More...</a><br /></td></tr>
+<tr class="separator:a4095cb168b6394bc916c271c08f22f5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af93a3aeebb4bb30127e9f1308f959598"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html#af93a3aeebb4bb30127e9f1308f959598">setFutureLoadFromFile</a> (const std::string &amp;filename, kaguya::LuaFunction callback)</td></tr>
 <tr class="memdesc:af93a3aeebb4bb30127e9f1308f959598"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same that loadFromFile excepts the map will load at the next update.  <a href="#af93a3aeebb4bb30127e9f1308f959598">More...</a><br /></td></tr>
 <tr class="separator:af93a3aeebb4bb30127e9f1308f959598"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -190,6 +193,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa98b2e2251930f855447c42cb25440ba"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html#aa98b2e2251930f855447c42cb25440ba">getBaseFolder</a> () const</td></tr>
 <tr class="memdesc:aa98b2e2251930f855447c42cb25440ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Folder where was the map loaded with loadFromFile method.  <a href="#aa98b2e2251930f855447c42cb25440ba">More...</a><br /></td></tr>
 <tr class="separator:aa98b2e2251930f855447c42cb25440ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45391196be11a436e66660da0b194e45"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html#a45391196be11a436e66660da0b194e45">reload</a> ()</td></tr>
+<tr class="memdesc:a45391196be11a436e66660da0b194e45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reloads the <a class="el" href="classobe_1_1_scene_1_1_scene.html" title="The Scene class is a container of all the game elements . ">Scene</a> from the level file.  <a href="#a45391196be11a436e66660da0b194e45">More...</a><br /></td></tr>
+<tr class="separator:a45391196be11a436e66660da0b194e45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac82833100cde525ec968595687ddd78d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html#ac82833100cde525ec968595687ddd78d">reload</a> (kaguya::LuaFunction callback)</td></tr>
 <tr class="memdesc:ac82833100cde525ec968595687ddd78d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reloads the <a class="el" href="classobe_1_1_scene_1_1_scene.html" title="The Scene class is a container of all the game elements . ">Scene</a> from the level file.  <a href="#ac82833100cde525ec968595687ddd78d">More...</a><br /></td></tr>
 <tr class="separator:ac82833100cde525ec968595687ddd78d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -994,8 +1000,27 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a45391196be11a436e66660da0b194e45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45391196be11a436e66660da0b194e45">&#9670;&nbsp;</a></span>reload() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::Scene::Scene::reload </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reloads the <a class="el" href="classobe_1_1_scene_1_1_scene.html" title="The Scene class is a container of all the game elements . ">Scene</a> from the level file. </p>
+
+</div>
+</div>
 <a id="ac82833100cde525ec968595687ddd78d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac82833100cde525ec968595687ddd78d">&#9670;&nbsp;</a></span>reload()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac82833100cde525ec968595687ddd78d">&#9670;&nbsp;</a></span>reload() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1011,6 +1036,12 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reloads the <a class="el" href="classobe_1_1_scene_1_1_scene.html" title="The Scene class is a container of all the game elements . ">Scene</a> from the level file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">callback</td><td>Lua Function called when the map has been reloaded </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1111,8 +1142,34 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a4095cb168b6394bc916c271c08f22f5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4095cb168b6394bc916c271c08f22f5c">&#9670;&nbsp;</a></span>setFutureLoadFromFile() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::Scene::Scene::setFutureLoadFromFile </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>filename</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Same that loadFromFile excepts the map will load at the next update. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td>Name of the file located in Data/Maps (using <a class="el" href="namespaceobe_1_1_system_1_1_loaders.html" title="Lambdas used to load different kind of resources using the System::Path. ">System::Loaders</a>) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="af93a3aeebb4bb30127e9f1308f959598"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af93a3aeebb4bb30127e9f1308f959598">&#9670;&nbsp;</a></span>setFutureLoadFromFile()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af93a3aeebb4bb30127e9f1308f959598">&#9670;&nbsp;</a></span>setFutureLoadFromFile() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1141,6 +1198,7 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">filename</td><td>Name of the file located in Data/Maps (using <a class="el" href="namespaceobe_1_1_system_1_1_loaders.html" title="Lambdas used to load different kind of resources using the System::Path. ">System::Loaders</a>) </td></tr>
+    <tr><td class="paramname">callback</td><td>Lua Function called when new map has been loaded </td></tr>
   </table>
   </dd>
 </dl>
