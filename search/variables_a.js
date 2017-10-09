@@ -51,6 +51,7 @@ var searchData=
   ['m_5fwidth',['m_width',['../classobe_1_1_graphics_1_1_transformable.html#a188214a8e3d9a4c319e85ce6431147f1',1,'obe::Graphics::Transformable']]],
   ['m_5fx',['m_x',['../classobe_1_1_graphics_1_1_transformable.html#ae9d87f5dccea7d593bbd1e2cda04c3f3',1,'obe::Graphics::Transformable']]],
   ['m_5fy',['m_y',['../classobe_1_1_graphics_1_1_transformable.html#a8e1195fd151769fe17a7ebf6ee130cdd',1,'obe::Graphics::Transformable']]],
+  ['mainwindow',['MainWindow',['../namespaceobe_1_1_system.html#ac2f771828cabf8887967c464a487d4bc',1,'obe::System']]],
   ['mediumfontsize',['mediumFontSize',['../namespaceobe_1_1_editor_1_1_g_u_i.html#a7d8933ff45e1ec78d39924a8bb8c9c31',1,'obe::Editor::GUI']]],
   ['monitors',['Monitors',['../namespaceobe_1_1_input_1_1_monitors.html#ad2179eb9616449f58fdeacbc2b75eb29',1,'obe::Input::Monitors']]],
   ['mountedpaths',['MountedPaths',['../classobe_1_1_system_1_1_path.html#ad9c643d62eb00ab5b79d07d2215a919a',1,'obe::System::Path']]],

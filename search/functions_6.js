@@ -9,5 +9,5 @@ var searchData=
   ['first',['first',['../classvili_1_1_node_iterator.html#a5f94edec5ec7388f8c952978e738a9db',1,'vili::NodeIterator']]],
   ['forcenext',['forceNext',['../classobe_1_1_animation_1_1_animation_group.html#ad86bb28de21445e1b72cdc43941d61f1',1,'obe::Animation::AnimationGroup']]],
   ['forceprevious',['forcePrevious',['../classobe_1_1_animation_1_1_animation_group.html#a6a1b08ad59cec8a89622a6bede04aded',1,'obe::Animation::AnimationGroup']]],
-  ['frameratemanager',['FramerateManager',['../classobe_1_1_time_1_1_framerate_manager.html#a3f1277cf8e48a32240728104d01fec1a',1,'obe::Time::FramerateManager']]]
+  ['frameratemanager',['FramerateManager',['../classobe_1_1_time_1_1_framerate_manager.html#a4f5fe9d27d3611a52961c75da291b260',1,'obe::Time::FramerateManager']]]
 ];

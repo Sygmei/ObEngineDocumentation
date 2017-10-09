@@ -119,6 +119,10 @@ Enumerations</h2></td></tr>
 <a class="el" href="namespaceobe_1_1_system.html#a694fe83b30a254b5c66650c9dc3bb497a0b27918290ff5323bea1e3b78a9cf04e">PathType::File</a>
  }</td></tr>
 <tr class="separator:a694fe83b30a254b5c66650c9dc3bb497"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adddc1b1eefc4e9b4306c9c85651cc1cd"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system.html#adddc1b1eefc4e9b4306c9c85651cc1cd">WindowContext</a> { <a class="el" href="namespaceobe_1_1_system.html#adddc1b1eefc4e9b4306c9c85651cc1cdafcedd4fb0dc69bbb898cb8d66087628c">WindowContext::GameWindow</a>, 
+<a class="el" href="namespaceobe_1_1_system.html#adddc1b1eefc4e9b4306c9c85651cc1cdab782deb16aa9349a4f3ca19891012f68">WindowContext::EditorWindow</a>
+ }</td></tr>
+<tr class="separator:adddc1b1eefc4e9b4306c9c85651cc1cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -127,11 +131,15 @@ Functions</h2></td></tr>
 <tr class="memitem:ab44a678f8f4dc351d966f90283ba67e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system.html#ab44a678f8f4dc351d966f90283ba67e1">MountPaths</a> ()</td></tr>
 <tr class="memdesc:ab44a678f8f4dc351d966f90283ba67e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function called to Mount all Paths using 'Mount.vili' file.  <a href="#ab44a678f8f4dc351d966f90283ba67e1">More...</a><br /></td></tr>
 <tr class="separator:ab44a678f8f4dc351d966f90283ba67e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59e3f42833b0d84874d1abc9fa77073a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system.html#a59e3f42833b0d84874d1abc9fa77073a">InitWindow</a> (<a class="el" href="namespaceobe_1_1_system.html#adddc1b1eefc4e9b4306c9c85651cc1cd">WindowContext</a> context)</td></tr>
+<tr class="separator:a59e3f42833b0d84874d1abc9fa77073a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a09a6f6e10be630a57f38c7f5e2390b83"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvili_1_1_vili_parser.html">vili::ViliParser</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system.html#a09a6f6e10be630a57f38c7f5e2390b83">Config</a></td></tr>
 <tr class="separator:a09a6f6e10be630a57f38c7f5e2390b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2f771828cabf8887967c464a487d4bc"><td class="memItemLeft" align="right" valign="top">sf::RenderWindow&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system.html#ac2f771828cabf8887967c464a487d4bc">MainWindow</a></td></tr>
+<tr class="separator:ac2f771828cabf8887967c464a487d4bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="namespaceobe_1_1_system.html" title="System Classes and Functions. ">System</a> Classes and Functions. </p>
@@ -195,6 +203,32 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="adddc1b1eefc4e9b4306c9c85651cc1cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adddc1b1eefc4e9b4306c9c85651cc1cd">&#9670;&nbsp;</a></span>WindowContext</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespaceobe_1_1_system.html#adddc1b1eefc4e9b4306c9c85651cc1cd">obe::System::WindowContext</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="adddc1b1eefc4e9b4306c9c85651cc1cdafcedd4fb0dc69bbb898cb8d66087628c"></a>GameWindow&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adddc1b1eefc4e9b4306c9c85651cc1cdab782deb16aa9349a4f3ca19891012f68"></a>EditorWindow&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ac8c7fe12e2f48b1c5ec96bea29f686ac"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac8c7fe12e2f48b1c5ec96bea29f686ac">&#9670;&nbsp;</a></span>InitConfiguration()</h2>
@@ -206,6 +240,24 @@ Variables</h2></td></tr>
           <td class="memname">void obe::System::InitConfiguration </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a59e3f42833b0d84874d1abc9fa77073a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59e3f42833b0d84874d1abc9fa77073a">&#9670;&nbsp;</a></span>InitWindow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::System::InitWindow </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceobe_1_1_system.html#adddc1b1eefc4e9b4306c9c85651cc1cd">WindowContext</a>&#160;</td>
+          <td class="paramname"><em>context</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -241,6 +293,20 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classvili_1_1_vili_parser.html">vili::ViliParser</a> obe::System::Config</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac2f771828cabf8887967c464a487d4bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2f771828cabf8887967c464a487d4bc">&#9670;&nbsp;</a></span>MainWindow</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">sf::RenderWindow obe::System::MainWindow</td>
         </tr>
       </table>
 </div><div class="memdoc">

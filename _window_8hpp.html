@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ObEngine: sources/src/System/Cursor.cpp File Reference</title>
+<title>ObEngine: sources/include/System/Window.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,23 +61,23 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_08d237fc27d4ecd563f71c5d52f2fecc.html">sources</a></li><li class="navelem"><a class="el" href="dir_370a05bc919a3b485116f307abacd69c.html">src</a></li><li class="navelem"><a class="el" href="dir_88c22e7e16e4f94ac9cfc072b7d6fe5f.html">System</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_08d237fc27d4ecd563f71c5d52f2fecc.html">sources</a></li><li class="navelem"><a class="el" href="dir_da0f06c86f1c908881a669eb19c3ce89.html">include</a></li><li class="navelem"><a class="el" href="dir_4d3c08e4f43a5149c57a84cbd090209a.html">System</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
-<div class="title">Cursor.cpp File Reference</div>  </div>
+<div class="title">Window.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;SFML/Window/Mouse.hpp&gt;</code><br />
-<code>#include &lt;<a class="el" href="_input_manager_8hpp_source.html">Input/InputManager.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_cursor_8hpp_source.html">System/Cursor.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_window_8hpp_source.html">System/Window.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_unit_vector_8hpp_source.html">Transform/UnitVector.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_trigger_database_8hpp_source.html">Triggers/TriggerDatabase.hpp</a>&gt;</code><br />
-</div><table class="memberdecls">
+<div class="textblock"><code>#include &lt;SFML/Graphics/RenderWindow.hpp&gt;</code><br />
+</div>
+<p><a href="_window_8hpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceobe"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe.html">obe</a></td></tr>
@@ -86,9 +86,23 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespaceobe_1_1_system"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system.html">obe::System</a></td></tr>
 <tr class="memdesc:namespaceobe_1_1_system"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespaceobe_1_1_system.html" title="System Classes and Functions. ">System</a> Classes and Functions. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespaceobe_1_1_system_1_1_constraints"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system_1_1_constraints.html">obe::System::Constraints</a></td></tr>
-<tr class="memdesc:namespaceobe_1_1_system_1_1_constraints"><td class="mdescLeft">&#160;</td><td class="mdescRight">Some <a class="el" href="classobe_1_1_system_1_1_cursor.html" title="A Class to manipulate and display the Cursor in the Engine . ">Cursor</a> default constraints. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:adddc1b1eefc4e9b4306c9c85651cc1cd"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system.html#adddc1b1eefc4e9b4306c9c85651cc1cd">obe::System::WindowContext</a> { <a class="el" href="namespaceobe_1_1_system.html#adddc1b1eefc4e9b4306c9c85651cc1cdafcedd4fb0dc69bbb898cb8d66087628c">obe::System::WindowContext::GameWindow</a>, 
+<a class="el" href="namespaceobe_1_1_system.html#adddc1b1eefc4e9b4306c9c85651cc1cdab782deb16aa9349a4f3ca19891012f68">obe::System::WindowContext::EditorWindow</a>
+ }</td></tr>
+<tr class="separator:adddc1b1eefc4e9b4306c9c85651cc1cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a59e3f42833b0d84874d1abc9fa77073a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system.html#a59e3f42833b0d84874d1abc9fa77073a">obe::System::InitWindow</a> (WindowContext context)</td></tr>
+<tr class="separator:a59e3f42833b0d84874d1abc9fa77073a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ac2f771828cabf8887967c464a487d4bc"><td class="memItemLeft" align="right" valign="top">sf::RenderWindow&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system.html#ac2f771828cabf8887967c464a487d4bc">obe::System::MainWindow</a></td></tr>
+<tr class="separator:ac2f771828cabf8887967c464a487d4bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

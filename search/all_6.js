@@ -19,7 +19,7 @@ var searchData=
   ['fpscounter',['FPSCounter',['../classobe_1_1_time_1_1_f_p_s_counter.html',1,'obe::Time']]],
   ['frameratecounter_2ecpp',['FramerateCounter.cpp',['../_framerate_counter_8cpp.html',1,'']]],
   ['frameratecounter_2ehpp',['FramerateCounter.hpp',['../_framerate_counter_8hpp.html',1,'']]],
-  ['frameratemanager',['FramerateManager',['../classobe_1_1_time_1_1_framerate_manager.html',1,'obe::Time::FramerateManager'],['../classobe_1_1_time_1_1_framerate_manager.html#a3f1277cf8e48a32240728104d01fec1a',1,'obe::Time::FramerateManager::FramerateManager()']]],
+  ['frameratemanager',['FramerateManager',['../classobe_1_1_time_1_1_framerate_manager.html',1,'obe::Time::FramerateManager'],['../classobe_1_1_time_1_1_framerate_manager.html#a4f5fe9d27d3611a52961c75da291b260',1,'obe::Time::FramerateManager::FramerateManager()']]],
   ['frameratemanager_2ecpp',['FramerateManager.cpp',['../_framerate_manager_8cpp.html',1,'']]],
   ['frameratemanager_2ehpp',['FramerateManager.hpp',['../_framerate_manager_8hpp.html',1,'']]],
   ['from',['From',['../classobe_1_1_transform_1_1_rect.html#a242a78273a4ff0bd12f7184a68432289a5da618e8e4b89c66fe86e32cdafde142',1,'obe::Transform::Rect']]],

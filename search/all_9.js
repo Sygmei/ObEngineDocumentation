@@ -16,6 +16,7 @@ var searchData=
   ['initloggerlevel',['InitLoggerLevel',['../namespaceobe_1_1_debug.html#a9c755935128e445939dbf4dd6c576bc4',1,'obe::Debug']]],
   ['initpositiontransformer',['InitPositionTransformer',['../namespaceobe_1_1_graphics.html#a179b75b8c9035e8fb67f4535abede2a8',1,'obe::Graphics']]],
   ['initscriptengine',['InitScriptEngine',['../namespaceobe_1_1_script.html#aee6606178e25a578119fd378d21ca29f',1,'obe::Script']]],
+  ['initwindow',['InitWindow',['../namespaceobe_1_1_system.html#a59e3f42833b0d84874d1abc9fa77073a',1,'obe::System']]],
   ['inputaction',['InputAction',['../classobe_1_1_input_1_1_input_action.html',1,'obe::Input::InputAction'],['../classobe_1_1_input_1_1_input_action.html#a1c42a4363a0d7340c976b1f7cd0dba39',1,'obe::Input::InputAction::InputAction()']]],
   ['inputaction_2ecpp',['InputAction.cpp',['../_input_action_8cpp.html',1,'']]],
   ['inputaction_2ehpp',['InputAction.hpp',['../_input_action_8hpp.html',1,'']]],

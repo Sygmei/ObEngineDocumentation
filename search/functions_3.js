@@ -63,5 +63,5 @@ var searchData=
   ['createstream',['createStream',['../classobe_1_1_debug_1_1_console.html#a95a9f75bf9c421f88d3bdd9ef1a95df3',1,'obe::Debug::Console']]],
   ['createtriggergroup',['createTriggerGroup',['../classobe_1_1_triggers_1_1_trigger_database.html#a646a92ae2fd7d8947ec23ae301f12483',1,'obe::Triggers::TriggerDatabase']]],
   ['cross',['cross',['../namespaceobe_1_1_collision.html#ac098e4b3ea591fcbbac2946f2d05ec67',1,'obe::Collision']]],
-  ['cursor',['Cursor',['../classobe_1_1_system_1_1_cursor.html#a97cc621e093c133754f6b7c834bb809c',1,'obe::System::Cursor']]]
+  ['cursor',['Cursor',['../classobe_1_1_system_1_1_cursor.html#a5e568fefd6990cd6945ab0ce6ae54328',1,'obe::System::Cursor']]]
 ];
