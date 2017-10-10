@@ -46,7 +46,7 @@ var searchData=
   ['getcollideramount',['getColliderAmount',['../classobe_1_1_scene_1_1_scene.html#ad4253061bc0a5311d24e67e782188c4b',1,'obe::Scene::Scene']]],
   ['getcolliderbycentroidposition',['getColliderByCentroidPosition',['../classobe_1_1_scene_1_1_scene.html#a0a5360e26464d98ff79f818cb9787712',1,'obe::Scene::Scene']]],
   ['getcolliderpointbyposition',['getColliderPointByPosition',['../classobe_1_1_scene_1_1_scene.html#ad5f38d73ee06c61d4f11612f48e240cd',1,'obe::Scene::Scene']]],
-  ['getcolor',['getColor',['../classobe_1_1_debug_1_1_console_message.html#a0ee17369df855ec9a22110cfe23b2bb0',1,'obe::Debug::ConsoleMessage::getColor()'],['../classobe_1_1_debug_1_1_console_stream.html#a775dd2b1bbbac0ccb9912bb2acc6c1e0',1,'obe::Debug::ConsoleStream::getColor()'],['../classobe_1_1_graphics_1_1_level_sprite.html#a0ff27420d5bdd32640f4ccd465e97ad8',1,'obe::Graphics::LevelSprite::getColor()']]],
+  ['getcolor',['getColor',['../classobe_1_1_graphics_1_1_level_sprite.html#a0ff27420d5bdd32640f4ccd465e97ad8',1,'obe::Graphics::LevelSprite::getColor()'],['../classobe_1_1_debug_1_1_console_message.html#a0ee17369df855ec9a22110cfe23b2bb0',1,'obe::Debug::ConsoleMessage::getColor()'],['../classobe_1_1_debug_1_1_console_stream.html#a775dd2b1bbbac0ccb9912bb2acc6c1e0',1,'obe::Debug::ConsoleStream::getColor()']]],
   ['getcombination',['getCombination',['../classobe_1_1_input_1_1_input_condition.html#afc558182759563bb2cde89fef7712bba',1,'obe::Input::InputCondition']]],
   ['getcomplexnode',['getComplexNode',['../classvili_1_1_complex_node.html#aa9274f5ba9c9dbe1a0c90d54380a003a',1,'vili::ComplexNode']]],
   ['getcondition',['getCondition',['../classobe_1_1_input_1_1_input_action_event.html#a04e4a320dd28eaa37a7b140d3e3148f5',1,'obe::Input::InputActionEvent']]],

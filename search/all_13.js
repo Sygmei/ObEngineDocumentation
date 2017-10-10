@@ -3,7 +3,7 @@ var searchData=
   ['tag',['Tag',['../namespaceobe_1_1_collision.html#aa8080687fb294144f0bc8de1423b3f3dac101058e7ea21bbbf2a5ac893088e90b',1,'obe::Collision']]],
   ['template',['Template',['../namespacevili.html#ad7068bc2e5364f41b58e140dafbb1e1fa278c491bdd8a53618c149c4ac790da34',1,'vili']]],
   ['terminate',['terminate',['../classvili_1_1_node_iterator.html#a044fe7a2f1d6faf89bce55e2a2f74356',1,'vili::NodeIterator']]],
-  ['text',['Text',['../classobe_1_1_graphics_1_1_text.html',1,'obe::Graphics::Text'],['../classobe_1_1_graphics_1_1_text.html#a640b0252de7fcceedf243cb3f587088c',1,'obe::Graphics::Text::Text()'],['../classobe_1_1_graphics_1_1_canvas.html#a67460518414d6b0e0b4a9bdafec87359',1,'obe::Graphics::Canvas::text()']]],
+  ['text',['Text',['../classobe_1_1_graphics_1_1_text.html',1,'obe::Graphics::Text'],['../classobe_1_1_graphics_1_1_canvas.html#a67460518414d6b0e0b4a9bdafec87359',1,'obe::Graphics::Canvas::text()'],['../classobe_1_1_graphics_1_1_text.html#a640b0252de7fcceedf243cb3f587088c',1,'obe::Graphics::Text::Text()']]],
   ['texturechanged',['textureChanged',['../classobe_1_1_animation_1_1_animator.html#ad710964804f5673b13e3628590f93665',1,'obe::Animation::Animator']]],
   ['textureloader',['textureLoader',['../namespaceobe_1_1_system_1_1_loaders.html#afdc80167d0e9daae49bcf31a53af0dd1',1,'obe::System::Loaders']]],
   ['tgui',['tgui',['../namespacetgui.html',1,'']]],
