@@ -93,6 +93,7 @@ var searchData=
   ['settextcolor',['setTextColor',['../classtgui_1_1_toolkit_content_box.html#ac462e557f46fa2fbad5248fa142b1582',1,'tgui::ToolkitContentBox']]],
   ['settextsize',['setTextSize',['../classtgui_1_1_toolkit_content_box.html#aa3219f41c3fce8e2ff8c9e38b81d46dc',1,'tgui::ToolkitContentBox']]],
   ['settexture',['setTexture',['../classobe_1_1_graphics_1_1_level_sprite.html#a97642713990e0f82c06a8343493a463a',1,'obe::Graphics::LevelSprite']]],
+  ['settitle',['setTitle',['../namespaceobe_1_1_system.html#afa5814013b8c7881352691114ea2bdfd',1,'obe::System']]],
   ['settranslationorigin',['setTranslationOrigin',['../classobe_1_1_graphics_1_1_level_sprite.html#aaa6b1f1f5d650ac1242041c778bdf447',1,'obe::Graphics::LevelSprite']]],
   ['setupdatestate',['setUpdateState',['../classobe_1_1_scene_1_1_scene.html#a1cab47932ee98e92a6878d68f702e25a',1,'obe::Scene::Scene::setUpdateState()'],['../classobe_1_1_script_1_1_game_object.html#ae173975b262b3a84cf03384a64f56bf3',1,'obe::Script::GameObject::setUpdateState()']]],
   ['setvisible',['setVisible',['../classobe_1_1_graphics_1_1_level_sprite.html#ad47111601d1c26c15c98992443436914',1,'obe::Graphics::LevelSprite::setVisible()'],['../classobe_1_1_debug_1_1_console.html#aa7e3e27ff7e57a18c313c929337a280a',1,'obe::Debug::Console::setVisible()'],['../classvili_1_1_node.html#a7bb541d854deec79487aed0a4184de8e',1,'vili::Node::setVisible()'],['../classvili_1_1_node_template.html#a23b68a52826666877e238d1f2ab1b95e',1,'vili::NodeTemplate::setVisible()']]],
