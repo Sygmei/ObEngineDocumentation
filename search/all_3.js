@@ -55,7 +55,7 @@ var searchData=
   ['connectgameconsoleactions',['connectGameConsoleActions',['../namespaceobe_1_1_editor.html#a49bd88e66380497c81af8fc4d8c8b864',1,'obe::Editor']]],
   ['connectgridactions',['connectGridActions',['../namespaceobe_1_1_editor.html#a2d8998fcd282e0d972194002d2a43bb2',1,'obe::Editor']]],
   ['connectmenuactions',['connectMenuActions',['../namespaceobe_1_1_editor.html#a1d2517985f85260cdc2248dfe4778b1e',1,'obe::Editor']]],
-  ['connectsaveactions',['connectSaveActions',['../namespaceobe_1_1_editor.html#a19631d61170bd127227951fc535189ea',1,'obe::Editor']]],
+  ['connectsaveactions',['connectSaveActions',['../namespaceobe_1_1_editor.html#a6123b52c53feb0dc39318b0a8cda4b6c',1,'obe::Editor']]],
   ['connectspriteactions',['connectSpriteActions',['../namespaceobe_1_1_editor.html#a0e522bb0eb9ba1466553f514683c7caa',1,'obe::Editor']]],
   ['connectspritelayeractions',['connectSpriteLayerActions',['../namespaceobe_1_1_editor.html#a4513c77341144adcdbdf7114e1f6f605',1,'obe::Editor']]],
   ['console',['Console',['../classobe_1_1_debug_1_1_console.html',1,'obe::Debug::Console'],['../classobe_1_1_debug_1_1_console.html#a6120ea12f472acf98bd67f65864e1dc3',1,'obe::Debug::Console::Console()']]],
