@@ -3,6 +3,7 @@ var searchData=
   ['functions',['Functions',['../namespacevili_1_1_functions.html',1,'vili']]],
   ['string',['String',['../namespacevili_1_1_functions_1_1_string.html',1,'vili::Functions']]],
   ['types',['Types',['../namespacevili_1_1_types.html',1,'vili']]],
+  ['v_5falign',['v_align',['../classobe_1_1_graphics_1_1_text.html#a49ad95872bba2847fa2234bc07920290',1,'obe::Graphics::Text']]],
   ['validate',['validate',['../classvili_1_1_node_validator.html#a0e99b46a598f9068a24c3f639096293c',1,'vili::NodeValidator']]],
   ['valueinmap',['valueInMap',['../namespaceobe_1_1_utils_1_1_map.html#a8286047054ade49b04b28712516c0f13',1,'obe::Utils::Map']]],
   ['vector',['Vector',['../namespacevili_1_1_functions_1_1_vector.html',1,'vili::Functions']]],

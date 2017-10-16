@@ -29,6 +29,7 @@ var searchData=
   ['allkeys',['AllKeys',['../namespaceobe_1_1_input.html#aa86455a69188647d8bcf5aded997aa1c',1,'obe::Input']]],
   ['alpha',['Alpha',['../namespaceobe_1_1_input.html#a08f2b5990899bb151cc4fedfb35b716ba6132295fcf5570fb8b0a944ef322a598',1,'obe::Input']]],
   ['alphabet',['Alphabet',['../namespaceobe_1_1_utils_1_1_string.html#a2baabe4fb89aa385ab907ddb2a406a7a',1,'obe::Utils::String']]],
+  ['angle',['angle',['../classobe_1_1_graphics_1_1_transformable.html#ab7c84c60c5d3336df201828e365152ee',1,'obe::Graphics::Transformable']]],
   ['animation',['Animation',['../classobe_1_1_animation_1_1_animation.html',1,'obe::Animation']]],
   ['animation_2ecpp',['Animation.cpp',['../_animation_8cpp.html',1,'']]],
   ['animation_2ehpp',['Animation.hpp',['../_animation_8hpp.html',1,'']]],

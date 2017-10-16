@@ -1,6 +1,7 @@
 var searchData=
 [
   ['h',['h',['../structobe_1_1_transform_1_1_view_struct.html#a8f022eb53bc58089edf34b767be66502',1,'obe::Transform::ViewStruct::h()'],['../structobe_1_1_transform_1_1_screen_struct.html#a650fbaf98f4b3cea23fc6740bf55cd30',1,'obe::Transform::ScreenStruct::h()']]],
+  ['h_5falign',['h_align',['../classobe_1_1_graphics_1_1_text.html#a73e3924af020455ce351118e87c3a8ad',1,'obe::Graphics::Text']]],
   ['handlecommand',['handleCommand',['../classobe_1_1_debug_1_1_console.html#a2afb2eb73b15e82c0b5facddbc30a686',1,'obe::Debug::Console']]],
   ['handletriggers',['handleTriggers',['../classobe_1_1_input_1_1_input_manager.html#a345862be1b2aa13566fb0f8423492fce',1,'obe::Input::InputManager::handleTriggers()'],['../classobe_1_1_network_1_1_network_handler.html#a2614539df148bb0fb53c77b728394dff',1,'obe::Network::NetworkHandler::handleTriggers()']]],
   ['has_5fnext',['has_next',['../structtinydir__dir.html#a199eae7f7fa402e1c3f5195de9beb15b',1,'tinydir_dir']]],

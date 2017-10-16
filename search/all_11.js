@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['radius',['radius',['../classobe_1_1_graphics_1_1_level_sprite_handle_point.html#abcf46fa4c4c66f874daff39fc1b7f5c4',1,'obe::Graphics::LevelSpriteHandlePoint']]],
+  ['radius',['radius',['../classobe_1_1_graphics_1_1_circle.html#ae223af030e4318ebf3e60e37a30038b8',1,'obe::Graphics::Circle::radius()'],['../classobe_1_1_graphics_1_1_level_sprite_handle_point.html#abcf46fa4c4c66f874daff39fc1b7f5c4',1,'obe::Graphics::LevelSpriteHandlePoint::radius()']]],
   ['raise',['Raise',['../classaube_1_1_error_handler.html#a7c8d44a3e7f019646d289950abc5301b',1,'aube::ErrorHandler']]],
   ['randfloat',['randfloat',['../namespaceobe_1_1_utils_1_1_math.html#a3bbd8898660b36f9319be7b115c99216',1,'obe::Utils::Math']]],
   ['randint',['randint',['../namespaceobe_1_1_utils_1_1_math.html#af79008fea1a281ec434372d59249e7d4',1,'obe::Utils::Math']]],
@@ -45,7 +45,6 @@ var searchData=
   ['replaceinplace',['replaceInPlace',['../namespaceobe_1_1_utils_1_1_string.html#ad9d5afbd60c8e3c6894ad5c782de001a',1,'obe::Utils::String']]],
   ['replacestring',['replaceString',['../namespacevili_1_1_functions_1_1_string.html#a7d297e232d0e179b72c41f2a358830b8',1,'vili::Functions::String']]],
   ['replacestringinplace',['replaceStringInPlace',['../namespacevili_1_1_functions_1_1_string.html#a3241bfe8f14a66205a9dd01ab15af4c4',1,'vili::Functions::String']]],
-  ['requires',['requires',['../classobe_1_1_graphics_1_1_element.html#ac016002d8c8a2793281ee6b2df5592a1',1,'obe::Graphics::Element']]],
   ['reset',['reset',['../classobe_1_1_animation_1_1_animation.html#a163d69319c82e90bfea4ea0b9768306e',1,'obe::Animation::Animation::reset()'],['../classobe_1_1_animation_1_1_animation_group.html#a6a5f30969a518dac497e90eaef18df4e',1,'obe::Animation::AnimationGroup::reset()'],['../classobe_1_1_time_1_1_time_check.html#a169dfcdb1c70bc89d1acaf64632fd639',1,'obe::Time::TimeCheck::reset()']]],
   ['resetifover',['resetIfOver',['../classobe_1_1_time_1_1_time_check.html#aaecdfe048a694d55c6fc0e2bda99765c',1,'obe::Time::TimeCheck']]],
   ['resetunit',['resetUnit',['../classobe_1_1_transform_1_1_unit_based_object.html#a7ee27f24d754cd17cd835c1725f005b3',1,'obe::Transform::UnitBasedObject']]],
@@ -54,11 +53,12 @@ var searchData=
   ['resourcemanager_2ehpp',['ResourceManager.hpp',['../_resource_manager_8hpp.html',1,'']]],
   ['result',['result',['../classvili_1_1_node_validator.html#a31ecc4a3d512d46eff5b3fb3dd965d8e',1,'vili::NodeValidator']]],
   ['reversereferencial',['reverseReferencial',['../namespaceobe_1_1_transform.html#ad1159d36faebe48e25fca817cdfe4637',1,'obe::Transform']]],
-  ['right',['Right',['../namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728a92b09c7c48c520c3c55e497875da437c',1,'obe::Transform']]],
+  ['right',['Right',['../namespaceobe_1_1_graphics.html#ace5de183a46712de9e64ebc45c34a0fca92b09c7c48c520c3c55e497875da437c',1,'obe::Graphics::Right()'],['../namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728a92b09c7c48c520c3c55e497875da437c',1,'obe::Transform::Right()']]],
   ['rng',['rng',['../namespaceobe_1_1_utils_1_1_math.html#a675729380c54b579e88c541098a50258',1,'obe::Utils::Math']]],
   ['root',['root',['../classvili_1_1_vili_parser.html#a0a8509febfba3b5bc5a4b3db10e945dd',1,'vili::ViliParser']]],
   ['rotate',['rotate',['../classobe_1_1_collision_1_1_polygonal_collider.html#a99bfc6e7ec2a10b807dd6e8111ee24b6',1,'obe::Collision::PolygonalCollider::rotate()'],['../classobe_1_1_graphics_1_1_level_sprite.html#a1b66251ed9abac7885f07d8e39118664',1,'obe::Graphics::LevelSprite::rotate()'],['../classobe_1_1_transform_1_1_rect.html#a7e0edd265ac2c44e9bda592b518ca989',1,'obe::Transform::Rect::rotate()']]],
   ['rotatehandle',['RotateHandle',['../namespaceobe_1_1_graphics.html#a8684a50b5bc9047d610684ecf33656beaed96b3eff2b21d44ef3c11a61ed49742',1,'obe::Graphics']]],
   ['rotatepointaroundcenter',['rotatePointAroundCenter',['../namespaceobe_1_1_transform.html#a3abc9b7483a336f05d34b8078ac5fd64',1,'obe::Transform']]],
+  ['rotationorigin',['rotationOrigin',['../classobe_1_1_graphics_1_1_transformable.html#a4ac3e236651902bbf2a3e5588cf862c5',1,'obe::Graphics::Transformable']]],
   ['runargsparser',['RunArgsParser',['../classobe_1_1_utils_1_1_exec_1_1_run_args_parser.html',1,'obe::Utils::Exec::RunArgsParser'],['../classobe_1_1_utils_1_1_exec_1_1_run_args_parser.html#aa1a429f50cbeba080981ed78384c6998',1,'obe::Utils::Exec::RunArgsParser::RunArgsParser()']]]
 ];
