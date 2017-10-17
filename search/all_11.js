@@ -9,7 +9,7 @@ var searchData=
   ['rect',['Rect',['../classobe_1_1_transform_1_1_rect.html',1,'obe::Transform::Rect'],['../classobe_1_1_transform_1_1_rect.html#a6936d517bfdc9e33e4d30c3b65ec392b',1,'obe::Transform::Rect::Rect()'],['../namespaceobe_1_1_transform.html#afa663032e66eaf5d647861418b975ecca69ad58d91eec91b5c152d21ca117dc81',1,'obe::Transform::Rect()']]],
   ['rect_2ecpp',['Rect.cpp',['../_rect_8cpp.html',1,'']]],
   ['rect_2ehpp',['Rect.hpp',['../_rect_8hpp.html',1,'']]],
-  ['rectangle',['Rectangle',['../classobe_1_1_graphics_1_1_rectangle.html',1,'obe::Graphics::Rectangle'],['../classobe_1_1_graphics_1_1_rectangle.html#a2727083ac9fc62fe56371c5cf19c8757',1,'obe::Graphics::Rectangle::Rectangle()'],['../classobe_1_1_graphics_1_1_canvas.html#a1f9e81fe834940b058ff80721d910aff',1,'obe::Graphics::Canvas::rectangle()']]],
+  ['rectangle',['Rectangle',['../classobe_1_1_graphics_1_1_rectangle.html',1,'obe::Graphics::Rectangle'],['../classobe_1_1_graphics_1_1_canvas.html#a1f9e81fe834940b058ff80721d910aff',1,'obe::Graphics::Canvas::rectangle()'],['../classobe_1_1_graphics_1_1_rectangle.html#a2727083ac9fc62fe56371c5cf19c8757',1,'obe::Graphics::Rectangle::Rectangle()']]],
   ['referencial',['Referencial',['../namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728',1,'obe::Transform']]],
   ['referencial_2ecpp',['Referencial.cpp',['../_referencial_8cpp.html',1,'']]],
   ['referencial_2ehpp',['Referencial.hpp',['../_referencial_8hpp.html',1,'']]],
