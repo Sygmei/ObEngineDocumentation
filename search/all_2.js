@@ -17,7 +17,7 @@ var searchData=
   ['bindtree',['BindTree',['../namespaceobe_1_1_bindings.html#a15780908404946464b647896b6e35f97',1,'obe::Bindings::BindTree()'],['../namespaceobe_1_1_bindings.html#a3ea220e1301ad164d5e64d5a15416571',1,'obe::Bindings::BindTree(&quot;Root&quot;)']]],
   ['bindwidth',['bindWidth',['../namespaceobe_1_1tguif.html#a836695d777bd5883a23469f5fbae4c72',1,'obe::tguif']]],
   ['bool',['Bool',['../unionvili_1_1_data_node_1_1_data.html#a808cb870ecd4a6f4d99430bdd68f2a59',1,'vili::DataNode::Data::Bool()'],['../namespacevili.html#ad7068bc2e5364f41b58e140dafbb1e1fac26f15e86e3de4c398a8273272aba034',1,'vili::Bool()']]],
-  ['bottom',['Bottom',['../namespaceobe_1_1_graphics.html#a1cee621b59163bd10a28d5754b46fe1fa2ad9d63b69c4a10a5cc9cad923133bc4',1,'obe::Graphics::Bottom()'],['../namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728a2ad9d63b69c4a10a5cc9cad923133bc4',1,'obe::Transform::Bottom()']]],
+  ['bottom',['Bottom',['../namespaceobe_1_1_graphics_1_1_canvas.html#a29dc8f6b18199a7e1325e386637d6e0ea2ad9d63b69c4a10a5cc9cad923133bc4',1,'obe::Graphics::Canvas::Bottom()'],['../namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728a2ad9d63b69c4a10a5cc9cad923133bc4',1,'obe::Transform::Bottom()']]],
   ['bottomleft',['BottomLeft',['../namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728a98e5a1c44509157ebcaf46c515c78875',1,'obe::Transform']]],
   ['bottomright',['BottomRight',['../namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728a9146bfc669fddc88db2c4d89297d0e9a',1,'obe::Transform']]],
   ['bufsize',['BUFSIZE',['../namespaceziputils.html#af52daa436ac3191c4290d45582c09bf6',1,'ziputils']]],

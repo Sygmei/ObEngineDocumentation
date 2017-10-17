@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['p1',['p1',['../classobe_1_1_graphics_1_1_line.html#aa8fcd547a94842bb30831cf0f5b57eaa',1,'obe::Graphics::Line']]],
-  ['p2',['p2',['../classobe_1_1_graphics_1_1_line.html#a277d27d73665f56290010912c8595a75',1,'obe::Graphics::Line']]],
+  ['p1',['p1',['../classobe_1_1_graphics_1_1_canvas_1_1_line.html#a7b471a1d6ab8e6f51045a566ce62e096',1,'obe::Graphics::Canvas::Line']]],
+  ['p2',['p2',['../classobe_1_1_graphics_1_1_canvas_1_1_line.html#a0b1d333283775b92dd91fca627e4b54a',1,'obe::Graphics::Canvas::Line']]],
   ['package',['Package',['../namespaceobe_1_1_system.html#a049a6c20e2d373ae7154568ed843050ba209802fb858e2c83205027dbbb5d9e6c',1,'obe::System']]],
   ['package_2ecpp',['Package.cpp',['../_package_8cpp.html',1,'']]],
   ['package_2ehpp',['Package.hpp',['../_package_8hpp.html',1,'']]],
@@ -25,7 +25,7 @@ var searchData=
   ['polygonalcollider_2ecpp',['PolygonalCollider.cpp',['../_polygonal_collider_8cpp.html',1,'']]],
   ['polygonalcollider_2ehpp',['PolygonalCollider.hpp',['../_polygonal_collider_8hpp.html',1,'']]],
   ['polygonpath',['PolygonPath',['../namespaceobe_1_1_collision.html#aec2bf4135465b251fcf97c06318c4778',1,'obe::Collision']]],
-  ['position',['position',['../classobe_1_1_graphics_1_1_transformable.html#a2287b6b23742e6a07a0fae5e6f11591e',1,'obe::Graphics::Transformable::position()'],['../namespaceobe_1_1_graphics.html#aeea9a7151560a41b682500e740a4af7e',1,'obe::Graphics::Position()']]],
+  ['position',['position',['../classobe_1_1_graphics_1_1_canvas_1_1_transformable.html#af3c9acdf2538029667211634eae95ee2',1,'obe::Graphics::Canvas::Transformable::position()'],['../namespaceobe_1_1_graphics.html#aeea9a7151560a41b682500e740a4af7e',1,'obe::Graphics::Position()']]],
   ['positiontransformer',['PositionTransformer',['../classobe_1_1_graphics_1_1_position_transformer.html',1,'obe::Graphics::PositionTransformer'],['../classobe_1_1_graphics_1_1_position_transformer.html#ac4144149abe6a17bbb405fd4a9f904ba',1,'obe::Graphics::PositionTransformer::PositionTransformer()'],['../classobe_1_1_graphics_1_1_position_transformer.html#a3c7acee97822f094aa803dde5a0c2b53',1,'obe::Graphics::PositionTransformer::PositionTransformer(const std::string &amp;xTransformer, const std::string &amp;yTransformer)']]],
   ['positiontransformers_2ecpp',['PositionTransformers.cpp',['../_position_transformers_8cpp.html',1,'']]],
   ['positiontransformers_2ehpp',['PositionTransformers.hpp',['../_position_transformers_8hpp.html',1,'']]],
