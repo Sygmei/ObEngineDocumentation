@@ -45,7 +45,6 @@ var searchData=
   ['drawpolygon',['drawPolygon',['../namespaceobe_1_1_graphics_1_1_utils.html#ad4266be6e1bee0adf90ff8cd6268f6b4',1,'obe::Graphics::Utils']]],
   ['drawutils_2ecpp',['DrawUtils.cpp',['../_draw_utils_8cpp.html',1,'']]],
   ['drawutils_2ehpp',['DrawUtils.hpp',['../_draw_utils_8hpp.html',1,'']]],
-  ['dropvalue',['dropValue',['../classobe_1_1_script_1_1_core_hook.html#a37aa223169042ff64989ef5cce4ec3e4',1,'obe::Script::CoreHook']]],
   ['dump',['dump',['../classobe_1_1_scene_1_1_scene.html#aa07da3e9e36949914404d73dd84276cf',1,'obe::Scene::Scene::dump()'],['../classziputils_1_1unzipper.html#a9c5e92214152f38152f29dc7e73a9a8d',1,'ziputils::unzipper::dump()']]],
   ['dumpdata',['dumpData',['../classvili_1_1_data_node.html#acb68076f90b2344cba37afd31b8b2156',1,'vili::DataNode']]]
 ];

@@ -12,6 +12,5 @@ var searchData=
   ['consolemessage',['ConsoleMessage',['../classobe_1_1_debug_1_1_console_message.html',1,'obe::Debug']]],
   ['consolestream',['ConsoleStream',['../classobe_1_1_debug_1_1_console_stream.html',1,'obe::Debug']]],
   ['containernode',['ContainerNode',['../classvili_1_1_container_node.html',1,'vili']]],
-  ['corehook',['CoreHook',['../classobe_1_1_script_1_1_core_hook.html',1,'obe::Script']]],
   ['cursor',['Cursor',['../classobe_1_1_system_1_1_cursor.html',1,'obe::System']]]
 ];

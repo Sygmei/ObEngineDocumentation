@@ -6,8 +6,6 @@ var searchData=
   ['scenebindings_2ehpp',['SceneBindings.hpp',['../_scene_bindings_8hpp.html',1,'']]],
   ['scenenode_2ecpp',['SceneNode.cpp',['../_scene_node_8cpp.html',1,'']]],
   ['scenenode_2ehpp',['SceneNode.hpp',['../_scene_node_8hpp.html',1,'']]],
-  ['script_2ecpp',['Script.cpp',['../_script_8cpp.html',1,'']]],
-  ['script_2ehpp',['Script.hpp',['../_script_8hpp.html',1,'']]],
   ['scriptbindings_2ecpp',['ScriptBindings.cpp',['../_script_bindings_8cpp.html',1,'']]],
   ['scriptbindings_2ehpp',['ScriptBindings.hpp',['../_script_bindings_8hpp.html',1,'']]],
   ['selectable_2ecpp',['Selectable.cpp',['../_selectable_8cpp.html',1,'']]],
