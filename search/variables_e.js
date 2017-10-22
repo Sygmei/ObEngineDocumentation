@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['scaleorigin',['scaleOrigin',['../classobe_1_1_graphics_1_1_canvas_1_1_transformable.html#ab2eb3c18a9e617fe5dbc56b47b24cd91',1,'obe::Graphics::Canvas::Transformable']]],
   ['screen',['Screen',['../classobe_1_1_transform_1_1_unit_vector.html#a74c76dd1bc2c0e3ac83b3d17e3886024',1,'obe::Transform::UnitVector']]],
   ['scriptengine',['ScriptEngine',['../namespaceobe_1_1_script.html#a90d73c6b8ff9bcb7caa1289cc62edbae',1,'obe::Script']]],
   ['shape',['shape',['../classobe_1_1_graphics_1_1_canvas_1_1_rectangle.html#af124ac42fe0cddbfc750d3f069684f0c',1,'obe::Graphics::Canvas::Rectangle::shape()'],['../classobe_1_1_graphics_1_1_canvas_1_1_circle.html#a27a46cdbe618ee8ee47a7d725011a6fb',1,'obe::Graphics::Canvas::Circle::shape()']]],

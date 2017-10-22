@@ -2,6 +2,7 @@ var searchData=
 [
   ['scale',['scale',['../classobe_1_1_scene_1_1_camera.html#aa262982836e9512c8d471f7b27e184c6',1,'obe::Scene::Camera::scale()'],['../classobe_1_1_transform_1_1_rect.html#a8ce9778fe854024a56442d27443e92d2',1,'obe::Transform::Rect::scale()']]],
   ['scalehandle',['ScaleHandle',['../namespaceobe_1_1_graphics.html#a8684a50b5bc9047d610684ecf33656beac8a8edd40a5e2b5ec47bb7674bb0bb27',1,'obe::Graphics']]],
+  ['scaleorigin',['scaleOrigin',['../classobe_1_1_graphics_1_1_canvas_1_1_transformable.html#ab2eb3c18a9e617fe5dbc56b47b24cd91',1,'obe::Graphics::Canvas::Transformable']]],
   ['scene',['Scene',['../classobe_1_1_scene_1_1_scene.html',1,'obe::Scene::Scene'],['../classobe_1_1_scene_1_1_scene.html#a6671ed54f3898e54a2814d58ec8ffec5',1,'obe::Scene::Scene::Scene()'],['../classobe_1_1_script_1_1_game_object.html#ac003ce073bf9d3249981190ca8d8d845',1,'obe::Script::GameObject::Scene()']]],
   ['scene_2ecpp',['Scene.cpp',['../_scene_8cpp.html',1,'']]],
   ['scene_2ehpp',['Scene.hpp',['../_scene_8hpp.html',1,'']]],
