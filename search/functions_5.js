@@ -2,7 +2,6 @@ var searchData=
 [
   ['editmap',['editMap',['../namespaceobe_1_1_editor.html#a9009207671e71dccb68a31ea2362e9ef',1,'obe::Editor']]],
   ['editorgrid',['EditorGrid',['../classobe_1_1_editor_1_1_editor_grid.html#a64f76605946345eeae0828a0c019f5fa',1,'obe::Editor::EditorGrid']]],
-  ['element',['Element',['../classobe_1_1_graphics_1_1_canvas_1_1_element.html#ab226be7bd9d8bbdde9388d91523ed0e3',1,'obe::Graphics::Canvas::Element']]],
   ['enable',['enable',['../classobe_1_1_types_1_1_togglable.html#a585deda7e0476f2eabca4642006f1dcb',1,'obe::Types::Togglable']]],
   ['enableshowcollision',['enableShowCollision',['../classobe_1_1_scene_1_1_scene.html#aff9e21ec2c008cc85b8cb3cbbfb1b1e4',1,'obe::Scene::Scene']]],
   ['end',['end',['../classvili_1_1_array_node.html#a06931af2499cb6f0d50d38629f1503e8',1,'vili::ArrayNode']]],

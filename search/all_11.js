@@ -9,7 +9,7 @@ var searchData=
   ['rect',['Rect',['../classobe_1_1_transform_1_1_rect.html',1,'obe::Transform::Rect'],['../classobe_1_1_transform_1_1_rect.html#a6936d517bfdc9e33e4d30c3b65ec392b',1,'obe::Transform::Rect::Rect()'],['../namespaceobe_1_1_transform.html#afa663032e66eaf5d647861418b975ecca69ad58d91eec91b5c152d21ca117dc81',1,'obe::Transform::Rect()']]],
   ['rect_2ecpp',['Rect.cpp',['../_rect_8cpp.html',1,'']]],
   ['rect_2ehpp',['Rect.hpp',['../_rect_8hpp.html',1,'']]],
-  ['rectangle',['Rectangle',['../classobe_1_1_graphics_1_1_canvas_1_1_rectangle.html',1,'obe::Graphics::Canvas::Rectangle'],['../classobe_1_1_graphics_1_1_canvas_1_1_canvas.html#a7399b9740aaf8795c9a41a005be3203d',1,'obe::Graphics::Canvas::Canvas::rectangle()'],['../classobe_1_1_graphics_1_1_canvas_1_1_rectangle.html#acaf1feb69c7a261d13e4b6dcb21fcb6c',1,'obe::Graphics::Canvas::Rectangle::Rectangle()']]],
+  ['rectangle',['Rectangle',['../classobe_1_1_graphics_1_1_canvas_1_1_rectangle.html',1,'obe::Graphics::Canvas::Rectangle'],['../classobe_1_1_graphics_1_1_canvas_1_1_rectangle.html#acaf1feb69c7a261d13e4b6dcb21fcb6c',1,'obe::Graphics::Canvas::Rectangle::Rectangle()'],['../classobe_1_1_graphics_1_1_canvas_1_1_canvas.html#a7399b9740aaf8795c9a41a005be3203d',1,'obe::Graphics::Canvas::Canvas::rectangle()']]],
   ['referencial',['Referencial',['../namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728',1,'obe::Transform']]],
   ['referencial_2ecpp',['Referencial.cpp',['../_referencial_8cpp.html',1,'']]],
   ['referencial_2ehpp',['Referencial.hpp',['../_referencial_8hpp.html',1,'']]],
@@ -67,6 +67,5 @@ var searchData=
   ['rotate',['rotate',['../classobe_1_1_collision_1_1_polygonal_collider.html#a99bfc6e7ec2a10b807dd6e8111ee24b6',1,'obe::Collision::PolygonalCollider::rotate()'],['../classobe_1_1_graphics_1_1_level_sprite.html#a1b66251ed9abac7885f07d8e39118664',1,'obe::Graphics::LevelSprite::rotate()'],['../classobe_1_1_transform_1_1_rect.html#a7e0edd265ac2c44e9bda592b518ca989',1,'obe::Transform::Rect::rotate()']]],
   ['rotatehandle',['RotateHandle',['../namespaceobe_1_1_graphics.html#a8684a50b5bc9047d610684ecf33656beaed96b3eff2b21d44ef3c11a61ed49742',1,'obe::Graphics']]],
   ['rotatepointaroundcenter',['rotatePointAroundCenter',['../namespaceobe_1_1_transform.html#a3abc9b7483a336f05d34b8078ac5fd64',1,'obe::Transform']]],
-  ['rotationorigin',['rotationOrigin',['../classobe_1_1_graphics_1_1_canvas_1_1_transformable.html#a023cdfb50c407af932493997de7b201c',1,'obe::Graphics::Canvas::Transformable']]],
   ['runargsparser',['RunArgsParser',['../classobe_1_1_utils_1_1_exec_1_1_run_args_parser.html',1,'obe::Utils::Exec::RunArgsParser'],['../classobe_1_1_utils_1_1_exec_1_1_run_args_parser.html#aa1a429f50cbeba080981ed78384c6998',1,'obe::Utils::Exec::RunArgsParser::RunArgsParser()']]]
 ];

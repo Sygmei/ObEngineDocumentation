@@ -1,6 +1,5 @@
 var searchData=
 [
   ['radius',['radius',['../classobe_1_1_graphics_1_1_canvas_1_1_circle.html#a1cab57f8fa41dbe8defbc120d032a270',1,'obe::Graphics::Canvas::Circle::radius()'],['../classobe_1_1_graphics_1_1_level_sprite_handle_point.html#abcf46fa4c4c66f874daff39fc1b7f5c4',1,'obe::Graphics::LevelSpriteHandlePoint::radius()']]],
-  ['rd',['rd',['../namespaceobe_1_1_utils_1_1_math.html#aea98e6fdb5d6faaf67214b54ee5b5369',1,'obe::Utils::Math']]],
-  ['rotationorigin',['rotationOrigin',['../classobe_1_1_graphics_1_1_canvas_1_1_transformable.html#a023cdfb50c407af932493997de7b201c',1,'obe::Graphics::Canvas::Transformable']]]
+  ['rd',['rd',['../namespaceobe_1_1_utils_1_1_math.html#aea98e6fdb5d6faaf67214b54ee5b5369',1,'obe::Utils::Math']]]
 ];

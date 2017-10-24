@@ -1,7 +1,7 @@
 var searchData=
 [
   ['last',['last',['../classobe_1_1_system_1_1_path.html#af591e5023e1f7a18c4db9cd3f8772c2e',1,'obe::System::Path::last()'],['../classvili_1_1_node_iterator.html#a3bb8077784f4874bb78e2be15b26a75a',1,'vili::NodeIterator::last()']]],
-  ['layer',['layer',['../classobe_1_1_graphics_1_1_canvas_1_1_drawable.html#ad066a33b90c6fcb698a53bf4b2569168',1,'obe::Graphics::Canvas::Drawable']]],
+  ['layer',['layer',['../classobe_1_1_graphics_1_1_canvas_1_1_canvas_element.html#a0d177150be0a14d3a28bf95a5ee98dc3',1,'obe::Graphics::Canvas::CanvasElement']]],
   ['left',['Left',['../namespaceobe_1_1_graphics_1_1_canvas.html#a31c8524a089c9e6700928d6662557d5ea945d5e233cf7d6240f6b783b36a374ff',1,'obe::Graphics::Canvas::Left()'],['../namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728a945d5e233cf7d6240f6b783b36a374ff',1,'obe::Transform::Left()']]],
   ['leftmousepressed',['leftMousePressed',['../classtgui_1_1_toolkit_content_box.html#ab624b143a8d25fb02e55a47214944839',1,'tgui::ToolkitContentBox']]],
   ['leftmousereleased',['leftMouseReleased',['../classtgui_1_1_toolkit_content_box.html#acc2b150347580ba12257af70a955cf9b',1,'tgui::ToolkitContentBox']]],
@@ -13,7 +13,7 @@ var searchData=
   ['levelspritehandlepointtype',['LevelSpriteHandlePointType',['../namespaceobe_1_1_graphics.html#a8684a50b5bc9047d610684ecf33656be',1,'obe::Graphics']]],
   ['limitexceeded',['limitExceeded',['../classobe_1_1_time_1_1_chronometer.html#a9f6569f865579a2f25aee3828dec1df4',1,'obe::Time::Chronometer']]],
   ['limitframerate',['limitFramerate',['../classobe_1_1_time_1_1_framerate_manager.html#a7ad46f2be1c10e1508e9fcb69285046c',1,'obe::Time::FramerateManager']]],
-  ['line',['Line',['../classobe_1_1_graphics_1_1_canvas_1_1_line.html',1,'obe::Graphics::Canvas::Line'],['../classobe_1_1_graphics_1_1_canvas_1_1_canvas.html#a82327482be614c2a07a60f625d6954dd',1,'obe::Graphics::Canvas::Canvas::line()'],['../classobe_1_1_graphics_1_1_canvas_1_1_line.html#a9d2f9e0617c431403f9518f053fa4fe7',1,'obe::Graphics::Canvas::Line::Line()']]],
+  ['line',['Line',['../classobe_1_1_graphics_1_1_canvas_1_1_line.html',1,'obe::Graphics::Canvas::Line'],['../classobe_1_1_graphics_1_1_canvas_1_1_line.html#a9d2f9e0617c431403f9518f053fa4fe7',1,'obe::Graphics::Canvas::Line::Line()'],['../classobe_1_1_graphics_1_1_canvas_1_1_canvas.html#a82327482be614c2a07a60f625d6954dd',1,'obe::Graphics::Canvas::Canvas::line()']]],
   ['link',['Link',['../namespacevili.html#ad7068bc2e5364f41b58e140dafbb1e1fa97e7c9a7d06eac006a28bf05467fcc8b',1,'vili']]],
   ['linknode',['LinkNode',['../classvili_1_1_link_node.html',1,'vili::LinkNode'],['../classvili_1_1_node.html#a48f942c867bd729a52e2b10e69afb14b',1,'vili::Node::LinkNode()'],['../classvili_1_1_link_node.html#a2e1bc6d442ff0f99be5311a6c275c41b',1,'vili::LinkNode::LinkNode(ComplexNode *parent, const std::string &amp;id, const std::string &amp;path)'],['../classvili_1_1_link_node.html#a7675bfb0abf9da82e5e0b5edb43cd161',1,'vili::LinkNode::LinkNode(const LinkNode &amp;copy)'],['../namespacevili.html#a30ec1b00a269997777efe72685ed7c2bae85265f84f45625b69910a8804055be5',1,'vili::LinkNode()']]],
   ['linknode_2ecpp',['LinkNode.cpp',['../_link_node_8cpp.html',1,'']]],
@@ -72,7 +72,9 @@ var searchData=
   ['loadsffont',['LoadSfFont',['../namespaceobe_1_1_bindings_1_1_s_f_m_l_bindings.html#a26a393b35a1d394c635994fcc4986587',1,'obe::Bindings::SFMLBindings']]],
   ['loadsfshape',['LoadSfShape',['../namespaceobe_1_1_bindings_1_1_s_f_m_l_bindings.html#a9a30d0a65a60512bf4e2a666e6892e0a',1,'obe::Bindings::SFMLBindings']]],
   ['loadsfsprite',['LoadSfSprite',['../namespaceobe_1_1_bindings_1_1_s_f_m_l_bindings.html#a2e473bbf5a61c747247a85a6371582a8',1,'obe::Bindings::SFMLBindings']]],
+  ['loadsftext',['LoadSfText',['../namespaceobe_1_1_bindings_1_1_s_f_m_l_bindings.html#ae3ec84e5f0abb39db0d07f91c387a00a',1,'obe::Bindings::SFMLBindings']]],
   ['loadsftransformable',['LoadSfTransformable',['../namespaceobe_1_1_bindings_1_1_s_f_m_l_bindings.html#a820c0d2ff6aaa8a06cc160f9c1be68c8',1,'obe::Bindings::SFMLBindings']]],
+  ['loadsfvector',['LoadSfVector',['../namespaceobe_1_1_bindings_1_1_s_f_m_l_bindings.html#ae2b51dc3027c8241eda47ad69422ae33',1,'obe::Bindings::SFMLBindings']]],
   ['loadsound',['LoadSound',['../namespaceobe_1_1_bindings_1_1_sound_bindings.html#aff33548f048ad7729afad57fefb99b3b',1,'obe::Bindings::SoundBindings']]],
   ['loadspritefolder',['loadSpriteFolder',['../namespaceobe_1_1_editor.html#acd3ada9f07cb03634739b27ecd80882c',1,'obe::Editor']]],
   ['loadstringutils',['loadStringUtils',['../namespaceobe_1_1_bindings_1_1_utils_bindings.html#ac6a7876ca7b713af93592696f54740e9',1,'obe::Bindings::UtilsBindings']]],
