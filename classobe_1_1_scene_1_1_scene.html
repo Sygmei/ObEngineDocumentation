@@ -154,9 +154,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3c3beeb3d7737bda83b3c214bc80dd93"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html">Graphics::LevelSprite</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html#a3c3beeb3d7737bda83b3c214bc80dd93">getLevelSpritesByLayer</a> (int layer)</td></tr>
 <tr class="memdesc:a3c3beeb3d7737bda83b3c214bc80dd93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all the LevelSprites present in the <a class="el" href="classobe_1_1_scene_1_1_scene.html" title="The Scene class is a container of all the game elements . ">Scene</a> in the given layer.  <a href="#a3c3beeb3d7737bda83b3c214bc80dd93">More...</a><br /></td></tr>
 <tr class="separator:a3c3beeb3d7737bda83b3c214bc80dd93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d4ce9efc3d2145ae05f8b959e73b391"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html">Graphics::LevelSprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html#a2d4ce9efc3d2145ae05f8b959e73b391">getLevelSpriteByPosition</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;position, int layer)</td></tr>
-<tr class="memdesc:a2d4ce9efc3d2145ae05f8b959e73b391"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the first found LevelSprite with the BoundingRect including the given position.  <a href="#a2d4ce9efc3d2145ae05f8b959e73b391">More...</a><br /></td></tr>
-<tr class="separator:a2d4ce9efc3d2145ae05f8b959e73b391"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13e6108ede87f21fc20b9212428edacf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html">Graphics::LevelSprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html#a13e6108ede87f21fc20b9212428edacf">getLevelSpriteByPosition</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;position, const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;camera, int layer)</td></tr>
+<tr class="memdesc:a13e6108ede87f21fc20b9212428edacf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the first found LevelSprite with the BoundingRect including the given position.  <a href="#a13e6108ede87f21fc20b9212428edacf">More...</a><br /></td></tr>
+<tr class="separator:a13e6108ede87f21fc20b9212428edacf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45e170097006bb566951cbc704d006ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html">Graphics::LevelSprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html#a45e170097006bb566951cbc704d006ac">getLevelSprite</a> (const std::string &amp;id)</td></tr>
 <tr class="memdesc:a45e170097006bb566951cbc704d006ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a LevelSprite by Id (Raises an exception if not found)  <a href="#a45e170097006bb566951cbc704d006ac">More...</a><br /></td></tr>
 <tr class="separator:a45e170097006bb566951cbc704d006ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -891,8 +891,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a2d4ce9efc3d2145ae05f8b959e73b391"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d4ce9efc3d2145ae05f8b959e73b391">&#9670;&nbsp;</a></span>getLevelSpriteByPosition()</h2>
+<a id="a13e6108ede87f21fc20b9212428edacf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13e6108ede87f21fc20b9212428edacf">&#9670;&nbsp;</a></span>getLevelSpriteByPosition()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -902,6 +902,12 @@ Public Member Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
           <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>camera</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

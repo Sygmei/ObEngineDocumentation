@@ -124,7 +124,7 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:ad4be0d50e14ab7edbaa3623cd5460ba5"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, <a class="el" href="namespaceobe_1_1_graphics.html#a9fcf3cfc6207a112b8c2d425a9bafa45">CoordinateTransformer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_graphics.html#ad4be0d50e14ab7edbaa3623cd5460ba5">Transformers</a></td></tr>
 <tr class="separator:ad4be0d50e14ab7edbaa3623cd5460ba5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc3fce3752e4ddd30545ca38faae2acb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceobe_1_1_graphics.html#a9fcf3cfc6207a112b8c2d425a9bafa45">CoordinateTransformer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_graphics.html#adc3fce3752e4ddd30545ca38faae2acb">Parallax</a> = [](double pos, double cam, int layer) -&gt; double { return (pos * layer - cam) / layer; }</td></tr>
+<tr class="memitem:adc3fce3752e4ddd30545ca38faae2acb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceobe_1_1_graphics.html#a9fcf3cfc6207a112b8c2d425a9bafa45">CoordinateTransformer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_graphics.html#adc3fce3752e4ddd30545ca38faae2acb">Parallax</a> = [](double pos, double cam, int layer) -&gt; double { return (pos * layer - cam) / double(layer); }</td></tr>
 <tr class="separator:adc3fce3752e4ddd30545ca38faae2acb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a099e4fa406de757e778d8faff6aec52d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceobe_1_1_graphics.html#a9fcf3cfc6207a112b8c2d425a9bafa45">CoordinateTransformer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_graphics.html#a099e4fa406de757e778d8faff6aec52d">Camera</a> = [](double pos, double cam, int layer) -&gt; double { return pos - cam; }</td></tr>
 <tr class="separator:a099e4fa406de757e778d8faff6aec52d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -215,7 +215,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceobe_1_1_graphics.html#a9fcf3cfc6207a112b8c2d425a9bafa45">CoordinateTransformer</a> obe::Graphics::Parallax = [](double pos, double cam, int layer) -&gt; double { return (pos * layer - cam) / layer; }</td>
+          <td class="memname"><a class="el" href="namespaceobe_1_1_graphics.html#a9fcf3cfc6207a112b8c2d425a9bafa45">CoordinateTransformer</a> obe::Graphics::Parallax = [](double pos, double cam, int layer) -&gt; double { return (pos * layer - cam) / double(layer); }</td>
         </tr>
       </table>
 </div><div class="memdoc">
