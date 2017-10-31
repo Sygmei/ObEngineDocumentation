@@ -66,7 +66,6 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classobe_1_1_graphics_1_1_resource_manager-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -79,25 +78,21 @@ $(function() {
 
 <p><code>#include &lt;<a class="el" href="_resource_manager_8hpp_source.html">ResourceManager.hpp</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a3b86e7ca642d84df71879b05fbbee49c"><td class="memItemLeft" align="right" valign="top">sf::Texture *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_resource_manager.html#a3b86e7ca642d84df71879b05fbbee49c">getTexture</a> (const std::string &amp;path, bool antiAliasing=false)</td></tr>
-<tr class="memdesc:a3b86e7ca642d84df71879b05fbbee49c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the texture at the given path.<br />
- If it's already in cache it returns the cached version.<br />
- Otherwise it loads the texture and caches it.  <a href="#a3b86e7ca642d84df71879b05fbbee49c">More...</a><br /></td></tr>
-<tr class="separator:a3b86e7ca642d84df71879b05fbbee49c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a472f230262b5d4f8e42ccef134376dac"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classobe_1_1_graphics_1_1_resource_manager.html">ResourceManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_resource_manager.html#a472f230262b5d4f8e42ccef134376dac">GetInstance</a> ()</td></tr>
-<tr class="memdesc:a472f230262b5d4f8e42ccef134376dac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the Instance of the <a class="el" href="classobe_1_1_graphics_1_1_resource_manager.html" title="Singleton Class that manages and caches textures . ">ResourceManager</a>.  <a href="#a472f230262b5d4f8e42ccef134376dac">More...</a><br /></td></tr>
-<tr class="separator:a472f230262b5d4f8e42ccef134376dac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4435d91081efd45f537e37dac36705eb"><td class="memItemLeft" align="right" valign="top">static sf::Texture *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_resource_manager.html#a4435d91081efd45f537e37dac36705eb">GetTexture</a> (const std::string &amp;path, bool antiAliasing=false)</td></tr>
+<tr class="memdesc:a4435d91081efd45f537e37dac36705eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the texture at the given path.<br />
+ If it's already in cache it returns the cached version.<br />
+ Otherwise it loads the texture and caches it.  <a href="#a4435d91081efd45f537e37dac36705eb">More...</a><br /></td></tr>
+<tr class="separator:a4435d91081efd45f537e37dac36705eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b6d1b6a0f470c6302614585315dd672"><td class="memItemLeft" align="right" valign="top">static sf::Font *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_resource_manager.html#a8b6d1b6a0f470c6302614585315dd672">GetFont</a> (const std::string &amp;path)</td></tr>
+<tr class="separator:a8b6d1b6a0f470c6302614585315dd672"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Singleton Class that manages and caches textures . </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a472f230262b5d4f8e42ccef134376dac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a472f230262b5d4f8e42ccef134376dac">&#9670;&nbsp;</a></span>GetInstance()</h2>
+<a id="a8b6d1b6a0f470c6302614585315dd672"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b6d1b6a0f470c6302614585315dd672">&#9670;&nbsp;</a></span>GetFont()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -106,9 +101,10 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classobe_1_1_graphics_1_1_resource_manager.html">ResourceManager</a> * obe::Graphics::ResourceManager::GetInstance </td>
+          <td class="memname">sf::Font * obe::Graphics::ResourceManager::GetFont </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -119,19 +115,19 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Access the Instance of the <a class="el" href="classobe_1_1_graphics_1_1_resource_manager.html" title="Singleton Class that manages and caches textures . ">ResourceManager</a>. </p>
-<dl class="section return"><dt>Returns</dt><dd>A pointer to the Instance of the <a class="el" href="classobe_1_1_graphics_1_1_resource_manager.html" title="Singleton Class that manages and caches textures . ">ResourceManager</a> </dd></dl>
-
 </div>
 </div>
-<a id="a3b86e7ca642d84df71879b05fbbee49c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b86e7ca642d84df71879b05fbbee49c">&#9670;&nbsp;</a></span>getTexture()</h2>
+<a id="a4435d91081efd45f537e37dac36705eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4435d91081efd45f537e37dac36705eb">&#9670;&nbsp;</a></span>GetTexture()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">sf::Texture * obe::Graphics::ResourceManager::getTexture </td>
+          <td class="memname">sf::Texture * obe::Graphics::ResourceManager::GetTexture </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>path</em>, </td>
@@ -148,6 +144,11 @@ Static Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Get the texture at the given path.<br />
