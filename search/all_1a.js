@@ -13,7 +13,7 @@ var searchData=
   ['_7enode',['~Node',['../classvili_1_1_node.html#a223474ecdea0b06720de027729b83c2c',1,'vili::Node']]],
   ['_7epolygonalcollider',['~PolygonalCollider',['../classobe_1_1_collision_1_1_polygonal_collider.html#aad9b493d745dca4fa6ec11a049c02ca5',1,'obe::Collision::PolygonalCollider']]],
   ['_7escene',['~Scene',['../classobe_1_1_scene_1_1_scene.html#a4edff4a7914465494184bed26df77283',1,'obe::Scene::Scene']]],
-  ['_7etriggergroupptr',['~TriggerGroupPtr',['../classobe_1_1_triggers_1_1_trigger_group_ptr.html#af85496d3f911f4a7df15b55c31f65f18',1,'obe::Triggers::TriggerGroupPtr']]],
+  ['_7etriggergroup',['~TriggerGroup',['../classobe_1_1_triggers_1_1_trigger_group.html#a2782507c64520dbac45503bf37e1c381',1,'obe::Triggers::TriggerGroup']]],
   ['_7eunitbasedobject',['~UnitBasedObject',['../classobe_1_1_transform_1_1_unit_based_object.html#a761200826c44de6ebc7d7fb0a4704269',1,'obe::Transform::UnitBasedObject']]],
   ['_7eunzipper',['~unzipper',['../classziputils_1_1unzipper.html#a8987ce8b1445c54e474b71abf636c410',1,'ziputils::unzipper::~unzipper(void)'],['../classziputils_1_1unzipper.html#a8987ce8b1445c54e474b71abf636c410',1,'ziputils::unzipper::~unzipper(void)']]],
   ['_7ezipper',['~zipper',['../classziputils_1_1zipper.html#acf3a9aac7000e7508b08fc86f8727954',1,'ziputils::zipper::~zipper(void)'],['../classziputils_1_1zipper.html#acf3a9aac7000e7508b08fc86f8727954',1,'ziputils::zipper::~zipper(void)']]]

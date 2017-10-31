@@ -12,6 +12,5 @@ var searchData=
   ['trigger',['Trigger',['../classobe_1_1_triggers_1_1_trigger.html',1,'obe::Triggers']]],
   ['triggerdatabase',['TriggerDatabase',['../classobe_1_1_triggers_1_1_trigger_database.html',1,'obe::Triggers']]],
   ['triggerdelay',['TriggerDelay',['../classobe_1_1_triggers_1_1_trigger_delay.html',1,'obe::Triggers']]],
-  ['triggergroup',['TriggerGroup',['../classobe_1_1_triggers_1_1_trigger_group.html',1,'obe::Triggers']]],
-  ['triggergroupptr',['TriggerGroupPtr',['../classobe_1_1_triggers_1_1_trigger_group_ptr.html',1,'obe::Triggers']]]
+  ['triggergroup',['TriggerGroup',['../classobe_1_1_triggers_1_1_trigger_group.html',1,'obe::Triggers']]]
 ];

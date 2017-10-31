@@ -22,9 +22,9 @@ var searchData=
   ['trajectory',['Trajectory',['../classobe_1_1_collision_1_1_trajectory.html#a4e56ddd20cb1683e5ba0e5e2911c7f89',1,'obe::Collision::Trajectory']]],
   ['trajectorynode',['TrajectoryNode',['../classobe_1_1_collision_1_1_trajectory_node.html#a7f36de2906478d84bd6c46d83e8cce6b',1,'obe::Collision::TrajectoryNode']]],
   ['transformref',['transformRef',['../classobe_1_1_transform_1_1_rect.html#a02a40e3f622105b27fa3841002d8739e',1,'obe::Transform::Rect']]],
-  ['trigger',['Trigger',['../classobe_1_1_triggers_1_1_trigger.html#aea7961808399db1acea3b5528f0fc2cb',1,'obe::Triggers::Trigger::Trigger()'],['../classobe_1_1_triggers_1_1_trigger_group.html#a321c75e1c0d14e8cf23dfa4829c457c6',1,'obe::Triggers::TriggerGroup::trigger()']]],
+  ['trigger',['trigger',['../classobe_1_1_triggers_1_1_trigger_group.html#a321c75e1c0d14e8cf23dfa4829c457c6',1,'obe::Triggers::TriggerGroup::trigger()'],['../classobe_1_1_triggers_1_1_trigger.html#aea7961808399db1acea3b5528f0fc2cb',1,'obe::Triggers::Trigger::Trigger()']]],
   ['triggerdelay',['TriggerDelay',['../classobe_1_1_triggers_1_1_trigger_delay.html#acac24c7f07adc9d20285a0e1e6de35ce',1,'obe::Triggers::TriggerDelay']]],
   ['triggergroup',['TriggerGroup',['../classobe_1_1_triggers_1_1_trigger_group.html#a92f7f2887d763373f5da74449465da98',1,'obe::Triggers::TriggerGroup']]],
-  ['triggergroupptr',['TriggerGroupPtr',['../classobe_1_1_triggers_1_1_trigger_group_ptr.html#ac4e953e1023f41ef2e7fe35223be26b9',1,'obe::Triggers::TriggerGroupPtr']]],
+  ['triggergroupptrremover',['TriggerGroupPtrRemover',['../namespaceobe_1_1_triggers.html#aa4ef2714d8c19ba974a95200e111bf10',1,'obe::Triggers']]],
   ['type',['type',['../classobe_1_1_types_1_1_any.html#a55a256dc61b4028d6af1822bda8ce1d0',1,'obe::Types::Any']]]
 ];

@@ -17,6 +17,6 @@ var searchData=
   ['movecursor',['moveCursor',['../classobe_1_1_debug_1_1_console.html#aab3ebe98bb9d202216a42eeb50c2617e',1,'obe::Debug::Console']]],
   ['movemagnet',['moveMagnet',['../classobe_1_1_editor_1_1_editor_grid.html#adef94a09f0eef72c906023519d6d9c9e',1,'obe::Editor::EditorGrid']]],
   ['movepoint',['movePoint',['../classobe_1_1_collision_1_1_polygonal_collider.html#ae78a2b3fef5d669753d09c119f2db884',1,'obe::Collision::PolygonalCollider::movePoint()'],['../classobe_1_1_transform_1_1_rect.html#ad4804208c96cb659750be5280d3b7a88',1,'obe::Transform::Rect::movePoint()']]],
-  ['moveto',['moveTo',['../classobe_1_1_graphics_1_1_level_sprite_handle_point.html#ac38e6923103772919daefdb13e293549',1,'obe::Graphics::LevelSpriteHandlePoint']]],
+  ['moveto',['moveTo',['../classobe_1_1_graphics_1_1_level_sprite_handle_point.html#a545a254c7d846498d3d332a03190a52f',1,'obe::Graphics::LevelSpriteHandlePoint']]],
   ['musicwrapper',['MusicWrapper',['../classobe_1_1_sound_1_1_music_wrapper.html#a8e7d67fbb6395cc8107c1d7b2a03287f',1,'obe::Sound::MusicWrapper::MusicWrapper()'],['../classobe_1_1_sound_1_1_music_wrapper.html#a0964b071a84a13e94ff6f864e4906679',1,'obe::Sound::MusicWrapper::MusicWrapper(const std::string &amp;filename)']]]
 ];
