@@ -149,8 +149,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a41d33207a0199f125c75a0f70a4a3ba8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings.html#a41d33207a0199f125c75a0f70a4a3ba8">IndexBindings</a> ()</td></tr>
 <tr class="memdesc:a41d33207a0199f125c75a0f70a4a3ba8"><td class="mdescLeft">&#160;</td><td class="mdescRight">To call when the engine starts, indexes all Lua bindings.  <a href="#a41d33207a0199f125c75a0f70a4a3ba8">More...</a><br /></td></tr>
 <tr class="separator:a41d33207a0199f125c75a0f70a4a3ba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21340b6c85a6982ce1f8304099bf6ea2"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(kaguya::State *)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings.html#a21340b6c85a6982ce1f8304099bf6ea2">InitTreeNodeAsTable</a> (const std::string &amp;nodeName)</td></tr>
-<tr class="separator:a21340b6c85a6982ce1f8304099bf6ea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa4acd892021665e2318ac9cfe101838"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings.html#afa4acd892021665e2318ac9cfe101838">checkIfLuaElementExists</a> (kaguya::State *lua, const std::string &amp;path)</td></tr>
 <tr class="separator:afa4acd892021665e2318ac9cfe101838"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ea220e1301ad164d5e64d5a15416571"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_bindings_1_1_binding_tree.html">BindingTree</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings.html#a3ea220e1301ad164d5e64d5a15416571">BindTree</a> (&quot;Root&quot;)</td></tr>
@@ -162,8 +160,8 @@ Variables</h2></td></tr>
 <tr class="separator:a15780908404946464b647896b6e35f97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6559b5e6cec7ecda41c0ddb07b95c296"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, std::shared_ptr&lt; dynamicLinker::dynamicLinker &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings.html#a6559b5e6cec7ecda41c0ddb07b95c296">Plugins</a></td></tr>
 <tr class="separator:a6559b5e6cec7ecda41c0ddb07b95c296"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e49614337fb974c5744081896b8cb21"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(kaguya::State *)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings.html#a4e49614337fb974c5744081896b8cb21">InitTreeNodeAsTable</a> (const std::string &amp;nodeName)</td></tr>
-<tr class="separator:a4e49614337fb974c5744081896b8cb21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcc2be486e072551813e6a367c0bbd04"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(kaguya::State *)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings.html#afcc2be486e072551813e6a367c0bbd04">RegisterLib</a></td></tr>
+<tr class="separator:afcc2be486e072551813e6a367c0bbd04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Bind C++ Classes and Functions to Lua VMs. </p>
@@ -233,24 +231,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a21340b6c85a6982ce1f8304099bf6ea2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a21340b6c85a6982ce1f8304099bf6ea2">&#9670;&nbsp;</a></span>InitTreeNodeAsTable()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::function&lt;void(kaguya::State*)&gt; obe::Bindings::InitTreeNodeAsTable </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>nodeName</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ad571e5338f682c5657773d5b96de5a40"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad571e5338f682c5657773d5b96de5a40">&#9670;&nbsp;</a></span>Load()</h2>
 
@@ -303,20 +283,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a4e49614337fb974c5744081896b8cb21"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e49614337fb974c5744081896b8cb21">&#9670;&nbsp;</a></span>InitTreeNodeAsTable</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::function&lt;void(kaguya::State*)&gt; obe::Bindings::InitTreeNodeAsTable(const std::string &amp;nodeName)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a6559b5e6cec7ecda41c0ddb07b95c296"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6559b5e6cec7ecda41c0ddb07b95c296">&#9670;&nbsp;</a></span>Plugins</h2>
 
@@ -329,6 +295,20 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+</div>
+</div>
+<a id="afcc2be486e072551813e6a367c0bbd04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcc2be486e072551813e6a367c0bbd04">&#9670;&nbsp;</a></span>RegisterLib</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::function&lt; void(kaguya::State *)&gt; obe::Bindings::RegisterLib</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= [](kaguya::State* lua)</div><div class="line">        {</div><div class="line">        }</div></div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

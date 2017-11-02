@@ -86,6 +86,8 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_core_hook.html">CoreHook</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_game_object.html">GameObject</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> is a set of Components used in the <a class="el" href="namespaceobe_1_1_scene.html" title="Classes and Functions to work with the Scene. ">Scene</a>.  <a href="classobe_1_1_script_1_1_game_object.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -107,6 +109,8 @@ Functions</h2></td></tr>
 <tr class="memitem:afcf070faebc17f296aad261fd2ceff1d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#afcf070faebc17f296aad261fd2ceff1d">executeString</a> (unsigned int envIndex, const std::string &amp;string)</td></tr>
 <tr class="memdesc:afcf070faebc17f296aad261fd2ceff1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes a Lua string on the given environment.  <a href="#afcf070faebc17f296aad261fd2ceff1d">More...</a><br /></td></tr>
 <tr class="separator:afcf070faebc17f296aad261fd2ceff1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93f11dc0cdd5fc4a7ff54cb89f54c877"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#a93f11dc0cdd5fc4a7ff54cb89f54c877">loadHook</a> (kaguya::State *lua, std::string hookname)</td></tr>
+<tr class="separator:a93f11dc0cdd5fc4a7ff54cb89f54c877"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8f90c1197ae57edaaa817d6c828febe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#ae8f90c1197ae57edaaa817d6c828febe">KAGUYA_MEMBER_FUNCTION_OVERLOADS_WITH_SIGNATURE</a> (useExternalTriggerProxy, <a class="el" href="classobe_1_1_script_1_1_game_object.html">GameObject</a>, useExternalTrigger, 3, 4, void(GameObject::*)(std::string, std::string, std::string, std::string))</td></tr>
 <tr class="separator:ae8f90c1197ae57edaaa817d6c828febe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ad3c8f9d399388c43a953d7a570ce76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#a1ad3c8f9d399388c43a953d7a570ce76">executeFile</a> (unsigned envIndex, const std::string &amp;file)</td></tr>
@@ -119,6 +123,8 @@ Variables</h2></td></tr>
 <tr class="memitem:a90d73c6b8ff9bcb7caa1289cc62edbae"><td class="memItemLeft" align="right" valign="top">kaguya::State&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#a90d73c6b8ff9bcb7caa1289cc62edbae">ScriptEngine</a></td></tr>
 <tr class="memdesc:a90d73c6b8ff9bcb7caa1289cc62edbae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lua VM used everywhere in the code.  <a href="#a90d73c6b8ff9bcb7caa1289cc62edbae">More...</a><br /></td></tr>
 <tr class="separator:a90d73c6b8ff9bcb7caa1289cc62edbae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1116049066154574387bd18826919514"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_script_1_1_core_hook.html">CoreHook</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#a1116049066154574387bd18826919514">hookCore</a></td></tr>
+<tr class="separator:a1116049066154574387bd18826919514"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Classes and Functions about Scripting support. </p>
@@ -143,36 +149,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a1ad3c8f9d399388c43a953d7a570ce76"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ad3c8f9d399388c43a953d7a570ce76">&#9670;&nbsp;</a></span>executeFile() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void obe::Script::executeFile </td>
-          <td>(</td>
-          <td class="paramtype">unsigned&#160;</td>
-          <td class="paramname"><em>envIndex</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>file</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ad6e5d26d51a96139f95045d01a216e23"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6e5d26d51a96139f95045d01a216e23">&#9670;&nbsp;</a></span>executeFile() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6e5d26d51a96139f95045d01a216e23">&#9670;&nbsp;</a></span>executeFile() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -208,14 +186,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ade068b5fe150ea37d7e3f91f2ada3118"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade068b5fe150ea37d7e3f91f2ada3118">&#9670;&nbsp;</a></span>executeString() <span class="overload">[1/2]</span></h2>
+<a id="a1ad3c8f9d399388c43a953d7a570ce76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ad3c8f9d399388c43a953d7a570ce76">&#9670;&nbsp;</a></span>executeFile() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void obe::Script::executeString </td>
+          <td class="memname">void obe::Script::executeFile </td>
           <td>(</td>
           <td class="paramtype">unsigned&#160;</td>
           <td class="paramname"><em>envIndex</em>, </td>
@@ -224,7 +202,7 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>string</em>&#160;</td>
+          <td class="paramname"><em>file</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -237,7 +215,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="afcf070faebc17f296aad261fd2ceff1d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afcf070faebc17f296aad261fd2ceff1d">&#9670;&nbsp;</a></span>executeString() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afcf070faebc17f296aad261fd2ceff1d">&#9670;&nbsp;</a></span>executeString() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -270,6 +248,34 @@ Variables</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="ade068b5fe150ea37d7e3f91f2ada3118"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade068b5fe150ea37d7e3f91f2ada3118">&#9670;&nbsp;</a></span>executeString() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::Script::executeString </td>
+          <td>(</td>
+          <td class="paramtype">unsigned&#160;</td>
+          <td class="paramname"><em>envIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>string</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -344,7 +350,49 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a93f11dc0cdd5fc4a7ff54cb89f54c877"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93f11dc0cdd5fc4a7ff54cb89f54c877">&#9670;&nbsp;</a></span>loadHook()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::Script::loadHook </td>
+          <td>(</td>
+          <td class="paramtype">kaguya::State *&#160;</td>
+          <td class="paramname"><em>lua</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>hookname</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="a1116049066154574387bd18826919514"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1116049066154574387bd18826919514">&#9670;&nbsp;</a></span>hookCore</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classobe_1_1_script_1_1_core_hook.html">CoreHook</a> obe::Script::hookCore</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a90d73c6b8ff9bcb7caa1289cc62edbae"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a90d73c6b8ff9bcb7caa1289cc62edbae">&#9670;&nbsp;</a></span>ScriptEngine</h2>
 

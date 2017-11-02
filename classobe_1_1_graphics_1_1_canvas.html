@@ -97,6 +97,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afd218784675ea3411cf4d8bc78a5ae2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46e0f3601bf4f7621df0857f3eaf16ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_graphics_1_1_sprite.html">Sprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_canvas.html#a46e0f3601bf4f7621df0857f3eaf16ff">sprite</a> (const std::string &amp;id)</td></tr>
 <tr class="separator:a46e0f3601bf4f7621df0857f3eaf16ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d070054fdf65b19e19da76c25306301"><td class="memItemLeft" align="right" valign="top">kaguya::LuaTable &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_canvas.html#a4d070054fdf65b19e19da76c25306301">get</a> (std::string id)</td></tr>
+<tr class="memdesc:a4d070054fdf65b19e19da76c25306301"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a reference to the LuaTable connected to a <a class="el" href="classobe_1_1_graphics_1_1_canvas_element.html" title="A CanvasElement (Base class for all real CanvasElements) ">CanvasElement</a>.  <a href="#a4d070054fdf65b19e19da76c25306301">More...</a><br /></td></tr>
+<tr class="separator:a4d070054fdf65b19e19da76c25306301"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abeebf06994d94594f9b675e72e6afdcc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_canvas.html#abeebf06994d94594f9b675e72e6afdcc">setTarget</a> (<a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html">LevelSprite</a> *target)</td></tr>
 <tr class="memdesc:abeebf06994d94594f9b675e72e6afdcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the <a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html" title="An element meant to be displayed in a Scene . ">LevelSprite</a> where the <a class="el" href="classobe_1_1_graphics_1_1_canvas.html" title="A Canvas where you can draw CanvasElements on. ">Canvas</a> should render.  <a href="#abeebf06994d94594f9b675e72e6afdcc">More...</a><br /></td></tr>
 <tr class="separator:abeebf06994d94594f9b675e72e6afdcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -172,6 +175,33 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the newly created <a class="el" href="classobe_1_1_graphics_1_1_circle.html" title="A Canvas Circle. ">Circle</a> </dd></dl>
+
+</div>
+</div>
+<a id="a4d070054fdf65b19e19da76c25306301"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d070054fdf65b19e19da76c25306301">&#9670;&nbsp;</a></span>get()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">kaguya::LuaTable &amp; obe::Graphics::Canvas::get </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get a reference to the LuaTable connected to a <a class="el" href="classobe_1_1_graphics_1_1_canvas_element.html" title="A CanvasElement (Base class for all real CanvasElements) ">CanvasElement</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>Id of the <a class="el" href="classobe_1_1_graphics_1_1_canvas_element.html" title="A CanvasElement (Base class for all real CanvasElements) ">CanvasElement</a> to get the LuaTable </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the LuaTable of the <a class="el" href="classobe_1_1_graphics_1_1_canvas_element.html" title="A CanvasElement (Base class for all real CanvasElements) ">CanvasElement</a> </dd></dl>
 
 </div>
 </div>

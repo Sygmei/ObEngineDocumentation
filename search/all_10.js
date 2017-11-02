@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['p1',['p1',['../classobe_1_1_graphics_1_1_canvas_1_1_line.html#a7b471a1d6ab8e6f51045a566ce62e096',1,'obe::Graphics::Canvas::Line']]],
-  ['p2',['p2',['../classobe_1_1_graphics_1_1_canvas_1_1_line.html#a0b1d333283775b92dd91fca627e4b54a',1,'obe::Graphics::Canvas::Line']]],
   ['package',['Package',['../namespaceobe_1_1_system.html#a049a6c20e2d373ae7154568ed843050ba209802fb858e2c83205027dbbb5d9e6c',1,'obe::System']]],
   ['package_2ecpp',['Package.cpp',['../_package_8cpp.html',1,'']]],
   ['package_2ehpp',['Package.hpp',['../_package_8hpp.html',1,'']]],
@@ -10,7 +8,7 @@ var searchData=
   ['parametertable',['ParameterTable',['../namespaceobe_1_1_triggers.html#af0bd3a7cb2fdc319b1be6991cb0b2f44',1,'obe::Triggers']]],
   ['parsecombinationcode',['parseCombinationCode',['../namespaceobe_1_1_input.html#a97a6e23228d8bc66676f6b38e15248b1',1,'obe::Input']]],
   ['parsefile',['parseFile',['../classvili_1_1_vili_parser.html#abf78e297a322d2e500a04172928d7c67',1,'vili::ViliParser']]],
-  ['path',['Path',['../classobe_1_1_system_1_1_path.html',1,'obe::System::Path'],['../classobe_1_1_graphics_1_1_canvas_1_1_sprite.html#af9bb1dfa22c11921d459d873174c76fe',1,'obe::Graphics::Canvas::Sprite::path()'],['../structtinydir__file.html#a0defcca61bbd493e24c8b709e3a0251f',1,'tinydir_file::path()'],['../structtinydir__dir.html#ae18143ccba05a3cacfc1b055bea6c4b2',1,'tinydir_dir::path()'],['../classobe_1_1_system_1_1_path.html#afce5029aa92ba41d0f201f1ac67a21e0',1,'obe::System::Path::Path()'],['../classobe_1_1_system_1_1_path.html#ae879138839a3e943a38454a425813e3b',1,'obe::System::Path::Path(const Path &amp;path)'],['../classobe_1_1_system_1_1_path.html#a45d0a5a93cd68d26dd3f0c16272c9290',1,'obe::System::Path::Path(const std::string &amp;path)'],['../namespaceobe_1_1_system.html#a049a6c20e2d373ae7154568ed843050baac70412e939d72a9234cdebb1af5867b',1,'obe::System::Path()']]],
+  ['path',['Path',['../classobe_1_1_system_1_1_path.html',1,'obe::System::Path'],['../structtinydir__file.html#a0defcca61bbd493e24c8b709e3a0251f',1,'tinydir_file::path()'],['../structtinydir__dir.html#ae18143ccba05a3cacfc1b055bea6c4b2',1,'tinydir_dir::path()'],['../classobe_1_1_system_1_1_path.html#afce5029aa92ba41d0f201f1ac67a21e0',1,'obe::System::Path::Path()'],['../classobe_1_1_system_1_1_path.html#ae879138839a3e943a38454a425813e3b',1,'obe::System::Path::Path(const Path &amp;path)'],['../classobe_1_1_system_1_1_path.html#a45d0a5a93cd68d26dd3f0c16272c9290',1,'obe::System::Path::Path(const std::string &amp;path)'],['../namespaceobe_1_1_system.html#a049a6c20e2d373ae7154568ed843050baac70412e939d72a9234cdebb1af5867b',1,'obe::System::Path()']]],
   ['path_2ecpp',['Path.cpp',['../_path_8cpp.html',1,'']]],
   ['path_2ehpp',['Path.hpp',['../_path_8hpp.html',1,'']]],
   ['paths',['Paths',['../classobe_1_1_system_1_1_path.html#abc3cb425f1278fc5b477d8f5289492db',1,'obe::System::Path']]],

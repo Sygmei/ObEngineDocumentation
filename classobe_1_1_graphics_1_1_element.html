@@ -67,10 +67,10 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classobe_1_1_graphics_1_1_element-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">obe::Graphics::Element Class Reference</div>  </div>
+<div class="title">obe::Graphics::Element Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -79,21 +79,26 @@ $(function() {
 
 <p><code>#include &lt;<a class="el" href="_canvas_8hpp_source.html">Canvas.hpp</a>&gt;</code></p>
 
-<p>Inherited by <a class="el" href="classobe_1_1_graphics_1_1_drawable.html">obe::Graphics::Drawable</a><code> [virtual]</code>, and <a class="el" href="classobe_1_1_graphics_1_1_transformable.html">obe::Graphics::Transformable</a><code> [virtual]</code>.</p>
+<p>Inherited by <a class="el" href="classobe_1_1_graphics_1_1_configurable.html">obe::Graphics::Configurable</a><code> [virtual]</code>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad149e881d1d5c07672d93cfc2a461f66"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_element.html#ad149e881d1d5c07672d93cfc2a461f66">Element</a> (const std::string &amp;<a class="el" href="classobe_1_1_graphics_1_1_element.html#abe9d2aeae968271c964148d77a39605e">id</a>)</td></tr>
+<tr class="memitem:ad149e881d1d5c07672d93cfc2a461f66"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_element.html#ad149e881d1d5c07672d93cfc2a461f66">Element</a> (const std::string &amp;id)</td></tr>
 <tr class="memdesc:ad149e881d1d5c07672d93cfc2a461f66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new <a class="el" href="classobe_1_1_graphics_1_1_canvas.html" title="A Canvas where you can draw CanvasElements on. ">Canvas</a> <a class="el" href="classobe_1_1_graphics_1_1_element.html" title="Basic class for CanvasElement. ">Element</a>.  <a href="#ad149e881d1d5c07672d93cfc2a461f66">More...</a><br /></td></tr>
 <tr class="separator:ad149e881d1d5c07672d93cfc2a461f66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ef15fcffb5c3fdc5e5ab99e3b5db1d5"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_element.html#a7ef15fcffb5c3fdc5e5ab99e3b5db1d5">~Element</a> ()=default</td></tr>
 <tr class="memdesc:a7ef15fcffb5c3fdc5e5ab99e3b5db1d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default destructor of <a class="el" href="classobe_1_1_graphics_1_1_element.html" title="Basic class for CanvasElement. ">Element</a>.  <a href="#a7ef15fcffb5c3fdc5e5ab99e3b5db1d5">More...</a><br /></td></tr>
 <tr class="separator:a7ef15fcffb5c3fdc5e5ab99e3b5db1d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac01499abba6d03edb76fecc12d81f7a4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_element.html#ac01499abba6d03edb76fecc12d81f7a4">update</a> ()=0</td></tr>
+<tr class="memdesc:ac01499abba6d03edb76fecc12d81f7a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract update method.  <a href="#ac01499abba6d03edb76fecc12d81f7a4">More...</a><br /></td></tr>
+<tr class="separator:ac01499abba6d03edb76fecc12d81f7a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:abe9d2aeae968271c964148d77a39605e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_element.html#abe9d2aeae968271c964148d77a39605e">id</a></td></tr>
-<tr class="separator:abe9d2aeae968271c964148d77a39605e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:ac016002d8c8a2793281ee6b2df5592a1"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; std::string, std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_element.html#ac016002d8c8a2793281ee6b2df5592a1">requires</a></td></tr>
+<tr class="separator:ac016002d8c8a2793281ee6b2df5592a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ba32f130f27bf6c2335da316d268c18"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_element.html#a6ba32f130f27bf6c2335da316d268c18">m_id</a></td></tr>
+<tr class="separator:a6ba32f130f27bf6c2335da316d268c18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Basic class for <a class="el" href="classobe_1_1_graphics_1_1_canvas_element.html" title="A CanvasElement (Base class for all real CanvasElements) ">CanvasElement</a>. </p>
@@ -159,17 +164,77 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="abe9d2aeae968271c964148d77a39605e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe9d2aeae968271c964148d77a39605e">&#9670;&nbsp;</a></span>id</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ac01499abba6d03edb76fecc12d81f7a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac01499abba6d03edb76fecc12d81f7a4">&#9670;&nbsp;</a></span>update()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string obe::Graphics::Element::id</td>
+          <td class="memname">virtual void obe::Graphics::Element::update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Abstract update method. </p>
+
+<p>Implemented in <a class="el" href="classobe_1_1_graphics_1_1_sprite.html#a4d18e553491b2f5833e6b65d7a51f6ff">obe::Graphics::Sprite</a>, <a class="el" href="classobe_1_1_graphics_1_1_circle.html#aaa1b084224da684ca7b11068a193c766">obe::Graphics::Circle</a>, <a class="el" href="classobe_1_1_graphics_1_1_text.html#a77ea8e3bb1e9cefb0dee83bccf949d81">obe::Graphics::Text</a>, <a class="el" href="classobe_1_1_graphics_1_1_rectangle.html#ae93141b4d30aa55c7d7c3e7e23461610">obe::Graphics::Rectangle</a>, <a class="el" href="classobe_1_1_graphics_1_1_line.html#a9be202efb19c11a5e23c408b76ab1ded">obe::Graphics::Line</a>, <a class="el" href="classobe_1_1_graphics_1_1_canvas_element.html#a4a1b463a388a056ca8753a43180adea5">obe::Graphics::CanvasElement</a>, <a class="el" href="classobe_1_1_graphics_1_1_transformable.html#a4da9d060aed6eb5ba34ce40684c0c1ed">obe::Graphics::Transformable</a>, <a class="el" href="classobe_1_1_graphics_1_1_colorable.html#a62aff2530f2f1de1597868e78d6fbb22">obe::Graphics::Colorable</a>, <a class="el" href="classobe_1_1_graphics_1_1_drawable.html#a2a98ee356ed7c1f6bee08f8fea54fa9b">obe::Graphics::Drawable</a>, and <a class="el" href="classobe_1_1_graphics_1_1_configurable.html#a8f34bef7b9e5533bb3b15e3e54199e72">obe::Graphics::Configurable</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a6ba32f130f27bf6c2335da316d268c18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ba32f130f27bf6c2335da316d268c18">&#9670;&nbsp;</a></span>m_id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string obe::Graphics::Element::m_id</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac016002d8c8a2793281ee6b2df5592a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac016002d8c8a2793281ee6b2df5592a1">&#9670;&nbsp;</a></span>requires</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::pair&lt;std::string, std::string&gt; &gt; obe::Graphics::Element::requires</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

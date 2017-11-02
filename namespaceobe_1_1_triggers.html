@@ -67,8 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#typedef-members">Typedefs</a>  </div>
   <div class="headertitle">
 <div class="title">obe::Triggers Namespace Reference</div>  </div>
 </div><!--header-->
@@ -91,18 +90,14 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html">TriggerGroup</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class used to manage multiple <a class="el" href="classobe_1_1_triggers_1_1_trigger.html" title="A Class that does represents a triggerable event . ">Trigger</a> .  <a href="classobe_1_1_triggers_1_1_trigger_group.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger_group_ptr.html">TriggerGroupPtr</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Smart pointer for <a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html" title="Class used to manage multiple Trigger . ">TriggerGroup</a>.  <a href="classobe_1_1_triggers_1_1_trigger_group_ptr.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:af0bd3a7cb2fdc319b1be6991cb0b2f44"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_triggers.html#af0bd3a7cb2fdc319b1be6991cb0b2f44">ParameterTable</a> = std::map&lt; std::string, std::pair&lt; std::string, <a class="el" href="classobe_1_1_types_1_1_any.html">Types::Any</a> &gt; &gt;</td></tr>
 <tr class="separator:af0bd3a7cb2fdc319b1be6991cb0b2f44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1c47fabff190bbe8f6989fe11e8ad93"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_triggers.html#ae1c47fabff190bbe8f6989fe11e8ad93">TriggerGroupPtr</a> = std::shared_ptr&lt; <a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html">TriggerGroup</a> &gt;</td></tr>
-<tr class="separator:ae1c47fabff190bbe8f6989fe11e8ad93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:aa4ef2714d8c19ba974a95200e111bf10"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_triggers.html#aa4ef2714d8c19ba974a95200e111bf10">TriggerGroupPtrRemover</a> (<a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html">TriggerGroup</a> *ptr)</td></tr>
-<tr class="separator:aa4ef2714d8c19ba974a95200e111bf10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Classes and Functions to handle <a class="el" href="namespaceobe_1_1_triggers.html" title="Classes and Functions to handle Triggers (Events) ">Triggers</a> (Events) </p>
@@ -115,39 +110,6 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="namespaceobe_1_1_triggers.html#af0bd3a7cb2fdc319b1be6991cb0b2f44">obe::Triggers::ParameterTable</a> = typedef std::map&lt;std::string, std::pair&lt;std::string, <a class="el" href="classobe_1_1_types_1_1_any.html">Types::Any</a>&gt; &gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae1c47fabff190bbe8f6989fe11e8ad93"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae1c47fabff190bbe8f6989fe11e8ad93">&#9670;&nbsp;</a></span>TriggerGroupPtr</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="namespaceobe_1_1_triggers.html#ae1c47fabff190bbe8f6989fe11e8ad93">obe::Triggers::TriggerGroupPtr</a> = typedef std::shared_ptr&lt;<a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html">TriggerGroup</a>&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="aa4ef2714d8c19ba974a95200e111bf10"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa4ef2714d8c19ba974a95200e111bf10">&#9670;&nbsp;</a></span>TriggerGroupPtrRemover()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void obe::Triggers::TriggerGroupPtrRemover </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html">TriggerGroup</a> *&#160;</td>
-          <td class="paramname"><em>ptr</em></td><td>)</td>
-          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">

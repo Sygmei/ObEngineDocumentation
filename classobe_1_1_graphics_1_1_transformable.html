@@ -67,7 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classobe_1_1_graphics_1_1_transformable-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">obe::Graphics::Transformable Class Reference</div>  </div>
@@ -79,38 +79,64 @@ $(function() {
 
 <p><code>#include &lt;<a class="el" href="_canvas_8hpp_source.html">Canvas.hpp</a>&gt;</code></p>
 
-<p>Inherits <a class="el" href="classobe_1_1_graphics_1_1_element.html">obe::Graphics::Element</a>.</p>
+<p>Inherits <a class="el" href="classobe_1_1_graphics_1_1_configurable.html">obe::Graphics::Configurable</a>.</p>
 
 <p>Inherited by <a class="el" href="classobe_1_1_graphics_1_1_circle.html">obe::Graphics::Circle</a>, <a class="el" href="classobe_1_1_graphics_1_1_rectangle.html">obe::Graphics::Rectangle</a>, <a class="el" href="classobe_1_1_graphics_1_1_sprite.html">obe::Graphics::Sprite</a>, and <a class="el" href="classobe_1_1_graphics_1_1_text.html">obe::Graphics::Text</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aaba5ff63fbd312b5f12517976de1b385"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_transformable.html#aaba5ff63fbd312b5f12517976de1b385">Transformable</a> (const std::string &amp;<a class="el" href="classobe_1_1_graphics_1_1_element.html#abe9d2aeae968271c964148d77a39605e">id</a>)</td></tr>
+<tr class="memitem:aaba5ff63fbd312b5f12517976de1b385"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_transformable.html#aaba5ff63fbd312b5f12517976de1b385">Transformable</a> (const std::string &amp;id)</td></tr>
 <tr class="memdesc:aaba5ff63fbd312b5f12517976de1b385"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new <a class="el" href="classobe_1_1_graphics_1_1_transformable.html" title="A Transformable Canvas Element. ">Transformable</a>.  <a href="#aaba5ff63fbd312b5f12517976de1b385">More...</a><br /></td></tr>
 <tr class="separator:aaba5ff63fbd312b5f12517976de1b385"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4da9d060aed6eb5ba34ce40684c0c1ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_transformable.html#a4da9d060aed6eb5ba34ce40684c0c1ed">update</a> () override</td></tr>
+<tr class="memdesc:a4da9d060aed6eb5ba34ce40684c0c1ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the <a class="el" href="classobe_1_1_graphics_1_1_transformable.html" title="A Transformable Canvas Element. ">Transformable</a>.  <a href="#a4da9d060aed6eb5ba34ce40684c0c1ed">More...</a><br /></td></tr>
+<tr class="separator:a4da9d060aed6eb5ba34ce40684c0c1ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classobe_1_1_graphics_1_1_configurable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classobe_1_1_graphics_1_1_configurable')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classobe_1_1_graphics_1_1_configurable.html">obe::Graphics::Configurable</a></td></tr>
+<tr class="memitem:a122bb5b0ea9c3a650ec55e896508aede inherit pub_methods_classobe_1_1_graphics_1_1_configurable"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_configurable.html#a122bb5b0ea9c3a650ec55e896508aede">Configurable</a> (const std::string &amp;id)</td></tr>
+<tr class="memdesc:a122bb5b0ea9c3a650ec55e896508aede inherit pub_methods_classobe_1_1_graphics_1_1_configurable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new <a class="el" href="classobe_1_1_graphics_1_1_configurable.html" title="A Configurable Canvas Element (can have properties) ">Configurable</a> <a class="el" href="classobe_1_1_graphics_1_1_canvas.html" title="A Canvas where you can draw CanvasElements on. ">Canvas</a> <a class="el" href="classobe_1_1_graphics_1_1_element.html" title="Basic class for CanvasElement. ">Element</a>.  <a href="classobe_1_1_graphics_1_1_configurable.html#a122bb5b0ea9c3a650ec55e896508aede">More...</a><br /></td></tr>
+<tr class="separator:a122bb5b0ea9c3a650ec55e896508aede inherit pub_methods_classobe_1_1_graphics_1_1_configurable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e04db8747b7531f0c3629975da10441 inherit pub_methods_classobe_1_1_graphics_1_1_configurable"><td class="memItemLeft" align="right" valign="top">kaguya::LuaTable &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_configurable.html#a4e04db8747b7531f0c3629975da10441">init</a> (const kaguya::LuaTable &amp;tableWrapper)</td></tr>
+<tr class="memdesc:a4e04db8747b7531f0c3629975da10441 inherit pub_methods_classobe_1_1_graphics_1_1_configurable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the <a class="el" href="classobe_1_1_graphics_1_1_configurable.html" title="A Configurable Canvas Element (can have properties) ">Configurable</a>.  <a href="classobe_1_1_graphics_1_1_configurable.html#a4e04db8747b7531f0c3629975da10441">More...</a><br /></td></tr>
+<tr class="separator:a4e04db8747b7531f0c3629975da10441 inherit pub_methods_classobe_1_1_graphics_1_1_configurable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a881e5f4ab9b1bac1f62431e6eeb9146f inherit pub_methods_classobe_1_1_graphics_1_1_configurable"><td class="memItemLeft" align="right" valign="top">kaguya::LuaTable &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_configurable.html#a881e5f4ab9b1bac1f62431e6eeb9146f">get</a> ()</td></tr>
+<tr class="memdesc:a881e5f4ab9b1bac1f62431e6eeb9146f inherit pub_methods_classobe_1_1_graphics_1_1_configurable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a reference to the LuaTable used for configuration.  <a href="classobe_1_1_graphics_1_1_configurable.html#a881e5f4ab9b1bac1f62431e6eeb9146f">More...</a><br /></td></tr>
+<tr class="separator:a881e5f4ab9b1bac1f62431e6eeb9146f inherit pub_methods_classobe_1_1_graphics_1_1_configurable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classobe_1_1_graphics_1_1_element"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classobe_1_1_graphics_1_1_element')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classobe_1_1_graphics_1_1_element.html">obe::Graphics::Element</a></td></tr>
-<tr class="memitem:ad149e881d1d5c07672d93cfc2a461f66 inherit pub_methods_classobe_1_1_graphics_1_1_element"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_element.html#ad149e881d1d5c07672d93cfc2a461f66">Element</a> (const std::string &amp;<a class="el" href="classobe_1_1_graphics_1_1_element.html#abe9d2aeae968271c964148d77a39605e">id</a>)</td></tr>
+<tr class="memitem:ad149e881d1d5c07672d93cfc2a461f66 inherit pub_methods_classobe_1_1_graphics_1_1_element"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_element.html#ad149e881d1d5c07672d93cfc2a461f66">Element</a> (const std::string &amp;id)</td></tr>
 <tr class="memdesc:ad149e881d1d5c07672d93cfc2a461f66 inherit pub_methods_classobe_1_1_graphics_1_1_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new <a class="el" href="classobe_1_1_graphics_1_1_canvas.html" title="A Canvas where you can draw CanvasElements on. ">Canvas</a> <a class="el" href="classobe_1_1_graphics_1_1_element.html" title="Basic class for CanvasElement. ">Element</a>.  <a href="classobe_1_1_graphics_1_1_element.html#ad149e881d1d5c07672d93cfc2a461f66">More...</a><br /></td></tr>
 <tr class="separator:ad149e881d1d5c07672d93cfc2a461f66 inherit pub_methods_classobe_1_1_graphics_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ef15fcffb5c3fdc5e5ab99e3b5db1d5 inherit pub_methods_classobe_1_1_graphics_1_1_element"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_element.html#a7ef15fcffb5c3fdc5e5ab99e3b5db1d5">~Element</a> ()=default</td></tr>
 <tr class="memdesc:a7ef15fcffb5c3fdc5e5ab99e3b5db1d5 inherit pub_methods_classobe_1_1_graphics_1_1_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default destructor of <a class="el" href="classobe_1_1_graphics_1_1_element.html" title="Basic class for CanvasElement. ">Element</a>.  <a href="classobe_1_1_graphics_1_1_element.html#a7ef15fcffb5c3fdc5e5ab99e3b5db1d5">More...</a><br /></td></tr>
 <tr class="separator:a7ef15fcffb5c3fdc5e5ab99e3b5db1d5 inherit pub_methods_classobe_1_1_graphics_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a2287b6b23742e6a07a0fae5e6f11591e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_transformable.html#a2287b6b23742e6a07a0fae5e6f11591e">position</a></td></tr>
-<tr class="separator:a2287b6b23742e6a07a0fae5e6f11591e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10c88baf0794d1dfc1393c072562db42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_transformable.html#a10c88baf0794d1dfc1393c072562db42">size</a></td></tr>
-<tr class="separator:a10c88baf0794d1dfc1393c072562db42"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7c84c60c5d3336df201828e365152ee"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_transformable.html#ab7c84c60c5d3336df201828e365152ee">angle</a></td></tr>
-<tr class="separator:ab7c84c60c5d3336df201828e365152ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f6d917b8d0ffb55addb562a6fc41bb6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_transformable.html#a9f6d917b8d0ffb55addb562a6fc41bb6">translationOrigin</a></td></tr>
-<tr class="separator:a9f6d917b8d0ffb55addb562a6fc41bb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ac3e236651902bbf2a3e5588cf862c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_transformable.html#a4ac3e236651902bbf2a3e5588cf862c5">rotationOrigin</a></td></tr>
-<tr class="separator:a4ac3e236651902bbf2a3e5588cf862c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_attribs_classobe_1_1_graphics_1_1_element"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classobe_1_1_graphics_1_1_element')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classobe_1_1_graphics_1_1_element.html">obe::Graphics::Element</a></td></tr>
-<tr class="memitem:abe9d2aeae968271c964148d77a39605e inherit pub_attribs_classobe_1_1_graphics_1_1_element"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_element.html#abe9d2aeae968271c964148d77a39605e">id</a></td></tr>
-<tr class="separator:abe9d2aeae968271c964148d77a39605e inherit pub_attribs_classobe_1_1_graphics_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:ae9d87f5dccea7d593bbd1e2cda04c3f3"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_transformable.html#ae9d87f5dccea7d593bbd1e2cda04c3f3">m_x</a></td></tr>
+<tr class="separator:ae9d87f5dccea7d593bbd1e2cda04c3f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e1195fd151769fe17a7ebf6ee130cdd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_transformable.html#a8e1195fd151769fe17a7ebf6ee130cdd">m_y</a></td></tr>
+<tr class="separator:a8e1195fd151769fe17a7ebf6ee130cdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a188214a8e3d9a4c319e85ce6431147f1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_transformable.html#a188214a8e3d9a4c319e85ce6431147f1">m_width</a></td></tr>
+<tr class="separator:a188214a8e3d9a4c319e85ce6431147f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2a15a10258e74b0d07ea2904bd92091"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_transformable.html#ad2a15a10258e74b0d07ea2904bd92091">m_height</a></td></tr>
+<tr class="separator:ad2a15a10258e74b0d07ea2904bd92091"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a407a0b4088945c9eb2621aad459c98df"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_transformable.html#a407a0b4088945c9eb2621aad459c98df">m_rotation</a></td></tr>
+<tr class="separator:a407a0b4088945c9eb2621aad459c98df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad94bea7c38b599b3a4cc9d4f40a813d6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_transformable.html#ad94bea7c38b599b3a4cc9d4f40a813d6">m_translationOriginX</a></td></tr>
+<tr class="separator:ad94bea7c38b599b3a4cc9d4f40a813d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a604cd609b7c2b858e760ca408f36d9a7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_transformable.html#a604cd609b7c2b858e760ca408f36d9a7">m_translationOriginY</a></td></tr>
+<tr class="separator:a604cd609b7c2b858e760ca408f36d9a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6108b07525390008178bcfe54e3f1047"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_transformable.html#a6108b07525390008178bcfe54e3f1047">m_rotationOriginX</a></td></tr>
+<tr class="separator:a6108b07525390008178bcfe54e3f1047"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04aa759d60b3c31f59443f2ffac8e519"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_transformable.html#a04aa759d60b3c31f59443f2ffac8e519">m_rotationOriginY</a></td></tr>
+<tr class="separator:a04aa759d60b3c31f59443f2ffac8e519"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classobe_1_1_graphics_1_1_configurable"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classobe_1_1_graphics_1_1_configurable')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classobe_1_1_graphics_1_1_configurable.html">obe::Graphics::Configurable</a></td></tr>
+<tr class="memitem:a7453bfaa77a37561627f1c04a8f2393c inherit pro_attribs_classobe_1_1_graphics_1_1_configurable"><td class="memItemLeft" align="right" valign="top">kaguya::LuaTable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_configurable.html#a7453bfaa77a37561627f1c04a8f2393c">m_tableWrapper</a></td></tr>
+<tr class="separator:a7453bfaa77a37561627f1c04a8f2393c inherit pro_attribs_classobe_1_1_graphics_1_1_configurable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classobe_1_1_graphics_1_1_element"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classobe_1_1_graphics_1_1_element')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classobe_1_1_graphics_1_1_element.html">obe::Graphics::Element</a></td></tr>
+<tr class="memitem:ac016002d8c8a2793281ee6b2df5592a1 inherit pro_attribs_classobe_1_1_graphics_1_1_element"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; std::string, std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_element.html#ac016002d8c8a2793281ee6b2df5592a1">requires</a></td></tr>
+<tr class="separator:ac016002d8c8a2793281ee6b2df5592a1 inherit pro_attribs_classobe_1_1_graphics_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ba32f130f27bf6c2335da316d268c18 inherit pro_attribs_classobe_1_1_graphics_1_1_element"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_element.html#a6ba32f130f27bf6c2335da316d268c18">m_id</a></td></tr>
+<tr class="separator:a6ba32f130f27bf6c2335da316d268c18 inherit pro_attribs_classobe_1_1_graphics_1_1_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A <a class="el" href="classobe_1_1_graphics_1_1_transformable.html" title="A Transformable Canvas Element. ">Transformable</a> <a class="el" href="classobe_1_1_graphics_1_1_canvas.html" title="A Canvas where you can draw CanvasElements on. ">Canvas</a> <a class="el" href="classobe_1_1_graphics_1_1_element.html" title="Basic class for CanvasElement. ">Element</a>. </p>
@@ -149,73 +175,233 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a4da9d060aed6eb5ba34ce40684c0c1ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4da9d060aed6eb5ba34ce40684c0c1ed">&#9670;&nbsp;</a></span>update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::Graphics::Transformable::update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Updates the <a class="el" href="classobe_1_1_graphics_1_1_transformable.html" title="A Transformable Canvas Element. ">Transformable</a>. </p>
+
+<p>Reimplemented from <a class="el" href="classobe_1_1_graphics_1_1_configurable.html#a8f34bef7b9e5533bb3b15e3e54199e72">obe::Graphics::Configurable</a>.</p>
+
+<p>Reimplemented in <a class="el" href="classobe_1_1_graphics_1_1_sprite.html#a4d18e553491b2f5833e6b65d7a51f6ff">obe::Graphics::Sprite</a>, <a class="el" href="classobe_1_1_graphics_1_1_circle.html#aaa1b084224da684ca7b11068a193c766">obe::Graphics::Circle</a>, <a class="el" href="classobe_1_1_graphics_1_1_text.html#a77ea8e3bb1e9cefb0dee83bccf949d81">obe::Graphics::Text</a>, and <a class="el" href="classobe_1_1_graphics_1_1_rectangle.html#ae93141b4d30aa55c7d7c3e7e23461610">obe::Graphics::Rectangle</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="ab7c84c60c5d3336df201828e365152ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7c84c60c5d3336df201828e365152ee">&#9670;&nbsp;</a></span>angle</h2>
+<a id="ad2a15a10258e74b0d07ea2904bd92091"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2a15a10258e74b0d07ea2904bd92091">&#9670;&nbsp;</a></span>m_height</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float obe::Graphics::Transformable::angle</td>
+          <td class="memname">float obe::Graphics::Transformable::m_height</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a2287b6b23742e6a07a0fae5e6f11591e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2287b6b23742e6a07a0fae5e6f11591e">&#9670;&nbsp;</a></span>position</h2>
+<a id="a407a0b4088945c9eb2621aad459c98df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a407a0b4088945c9eb2621aad459c98df">&#9670;&nbsp;</a></span>m_rotation</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> obe::Graphics::Transformable::position</td>
+          <td class="memname">float obe::Graphics::Transformable::m_rotation</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a4ac3e236651902bbf2a3e5588cf862c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ac3e236651902bbf2a3e5588cf862c5">&#9670;&nbsp;</a></span>rotationOrigin</h2>
+<a id="a6108b07525390008178bcfe54e3f1047"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6108b07525390008178bcfe54e3f1047">&#9670;&nbsp;</a></span>m_rotationOriginX</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> obe::Graphics::Transformable::rotationOrigin</td>
+          <td class="memname">float obe::Graphics::Transformable::m_rotationOriginX</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a10c88baf0794d1dfc1393c072562db42"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10c88baf0794d1dfc1393c072562db42">&#9670;&nbsp;</a></span>size</h2>
+<a id="a04aa759d60b3c31f59443f2ffac8e519"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04aa759d60b3c31f59443f2ffac8e519">&#9670;&nbsp;</a></span>m_rotationOriginY</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> obe::Graphics::Transformable::size</td>
+          <td class="memname">float obe::Graphics::Transformable::m_rotationOriginY</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a9f6d917b8d0ffb55addb562a6fc41bb6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f6d917b8d0ffb55addb562a6fc41bb6">&#9670;&nbsp;</a></span>translationOrigin</h2>
+<a id="ad94bea7c38b599b3a4cc9d4f40a813d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad94bea7c38b599b3a4cc9d4f40a813d6">&#9670;&nbsp;</a></span>m_translationOriginX</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> obe::Graphics::Transformable::translationOrigin</td>
+          <td class="memname">float obe::Graphics::Transformable::m_translationOriginX</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a604cd609b7c2b858e760ca408f36d9a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a604cd609b7c2b858e760ca408f36d9a7">&#9670;&nbsp;</a></span>m_translationOriginY</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float obe::Graphics::Transformable::m_translationOriginY</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a188214a8e3d9a4c319e85ce6431147f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a188214a8e3d9a4c319e85ce6431147f1">&#9670;&nbsp;</a></span>m_width</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float obe::Graphics::Transformable::m_width</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae9d87f5dccea7d593bbd1e2cda04c3f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9d87f5dccea7d593bbd1e2cda04c3f3">&#9670;&nbsp;</a></span>m_x</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float obe::Graphics::Transformable::m_x</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8e1195fd151769fe17a7ebf6ee130cdd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e1195fd151769fe17a7ebf6ee130cdd">&#9670;&nbsp;</a></span>m_y</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float obe::Graphics::Transformable::m_y</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
