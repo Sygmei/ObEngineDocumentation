@@ -1,7 +1,7 @@
 var searchData=
 [
   ['terminate',['terminate',['../classvili_1_1_node_iterator.html#a044fe7a2f1d6faf89bce55e2a2f74356',1,'vili::NodeIterator']]],
-  ['text',['Text',['../classobe_1_1_graphics_1_1_text.html#a640b0252de7fcceedf243cb3f587088c',1,'obe::Graphics::Text::Text()'],['../classobe_1_1_graphics_1_1_canvas.html#a67460518414d6b0e0b4a9bdafec87359',1,'obe::Graphics::Canvas::text()']]],
+  ['text',['text',['../classobe_1_1_graphics_1_1_canvas.html#a67460518414d6b0e0b4a9bdafec87359',1,'obe::Graphics::Canvas::text()'],['../classobe_1_1_graphics_1_1_text.html#a640b0252de7fcceedf243cb3f587088c',1,'obe::Graphics::Text::Text()']]],
   ['texturechanged',['textureChanged',['../classobe_1_1_animation_1_1_animator.html#ad710964804f5673b13e3628590f93665',1,'obe::Animation::Animator']]],
   ['tick',['tick',['../classobe_1_1_time_1_1_f_p_s_counter.html#a566d3fc89be18bdca3d5c3bff744157c',1,'obe::Time::FPSCounter']]],
   ['timecheck',['TimeCheck',['../classobe_1_1_time_1_1_time_check.html#a98450c6170159bfda3c7430acd9bdc80',1,'obe::Time::TimeCheck']]],
