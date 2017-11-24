@@ -77,6 +77,8 @@ $(function() {
  <a href="classobe_1_1_scene_1_1_scene.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_scene_8hpp_source.html">Scene.hpp</a>&gt;</code></p>
+
+<p>Inherits <a class="el" href="classobe_1_1_types_1_1_registrable.html">obe::Types::Registrable&lt; Scene &gt;</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -95,9 +97,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af93a3aeebb4bb30127e9f1308f959598"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html#af93a3aeebb4bb30127e9f1308f959598">setFutureLoadFromFile</a> (const std::string &amp;filename, kaguya::LuaFunction callback)</td></tr>
 <tr class="memdesc:af93a3aeebb4bb30127e9f1308f959598"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same that loadFromFile excepts the map will load at the next update.  <a href="#af93a3aeebb4bb30127e9f1308f959598">More...</a><br /></td></tr>
 <tr class="separator:af93a3aeebb4bb30127e9f1308f959598"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a0ff2e3bd9fa05636d431054e9a7f14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html#a9a0ff2e3bd9fa05636d431054e9a7f14">clearWorld</a> ()</td></tr>
-<tr class="memdesc:a9a0ff2e3bd9fa05636d431054e9a7f14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all elements in the <a class="el" href="classobe_1_1_scene_1_1_scene.html" title="The Scene class is a container of all the game elements . ">Scene</a>.  <a href="#a9a0ff2e3bd9fa05636d431054e9a7f14">More...</a><br /></td></tr>
-<tr class="separator:a9a0ff2e3bd9fa05636d431054e9a7f14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9421c76064e7557c5d0a229eb0ddaa7a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html#a9421c76064e7557c5d0a229eb0ddaa7a">clear</a> ()</td></tr>
+<tr class="memdesc:a9421c76064e7557c5d0a229eb0ddaa7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all elements in the <a class="el" href="classobe_1_1_scene_1_1_scene.html" title="The Scene class is a container of all the game elements . ">Scene</a>.  <a href="#a9421c76064e7557c5d0a229eb0ddaa7a">More...</a><br /></td></tr>
+<tr class="separator:a9421c76064e7557c5d0a229eb0ddaa7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa07da3e9e36949914404d73dd84276cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classvili_1_1_vili_parser.html">vili::ViliParser</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html#aa07da3e9e36949914404d73dd84276cf">dump</a> (bool saveCameraPosition)</td></tr>
 <tr class="memdesc:aa07da3e9e36949914404d73dd84276cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dumps all elements of the <a class="el" href="classobe_1_1_scene_1_1_scene.html" title="The Scene class is a container of all the game elements . ">Scene</a> in a vili tree.  <a href="#aa07da3e9e36949914404d73dd84276cf">More...</a><br /></td></tr>
 <tr class="separator:aa07da3e9e36949914404d73dd84276cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -116,9 +118,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1cab47932ee98e92a6878d68f702e25a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html#a1cab47932ee98e92a6878d68f702e25a">setUpdateState</a> (bool state)</td></tr>
 <tr class="memdesc:a1cab47932ee98e92a6878d68f702e25a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables or disables the <a class="el" href="classobe_1_1_scene_1_1_scene.html" title="The Scene class is a container of all the game elements . ">Scene</a> update.  <a href="#a1cab47932ee98e92a6878d68f702e25a">More...</a><br /></td></tr>
 <tr class="separator:a1cab47932ee98e92a6878d68f702e25a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af60d07ead1065f44bf8446a07fdb4d1d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html#af60d07ead1065f44bf8446a07fdb4d1d">setDebugState</a> (bool state)</td></tr>
-<tr class="memdesc:af60d07ead1065f44bf8446a07fdb4d1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables or disables the <a class="el" href="classobe_1_1_scene_1_1_scene.html" title="The Scene class is a container of all the game elements . ">Scene</a> debug.  <a href="#af60d07ead1065f44bf8446a07fdb4d1d">More...</a><br /></td></tr>
-<tr class="separator:af60d07ead1065f44bf8446a07fdb4d1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac646660b22c099f3d126dae645cf135e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_script_1_1_game_object.html">Script::GameObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html#ac646660b22c099f3d126dae645cf135e">createGameObject</a> (const std::string &amp;object, const std::string &amp;id=&quot;&quot;)</td></tr>
 <tr class="memdesc:ac646660b22c099f3d126dae645cf135e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new GameObject.  <a href="#ac646660b22c099f3d126dae645cf135e">More...</a><br /></td></tr>
 <tr class="separator:ac646660b22c099f3d126dae645cf135e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -143,9 +142,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa138ef5c7a9f869e4e8b5464a49918d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html#aa138ef5c7a9f869e4e8b5464a49918d5">reorganizeLayers</a> ()</td></tr>
 <tr class="memdesc:aa138ef5c7a9f869e4e8b5464a49918d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reorganize all the LevelSprite (by Layer and z-depth)  <a href="#aa138ef5c7a9f869e4e8b5464a49918d5">More...</a><br /></td></tr>
 <tr class="separator:aa138ef5c7a9f869e4e8b5464a49918d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a095effc5567447fcb3a29bd69f2ff299"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html">Graphics::LevelSprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html#a095effc5567447fcb3a29bd69f2ff299">createLevelSprite</a> (const std::string &amp;id, bool addToSceneRoot=true)</td></tr>
-<tr class="memdesc:a095effc5567447fcb3a29bd69f2ff299"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new LevelSprite.  <a href="#a095effc5567447fcb3a29bd69f2ff299">More...</a><br /></td></tr>
-<tr class="separator:a095effc5567447fcb3a29bd69f2ff299"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a090238a2889392ccf6143f7caf43f60c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html">Graphics::LevelSprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html#a090238a2889392ccf6143f7caf43f60c">createLevelSprite</a> (const std::string &amp;id=&quot;&quot;, bool addToSceneRoot=true)</td></tr>
+<tr class="memdesc:a090238a2889392ccf6143f7caf43f60c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new LevelSprite.  <a href="#a090238a2889392ccf6143f7caf43f60c">More...</a><br /></td></tr>
+<tr class="separator:a090238a2889392ccf6143f7caf43f60c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30fa749216d62e9a346ffee79ba5aa13"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html#a30fa749216d62e9a346ffee79ba5aa13">getLevelSpriteAmount</a> () const</td></tr>
 <tr class="memdesc:a30fa749216d62e9a346ffee79ba5aa13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get how many LevelSprites are present in the <a class="el" href="classobe_1_1_scene_1_1_scene.html" title="The Scene class is a container of all the game elements . ">Scene</a>.  <a href="#a30fa749216d62e9a346ffee79ba5aa13">More...</a><br /></td></tr>
 <tr class="separator:a30fa749216d62e9a346ffee79ba5aa13"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -155,9 +154,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3c3beeb3d7737bda83b3c214bc80dd93"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html">Graphics::LevelSprite</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html#a3c3beeb3d7737bda83b3c214bc80dd93">getLevelSpritesByLayer</a> (int layer)</td></tr>
 <tr class="memdesc:a3c3beeb3d7737bda83b3c214bc80dd93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all the LevelSprites present in the <a class="el" href="classobe_1_1_scene_1_1_scene.html" title="The Scene class is a container of all the game elements . ">Scene</a> in the given layer.  <a href="#a3c3beeb3d7737bda83b3c214bc80dd93">More...</a><br /></td></tr>
 <tr class="separator:a3c3beeb3d7737bda83b3c214bc80dd93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d4ce9efc3d2145ae05f8b959e73b391"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html">Graphics::LevelSprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html#a2d4ce9efc3d2145ae05f8b959e73b391">getLevelSpriteByPosition</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;position, int layer)</td></tr>
-<tr class="memdesc:a2d4ce9efc3d2145ae05f8b959e73b391"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the first found LevelSprite with the BoundingRect including the given position.  <a href="#a2d4ce9efc3d2145ae05f8b959e73b391">More...</a><br /></td></tr>
-<tr class="separator:a2d4ce9efc3d2145ae05f8b959e73b391"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13e6108ede87f21fc20b9212428edacf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html">Graphics::LevelSprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html#a13e6108ede87f21fc20b9212428edacf">getLevelSpriteByPosition</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;position, const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;camera, int layer)</td></tr>
+<tr class="memdesc:a13e6108ede87f21fc20b9212428edacf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the first found LevelSprite with the BoundingRect including the given position.  <a href="#a13e6108ede87f21fc20b9212428edacf">More...</a><br /></td></tr>
+<tr class="separator:a13e6108ede87f21fc20b9212428edacf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45e170097006bb566951cbc704d006ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html">Graphics::LevelSprite</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html#a45e170097006bb566951cbc704d006ac">getLevelSprite</a> (const std::string &amp;id)</td></tr>
 <tr class="memdesc:a45e170097006bb566951cbc704d006ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a LevelSprite by Id (Raises an exception if not found)  <a href="#a45e170097006bb566951cbc704d006ac">More...</a><br /></td></tr>
 <tr class="separator:a45e170097006bb566951cbc704d006ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -167,9 +166,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af039615dfec71b72180241ed489f49f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html#af039615dfec71b72180241ed489f49f3">removeLevelSprite</a> (const std::string &amp;id)</td></tr>
 <tr class="memdesc:af039615dfec71b72180241ed489f49f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the LevelSprite with the given Id.  <a href="#af039615dfec71b72180241ed489f49f3">More...</a><br /></td></tr>
 <tr class="separator:af039615dfec71b72180241ed489f49f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae07448becda12e1b83014b8bc22fafc6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">Collision::PolygonalCollider</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html#ae07448becda12e1b83014b8bc22fafc6">createCollider</a> (const std::string &amp;id, bool addToSceneRoot=true)</td></tr>
-<tr class="memdesc:ae07448becda12e1b83014b8bc22fafc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new Collider.  <a href="#ae07448becda12e1b83014b8bc22fafc6">More...</a><br /></td></tr>
-<tr class="separator:ae07448becda12e1b83014b8bc22fafc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace46a272e2c6e38d69a579095d714d5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">Collision::PolygonalCollider</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html#ace46a272e2c6e38d69a579095d714d5e">createCollider</a> (const std::string &amp;id=&quot;&quot;, bool addToSceneRoot=true)</td></tr>
+<tr class="memdesc:ace46a272e2c6e38d69a579095d714d5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new Collider.  <a href="#ace46a272e2c6e38d69a579095d714d5e">More...</a><br /></td></tr>
+<tr class="separator:ace46a272e2c6e38d69a579095d714d5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4253061bc0a5311d24e67e782188c4b"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html#ad4253061bc0a5311d24e67e782188c4b">getColliderAmount</a> () const</td></tr>
 <tr class="memdesc:ad4253061bc0a5311d24e67e782188c4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get how many Colliders are present in the <a class="el" href="classobe_1_1_scene_1_1_scene.html" title="The Scene class is a container of all the game elements . ">Scene</a>.  <a href="#ad4253061bc0a5311d24e67e782188c4b">More...</a><br /></td></tr>
 <tr class="separator:ad4253061bc0a5311d24e67e782188c4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -208,6 +207,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aff9e21ec2c008cc85b8cb3cbbfb1b1e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html#aff9e21ec2c008cc85b8cb3cbbfb1b1e4">enableShowCollision</a> (bool drawLines=false, bool drawPoints=false, bool drawMasterPoint=false, bool drawSkel=false)</td></tr>
 <tr class="memdesc:aff9e21ec2c008cc85b8cb3cbbfb1b1e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws some elements of the Colliders.  <a href="#aff9e21ec2c008cc85b8cb3cbbfb1b1e4">More...</a><br /></td></tr>
 <tr class="separator:aff9e21ec2c008cc85b8cb3cbbfb1b1e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classobe_1_1_types_1_1_registrable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classobe_1_1_types_1_1_registrable')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classobe_1_1_types_1_1_registrable.html">obe::Types::Registrable&lt; Scene &gt;</a></td></tr>
+<tr class="memitem:ab59046a0ce3d01e722750b8375cf72b6 inherit pub_methods_classobe_1_1_types_1_1_registrable"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_types_1_1_registrable.html#ab59046a0ce3d01e722750b8375cf72b6">reg</a> (const std::string &amp;id)</td></tr>
+<tr class="separator:ab59046a0ce3d01e722750b8375cf72b6 inherit pub_methods_classobe_1_1_types_1_1_registrable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="classobe_1_1_scene_1_1_scene.html" title="The Scene class is a container of all the game elements . ">Scene</a> class is a container of all the game elements . </p>
@@ -251,14 +253,14 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a9a0ff2e3bd9fa05636d431054e9a7f14"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a0ff2e3bd9fa05636d431054e9a7f14">&#9670;&nbsp;</a></span>clearWorld()</h2>
+<a id="a9421c76064e7557c5d0a229eb0ddaa7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9421c76064e7557c5d0a229eb0ddaa7a">&#9670;&nbsp;</a></span>clear()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void obe::Scene::Scene::clearWorld </td>
+          <td class="memname">void obe::Scene::Scene::clear </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -270,8 +272,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae07448becda12e1b83014b8bc22fafc6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae07448becda12e1b83014b8bc22fafc6">&#9670;&nbsp;</a></span>createCollider()</h2>
+<a id="ace46a272e2c6e38d69a579095d714d5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace46a272e2c6e38d69a579095d714d5e">&#9670;&nbsp;</a></span>createCollider()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -280,7 +282,7 @@ Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">Collision::PolygonalCollider</a> * obe::Scene::Scene::createCollider </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>id</em>, </td>
+          <td class="paramname"><em>id</em> = <code>&quot;&quot;</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -345,8 +347,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a095effc5567447fcb3a29bd69f2ff299"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a095effc5567447fcb3a29bd69f2ff299">&#9670;&nbsp;</a></span>createLevelSprite()</h2>
+<a id="a090238a2889392ccf6143f7caf43f60c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a090238a2889392ccf6143f7caf43f60c">&#9670;&nbsp;</a></span>createLevelSprite()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -355,7 +357,7 @@ Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html">Graphics::LevelSprite</a> * obe::Scene::Scene::createLevelSprite </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>id</em>, </td>
+          <td class="paramname"><em>id</em> = <code>&quot;&quot;</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -889,8 +891,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a2d4ce9efc3d2145ae05f8b959e73b391"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d4ce9efc3d2145ae05f8b959e73b391">&#9670;&nbsp;</a></span>getLevelSpriteByPosition()</h2>
+<a id="a13e6108ede87f21fc20b9212428edacf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13e6108ede87f21fc20b9212428edacf">&#9670;&nbsp;</a></span>getLevelSpriteByPosition()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -900,6 +902,12 @@ Public Member Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
           <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>camera</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1136,32 +1144,6 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reorganize all the LevelSprite (by Layer and z-depth) </p>
-
-</div>
-</div>
-<a id="af60d07ead1065f44bf8446a07fdb4d1d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af60d07ead1065f44bf8446a07fdb4d1d">&#9670;&nbsp;</a></span>setDebugState()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void obe::Scene::Scene::setDebugState </td>
-          <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>state</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Enables or disables the <a class="el" href="classobe_1_1_scene_1_1_scene.html" title="The Scene class is a container of all the game elements . ">Scene</a> debug. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">state</td><td>true if the <a class="el" href="classobe_1_1_scene_1_1_scene.html" title="The Scene class is a container of all the game elements . ">Scene</a> should be in debug mode, false otherwise </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>

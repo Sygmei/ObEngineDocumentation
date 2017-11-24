@@ -9,7 +9,6 @@ var searchData=
   ['editorgui_2ecpp',['EditorGUI.cpp',['../_editor_g_u_i_8cpp.html',1,'']]],
   ['editorgui_2ehpp',['EditorGUI.hpp',['../_editor_g_u_i_8hpp.html',1,'']]],
   ['editorwindow',['EditorWindow',['../namespaceobe_1_1_system.html#adddc1b1eefc4e9b4306c9c85651cc1cdab782deb16aa9349a4f3ca19891012f68',1,'obe::System']]],
-  ['element',['Element',['../classobe_1_1_graphics_1_1_element.html',1,'obe::Graphics::Element'],['../classobe_1_1_graphics_1_1_element.html#ad149e881d1d5c07672d93cfc2a461f66',1,'obe::Graphics::Element::Element()']]],
   ['elz',['elz',['../namespaceelz.html',1,'']]],
   ['elzip_2ecpp',['elzip.cpp',['../elzip_8cpp.html',1,'']]],
   ['elzip_2ehpp',['elzip.hpp',['../include_2elzip_2elzip_8hpp.html',1,'(Global Namespace)'],['../build_2elzip_2src_2elzip_8hpp.html',1,'(Global Namespace)']]],

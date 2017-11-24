@@ -3,6 +3,7 @@ var searchData=
   ['functions',['Functions',['../namespacevili_1_1_functions.html',1,'vili']]],
   ['string',['String',['../namespacevili_1_1_functions_1_1_string.html',1,'vili::Functions']]],
   ['types',['Types',['../namespacevili_1_1_types.html',1,'vili']]],
+  ['v_5falign',['v_align',['../classobe_1_1_graphics_1_1_canvas_1_1_text.html#a4e539b257b55058c4527497efb07506d',1,'obe::Graphics::Canvas::Text']]],
   ['validate',['validate',['../classvili_1_1_node_validator.html#a0e99b46a598f9068a24c3f639096293c',1,'vili::NodeValidator']]],
   ['valueinmap',['valueInMap',['../namespaceobe_1_1_utils_1_1_map.html#a8286047054ade49b04b28712516c0f13',1,'obe::Utils::Map']]],
   ['vector',['Vector',['../namespacevili_1_1_functions_1_1_vector.html',1,'vili::Functions']]],
@@ -23,5 +24,6 @@ var searchData=
   ['vililuabridge_2ehpp',['ViliLuaBridge.hpp',['../_vili_lua_bridge_8hpp.html',1,'']]],
   ['viliparser',['ViliParser',['../classvili_1_1_vili_parser.html',1,'vili::ViliParser'],['../classvili_1_1_vili_parser.html#a64876222b427731d2dd0482dfddd7bdc',1,'vili::ViliParser::ViliParser()'],['../classvili_1_1_vili_parser.html#a99cb54088fabdcf4182fd1593648a47f',1,'vili::ViliParser::ViliParser(const std::string &amp;file)']]],
   ['viliparser_2ecpp',['ViliParser.cpp',['../_vili_parser_8cpp.html',1,'']]],
-  ['viliparser_2ehpp',['ViliParser.hpp',['../_vili_parser_8hpp.html',1,'']]]
+  ['viliparser_2ehpp',['ViliParser.hpp',['../_vili_parser_8hpp.html',1,'']]],
+  ['visible',['visible',['../classobe_1_1_graphics_1_1_canvas_1_1_canvas_element.html#adaa596b06a2a7e1fcdc55d7e2ff581c1',1,'obe::Graphics::Canvas::CanvasElement']]]
 ];

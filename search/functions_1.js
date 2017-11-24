@@ -18,7 +18,7 @@ var searchData=
   ['addoriginchild',['addOriginChild',['../classobe_1_1_collision_1_1_polygonal_collider.html#afca29e1a00af80ea488c9b4546d860cb',1,'obe::Collision::PolygonalCollider']]],
   ['addpoint',['addPoint',['../classobe_1_1_collision_1_1_polygonal_collider.html#a47ee643fd0f11b89a1078496d490ec60',1,'obe::Collision::PolygonalCollider']]],
   ['addspeed',['addSpeed',['../classobe_1_1_collision_1_1_trajectory.html#aab82f7370db4839389e79208611b991b',1,'obe::Collision::Trajectory']]],
-  ['addspritetoscene',['addSpriteToScene',['../namespaceobe_1_1_editor.html#aaed66366b795d2792e154b8eff1241a1',1,'obe::Editor']]],
+  ['addspritetoscene',['addSpriteToScene',['../namespaceobe_1_1_editor.html#a7a755aa382b627af8881b3d2a1fc9547',1,'obe::Editor']]],
   ['addtag',['addTag',['../classobe_1_1_collision_1_1_polygonal_collider.html#a9d4533825bb04f5ed5dffc543d9aee0f',1,'obe::Collision::PolygonalCollider']]],
   ['addtrajectory',['addTrajectory',['../classobe_1_1_collision_1_1_trajectory_node.html#a3c53ae67d6a5f232be5d9812adb59fc8',1,'obe::Collision::TrajectoryNode']]],
   ['addtrigger',['addTrigger',['../classobe_1_1_triggers_1_1_trigger_group.html#aa6c209476bf95d957abdbbcc17ee5a3e',1,'obe::Triggers::TriggerGroup']]],
