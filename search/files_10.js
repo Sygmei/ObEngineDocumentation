@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['tcpsocket_2ecpp',['TcpSocket.cpp',['../_tcp_socket_8cpp.html',1,'']]],
+  ['tcpsocket_2ehpp',['TcpSocket.hpp',['../_tcp_socket_8hpp.html',1,'']]],
   ['tguifallback_2ecpp',['TGUIFallback.cpp',['../_t_g_u_i_fallback_8cpp.html',1,'']]],
   ['tguifallback_2ehpp',['TGUIFallback.hpp',['../_t_g_u_i_fallback_8hpp.html',1,'']]],
   ['timebindings_2ecpp',['TimeBindings.cpp',['../_time_bindings_8cpp.html',1,'']]],

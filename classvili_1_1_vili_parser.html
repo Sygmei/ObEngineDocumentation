@@ -106,10 +106,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5146ea5e1e5fac5a58b05d86ef272bec"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classvili_1_1_complex_node.html">ComplexNode</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classvili_1_1_vili_parser.html#a5146ea5e1e5fac5a58b05d86ef272bec">at</a> (const std::string &amp;cPath, Args ...pathParts)</td></tr>
 <tr class="memdesc:a5146ea5e1e5fac5a58b05d86ef272bec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access a <a class="el" href="classvili_1_1_complex_node.html" title="A ComplexNode can contains every other Nodes (including itself) hence allowing a tree-like structure ...">ComplexNode</a> in the tree using a path (with multiple path parts) (.at("NodeA", "NodeB", "NodeB") for example)  <a href="#a5146ea5e1e5fac5a58b05d86ef272bec">More...</a><br /></td></tr>
 <tr class="separator:a5146ea5e1e5fac5a58b05d86ef272bec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7735a98d5172c256b0d44b4643fbd407"><td class="memTemplParams" colspan="2">template&lt;class T , class ... Args&gt; </td></tr>
-<tr class="memitem:a7735a98d5172c256b0d44b4643fbd407"><td class="memTemplItemLeft" align="right" valign="top">T &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classvili_1_1_vili_parser.html#a7735a98d5172c256b0d44b4643fbd407">at</a> (const std::string &amp;cPath, Args ...pathParts)</td></tr>
-<tr class="memdesc:a7735a98d5172c256b0d44b4643fbd407"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access a casted <a class="el" href="classvili_1_1_node.html" title="Base Class for every Node in the Tree . ">Node</a> in the tree using a path (with multiple path parts) (.at("NodeA", "NodeB", "NodeB") for example)  <a href="#a7735a98d5172c256b0d44b4643fbd407">More...</a><br /></td></tr>
-<tr class="separator:a7735a98d5172c256b0d44b4643fbd407"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f3d60f38d74a6e002060a53f351b3d5"><td class="memTemplParams" colspan="2">template&lt;class T , class ... Args&gt; </td></tr>
+<tr class="memitem:a8f3d60f38d74a6e002060a53f351b3d5"><td class="memTemplItemLeft" align="right" valign="top">T &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classvili_1_1_vili_parser.html#a8f3d60f38d74a6e002060a53f351b3d5">at</a> (const std::string &amp;cPath, Args &amp;&amp;...pathParts)</td></tr>
+<tr class="memdesc:a8f3d60f38d74a6e002060a53f351b3d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access a casted <a class="el" href="classvili_1_1_node.html" title="Base Class for every Node in the Tree . ">Node</a> in the tree using a path (with multiple path parts) (.at("NodeA", "NodeB", "NodeB") for example)  <a href="#a8f3d60f38d74a6e002060a53f351b3d5">More...</a><br /></td></tr>
+<tr class="separator:a8f3d60f38d74a6e002060a53f351b3d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf78e297a322d2e500a04172928d7c67"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classvili_1_1_vili_parser.html#abf78e297a322d2e500a04172928d7c67">parseFile</a> (const std::string &amp;filename, bool verbose=false, bool visible=true)</td></tr>
 <tr class="memdesc:abf78e297a322d2e500a04172928d7c67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses a .vili file.  <a href="#abf78e297a322d2e500a04172928d7c67">More...</a><br /></td></tr>
 <tr class="separator:abf78e297a322d2e500a04172928d7c67"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -300,8 +300,8 @@ template&lt;class ... Args&gt; </div>
 
 </div>
 </div>
-<a id="a7735a98d5172c256b0d44b4643fbd407"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7735a98d5172c256b0d44b4643fbd407">&#9670;&nbsp;</a></span>at() <span class="overload">[3/3]</span></h2>
+<a id="a8f3d60f38d74a6e002060a53f351b3d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f3d60f38d74a6e002060a53f351b3d5">&#9670;&nbsp;</a></span>at() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -317,7 +317,7 @@ template&lt;class T, class ... Args&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Args ...&#160;</td>
+          <td class="paramtype">Args &amp;&amp;...&#160;</td>
           <td class="paramname"><em>pathParts</em>&#160;</td>
         </tr>
         <tr>

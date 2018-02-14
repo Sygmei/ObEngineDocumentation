@@ -84,12 +84,12 @@ Functions</h2></td></tr>
 <tr class="memitem:abdb0dbb03449439dc05366d8e8a45f17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_graphics_1_1_utils.html#abdb0dbb03449439dc05366d8e8a45f17">drawLine</a> (int x1, int y1, int x2, int y2, int thickness, sf::Color color)</td></tr>
 <tr class="memdesc:abdb0dbb03449439dc05366d8e8a45f17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a Line.  <a href="#abdb0dbb03449439dc05366d8e8a45f17">More...</a><br /></td></tr>
 <tr class="separator:abdb0dbb03449439dc05366d8e8a45f17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4266be6e1bee0adf90ff8cd6268f6b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_graphics_1_1_utils.html#ad4266be6e1bee0adf90ff8cd6268f6b4">drawPolygon</a> (std::vector&lt; sf::Vector2i &gt; &amp;points, std::map&lt; std::string, <a class="el" href="classobe_1_1_types_1_1_any.html">Types::Any</a> &gt; &amp;options)</td></tr>
-<tr class="memdesc:ad4266be6e1bee0adf90ff8cd6268f6b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a Polygon.  <a href="#ad4266be6e1bee0adf90ff8cd6268f6b4">More...</a><br /></td></tr>
-<tr class="separator:ad4266be6e1bee0adf90ff8cd6268f6b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a631dbc6b2cd869ba13c3bd3a1df48b11"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a631dbc6b2cd869ba13c3bd3a1df48b11"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_graphics_1_1_utils.html#a631dbc6b2cd869ba13c3bd3a1df48b11">findOptionOrDefault</a> (std::map&lt; std::string, <a class="el" href="classobe_1_1_types_1_1_any.html">Types::Any</a> &gt; &amp;options, const char *key, T defaultValue)</td></tr>
-<tr class="separator:a631dbc6b2cd869ba13c3bd3a1df48b11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a586f35471cfd83cf594686c08fd91cbe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_graphics_1_1_utils.html#a586f35471cfd83cf594686c08fd91cbe">drawPolygon</a> (std::vector&lt; sf::Vector2i &gt; &amp;points, std::map&lt; std::string, std::any &gt; &amp;options)</td></tr>
+<tr class="memdesc:a586f35471cfd83cf594686c08fd91cbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a Polygon.  <a href="#a586f35471cfd83cf594686c08fd91cbe">More...</a><br /></td></tr>
+<tr class="separator:a586f35471cfd83cf594686c08fd91cbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12b1e7a78c1bdf1622fa57ef1589d37b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a12b1e7a78c1bdf1622fa57ef1589d37b"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_graphics_1_1_utils.html#a12b1e7a78c1bdf1622fa57ef1589d37b">findOptionOrDefault</a> (std::map&lt; std::string, std::any &gt; &amp;options, const char *key, T defaultValue)</td></tr>
+<tr class="separator:a12b1e7a78c1bdf1622fa57ef1589d37b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92d18049a83197935ba2bef8611dc250"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_graphics_1_1_utils.html#a92d18049a83197935ba2bef8611dc250">drawPoint</a> (int x, int y, unsigned radius, sf::Color color)</td></tr>
 <tr class="separator:a92d18049a83197935ba2bef8611dc250"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -159,7 +159,7 @@ Variables</h2></td></tr>
     <tr><td class="paramname">x2</td><td>x Coordinate of the second point of the line </td></tr>
     <tr><td class="paramname">y2</td><td>y Coordinate of the second point of the line </td></tr>
     <tr><td class="paramname">thickness</td><td>Thickness of the line you want to draw (2 = Minimal visible size) </td></tr>
-    <tr><td class="paramname">color</td><td>Color of the line you want to draw </td></tr>
+    <tr><td class="paramname">color</td><td><a class="el" href="classobe_1_1_graphics_1_1_color.html">Color</a> of the line you want to draw </td></tr>
   </table>
   </dd>
 </dl>
@@ -250,15 +250,15 @@ Variables</h2></td></tr>
     <tr><td class="paramname">x</td><td>x Coordinate of the position of the Point </td></tr>
     <tr><td class="paramname">y</td><td>y Coordinate of the position of the Point </td></tr>
     <tr><td class="paramname">radius</td><td>Radius of the Point to draw </td></tr>
-    <tr><td class="paramname">color</td><td>Color of the new Point </td></tr>
+    <tr><td class="paramname">color</td><td><a class="el" href="classobe_1_1_graphics_1_1_color.html">Color</a> of the new Point </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="ad4266be6e1bee0adf90ff8cd6268f6b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4266be6e1bee0adf90ff8cd6268f6b4">&#9670;&nbsp;</a></span>drawPolygon()</h2>
+<a id="a586f35471cfd83cf594686c08fd91cbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a586f35471cfd83cf594686c08fd91cbe">&#9670;&nbsp;</a></span>drawPolygon()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -272,7 +272,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::map&lt; std::string, <a class="el" href="classobe_1_1_types_1_1_any.html">Types::Any</a> &gt; &amp;&#160;</td>
+          <td class="paramtype">std::map&lt; std::string, std::any &gt; &amp;&#160;</td>
           <td class="paramname"><em>options</em>&#160;</td>
         </tr>
         <tr>
@@ -293,11 +293,11 @@ Variables</h2></td></tr>
 <li>&lt;points&gt; bool : Are the points of the Polygon visible ? (true = visible, false = not visible)</li>
 <li>&lt;radius&gt; unsigned int : The radius of the points of the Polygon.</li>
 <li>&lt;line_color&gt; sf::Color : Default color of the lines of the Polygon.<ul>
-<li>&lt;line_color_x&gt; sf::Color : Color of a specific line of the Polygon where x is the index of the line</li>
+<li>&lt;line_color_x&gt; sf::Color : <a class="el" href="classobe_1_1_graphics_1_1_color.html">Color</a> of a specific line of the Polygon where x is the index of the line</li>
 </ul>
 </li>
 <li>&lt;point_color&gt; sf::Color : Default color of the points of the Polygon<ul>
-<li>&lt;point_color_x&gt; sf::Color : Color of a specific point of the Polygon where x is the index of the point </li>
+<li>&lt;point_color_x&gt; sf::Color : <a class="el" href="classobe_1_1_graphics_1_1_color.html">Color</a> of a specific point of the Polygon where x is the index of the point </li>
 </ul>
 </li>
 </ul>
@@ -308,8 +308,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a631dbc6b2cd869ba13c3bd3a1df48b11"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a631dbc6b2cd869ba13c3bd3a1df48b11">&#9670;&nbsp;</a></span>findOptionOrDefault()</h2>
+<a id="a12b1e7a78c1bdf1622fa57ef1589d37b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12b1e7a78c1bdf1622fa57ef1589d37b">&#9670;&nbsp;</a></span>findOptionOrDefault()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -319,7 +319,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="memname">T obe::Graphics::Utils::findOptionOrDefault </td>
           <td>(</td>
-          <td class="paramtype">std::map&lt; std::string, <a class="el" href="classobe_1_1_types_1_1_any.html">Types::Any</a> &gt; &amp;&#160;</td>
+          <td class="paramtype">std::map&lt; std::string, std::any &gt; &amp;&#160;</td>
           <td class="paramname"><em>options</em>, </td>
         </tr>
         <tr>

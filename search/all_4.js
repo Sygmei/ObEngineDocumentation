@@ -40,9 +40,9 @@ var searchData=
   ['drawhandle',['drawHandle',['../classobe_1_1_graphics_1_1_level_sprite.html#ac79fb6875384fafcaf15fa20e6b4f71b',1,'obe::Graphics::LevelSprite']]],
   ['drawline',['drawLine',['../namespaceobe_1_1_graphics_1_1_utils.html#abdb0dbb03449439dc05366d8e8a45f17',1,'obe::Graphics::Utils']]],
   ['drawpoint',['drawPoint',['../namespaceobe_1_1_graphics_1_1_utils.html#a1f7f9d393b509a00c8b542dcf56c2711',1,'obe::Graphics::Utils::drawPoint(int x, int y, unsigned int radius, sf::Color color)'],['../namespaceobe_1_1_graphics_1_1_utils.html#a92d18049a83197935ba2bef8611dc250',1,'obe::Graphics::Utils::drawPoint(int x, int y, unsigned radius, sf::Color color)']]],
-  ['drawpolygon',['drawPolygon',['../namespaceobe_1_1_graphics_1_1_utils.html#ad4266be6e1bee0adf90ff8cd6268f6b4',1,'obe::Graphics::Utils']]],
+  ['drawpolygon',['drawPolygon',['../namespaceobe_1_1_graphics_1_1_utils.html#a586f35471cfd83cf594686c08fd91cbe',1,'obe::Graphics::Utils']]],
   ['drawutils_2ecpp',['DrawUtils.cpp',['../_draw_utils_8cpp.html',1,'']]],
   ['drawutils_2ehpp',['DrawUtils.hpp',['../_draw_utils_8hpp.html',1,'']]],
-  ['dump',['dump',['../classobe_1_1_scene_1_1_scene.html#aa07da3e9e36949914404d73dd84276cf',1,'obe::Scene::Scene::dump()'],['../classziputils_1_1unzipper.html#a9c5e92214152f38152f29dc7e73a9a8d',1,'ziputils::unzipper::dump()']]],
+  ['dump',['dump',['../classobe_1_1_collision_1_1_polygonal_collider.html#a2fb861632438bb30a73a7d3019f5b1ae',1,'obe::Collision::PolygonalCollider::dump()'],['../classobe_1_1_graphics_1_1_level_sprite.html#afce8ce4ae3c762c69823c39aaf4b02a3',1,'obe::Graphics::LevelSprite::dump()'],['../classobe_1_1_graphics_1_1_shader.html#a8c1df255eb946398ff597559c985e122',1,'obe::Graphics::Shader::dump()'],['../classobe_1_1_scene_1_1_scene.html#aa07da3e9e36949914404d73dd84276cf',1,'obe::Scene::Scene::dump()'],['../classobe_1_1_types_1_1_serializable.html#acc5cde9485f774ae82bfce3be48c1f14',1,'obe::Types::Serializable::dump()'],['../classziputils_1_1unzipper.html#a9c5e92214152f38152f29dc7e73a9a8d',1,'ziputils::unzipper::dump()']]],
   ['dumpdata',['dumpData',['../classvili_1_1_data_node.html#acb68076f90b2344cba37afd31b8b2156',1,'vili::DataNode']]]
 ];
