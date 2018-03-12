@@ -90,6 +90,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_editor_1_1_thumbnailer.html">Thumbnailer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class used to create Thumbnails of Sprites / Folders.  <a href="classobe_1_1_editor_1_1_thumbnailer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_editor_1_1_tooltip.html">Tooltip</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -104,7 +106,7 @@ Functions</h2></td></tr>
 <tr class="separator:a1d2517985f85260cdc2248dfe4778b1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a359d1201a145c6762b51ed461ef751f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_editor.html#a359d1201a145c6762b51ed461ef751f5">connectSaveActions</a> (<a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html">Triggers::TriggerGroup</a> *editorTriggers, <a class="el" href="classobe_1_1_input_1_1_input_manager.html">Input::InputManager</a> &amp;inputManager, const std::string &amp;mapName, <a class="el" href="classobe_1_1_scene_1_1_scene.html">Scene::Scene</a> &amp;scene, double &amp;waitForMapSaving, tgui::Label::Ptr savedLabel, tgui::CheckBox::Ptr saveCameraPositionCheckbox)</td></tr>
 <tr class="separator:a359d1201a145c6762b51ed461ef751f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66630cbe7a3ef5c3393cf75d4366f000"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_editor.html#a66630cbe7a3ef5c3393cf75d4366f000">connectCopyPasteActions</a> (<a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html">Triggers::TriggerGroup</a> *editorTriggers, <a class="el" href="classobe_1_1_input_1_1_input_manager.html">Input::InputManager</a> &amp;inputManager, <a class="el" href="classobe_1_1_scene_1_1_scene.html">Scene::Scene</a> &amp;scene, <a class="el" href="classvili_1_1_complex_node.html">vili::ComplexNode</a> &amp;sceneClipboard, tgui::Label::Ptr savedLabel, <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">Collision::PolygonalCollider</a> *&amp;selectedMasterCollider, <a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html">Graphics::LevelSprite</a> *&amp;selectedSprite)</td></tr>
+<tr class="memitem:a66630cbe7a3ef5c3393cf75d4366f000"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_editor.html#a66630cbe7a3ef5c3393cf75d4366f000">connectCopyPasteActions</a> (<a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html">Triggers::TriggerGroup</a> *editorTriggers, <a class="el" href="classobe_1_1_input_1_1_input_manager.html">Input::InputManager</a> &amp;inputManager, <a class="el" href="classobe_1_1_scene_1_1_scene.html">Scene::Scene</a> &amp;scene, vili::ComplexNode &amp;sceneClipboard, tgui::Label::Ptr savedLabel, <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">Collision::PolygonalCollider</a> *&amp;selectedMasterCollider, <a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html">Graphics::LevelSprite</a> *&amp;selectedSprite)</td></tr>
 <tr class="separator:a66630cbe7a3ef5c3393cf75d4366f000"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49bd88e66380497c81af8fc4d8c8b864"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_editor.html#a49bd88e66380497c81af8fc4d8c8b864">connectGameConsoleActions</a> (<a class="el" href="classobe_1_1_input_1_1_input_manager.html">Input::InputManager</a> &amp;inputManager, <a class="el" href="classobe_1_1_debug_1_1_console.html">Debug::Console</a> &amp;gameConsole)</td></tr>
 <tr class="memdesc:a49bd88e66380497c81af8fc4d8c8b864"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connects Console's related <a class="el" href="namespaceobe_1_1_triggers.html" title="Classes and Functions to handle Triggers (Events) ">Triggers</a>.  <a href="#a49bd88e66380497c81af8fc4d8c8b864">More...</a><br /></td></tr>
@@ -118,7 +120,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a565dbb2418362f6e1aa08b7e9ca7b388"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_editor.html#a565dbb2418362f6e1aa08b7e9ca7b388">buildRequiresObjectTab</a> (<a class="el" href="classobe_1_1_scene_1_1_scene.html">Scene::Scene</a> &amp;scene, tgui::Panel::Ptr &amp;requiresPanel, tgui::Theme &amp;baseTheme, const std::string &amp;objName)</td></tr>
 <tr class="memdesc:a565dbb2418362f6e1aa08b7e9ca7b388"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds the RequiresPanel that will transmit Init parameters to the GameObject.  <a href="#a565dbb2418362f6e1aa08b7e9ca7b388">More...</a><br /></td></tr>
 <tr class="separator:a565dbb2418362f6e1aa08b7e9ca7b388"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9bf9721a7cb852ae6b4f9632e86f4b63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_editor.html#a9bf9721a7cb852ae6b4f9632e86f4b63">buildObjectThroughRequire</a> (<a class="el" href="classobe_1_1_scene_1_1_scene.html">Scene::Scene</a> &amp;scene, const std::string &amp;objName, <a class="el" href="classvili_1_1_complex_node.html">vili::ComplexNode</a> *requires)</td></tr>
+<tr class="memitem:a9bf9721a7cb852ae6b4f9632e86f4b63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_editor.html#a9bf9721a7cb852ae6b4f9632e86f4b63">buildObjectThroughRequire</a> (<a class="el" href="classobe_1_1_scene_1_1_scene.html">Scene::Scene</a> &amp;scene, const std::string &amp;objName, vili::ComplexNode *requires)</td></tr>
 <tr class="memdesc:a9bf9721a7cb852ae6b4f9632e86f4b63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds an Object through Parameters.  <a href="#a9bf9721a7cb852ae6b4f9632e86f4b63">More...</a><br /></td></tr>
 <tr class="separator:a9bf9721a7cb852ae6b4f9632e86f4b63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd3ada9f07cb03634739b27ecd80882c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_editor.html#acd3ada9f07cb03634739b27ecd80882c">loadSpriteFolder</a> (<a class="el" href="classobe_1_1_scene_1_1_scene.html">Scene::Scene</a> &amp;scene, tgui::Panel::Ptr spritesPanel, tgui::Label::Ptr spritesCatLabel, const std::string &amp;path, tgui::Scrollbar::Ptr spritesScrollbar)</td></tr>
@@ -129,8 +131,8 @@ Functions</h2></td></tr>
 <tr class="separator:a7a755aa382b627af8881b3d2a1fc9547"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4513c77341144adcdbdf7114e1f6f605"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_editor.html#a4513c77341144adcdbdf7114e1f6f605">connectSpriteLayerActions</a> (<a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html">Triggers::TriggerGroup</a> *editorTriggers, <a class="el" href="classobe_1_1_input_1_1_input_manager.html">Input::InputManager</a> &amp;inputManager, <a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html">Graphics::LevelSprite</a> *&amp;selectedSprite, <a class="el" href="classobe_1_1_scene_1_1_scene.html">Scene::Scene</a> &amp;world, int &amp;currentLayer)</td></tr>
 <tr class="separator:a4513c77341144adcdbdf7114e1f6f605"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e522bb0eb9ba1466553f514683c7caa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_editor.html#a0e522bb0eb9ba1466553f514683c7caa">connectSpriteActions</a> (<a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html">Triggers::TriggerGroup</a> *editorTriggers, <a class="el" href="classobe_1_1_input_1_1_input_manager.html">Input::InputManager</a> &amp;inputManager, <a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html">Graphics::LevelSprite</a> *&amp;hoveredSprite, <a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html">Graphics::LevelSprite</a> *&amp;selectedSprite, <a class="el" href="classobe_1_1_graphics_1_1_level_sprite_handle_point.html">Graphics::LevelSpriteHandlePoint</a> *&amp;selectedHandlePoint, <a class="el" href="classobe_1_1_scene_1_1_scene.html">Scene::Scene</a> &amp;world, <a class="el" href="classobe_1_1_system_1_1_cursor.html">System::Cursor</a> &amp;cursor, <a class="el" href="classobe_1_1_editor_1_1_editor_grid.html">Editor::EditorGrid</a> &amp;editorGrid, int &amp;selectedSpriteOffsetX, int &amp;selectedSpriteOffsetY, sf::Text &amp;sprInfo, sf::RectangleShape &amp;sprInfoBackground, <a class="el" href="namespaceobe_1_1_transform.html#af3495f3b4a510af422097f9340fe3a3c">Transform::Units</a> &amp;editorUnit)</td></tr>
-<tr class="separator:a0e522bb0eb9ba1466553f514683c7caa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac09a813ba5030405203be3d7c372e664"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_editor.html#ac09a813ba5030405203be3d7c372e664">connectSpriteActions</a> (<a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html">Triggers::TriggerGroup</a> *editorTriggers, <a class="el" href="classobe_1_1_input_1_1_input_manager.html">Input::InputManager</a> &amp;inputManager, <a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html">Graphics::LevelSprite</a> *&amp;hoveredSprite, <a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html">Graphics::LevelSprite</a> *&amp;selectedSprite, <a class="el" href="classobe_1_1_graphics_1_1_level_sprite_handle_point.html">Graphics::LevelSpriteHandlePoint</a> *&amp;selectedHandlePoint, <a class="el" href="classobe_1_1_scene_1_1_scene.html">Scene::Scene</a> &amp;world, <a class="el" href="classobe_1_1_system_1_1_cursor.html">System::Cursor</a> &amp;cursor, <a class="el" href="classobe_1_1_editor_1_1_editor_grid.html">Editor::EditorGrid</a> &amp;editorGrid, int &amp;selectedSpriteOffsetX, int &amp;selectedSpriteOffsetY, <a class="el" href="classobe_1_1_editor_1_1_tooltip.html">Editor::Tooltip</a> &amp;tooltip, <a class="el" href="namespaceobe_1_1_transform.html#af3495f3b4a510af422097f9340fe3a3c">Transform::Units</a> &amp;editorUnit)</td></tr>
+<tr class="separator:ac09a813ba5030405203be3d7c372e664"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Classes and Functions related to the Map <a class="el" href="namespaceobe_1_1_editor.html" title="Classes and Functions related to the Map Editor. ">Editor</a>. </p>
@@ -164,6 +166,7 @@ Functions</h2></td></tr>
 <p>Adds a Sprite to the <a class="el" href="namespaceobe_1_1_scene.html" title="Classes and Functions to work with the Scene. ">Scene</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">scene</td><td>Reference to the <a class="el" href="namespaceobe_1_1_scene.html" title="Classes and Functions to work with the Scene. ">Scene</a> </td></tr>
     <tr><td class="paramname">spritePath</td><td>Path to the image </td></tr>
   </table>
   </dd>
@@ -218,6 +221,7 @@ Functions</h2></td></tr>
 <p>Builds the <a class="el" href="namespaceobe_1_1_editor.html" title="Classes and Functions related to the Map Editor. ">Editor</a> Object Tab. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">scene</td><td>Reference to the <a class="el" href="namespaceobe_1_1_scene.html" title="Classes and Functions to work with the Scene. ">Scene</a> </td></tr>
     <tr><td class="paramname">objectPanel</td><td>TGUI Panel that will contains the Objects Creation Button </td></tr>
     <tr><td class="paramname">requiresPanel</td><td>TGUI Panel used to transmit Init parameters </td></tr>
     <tr><td class="paramname">baseTheme</td><td>TGUI Theme </td></tr>
@@ -249,7 +253,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classvili_1_1_complex_node.html">vili::ComplexNode</a> *&#160;</td>
+          <td class="paramtype">vili::ComplexNode *&#160;</td>
           <td class="paramname"><em>requires</em>&#160;</td>
         </tr>
         <tr>
@@ -263,6 +267,7 @@ Functions</h2></td></tr>
 <p>Builds an Object through Parameters. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">scene</td><td>Reference to the <a class="el" href="namespaceobe_1_1_scene.html" title="Classes and Functions to work with the Scene. ">Scene</a> </td></tr>
     <tr><td class="paramname">objName</td><td>Type of GameObject to build </td></tr>
     <tr><td class="paramname">requires</td><td>Vili ComplexNode containing the different parameters </td></tr>
   </table>
@@ -312,6 +317,7 @@ Functions</h2></td></tr>
 <p>Builds the RequiresPanel that will transmit Init parameters to the GameObject. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">scene</td><td>Reference to the <a class="el" href="namespaceobe_1_1_scene.html" title="Classes and Functions to work with the Scene. ">Scene</a> </td></tr>
     <tr><td class="paramname">requiresPanel</td><td>TGUI Panel used to transmit Init parameters </td></tr>
     <tr><td class="paramname">baseTheme</td><td>TGUI Theme </td></tr>
     <tr><td class="paramname">objName</td><td>Type of GameObject to build </td></tr>
@@ -466,7 +472,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classvili_1_1_complex_node.html">vili::ComplexNode</a> &amp;&#160;</td>
+          <td class="paramtype">vili::ComplexNode &amp;&#160;</td>
           <td class="paramname"><em>sceneClipboard</em>, </td>
         </tr>
         <tr>
@@ -678,8 +684,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a0e522bb0eb9ba1466553f514683c7caa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e522bb0eb9ba1466553f514683c7caa">&#9670;&nbsp;</a></span>connectSpriteActions()</h2>
+<a id="ac09a813ba5030405203be3d7c372e664"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac09a813ba5030405203be3d7c372e664">&#9670;&nbsp;</a></span>connectSpriteActions()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -747,14 +753,8 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">sf::Text &amp;&#160;</td>
-          <td class="paramname"><em>sprInfo</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">sf::RectangleShape &amp;&#160;</td>
-          <td class="paramname"><em>sprInfoBackground</em>, </td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_editor_1_1_tooltip.html">Editor::Tooltip</a> &amp;&#160;</td>
+          <td class="paramname"><em>tooltip</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -891,6 +891,7 @@ Functions</h2></td></tr>
 <p>Loads the Sprite Folder. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
+    <tr><td class="paramname">scene</td><td>Reference to the <a class="el" href="namespaceobe_1_1_scene.html" title="Classes and Functions to work with the Scene. ">Scene</a> </td></tr>
     <tr><td class="paramname">spritesPanel</td><td>TGUI Panel that will contains all Sprite Creation Buttons </td></tr>
     <tr><td class="paramname">spritesCatLabel</td><td>Name of the folder </td></tr>
     <tr><td class="paramname">path</td><td>Path where are the Sprite located </td></tr>

@@ -77,160 +77,160 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:afdc80167d0e9daae49bcf31a53af0dd1"><td class="memItemLeft" align="right" valign="top">std::function&lt; int(sf::Texture *, std::string)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system_1_1_loaders.html#afdc80167d0e9daae49bcf31a53af0dd1">textureLoader</a> = [](sf::Texture* obj, std::string path) -&gt; int { return obj-&gt;loadFromFile(path); }</td></tr>
-<tr class="memdesc:afdc80167d0e9daae49bcf31a53af0dd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a sf::Texture from a file.  <a href="#afdc80167d0e9daae49bcf31a53af0dd1">More...</a><br /></td></tr>
-<tr class="separator:afdc80167d0e9daae49bcf31a53af0dd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a074874da72966d3f9c18bbff0c4eb827"><td class="memItemLeft" align="right" valign="top">std::function&lt; int(<a class="el" href="classvili_1_1_vili_parser.html">vili::ViliParser</a> *, std::string)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system_1_1_loaders.html#a074874da72966d3f9c18bbff0c4eb827">dataLoader</a> = [](<a class="el" href="classvili_1_1_vili_parser.html">vili::ViliParser</a>* obj, std::string path) -&gt; int { return obj-&gt;parseFile(path); }</td></tr>
-<tr class="memdesc:a074874da72966d3f9c18bbff0c4eb827"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a vili::DataParser from a file.  <a href="#a074874da72966d3f9c18bbff0c4eb827">More...</a><br /></td></tr>
-<tr class="separator:a074874da72966d3f9c18bbff0c4eb827"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24ca176b9fa8b2b58ae513e35fc70a69"><td class="memItemLeft" align="right" valign="top">std::function&lt; int(sf::Font *, std::string)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system_1_1_loaders.html#a24ca176b9fa8b2b58ae513e35fc70a69">fontLoader</a> = [](sf::Font* obj, std::string path) -&gt; int { return obj-&gt;loadFromFile(path); }</td></tr>
-<tr class="memdesc:a24ca176b9fa8b2b58ae513e35fc70a69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a sf::Font from a file.  <a href="#a24ca176b9fa8b2b58ae513e35fc70a69">More...</a><br /></td></tr>
-<tr class="separator:a24ca176b9fa8b2b58ae513e35fc70a69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42706436cc8f61e543b2a890e57ca485"><td class="memItemLeft" align="right" valign="top">std::function&lt; int(std::vector&lt; std::string &gt; *, std::string)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system_1_1_loaders.html#a42706436cc8f61e543b2a890e57ca485">dirPathLoader</a></td></tr>
-<tr class="memdesc:a42706436cc8f61e543b2a890e57ca485"><td class="mdescLeft">&#160;</td><td class="mdescRight">List all folders in the specified path.  <a href="#a42706436cc8f61e543b2a890e57ca485">More...</a><br /></td></tr>
-<tr class="separator:a42706436cc8f61e543b2a890e57ca485"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ce9c8a6e896bd56ffecc2a6f3010ade"><td class="memItemLeft" align="right" valign="top">std::function&lt; int(std::vector&lt; std::string &gt; *, std::string)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system_1_1_loaders.html#a0ce9c8a6e896bd56ffecc2a6f3010ade">filePathLoader</a></td></tr>
-<tr class="memdesc:a0ce9c8a6e896bd56ffecc2a6f3010ade"><td class="mdescLeft">&#160;</td><td class="mdescRight">List all files in the specified path.  <a href="#a0ce9c8a6e896bd56ffecc2a6f3010ade">More...</a><br /></td></tr>
-<tr class="separator:a0ce9c8a6e896bd56ffecc2a6f3010ade"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a863461e7db8dd523df9d8b11a610e9c5"><td class="memItemLeft" align="right" valign="top">std::function&lt; int(kaguya::State *, std::string)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system_1_1_loaders.html#a863461e7db8dd523df9d8b11a610e9c5">luaLoader</a> = [](kaguya::State* obj, std::string path) -&gt; int { return obj-&gt;dofile(path); }</td></tr>
-<tr class="memdesc:a863461e7db8dd523df9d8b11a610e9c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load the Lua source from a file.  <a href="#a863461e7db8dd523df9d8b11a610e9c5">More...</a><br /></td></tr>
-<tr class="separator:a863461e7db8dd523df9d8b11a610e9c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38bd1b7b3dcb005d3a173b65519d2d1c"><td class="memItemLeft" align="right" valign="top">std::function&lt; int(sf::SoundBuffer *, std::string)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system_1_1_loaders.html#a38bd1b7b3dcb005d3a173b65519d2d1c">soundLoader</a> = [](sf::SoundBuffer* sound, std::string path) -&gt; int { return sound-&gt;loadFromFile(path); }</td></tr>
-<tr class="memdesc:a38bd1b7b3dcb005d3a173b65519d2d1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a sf::SoundBuffer from a file.  <a href="#a38bd1b7b3dcb005d3a173b65519d2d1c">More...</a><br /></td></tr>
-<tr class="separator:a38bd1b7b3dcb005d3a173b65519d2d1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a811e7472fdd609874ec817df7deb669e"><td class="memItemLeft" align="right" valign="top">std::function&lt; int(sf::Music *, std::string)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system_1_1_loaders.html#a811e7472fdd609874ec817df7deb669e">musicLoader</a> = [](sf::Music* music, std::string path) -&gt; int { return music-&gt;openFromFile(path); }</td></tr>
-<tr class="memdesc:a811e7472fdd609874ec817df7deb669e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a sf::Music from a file.  <a href="#a811e7472fdd609874ec817df7deb669e">More...</a><br /></td></tr>
-<tr class="separator:a811e7472fdd609874ec817df7deb669e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf70934a2a9a2656991bfe32f46484a1"><td class="memItemLeft" align="right" valign="top">std::function&lt; int(sf::Texture *, const std::string &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system_1_1_loaders.html#aaf70934a2a9a2656991bfe32f46484a1">textureLoader</a></td></tr>
+<tr class="memdesc:aaf70934a2a9a2656991bfe32f46484a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a sf::Texture from a file.  <a href="#aaf70934a2a9a2656991bfe32f46484a1">More...</a><br /></td></tr>
+<tr class="separator:aaf70934a2a9a2656991bfe32f46484a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d512bd6f9d9ddb550ed6dd7b7e45b8d"><td class="memItemLeft" align="right" valign="top">std::function&lt; int(vili::ViliParser *, const std::string &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system_1_1_loaders.html#a5d512bd6f9d9ddb550ed6dd7b7e45b8d">dataLoader</a></td></tr>
+<tr class="memdesc:a5d512bd6f9d9ddb550ed6dd7b7e45b8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a vili::DataParser from a file.  <a href="#a5d512bd6f9d9ddb550ed6dd7b7e45b8d">More...</a><br /></td></tr>
+<tr class="separator:a5d512bd6f9d9ddb550ed6dd7b7e45b8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb8e567a6f3154d01b3f259a3169fb11"><td class="memItemLeft" align="right" valign="top">std::function&lt; int(sf::Font *, const std::string &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system_1_1_loaders.html#abb8e567a6f3154d01b3f259a3169fb11">fontLoader</a></td></tr>
+<tr class="memdesc:abb8e567a6f3154d01b3f259a3169fb11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a sf::Font from a file.  <a href="#abb8e567a6f3154d01b3f259a3169fb11">More...</a><br /></td></tr>
+<tr class="separator:abb8e567a6f3154d01b3f259a3169fb11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fdcf72bb49ae6f6c739bf7f53b38ef4"><td class="memItemLeft" align="right" valign="top">std::function&lt; int(std::vector&lt; std::string &gt; *, const std::string &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system_1_1_loaders.html#a6fdcf72bb49ae6f6c739bf7f53b38ef4">dirPathLoader</a></td></tr>
+<tr class="memdesc:a6fdcf72bb49ae6f6c739bf7f53b38ef4"><td class="mdescLeft">&#160;</td><td class="mdescRight">List all folders in the specified path.  <a href="#a6fdcf72bb49ae6f6c739bf7f53b38ef4">More...</a><br /></td></tr>
+<tr class="separator:a6fdcf72bb49ae6f6c739bf7f53b38ef4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac26ba6fb03d18dd81ae30763cd470a80"><td class="memItemLeft" align="right" valign="top">std::function&lt; int(std::vector&lt; std::string &gt; *, const std::string &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system_1_1_loaders.html#ac26ba6fb03d18dd81ae30763cd470a80">filePathLoader</a></td></tr>
+<tr class="memdesc:ac26ba6fb03d18dd81ae30763cd470a80"><td class="mdescLeft">&#160;</td><td class="mdescRight">List all files in the specified path.  <a href="#ac26ba6fb03d18dd81ae30763cd470a80">More...</a><br /></td></tr>
+<tr class="separator:ac26ba6fb03d18dd81ae30763cd470a80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44fd94c4aea1209ed6e4527bdafa52e5"><td class="memItemLeft" align="right" valign="top">std::function&lt; int(kaguya::State *, const std::string &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system_1_1_loaders.html#a44fd94c4aea1209ed6e4527bdafa52e5">luaLoader</a></td></tr>
+<tr class="memdesc:a44fd94c4aea1209ed6e4527bdafa52e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load the Lua source from a file.  <a href="#a44fd94c4aea1209ed6e4527bdafa52e5">More...</a><br /></td></tr>
+<tr class="separator:a44fd94c4aea1209ed6e4527bdafa52e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb62211085fb030b153446c6213da1e0"><td class="memItemLeft" align="right" valign="top">std::function&lt; int(sf::SoundBuffer *, const std::string &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system_1_1_loaders.html#aeb62211085fb030b153446c6213da1e0">soundLoader</a></td></tr>
+<tr class="memdesc:aeb62211085fb030b153446c6213da1e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a sf::SoundBuffer from a file.  <a href="#aeb62211085fb030b153446c6213da1e0">More...</a><br /></td></tr>
+<tr class="separator:aeb62211085fb030b153446c6213da1e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8e1c2d45d0f7572a9d819b44e9208cd"><td class="memItemLeft" align="right" valign="top">std::function&lt; int(sf::Music *, const std::string &amp;)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system_1_1_loaders.html#ab8e1c2d45d0f7572a9d819b44e9208cd">musicLoader</a></td></tr>
+<tr class="memdesc:ab8e1c2d45d0f7572a9d819b44e9208cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a sf::Music from a file.  <a href="#ab8e1c2d45d0f7572a9d819b44e9208cd">More...</a><br /></td></tr>
+<tr class="separator:ab8e1c2d45d0f7572a9d819b44e9208cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Lambdas used to load different kind of resources using the <a class="el" href="classobe_1_1_system_1_1_path.html" title="Class used to manipulate paths and dynamically load resources (Based on multiple mounted paths) ...">System::Path</a>. </p>
 </div><h2 class="groupheader">Variable Documentation</h2>
-<a id="a074874da72966d3f9c18bbff0c4eb827"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a074874da72966d3f9c18bbff0c4eb827">&#9670;&nbsp;</a></span>dataLoader</h2>
+<a id="a5d512bd6f9d9ddb550ed6dd7b7e45b8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d512bd6f9d9ddb550ed6dd7b7e45b8d">&#9670;&nbsp;</a></span>dataLoader</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt; int(<a class="el" href="classvili_1_1_vili_parser.html">vili::ViliParser</a> *, std::string)&gt; obe::System::Loaders::dataLoader = [](<a class="el" href="classvili_1_1_vili_parser.html">vili::ViliParser</a>* obj, std::string path) -&gt; int { return obj-&gt;parseFile(path); }</td>
+          <td class="memname">std::function&lt; int(vili::ViliParser *, const std::string &amp;)&gt; obe::System::Loaders::dataLoader</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<b>Initial value:</b><div class="fragment"><div class="line">= </div><div class="line">        [](vili::ViliParser* obj, <span class="keyword">const</span> std::string&amp; path) -&gt; <span class="keywordtype">int</span> { <span class="keywordflow">return</span> obj-&gt;parseFile(path); }</div></div><!-- fragment -->
 <p>Load a vili::DataParser from a file. </p>
 
 </div>
 </div>
-<a id="a42706436cc8f61e543b2a890e57ca485"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a42706436cc8f61e543b2a890e57ca485">&#9670;&nbsp;</a></span>dirPathLoader</h2>
+<a id="a6fdcf72bb49ae6f6c739bf7f53b38ef4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fdcf72bb49ae6f6c739bf7f53b38ef4">&#9670;&nbsp;</a></span>dirPathLoader</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt; int(std::vector&lt; std::string &gt; *, std::string)&gt; obe::System::Loaders::dirPathLoader</td>
+          <td class="memname">std::function&lt; int(std::vector&lt; std::string &gt; *, const std::string &amp;)&gt; obe::System::Loaders::dirPathLoader</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= [](std::vector&lt;std::string&gt;* obj, std::string path) -&gt; <span class="keywordtype">int</span></div><div class="line">            {</div><div class="line">                std::vector&lt;std::string&gt; newPaths = <a class="code" href="namespaceobe_1_1_utils_1_1_file.html#a7e1ca645a3c78cb9bb5e771c759f3435">Utils::File::getDirectoryList</a>(path);</div><div class="line">                obj-&gt;insert(obj-&gt;end(), newPaths.begin(), newPaths.end());</div><div class="line">                <span class="keywordflow">return</span> 0x002;</div><div class="line">            }</div><div class="ttc" id="namespaceobe_1_1_utils_1_1_file_html_a7e1ca645a3c78cb9bb5e771c759f3435"><div class="ttname"><a href="namespaceobe_1_1_utils_1_1_file.html#a7e1ca645a3c78cb9bb5e771c759f3435">obe::Utils::File::getDirectoryList</a></div><div class="ttdeci">std::vector&lt; std::string &gt; getDirectoryList(const std::string &amp;path)</div><div class="ttdoc">Get a list of directories. </div><div class="ttdef"><b>Definition:</b> FileUtils.cpp:19</div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">= </div><div class="line">        [](std::vector&lt;std::string&gt;* obj, <span class="keyword">const</span> std::string&amp; path) -&gt; <span class="keywordtype">int</span></div><div class="line">    {</div><div class="line">        std::vector&lt;std::string&gt; newPaths = <a class="code" href="namespaceobe_1_1_utils_1_1_file.html#a7e1ca645a3c78cb9bb5e771c759f3435">Utils::File::getDirectoryList</a>(path);</div><div class="line">        obj-&gt;insert(obj-&gt;end(), newPaths.begin(), newPaths.end());</div><div class="line">        <span class="keywordflow">return</span> 0x002;</div><div class="line">    }</div><div class="ttc" id="namespaceobe_1_1_utils_1_1_file_html_a7e1ca645a3c78cb9bb5e771c759f3435"><div class="ttname"><a href="namespaceobe_1_1_utils_1_1_file.html#a7e1ca645a3c78cb9bb5e771c759f3435">obe::Utils::File::getDirectoryList</a></div><div class="ttdeci">std::vector&lt; std::string &gt; getDirectoryList(const std::string &amp;path)</div><div class="ttdoc">Get a list of directories. </div><div class="ttdef"><b>Definition:</b> FileUtils.cpp:14</div></div>
 </div><!-- fragment -->
 <p>List all folders in the specified path. </p>
 
 </div>
 </div>
-<a id="a0ce9c8a6e896bd56ffecc2a6f3010ade"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ce9c8a6e896bd56ffecc2a6f3010ade">&#9670;&nbsp;</a></span>filePathLoader</h2>
+<a id="ac26ba6fb03d18dd81ae30763cd470a80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac26ba6fb03d18dd81ae30763cd470a80">&#9670;&nbsp;</a></span>filePathLoader</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt; int(std::vector&lt; std::string &gt; *, std::string)&gt; obe::System::Loaders::filePathLoader</td>
+          <td class="memname">std::function&lt; int(std::vector&lt; std::string &gt; *, const std::string &amp;)&gt; obe::System::Loaders::filePathLoader</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= [](std::vector&lt;std::string&gt;* obj, std::string path) -&gt; <span class="keywordtype">int</span></div><div class="line">            {</div><div class="line">                std::vector&lt;std::string&gt; newFiles = <a class="code" href="namespaceobe_1_1_utils_1_1_file.html#aed4e3a97fa7f09edf214a40ec4fa69ee">Utils::File::getFileList</a>(path);</div><div class="line">                obj-&gt;insert(obj-&gt;end(), newFiles.begin(), newFiles.end());</div><div class="line">                <span class="keywordflow">return</span> 0x002;</div><div class="line">            }</div><div class="ttc" id="namespaceobe_1_1_utils_1_1_file_html_aed4e3a97fa7f09edf214a40ec4fa69ee"><div class="ttname"><a href="namespaceobe_1_1_utils_1_1_file.html#aed4e3a97fa7f09edf214a40ec4fa69ee">obe::Utils::File::getFileList</a></div><div class="ttdeci">std::vector&lt; std::string &gt; getFileList(const std::string &amp;path)</div><div class="ttdoc">Get a list of files. </div><div class="ttdef"><b>Definition:</b> FileUtils.cpp:34</div></div>
+<b>Initial value:</b><div class="fragment"><div class="line">= </div><div class="line">        [](std::vector&lt;std::string&gt;* obj, <span class="keyword">const</span> std::string&amp; path) -&gt; <span class="keywordtype">int</span></div><div class="line">    {</div><div class="line">        std::vector&lt;std::string&gt; newFiles = <a class="code" href="namespaceobe_1_1_utils_1_1_file.html#aed4e3a97fa7f09edf214a40ec4fa69ee">Utils::File::getFileList</a>(path);</div><div class="line">        obj-&gt;insert(obj-&gt;end(), newFiles.begin(), newFiles.end());</div><div class="line">        <span class="keywordflow">return</span> 0x002;</div><div class="line">    }</div><div class="ttc" id="namespaceobe_1_1_utils_1_1_file_html_aed4e3a97fa7f09edf214a40ec4fa69ee"><div class="ttname"><a href="namespaceobe_1_1_utils_1_1_file.html#aed4e3a97fa7f09edf214a40ec4fa69ee">obe::Utils::File::getFileList</a></div><div class="ttdeci">std::vector&lt; std::string &gt; getFileList(const std::string &amp;path)</div><div class="ttdoc">Get a list of files. </div><div class="ttdef"><b>Definition:</b> FileUtils.cpp:29</div></div>
 </div><!-- fragment -->
 <p>List all files in the specified path. </p>
 
 </div>
 </div>
-<a id="a24ca176b9fa8b2b58ae513e35fc70a69"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a24ca176b9fa8b2b58ae513e35fc70a69">&#9670;&nbsp;</a></span>fontLoader</h2>
+<a id="abb8e567a6f3154d01b3f259a3169fb11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb8e567a6f3154d01b3f259a3169fb11">&#9670;&nbsp;</a></span>fontLoader</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt; int(sf::Font *, std::string)&gt; obe::System::Loaders::fontLoader = [](sf::Font* obj, std::string path) -&gt; int { return obj-&gt;loadFromFile(path); }</td>
+          <td class="memname">std::function&lt; int(sf::Font *, const std::string &amp;)&gt; obe::System::Loaders::fontLoader</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<b>Initial value:</b><div class="fragment"><div class="line">= </div><div class="line">        [](sf::Font* obj, <span class="keyword">const</span> std::string&amp; path) -&gt; <span class="keywordtype">int</span> { <span class="keywordflow">return</span> obj-&gt;loadFromFile(path); }</div></div><!-- fragment -->
 <p>Load a sf::Font from a file. </p>
 
 </div>
 </div>
-<a id="a863461e7db8dd523df9d8b11a610e9c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a863461e7db8dd523df9d8b11a610e9c5">&#9670;&nbsp;</a></span>luaLoader</h2>
+<a id="a44fd94c4aea1209ed6e4527bdafa52e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44fd94c4aea1209ed6e4527bdafa52e5">&#9670;&nbsp;</a></span>luaLoader</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt; int(kaguya::State *, std::string)&gt; obe::System::Loaders::luaLoader = [](kaguya::State* obj, std::string path) -&gt; int { return obj-&gt;dofile(path); }</td>
+          <td class="memname">std::function&lt; int(kaguya::State *, const std::string &amp;)&gt; obe::System::Loaders::luaLoader</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<b>Initial value:</b><div class="fragment"><div class="line">= </div><div class="line">        [](kaguya::State* obj, <span class="keyword">const</span> std::string&amp; path) -&gt; <span class="keywordtype">int</span> { <span class="keywordflow">return</span> obj-&gt;dofile(path); }</div></div><!-- fragment -->
 <p>Load the Lua source from a file. </p>
 
 </div>
 </div>
-<a id="a811e7472fdd609874ec817df7deb669e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a811e7472fdd609874ec817df7deb669e">&#9670;&nbsp;</a></span>musicLoader</h2>
+<a id="ab8e1c2d45d0f7572a9d819b44e9208cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8e1c2d45d0f7572a9d819b44e9208cd">&#9670;&nbsp;</a></span>musicLoader</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt; int(sf::Music *, std::string)&gt; obe::System::Loaders::musicLoader = [](sf::Music* music, std::string path) -&gt; int { return music-&gt;openFromFile(path); }</td>
+          <td class="memname">std::function&lt; int(sf::Music *, const std::string &amp;)&gt; obe::System::Loaders::musicLoader</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<b>Initial value:</b><div class="fragment"><div class="line">= </div><div class="line">        [](sf::Music* music, <span class="keyword">const</span> std::string&amp; path) -&gt; <span class="keywordtype">int</span> { <span class="keywordflow">return</span> music-&gt;openFromFile(path); }</div></div><!-- fragment -->
 <p>Load a sf::Music from a file. </p>
 
 </div>
 </div>
-<a id="a38bd1b7b3dcb005d3a173b65519d2d1c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38bd1b7b3dcb005d3a173b65519d2d1c">&#9670;&nbsp;</a></span>soundLoader</h2>
+<a id="aeb62211085fb030b153446c6213da1e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb62211085fb030b153446c6213da1e0">&#9670;&nbsp;</a></span>soundLoader</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt; int(sf::SoundBuffer *, std::string)&gt; obe::System::Loaders::soundLoader = [](sf::SoundBuffer* sound, std::string path) -&gt; int { return sound-&gt;loadFromFile(path); }</td>
+          <td class="memname">std::function&lt; int(sf::SoundBuffer *, const std::string &amp;)&gt; obe::System::Loaders::soundLoader</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<b>Initial value:</b><div class="fragment"><div class="line">= </div><div class="line">        [](sf::SoundBuffer* sound, <span class="keyword">const</span> std::string&amp; path) -&gt; <span class="keywordtype">int</span> { <span class="keywordflow">return</span> sound-&gt;loadFromFile(path); }</div></div><!-- fragment -->
 <p>Load a sf::SoundBuffer from a file. </p>
 
 </div>
 </div>
-<a id="afdc80167d0e9daae49bcf31a53af0dd1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afdc80167d0e9daae49bcf31a53af0dd1">&#9670;&nbsp;</a></span>textureLoader</h2>
+<a id="aaf70934a2a9a2656991bfe32f46484a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf70934a2a9a2656991bfe32f46484a1">&#9670;&nbsp;</a></span>textureLoader</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt; int(sf::Texture *, std::string)&gt; obe::System::Loaders::textureLoader = [](sf::Texture* obj, std::string path) -&gt; int { return obj-&gt;loadFromFile(path); }</td>
+          <td class="memname">std::function&lt; int(sf::Texture *, const std::string &amp;)&gt; obe::System::Loaders::textureLoader</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<b>Initial value:</b><div class="fragment"><div class="line">= </div><div class="line">        [](sf::Texture* obj, <span class="keyword">const</span> std::string&amp; path) -&gt; <span class="keywordtype">int</span> { <span class="keywordflow">return</span> obj-&gt;loadFromFile(path); }</div></div><!-- fragment -->
 <p>Load a sf::Texture from a file. </p>
 
 </div>

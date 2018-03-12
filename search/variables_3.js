@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['camera',['Camera',['../namespaceobe_1_1_graphics.html#a099e4fa406de757e778d8faff6aec52d',1,'obe::Graphics']]],
-  ['classtype',['ClassType',['../classvili_1_1_array_node.html#ae51d36214fbd37611cc6ac8c9123dd0e',1,'vili::ArrayNode::ClassType()'],['../classvili_1_1_complex_node.html#a5e9b06aebba6f3b785459f099a61d1ae',1,'vili::ComplexNode::ClassType()'],['../classvili_1_1_container_node.html#a80898fc049671ead444b414fe8939fa7',1,'vili::ContainerNode::ClassType()'],['../classvili_1_1_data_node.html#a660fac5deb8501c4a9ec7400c4b12512',1,'vili::DataNode::ClassType()'],['../classvili_1_1_link_node.html#a9575f45d527a06ab383e4c4fb381e329',1,'vili::LinkNode::ClassType()'],['../classvili_1_1_node.html#a150bad656fb8fc334254c90c5d535c8d',1,'vili::Node::ClassType()']]],
-  ['clearcolor',['clearColor',['../namespaceobe_1_1_graphics_1_1_utils.html#ac95473ef53d40f58551b639eb517ffdb',1,'obe::Graphics::Utils']]],
-  ['config',['Config',['../namespaceobe_1_1_system.html#a09a6f6e10be630a57f38c7f5e2390b83',1,'obe::System']]]
+  ['dataloader',['dataLoader',['../namespaceobe_1_1_system_1_1_loaders.html#a5d512bd6f9d9ddb550ed6dd7b7e45b8d',1,'obe::System::Loaders']]],
+  ['default',['Default',['../namespaceobe_1_1_system_1_1_constraints.html#a8f64f288e9a03c53597f904f64d08329',1,'obe::System::Constraints']]],
+  ['deletable',['deletable',['../classobe_1_1_scene_1_1_t_x_scene.html#a3b1d20cfa1d39593f1b6ea8e9890d5ec',1,'obe::Scene::TXScene::deletable()'],['../classobe_1_1_script_1_1_game_object.html#a3c2e467359f6c87a83a7a2973aad3cca',1,'obe::Script::GameObject::deletable()']]],
+  ['dirpathloader',['dirPathLoader',['../namespaceobe_1_1_system_1_1_loaders.html#a6fdcf72bb49ae6f6c739bf7f53b38ef4',1,'obe::System::Loaders']]]
 ];

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['n_5ffiles',['n_files',['../structtinydir__dir.html#afcb78c8c7847fd984faf7cbb16cf9768',1,'tinydir_dir']]],
-  ['name',['name',['../structtinydir__file.html#ae5f73843a14656b30e91dfa37fabc9dc',1,'tinydir_file']]],
-  ['numbers',['Numbers',['../namespaceobe_1_1_utils_1_1_string.html#adb599acd8732126fb416fcde24fa413d',1,'obe::Utils::String']]]
+  ['radius',['radius',['../classobe_1_1_graphics_1_1_canvas_1_1_circle.html#a1cab57f8fa41dbe8defbc120d032a270',1,'obe::Graphics::Canvas::Circle::radius()'],['../classobe_1_1_graphics_1_1_level_sprite_handle_point.html#abcf46fa4c4c66f874daff39fc1b7f5c4',1,'obe::Graphics::LevelSpriteHandlePoint::radius()']]],
+  ['rd',['rd',['../namespaceobe_1_1_utils_1_1_math.html#aea98e6fdb5d6faaf67214b54ee5b5369',1,'obe::Utils::Math']]]
 ];

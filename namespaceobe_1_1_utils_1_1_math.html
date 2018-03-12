@@ -109,16 +109,14 @@ Functions</h2></td></tr>
 <tr class="memitem:a907720277313bf2fde13320164dab92c"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_utils_1_1_math.html#a907720277313bf2fde13320164dab92c">convertToDegree</a> (double value)</td></tr>
 <tr class="memdesc:a907720277313bf2fde13320164dab92c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a radians angle to degrees.  <a href="#a907720277313bf2fde13320164dab92c">More...</a><br /></td></tr>
 <tr class="separator:a907720277313bf2fde13320164dab92c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53107891c19b47288c175bf6a99d508f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_utils_1_1_math.html#a53107891c19b47288c175bf6a99d508f">normalise</a> (const double value, const double start, const double end)</td></tr>
-<tr class="memdesc:a53107891c19b47288c175bf6a99d508f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalizes a value between start and end.  <a href="#a53107891c19b47288c175bf6a99d508f">More...</a><br /></td></tr>
-<tr class="separator:a53107891c19b47288c175bf6a99d508f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7294c2880e1bbfcc0ffae6052e2836e2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_utils_1_1_math.html#a7294c2880e1bbfcc0ffae6052e2836e2">normalise</a> (double value, double start, double end)</td></tr>
+<tr class="memdesc:a7294c2880e1bbfcc0ffae6052e2836e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalizes a value between start and end.  <a href="#a7294c2880e1bbfcc0ffae6052e2836e2">More...</a><br /></td></tr>
+<tr class="separator:a7294c2880e1bbfcc0ffae6052e2836e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a675729380c54b579e88c541098a50258"><td class="memItemLeft" align="right" valign="top">std::mt19937&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_utils_1_1_math.html#a675729380c54b579e88c541098a50258">rng</a> (<a class="el" href="namespaceobe_1_1_utils_1_1_math.html#aea98e6fdb5d6faaf67214b54ee5b5369">rd</a>())</td></tr>
 <tr class="separator:a675729380c54b579e88c541098a50258"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a494bda42da035d6cc06df22d1e6b5247"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_utils_1_1_math.html#a494bda42da035d6cc06df22d1e6b5247">pi</a> = 3.14159265359</td></tr>
-<tr class="separator:a494bda42da035d6cc06df22d1e6b5247"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea98e6fdb5d6faaf67214b54ee5b5369"><td class="memItemLeft" align="right" valign="top">std::random_device&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_utils_1_1_math.html#aea98e6fdb5d6faaf67214b54ee5b5369">rd</a></td></tr>
 <tr class="separator:aea98e6fdb5d6faaf67214b54ee5b5369"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -353,8 +351,8 @@ template&lt;typename N , typename N1 , typename N2 &gt; </div>
 
 </div>
 </div>
-<a id="a53107891c19b47288c175bf6a99d508f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53107891c19b47288c175bf6a99d508f">&#9670;&nbsp;</a></span>normalise()</h2>
+<a id="a7294c2880e1bbfcc0ffae6052e2836e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7294c2880e1bbfcc0ffae6052e2836e2">&#9670;&nbsp;</a></span>normalise()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -362,19 +360,19 @@ template&lt;typename N , typename N1 , typename N2 &gt; </div>
         <tr>
           <td class="memname">double obe::Utils::Math::normalise </td>
           <td>(</td>
-          <td class="paramtype">const double&#160;</td>
+          <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>value</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const double&#160;</td>
+          <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>start</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const double&#160;</td>
+          <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>end</em>&#160;</td>
         </tr>
         <tr>
@@ -510,20 +508,6 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a494bda42da035d6cc06df22d1e6b5247"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a494bda42da035d6cc06df22d1e6b5247">&#9670;&nbsp;</a></span>pi</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const double obe::Utils::Math::pi = 3.14159265359</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="aea98e6fdb5d6faaf67214b54ee5b5369"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aea98e6fdb5d6faaf67214b54ee5b5369">&#9670;&nbsp;</a></span>rd</h2>
 

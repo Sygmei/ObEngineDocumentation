@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['h',['h',['../structobe_1_1_transform_1_1_view_struct.html#a8f022eb53bc58089edf34b767be66502',1,'obe::Transform::ViewStruct::h()'],['../structobe_1_1_transform_1_1_screen_struct.html#a650fbaf98f4b3cea23fc6740bf55cd30',1,'obe::Transform::ScreenStruct::h()']]],
-  ['h_5falign',['h_align',['../classobe_1_1_graphics_1_1_canvas_1_1_text.html#a6773a7f7d5bab3c8702789fc4ce1ac65',1,'obe::Graphics::Canvas::Text']]],
-  ['has_5fnext',['has_next',['../structtinydir__dir.html#a199eae7f7fa402e1c3f5195de9beb15b',1,'tinydir_dir']]]
+  ['layer',['layer',['../classobe_1_1_graphics_1_1_canvas_1_1_canvas_element.html#a0d177150be0a14d3a28bf95a5ee98dc3',1,'obe::Graphics::Canvas::CanvasElement']]],
+  ['log',['Log',['../namespaceobe_1_1_debug.html#ad3583000bcb30c11762c61622bdb3c99',1,'obe::Debug']]],
+  ['lualoader',['luaLoader',['../namespaceobe_1_1_system_1_1_loaders.html#a44fd94c4aea1209ed6e4527bdafa52e5',1,'obe::System::Loaders']]]
 ];

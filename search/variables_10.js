@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['unit',['unit',['../classobe_1_1_transform_1_1_protected_unit_vector.html#a91c4e8aa1cd1065756bb956a634f432f',1,'obe::Transform::ProtectedUnitVector::unit()'],['../classobe_1_1_transform_1_1_unit_vector.html#a481acc98e089a862f70494641a74395a',1,'obe::Transform::UnitVector::unit()']]]
+  ['w',['w',['../structobe_1_1_transform_1_1_view_struct.html#a8541f4e27c9f0ea0fc19203eeebd57cf',1,'obe::Transform::ViewStruct::w()'],['../structobe_1_1_transform_1_1_screen_struct.html#a2a8cc2bff19054692b73fad1599444b5',1,'obe::Transform::ScreenStruct::w()']]]
 ];

@@ -5,7 +5,5 @@ var searchData=
   ['frameratecounter_2ecpp',['FramerateCounter.cpp',['../_framerate_counter_8cpp.html',1,'']]],
   ['frameratecounter_2ehpp',['FramerateCounter.hpp',['../_framerate_counter_8hpp.html',1,'']]],
   ['frameratemanager_2ecpp',['FramerateManager.cpp',['../_framerate_manager_8cpp.html',1,'']]],
-  ['frameratemanager_2ehpp',['FramerateManager.hpp',['../_framerate_manager_8hpp.html',1,'']]],
-  ['functions_2ecpp',['Functions.cpp',['../_functions_8cpp.html',1,'']]],
-  ['functions_2ehpp',['Functions.hpp',['../_functions_8hpp.html',1,'']]]
+  ['frameratemanager_2ehpp',['FramerateManager.hpp',['../_framerate_manager_8hpp.html',1,'']]]
 ];

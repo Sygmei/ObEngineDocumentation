@@ -79,9 +79,6 @@ $(function() {
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespaceobe"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe.html">obe</a></td></tr>
-<tr class="memdesc:namespaceobe"><td class="mdescLeft">&#160;</td><td class="mdescRight">The wonderful ObEngine's namespace ! <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceobe_1_1_script"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html">obe::Script</a></td></tr>
 <tr class="memdesc:namespaceobe_1_1_script"><td class="mdescLeft">&#160;</td><td class="mdescRight">Classes and Functions about Scripting support. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -91,13 +88,15 @@ Functions</h2></td></tr>
 <tr class="memitem:aee6606178e25a578119fd378d21ca29f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#aee6606178e25a578119fd378d21ca29f">obe::Script::InitScriptEngine</a> ()</td></tr>
 <tr class="memdesc:aee6606178e25a578119fd378d21ca29f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the Lua VM.  <a href="namespaceobe_1_1_script.html#aee6606178e25a578119fd378d21ca29f">More...</a><br /></td></tr>
 <tr class="separator:aee6606178e25a578119fd378d21ca29f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff4cb801e5fb7c212fb1b44dfd282f94"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#aff4cb801e5fb7c212fb1b44dfd282f94">obe::Script::createNewEnvironment</a> ()</td></tr>
-<tr class="memdesc:aff4cb801e5fb7c212fb1b44dfd282f94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new Lua environment and return the index (id) of the new environment.  <a href="namespaceobe_1_1_script.html#aff4cb801e5fb7c212fb1b44dfd282f94">More...</a><br /></td></tr>
-<tr class="separator:aff4cb801e5fb7c212fb1b44dfd282f94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ad3c8f9d399388c43a953d7a570ce76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#a1ad3c8f9d399388c43a953d7a570ce76">obe::Script::executeFile</a> (unsigned envIndex, const std::string &amp;file)</td></tr>
-<tr class="separator:a1ad3c8f9d399388c43a953d7a570ce76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade068b5fe150ea37d7e3f91f2ada3118"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#ade068b5fe150ea37d7e3f91f2ada3118">obe::Script::executeString</a> (unsigned envIndex, const std::string &amp;string)</td></tr>
-<tr class="separator:ade068b5fe150ea37d7e3f91f2ada3118"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97d9a63e4be65b9de58e7017caea60be"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#a97d9a63e4be65b9de58e7017caea60be">obe::Script::CreateNewEnvironment</a> ()</td></tr>
+<tr class="memdesc:a97d9a63e4be65b9de58e7017caea60be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new Lua environment and return the index (id) of the new environment.  <a href="namespaceobe_1_1_script.html#a97d9a63e4be65b9de58e7017caea60be">More...</a><br /></td></tr>
+<tr class="separator:a97d9a63e4be65b9de58e7017caea60be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6e5d26d51a96139f95045d01a216e23"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#ad6e5d26d51a96139f95045d01a216e23">obe::Script::executeFile</a> (unsigned int envIndex, const std::string &amp;file)</td></tr>
+<tr class="memdesc:ad6e5d26d51a96139f95045d01a216e23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes a Lua source file on the given environment.  <a href="namespaceobe_1_1_script.html#ad6e5d26d51a96139f95045d01a216e23">More...</a><br /></td></tr>
+<tr class="separator:ad6e5d26d51a96139f95045d01a216e23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcf070faebc17f296aad261fd2ceff1d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#afcf070faebc17f296aad261fd2ceff1d">obe::Script::executeString</a> (unsigned int envIndex, const std::string &amp;string)</td></tr>
+<tr class="memdesc:afcf070faebc17f296aad261fd2ceff1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes a Lua string on the given environment.  <a href="namespaceobe_1_1_script.html#afcf070faebc17f296aad261fd2ceff1d">More...</a><br /></td></tr>
+<tr class="separator:afcf070faebc17f296aad261fd2ceff1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

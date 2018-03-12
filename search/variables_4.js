@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['dataloader',['dataLoader',['../namespaceobe_1_1_system_1_1_loaders.html#a074874da72966d3f9c18bbff0c4eb827',1,'obe::System::Loaders']]],
-  ['default',['Default',['../namespaceobe_1_1_system_1_1_constraints.html#a8f64f288e9a03c53597f904f64d08329',1,'obe::System::Constraints']]],
-  ['deletable',['deletable',['../classobe_1_1_script_1_1_game_object.html#a3c2e467359f6c87a83a7a2973aad3cca',1,'obe::Script::GameObject']]],
-  ['dirpathloader',['dirPathLoader',['../namespaceobe_1_1_system_1_1_loaders.html#a42706436cc8f61e543b2a890e57ca485',1,'obe::System::Loaders']]]
+  ['filepathloader',['filePathLoader',['../namespaceobe_1_1_system_1_1_loaders.html#ac26ba6fb03d18dd81ae30763cd470a80',1,'obe::System::Loaders']]],
+  ['fontloader',['fontLoader',['../namespaceobe_1_1_system_1_1_loaders.html#abb8e567a6f3154d01b3f259a3169fb11',1,'obe::System::Loaders']]],
+  ['fontpath',['fontPath',['../classobe_1_1_graphics_1_1_canvas_1_1_text.html#a2c14c45e180ab9cf626cbfd3e03134c2',1,'obe::Graphics::Canvas::Text']]]
 ];

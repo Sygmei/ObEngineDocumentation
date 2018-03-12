@@ -4,7 +4,5 @@ var searchData=
   ['camera',['Camera',['../namespaceobe_1_1_transform.html#afa663032e66eaf5d647861418b975ecca967d35e40f3f95b1f538bd248640bf3b',1,'obe::Transform']]],
   ['canvaselement',['CanvasElement',['../namespaceobe_1_1_graphics_1_1_canvas.html#aaaee5924f85afded701c731eab80e38ca6955386a3b1ef8bad90667eac0b87b84',1,'obe::Graphics::Canvas']]],
   ['center',['Center',['../namespaceobe_1_1_graphics_1_1_canvas.html#a31c8524a089c9e6700928d6662557d5ea4f1f6016fc9f3f2353c0cc7c67b292bd',1,'obe::Graphics::Canvas::Center()'],['../namespaceobe_1_1_graphics_1_1_canvas.html#a29dc8f6b18199a7e1325e386637d6e0ea4f1f6016fc9f3f2353c0cc7c67b292bd',1,'obe::Graphics::Canvas::Center()'],['../namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728a4f1f6016fc9f3f2353c0cc7c67b292bd',1,'obe::Transform::Center()']]],
-  ['circle',['Circle',['../namespaceobe_1_1_graphics_1_1_canvas.html#aaaee5924f85afded701c731eab80e38ca30954d90085f6eaaf5817917fc5fecb3',1,'obe::Graphics::Canvas']]],
-  ['complexnode',['ComplexNode',['../namespacevili.html#a30ec1b00a269997777efe72685ed7c2baadbd21ad82c705ead0290d9129358c5b',1,'vili']]],
-  ['containernode',['ContainerNode',['../namespacevili.html#a30ec1b00a269997777efe72685ed7c2ba5732d13de42045072a1db5f8f3974b83',1,'vili']]]
+  ['circle',['Circle',['../namespaceobe_1_1_graphics_1_1_canvas.html#aaaee5924f85afded701c731eab80e38ca30954d90085f6eaaf5817917fc5fecb3',1,'obe::Graphics::Canvas']]]
 ];

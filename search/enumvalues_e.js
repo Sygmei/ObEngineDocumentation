@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['range',['Range',['../namespacevili.html#ad7068bc2e5364f41b58e140dafbb1e1fa87ba2ecc8b6915e8bd6f5089918229fd',1,'vili']]],
   ['rect',['Rect',['../namespaceobe_1_1_transform.html#afa663032e66eaf5d647861418b975ecca69ad58d91eec91b5c152d21ca117dc81',1,'obe::Transform']]],
   ['rectangle',['Rectangle',['../namespaceobe_1_1_graphics_1_1_canvas.html#aaaee5924f85afded701c731eab80e38cace9291906a4c3b042650b70d7f3b152e',1,'obe::Graphics::Canvas']]],
   ['rejected',['Rejected',['../namespaceobe_1_1_collision.html#aa8080687fb294144f0bc8de1423b3f3dad37b1f6c0512e2118cee17fea015b699',1,'obe::Collision']]],

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['fpscounter',['FPSCounter',['../classobe_1_1_time_1_1_f_p_s_counter.html',1,'obe::Time']]],
-  ['frameratemanager',['FramerateManager',['../classobe_1_1_time_1_1_framerate_manager.html',1,'obe::Time']]]
+  ['gameobject',['GameObject',['../classobe_1_1_script_1_1_game_object.html',1,'obe::Script']]],
+  ['gameobjectdatabase',['GameObjectDatabase',['../classobe_1_1_script_1_1_game_object_database.html',1,'obe::Script']]]
 ];
