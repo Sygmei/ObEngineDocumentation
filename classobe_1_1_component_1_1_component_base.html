@@ -66,6 +66,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classobe_1_1_component_1_1_component_base-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">obe::Component::ComponentBase Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
@@ -74,9 +75,224 @@ $(function() {
 
 <p><code>#include &lt;<a class="el" href="_component_8hpp_source.html">Component.hpp</a>&gt;</code></p>
 
+<p>Inherits <a class="el" href="classobe_1_1_types_1_1_identifiable.html">obe::Types::Identifiable</a>, and <a class="el" href="classobe_1_1_types_1_1_serializable.html">obe::Types::Serializable</a>.</p>
+
 <p>Inherited by <a class="el" href="classobe_1_1_component_1_1_component.html">obe::Component::Component&lt; LevelSprite &gt;</a>, <a class="el" href="classobe_1_1_component_1_1_component.html">obe::Component::Component&lt; PolygonalCollider &gt;</a>, and <a class="el" href="classobe_1_1_component_1_1_component.html">obe::Component::Component&lt; T &gt;</a>.</p>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a0b172d54f816da613f66bf1873b1b727"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_component_1_1_component_base.html#a0b172d54f816da613f66bf1873b1b727">ComponentBase</a> (const std::string &amp;id)</td></tr>
+<tr class="separator:a0b172d54f816da613f66bf1873b1b727"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b1c1a7beafd73b8253d2b217465d90f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_component_1_1_component_base.html#a4b1c1a7beafd73b8253d2b217465d90f">~ComponentBase</a> () override=default</td></tr>
+<tr class="separator:a4b1c1a7beafd73b8253d2b217465d90f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77317a0187595329be8b4667c4666697"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_component_1_1_component_base.html#a77317a0187595329be8b4667c4666697">inject</a> (unsigned int envIndex)=0</td></tr>
+<tr class="separator:a77317a0187595329be8b4667c4666697"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a0bbfb363a1f3320cfd4fa00daf3239"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_component_1_1_component_base.html#a5a0bbfb363a1f3320cfd4fa00daf3239">remove</a> ()=0</td></tr>
+<tr class="separator:a5a0bbfb363a1f3320cfd4fa00daf3239"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17094ac5b91b308bad23da3545f9fa10"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_component_1_1_component_base.html#a17094ac5b91b308bad23da3545f9fa10">dump</a> (vili::ComplexNode &amp;target) const override=0</td></tr>
+<tr class="memdesc:a17094ac5b91b308bad23da3545f9fa10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dumps the content of the Serializable object to a ComplexNode.  <a href="#a17094ac5b91b308bad23da3545f9fa10">More...</a><br /></td></tr>
+<tr class="separator:a17094ac5b91b308bad23da3545f9fa10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67546565557d4fab153bb0a949e406ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_component_1_1_component_base.html#a67546565557d4fab153bb0a949e406ee">load</a> (vili::ComplexNode &amp;data) override=0</td></tr>
+<tr class="memdesc:a67546565557d4fab153bb0a949e406ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads an object from a ComplexNode.  <a href="#a67546565557d4fab153bb0a949e406ee">More...</a><br /></td></tr>
+<tr class="separator:a67546565557d4fab153bb0a949e406ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classobe_1_1_types_1_1_identifiable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classobe_1_1_types_1_1_identifiable')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classobe_1_1_types_1_1_identifiable.html">obe::Types::Identifiable</a></td></tr>
+<tr class="memitem:a60998c1fa478c49f46371e54a18b5401 inherit pub_methods_classobe_1_1_types_1_1_identifiable"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_types_1_1_identifiable.html#a60998c1fa478c49f46371e54a18b5401">~Identifiable</a> ()=default</td></tr>
+<tr class="separator:a60998c1fa478c49f46371e54a18b5401 inherit pub_methods_classobe_1_1_types_1_1_identifiable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f3dfd21c84ad420f26395d5e62c5e2d inherit pub_methods_classobe_1_1_types_1_1_identifiable"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_types_1_1_identifiable.html#a0f3dfd21c84ad420f26395d5e62c5e2d">Identifiable</a> (const std::string &amp;id)</td></tr>
+<tr class="memdesc:a0f3dfd21c84ad420f26395d5e62c5e2d inherit pub_methods_classobe_1_1_types_1_1_identifiable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new <a class="el" href="classobe_1_1_types_1_1_identifiable.html" title="A Base class that does carry an unique identifier for a given category (Sprites / Colliders etc...">Identifiable</a>.  <a href="classobe_1_1_types_1_1_identifiable.html#a0f3dfd21c84ad420f26395d5e62c5e2d">More...</a><br /></td></tr>
+<tr class="separator:a0f3dfd21c84ad420f26395d5e62c5e2d inherit pub_methods_classobe_1_1_types_1_1_identifiable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab42dca3ac8f60ca652ff63bdd42abfc inherit pub_methods_classobe_1_1_types_1_1_identifiable"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_types_1_1_identifiable.html#aab42dca3ac8f60ca652ff63bdd42abfc">setId</a> (const std::string &amp;id)</td></tr>
+<tr class="memdesc:aab42dca3ac8f60ca652ff63bdd42abfc inherit pub_methods_classobe_1_1_types_1_1_identifiable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a new id for the <a class="el" href="classobe_1_1_types_1_1_identifiable.html" title="A Base class that does carry an unique identifier for a given category (Sprites / Colliders etc...">Identifiable</a>.  <a href="classobe_1_1_types_1_1_identifiable.html#aab42dca3ac8f60ca652ff63bdd42abfc">More...</a><br /></td></tr>
+<tr class="separator:aab42dca3ac8f60ca652ff63bdd42abfc inherit pub_methods_classobe_1_1_types_1_1_identifiable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b4411691b5570068092e00542fd679a inherit pub_methods_classobe_1_1_types_1_1_identifiable"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_types_1_1_identifiable.html#a7b4411691b5570068092e00542fd679a">getId</a> () const</td></tr>
+<tr class="memdesc:a7b4411691b5570068092e00542fd679a inherit pub_methods_classobe_1_1_types_1_1_identifiable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the id of the <a class="el" href="classobe_1_1_types_1_1_identifiable.html" title="A Base class that does carry an unique identifier for a given category (Sprites / Colliders etc...">Identifiable</a>.  <a href="classobe_1_1_types_1_1_identifiable.html#a7b4411691b5570068092e00542fd679a">More...</a><br /></td></tr>
+<tr class="separator:a7b4411691b5570068092e00542fd679a inherit pub_methods_classobe_1_1_types_1_1_identifiable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_attribs_classobe_1_1_types_1_1_identifiable"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classobe_1_1_types_1_1_identifiable')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classobe_1_1_types_1_1_identifiable.html">obe::Types::Identifiable</a></td></tr>
+<tr class="memitem:aa1a8d75bb52273880ff44a5448dfecff inherit pro_attribs_classobe_1_1_types_1_1_identifiable"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_types_1_1_identifiable.html#aa1a8d75bb52273880ff44a5448dfecff">m_id</a></td></tr>
+<tr class="separator:aa1a8d75bb52273880ff44a5448dfecff inherit pro_attribs_classobe_1_1_types_1_1_identifiable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a0b172d54f816da613f66bf1873b1b727"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b172d54f816da613f66bf1873b1b727">&#9670;&nbsp;</a></span>ComponentBase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">obe::Component::ComponentBase::ComponentBase </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4b1c1a7beafd73b8253d2b217465d90f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b1c1a7beafd73b8253d2b217465d90f">&#9670;&nbsp;</a></span>~ComponentBase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">obe::Component::ComponentBase::~ComponentBase </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a17094ac5b91b308bad23da3545f9fa10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17094ac5b91b308bad23da3545f9fa10">&#9670;&nbsp;</a></span>dump()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::Component::ComponentBase::dump </td>
+          <td>(</td>
+          <td class="paramtype">vili::ComplexNode &amp;&#160;</td>
+          <td class="paramname"><em>target</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Dumps the content of the Serializable object to a ComplexNode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">target</td><td>ComplexNode where to serialize the object </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="classobe_1_1_types_1_1_serializable.html#acc5cde9485f774ae82bfce3be48c1f14">obe::Types::Serializable</a>.</p>
+
+<p>Implemented in <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a2fb861632438bb30a73a7d3019f5b1ae">obe::Collision::PolygonalCollider</a>, <a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html#afce8ce4ae3c762c69823c39aaf4b02a3">obe::Graphics::LevelSprite</a>, <a class="el" href="classobe_1_1_component_1_1_component.html#a770c19f1cb1287d559ad5803eb1039e1">obe::Component::Component&lt; T &gt;</a>, <a class="el" href="classobe_1_1_component_1_1_component.html#a770c19f1cb1287d559ad5803eb1039e1">obe::Component::Component&lt; PolygonalCollider &gt;</a>, and <a class="el" href="classobe_1_1_component_1_1_component.html#a770c19f1cb1287d559ad5803eb1039e1">obe::Component::Component&lt; LevelSprite &gt;</a>.</p>
+
+</div>
+</div>
+<a id="a77317a0187595329be8b4667c4666697"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77317a0187595329be8b4667c4666697">&#9670;&nbsp;</a></span>inject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void obe::Component::ComponentBase::inject </td>
+          <td>(</td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>envIndex</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classobe_1_1_component_1_1_component.html#a17085a5a0230ed0737004ff4798872c1">obe::Component::Component&lt; T &gt;</a>, <a class="el" href="classobe_1_1_component_1_1_component.html#a17085a5a0230ed0737004ff4798872c1">obe::Component::Component&lt; PolygonalCollider &gt;</a>, and <a class="el" href="classobe_1_1_component_1_1_component.html#a17085a5a0230ed0737004ff4798872c1">obe::Component::Component&lt; LevelSprite &gt;</a>.</p>
+
+</div>
+</div>
+<a id="a67546565557d4fab153bb0a949e406ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67546565557d4fab153bb0a949e406ee">&#9670;&nbsp;</a></span>load()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::Component::ComponentBase::load </td>
+          <td>(</td>
+          <td class="paramtype">vili::ComplexNode &amp;&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Loads an object from a ComplexNode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td>ComplexNode containing the data of the object </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="classobe_1_1_types_1_1_serializable.html#ab491f63bef30ad4b69b3df4ddc3bdd40">obe::Types::Serializable</a>.</p>
+
+<p>Implemented in <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a5fc6e419e7b6721e53dc8c727a086bc7">obe::Collision::PolygonalCollider</a>, <a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html#aaabc8751abbebb674f089344717b3d8c">obe::Graphics::LevelSprite</a>, <a class="el" href="classobe_1_1_component_1_1_component.html#a429f0bb0674cacdbb957f9553ef37c3a">obe::Component::Component&lt; T &gt;</a>, <a class="el" href="classobe_1_1_component_1_1_component.html#a429f0bb0674cacdbb957f9553ef37c3a">obe::Component::Component&lt; PolygonalCollider &gt;</a>, and <a class="el" href="classobe_1_1_component_1_1_component.html#a429f0bb0674cacdbb957f9553ef37c3a">obe::Component::Component&lt; LevelSprite &gt;</a>.</p>
+
+</div>
+</div>
+<a id="a5a0bbfb363a1f3320cfd4fa00daf3239"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a0bbfb363a1f3320cfd4fa00daf3239">&#9670;&nbsp;</a></span>remove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void obe::Component::ComponentBase::remove </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classobe_1_1_component_1_1_component.html#a8ae3e20aeecf8cd91f180793b4b97e02">obe::Component::Component&lt; T &gt;</a>, <a class="el" href="classobe_1_1_component_1_1_component.html#a8ae3e20aeecf8cd91f180793b4b97e02">obe::Component::Component&lt; PolygonalCollider &gt;</a>, and <a class="el" href="classobe_1_1_component_1_1_component.html#a8ae3e20aeecf8cd91f180793b4b97e02">obe::Component::Component&lt; LevelSprite &gt;</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>sources/include/Core/Component/<a class="el" href="_component_8hpp_source.html">Component.hpp</a></li>
+<li>sources/src/Core/Component/<a class="el" href="_component_8cpp.html">Component.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

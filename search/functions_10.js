@@ -9,7 +9,7 @@ var searchData=
   ['registertrigger',['registerTrigger',['../classobe_1_1_script_1_1_game_object.html#a094b1d46c481585d1a3e1aa14788e2ff',1,'obe::Script::GameObject']]],
   ['registrable',['Registrable',['../classobe_1_1_types_1_1_registrable.html#ae14c810b245c7d6c6eef267e40190bc6',1,'obe::Types::Registrable']]],
   ['reload',['reload',['../classobe_1_1_scene_1_1_scene.html#a45391196be11a436e66660da0b194e45',1,'obe::Scene::Scene::reload()'],['../classobe_1_1_scene_1_1_scene.html#ac82833100cde525ec968595687ddd78d',1,'obe::Scene::Scene::reload(kaguya::LuaFunction callback)']]],
-  ['remove',['remove',['../classobe_1_1_graphics_1_1_canvas_1_1_canvas.html#a7e3705c190a0ef6b79f5ba4e08c44eef',1,'obe::Graphics::Canvas::Canvas']]],
+  ['remove',['remove',['../classobe_1_1_component_1_1_component_base.html#a5a0bbfb363a1f3320cfd4fa00daf3239',1,'obe::Component::ComponentBase::remove()'],['../classobe_1_1_component_1_1_component.html#a8ae3e20aeecf8cd91f180793b4b97e02',1,'obe::Component::Component::remove()'],['../classobe_1_1_graphics_1_1_canvas_1_1_canvas.html#a7e3705c190a0ef6b79f5ba4e08c44eef',1,'obe::Graphics::Canvas::Canvas::remove()']]],
   ['removealllines',['removeAllLines',['../classtgui_1_1_toolkit_content_box.html#a58103b84a08c5400c003c1c2aaf6eb72',1,'tgui::ToolkitContentBox']]],
   ['removecollider',['removeCollider',['../classobe_1_1_scene_1_1_scene.html#a0782811a07a2647080ad32384f1f1f73',1,'obe::Scene::Scene']]],
   ['removecontext',['removeContext',['../classobe_1_1_input_1_1_input_manager.html#af6cb95c98b488b77d16d90db431ab208',1,'obe::Input::InputManager']]],

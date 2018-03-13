@@ -1,6 +1,8 @@
 var searchData=
 [
   ['_7ecanvaselement',['~CanvasElement',['../classobe_1_1_graphics_1_1_canvas_1_1_canvas_element.html#a0b5e08093c196f4a7992d6d61bb1f014',1,'obe::Graphics::Canvas::CanvasElement']]],
+  ['_7ecomponent',['~Component',['../classobe_1_1_component_1_1_component.html#a520673f6f36a6400e33c0f1637786588',1,'obe::Component::Component']]],
+  ['_7ecomponentbase',['~ComponentBase',['../classobe_1_1_component_1_1_component_base.html#a4b1c1a7beafd73b8253d2b217465d90f',1,'obe::Component::ComponentBase']]],
   ['_7egameobject',['~GameObject',['../classobe_1_1_script_1_1_game_object.html#a760f07c70ec6b0e0af5508bdbef3a41f',1,'obe::Script::GameObject']]],
   ['_7eidentifiable',['~Identifiable',['../classobe_1_1_types_1_1_identifiable.html#a60998c1fa478c49f46371e54a18b5401',1,'obe::Types::Identifiable']]],
   ['_7einputbuttonmonitorptr',['~InputButtonMonitorPtr',['../classobe_1_1_input_1_1_input_button_monitor_ptr.html#aaffafeda74ca84e0cba3f5a9e5251e46',1,'obe::Input::InputButtonMonitorPtr']]],
