@@ -10,6 +10,7 @@ var searchData=
   ['addcheck',['addCheck',['../classobe_1_1_collision_1_1_trajectory.html#ac66b221b243c9fc3b0d7f7c5b303f959',1,'obe::Collision::Trajectory']]],
   ['addchild',['addChild',['../classobe_1_1_transform_1_1_scene_node.html#a7f3f060d307fe04dadc8d41e83aa12d2',1,'obe::Transform::SceneNode']]],
   ['addcombinationelement',['addCombinationElement',['../classobe_1_1_input_1_1_input_condition.html#aa9528e80d82e90b23a458ab1e84d31a3',1,'obe::Input::InputCondition']]],
+  ['addcomponent',['AddComponent',['../classobe_1_1_component_1_1_component_base.html#aa03a62f1de46a5123901abcebef32e70',1,'obe::Component::ComponentBase']]],
   ['addcondition',['addCondition',['../classobe_1_1_input_1_1_input_action.html#a66dc8f631d254b7c76c7a9e0a720817c',1,'obe::Input::InputAction']]],
   ['addcontext',['addContext',['../classobe_1_1_input_1_1_input_action.html#a0f69ebf36cd8aa261b552dc282c94f6d',1,'obe::Input::InputAction::addContext()'],['../classobe_1_1_input_1_1_input_manager.html#ac53e0a2043b3242a51d0bffcd985ec11',1,'obe::Input::InputManager::addContext()']]],
   ['addline',['addLine',['../classtgui_1_1_toolkit_content_box.html#a36e5aeefd1df55fac8ec79894365c508',1,'tgui::ToolkitContentBox']]],

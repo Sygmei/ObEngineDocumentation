@@ -12,6 +12,7 @@ var searchData=
   ['remove',['remove',['../classobe_1_1_component_1_1_component_base.html#a5a0bbfb363a1f3320cfd4fa00daf3239',1,'obe::Component::ComponentBase::remove()'],['../classobe_1_1_component_1_1_component.html#a8ae3e20aeecf8cd91f180793b4b97e02',1,'obe::Component::Component::remove()'],['../classobe_1_1_graphics_1_1_canvas_1_1_canvas.html#a7e3705c190a0ef6b79f5ba4e08c44eef',1,'obe::Graphics::Canvas::Canvas::remove()']]],
   ['removealllines',['removeAllLines',['../classtgui_1_1_toolkit_content_box.html#a58103b84a08c5400c003c1c2aaf6eb72',1,'tgui::ToolkitContentBox']]],
   ['removecollider',['removeCollider',['../classobe_1_1_scene_1_1_scene.html#a0782811a07a2647080ad32384f1f1f73',1,'obe::Scene::Scene']]],
+  ['removecomponent',['RemoveComponent',['../classobe_1_1_component_1_1_component_base.html#a52de6034672f7225d1ef3e97da05b22a',1,'obe::Component::ComponentBase']]],
   ['removecontext',['removeContext',['../classobe_1_1_input_1_1_input_manager.html#af6cb95c98b488b77d16d90db431ab208',1,'obe::Input::InputManager']]],
   ['removegameobject',['removeGameObject',['../classobe_1_1_scene_1_1_scene.html#ab6728d3c4e716da702112dda7ba2cf62',1,'obe::Scene::Scene']]],
   ['removelevelsprite',['removeLevelSprite',['../classobe_1_1_scene_1_1_scene.html#af039615dfec71b72180241ed489f49f3',1,'obe::Scene::Scene']]],

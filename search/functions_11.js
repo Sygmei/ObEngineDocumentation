@@ -41,6 +41,7 @@ var searchData=
   ['setlooping',['setLooping',['../classobe_1_1_sound_1_1_music_wrapper.html#addd9b44c6c841a0792bb9ae0746bcc87',1,'obe::Sound::MusicWrapper::setLooping()'],['../classobe_1_1_sound_1_1_sound_wrapper.html#a7695e72a79fd974973145536750d788c',1,'obe::Sound::SoundWrapper::setLooping()']]],
   ['setmessage',['setMessage',['../classobe_1_1_debug_1_1_console_message.html#af8a97b8267dfdc45d3963eb916068728',1,'obe::Debug::ConsoleMessage']]],
   ['setminimumdistance',['setMinimumDistance',['../classobe_1_1_sound_1_1_music_wrapper.html#a8a365e57644e55531b41c2b0418b3699',1,'obe::Sound::MusicWrapper::setMinimumDistance()'],['../classobe_1_1_sound_1_1_sound_wrapper.html#a9a882cbdf9d8932583ed1265e61d5b3e',1,'obe::Sound::SoundWrapper::setMinimumDistance()']]],
+  ['setname',['setName',['../classobe_1_1_scene_1_1_t_x_scene.html#a2dc9e807d59ffd497b7dbde663ce00a4',1,'obe::Scene::TXScene']]],
   ['setnewlinesbelowothers',['setNewLinesBelowOthers',['../classtgui_1_1_toolkit_content_box.html#acd30c0a324d8493daae28761b2a1404e',1,'tgui::ToolkitContentBox']]],
   ['setoffset',['setOffset',['../classobe_1_1_editor_1_1_editor_grid.html#ae355787b83e15c541b87f430dc039856',1,'obe::Editor::EditorGrid']]],
   ['setoffsetx',['setOffsetX',['../classobe_1_1_editor_1_1_editor_grid.html#a8ec09eb1bba3fb683a2f93c3adcc6a5f',1,'obe::Editor::EditorGrid']]],

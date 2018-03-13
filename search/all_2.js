@@ -44,6 +44,7 @@ var searchData=
   ['component_3c_20levelsprite_20_3e',['Component&lt; LevelSprite &gt;',['../classobe_1_1_component_1_1_component.html',1,'obe::Component']]],
   ['component_3c_20polygonalcollider_20_3e',['Component&lt; PolygonalCollider &gt;',['../classobe_1_1_component_1_1_component.html',1,'obe::Component']]],
   ['componentbase',['ComponentBase',['../classobe_1_1_component_1_1_component_base.html',1,'obe::Component::ComponentBase'],['../classobe_1_1_component_1_1_component_base.html#a0b172d54f816da613f66bf1873b1b727',1,'obe::Component::ComponentBase::ComponentBase()']]],
+  ['components',['Components',['../classobe_1_1_component_1_1_component_base.html#a5e8920904900b9764995cff4a4728edd',1,'obe::Component::ComponentBase']]],
   ['config',['Config',['../namespaceobe_1_1_system.html#a09a6f6e10be630a57f38c7f5e2390b83',1,'obe::System']]],
   ['config_2ecpp',['Config.cpp',['../_config_8cpp.html',1,'']]],
   ['config_2ehpp',['Config.hpp',['../_config_8hpp.html',1,'']]],

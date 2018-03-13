@@ -67,6 +67,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
+<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="classobe_1_1_component_1_1_component_base-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">obe::Component::ComponentBase Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
@@ -107,6 +109,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7b4411691b5570068092e00542fd679a inherit pub_methods_classobe_1_1_types_1_1_identifiable"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_types_1_1_identifiable.html#a7b4411691b5570068092e00542fd679a">getId</a> () const</td></tr>
 <tr class="memdesc:a7b4411691b5570068092e00542fd679a inherit pub_methods_classobe_1_1_types_1_1_identifiable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the id of the <a class="el" href="classobe_1_1_types_1_1_identifiable.html" title="A Base class that does carry an unique identifier for a given category (Sprites / Colliders etc...">Identifiable</a>.  <a href="classobe_1_1_types_1_1_identifiable.html#a7b4411691b5570068092e00542fd679a">More...</a><br /></td></tr>
 <tr class="separator:a7b4411691b5570068092e00542fd679a inherit pub_methods_classobe_1_1_types_1_1_identifiable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-methods"></a>
+Static Protected Member Functions</h2></td></tr>
+<tr class="memitem:aa03a62f1de46a5123901abcebef32e70"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_component_1_1_component_base.html#aa03a62f1de46a5123901abcebef32e70">AddComponent</a> (<a class="el" href="classobe_1_1_component_1_1_component_base.html">ComponentBase</a> *component)</td></tr>
+<tr class="separator:aa03a62f1de46a5123901abcebef32e70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52de6034672f7225d1ef3e97da05b22a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_component_1_1_component_base.html#a52de6034672f7225d1ef3e97da05b22a">RemoveComponent</a> (<a class="el" href="classobe_1_1_component_1_1_component_base.html">ComponentBase</a> *component)</td></tr>
+<tr class="separator:a52de6034672f7225d1ef3e97da05b22a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-attribs"></a>
+Static Protected Attributes</h2></td></tr>
+<tr class="memitem:a5e8920904900b9764995cff4a4728edd"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; <a class="el" href="classobe_1_1_component_1_1_component_base.html">ComponentBase</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_component_1_1_component_base.html#a5e8920904900b9764995cff4a4728edd">Components</a></td></tr>
+<tr class="separator:a5e8920904900b9764995cff4a4728edd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -159,6 +173,32 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="aa03a62f1de46a5123901abcebef32e70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa03a62f1de46a5123901abcebef32e70">&#9670;&nbsp;</a></span>AddComponent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::Component::ComponentBase::AddComponent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_component_1_1_component_base.html">ComponentBase</a> *&#160;</td>
+          <td class="paramname"><em>component</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a17094ac5b91b308bad23da3545f9fa10"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a17094ac5b91b308bad23da3545f9fa10">&#9670;&nbsp;</a></span>dump()</h2>
 
@@ -287,6 +327,55 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Implemented in <a class="el" href="classobe_1_1_component_1_1_component.html#a8ae3e20aeecf8cd91f180793b4b97e02">obe::Component::Component&lt; T &gt;</a>, <a class="el" href="classobe_1_1_component_1_1_component.html#a8ae3e20aeecf8cd91f180793b4b97e02">obe::Component::Component&lt; PolygonalCollider &gt;</a>, and <a class="el" href="classobe_1_1_component_1_1_component.html#a8ae3e20aeecf8cd91f180793b4b97e02">obe::Component::Component&lt; LevelSprite &gt;</a>.</p>
+
+</div>
+</div>
+<a id="a52de6034672f7225d1ef3e97da05b22a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52de6034672f7225d1ef3e97da05b22a">&#9670;&nbsp;</a></span>RemoveComponent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::Component::ComponentBase::RemoveComponent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_component_1_1_component_base.html">ComponentBase</a> *&#160;</td>
+          <td class="paramname"><em>component</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a5e8920904900b9764995cff4a4728edd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e8920904900b9764995cff4a4728edd">&#9670;&nbsp;</a></span>Components</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classobe_1_1_component_1_1_component_base.html">ComponentBase</a>*&gt; obe::Component::ComponentBase::Components</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
