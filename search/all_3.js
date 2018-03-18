@@ -10,7 +10,7 @@ var searchData=
   ['deletable',['deletable',['../classobe_1_1_scene_1_1_t_x_scene.html#a3b1d20cfa1d39593f1b6ea8e9890d5ec',1,'obe::Scene::TXScene::deletable()'],['../classobe_1_1_script_1_1_game_object.html#a3c2e467359f6c87a83a7a2973aad3cca',1,'obe::Script::GameObject::deletable()']]],
   ['deletedirectory',['deleteDirectory',['../namespaceobe_1_1_utils_1_1_file.html#a2360d4034efd2fb6dd7beedece7b42a7',1,'obe::Utils::File']]],
   ['deletefile',['deleteFile',['../namespaceobe_1_1_utils_1_1_file.html#a617a07a30f2bde3c1839a28e44e9260a',1,'obe::Utils::File']]],
-  ['deleteobject',['deleteObject',['../classobe_1_1_scene_1_1_t_x_scene.html#a9e865767d8055e2d7d0b41ba98890de1',1,'obe::Scene::TXScene::deleteObject()'],['../classobe_1_1_script_1_1_game_object.html#aefaa50fc0a705186429bc4598ff942c4',1,'obe::Script::GameObject::deleteObject()']]],
+  ['deleteobject',['deleteObject',['../classobe_1_1_script_1_1_game_object.html#aefaa50fc0a705186429bc4598ff942c4',1,'obe::Script::GameObject']]],
   ['deletepoint',['deletePoint',['../classobe_1_1_collision_1_1_polygonal_collider.html#ade0d925b13fbd4d9a6188ad3ab4996c4',1,'obe::Collision::PolygonalCollider']]],
   ['directory',['Directory',['../namespaceobe_1_1_system.html#a694fe83b30a254b5c66650c9dc3bb497ae73cda510e8bb947f7e61089e5581494',1,'obe::System']]],
   ['directoryexists',['directoryExists',['../namespaceobe_1_1_utils_1_1_file.html#a9a3888e6d0bc0fdb87bce0ee16f5cfe3',1,'obe::Utils::File']]],

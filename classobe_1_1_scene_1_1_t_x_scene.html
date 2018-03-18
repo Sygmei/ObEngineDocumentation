@@ -67,6 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="classobe_1_1_scene_1_1_t_x_scene-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -82,6 +83,8 @@ $(function() {
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a75b82c49eebb125923b192af6f840140"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_t_x_scene.html#a75b82c49eebb125923b192af6f840140">TXScene</a> (const std::string &amp;id, bool scriptable=false)</td></tr>
 <tr class="separator:a75b82c49eebb125923b192af6f840140"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb42686adaf7344fbbe729bf2acc2c29"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_t_x_scene.html#adb42686adaf7344fbbe729bf2acc2c29">TXScene</a> (<a class="el" href="classobe_1_1_scene_1_1_t_x_scene.html">TXScene</a> &amp;&amp;scene)</td></tr>
+<tr class="separator:adb42686adaf7344fbbe729bf2acc2c29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e5fae56a30a4df10068e6ed609ead7b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_t_x_scene.html#a0e5fae56a30a4df10068e6ed609ead7b">~TXScene</a> ()</td></tr>
 <tr class="separator:a0e5fae56a30a4df10068e6ed609ead7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2499cc595b745382c8128ca3423fa3c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_t_x_scene.html#aa2499cc595b745382c8128ca3423fa3c">setPermanent</a> (bool permanent)</td></tr>
@@ -90,9 +93,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a94490774885bf739b690f8ba67ab81a7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_t_x_scene.html#a94490774885bf739b690f8ba67ab81a7">isPermanent</a> () const</td></tr>
 <tr class="memdesc:a94490774885bf739b690f8ba67ab81a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets if the GameObject is permanent (Will stay after loading another map)  <a href="#a94490774885bf739b690f8ba67ab81a7">More...</a><br /></td></tr>
 <tr class="separator:a94490774885bf739b690f8ba67ab81a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e865767d8055e2d7d0b41ba98890de1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_t_x_scene.html#a9e865767d8055e2d7d0b41ba98890de1">deleteObject</a> ()</td></tr>
-<tr class="memdesc:a9e865767d8055e2d7d0b41ba98890de1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes the GameObject.  <a href="#a9e865767d8055e2d7d0b41ba98890de1">More...</a><br /></td></tr>
-<tr class="separator:a9e865767d8055e2d7d0b41ba98890de1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b07e1e0d9cd023747e95799ecdaf972"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_t_x_scene.html#a4b07e1e0d9cd023747e95799ecdaf972">remove</a> ()</td></tr>
+<tr class="memdesc:a4b07e1e0d9cd023747e95799ecdaf972"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes the GameObject.  <a href="#a4b07e1e0d9cd023747e95799ecdaf972">More...</a><br /></td></tr>
+<tr class="separator:a4b07e1e0d9cd023747e95799ecdaf972"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6883212974a069757763c34d461b62ff"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a6883212974a069757763c34d461b62ff"><td class="memTemplItemLeft" align="right" valign="top">T &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_t_x_scene.html#a6883212974a069757763c34d461b62ff">add</a> (const std::string &amp;id)</td></tr>
 <tr class="separator:a6883212974a069757763c34d461b62ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -130,6 +133,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a7b4411691b5570068092e00542fd679a inherit pub_methods_classobe_1_1_types_1_1_identifiable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the id of the <a class="el" href="classobe_1_1_types_1_1_identifiable.html" title="A Base class that does carry an unique identifier for a given category (Sprites / Colliders etc...">Identifiable</a>.  <a href="classobe_1_1_types_1_1_identifiable.html#a7b4411691b5570068092e00542fd679a">More...</a><br /></td></tr>
 <tr class="separator:a7b4411691b5570068092e00542fd679a inherit pub_methods_classobe_1_1_types_1_1_identifiable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a648c207013bbff50564d3b4463afbef3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classobe_1_1_scene_1_1_t_x_scene.html">TXScene</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_t_x_scene.html#a648c207013bbff50564d3b4463afbef3">CreateRootScene</a> ()</td></tr>
+<tr class="separator:a648c207013bbff50564d3b4463afbef3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a3b1d20cfa1d39593f1b6ea8e9890d5ec"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_t_x_scene.html#a3b1d20cfa1d39593f1b6ea8e9890d5ec">deletable</a> = false</td></tr>
@@ -144,7 +152,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a75b82c49eebb125923b192af6f840140"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75b82c49eebb125923b192af6f840140">&#9670;&nbsp;</a></span>TXScene()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a75b82c49eebb125923b192af6f840140">&#9670;&nbsp;</a></span>TXScene() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -175,6 +183,24 @@ Additional Inherited Members</h2></td></tr>
 <span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adb42686adaf7344fbbe729bf2acc2c29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb42686adaf7344fbbe729bf2acc2c29">&#9670;&nbsp;</a></span>TXScene() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">obe::Scene::TXScene::TXScene </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_scene_1_1_t_x_scene.html">TXScene</a> &amp;&amp;&#160;</td>
+          <td class="paramname"><em>scene</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
@@ -236,22 +262,28 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="a9e865767d8055e2d7d0b41ba98890de1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e865767d8055e2d7d0b41ba98890de1">&#9670;&nbsp;</a></span>deleteObject()</h2>
+<a id="a648c207013bbff50564d3b4463afbef3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a648c207013bbff50564d3b4463afbef3">&#9670;&nbsp;</a></span>CreateRootScene()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void obe::Scene::TXScene::deleteObject </td>
+          <td class="memname"><a class="el" href="classobe_1_1_scene_1_1_t_x_scene.html">TXScene</a> obe::Scene::TXScene::CreateRootScene </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-
-<p>Deletes the GameObject. </p>
 
 </div>
 </div>
@@ -426,6 +458,25 @@ template&lt;class T &gt; </div>
 </dl>
 
 <p>Implements <a class="el" href="classobe_1_1_types_1_1_serializable.html#ab491f63bef30ad4b69b3df4ddc3bdd40">obe::Types::Serializable</a>.</p>
+
+</div>
+</div>
+<a id="a4b07e1e0d9cd023747e95799ecdaf972"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b07e1e0d9cd023747e95799ecdaf972">&#9670;&nbsp;</a></span>remove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::Scene::TXScene::remove </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Deletes the GameObject. </p>
 
 </div>
 </div>

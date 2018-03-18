@@ -49,6 +49,7 @@ var searchData=
   ['createlevelsprite',['createLevelSprite',['../classobe_1_1_scene_1_1_scene.html#a090238a2889392ccf6143f7caf43f60c',1,'obe::Scene::Scene']]],
   ['createnamespace',['createNamespace',['../classobe_1_1_triggers_1_1_trigger_database.html#a629434b22f321c5e1dd213b04706584c',1,'obe::Triggers::TriggerDatabase']]],
   ['createnewenvironment',['CreateNewEnvironment',['../namespaceobe_1_1_script.html#a97d9a63e4be65b9de58e7017caea60be',1,'obe::Script']]],
+  ['createrootscene',['CreateRootScene',['../classobe_1_1_scene_1_1_t_x_scene.html#a648c207013bbff50564d3b4463afbef3',1,'obe::Scene::TXScene']]],
   ['createstream',['createStream',['../classobe_1_1_debug_1_1_console.html#a95a9f75bf9c421f88d3bdd9ef1a95df3',1,'obe::Debug::Console']]],
   ['createtriggergroup',['createTriggerGroup',['../classobe_1_1_triggers_1_1_trigger_database.html#a646a92ae2fd7d8947ec23ae301f12483',1,'obe::Triggers::TriggerDatabase']]],
   ['cross',['cross',['../namespaceobe_1_1_collision.html#ac098e4b3ea591fcbbac2946f2d05ec67',1,'obe::Collision']]],

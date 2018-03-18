@@ -65,7 +65,7 @@ var searchData=
   ['getdistancefrompoint',['getDistanceFromPoint',['../classobe_1_1_collision_1_1_polygonal_collider.html#abbe4cd7b2b2f4df12172277cfe21ed84',1,'obe::Collision::PolygonalCollider']]],
   ['getdrawposition',['getDrawPosition',['../classobe_1_1_graphics_1_1_level_sprite.html#a39c4d8649567436efffd7b7fe1c0c163',1,'obe::Graphics::LevelSprite']]],
   ['getduration',['getDuration',['../classobe_1_1_sound_1_1_music_wrapper.html#a0e2f55f83b7ccc651fb5bb79eeac7200',1,'obe::Sound::MusicWrapper']]],
-  ['getenvindex',['getEnvIndex',['../classobe_1_1_scene_1_1_lua_component.html#ae9d014f46f4e5b1c49dd61973bd49f90',1,'obe::Scene::LuaComponent::getEnvIndex()'],['../classobe_1_1_script_1_1_game_object.html#aebae20d22f51415b021ba6600fc39ec6',1,'obe::Script::GameObject::getEnvIndex()']]],
+  ['getenvindex',['getEnvIndex',['../classobe_1_1_scene_1_1_lua_component.html#a849b3b32541b26b6133b90d5adb9b63d',1,'obe::Scene::LuaComponent::getEnvIndex()'],['../classobe_1_1_script_1_1_game_object.html#aebae20d22f51415b021ba6600fc39ec6',1,'obe::Script::GameObject::getEnvIndex()']]],
   ['getfilelist',['getFileList',['../namespaceobe_1_1_utils_1_1_file.html#aed4e3a97fa7f09edf214a40ec4fa69ee',1,'obe::Utils::File']]],
   ['getfolderthumbnail',['GetFolderThumbnail',['../classobe_1_1_editor_1_1_thumbnailer.html#a3866ddcb62dc01e19249ce41dd7a9043',1,'obe::Editor::Thumbnailer']]],
   ['getfont',['GetFont',['../classobe_1_1_graphics_1_1_resource_manager.html#a8b6d1b6a0f470c6302614585315dd672',1,'obe::Graphics::ResourceManager']]],

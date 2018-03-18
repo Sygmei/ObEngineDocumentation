@@ -11,7 +11,6 @@ var searchData=
   ['scenenode',['SceneNode',['../classobe_1_1_transform_1_1_scene_node.html',1,'obe::Transform::SceneNode'],['../classobe_1_1_transform_1_1_scene_node.html#aebd058172e3308775bb9ad883c6ac543',1,'obe::Transform::SceneNode::SceneNode()'],['../namespaceobe_1_1_transform.html#afa663032e66eaf5d647861418b975ecca89b9944351dfd4c6cda653440357f8b1',1,'obe::Transform::SceneNode()']]],
   ['scenenode_2ecpp',['SceneNode.cpp',['../_scene_node_8cpp.html',1,'']]],
   ['scenenode_2ehpp',['SceneNode.hpp',['../_scene_node_8hpp.html',1,'']]],
-  ['sceneref',['SceneRef',['../classobe_1_1_collision_1_1_polygonal_collider.html#a9cfa530f7bd624114774409991e61d31',1,'obe::Collision::PolygonalCollider']]],
   ['screen',['Screen',['../classobe_1_1_transform_1_1_unit_vector.html#a74c76dd1bc2c0e3ac83b3d17e3886024',1,'obe::Transform::UnitVector']]],
   ['screenstruct',['ScreenStruct',['../structobe_1_1_transform_1_1_screen_struct.html',1,'obe::Transform']]],
   ['scriptbindings_2ecpp',['ScriptBindings.cpp',['../_script_bindings_8cpp.html',1,'']]],
