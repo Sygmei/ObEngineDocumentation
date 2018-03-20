@@ -14,6 +14,7 @@ var searchData=
   ['addline',['addLine',['../classtgui_1_1_toolkit_content_box.html#a36e5aeefd1df55fac8ec79894365c508',1,'tgui::ToolkitContentBox']]],
   ['addoriginchild',['addOriginChild',['../classobe_1_1_collision_1_1_polygonal_collider.html#afca29e1a00af80ea488c9b4546d860cb',1,'obe::Collision::PolygonalCollider']]],
   ['addpoint',['addPoint',['../classobe_1_1_collision_1_1_polygonal_collider.html#a793547e8a9c3887aa58535f46ee1311b',1,'obe::Collision::PolygonalCollider']]],
+  ['addsource',['addSource',['../classobe_1_1_scene_1_1_lua_component.html#a15416cab546d01aa1375e461781b463f',1,'obe::Scene::LuaComponent']]],
   ['addspeed',['addSpeed',['../classobe_1_1_collision_1_1_trajectory.html#aab82f7370db4839389e79208611b991b',1,'obe::Collision::Trajectory']]],
   ['addspritetoscene',['addSpriteToScene',['../namespaceobe_1_1_editor.html#a7a755aa382b627af8881b3d2a1fc9547',1,'obe::Editor']]],
   ['addtag',['addTag',['../classobe_1_1_collision_1_1_polygonal_collider.html#a9d4533825bb04f5ed5dffc543d9aee0f',1,'obe::Collision::PolygonalCollider']]],
