@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['edit',['edit',['../classobe_1_1_modes_1_1_backend.html#adfb96c9149798a3e87c14eedd5c87142',1,'obe::Modes::Backend']]],
   ['editmap',['editMap',['../namespaceobe_1_1_editor.html#a9009207671e71dccb68a31ea2362e9ef',1,'obe::Editor']]],
   ['editorbindings_2ecpp',['EditorBindings.cpp',['../_editor_bindings_8cpp.html',1,'']]],
   ['editorbindings_2ehpp',['EditorBindings.hpp',['../_editor_bindings_8hpp.html',1,'']]],
