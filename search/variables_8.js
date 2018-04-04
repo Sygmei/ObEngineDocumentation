@@ -26,6 +26,7 @@ var searchData=
   ['m_5ftrigger',['m_trigger',['../classobe_1_1_triggers_1_1_trigger_delay.html#aa36c29178dc08f7a0dd7a19aafe98976',1,'obe::Triggers::TriggerDelay']]],
   ['m_5ftype',['m_type',['../classobe_1_1_transform_1_1_movable.html#ae764cdb31b5ca997bfa851af416fb986',1,'obe::Transform::Movable']]],
   ['m_5funit',['m_unit',['../classobe_1_1_transform_1_1_unit_based_object.html#af22835633e9b86b66944519534cf98fd',1,'obe::Transform::UnitBasedObject']]],
+  ['m_5fwindow',['m_window',['../classobe_1_1_backend_1_1_backend.html#a52a977d1e4ffd492861c7e2bf604f34c',1,'obe::Backend::Backend']]],
   ['mainwindow',['MainWindow',['../namespaceobe_1_1_system.html#ac2f771828cabf8887967c464a487d4bc',1,'obe::System']]],
   ['monitors',['Monitors',['../namespaceobe_1_1_input_1_1_monitors.html#ad2179eb9616449f58fdeacbc2b75eb29',1,'obe::Input::Monitors']]],
   ['mountedpaths',['MountedPaths',['../classobe_1_1_system_1_1_path.html#ad9c643d62eb00ab5b79d07d2215a919a',1,'obe::System::Path']]],

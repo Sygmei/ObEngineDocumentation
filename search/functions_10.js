@@ -7,6 +7,7 @@ var searchData=
   ['referencialtostring',['referencialToString',['../namespaceobe_1_1_transform.html#a3b7172a1c9bd7266c8997af31dc78f6e',1,'obe::Transform']]],
   ['registerenvironment',['registerEnvironment',['../classobe_1_1_triggers_1_1_trigger.html#ac5f3cf098ffcdcd75a5b9f82c80a57c5',1,'obe::Triggers::Trigger']]],
   ['registertrigger',['registerTrigger',['../classobe_1_1_script_1_1_game_object.html#a094b1d46c481585d1a3e1aa14788e2ff',1,'obe::Script::GameObject']]],
+  ['registertypes',['RegisterTypes',['../namespaceobe_1_1_backend.html#adab1aa09508050682a62bc03653739e6',1,'obe::Backend']]],
   ['registrable',['Registrable',['../classobe_1_1_types_1_1_registrable.html#ae14c810b245c7d6c6eef267e40190bc6',1,'obe::Types::Registrable']]],
   ['reload',['reload',['../classobe_1_1_scene_1_1_scene.html#a45391196be11a436e66660da0b194e45',1,'obe::Scene::Scene::reload()'],['../classobe_1_1_scene_1_1_scene.html#ac82833100cde525ec968595687ddd78d',1,'obe::Scene::Scene::reload(kaguya::LuaFunction callback)']]],
   ['remove',['remove',['../classobe_1_1_component_1_1_component_base.html#a5a0bbfb363a1f3320cfd4fa00daf3239',1,'obe::Component::ComponentBase::remove()'],['../classobe_1_1_component_1_1_component.html#a8ae3e20aeecf8cd91f180793b4b97e02',1,'obe::Component::Component::remove()'],['../classobe_1_1_graphics_1_1_canvas_1_1_canvas.html#a7e3705c190a0ef6b79f5ba4e08c44eef',1,'obe::Graphics::Canvas::Canvas::remove()'],['../classobe_1_1_scene_1_1_t_x_scene.html#a4b07e1e0d9cd023747e95799ecdaf972',1,'obe::Scene::TXScene::remove()']]],

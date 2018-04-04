@@ -14,6 +14,7 @@ var searchData=
   ['referencialtostring',['referencialToString',['../namespaceobe_1_1_transform.html#a3b7172a1c9bd7266c8997af31dc78f6e',1,'obe::Transform']]],
   ['registerenvironment',['registerEnvironment',['../classobe_1_1_triggers_1_1_trigger.html#ac5f3cf098ffcdcd75a5b9f82c80a57c5',1,'obe::Triggers::Trigger']]],
   ['registertrigger',['registerTrigger',['../classobe_1_1_script_1_1_game_object.html#a094b1d46c481585d1a3e1aa14788e2ff',1,'obe::Script::GameObject']]],
+  ['registertypes',['RegisterTypes',['../namespaceobe_1_1_backend.html#adab1aa09508050682a62bc03653739e6',1,'obe::Backend']]],
   ['registrable',['Registrable',['../classobe_1_1_types_1_1_registrable.html',1,'obe::Types::Registrable&lt; T &gt;'],['../classobe_1_1_types_1_1_registrable.html#ae14c810b245c7d6c6eef267e40190bc6',1,'obe::Types::Registrable::Registrable()']]],
   ['registrable_2ehpp',['Registrable.hpp',['../_registrable_8hpp.html',1,'']]],
   ['registrable_3c_20console_20_3e',['Registrable&lt; Console &gt;',['../classobe_1_1_types_1_1_registrable.html',1,'obe::Types']]],
