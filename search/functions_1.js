@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['backend',['Backend',['../classobe_1_1_modes_1_1_backend.html#a24f8f0d6a6cdd2ab8aa6c5a958cc637a',1,'obe::Modes::Backend']]],
   ['bindingtree',['BindingTree',['../classobe_1_1_bindings_1_1_binding_tree.html#a301292615bf6d604b51cb9fc6eb9b2ef',1,'obe::Bindings::BindingTree::BindingTree(BindingTree *parent, const std::string &amp;id, std::function&lt; void(kaguya::State *)&gt; lib)'],['../classobe_1_1_bindings_1_1_binding_tree.html#adcc05dd9bfb246cf6a4bad56f535b03c',1,'obe::Bindings::BindingTree::BindingTree(BindingTree *parent, const std::string &amp;id)'],['../classobe_1_1_bindings_1_1_binding_tree.html#a2b540e53c23943b63cb5b0dc65830972',1,'obe::Bindings::BindingTree::BindingTree(const std::string &amp;id)']]],
   ['bindtree',['BindTree',['../namespaceobe_1_1_bindings.html#a3ea220e1301ad164d5e64d5a15416571',1,'obe::Bindings']]],
   ['build',['build',['../classobe_1_1_animation_1_1_animation_group.html#a18b3fb4215633d458e343ca9ed60d00e',1,'obe::Animation::AnimationGroup']]],

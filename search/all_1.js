@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['backend',['Backend',['../classobe_1_1_modes_1_1_backend.html',1,'obe::Modes::Backend'],['../classobe_1_1_modes_1_1_backend.html#a24f8f0d6a6cdd2ab8aa6c5a958cc637a',1,'obe::Modes::Backend::Backend()']]],
   ['basepath',['basePath',['../classobe_1_1_system_1_1_mountable_path.html#af1a76cd5e86c3672e5b30308572beb6b',1,'obe::System::MountablePath']]],
   ['basetheme',['baseTheme',['../namespaceobe_1_1_editor_1_1_g_u_i.html#a472cb05867b179b615c0e524764f892b',1,'obe::Editor::GUI']]],
   ['bindings_2ecpp',['Bindings.cpp',['../_core_2_bindings_2_bindings_8cpp.html',1,'(Global Namespace)'],['../_dev_2_bindings_2_bindings_8cpp.html',1,'(Global Namespace)'],['../_player_2_bindings_2_bindings_8cpp.html',1,'(Global Namespace)']]],
