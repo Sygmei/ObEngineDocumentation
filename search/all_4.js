@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['edit',['edit',['../classobe_1_1_modes_1_1_backend.html#adfb96c9149798a3e87c14eedd5c87142',1,'obe::Modes::Backend']]],
+  ['edit',['edit',['../classobe_1_1_modes_1_1_backend.html#af46aad3e0cfb0cfb3213622ebae92c3a',1,'obe::Modes::Backend::edit()'],['../namespaceobe_1_1_modes.html#a6553cfb137c98b527216c977f617a890a7dce122004969d56ae2e0245cb754d35',1,'obe::Modes::Edit()']]],
   ['editmap',['editMap',['../namespaceobe_1_1_editor.html#a9009207671e71dccb68a31ea2362e9ef',1,'obe::Editor']]],
   ['editorbindings_2ecpp',['EditorBindings.cpp',['../_editor_bindings_8cpp.html',1,'']]],
   ['editorbindings_2ehpp',['EditorBindings.hpp',['../_editor_bindings_8hpp.html',1,'']]],

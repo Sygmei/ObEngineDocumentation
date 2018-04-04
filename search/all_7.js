@@ -7,6 +7,7 @@ var searchData=
   ['hasmasterpoint',['hasMasterPoint',['../classobe_1_1_collision_1_1_polygonal_collider.html#a7039fec00f5c7ecb09115035901a8fb9',1,'obe::Collision::PolygonalCollider']]],
   ['haspoint',['hasPoint',['../classobe_1_1_collision_1_1_polygonal_collider.html#a5887cd5cf578810d59095ba09a7ace72',1,'obe::Collision::PolygonalCollider']]],
   ['hasshader',['hasShader',['../classobe_1_1_graphics_1_1_level_sprite.html#ab752942de4930535e45234bf15193de6',1,'obe::Graphics::LevelSprite']]],
+  ['help',['Help',['../namespaceobe_1_1_modes.html#a6553cfb137c98b527216c977f617a890a6a26f548831e6a8c26bfbbd9f6ec61e0',1,'obe::Modes']]],
   ['hide',['hide',['../classobe_1_1_system_1_1_cursor.html#a63ca00e5e23dc7854d6eb1e9e651b931',1,'obe::System::Cursor']]],
   ['highlightline',['highlightLine',['../classobe_1_1_collision_1_1_polygonal_collider.html#ac19d98c42e5b577d9644b1f724049803',1,'obe::Collision::PolygonalCollider']]],
   ['highlightpoint',['highlightPoint',['../classobe_1_1_collision_1_1_polygonal_collider.html#a15d9b0d0a35bdf86dac02c6612af8219',1,'obe::Collision::PolygonalCollider']]],
