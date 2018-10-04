@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['m_5fangle',['m_angle',['../classobe_1_1_transform_1_1_rect.html#a8061139cbbdcde254c9d59d61c64cd07',1,'obe::Transform::Rect']]],
+  ['m_5fangle',['m_angle',['../classobe_1_1_transform_1_1_polygon.html#a0dbb0db041c00f4efe1fdde60fe9e147',1,'obe::Transform::Polygon::m_angle()'],['../classobe_1_1_transform_1_1_rect.html#a8061139cbbdcde254c9d59d61c64cd07',1,'obe::Transform::Rect::m_angle()']]],
   ['m_5fbackgroundcolorcached',['m_backgroundColorCached',['../classtgui_1_1_toolkit_content_box.html#a91e50864539df21f1b1bb0dcb6f49b3a',1,'tgui::ToolkitContentBox']]],
   ['m_5fbordercolorcached',['m_borderColorCached',['../classtgui_1_1_toolkit_content_box.html#ab4adaf86acd2a4ea26b2faed025c1dee',1,'tgui::ToolkitContentBox']]],
   ['m_5fborderscached',['m_bordersCached',['../classtgui_1_1_toolkit_content_box.html#ade99eb2144316bf7751667f7e4bb4e40',1,'tgui::ToolkitContentBox']]],
@@ -16,6 +16,7 @@ var searchData=
   ['m_5fmaxlines',['m_maxLines',['../classtgui_1_1_toolkit_content_box.html#a97508a63f77b71d7dd63e034cd1c5a8a',1,'tgui::ToolkitContentBox']]],
   ['m_5fnewlinesbelowothers',['m_newLinesBelowOthers',['../classtgui_1_1_toolkit_content_box.html#a9c4c328a59531dc0254520f111b5045d',1,'tgui::ToolkitContentBox']]],
   ['m_5fpaddingcached',['m_paddingCached',['../classtgui_1_1_toolkit_content_box.html#a4539dc381d112c1595371df6f1b96f5a',1,'tgui::ToolkitContentBox']]],
+  ['m_5fpoints',['m_points',['../classobe_1_1_transform_1_1_polygon.html#a9730a2b509940ccb23bb23b082f96e99',1,'obe::Transform::Polygon']]],
   ['m_5fposition',['m_position',['../classobe_1_1_transform_1_1_movable.html#a399fa7096b3ffae13d4f14877a384d95',1,'obe::Transform::Movable']]],
   ['m_5fscroll',['m_scroll',['../classtgui_1_1_toolkit_content_box.html#a2d65844a6c742ebf49ec4b56f97a1032',1,'tgui::ToolkitContentBox']]],
   ['m_5fselected',['m_selected',['../classobe_1_1_types_1_1_selectable.html#a545d01e57ca0e206b09be64e6aba7842',1,'obe::Types::Selectable']]],
@@ -26,8 +27,7 @@ var searchData=
   ['m_5ftrigger',['m_trigger',['../classobe_1_1_triggers_1_1_trigger_delay.html#aa36c29178dc08f7a0dd7a19aafe98976',1,'obe::Triggers::TriggerDelay']]],
   ['m_5ftype',['m_type',['../classobe_1_1_transform_1_1_movable.html#ae764cdb31b5ca997bfa851af416fb986',1,'obe::Transform::Movable']]],
   ['m_5funit',['m_unit',['../classobe_1_1_transform_1_1_unit_based_object.html#af22835633e9b86b66944519534cf98fd',1,'obe::Transform::UnitBasedObject']]],
-  ['m_5fwindow',['m_window',['../classobe_1_1_backend_1_1_backend.html#a52a977d1e4ffd492861c7e2bf604f34c',1,'obe::Backend::Backend']]],
-  ['mainwindow',['MainWindow',['../namespaceobe_1_1_system.html#ac2f771828cabf8887967c464a487d4bc',1,'obe::System']]],
+  ['mainwindow',['MainWindow',['../namespaceobe_1_1_system.html#a19853aa1bf22b5b145e8c7bfdbe79c8b',1,'obe::System']]],
   ['monitors',['Monitors',['../namespaceobe_1_1_input_1_1_monitors.html#ad2179eb9616449f58fdeacbc2b75eb29',1,'obe::Input::Monitors']]],
   ['mountedpaths',['MountedPaths',['../classobe_1_1_system_1_1_path.html#ad9c643d62eb00ab5b79d07d2215a919a',1,'obe::System::Path']]],
   ['musicloader',['musicLoader',['../namespaceobe_1_1_system_1_1_loaders.html#ab8e1c2d45d0f7572a9d819b44e9208cd',1,'obe::System::Loaders']]]

@@ -73,8 +73,10 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;algorithm&gt;</code><br />
+<code>#include &lt;<a class="el" href="_logger_8hpp_source.html">Debug/Logger.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_input_button_monitor_8hpp_source.html">Input/InputButtonMonitor.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_key_list_8hpp_source.html">Input/KeyList.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_trigger_database_8hpp_source.html">Triggers/TriggerDatabase.hpp</a>&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -87,12 +89,14 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a23b95325721ff0b452f293fb936abf9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_input.html#a23b95325721ff0b452f293fb936abf9a">obe::Input::InputButtonMonitorPtrRemover</a> (InputButtonMonitor *ptr)</td></tr>
+<tr class="separator:a23b95325721ff0b452f293fb936abf9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22df5919d920ce83f6f31322e3d6133e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_input_1_1_monitors.html#a22df5919d920ce83f6f31322e3d6133e">obe::Input::Monitors::UpdateMonitors</a> ()</td></tr>
 <tr class="memdesc:a22df5919d920ce83f6f31322e3d6133e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates all the <a class="el" href="classobe_1_1_input_1_1_input_button_monitor.html" title="A class to monitor and update states of an InputButton . ">InputButtonMonitor</a>.  <a href="namespaceobe_1_1_input_1_1_monitors.html#a22df5919d920ce83f6f31322e3d6133e">More...</a><br /></td></tr>
 <tr class="separator:a22df5919d920ce83f6f31322e3d6133e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36b65f192edd65eaca09799ff1401d8f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_input_1_1_monitors.html#a36b65f192edd65eaca09799ff1401d8f">obe::Input::Monitors::UpdateMonitorsAndRemoveIfNoReferences</a> (const std::unique_ptr&lt; InputButtonMonitor &gt; &amp;element)</td></tr>
-<tr class="memdesc:a36b65f192edd65eaca09799ff1401d8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the <a class="el" href="classobe_1_1_input_1_1_input_button_monitor.html" title="A class to monitor and update states of an InputButton . ">InputButtonMonitor</a> or returns true if it has no more references to them.  <a href="namespaceobe_1_1_input_1_1_monitors.html#a36b65f192edd65eaca09799ff1401d8f">More...</a><br /></td></tr>
-<tr class="separator:a36b65f192edd65eaca09799ff1401d8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65ee1e95b9ef07b02e1a11970f939040"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_input_1_1_monitors.html#a65ee1e95b9ef07b02e1a11970f939040">obe::Input::Monitors::UpdateMonitorsAndRemoveIfNotRemoved</a> (const std::unique_ptr&lt; InputButtonMonitor &gt; &amp;element)</td></tr>
+<tr class="memdesc:a65ee1e95b9ef07b02e1a11970f939040"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the <a class="el" href="classobe_1_1_input_1_1_input_button_monitor.html" title="A class to monitor and update states of an InputButton . ">InputButtonMonitor</a> or returns true if it has no more references to them.  <a href="namespaceobe_1_1_input_1_1_monitors.html#a65ee1e95b9ef07b02e1a11970f939040">More...</a><br /></td></tr>
+<tr class="separator:a65ee1e95b9ef07b02e1a11970f939040"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8cf77046480316d0739eb92ebd3a3dec"><td class="memItemLeft" align="right" valign="top">InputButtonMonitorPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_input_1_1_monitors.html#a8cf77046480316d0739eb92ebd3a3dec">obe::Input::Monitors::Monitor</a> (const std::string &amp;buttonId)</td></tr>
 <tr class="memdesc:a8cf77046480316d0739eb92ebd3a3dec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new <a class="el" href="classobe_1_1_input_1_1_input_button_monitor.html" title="A class to monitor and update states of an InputButton . ">InputButtonMonitor</a> from an <a class="el" href="classobe_1_1_input_1_1_input_button.html" title="Class that does represent an Input button . ">InputButton</a> id.  <a href="namespaceobe_1_1_input_1_1_monitors.html#a8cf77046480316d0739eb92ebd3a3dec">More...</a><br /></td></tr>
 <tr class="separator:a8cf77046480316d0739eb92ebd3a3dec"><td class="memSeparator" colspan="2">&#160;</td></tr>

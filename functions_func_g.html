@@ -71,13 +71,13 @@ $(function() {
 : <a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas.html#aa2dc409a05078cd955778efa053b00b6">obe::Graphics::Canvas::Canvas</a>
 , <a class="el" href="classobe_1_1_scene_1_1_capsule.html#a1e1f35c4cac9284f369dbaf6823fc88a">obe::Scene::Capsule</a>
 , <a class="el" href="classobe_1_1_scene_1_1_t_x_scene.html#ae2fef53cd5ecd48706f0bd28b8b546c3">obe::Scene::TXScene</a>
+, <a class="el" href="classobe_1_1_transform_1_1_polygon.html#ad64b7c3eb99c8e6a58ec0e3c4f648700">obe::Transform::Polygon</a>
 </li>
 <li>getAcceleration()
 : <a class="el" href="classobe_1_1_collision_1_1_trajectory.html#a80bf0a63edca7a7aece84c4fbb85be1f">obe::Collision::Trajectory</a>
 </li>
 <li>getAction()
-: <a class="el" href="classobe_1_1_backend_1_1_menu_backend.html#a320f891b0939e30609fc62cf82e0789d">obe::Backend::MenuBackend</a>
-, <a class="el" href="classobe_1_1_input_1_1_input_action_event.html#ac4552ac99c980256879966c8180be7b1">obe::Input::InputActionEvent</a>
+: <a class="el" href="classobe_1_1_input_1_1_input_action_event.html#ac4552ac99c980256879966c8180be7b1">obe::Input::InputActionEvent</a>
 , <a class="el" href="classobe_1_1_input_1_1_input_manager.html#a60ebf274d7e9dac67f6221e3b6e4db6b">obe::Input::InputManager</a>
 </li>
 <li>getAll()
@@ -99,7 +99,7 @@ $(function() {
 : <a class="el" href="classobe_1_1_scene_1_1_scene.html#a19910f310756dc863074a6668c3fd220">obe::Scene::Scene</a>
 </li>
 <li>getAllPoints()
-: <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#aa71ad8ce8dc36a5858280c7b834c0c67">obe::Collision::PolygonalCollider</a>
+: <a class="el" href="classobe_1_1_transform_1_1_polygon.html#a45d1ed96692ef31981222c600f30224b">obe::Transform::Polygon</a>
 </li>
 <li>getAllTags()
 : <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#ab00569a98c8d2f5c106983f04f61a9ac">obe::Collision::PolygonalCollider</a>
@@ -118,6 +118,7 @@ $(function() {
 </li>
 <li>getAngle()
 : <a class="el" href="classobe_1_1_collision_1_1_trajectory.html#a487994f51b870a2dc24038814e936192">obe::Collision::Trajectory</a>
+, <a class="el" href="classobe_1_1_transform_1_1_polygon_segment.html#abfeabcab5b6642b7b78ed0252cc5b7e7">obe::Transform::PolygonSegment</a>
 </li>
 <li>getAnimation()
 : <a class="el" href="classobe_1_1_animation_1_1_animator.html#a6dc4d7317a42647f9353c48d66f2c9d0">obe::Animation::Animator</a>
@@ -151,7 +152,6 @@ $(function() {
 </li>
 <li>getButton()
 : <a class="el" href="classobe_1_1_input_1_1_input_button_monitor.html#a8a90f9d8a114ab36414f0ed127eaa224">obe::Input::InputButtonMonitor</a>
-, <a class="el" href="classobe_1_1_input_1_1_input_button_monitor_ptr.html#ab973f51eb368f64f97c0340c425b1de8">obe::Input::InputButtonMonitorPtr</a>
 </li>
 <li>getCalledAnimation()
 : <a class="el" href="classobe_1_1_animation_1_1_animation.html#af197b177144ff76951ff7fb8745b5e44">obe::Animation::Animation</a>
@@ -164,6 +164,9 @@ $(function() {
 </li>
 <li>getCellWidth()
 : <a class="el" href="classobe_1_1_editor_1_1_editor_grid.html#a8afeb104eae2d2d4fff69b56ac94f0eb">obe::Editor::EditorGrid</a>
+</li>
+<li>getCentroid()
+: <a class="el" href="classobe_1_1_transform_1_1_polygon.html#ab6944f203c0bdb3ee9f8db05b669972a">obe::Transform::Polygon</a>
 </li>
 <li>getChecks()
 : <a class="el" href="classobe_1_1_collision_1_1_trajectory.html#ad648e7b0963c7824c56593047e5ac732">obe::Collision::Trajectory</a>
@@ -220,12 +223,6 @@ $(function() {
 </li>
 <li>getDeltaTime()
 : <a class="el" href="classobe_1_1_time_1_1_framerate_manager.html#a1798358805b4a9334be7edc2b700c459">obe::Time::FramerateManager</a>
-</li>
-<li>getDistanceFromPoint()
-: <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#abbe4cd7b2b2f4df12172277cfe21ed84">obe::Collision::PolygonalCollider</a>
-</li>
-<li>getDrawPosition()
-: <a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html#a39c4d8649567436efffd7b7fe1c0c163">obe::Graphics::LevelSprite</a>
 </li>
 <li>getDuration()
 : <a class="el" href="classobe_1_1_sound_1_1_music_wrapper.html#a0e2f55f83b7ccc651fb5bb79eeac7200">obe::Sound::MusicWrapper</a>
@@ -298,6 +295,9 @@ $(function() {
 <li>getLayer()
 : <a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html#a17f6b8de91d5e6f8c04ce2d59c5dd37d">obe::Graphics::LevelSprite</a>
 </li>
+<li>getLength()
+: <a class="el" href="classobe_1_1_transform_1_1_polygon_segment.html#a2baf29d56f75adbd7c70b90f3b05b3d0">obe::Transform::PolygonSegment</a>
+</li>
 <li>getLevelFile()
 : <a class="el" href="classobe_1_1_scene_1_1_scene.html#ab49de4277dbc50ca944f833047463ae0">obe::Scene::Scene</a>
 </li>
@@ -340,9 +340,6 @@ $(function() {
 </li>
 <li>getLocalTriggers()
 : <a class="el" href="classobe_1_1_script_1_1_game_object.html#a06fb9ce4d34078fe1368e945c7b8521e">obe::Script::GameObject</a>
-</li>
-<li>getMasterPointPosition()
-: <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a98dc8b2400f9e7acbe31f2b5cca990b8">obe::Collision::PolygonalCollider</a>
 </li>
 <li>getMaximumDistanceBeforeCollision()
 : <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a854283780bf3c431f2b7d7413881829e">obe::Collision::PolygonalCollider</a>
@@ -392,23 +389,20 @@ $(function() {
 : <a class="el" href="classobe_1_1_sound_1_1_music_wrapper.html#a69eeb988b70b930f23762c7de760dca7">obe::Sound::MusicWrapper</a>
 , <a class="el" href="classobe_1_1_sound_1_1_sound_wrapper.html#a5358f1c8e9163475c3478bd09a40dc7c">obe::Sound::SoundWrapper</a>
 </li>
-<li>getPointPosition()
-: <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#ae68d40d727b5358ba0e1c336c24f33cb">obe::Collision::PolygonalCollider</a>
-</li>
-<li>getPointRelativePosition()
-: <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a37bdda015d1fe37cfb71df2ca0f725bf">obe::Collision::PolygonalCollider</a>
+<li>getPointAroundPosition()
+: <a class="el" href="classobe_1_1_transform_1_1_polygon.html#a75abd662f2362c4baef14c25c580f7a8">obe::Transform::Polygon</a>
 </li>
 <li>getPointsAmount()
-: <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a15dc2ae45baeab969c9081d09e7ae2be">obe::Collision::PolygonalCollider</a>
+: <a class="el" href="classobe_1_1_transform_1_1_polygon.html#a70ba20d490fd5d1c80a43399d182feba">obe::Transform::Polygon</a>
 </li>
 <li>getPosition()
-: <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a834f25abacef89dd68467d3073d432a6">obe::Collision::PolygonalCollider</a>
-, <a class="el" href="classobe_1_1_scene_1_1_camera.html#a43542cb41b1f59d2a40a7af458eec13a">obe::Scene::Camera</a>
+: <a class="el" href="classobe_1_1_scene_1_1_camera.html#a43542cb41b1f59d2a40a7af458eec13a">obe::Scene::Camera</a>
 , <a class="el" href="classobe_1_1_sound_1_1_music_wrapper.html#a100cae1c92ae48968a352cb735373474">obe::Sound::MusicWrapper</a>
 , <a class="el" href="classobe_1_1_sound_1_1_sound_wrapper.html#a95a0ff0b38a6b6ecaba0a0f741755d31">obe::Sound::SoundWrapper</a>
 , <a class="el" href="classobe_1_1_system_1_1_cursor.html#ad9d9dff661571bfec81369c152f47bd5">obe::System::Cursor</a>
 , <a class="el" href="classobe_1_1_transform_1_1_movable.html#a5ceef9dcdc75f05f0b89173030dbd7c2">obe::Transform::Movable</a>
-, <a class="el" href="classobe_1_1_transform_1_1_rect.html#a26b2285e7cffd9f3ae5dfaff9b7d4fe4">obe::Transform::Rect</a>
+, <a class="el" href="classobe_1_1_transform_1_1_polygon.html#a638f94e00961bf3dcbb2ea9c17a3bda5">obe::Transform::Polygon</a>
+, <a class="el" href="classobe_1_1_transform_1_1_rect.html#a6ef0a95b54dbeee64f332ed945d82e48">obe::Transform::Rect</a>
 </li>
 <li>getPositionTransformer()
 : <a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html#af17db6830025a135bb954cb40704214b">obe::Graphics::LevelSprite</a>
@@ -420,11 +414,11 @@ $(function() {
 : <a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html#ae9360cafba2f2d623a09ca74e1394ef3">obe::Graphics::LevelSprite</a>
 , <a class="el" href="classobe_1_1_graphics_1_1_level_sprite_handle_point.html#ae155cc80c47d48d1e849d8808d255673">obe::Graphics::LevelSpriteHandlePoint</a>
 </li>
-<li>getReferences()
-: <a class="el" href="classobe_1_1_input_1_1_input_button_monitor.html#a43467123f8363aa7be16873216a695cd">obe::Input::InputButtonMonitor</a>
-</li>
 <li>getReferencial()
 : <a class="el" href="classobe_1_1_graphics_1_1_level_sprite_handle_point.html#a138958d35d02f440d37aae8282c1f453">obe::Graphics::LevelSpriteHandlePoint</a>
+</li>
+<li>getRelativePosition()
+: <a class="el" href="classobe_1_1_transform_1_1_polygon_point.html#a37a774da9a68c7e042918d9346b15c3e">obe::Transform::PolygonPoint</a>
 </li>
 <li>getRenderer()
 : <a class="el" href="classtgui_1_1_toolkit_content_box.html#abe309614d2505e1d9447a05835d1264e">tgui::ToolkitContentBox</a>
@@ -436,7 +430,7 @@ $(function() {
 : <a class="el" href="classobe_1_1_script_1_1_game_object_database.html#a731774150034a4d3fcf35a12b4c4484c">obe::Script::GameObjectDatabase</a>
 </li>
 <li>getRotation()
-: <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a9edb9ab58573a3ccade3fb2840d02e94">obe::Collision::PolygonalCollider</a>
+: <a class="el" href="classobe_1_1_transform_1_1_polygon.html#a42007b749fb615cc2f58b183a184c68c">obe::Transform::Polygon</a>
 , <a class="el" href="classobe_1_1_transform_1_1_rect.html#a966ebc6e484d8e91ac90fbd1f7cbdf3a">obe::Transform::Rect</a>
 </li>
 <li>getScaleFactor()
@@ -449,20 +443,18 @@ $(function() {
 <li>getSceneRootNode()
 : <a class="el" href="classobe_1_1_scene_1_1_scene.html#a0052434784c5d8d2e5bd941b3dcf0cf5">obe::Scene::Scene</a>
 </li>
+<li>getSegment()
+: <a class="el" href="classobe_1_1_transform_1_1_polygon.html#a304f9b55cbd65b57fb3f9f769dfa5d7e">obe::Transform::Polygon</a>
+</li>
+<li>getSegmentContainingPoint()
+: <a class="el" href="classobe_1_1_transform_1_1_polygon.html#a686c112e6c2ff04419b8d175bfe394d6">obe::Transform::Polygon</a>
+</li>
 <li>getShader()
 : <a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html#a0e7a7f678df97562230286804a2fdd04">obe::Graphics::LevelSprite</a>
 </li>
-<li>getSideAngle()
-: <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a2f952842bdac49eec3cff1c065cfe167">obe::Collision::PolygonalCollider</a>
-</li>
-<li>getSideContainingPoint()
-: <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#abab327ea19bcbd89e69c4d847d2c8e18">obe::Collision::PolygonalCollider</a>
-</li>
-<li>getSideLength()
-: <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a28b2542f519ba0eafd8d6079d9788883">obe::Collision::PolygonalCollider</a>
-</li>
 <li>getSize()
 : <a class="el" href="classobe_1_1_scene_1_1_camera.html#a8454e6bd095439f452eb5a34a21b056f">obe::Scene::Camera</a>
+, <a class="el" href="classobe_1_1_system_1_1_window.html#a3439840a2f0dbe1c9a620a024eca0d92">obe::System::Window</a>
 , <a class="el" href="classobe_1_1_transform_1_1_rect.html#aa630a559b5e5fe768320972598f32dd6">obe::Transform::Rect</a>
 </li>
 <li>getSpatialAttenuation()
@@ -493,7 +485,6 @@ $(function() {
 </li>
 <li>getState()
 : <a class="el" href="classobe_1_1_input_1_1_input_button_monitor.html#a08e84d3867cec07b772ecdbb2cf0924f">obe::Input::InputButtonMonitor</a>
-, <a class="el" href="classobe_1_1_input_1_1_input_button_monitor_ptr.html#af42a8a955737d6e3391daf2cdca89f1a">obe::Input::InputButtonMonitorPtr</a>
 , <a class="el" href="classobe_1_1_triggers_1_1_trigger.html#a6df08cc4580f11813907206a3e8b8f89">obe::Triggers::Trigger</a>
 , <a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html#af0403fdce3a78e57734d04c70c0519b8">obe::Triggers::TriggerGroup</a>
 </li>
@@ -507,6 +498,9 @@ $(function() {
 <li>getStream()
 : <a class="el" href="classobe_1_1_debug_1_1_console.html#a265809aed8b4978dba0a2b0d82089dfa">obe::Debug::Console</a>
 </li>
+<li>getTarget()
+: <a class="el" href="classobe_1_1_system_1_1_window.html#aef779cafc2c4c1da480c4aa01f150d25">obe::System::Window</a>
+</li>
 <li>getText()
 : <a class="el" href="classobe_1_1_debug_1_1_console_message.html#a8d3bfd396856708f30a10e98d0c3afbc">obe::Debug::ConsoleMessage</a>
 </li>
@@ -519,12 +513,15 @@ $(function() {
 <li>getTexture()
 : <a class="el" href="classobe_1_1_animation_1_1_animation.html#a42881a9b7928324532448d43571d7771">obe::Animation::Animation</a>
 , <a class="el" href="classobe_1_1_animation_1_1_animation_group.html#a4b675ef1c0c2354dd7e5b1c59493460a">obe::Animation::AnimationGroup</a>
-, <a class="el" href="classobe_1_1_animation_1_1_animator.html#ada6c0858d3fd693de9ae05350f56ef23">obe::Animation::Animator</a>
+, <a class="el" href="classobe_1_1_animation_1_1_animator.html#ad630b732fe772dd7e9ce5abf2ec77364">obe::Animation::Animator</a>
 , <a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas.html#a8a2f4cd04ba5b60875423d1ec4df6ac6">obe::Graphics::Canvas::Canvas</a>
 , <a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html#ad5a6578cd48c9c0270e67c9d50a2fa8d">obe::Graphics::LevelSprite</a>
 </li>
 <li>GetTexture()
 : <a class="el" href="classobe_1_1_graphics_1_1_resource_manager.html#a4435d91081efd45f537e37dac36705eb">obe::Graphics::ResourceManager</a>
+</li>
+<li>getTexture()
+: <a class="el" href="classobe_1_1_system_1_1_window.html#a01b9a94bdd4f5461435065a141336d80">obe::System::Window</a>
 </li>
 <li>getTextureAtIndex()
 : <a class="el" href="classobe_1_1_animation_1_1_animation.html#ac77e3e72abc60c235ec6052387d74d26">obe::Animation::Animation</a>
@@ -560,6 +557,9 @@ $(function() {
 <li>getVolume()
 : <a class="el" href="classobe_1_1_sound_1_1_music_wrapper.html#a2e92d18b3cdd7b73dbb888d3c79023db">obe::Sound::MusicWrapper</a>
 , <a class="el" href="classobe_1_1_sound_1_1_sound_wrapper.html#aa0b74529f11ff0db9f3de7d18ff35acb">obe::Sound::SoundWrapper</a>
+</li>
+<li>getWindow()
+: <a class="el" href="classobe_1_1_system_1_1_window.html#a9603e76ea52ddbb604d8004ba6b5de55">obe::System::Window</a>
 </li>
 <li>getWorkingUnit()
 : <a class="el" href="classobe_1_1_transform_1_1_unit_based_object.html#ac71b7b90e0f6621d055f30e14c636212">obe::Transform::UnitBasedObject</a>

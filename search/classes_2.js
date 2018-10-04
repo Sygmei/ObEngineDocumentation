@@ -3,6 +3,7 @@ var searchData=
   ['camera',['Camera',['../classobe_1_1_scene_1_1_camera.html',1,'obe::Scene']]],
   ['canvas',['Canvas',['../classobe_1_1_graphics_1_1_canvas_1_1_canvas.html',1,'obe::Graphics::Canvas']]],
   ['canvaselement',['CanvasElement',['../classobe_1_1_graphics_1_1_canvas_1_1_canvas_element.html',1,'obe::Graphics::Canvas']]],
+  ['canvaspositionable',['CanvasPositionable',['../classobe_1_1_graphics_1_1_canvas_1_1_canvas_positionable.html',1,'obe::Graphics::Canvas']]],
   ['capsule',['Capsule',['../classobe_1_1_scene_1_1_capsule.html',1,'obe::Scene']]],
   ['chronometer',['Chronometer',['../classobe_1_1_time_1_1_chronometer.html',1,'obe::Time']]],
   ['circle',['Circle',['../classobe_1_1_graphics_1_1_canvas_1_1_circle.html',1,'obe::Graphics::Canvas']]],

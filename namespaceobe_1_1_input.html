@@ -100,9 +100,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_input_button_monitor.html">InputButtonMonitor</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to monitor and update states of an <a class="el" href="classobe_1_1_input_1_1_input_button.html" title="Class that does represent an Input button . ">InputButton</a> .  <a href="classobe_1_1_input_1_1_input_button_monitor.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_input_button_monitor_ptr.html">InputButtonMonitorPtr</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to get the states determined by <a class="el" href="classobe_1_1_input_1_1_input_button_monitor.html" title="A class to monitor and update states of an InputButton . ">InputButtonMonitor</a> .  <a href="classobe_1_1_input_1_1_input_button_monitor_ptr.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_input_condition.html">InputCondition</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class represented the required conditions to trigger an <a class="el" href="classobe_1_1_input_1_1_input_action.html" title="Action triggered by one or more Keyboard key(s) . ">InputAction</a> .  <a href="classobe_1_1_input_1_1_input_condition.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -115,7 +112,9 @@ Typedefs</h2></td></tr>
 <tr class="memitem:abc0d0939803fd4c439fe676059513ef2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_input.html#abc0d0939803fd4c439fe676059513ef2">ActionCallback</a> = std::function&lt; void(const <a class="el" href="classobe_1_1_input_1_1_input_action_event.html">InputActionEvent</a> &amp;event)&gt;</td></tr>
 <tr class="memdesc:abc0d0939803fd4c439fe676059513ef2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function callback type for KeyboardAction.  <a href="#abc0d0939803fd4c439fe676059513ef2">More...</a><br /></td></tr>
 <tr class="separator:abc0d0939803fd4c439fe676059513ef2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1138c2d907ef4686a623304d91d1e7b9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_input.html#a1138c2d907ef4686a623304d91d1e7b9">InputCombinationElement</a> = std::pair&lt; <a class="el" href="classobe_1_1_input_1_1_input_button_monitor_ptr.html">InputButtonMonitorPtr</a>, std::vector&lt; <a class="el" href="namespaceobe_1_1_input.html#a7c34dc018f96813bc8b63f4c9c6cbc47">InputButtonState</a> &gt; &gt;</td></tr>
+<tr class="memitem:a6510f2b64040e95dc8ae130d9f798e4e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_input.html#a6510f2b64040e95dc8ae130d9f798e4e">InputButtonMonitorPtr</a> = std::shared_ptr&lt; <a class="el" href="classobe_1_1_input_1_1_input_button_monitor.html">InputButtonMonitor</a> &gt;</td></tr>
+<tr class="separator:a6510f2b64040e95dc8ae130d9f798e4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1138c2d907ef4686a623304d91d1e7b9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_input.html#a1138c2d907ef4686a623304d91d1e7b9">InputCombinationElement</a> = std::pair&lt; <a class="el" href="namespaceobe_1_1_input.html#a6510f2b64040e95dc8ae130d9f798e4e">InputButtonMonitorPtr</a>, std::vector&lt; <a class="el" href="namespaceobe_1_1_input.html#a7c34dc018f96813bc8b63f4c9c6cbc47">InputButtonState</a> &gt; &gt;</td></tr>
 <tr class="separator:a1138c2d907ef4686a623304d91d1e7b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c1842955adb692b44d0931d423fd697"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_input.html#a1c1842955adb692b44d0931d423fd697">InputCombination</a> = std::vector&lt; <a class="el" href="namespaceobe_1_1_input.html#a1138c2d907ef4686a623304d91d1e7b9">InputCombinationElement</a> &gt;</td></tr>
 <tr class="separator:a1c1842955adb692b44d0931d423fd697"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -154,6 +153,8 @@ Enumerations</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a24527a6923bdecb58fcd938b964b4c8d"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_input.html#a24527a6923bdecb58fcd938b964b4c8d">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="namespaceobe_1_1_input.html#ac5fd619fdb4ab8ab6d22c9810106ab0b">AxisCompareType</a> &amp;m)</td></tr>
 <tr class="separator:a24527a6923bdecb58fcd938b964b4c8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23b95325721ff0b452f293fb936abf9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_input.html#a23b95325721ff0b452f293fb936abf9a">InputButtonMonitorPtrRemover</a> (<a class="el" href="classobe_1_1_input_1_1_input_button_monitor.html">InputButtonMonitor</a> *ptr)</td></tr>
+<tr class="separator:a23b95325721ff0b452f293fb936abf9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a9a1045b223bb975e25e63c4977e724"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_input.html#a1a9a1045b223bb975e25e63c4977e724">inputButtonStateToString</a> (<a class="el" href="namespaceobe_1_1_input.html#a7c34dc018f96813bc8b63f4c9c6cbc47">InputButtonState</a> state)</td></tr>
 <tr class="memdesc:a1a9a1045b223bb975e25e63c4977e724"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an InputButtonState to a std::string.  <a href="#a1a9a1045b223bb975e25e63c4977e724">More...</a><br /></td></tr>
 <tr class="separator:a1a9a1045b223bb975e25e63c4977e724"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -203,6 +204,20 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a6510f2b64040e95dc8ae130d9f798e4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6510f2b64040e95dc8ae130d9f798e4e">&#9670;&nbsp;</a></span>InputButtonMonitorPtr</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceobe_1_1_input.html#a6510f2b64040e95dc8ae130d9f798e4e">obe::Input::InputButtonMonitorPtr</a> = typedef std::shared_ptr&lt;<a class="el" href="classobe_1_1_input_1_1_input_button_monitor.html">InputButtonMonitor</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1c1842955adb692b44d0931d423fd697"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1c1842955adb692b44d0931d423fd697">&#9670;&nbsp;</a></span>InputCombination</h2>
 
@@ -224,7 +239,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespaceobe_1_1_input.html#a1138c2d907ef4686a623304d91d1e7b9">obe::Input::InputCombinationElement</a> = typedef std::pair&lt;<a class="el" href="classobe_1_1_input_1_1_input_button_monitor_ptr.html">InputButtonMonitorPtr</a>, std::vector&lt;<a class="el" href="namespaceobe_1_1_input.html#a7c34dc018f96813bc8b63f4c9c6cbc47">InputButtonState</a>&gt; &gt;</td>
+          <td class="memname">using <a class="el" href="namespaceobe_1_1_input.html#a1138c2d907ef4686a623304d91d1e7b9">obe::Input::InputCombinationElement</a> = typedef std::pair&lt;<a class="el" href="namespaceobe_1_1_input.html#a6510f2b64040e95dc8ae130d9f798e4e">InputButtonMonitorPtr</a>, std::vector&lt;<a class="el" href="namespaceobe_1_1_input.html#a7c34dc018f96813bc8b63f4c9c6cbc47">InputButtonState</a>&gt; &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -400,6 +415,24 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Initialize the list of all the keys. </p>
+
+</div>
+</div>
+<a id="a23b95325721ff0b452f293fb936abf9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23b95325721ff0b452f293fb936abf9a">&#9670;&nbsp;</a></span>InputButtonMonitorPtrRemover()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::Input::InputButtonMonitorPtrRemover </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_input_1_1_input_button_monitor.html">InputButtonMonitor</a> *&#160;</td>
+          <td class="paramname"><em>ptr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

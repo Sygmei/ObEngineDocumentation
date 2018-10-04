@@ -2,7 +2,6 @@ var searchData=
 [
   ['animation',['Animation',['../namespaceobe_1_1_animation.html',1,'obe']]],
   ['animationbindings',['AnimationBindings',['../namespaceobe_1_1_bindings_1_1_animation_bindings.html',1,'obe::Bindings']]],
-  ['backend',['Backend',['../namespaceobe_1_1_backend.html',1,'obe']]],
   ['bindings',['Bindings',['../namespaceobe_1_1_bindings.html',1,'obe']]],
   ['canvas',['Canvas',['../namespaceobe_1_1_graphics_1_1_canvas.html',1,'obe::Graphics']]],
   ['collision',['Collision',['../namespaceobe_1_1_collision.html',1,'obe']]],

@@ -67,6 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
@@ -80,6 +81,13 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_movable.html">Movable</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_polygon.html">Polygon</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class used for all Collisions in the engine, it's a <a class="el" href="classobe_1_1_transform_1_1_polygon.html" title="Class used for all Collisions in the engine, it&#39;s a Polygon containing n points . ...">Polygon</a> containing n points .  <a href="classobe_1_1_transform_1_1_polygon.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_polygon_point.html">PolygonPoint</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_polygon_segment.html">PolygonSegment</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_protected_unit_vector.html">ProtectedUnitVector</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html" title="Class widely used in the Engine to scale and position elements in a Scene . ">UnitVector</a> where you can't access the unit .  <a href="classobe_1_1_transform_1_1_protected_unit_vector.html#details">More...</a><br /></td></tr>
@@ -103,6 +111,13 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Struct representing the View used for internal <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html" title="Class widely used in the Engine to scale and position elements in a Scene . ">UnitVector</a> conversions.  <a href="structobe_1_1_transform_1_1_view_struct.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a65e7247d682e372d7fbbeaf1e0d8d199"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_transform.html#a65e7247d682e372d7fbbeaf1e0d8d199">point_index_t</a> = unsigned int</td></tr>
+<tr class="separator:a65e7247d682e372d7fbbeaf1e0d8d199"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5b5091c1816c086da63030772bd2681"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_transform.html#ac5b5091c1816c086da63030772bd2681">PolygonPath</a> = std::vector&lt; std::unique_ptr&lt; <a class="el" href="classobe_1_1_transform_1_1_polygon_point.html">PolygonPoint</a> &gt; &gt;</td></tr>
+<tr class="separator:ac5b5091c1816c086da63030772bd2681"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:afa663032e66eaf5d647861418b975ecc"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_transform.html#afa663032e66eaf5d647861418b975ecc">MovableType</a> { <br />
@@ -111,7 +126,8 @@ Enumerations</h2></td></tr>
 <a class="el" href="namespaceobe_1_1_transform.html#afa663032e66eaf5d647861418b975ecca967d35e40f3f95b1f538bd248640bf3b">MovableType::Camera</a>, 
 <a class="el" href="namespaceobe_1_1_transform.html#afa663032e66eaf5d647861418b975ecca533e05bb769531c5fb14f8b3910b30f1">MovableType::LevelSprite</a>, 
 <br />
-&#160;&#160;<a class="el" href="namespaceobe_1_1_transform.html#afa663032e66eaf5d647861418b975eccac8a23afcabc3952c4cd658d78d4c8ed9">MovableType::PolygonalCollider</a>, 
+&#160;&#160;<a class="el" href="namespaceobe_1_1_transform.html#afa663032e66eaf5d647861418b975ecca4c0a11247d92f73fb84baa51e37a3263">MovableType::Polygon</a>, 
+<a class="el" href="namespaceobe_1_1_transform.html#afa663032e66eaf5d647861418b975eccac8a23afcabc3952c4cd658d78d4c8ed9">MovableType::PolygonalCollider</a>, 
 <a class="el" href="namespaceobe_1_1_transform.html#afa663032e66eaf5d647861418b975ecca89b9944351dfd4c6cda653440357f8b1">MovableType::SceneNode</a>
 <br />
  }</td></tr>
@@ -136,9 +152,9 @@ Enumerations</h2></td></tr>
 &#160;&#160;<a class="el" href="namespaceobe_1_1_transform.html#af3495f3b4a510af422097f9340fe3a3caa567f88ad914a20062bee9abc1f71504">Units::ViewPercentage</a>, 
 <a class="el" href="namespaceobe_1_1_transform.html#af3495f3b4a510af422097f9340fe3a3ca9bd0b7cd58d57b76a14917584c69a2b1">Units::ViewPixels</a>, 
 <a class="el" href="namespaceobe_1_1_transform.html#af3495f3b4a510af422097f9340fe3a3ca44d70831fe4000c1b757fd317d41981b">Units::ViewUnits</a>, 
-<a class="el" href="namespaceobe_1_1_transform.html#af3495f3b4a510af422097f9340fe3a3caf6bf1396e5ef1242867827b9b2554e4e">Units::WorldPixels</a>, 
+<a class="el" href="namespaceobe_1_1_transform.html#af3495f3b4a510af422097f9340fe3a3ca2356940ff31dbabf4849760f27b04a91">Units::ScenePixels</a>, 
 <br />
-&#160;&#160;<a class="el" href="namespaceobe_1_1_transform.html#af3495f3b4a510af422097f9340fe3a3ca8eed2802a1077ce6e8670971de0fd1aa">Units::WorldUnits</a>
+&#160;&#160;<a class="el" href="namespaceobe_1_1_transform.html#af3495f3b4a510af422097f9340fe3a3ca2837413bd8030560967af68f83719fa8">Units::SceneUnits</a>
 <br />
  }<tr class="memdesc:af3495f3b4a510af422097f9340fe3a3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Different Units used to work with elements position / size in the Scene.  <a href="namespaceobe_1_1_transform.html#af3495f3b4a510af422097f9340fe3a3c">More...</a><br /></td></tr>
 </td></tr>
@@ -200,21 +216,49 @@ Functions</h2></td></tr>
 <tr class="memitem:ac760ac1c371c8ab7e02b08f873e7f7ee"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
 <tr class="memitem:ac760ac1c371c8ab7e02b08f873e7f7ee"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">UnitVector</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_transform.html#ac760ac1c371c8ab7e02b08f873e7f7ee">UnitVector::to&lt; Units::ViewUnits &gt;</a> () const</td></tr>
 <tr class="separator:ac760ac1c371c8ab7e02b08f873e7f7ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a7d37a78ae3d8b982dda27b37b48ac2"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:a8a7d37a78ae3d8b982dda27b37b48ac2"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">UnitVector</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_transform.html#a8a7d37a78ae3d8b982dda27b37b48ac2">UnitVector::to&lt; Units::WorldPixels &gt;</a> () const</td></tr>
-<tr class="separator:a8a7d37a78ae3d8b982dda27b37b48ac2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad971e6791f4dbb78690590ef6f23220f"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:ad971e6791f4dbb78690590ef6f23220f"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">UnitVector</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_transform.html#ad971e6791f4dbb78690590ef6f23220f">UnitVector::to&lt; Units::WorldUnits &gt;</a> () const</td></tr>
-<tr class="separator:ad971e6791f4dbb78690590ef6f23220f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22f1149bf6765e0de4b5fd646de06f7b"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_transform.html#a22f1149bf6765e0de4b5fd646de06f7b">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">UnitVector</a> &amp;m)</td></tr>
-<tr class="memdesc:a22f1149bf6765e0de4b5fd646de06f7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display an <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html" title="Class widely used in the Engine to scale and position elements in a Scene . ">UnitVector</a> for debug purposes.  <a href="#a22f1149bf6765e0de4b5fd646de06f7b">More...</a><br /></td></tr>
-<tr class="separator:a22f1149bf6765e0de4b5fd646de06f7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3f04ced2b91dd0cf350cf5d829b8966"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:af3f04ced2b91dd0cf350cf5d829b8966"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">UnitVector</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_transform.html#af3f04ced2b91dd0cf350cf5d829b8966">UnitVector::to&lt; Units::ScenePixels &gt;</a> () const</td></tr>
+<tr class="separator:af3f04ced2b91dd0cf350cf5d829b8966"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dae10f35b040d338ca837db27e2e13f"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a1dae10f35b040d338ca837db27e2e13f"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">UnitVector</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_transform.html#a1dae10f35b040d338ca837db27e2e13f">UnitVector::to&lt; Units::SceneUnits &gt;</a> () const</td></tr>
+<tr class="separator:a1dae10f35b040d338ca837db27e2e13f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3abc9b7483a336f05d34b8078ac5fd64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">UnitVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_transform.html#a3abc9b7483a336f05d34b8078ac5fd64">rotatePointAroundCenter</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">UnitVector</a> &amp;center, const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">UnitVector</a> &amp;Around, float angle)</td></tr>
 <tr class="separator:a3abc9b7483a336f05d34b8078ac5fd64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33072f9a5956da10acf400ac936ea825"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_transform.html#a33072f9a5956da10acf400ac936ea825">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">UnitVector</a> &amp;m)</td></tr>
+<tr class="separator:a33072f9a5956da10acf400ac936ea825"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Classes and Functions to handle all types of 2d Transformations in the Engine. </p>
-</div><h2 class="groupheader">Enumeration Type Documentation</h2>
+</div><h2 class="groupheader">Typedef Documentation</h2>
+<a id="a65e7247d682e372d7fbbeaf1e0d8d199"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65e7247d682e372d7fbbeaf1e0d8d199">&#9670;&nbsp;</a></span>point_index_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceobe_1_1_transform.html#a65e7247d682e372d7fbbeaf1e0d8d199">obe::Transform::point_index_t</a> = typedef unsigned int</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac5b5091c1816c086da63030772bd2681"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5b5091c1816c086da63030772bd2681">&#9670;&nbsp;</a></span>PolygonPath</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceobe_1_1_transform.html#ac5b5091c1816c086da63030772bd2681">obe::Transform::PolygonPath</a> = typedef std::vector&lt;std::unique_ptr&lt;<a class="el" href="classobe_1_1_transform_1_1_polygon_point.html">PolygonPoint</a>&gt; &gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="afa663032e66eaf5d647861418b975ecc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afa663032e66eaf5d647861418b975ecc">&#9670;&nbsp;</a></span>MovableType</h2>
 
@@ -239,6 +283,7 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="afa663032e66eaf5d647861418b975ecca69ad58d91eec91b5c152d21ca117dc81"></a>Rect&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="afa663032e66eaf5d647861418b975ecca967d35e40f3f95b1f538bd248640bf3b"></a>Camera&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="afa663032e66eaf5d647861418b975ecca533e05bb769531c5fb14f8b3910b30f1"></a>LevelSprite&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afa663032e66eaf5d647861418b975ecca4c0a11247d92f73fb84baa51e37a3263"></a>Polygon&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="afa663032e66eaf5d647861418b975eccac8a23afcabc3952c4cd658d78d4c8ed9"></a>PolygonalCollider&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="afa663032e66eaf5d647861418b975ecca89b9944351dfd4c6cda653440357f8b1"></a>SceneNode&#160;</td><td class="fielddoc"></td></tr>
 </table>
@@ -322,10 +367,10 @@ Exemple : x = 1, y = 1 is the middle of a 1000x1000 pixels screen. <br />
 The screen height will ALWAYS be 2 ViewUnits when the View size is 1, the width will depend on the screen ratio. <br />
 The screen width in ViewUnits can be calculated using this formula : 2 * viewSize * (Screen.Width / Screen.Height) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="af3495f3b4a510af422097f9340fe3a3caf6bf1396e5ef1242867827b9b2554e4e"></a>WorldPixels&#160;</td><td class="fielddoc"><p>ViewPercentage is an Unit used to place / scale an element using the pixels of the <a class="el" href="namespaceobe_1_1_scene.html" title="Classes and Functions to work with the Scene. ">Scene</a>. <br />
+<tr><td class="fieldname"><a id="af3495f3b4a510af422097f9340fe3a3ca2356940ff31dbabf4849760f27b04a91"></a>ScenePixels&#160;</td><td class="fielddoc"><p>ViewPercentage is an Unit used to place / scale an element using the pixels of the <a class="el" href="namespaceobe_1_1_scene.html" title="Classes and Functions to work with the Scene. ">Scene</a>. <br />
 Exemple : x = 4000, y = 10000. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="af3495f3b4a510af422097f9340fe3a3ca8eed2802a1077ce6e8670971de0fd1aa"></a>WorldUnits&#160;</td><td class="fielddoc"><p>WorldUnits is an Unit used to place / scale an element using the <a class="el" href="namespaceobe_1_1_scene.html" title="Classes and Functions to work with the Scene. ">Scene</a>. <br />
+<tr><td class="fieldname"><a id="af3495f3b4a510af422097f9340fe3a3ca2837413bd8030560967af68f83719fa8"></a>SceneUnits&#160;</td><td class="fielddoc"><p>SceneUnits is an Unit used to place / scale an element using the <a class="el" href="namespaceobe_1_1_scene.html" title="Classes and Functions to work with the Scene. ">Scene</a>. <br />
 Exemple : x = 4.5, y = 2.5. </p>
 </td></tr>
 </table>
@@ -587,14 +632,14 @@ Exemple : x = 4.5, y = 2.5. </p>
 
 </div>
 </div>
-<a id="a22f1149bf6765e0de4b5fd646de06f7b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22f1149bf6765e0de4b5fd646de06f7b">&#9670;&nbsp;</a></span>operator<<() <span class="overload">[2/2]</span></h2>
+<a id="a33072f9a5956da10acf400ac936ea825"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33072f9a5956da10acf400ac936ea825">&#9670;&nbsp;</a></span>operator<<() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::ostream &amp; obe::Transform::operator&lt;&lt; </td>
+          <td class="memname">std::ostream&amp; obe::Transform::operator&lt;&lt; </td>
           <td>(</td>
           <td class="paramtype">std::ostream &amp;&#160;</td>
           <td class="paramname"><em>os</em>, </td>
@@ -612,8 +657,6 @@ Exemple : x = 4.5, y = 2.5. </p>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Display an <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html" title="Class widely used in the Engine to scale and position elements in a Scene . ">UnitVector</a> for debug purposes. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">os</td><td>The stream you want to print the <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html" title="Class widely used in the Engine to scale and position elements in a Scene . ">UnitVector</a> in </td></tr>
@@ -794,6 +837,60 @@ Exemple : x = 4.5, y = 2.5. </p>
 
 </div>
 </div>
+<a id="af3f04ced2b91dd0cf350cf5d829b8966"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3f04ced2b91dd0cf350cf5d829b8966">&#9670;&nbsp;</a></span>UnitVector::to< Units::ScenePixels >()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">UnitVector</a> <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html#ac3baab00050c329e70453fd646224a0d">obe::Transform::UnitVector::to</a>&lt; <a class="el" href="namespaceobe_1_1_transform.html#af3495f3b4a510af422097f9340fe3a3ca2356940ff31dbabf4849760f27b04a91">Units::ScenePixels</a> &gt; </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1dae10f35b040d338ca837db27e2e13f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1dae10f35b040d338ca837db27e2e13f">&#9670;&nbsp;</a></span>UnitVector::to< Units::SceneUnits >()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">UnitVector</a> <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html#ac3baab00050c329e70453fd646224a0d">obe::Transform::UnitVector::to</a>&lt; <a class="el" href="namespaceobe_1_1_transform.html#af3495f3b4a510af422097f9340fe3a3ca2837413bd8030560967af68f83719fa8">Units::SceneUnits</a> &gt; </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a7e36571450b0a5a33cd0fa2308ec7056"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7e36571450b0a5a33cd0fa2308ec7056">&#9670;&nbsp;</a></span>UnitVector::to< Units::ViewPercentage >()</h2>
 
@@ -861,60 +958,6 @@ template&lt;&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">UnitVector</a> <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html#ac3baab00050c329e70453fd646224a0d">obe::Transform::UnitVector::to</a>&lt; <a class="el" href="namespaceobe_1_1_transform.html#af3495f3b4a510af422097f9340fe3a3ca44d70831fe4000c1b757fd317d41981b">Units::ViewUnits</a> &gt; </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8a7d37a78ae3d8b982dda27b37b48ac2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a7d37a78ae3d8b982dda27b37b48ac2">&#9670;&nbsp;</a></span>UnitVector::to< Units::WorldPixels >()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">UnitVector</a> <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html#ac3baab00050c329e70453fd646224a0d">obe::Transform::UnitVector::to</a>&lt; <a class="el" href="namespaceobe_1_1_transform.html#af3495f3b4a510af422097f9340fe3a3caf6bf1396e5ef1242867827b9b2554e4e">Units::WorldPixels</a> &gt; </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad971e6791f4dbb78690590ef6f23220f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad971e6791f4dbb78690590ef6f23220f">&#9670;&nbsp;</a></span>UnitVector::to< Units::WorldUnits >()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">UnitVector</a> <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html#ac3baab00050c329e70453fd646224a0d">obe::Transform::UnitVector::to</a>&lt; <a class="el" href="namespaceobe_1_1_transform.html#af3495f3b4a510af422097f9340fe3a3ca8eed2802a1077ce6e8670971de0fd1aa">Units::WorldUnits</a> &gt; </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>

@@ -13,12 +13,12 @@ var searchData=
   ['addcontext',['addContext',['../classobe_1_1_input_1_1_input_action.html#a0f69ebf36cd8aa261b552dc282c94f6d',1,'obe::Input::InputAction::addContext()'],['../classobe_1_1_input_1_1_input_manager.html#ac53e0a2043b3242a51d0bffcd985ec11',1,'obe::Input::InputManager::addContext()']]],
   ['addline',['addLine',['../classtgui_1_1_toolkit_content_box.html#a36e5aeefd1df55fac8ec79894365c508',1,'tgui::ToolkitContentBox']]],
   ['addoriginchild',['addOriginChild',['../classobe_1_1_collision_1_1_polygonal_collider.html#afca29e1a00af80ea488c9b4546d860cb',1,'obe::Collision::PolygonalCollider']]],
-  ['addpoint',['addPoint',['../classobe_1_1_collision_1_1_polygonal_collider.html#a793547e8a9c3887aa58535f46ee1311b',1,'obe::Collision::PolygonalCollider']]],
+  ['addpoint',['addPoint',['../classobe_1_1_transform_1_1_polygon.html#a2d02f8d2c70de5130afb08d6e55bc3ef',1,'obe::Transform::Polygon']]],
   ['addsource',['addSource',['../classobe_1_1_scene_1_1_lua_component.html#a15416cab546d01aa1375e461781b463f',1,'obe::Scene::LuaComponent']]],
   ['addspeed',['addSpeed',['../classobe_1_1_collision_1_1_trajectory.html#aab82f7370db4839389e79208611b991b',1,'obe::Collision::Trajectory']]],
   ['addspritetoscene',['addSpriteToScene',['../namespaceobe_1_1_editor.html#a7a755aa382b627af8881b3d2a1fc9547',1,'obe::Editor']]],
   ['addtag',['addTag',['../classobe_1_1_collision_1_1_polygonal_collider.html#a9d4533825bb04f5ed5dffc543d9aee0f',1,'obe::Collision::PolygonalCollider']]],
-  ['addtrajectory',['addTrajectory',['../classobe_1_1_collision_1_1_trajectory_node.html#a3c53ae67d6a5f232be5d9812adb59fc8',1,'obe::Collision::TrajectoryNode']]],
+  ['addtrajectory',['addTrajectory',['../classobe_1_1_collision_1_1_trajectory_node.html#a659cc813ebc45c98f014e9bae4987e53',1,'obe::Collision::TrajectoryNode']]],
   ['addtrigger',['addTrigger',['../classobe_1_1_triggers_1_1_trigger_group.html#aa6c209476bf95d957abdbbcc17ee5a3e',1,'obe::Triggers::TriggerGroup']]],
   ['animationgroup',['AnimationGroup',['../classobe_1_1_animation_1_1_animation_group.html#a16ce247e33c9a9c6a99a63d21c21d493',1,'obe::Animation::AnimationGroup']]],
   ['animator',['Animator',['../classobe_1_1_animation_1_1_animator.html#ad8931b1f5f5d6bbbb1b28cc2c8997e52',1,'obe::Animation::Animator::Animator()'],['../classobe_1_1_animation_1_1_animator.html#a97e43bcb77fa6a1da588598eec17f2c3',1,'obe::Animation::Animator::Animator(const System::Path &amp;path)']]],
@@ -27,6 +27,5 @@ var searchData=
   ['applyrequirements',['ApplyRequirements',['../classobe_1_1_script_1_1_game_object_database.html#af02e95fef12a2aebd29cb9c4b64a89db',1,'obe::Script::GameObjectDatabase']]],
   ['applyscrollbarmaxvalue',['applyScrollbarMaxValue',['../namespaceobe_1_1_editor_1_1_g_u_i.html#aa4a3de0a49aa54e35d51ec58a233d995',1,'obe::Editor::GUI']]],
   ['argumentexists',['argumentExists',['../classobe_1_1_utils_1_1_exec_1_1_run_args_parser.html#a5719673b5131b13995c48ca9446bfb7b',1,'obe::Utils::Exec::RunArgsParser']]],
-  ['arraynodetoluatable',['arrayNodeToLuaTable',['../namespaceobe_1_1_script_1_1_data_bridge.html#af67023e03c74b22bf57d33b902d40709',1,'obe::Script::DataBridge']]],
-  ['autocomplete',['autocomplete',['../classobe_1_1_backend_1_1_toolkit_backend.html#a6c1e124c73e77ae8084dd7b3ce35cbb7',1,'obe::Backend::ToolkitBackend']]]
+  ['arraynodetoluatable',['arrayNodeToLuaTable',['../namespaceobe_1_1_script_1_1_data_bridge.html#af67023e03c74b22bf57d33b902d40709',1,'obe::Script::DataBridge']]]
 ];

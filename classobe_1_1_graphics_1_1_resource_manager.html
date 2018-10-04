@@ -67,6 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classobe_1_1_graphics_1_1_resource_manager-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">obe::Graphics::ResourceManager Class Reference</div>  </div>
@@ -80,6 +81,8 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a41dcc54a74f59baab4de800b25c6d627"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_resource_manager.html#a41dcc54a74f59baab4de800b25c6d627">Init</a> ()</td></tr>
+<tr class="separator:a41dcc54a74f59baab4de800b25c6d627"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b6d1b6a0f470c6302614585315dd672"><td class="memItemLeft" align="right" valign="top">static sf::Font *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_resource_manager.html#a8b6d1b6a0f470c6302614585315dd672">GetFont</a> (const std::string &amp;path)</td></tr>
 <tr class="separator:a8b6d1b6a0f470c6302614585315dd672"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4435d91081efd45f537e37dac36705eb"><td class="memItemLeft" align="right" valign="top">static sf::Texture *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_resource_manager.html#a4435d91081efd45f537e37dac36705eb">GetTexture</a> (const std::string &amp;path, bool antiAliasing=false)</td></tr>
@@ -87,6 +90,11 @@ Static Public Member Functions</h2></td></tr>
  If it's already in cache it returns the cached version.<br />
  Otherwise it loads the texture and caches it.  <a href="#a4435d91081efd45f537e37dac36705eb">More...</a><br /></td></tr>
 <tr class="separator:a4435d91081efd45f537e37dac36705eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a96705ce7260dba30e77e9dde886a2c2c"><td class="memItemLeft" align="right" valign="top">static sf::Texture&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_resource_manager.html#a96705ce7260dba30e77e9dde886a2c2c">NullTexture</a></td></tr>
+<tr class="separator:a96705ce7260dba30e77e9dde886a2c2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Singleton Class that manages and caches textures . </p>
@@ -162,6 +170,54 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the texture stored in the cache </dd></dl>
+
+</div>
+</div>
+<a id="a41dcc54a74f59baab4de800b25c6d627"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41dcc54a74f59baab4de800b25c6d627">&#9670;&nbsp;</a></span>Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::Graphics::ResourceManager::Init </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a96705ce7260dba30e77e9dde886a2c2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96705ce7260dba30e77e9dde886a2c2c">&#9670;&nbsp;</a></span>NullTexture</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">sf::Texture obe::Graphics::ResourceManager::NullTexture</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

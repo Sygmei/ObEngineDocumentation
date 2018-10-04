@@ -2,9 +2,9 @@ var searchData=
 [
   ['fileexists',['fileExists',['../namespaceobe_1_1_utils_1_1_file.html#a1095626f5495edc7b8692073dd25cceb',1,'obe::Utils::File']]],
   ['find',['find',['../classobe_1_1_system_1_1_path.html#af3a5992c23fadc476faf92aae67538d4',1,'obe::System::Path']]],
-  ['findclosestline',['findClosestLine',['../classobe_1_1_collision_1_1_polygonal_collider.html#a07f582e94fb6a8386c9aea174e5a43d5',1,'obe::Collision::PolygonalCollider']]],
-  ['findclosestpoint',['findClosestPoint',['../classobe_1_1_collision_1_1_polygonal_collider.html#ae5fa61c71c1ca04aa24c5967ab5d975c',1,'obe::Collision::PolygonalCollider']]],
-  ['findoptionordefault',['findOptionOrDefault',['../namespaceobe_1_1_graphics_1_1_utils.html#a12b1e7a78c1bdf1622fa57ef1589d37b',1,'obe::Graphics::Utils']]],
+  ['findclosestpoint',['findClosestPoint',['../classobe_1_1_transform_1_1_polygon.html#aec33dcc03b25d1fd4dd52f8e9c179ce5',1,'obe::Transform::Polygon']]],
+  ['findclosestsegment',['findClosestSegment',['../classobe_1_1_transform_1_1_polygon.html#a10e115a5a428f3e4a4d1544d118efa96',1,'obe::Transform::Polygon']]],
+  ['findoptionordefault',['findOptionOrDefault',['../namespaceobe_1_1_graphics_1_1_utils.html#ac97b7e28ad88af5b852616cebd50c551',1,'obe::Graphics::Utils']]],
   ['forcenext',['forceNext',['../classobe_1_1_animation_1_1_animation_group.html#ad86bb28de21445e1b72cdc43941d61f1',1,'obe::Animation::AnimationGroup']]],
   ['forceprevious',['forcePrevious',['../classobe_1_1_animation_1_1_animation_group.html#a6a1b08ad59cec8a89622a6bede04aded',1,'obe::Animation::AnimationGroup']]],
   ['frameratemanager',['FramerateManager',['../classobe_1_1_time_1_1_framerate_manager.html#a4f5fe9d27d3611a52961c75da291b260',1,'obe::Time::FramerateManager']]],

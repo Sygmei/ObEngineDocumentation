@@ -173,7 +173,7 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="classobe_1_1_scene_1_1_camera.html" title="The Camera that views the Scene . ">Camera</a> that views the <a class="el" href="classobe_1_1_scene_1_1_scene.html" title="The Scene class is a container of all the game elements . ">Scene</a> . </p>
 <p>Example :</p>
-<div class="fragment"><div class="line"><a class="code" href="classobe_1_1_scene_1_1_camera.html#a5cbcedbaa8ee1245e7eae186a8278452">Camera</a>&amp; camera = scene.getCamera();</div><div class="line">camera.setPosition(0, 0); <span class="comment">//Set TopLeft Corner of the Camera at Position (0, 0)::WorldUnits</span></div><div class="line">Transform::UnitVector newPosition(200, 1000, Transform::WorldPixels);</div><div class="line">camera.setPosition(newPosition, Camera::Center); <span class="comment">// Set Center of the Camera at Position(200, 100)::WorldPixels</span></div><div class="line">camera.move(newPosition); <span class="comment">// Move BottomRight Corner of the Camera to (400, 2000)::WorldPixels</span></div></div><!-- fragment --> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<div class="fragment"><div class="line"><a class="code" href="classobe_1_1_scene_1_1_camera.html#a5cbcedbaa8ee1245e7eae186a8278452">Camera</a>&amp; camera = scene.getCamera();</div><div class="line">camera.setPosition(0, 0); <span class="comment">//Set TopLeft Corner of the Camera at Position (0, 0)::SceneUnits</span></div><div class="line">Transform::UnitVector newPosition(200, 1000, Transform::ScenePixels);</div><div class="line">camera.setPosition(newPosition, Camera::Center); <span class="comment">// Set Center of the Camera at Position(200, 100)::ScenePixels</span></div><div class="line">camera.move(newPosition); <span class="comment">// Move BottomRight Corner of the Camera to (400, 2000)::ScenePixels</span></div></div><!-- fragment --> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5cbcedbaa8ee1245e7eae186a8278452"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5cbcedbaa8ee1245e7eae186a8278452">&#9670;&nbsp;</a></span>Camera()</h2>
 
@@ -408,7 +408,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Sets the size of the <a class="el" href="classobe_1_1_scene_1_1_camera.html" title="The Camera that views the Scene . ">Camera</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">pSize</td><td>Size of the <a class="el" href="classobe_1_1_scene_1_1_camera.html" title="The Camera that views the Scene . ">Camera</a> (1 = Normal Size meaning Screen Height = 2 WorldUnits) </td></tr>
+    <tr><td class="paramname">pSize</td><td>Size of the <a class="el" href="classobe_1_1_scene_1_1_camera.html" title="The Camera that views the Scene . ">Camera</a> (1 = Normal Size meaning Screen Height = 2 SceneUnits) </td></tr>
     <tr><td class="paramname">ref</td><td>Referencial used to resize the <a class="el" href="classobe_1_1_scene_1_1_camera.html" title="The Camera that views the Scene . ">Camera</a> </td></tr>
   </table>
   </dd>

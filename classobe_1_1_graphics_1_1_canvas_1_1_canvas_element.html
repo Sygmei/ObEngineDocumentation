@@ -81,7 +81,7 @@ $(function() {
 
 <p><code>#include &lt;<a class="el" href="_canvas_8hpp_source.html">Canvas.hpp</a>&gt;</code></p>
 
-<p>Inherited by <a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_circle.html">obe::Graphics::Canvas::Circle</a>, <a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_line.html">obe::Graphics::Canvas::Line</a>, <a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_rectangle.html">obe::Graphics::Canvas::Rectangle</a>, <a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_sprite.html">obe::Graphics::Canvas::Sprite</a>, and <a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_text.html">obe::Graphics::Canvas::Text</a>.</p>
+<p>Inherited by <a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas_positionable.html">obe::Graphics::Canvas::CanvasPositionable</a>, and <a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_line.html">obe::Graphics::Canvas::Line</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -96,8 +96,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:add37b39605a35d56c6c1675cb4b36222"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas_element.html#add37b39605a35d56c6c1675cb4b36222">draw</a> (sf::RenderTexture &amp;target)=0</td></tr>
 <tr class="memdesc:add37b39605a35d56c6c1675cb4b36222"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract draw method.  <a href="#add37b39605a35d56c6c1675cb4b36222">More...</a><br /></td></tr>
 <tr class="separator:add37b39605a35d56c6c1675cb4b36222"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b5e08093c196f4a7992d6d61bb1f014"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas_element.html#a0b5e08093c196f4a7992d6d61bb1f014">~CanvasElement</a> ()=default</td></tr>
-<tr class="separator:a0b5e08093c196f4a7992d6d61bb1f014"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b3d9aecafd2db58e9c56543b8f226b2"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas_element.html#a4b3d9aecafd2db58e9c56543b8f226b2">~CanvasElement</a> ()</td></tr>
+<tr class="separator:a4b3d9aecafd2db58e9c56543b8f226b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac42d71b4b7b76a013615d3f00e8f4391"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas_element.html#ac42d71b4b7b76a013615d3f00e8f4391">setLayer</a> (unsigned int <a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas_element.html#a0d177150be0a14d3a28bf95a5ee98dc3">layer</a>)</td></tr>
 <tr class="separator:ac42d71b4b7b76a013615d3f00e8f4391"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -182,8 +182,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0b5e08093c196f4a7992d6d61bb1f014"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b5e08093c196f4a7992d6d61bb1f014">&#9670;&nbsp;</a></span>~CanvasElement()</h2>
+<a id="a4b3d9aecafd2db58e9c56543b8f226b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b3d9aecafd2db58e9c56543b8f226b2">&#9670;&nbsp;</a></span>~CanvasElement()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -192,7 +192,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual obe::Graphics::Canvas::CanvasElement::~CanvasElement </td>
+          <td class="memname">obe::Graphics::Canvas::CanvasElement::~CanvasElement </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -200,7 +200,7 @@ Static Public Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

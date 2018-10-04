@@ -68,6 +68,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classobe_1_1_graphics_1_1_level_sprite-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">obe::Graphics::LevelSprite Class Reference</div>  </div>
@@ -86,18 +87,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a03469a2646eaa31df13bd942fbbbcb6b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html#a03469a2646eaa31df13bd942fbbbcb6b">LevelSprite</a> (const std::string &amp;id)</td></tr>
 <tr class="memdesc:a03469a2646eaa31df13bd942fbbbcb6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new <a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html" title="An element meant to be displayed in a Scene . ">LevelSprite</a> with the given Id.  <a href="#a03469a2646eaa31df13bd942fbbbcb6b">More...</a><br /></td></tr>
 <tr class="separator:a03469a2646eaa31df13bd942fbbbcb6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac79fb6875384fafcaf15fa20e6b4f71b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html#ac79fb6875384fafcaf15fa20e6b4f71b">drawHandle</a> (int spritePositionX, int spritePositionY) const</td></tr>
-<tr class="memdesc:ac79fb6875384fafcaf15fa20e6b4f71b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the handle used to scale the Sprite.  <a href="#ac79fb6875384fafcaf15fa20e6b4f71b">More...</a><br /></td></tr>
-<tr class="separator:ac79fb6875384fafcaf15fa20e6b4f71b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5de2cb1e5119c718d985e3fd0135430b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html#a5de2cb1e5119c718d985e3fd0135430b">drawHandle</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;camera) const</td></tr>
+<tr class="memdesc:a5de2cb1e5119c718d985e3fd0135430b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the handle used to scale the Sprite.  <a href="#a5de2cb1e5119c718d985e3fd0135430b">More...</a><br /></td></tr>
+<tr class="separator:a5de2cb1e5119c718d985e3fd0135430b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afce8ce4ae3c762c69823c39aaf4b02a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html#afce8ce4ae3c762c69823c39aaf4b02a3">dump</a> (vili::ComplexNode &amp;target) const override</td></tr>
 <tr class="memdesc:afce8ce4ae3c762c69823c39aaf4b02a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dumps the content of the <a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html" title="An element meant to be displayed in a Scene . ">LevelSprite</a> to a ComplexNode.  <a href="#afce8ce4ae3c762c69823c39aaf4b02a3">More...</a><br /></td></tr>
 <tr class="separator:afce8ce4ae3c762c69823c39aaf4b02a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ff27420d5bdd32640f4ccd465e97ad8"><td class="memItemLeft" align="right" valign="top">sf::Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html#a0ff27420d5bdd32640f4ccd465e97ad8">getColor</a> () const</td></tr>
 <tr class="memdesc:a0ff27420d5bdd32640f4ccd465e97ad8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the blend color of the <a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html" title="An element meant to be displayed in a Scene . ">LevelSprite</a>.  <a href="#a0ff27420d5bdd32640f4ccd465e97ad8">More...</a><br /></td></tr>
 <tr class="separator:a0ff27420d5bdd32640f4ccd465e97ad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39c4d8649567436efffd7b7fe1c0c163"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html#a39c4d8649567436efffd7b7fe1c0c163">getDrawPosition</a> (<a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;cameraPosition, <a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a> ref) const</td></tr>
-<tr class="memdesc:a39c4d8649567436efffd7b7fe1c0c163"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Position where the <a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html" title="An element meant to be displayed in a Scene . ">LevelSprite</a> should be drawn depending of the Position of the Camera.  <a href="#a39c4d8649567436efffd7b7fe1c0c163">More...</a><br /></td></tr>
-<tr class="separator:a39c4d8649567436efffd7b7fe1c0c163"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59dce80854f354af694926f8ccb714e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_graphics_1_1_level_sprite_handle_point.html">LevelSpriteHandlePoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html#a59dce80854f354af694926f8ccb714e2">getHandlePoint</a> (<a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;cameraPosition, int posX, int posY)</td></tr>
 <tr class="memdesc:a59dce80854f354af694926f8ccb714e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the HandlePoint of the <a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html" title="An element meant to be displayed in a Scene . ">LevelSprite</a> at the given Position(x, y)  <a href="#a59dce80854f354af694926f8ccb714e2">More...</a><br /></td></tr>
 <tr class="separator:a59dce80854f354af694926f8ccb714e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -191,6 +189,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab652808959ce80e93a141d80c41687b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html#ab652808959ce80e93a141d80c41687b2">useTextureSize</a> ()</td></tr>
 <tr class="memdesc:ab652808959ce80e93a141d80c41687b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset internal <a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html" title="An element meant to be displayed in a Scene . ">LevelSprite</a> Rect using texture size.  <a href="#ab652808959ce80e93a141d80c41687b2">More...</a><br /></td></tr>
 <tr class="separator:ab652808959ce80e93a141d80c41687b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7740053cdf0a8b098a1db908f2f6f713"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html#a7740053cdf0a8b098a1db908f2f6f713">draw</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;camera)</td></tr>
+<tr class="separator:a7740053cdf0a8b098a1db908f2f6f713"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a040d8d0a58474e590572eaa8106800a0"><td class="memItemLeft" align="right" valign="top">std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html#a040d8d0a58474e590572eaa8106800a0">type</a> () const override</td></tr>
+<tr class="separator:a040d8d0a58474e590572eaa8106800a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classobe_1_1_transform_1_1_unit_based_object"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classobe_1_1_transform_1_1_unit_based_object')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classobe_1_1_transform_1_1_unit_based_object.html">obe::Transform::UnitBasedObject</a></td></tr>
 <tr class="memitem:a761200826c44de6ebc7d7fb0a4704269 inherit pub_methods_classobe_1_1_transform_1_1_unit_based_object"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_unit_based_object.html#a761200826c44de6ebc7d7fb0a4704269">~UnitBasedObject</a> ()=default</td></tr>
 <tr class="separator:a761200826c44de6ebc7d7fb0a4704269 inherit pub_methods_classobe_1_1_transform_1_1_unit_based_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -278,12 +280,14 @@ Public Member Functions</h2></td></tr>
 <tr class="inherit_header pub_methods_classobe_1_1_component_1_1_component"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classobe_1_1_component_1_1_component')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classobe_1_1_component_1_1_component.html">obe::Component::Component&lt; LevelSprite &gt;</a></td></tr>
 <tr class="memitem:a78f035b8167eccf9a5cb6750b55f98d1 inherit pub_methods_classobe_1_1_component_1_1_component"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_component_1_1_component.html#a78f035b8167eccf9a5cb6750b55f98d1">Component</a> (const std::string &amp;id)</td></tr>
 <tr class="separator:a78f035b8167eccf9a5cb6750b55f98d1 inherit pub_methods_classobe_1_1_component_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a520673f6f36a6400e33c0f1637786588 inherit pub_methods_classobe_1_1_component_1_1_component"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_component_1_1_component.html#a520673f6f36a6400e33c0f1637786588">~Component</a> () override=default</td></tr>
-<tr class="separator:a520673f6f36a6400e33c0f1637786588 inherit pub_methods_classobe_1_1_component_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3aa24f237fbfb75bd85ee0684b110d7a inherit pub_methods_classobe_1_1_component_1_1_component"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_component_1_1_component.html#a3aa24f237fbfb75bd85ee0684b110d7a">~Component</a> () override</td></tr>
+<tr class="separator:a3aa24f237fbfb75bd85ee0684b110d7a inherit pub_methods_classobe_1_1_component_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ae3e20aeecf8cd91f180793b4b97e02 inherit pub_methods_classobe_1_1_component_1_1_component"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_component_1_1_component.html#a8ae3e20aeecf8cd91f180793b4b97e02">remove</a> () override</td></tr>
 <tr class="separator:a8ae3e20aeecf8cd91f180793b4b97e02 inherit pub_methods_classobe_1_1_component_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17085a5a0230ed0737004ff4798872c1 inherit pub_methods_classobe_1_1_component_1_1_component"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_component_1_1_component.html#a17085a5a0230ed0737004ff4798872c1">inject</a> (unsigned int envIndex) override</td></tr>
 <tr class="separator:a17085a5a0230ed0737004ff4798872c1 inherit pub_methods_classobe_1_1_component_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70bb027cc940fec2a7baff72be154683 inherit pub_methods_classobe_1_1_component_1_1_component"><td class="memItemLeft" align="right" valign="top">std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_component_1_1_component.html#a70bb027cc940fec2a7baff72be154683">type</a> () const override</td></tr>
+<tr class="separator:a70bb027cc940fec2a7baff72be154683 inherit pub_methods_classobe_1_1_component_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classobe_1_1_component_1_1_component_base"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classobe_1_1_component_1_1_component_base')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classobe_1_1_component_1_1_component_base.html">obe::Component::ComponentBase</a></td></tr>
 <tr class="memitem:a0b172d54f816da613f66bf1873b1b727 inherit pub_methods_classobe_1_1_component_1_1_component_base"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_component_1_1_component_base.html#a0b172d54f816da613f66bf1873b1b727">ComponentBase</a> (const std::string &amp;id)</td></tr>
 <tr class="separator:a0b172d54f816da613f66bf1873b1b727 inherit pub_methods_classobe_1_1_component_1_1_component_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -307,6 +311,19 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a9c15f88767e70b4a49a0763e55a7d0f4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html#a9c15f88767e70b4a49a0763e55a7d0f4">m_layerChanged</a> = false</td></tr>
 <tr class="separator:a9c15f88767e70b4a49a0763e55a7d0f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a3c1fbd0d247e331991259618c88194d6"><td class="memItemLeft" align="right" valign="top">static constexpr std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html#a3c1fbd0d247e331991259618c88194d6">ComponentType</a> = &quot;LevelSprite&quot;</td></tr>
+<tr class="separator:a3c1fbd0d247e331991259618c88194d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_classobe_1_1_component_1_1_component"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_classobe_1_1_component_1_1_component')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="classobe_1_1_component_1_1_component.html">obe::Component::Component&lt; LevelSprite &gt;</a></td></tr>
+<tr class="memitem:a39ea8727ace73859d5727cd115c0d8dd inherit pub_static_attribs_classobe_1_1_component_1_1_component"><td class="memItemLeft" align="right" valign="top">static constexpr std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_component_1_1_component.html#a39ea8727ace73859d5727cd115c0d8dd">ComponentType</a></td></tr>
+<tr class="separator:a39ea8727ace73859d5727cd115c0d8dd inherit pub_static_attribs_classobe_1_1_component_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5473d167a0b173e20fc98db98f6465a0 inherit pub_static_attribs_classobe_1_1_component_1_1_component"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; LevelSprite *&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_component_1_1_component.html#a5473d167a0b173e20fc98db98f6465a0">Pool</a></td></tr>
+<tr class="separator:a5473d167a0b173e20fc98db98f6465a0 inherit pub_static_attribs_classobe_1_1_component_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_classobe_1_1_component_1_1_component_base"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_classobe_1_1_component_1_1_component_base')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="classobe_1_1_component_1_1_component_base.html">obe::Component::ComponentBase</a></td></tr>
+<tr class="memitem:af15e049807ce503aab18509d751c15a7 inherit pub_static_attribs_classobe_1_1_component_1_1_component_base"><td class="memItemLeft" align="right" valign="top">static constexpr std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_component_1_1_component_base.html#af15e049807ce503aab18509d751c15a7">ComponentType</a> = &quot;ComponentBase&quot;</td></tr>
+<tr class="separator:af15e049807ce503aab18509d751c15a7 inherit pub_static_attribs_classobe_1_1_component_1_1_component_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_types_classobe_1_1_transform_1_1_rect"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classobe_1_1_transform_1_1_rect')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classobe_1_1_transform_1_1_rect.html">obe::Transform::Rect</a></td></tr>
@@ -315,19 +332,13 @@ Additional Inherited Members</h2></td></tr>
  }<tr class="memdesc:a242a78273a4ff0bd12f7184a68432289"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conversion Type for Referencial Usage.  <a href="classobe_1_1_transform_1_1_rect.html#a242a78273a4ff0bd12f7184a68432289">More...</a><br /></td></tr>
 </td></tr>
 <tr class="separator:a242a78273a4ff0bd12f7184a68432289 inherit pub_types_classobe_1_1_transform_1_1_rect"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_static_methods_classobe_1_1_component_1_1_component"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classobe_1_1_component_1_1_component')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classobe_1_1_component_1_1_component.html">obe::Component::Component&lt; LevelSprite &gt;</a></td></tr>
-<tr class="memitem:ac8f8faa925900aea7199f9dbdc223201 inherit pub_static_methods_classobe_1_1_component_1_1_component"><td class="memItemLeft" align="right" valign="top">static LevelSprite &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_component_1_1_component.html#ac8f8faa925900aea7199f9dbdc223201">create</a> (const std::string &amp;id)</td></tr>
-<tr class="separator:ac8f8faa925900aea7199f9dbdc223201 inherit pub_static_methods_classobe_1_1_component_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_static_attribs_classobe_1_1_component_1_1_component"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_classobe_1_1_component_1_1_component')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="classobe_1_1_component_1_1_component.html">obe::Component::Component&lt; LevelSprite &gt;</a></td></tr>
-<tr class="memitem:ac0b195770d7ecd345f5fdbf667e5a156 inherit pub_static_attribs_classobe_1_1_component_1_1_component"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; std::unique_ptr&lt; LevelSprite &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_component_1_1_component.html#ac0b195770d7ecd345f5fdbf667e5a156">Pool</a></td></tr>
-<tr class="separator:ac0b195770d7ecd345f5fdbf667e5a156 inherit pub_static_attribs_classobe_1_1_component_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_static_methods_classobe_1_1_component_1_1_component_base"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_classobe_1_1_component_1_1_component_base')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="classobe_1_1_component_1_1_component_base.html">obe::Component::ComponentBase</a></td></tr>
 <tr class="memitem:aa03a62f1de46a5123901abcebef32e70 inherit pro_static_methods_classobe_1_1_component_1_1_component_base"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_component_1_1_component_base.html#aa03a62f1de46a5123901abcebef32e70">AddComponent</a> (<a class="el" href="classobe_1_1_component_1_1_component_base.html">ComponentBase</a> *component)</td></tr>
 <tr class="separator:aa03a62f1de46a5123901abcebef32e70 inherit pro_static_methods_classobe_1_1_component_1_1_component_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52de6034672f7225d1ef3e97da05b22a inherit pro_static_methods_classobe_1_1_component_1_1_component_base"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_component_1_1_component_base.html#a52de6034672f7225d1ef3e97da05b22a">RemoveComponent</a> (<a class="el" href="classobe_1_1_component_1_1_component_base.html">ComponentBase</a> *component)</td></tr>
 <tr class="separator:a52de6034672f7225d1ef3e97da05b22a inherit pro_static_methods_classobe_1_1_component_1_1_component_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classobe_1_1_transform_1_1_unit_based_object"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classobe_1_1_transform_1_1_unit_based_object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classobe_1_1_transform_1_1_unit_based_object.html">obe::Transform::UnitBasedObject</a></td></tr>
-<tr class="memitem:af22835633e9b86b66944519534cf98fd inherit pro_attribs_classobe_1_1_transform_1_1_unit_based_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceobe_1_1_transform.html#af3495f3b4a510af422097f9340fe3a3c">Units</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_unit_based_object.html#af22835633e9b86b66944519534cf98fd">m_unit</a> = <a class="el" href="namespaceobe_1_1_transform.html#af3495f3b4a510af422097f9340fe3a3ca8eed2802a1077ce6e8670971de0fd1aa">Units::WorldUnits</a></td></tr>
+<tr class="memitem:af22835633e9b86b66944519534cf98fd inherit pro_attribs_classobe_1_1_transform_1_1_unit_based_object"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceobe_1_1_transform.html#af3495f3b4a510af422097f9340fe3a3c">Units</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_unit_based_object.html#af22835633e9b86b66944519534cf98fd">m_unit</a> = <a class="el" href="namespaceobe_1_1_transform.html#af3495f3b4a510af422097f9340fe3a3ca2837413bd8030560967af68f83719fa8">Units::SceneUnits</a></td></tr>
 <tr class="memdesc:af22835633e9b86b66944519534cf98fd inherit pro_attribs_classobe_1_1_transform_1_1_unit_based_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unit used in the Class.  <a href="classobe_1_1_transform_1_1_unit_based_object.html#af22835633e9b86b66944519534cf98fd">More...</a><br /></td></tr>
 <tr class="separator:af22835633e9b86b66944519534cf98fd inherit pro_attribs_classobe_1_1_transform_1_1_unit_based_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classobe_1_1_types_1_1_selectable"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classobe_1_1_types_1_1_selectable')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classobe_1_1_types_1_1_selectable.html">obe::Types::Selectable</a></td></tr>
@@ -389,8 +400,26 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ac79fb6875384fafcaf15fa20e6b4f71b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac79fb6875384fafcaf15fa20e6b4f71b">&#9670;&nbsp;</a></span>drawHandle()</h2>
+<a id="a7740053cdf0a8b098a1db908f2f6f713"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7740053cdf0a8b098a1db908f2f6f713">&#9670;&nbsp;</a></span>draw()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::Graphics::LevelSprite::draw </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>camera</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5de2cb1e5119c718d985e3fd0135430b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5de2cb1e5119c718d985e3fd0135430b">&#9670;&nbsp;</a></span>drawHandle()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -398,19 +427,9 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void obe::Graphics::LevelSprite::drawHandle </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>spritePositionX</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>spritePositionY</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
+          <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
+          <td class="paramname"><em>camera</em></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -479,43 +498,6 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Get the blend color of the <a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html" title="An element meant to be displayed in a Scene . ">LevelSprite</a>. </p>
 <dl class="section return"><dt>Returns</dt><dd>A sf::Color containing the blend color of the <a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html" title="An element meant to be displayed in a Scene . ">LevelSprite</a> </dd></dl>
-
-</div>
-</div>
-<a id="a39c4d8649567436efffd7b7fe1c0c163"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39c4d8649567436efffd7b7fe1c0c163">&#9670;&nbsp;</a></span>getDrawPosition()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> obe::Graphics::LevelSprite::getDrawPosition </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
-          <td class="paramname"><em>cameraPosition</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespaceobe_1_1_transform.html#aaa65ff49b93d52a9bcb4ffa7ec006728">Transform::Referencial</a>&#160;</td>
-          <td class="paramname"><em>ref</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the Position where the <a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html" title="An element meant to be displayed in a Scene . ">LevelSprite</a> should be drawn depending of the Position of the Camera. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">cameraPosition</td><td>Position of the Camera (in WorldPixels Unit) </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The Screen Position at which the <a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html" title="An element meant to be displayed in a Scene . ">LevelSprite</a> should be drawn (in ViewPixels Unit) </dd></dl>
 
 </div>
 </div>
@@ -1283,6 +1265,33 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a040d8d0a58474e590572eaa8106800a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a040d8d0a58474e590572eaa8106800a0">&#9670;&nbsp;</a></span>type()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string_view obe::Graphics::LevelSprite::type </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="classobe_1_1_component_1_1_component_base.html#ae4c3203eaf1d8920a61fdba3efcb80e1">obe::Component::ComponentBase</a>.</p>
+
+</div>
+</div>
 <a id="ab652808959ce80e93a141d80c41687b2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab652808959ce80e93a141d80c41687b2">&#9670;&nbsp;</a></span>useTextureSize()</h2>
 
@@ -1303,6 +1312,28 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a3c1fbd0d247e331991259618c88194d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c1fbd0d247e331991259618c88194d6">&#9670;&nbsp;</a></span>ComponentType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr std::string_view obe::Graphics::LevelSprite::ComponentType = &quot;LevelSprite&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9c15f88767e70b4a49a0763e55a7d0f4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9c15f88767e70b4a49a0763e55a7d0f4">&#9670;&nbsp;</a></span>m_layerChanged</h2>
 
