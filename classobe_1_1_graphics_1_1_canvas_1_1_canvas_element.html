@@ -81,6 +81,8 @@ $(function() {
 
 <p><code>#include &lt;<a class="el" href="_canvas_8hpp_source.html">Canvas.hpp</a>&gt;</code></p>
 
+<p>Inherits <a class="el" href="classobe_1_1_types_1_1_protected_identifiable.html">obe::Types::ProtectedIdentifiable</a>.</p>
+
 <p>Inherited by <a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas_positionable.html">obe::Graphics::Canvas::CanvasPositionable</a>, and <a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_line.html">obe::Graphics::Canvas::Line</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
@@ -90,7 +92,7 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac9f030703127c0e85bf9a337dfdc8f1f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas_element.html#ac9f030703127c0e85bf9a337dfdc8f1f">CanvasElement</a> (<a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas.html">Canvas</a> *<a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas_element.html#ac773a5d35f7ecf167e23e54fb5beb25a">parent</a>, const std::string &amp;<a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas_element.html#a95a0603326e78c89ce30f11b2889da49">id</a>)</td></tr>
+<tr class="memitem:ac9f030703127c0e85bf9a337dfdc8f1f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas_element.html#ac9f030703127c0e85bf9a337dfdc8f1f">CanvasElement</a> (<a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas.html">Canvas</a> *<a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas_element.html#ac773a5d35f7ecf167e23e54fb5beb25a">parent</a>, const std::string &amp;id)</td></tr>
 <tr class="memdesc:ac9f030703127c0e85bf9a337dfdc8f1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new <a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas_element.html" title="A Drawable Canvas Element. ">CanvasElement</a>.  <a href="#ac9f030703127c0e85bf9a337dfdc8f1f">More...</a><br /></td></tr>
 <tr class="separator:ac9f030703127c0e85bf9a337dfdc8f1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add37b39605a35d56c6c1675cb4b36222"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas_element.html#add37b39605a35d56c6c1675cb4b36222">draw</a> (sf::RenderTexture &amp;target)=0</td></tr>
@@ -105,8 +107,6 @@ Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ac773a5d35f7ecf167e23e54fb5beb25a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas.html">Canvas</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas_element.html#ac773a5d35f7ecf167e23e54fb5beb25a">parent</a></td></tr>
 <tr class="separator:ac773a5d35f7ecf167e23e54fb5beb25a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95a0603326e78c89ce30f11b2889da49"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas_element.html#a95a0603326e78c89ce30f11b2889da49">id</a></td></tr>
-<tr class="separator:a95a0603326e78c89ce30f11b2889da49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d177150be0a14d3a28bf95a5ee98dc3"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas_element.html#a0d177150be0a14d3a28bf95a5ee98dc3">layer</a> = 1</td></tr>
 <tr class="separator:a0d177150be0a14d3a28bf95a5ee98dc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adaa596b06a2a7e1fcdc55d7e2ff581c1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas_element.html#adaa596b06a2a7e1fcdc55d7e2ff581c1">visible</a> = true</td></tr>
@@ -118,6 +118,24 @@ Public Attributes</h2></td></tr>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a08b8b9ad798535fa6ca9af7a0884ba18"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="namespaceobe_1_1_graphics_1_1_canvas.html#aaaee5924f85afded701c731eab80e38c">CanvasElementType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas_element.html#a08b8b9ad798535fa6ca9af7a0884ba18">Type</a> = <a class="el" href="namespaceobe_1_1_graphics_1_1_canvas.html#aaaee5924f85afded701c731eab80e38ca6955386a3b1ef8bad90667eac0b87b84">CanvasElementType::CanvasElement</a></td></tr>
 <tr class="separator:a08b8b9ad798535fa6ca9af7a0884ba18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_methods_classobe_1_1_types_1_1_identifiable"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classobe_1_1_types_1_1_identifiable')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classobe_1_1_types_1_1_identifiable.html">obe::Types::Identifiable</a></td></tr>
+<tr class="memitem:a60998c1fa478c49f46371e54a18b5401 inherit pro_methods_classobe_1_1_types_1_1_identifiable"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_types_1_1_identifiable.html#a60998c1fa478c49f46371e54a18b5401">~Identifiable</a> ()=default</td></tr>
+<tr class="separator:a60998c1fa478c49f46371e54a18b5401 inherit pro_methods_classobe_1_1_types_1_1_identifiable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f3dfd21c84ad420f26395d5e62c5e2d inherit pro_methods_classobe_1_1_types_1_1_identifiable"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_types_1_1_identifiable.html#a0f3dfd21c84ad420f26395d5e62c5e2d">Identifiable</a> (const std::string &amp;id)</td></tr>
+<tr class="memdesc:a0f3dfd21c84ad420f26395d5e62c5e2d inherit pro_methods_classobe_1_1_types_1_1_identifiable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new <a class="el" href="classobe_1_1_types_1_1_identifiable.html" title="A Base class that does carry an unique identifier for a given category (Sprites / Colliders etc...">Identifiable</a>.  <a href="classobe_1_1_types_1_1_identifiable.html#a0f3dfd21c84ad420f26395d5e62c5e2d">More...</a><br /></td></tr>
+<tr class="separator:a0f3dfd21c84ad420f26395d5e62c5e2d inherit pro_methods_classobe_1_1_types_1_1_identifiable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab42dca3ac8f60ca652ff63bdd42abfc inherit pro_methods_classobe_1_1_types_1_1_identifiable"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_types_1_1_identifiable.html#aab42dca3ac8f60ca652ff63bdd42abfc">setId</a> (const std::string &amp;id)</td></tr>
+<tr class="memdesc:aab42dca3ac8f60ca652ff63bdd42abfc inherit pro_methods_classobe_1_1_types_1_1_identifiable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a new id for the <a class="el" href="classobe_1_1_types_1_1_identifiable.html" title="A Base class that does carry an unique identifier for a given category (Sprites / Colliders etc...">Identifiable</a>.  <a href="classobe_1_1_types_1_1_identifiable.html#aab42dca3ac8f60ca652ff63bdd42abfc">More...</a><br /></td></tr>
+<tr class="separator:aab42dca3ac8f60ca652ff63bdd42abfc inherit pro_methods_classobe_1_1_types_1_1_identifiable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b4411691b5570068092e00542fd679a inherit pro_methods_classobe_1_1_types_1_1_identifiable"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_types_1_1_identifiable.html#a7b4411691b5570068092e00542fd679a">getId</a> () const</td></tr>
+<tr class="memdesc:a7b4411691b5570068092e00542fd679a inherit pro_methods_classobe_1_1_types_1_1_identifiable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the id of the <a class="el" href="classobe_1_1_types_1_1_identifiable.html" title="A Base class that does carry an unique identifier for a given category (Sprites / Colliders etc...">Identifiable</a>.  <a href="classobe_1_1_types_1_1_identifiable.html#a7b4411691b5570068092e00542fd679a">More...</a><br /></td></tr>
+<tr class="separator:a7b4411691b5570068092e00542fd679a inherit pro_methods_classobe_1_1_types_1_1_identifiable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classobe_1_1_types_1_1_identifiable"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classobe_1_1_types_1_1_identifiable')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classobe_1_1_types_1_1_identifiable.html">obe::Types::Identifiable</a></td></tr>
+<tr class="memitem:aa1a8d75bb52273880ff44a5448dfecff inherit pro_attribs_classobe_1_1_types_1_1_identifiable"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_types_1_1_identifiable.html#aa1a8d75bb52273880ff44a5448dfecff">m_id</a></td></tr>
+<tr class="separator:aa1a8d75bb52273880ff44a5448dfecff inherit pro_attribs_classobe_1_1_types_1_1_identifiable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A Drawable <a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas.html" title="A Canvas where you can draw CanvasElements on. ">Canvas</a> Element. </p>
@@ -263,20 +281,6 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a95a0603326e78c89ce30f11b2889da49"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95a0603326e78c89ce30f11b2889da49">&#9670;&nbsp;</a></span>id</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string obe::Graphics::Canvas::CanvasElement::id</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a0d177150be0a14d3a28bf95a5ee98dc3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0d177150be0a14d3a28bf95a5ee98dc3">&#9670;&nbsp;</a></span>layer</h2>
 

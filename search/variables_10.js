@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['w',['w',['../structobe_1_1_transform_1_1_view_struct.html#a8541f4e27c9f0ea0fc19203eeebd57cf',1,'obe::Transform::ViewStruct::w()'],['../structobe_1_1_transform_1_1_screen_struct.html#a2a8cc2bff19054692b73fad1599444b5',1,'obe::Transform::ScreenStruct::w()']]]
+  ['v_5falign',['v_align',['../classobe_1_1_graphics_1_1_canvas_1_1_text.html#a4e539b257b55058c4527497efb07506d',1,'obe::Graphics::Canvas::Text']]],
+  ['view',['View',['../classobe_1_1_transform_1_1_unit_vector.html#a8b5cc0c5d6b22650a1b6a2c26a77f737',1,'obe::Transform::UnitVector']]],
+  ['visible',['visible',['../classobe_1_1_graphics_1_1_canvas_1_1_canvas_element.html#adaa596b06a2a7e1fcdc55d7e2ff581c1',1,'obe::Graphics::Canvas::CanvasElement']]]
 ];

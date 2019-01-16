@@ -97,15 +97,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5649d751353ffb6fd27051f7f21eee6e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger.html#a5649d751353ffb6fd27051f7f21eee6e">getNamespace</a> () const</td></tr>
 <tr class="memdesc:a5649d751353ffb6fd27051f7f21eee6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of the namespace of the parent (<a class="el" href="classobe_1_1_triggers_1_1_trigger_group.html" title="Class used to manage multiple Trigger . ">TriggerGroup</a>) of the <a class="el" href="classobe_1_1_triggers_1_1_trigger.html" title="A Class that does represents a triggerable event . ">Trigger</a>.  <a href="#a5649d751353ffb6fd27051f7f21eee6e">More...</a><br /></td></tr>
 <tr class="separator:a5649d751353ffb6fd27051f7f21eee6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5f3cf098ffcdcd75a5b9f82c80a57c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger.html#ac5f3cf098ffcdcd75a5b9f82c80a57c5">registerEnvironment</a> (unsigned int envIndex, const std::string &amp;callbackName)</td></tr>
-<tr class="memdesc:ac5f3cf098ffcdcd75a5b9f82c80a57c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers a Lua State that will be triggered.  <a href="#ac5f3cf098ffcdcd75a5b9f82c80a57c5">More...</a><br /></td></tr>
-<tr class="separator:ac5f3cf098ffcdcd75a5b9f82c80a57c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b6becab41dd58620ed092fc4675c2f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger.html#a4b6becab41dd58620ed092fc4675c2f2">registerEnvironment</a> (unsigned int envIndex, const std::string &amp;callbackName, bool *envActive)</td></tr>
+<tr class="memdesc:a4b6becab41dd58620ed092fc4675c2f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers a Lua State that will be triggered.  <a href="#a4b6becab41dd58620ed092fc4675c2f2">More...</a><br /></td></tr>
+<tr class="separator:a4b6becab41dd58620ed092fc4675c2f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36ca7ddb9356fdab7015634aaf262605"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger.html#a36ca7ddb9356fdab7015634aaf262605">unregisterEnvironment</a> (unsigned int envIndex)</td></tr>
 <tr class="memdesc:a36ca7ddb9356fdab7015634aaf262605"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes an environment from <a class="el" href="classobe_1_1_triggers_1_1_trigger.html" title="A Class that does represents a triggerable event . ">Trigger</a> Execution.  <a href="#a36ca7ddb9356fdab7015634aaf262605">More...</a><br /></td></tr>
 <tr class="separator:a36ca7ddb9356fdab7015634aaf262605"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8681c2bad7905ed990df9aa4053f2a5b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger.html#a8681c2bad7905ed990df9aa4053f2a5b">execute</a> () const</td></tr>
-<tr class="memdesc:a8681c2bad7905ed990df9aa4053f2a5b"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespaceobe_1_1_triggers.html" title="Classes and Functions to handle Triggers (Events) ">Triggers</a> callbacks.  <a href="#a8681c2bad7905ed990df9aa4053f2a5b">More...</a><br /></td></tr>
-<tr class="separator:a8681c2bad7905ed990df9aa4053f2a5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76a376d3aa78e78e556e83d47a6ca177"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger.html#a76a376d3aa78e78e556e83d47a6ca177">execute</a> ()</td></tr>
+<tr class="memdesc:a76a376d3aa78e78e556e83d47a6ca177"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespaceobe_1_1_triggers.html" title="Classes and Functions to handle Triggers (Events) ">Triggers</a> callbacks.  <a href="#a76a376d3aa78e78e556e83d47a6ca177">More...</a><br /></td></tr>
+<tr class="separator:a76a376d3aa78e78e556e83d47a6ca177"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -113,9 +113,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a09b4d1a86c910fd6659ec37547bea49f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger.html#a09b4d1a86c910fd6659ec37547bea49f">pushParameter</a> (const std::string &amp;name, P parameter)</td></tr>
 <tr class="memdesc:a09b4d1a86c910fd6659ec37547bea49f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pushes a parameter to the <a class="el" href="classobe_1_1_triggers_1_1_trigger.html" title="A Class that does represents a triggerable event . ">Trigger</a>.  <a href="#a09b4d1a86c910fd6659ec37547bea49f">More...</a><br /></td></tr>
 <tr class="separator:a09b4d1a86c910fd6659ec37547bea49f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7586f173a3098ccc706ba9c8e718b55"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger.html#ad7586f173a3098ccc706ba9c8e718b55">pushParameterFromLua</a> (const std::string &amp;name, kaguya::LuaRef parameter)</td></tr>
-<tr class="memdesc:ad7586f173a3098ccc706ba9c8e718b55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pushes a parameter on the <a class="el" href="classobe_1_1_triggers_1_1_trigger.html" title="A Class that does represents a triggerable event . ">Trigger</a> from a Lua VM.  <a href="#ad7586f173a3098ccc706ba9c8e718b55">More...</a><br /></td></tr>
-<tr class="separator:ad7586f173a3098ccc706ba9c8e718b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a774bd3a0c0ee6cd744b34f3d7e64b4a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger.html#a774bd3a0c0ee6cd744b34f3d7e64b4a6">pushParameterFromLua</a> (const std::string &amp;name, const kaguya::LuaRef &amp;parameter) const</td></tr>
+<tr class="memdesc:a774bd3a0c0ee6cd744b34f3d7e64b4a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pushes a parameter on the <a class="el" href="classobe_1_1_triggers_1_1_trigger.html" title="A Class that does represents a triggerable event . ">Trigger</a> from a Lua VM.  <a href="#a774bd3a0c0ee6cd744b34f3d7e64b4a6">More...</a><br /></td></tr>
+<tr class="separator:a774bd3a0c0ee6cd744b34f3d7e64b4a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad83456f23a1e90dc2b7f816628c93e36"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_trigger.html#ad83456f23a1e90dc2b7f816628c93e36">getTriggerLuaTableName</a> () const</td></tr>
 <tr class="memdesc:ad83456f23a1e90dc2b7f816628c93e36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Lua Table path used to store <a class="el" href="classobe_1_1_triggers_1_1_trigger.html" title="A Class that does represents a triggerable event . ">Trigger</a> Parameters.  <a href="#ad83456f23a1e90dc2b7f816628c93e36">More...</a><br /></td></tr>
 <tr class="separator:ad83456f23a1e90dc2b7f816628c93e36"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -183,8 +183,8 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a8681c2bad7905ed990df9aa4053f2a5b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8681c2bad7905ed990df9aa4053f2a5b">&#9670;&nbsp;</a></span>execute()</h2>
+<a id="a76a376d3aa78e78e556e83d47a6ca177"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76a376d3aa78e78e556e83d47a6ca177">&#9670;&nbsp;</a></span>execute()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -193,7 +193,7 @@ Friends</h2></td></tr>
           <td class="memname">void obe::Triggers::Trigger::execute </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -363,8 +363,8 @@ template&lt;typename P &gt; </div>
 
 </div>
 </div>
-<a id="ad7586f173a3098ccc706ba9c8e718b55"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7586f173a3098ccc706ba9c8e718b55">&#9670;&nbsp;</a></span>pushParameterFromLua()</h2>
+<a id="a774bd3a0c0ee6cd744b34f3d7e64b4a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a774bd3a0c0ee6cd744b34f3d7e64b4a6">&#9670;&nbsp;</a></span>pushParameterFromLua()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -381,13 +381,13 @@ template&lt;typename P &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">kaguya::LuaRef&#160;</td>
+          <td class="paramtype">const kaguya::LuaRef &amp;&#160;</td>
           <td class="paramname"><em>parameter</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
@@ -408,8 +408,8 @@ template&lt;typename P &gt; </div>
 
 </div>
 </div>
-<a id="ac5f3cf098ffcdcd75a5b9f82c80a57c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac5f3cf098ffcdcd75a5b9f82c80a57c5">&#9670;&nbsp;</a></span>registerEnvironment()</h2>
+<a id="a4b6becab41dd58620ed092fc4675c2f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b6becab41dd58620ed092fc4675c2f2">&#9670;&nbsp;</a></span>registerEnvironment()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -424,7 +424,13 @@ template&lt;typename P &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>callbackName</em>&#160;</td>
+          <td class="paramname"><em>callbackName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool *&#160;</td>
+          <td class="paramname"><em>envActive</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -438,6 +444,8 @@ template&lt;typename P &gt; </div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">envIndex</td><td>Index of the Lua Env to register </td></tr>
+    <tr><td class="paramname">callbackName</td><td>Name of the callback to register </td></tr>
+    <tr><td class="paramname">envActive</td><td>Pointer to the boolean that indicate if an environment is active or not </td></tr>
   </table>
   </dd>
 </dl>

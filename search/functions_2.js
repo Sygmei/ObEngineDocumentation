@@ -7,6 +7,7 @@ var searchData=
   ['canvaspositionable',['CanvasPositionable',['../classobe_1_1_graphics_1_1_canvas_1_1_canvas_positionable.html#a9358302dff7cd318f14424eadb6f8d74',1,'obe::Graphics::Canvas::CanvasPositionable']]],
   ['check',['check',['../classobe_1_1_input_1_1_input_action.html#a6b73e640fa0d70128d4ca411095f5e3d',1,'obe::Input::InputAction::check()'],['../classobe_1_1_input_1_1_input_condition.html#aa8aa8e6fa5787baa8c3d06c61387f643',1,'obe::Input::InputCondition::check()']]],
   ['checkifluaelementexists',['checkIfLuaElementExists',['../namespaceobe_1_1_bindings.html#afa4acd892021665e2318ac9cfe101838',1,'obe::Bindings']]],
+  ['checktags',['checkTags',['../classobe_1_1_collision_1_1_polygonal_collider.html#aa7ed2f746c2fde6f1fe8a67860a8892b',1,'obe::Collision::PolygonalCollider']]],
   ['choosemapaddmaps',['chooseMapAddMaps',['../namespaceobe_1_1_modes.html#a906551a475a12bc7acee6673e997ff89',1,'obe::Modes']]],
   ['choosemapmenu',['chooseMapMenu',['../namespaceobe_1_1_modes.html#a3f3265818dfb12925bf614e517346f73',1,'obe::Modes']]],
   ['circle',['Circle',['../classobe_1_1_graphics_1_1_canvas_1_1_circle.html#a1a1f67200c069011908fc75863bee252',1,'obe::Graphics::Canvas::Circle']]],

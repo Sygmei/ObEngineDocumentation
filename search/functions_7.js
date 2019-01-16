@@ -10,6 +10,5 @@ var searchData=
   ['hasshader',['hasShader',['../classobe_1_1_graphics_1_1_level_sprite.html#ab752942de4930535e45234bf15193de6',1,'obe::Graphics::LevelSprite']]],
   ['hide',['hide',['../classobe_1_1_system_1_1_cursor.html#a63ca00e5e23dc7854d6eb1e9e651b931',1,'obe::System::Cursor']]],
   ['highlightline',['highlightLine',['../classobe_1_1_collision_1_1_polygonal_collider.html#ac19d98c42e5b577d9644b1f724049803',1,'obe::Collision::PolygonalCollider']]],
-  ['highlightpoint',['highlightPoint',['../classobe_1_1_collision_1_1_polygonal_collider.html#a15d9b0d0a35bdf86dac02c6612af8219',1,'obe::Collision::PolygonalCollider']]],
-  ['horizontallyreversereferencial',['horizontallyReverseReferencial',['../namespaceobe_1_1_transform.html#ac7539415d05ef078258b13811a47de12',1,'obe::Transform']]]
+  ['highlightpoint',['highlightPoint',['../classobe_1_1_collision_1_1_polygonal_collider.html#a15d9b0d0a35bdf86dac02c6612af8219',1,'obe::Collision::PolygonalCollider']]]
 ];

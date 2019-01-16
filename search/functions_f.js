@@ -9,7 +9,7 @@ var searchData=
   ['pointscompare',['pointsCompare',['../namespaceobe_1_1_collision.html#a4fd8653e1957bcc3a7091582169390b7',1,'obe::Collision']]],
   ['pointsdistance',['pointsDistance',['../namespaceobe_1_1_collision.html#a83f2d50fa7fd65f45b778888d6295078',1,'obe::Collision']]],
   ['pollevent',['pollEvent',['../classobe_1_1_system_1_1_window.html#a96a617dcbd86b215d874d41aea1a2b72',1,'obe::System::Window']]],
-  ['polygon',['Polygon',['../classobe_1_1_transform_1_1_polygon.html#aae68878986931ef1578836efdde38d97',1,'obe::Transform::Polygon']]],
+  ['polygon_5fgetsegmentcontainingpoint_5fsubwrapper',['Polygon_getSegmentContainingPoint_subwrapper',['../namespaceobe_1_1_bindings_1_1_transform_bindings.html#ac2cb55f92a22bdc82963d3ca4e9b7de3',1,'obe::Bindings::TransformBindings']]],
   ['polygonalcollider',['PolygonalCollider',['../classobe_1_1_collision_1_1_polygonal_collider.html#a5ac13490423881d1f655c33a8ab8f820',1,'obe::Collision::PolygonalCollider']]],
   ['polygonpoint',['PolygonPoint',['../classobe_1_1_transform_1_1_polygon_point.html#ac8baf8c0eeaa1e78726a1d38bb7185fa',1,'obe::Transform::PolygonPoint::PolygonPoint(Polygon *parent, unsigned int index)'],['../classobe_1_1_transform_1_1_polygon_point.html#a5850168e44ceed2f787150118f222e86',1,'obe::Transform::PolygonPoint::PolygonPoint(Polygon *parent, unsigned int index, const Transform::UnitVector &amp;position)']]],
   ['polygonsegment',['PolygonSegment',['../classobe_1_1_transform_1_1_polygon_segment.html#a8abff7c03b08aa67d56c2b12297b5241',1,'obe::Transform::PolygonSegment']]],
@@ -19,6 +19,6 @@ var searchData=
   ['push',['push',['../classobe_1_1_debug_1_1_console_stream.html#a5e6b6ff008579aaa9f2f954cc15d2328',1,'obe::Debug::ConsoleStream']]],
   ['pushmessage',['pushMessage',['../classobe_1_1_debug_1_1_console.html#a371e6e971dfd23464717aeacc5b1a2b2',1,'obe::Debug::Console']]],
   ['pushparameter',['pushParameter',['../classobe_1_1_triggers_1_1_trigger.html#a09b4d1a86c910fd6659ec37547bea49f',1,'obe::Triggers::Trigger::pushParameter()'],['../classobe_1_1_triggers_1_1_trigger_group.html#a49dc453c0968342bd7ffae88abcb19b7',1,'obe::Triggers::TriggerGroup::pushParameter()']]],
-  ['pushparameterfromlua',['pushParameterFromLua',['../classobe_1_1_triggers_1_1_trigger.html#ad7586f173a3098ccc706ba9c8e718b55',1,'obe::Triggers::Trigger::pushParameterFromLua()'],['../classobe_1_1_triggers_1_1_trigger_group.html#a0da94af6b028e8dbeae3adc56201b456',1,'obe::Triggers::TriggerGroup::pushParameterFromLua()']]],
+  ['pushparameterfromlua',['pushParameterFromLua',['../classobe_1_1_triggers_1_1_trigger.html#a774bd3a0c0ee6cd744b34f3d7e64b4a6',1,'obe::Triggers::Trigger::pushParameterFromLua()'],['../classobe_1_1_triggers_1_1_trigger_group.html#a0da94af6b028e8dbeae3adc56201b456',1,'obe::Triggers::TriggerGroup::pushParameterFromLua()']]],
   ['pushtexture',['pushTexture',['../classobe_1_1_animation_1_1_animation_group.html#a8a85e1a1f2fd23675150e39c7b294f98',1,'obe::Animation::AnimationGroup']]]
 ];

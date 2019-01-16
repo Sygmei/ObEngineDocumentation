@@ -67,6 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
@@ -87,9 +88,6 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aae68878986931ef1578836efdde38d97"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_polygon.html#aae68878986931ef1578836efdde38d97">Polygon</a> ()</td></tr>
-<tr class="memdesc:aae68878986931ef1578836efdde38d97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classobe_1_1_transform_1_1_polygon.html" title="Class used for all Collisions in the engine, it&#39;s a Polygon containing n points . ...">Polygon</a>.  <a href="#aae68878986931ef1578836efdde38d97">More...</a><br /></td></tr>
-<tr class="separator:aae68878986931ef1578836efdde38d97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d02f8d2c70de5130afb08d6e55bc3ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_polygon.html#a2d02f8d2c70de5130afb08d6e55bc3ef">addPoint</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;position, int pointIndex=-1)</td></tr>
 <tr class="memdesc:a2d02f8d2c70de5130afb08d6e55bc3ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new Point to the <a class="el" href="classobe_1_1_transform_1_1_polygon.html" title="Class used for all Collisions in the engine, it&#39;s a Polygon containing n points . ...">Polygon</a> at Position (x, y)  <a href="#a2d02f8d2c70de5130afb08d6e55bc3ef">More...</a><br /></td></tr>
 <tr class="separator:a2d02f8d2c70de5130afb08d6e55bc3ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -116,9 +114,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a42007b749fb615cc2f58b183a184c68c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a304f9b55cbd65b57fb3f9f769dfa5d7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_polygon_segment.html">PolygonSegment</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_polygon.html#a304f9b55cbd65b57fb3f9f769dfa5d7e">getSegment</a> (<a class="el" href="namespaceobe_1_1_transform.html#a65e7247d682e372d7fbbeaf1e0d8d199">point_index_t</a> segment)</td></tr>
 <tr class="separator:a304f9b55cbd65b57fb3f9f769dfa5d7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a686c112e6c2ff04419b8d175bfe394d6"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="classobe_1_1_transform_1_1_polygon_segment.html">PolygonSegment</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_polygon.html#a686c112e6c2ff04419b8d175bfe394d6">getSegmentContainingPoint</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;position, double tolerance=0.01)</td></tr>
-<tr class="memdesc:a686c112e6c2ff04419b8d175bfe394d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get if the Position (x, y) is on one of the side of the <a class="el" href="classobe_1_1_transform_1_1_polygon.html" title="Class used for all Collisions in the engine, it&#39;s a Polygon containing n points . ...">Polygon</a>.  <a href="#a686c112e6c2ff04419b8d175bfe394d6">More...</a><br /></td></tr>
-<tr class="separator:a686c112e6c2ff04419b8d175bfe394d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e8a5b9d130e1fea6ce5d4d6f3b27d41"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="classobe_1_1_transform_1_1_polygon_segment.html">PolygonSegment</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_polygon.html#a2e8a5b9d130e1fea6ce5d4d6f3b27d41">getSegmentContainingPoint</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;position, double tolerance=<a class="el" href="classobe_1_1_transform_1_1_polygon.html#a1e525dafde5440fa66668e92958fc2e0">DefaultTolerance</a>)</td></tr>
+<tr class="memdesc:a2e8a5b9d130e1fea6ce5d4d6f3b27d41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get if the Position (x, y) is on one of the side of the <a class="el" href="classobe_1_1_transform_1_1_polygon.html" title="Class used for all Collisions in the engine, it&#39;s a Polygon containing n points . ...">Polygon</a>.  <a href="#a2e8a5b9d130e1fea6ce5d4d6f3b27d41">More...</a><br /></td></tr>
+<tr class="separator:a2e8a5b9d130e1fea6ce5d4d6f3b27d41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a204c33c694afb4e98cd92f68f983b2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_polygon.html#a4a204c33c694afb4e98cd92f68f983b2">isCentroidAroundPosition</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;position, const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;tolerance) const</td></tr>
 <tr class="memdesc:a4a204c33c694afb4e98cd92f68f983b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the MasterPoint of the <a class="el" href="classobe_1_1_transform_1_1_polygon.html" title="Class used for all Collisions in the engine, it&#39;s a Polygon containing n points . ...">Polygon</a> is on Position (x - tolerance &lt;= x &lt;= x + tolerance, y - tolerance &lt;= tolerance &lt;= y + tolerance)  <a href="#a4a204c33c694afb4e98cd92f68f983b2">More...</a><br /></td></tr>
 <tr class="separator:a4a204c33c694afb4e98cd92f68f983b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -143,6 +141,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a46338ead2bc5464fa2c51f078eb94da4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad64b7c3eb99c8e6a58ec0e3c4f648700"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_polygon_point.html">PolygonPoint</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_polygon.html#ad64b7c3eb99c8e6a58ec0e3c4f648700">get</a> (<a class="el" href="namespaceobe_1_1_transform.html#a65e7247d682e372d7fbbeaf1e0d8d199">point_index_t</a> i)</td></tr>
 <tr class="separator:ad64b7c3eb99c8e6a58ec0e3c4f648700"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b74dd9fba73b5b70fe439b0c7b64a7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_rect.html">Rect</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_polygon.html#a2b74dd9fba73b5b70fe439b0c7b64a7d">getBoundingBox</a> () const</td></tr>
+<tr class="separator:a2b74dd9fba73b5b70fe439b0c7b64a7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classobe_1_1_transform_1_1_unit_based_object"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classobe_1_1_transform_1_1_unit_based_object')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classobe_1_1_transform_1_1_unit_based_object.html">obe::Transform::UnitBasedObject</a></td></tr>
 <tr class="memitem:a761200826c44de6ebc7d7fb0a4704269 inherit pub_methods_classobe_1_1_transform_1_1_unit_based_object"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_unit_based_object.html#a761200826c44de6ebc7d7fb0a4704269">~UnitBasedObject</a> ()=default</td></tr>
 <tr class="separator:a761200826c44de6ebc7d7fb0a4704269 inherit pub_methods_classobe_1_1_transform_1_1_unit_based_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -155,11 +155,11 @@ Public Member Functions</h2></td></tr>
 <tr class="inherit_header pub_methods_classobe_1_1_transform_1_1_movable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classobe_1_1_transform_1_1_movable')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classobe_1_1_transform_1_1_movable.html">obe::Transform::Movable</a></td></tr>
 <tr class="memitem:a7e89720c6b0002e0668ab6862518015b inherit pub_methods_classobe_1_1_transform_1_1_movable"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_movable.html#a7e89720c6b0002e0668ab6862518015b">~Movable</a> ()=default</td></tr>
 <tr class="separator:a7e89720c6b0002e0668ab6862518015b inherit pub_methods_classobe_1_1_transform_1_1_movable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae325be6645aa6336c66ad38d7f37b0a8 inherit pub_methods_classobe_1_1_transform_1_1_movable"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_movable.html#ae325be6645aa6336c66ad38d7f37b0a8">Movable</a> (<a class="el" href="namespaceobe_1_1_transform.html#afa663032e66eaf5d647861418b975ecc">MovableType</a> type)</td></tr>
-<tr class="separator:ae325be6645aa6336c66ad38d7f37b0a8 inherit pub_methods_classobe_1_1_transform_1_1_movable"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab896d623f28c2c860890371ac7b88b63 inherit pub_methods_classobe_1_1_transform_1_1_movable"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceobe_1_1_transform.html#afa663032e66eaf5d647861418b975ecc">MovableType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_movable.html#ab896d623f28c2c860890371ac7b88b63">getType</a> () const</td></tr>
-<tr class="memdesc:ab896d623f28c2c860890371ac7b88b63 inherit pub_methods_classobe_1_1_transform_1_1_movable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the type of the <a class="el" href="classobe_1_1_transform_1_1_movable.html">Movable</a> object.  <a href="classobe_1_1_transform_1_1_movable.html#ab896d623f28c2c860890371ac7b88b63">More...</a><br /></td></tr>
-<tr class="separator:ab896d623f28c2c860890371ac7b88b63 inherit pub_methods_classobe_1_1_transform_1_1_movable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a1e525dafde5440fa66668e92958fc2e0"><td class="memItemLeft" align="right" valign="top">static constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_polygon.html#a1e525dafde5440fa66668e92958fc2e0">DefaultTolerance</a> = 0.02</td></tr>
+<tr class="separator:a1e525dafde5440fa66668e92958fc2e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -177,8 +177,6 @@ Protected Attributes</h2></td></tr>
 <tr class="memdesc:af22835633e9b86b66944519534cf98fd inherit pro_attribs_classobe_1_1_transform_1_1_unit_based_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unit used in the Class.  <a href="classobe_1_1_transform_1_1_unit_based_object.html#af22835633e9b86b66944519534cf98fd">More...</a><br /></td></tr>
 <tr class="separator:af22835633e9b86b66944519534cf98fd inherit pro_attribs_classobe_1_1_transform_1_1_unit_based_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classobe_1_1_transform_1_1_movable"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classobe_1_1_transform_1_1_movable')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classobe_1_1_transform_1_1_movable.html">obe::Transform::Movable</a></td></tr>
-<tr class="memitem:ae764cdb31b5ca997bfa851af416fb986 inherit pro_attribs_classobe_1_1_transform_1_1_movable"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceobe_1_1_transform.html#afa663032e66eaf5d647861418b975ecc">MovableType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_movable.html#ae764cdb31b5ca997bfa851af416fb986">m_type</a></td></tr>
-<tr class="separator:ae764cdb31b5ca997bfa851af416fb986 inherit pro_attribs_classobe_1_1_transform_1_1_movable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a399fa7096b3ffae13d4f14877a384d95 inherit pro_attribs_classobe_1_1_transform_1_1_movable"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">UnitVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_movable.html#a399fa7096b3ffae13d4f14877a384d95">m_position</a></td></tr>
 <tr class="separator:a399fa7096b3ffae13d4f14877a384d95 inherit pro_attribs_classobe_1_1_transform_1_1_movable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -189,35 +187,7 @@ Friends</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class used for all Collisions in the engine, it's a <a class="el" href="classobe_1_1_transform_1_1_polygon.html" title="Class used for all Collisions in the engine, it&#39;s a Polygon containing n points . ...">Polygon</a> containing n points . </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aae68878986931ef1578836efdde38d97"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae68878986931ef1578836efdde38d97">&#9670;&nbsp;</a></span>Polygon()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">obe::Transform::Polygon::Polygon </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Constructs a <a class="el" href="classobe_1_1_transform_1_1_polygon.html" title="Class used for all Collisions in the engine, it&#39;s a Polygon containing n points . ...">Polygon</a>. </p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a2d02f8d2c70de5130afb08d6e55bc3ef"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2d02f8d2c70de5130afb08d6e55bc3ef">&#9670;&nbsp;</a></span>addPoint()</h2>
 
@@ -362,6 +332,23 @@ Friends</h2></td></tr>
 
 <p>Get all the Points of the <a class="el" href="classobe_1_1_transform_1_1_polygon.html" title="Class used for all Collisions in the engine, it&#39;s a Polygon containing n points . ...">Polygon</a>. </p>
 <dl class="section return"><dt>Returns</dt><dd>A Path containing all the Points of the <a class="el" href="classobe_1_1_transform_1_1_polygon.html" title="Class used for all Collisions in the engine, it&#39;s a Polygon containing n points . ...">Polygon</a> </dd></dl>
+
+</div>
+</div>
+<a id="a2b74dd9fba73b5b70fe439b0c7b64a7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b74dd9fba73b5b70fe439b0c7b64a7d">&#9670;&nbsp;</a></span>getBoundingBox()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classobe_1_1_transform_1_1_rect.html">Rect</a> obe::Transform::Polygon::getBoundingBox </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -511,8 +498,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a686c112e6c2ff04419b8d175bfe394d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a686c112e6c2ff04419b8d175bfe394d6">&#9670;&nbsp;</a></span>getSegmentContainingPoint()</h2>
+<a id="a2e8a5b9d130e1fea6ce5d4d6f3b27d41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e8a5b9d130e1fea6ce5d4d6f3b27d41">&#9670;&nbsp;</a></span>getSegmentContainingPoint()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -527,7 +514,7 @@ Friends</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>tolerance</em> = <code>0.01</code>&#160;</td>
+          <td class="paramname"><em>tolerance</em> = <code><a class="el" href="classobe_1_1_transform_1_1_polygon.html#a1e525dafde5440fa66668e92958fc2e0">DefaultTolerance</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -821,6 +808,28 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a1e525dafde5440fa66668e92958fc2e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e525dafde5440fa66668e92958fc2e0">&#9670;&nbsp;</a></span>DefaultTolerance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr double obe::Transform::Polygon::DefaultTolerance = 0.02</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0dbb0db041c00f4efe1fdde60fe9e147"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0dbb0db041c00f4efe1fdde60fe9e147">&#9670;&nbsp;</a></span>m_angle</h2>
 

@@ -8,7 +8,7 @@ var searchData=
   ['addacceleration',['addAcceleration',['../classobe_1_1_collision_1_1_trajectory.html#a267359e7a1b90d7c46b35c9f2e15834c',1,'obe::Collision::Trajectory']]],
   ['addangle',['addAngle',['../classobe_1_1_collision_1_1_trajectory.html#abf1fe00bde8f198dd50769faafa218a9',1,'obe::Collision::Trajectory']]],
   ['addcheck',['addCheck',['../classobe_1_1_collision_1_1_trajectory.html#ac66b221b243c9fc3b0d7f7c5b303f959',1,'obe::Collision::Trajectory']]],
-  ['addchild',['addChild',['../classobe_1_1_transform_1_1_scene_node.html#a7f3f060d307fe04dadc8d41e83aa12d2',1,'obe::Transform::SceneNode']]],
+  ['addchild',['addChild',['../classobe_1_1_scene_1_1_scene_node.html#ae38e5560872312d1eff02240fbe33da2',1,'obe::Scene::SceneNode']]],
   ['addcombinationelement',['addCombinationElement',['../classobe_1_1_input_1_1_input_condition.html#aa9528e80d82e90b23a458ab1e84d31a3',1,'obe::Input::InputCondition']]],
   ['addcomponent',['AddComponent',['../classobe_1_1_component_1_1_component_base.html#aa03a62f1de46a5123901abcebef32e70',1,'obe::Component::ComponentBase']]],
   ['addcondition',['addCondition',['../classobe_1_1_input_1_1_input_action.html#a66dc8f631d254b7c76c7a9e0a720817c',1,'obe::Input::InputAction']]],
@@ -49,5 +49,6 @@ var searchData=
   ['argumentexists',['argumentExists',['../classobe_1_1_utils_1_1_exec_1_1_run_args_parser.html#a5719673b5131b13995c48ca9446bfb7b',1,'obe::Utils::Exec::RunArgsParser']]],
   ['arraynodetoluatable',['arrayNodeToLuaTable',['../namespaceobe_1_1_script_1_1_data_bridge.html#af67023e03c74b22bf57d33b902d40709',1,'obe::Script::DataBridge']]],
   ['arrows',['Arrows',['../namespaceobe_1_1_input.html#a08f2b5990899bb151cc4fedfb35b716ba4e05974b02cc4aa95db4d85baef6b6b4',1,'obe::Input']]],
+  ['axis',['Axis',['../classobe_1_1_transform_1_1_referential.html#a1605a3150c169fb566c0d90383fd0c27',1,'obe::Transform::Referential']]],
   ['axiscomparetype',['AxisCompareType',['../namespaceobe_1_1_input.html#ac5fd619fdb4ab8ab6d22c9810106ab0b',1,'obe::Input']]]
 ];
