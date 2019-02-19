@@ -13,6 +13,7 @@ var searchData=
   ['set',['set',['../classobe_1_1_transform_1_1_unit_vector.html#af3867f780ceba4d23046a85314bfa077',1,'obe::Transform::UnitVector::set(const UnitVector &amp;vec)'],['../classobe_1_1_transform_1_1_unit_vector.html#a84f0b6ea8584542519423fb3a9454956',1,'obe::Transform::UnitVector::set(double x, double y)']]],
   ['setacceleration',['setAcceleration',['../classobe_1_1_collision_1_1_trajectory.html#a6d08a3d11c7fc4f2b5f4f8040f973376',1,'obe::Collision::Trajectory']]],
   ['setangle',['setAngle',['../classobe_1_1_collision_1_1_trajectory.html#af900a33ef5a5d43844e3504ac9a7bde8',1,'obe::Collision::Trajectory']]],
+  ['setbuffersize',['setBufferSize',['../classobe_1_1_network_1_1_tcp_server.html#af113007b90c10edd8a43fd3aa18d8f2d',1,'obe::Network::TcpServer']]],
   ['setcellheight',['setCellHeight',['../classobe_1_1_editor_1_1_editor_grid.html#a825c16b5b65e2de6e84a0ef05ff68542',1,'obe::Editor::EditorGrid']]],
   ['setcellwidth',['setCellWidth',['../classobe_1_1_editor_1_1_editor_grid.html#ac247975a1afcc6b12702df07ccb25091',1,'obe::Editor::EditorGrid']]],
   ['setcolor',['setColor',['../classobe_1_1_graphics_1_1_level_sprite.html#a4a44ffc7ad3e0dde13e12a19ea12b108',1,'obe::Graphics::LevelSprite::setColor()'],['../classobe_1_1_debug_1_1_console_message.html#a8fd73dcee37b7e7552068e7704924618',1,'obe::Debug::ConsoleMessage::setColor()'],['../classobe_1_1_debug_1_1_console_stream.html#aac29b2cbe555b2c3d29d030c9c7025f3',1,'obe::Debug::ConsoleStream::setColor()']]],

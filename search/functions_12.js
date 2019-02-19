@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['tcpserver',['TcpServer',['../classobe_1_1_network_1_1_tcp_server.html#a82b5d022c3d2c1faf6ffcb692662f45f',1,'obe::Network::TcpServer']]],
   ['text',['Text',['../classobe_1_1_graphics_1_1_canvas_1_1_text.html#a3e3d4f150b06e8f4d19cc701b6689597',1,'obe::Graphics::Canvas::Text']]],
   ['tick',['tick',['../classobe_1_1_time_1_1_f_p_s_counter.html#a566d3fc89be18bdca3d5c3bff744157c',1,'obe::Time::FPSCounter']]],
   ['timecheck',['TimeCheck',['../classobe_1_1_time_1_1_time_check.html#a98450c6170159bfda3c7430acd9bdc80',1,'obe::Time::TimeCheck']]],
@@ -14,7 +15,7 @@ var searchData=
   ['trajectory',['Trajectory',['../classobe_1_1_collision_1_1_trajectory.html#a314178ff6a0d808f50fa23992dc92cdc',1,'obe::Collision::Trajectory']]],
   ['trajectorynode',['TrajectoryNode',['../classobe_1_1_collision_1_1_trajectory_node.html#aa4fc0079d755ed7256c949cbe405e0a1',1,'obe::Collision::TrajectoryNode']]],
   ['transformref',['transformRef',['../classobe_1_1_transform_1_1_rect.html#a88397ab9951ba1e92313f4f2db7c8e6a',1,'obe::Transform::Rect']]],
-  ['trigger',['trigger',['../classobe_1_1_triggers_1_1_trigger_group.html#a321c75e1c0d14e8cf23dfa4829c457c6',1,'obe::Triggers::TriggerGroup::trigger()'],['../classobe_1_1_triggers_1_1_trigger.html#aea7961808399db1acea3b5528f0fc2cb',1,'obe::Triggers::Trigger::Trigger()']]],
+  ['trigger',['Trigger',['../classobe_1_1_triggers_1_1_trigger.html#aea7961808399db1acea3b5528f0fc2cb',1,'obe::Triggers::Trigger::Trigger()'],['../classobe_1_1_triggers_1_1_trigger_group.html#a321c75e1c0d14e8cf23dfa4829c457c6',1,'obe::Triggers::TriggerGroup::trigger()']]],
   ['triggerdelay',['TriggerDelay',['../classobe_1_1_triggers_1_1_trigger_delay.html#acac24c7f07adc9d20285a0e1e6de35ce',1,'obe::Triggers::TriggerDelay']]],
   ['triggerenv',['TriggerEnv',['../classobe_1_1_triggers_1_1_trigger_env.html#ab114630ae1a84441fd3f1fa8039c1c47',1,'obe::Triggers::TriggerEnv']]],
   ['triggergroup',['TriggerGroup',['../classobe_1_1_triggers_1_1_trigger_group.html#a92f7f2887d763373f5da74449465da98',1,'obe::Triggers::TriggerGroup']]],
