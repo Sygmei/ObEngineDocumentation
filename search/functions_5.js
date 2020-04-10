@@ -1,16 +1,19 @@
 var searchData=
 [
   ['fileexists',['fileExists',['../namespaceobe_1_1_utils_1_1_file.html#a1095626f5495edc7b8692073dd25cceb',1,'obe::Utils::File']]],
+  ['filepathloader',['filePathLoader',['../namespaceobe_1_1_system_1_1_loaders.html#a68394fdb9a8925b81e5d26610762a4d5',1,'obe::System::Loaders']]],
   ['find',['find',['../classobe_1_1_system_1_1_path.html#af3a5992c23fadc476faf92aae67538d4',1,'obe::System::Path']]],
   ['findclosestpoint',['findClosestPoint',['../classobe_1_1_transform_1_1_polygon.html#aec33dcc03b25d1fd4dd52f8e9c179ce5',1,'obe::Transform::Polygon']]],
   ['findclosestsegment',['findClosestSegment',['../classobe_1_1_transform_1_1_polygon.html#a10e115a5a428f3e4a4d1544d118efa96',1,'obe::Transform::Polygon']]],
   ['findoptionordefault',['findOptionOrDefault',['../namespaceobe_1_1_graphics_1_1_utils.html#ac97b7e28ad88af5b852616cebd50c551',1,'obe::Graphics::Utils']]],
-  ['flip',['flip',['../classobe_1_1_transform_1_1_referential.html#a32b04af0bb6aeaae00388285f08a4a5a',1,'obe::Transform::Referential']]],
-  ['forcenext',['forceNext',['../classobe_1_1_animation_1_1_animation_group.html#ad86bb28de21445e1b72cdc43941d61f1',1,'obe::Animation::AnimationGroup']]],
-  ['forceprevious',['forcePrevious',['../classobe_1_1_animation_1_1_animation_group.html#a6a1b08ad59cec8a89622a6bede04aded',1,'obe::Animation::AnimationGroup']]],
-  ['frameratemanager',['FramerateManager',['../classobe_1_1_time_1_1_framerate_manager.html#a4f5fe9d27d3611a52961c75da291b260',1,'obe::Time::FramerateManager']]],
+  ['flagset',['FlagSet',['../structobe_1_1_types_1_1_flag_set.html#a83241eaf5237cf1db6de3c9b36117d4c',1,'obe::Types::FlagSet::FlagSet()=default'],['../structobe_1_1_types_1_1_flag_set.html#affc15b8c3bde80bca53e37247492bdb0',1,'obe::Types::FlagSet::FlagSet(const FlagSet &amp;o)=default'],['../structobe_1_1_types_1_1_flag_set.html#ab9cf86db638c72453d6fe1124b3c3e14',1,'obe::Types::FlagSet::FlagSet(const T &amp;val)'],['../structobe_1_1_types_1_1_flag_set.html#a941e6fd65ca55d83ac2095718d320e97',1,'obe::Types::FlagSet::FlagSet(const std::string &amp;repr)']]],
+  ['flip',['flip',['../classobe_1_1_transform_1_1_referential.html#a32b04af0bb6aeaae00388285f08a4a5a',1,'obe::Transform::Referential::flip()'],['../structobe_1_1_types_1_1_flag_set.html#a76e36c14e4df531dd3c15610691d955c',1,'obe::Types::FlagSet::flip()'],['../structobe_1_1_types_1_1_flag_set.html#a36a42e69e9c00ace46f4685c2b552701',1,'obe::Types::FlagSet::flip(const T &amp;val)']]],
+  ['font',['Font',['../classobe_1_1_graphics_1_1_font.html#a85b161b9d69e0fdd2aef370167ea3206',1,'obe::Graphics::Font::Font()=default'],['../classobe_1_1_graphics_1_1_font.html#af2fc7b205130ec67f47ef4c5150411a0',1,'obe::Graphics::Font::Font(const Font &amp;font)'],['../classobe_1_1_graphics_1_1_font.html#a44472ad2b0b5730d9776d2341bb7188b',1,'obe::Graphics::Font::Font(const sf::Font &amp;font)']]],
+  ['fontloader',['fontLoader',['../namespaceobe_1_1_system_1_1_loaders.html#aa3928b20f934dac54c15ca473472e891',1,'obe::System::Loaders']]],
+  ['frameratemanager',['FramerateManager',['../classobe_1_1_time_1_1_framerate_manager.html#a9d916fcecbc916376b82673db601536f',1,'obe::Time::FramerateManager']]],
   ['fromhex',['fromHex',['../classobe_1_1_graphics_1_1_color.html#a1370bcd883bb08e415a939f9df0fb2ba',1,'obe::Graphics::Color']]],
-  ['fromhsl',['fromHsl',['../classobe_1_1_graphics_1_1_color.html#ad62e61e0a17d16993725b6a0f5187ebd',1,'obe::Graphics::Color']]],
+  ['fromhsv',['fromHsv',['../classobe_1_1_graphics_1_1_color.html#ae030fdfd73f6eca2992c319c03db2da2',1,'obe::Graphics::Color']]],
+  ['fromname',['fromName',['../classobe_1_1_graphics_1_1_color.html#a5d3544e5094cbdf6ac2a755e83b49f03',1,'obe::Graphics::Color']]],
   ['fromrgb',['fromRgb',['../classobe_1_1_graphics_1_1_color.html#abe8662ab0d2ec5d40d9a85087eb110c7',1,'obe::Graphics::Color']]],
-  ['fromstring',['FromString',['../classobe_1_1_transform_1_1_referential.html#a2bd46de53ec267a85be863d46fec40ae',1,'obe::Transform::Referential']]]
+  ['fromstring',['fromString',['../classobe_1_1_graphics_1_1_color.html#a82425dd09e4010028541941b6502c14d',1,'obe::Graphics::Color::fromString()'],['../classobe_1_1_transform_1_1_referential.html#a2bd46de53ec267a85be863d46fec40ae',1,'obe::Transform::Referential::FromString()']]]
 ];

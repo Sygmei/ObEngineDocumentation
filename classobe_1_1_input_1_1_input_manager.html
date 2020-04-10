@@ -73,18 +73,20 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Class used to manage KeyClass and KeyboardAction .  
+<p>Class used to manage KeyClass and KeyboardAction {<a class="el" href="classobe_1_1_input_1_1_input_manager.html" title="Class used to manage KeyClass and KeyboardAction {InputManager}. ">InputManager</a>}.  
  <a href="classobe_1_1_input_1_1_input_manager.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_input_manager_8hpp_source.html">InputManager.hpp</a>&gt;</code></p>
 
-<p>Inherits <a class="el" href="classobe_1_1_types_1_1_registrable.html">obe::Types::Registrable&lt; InputManager &gt;</a>.</p>
+<p>Inherits <a class="el" href="classobe_1_1_types_1_1_togglable.html">obe::Types::Togglable</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a842339f4b94c2570ab4ab164130f3d58"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_input_manager.html#a842339f4b94c2570ab4ab164130f3d58">InputManager</a> ()</td></tr>
 <tr class="memdesc:a842339f4b94c2570ab4ab164130f3d58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new KeyboardManager.  <a href="#a842339f4b94c2570ab4ab164130f3d58">More...</a><br /></td></tr>
 <tr class="separator:a842339f4b94c2570ab4ab164130f3d58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b64845802c7574d580a97388640fd3d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_input_manager.html#a8b64845802c7574d580a97388640fd3d">init</a> (<a class="el" href="classobe_1_1_triggers_1_1_trigger_manager.html">Triggers::TriggerManager</a> &amp;triggers)</td></tr>
+<tr class="separator:a8b64845802c7574d580a97388640fd3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48a3dbfe40468166deb78ab92a445edb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_input_manager.html#a48a3dbfe40468166deb78ab92a445edb">actionExists</a> (const std::string &amp;actionId)</td></tr>
 <tr class="memdesc:a48a3dbfe40468166deb78ab92a445edb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get if a KeyboardAction exists.  <a href="#a48a3dbfe40468166deb78ab92a445edb">More...</a><br /></td></tr>
 <tr class="separator:a48a3dbfe40468166deb78ab92a445edb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -95,7 +97,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a60ebf274d7e9dac67f6221e3b6e4db6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the KeyboardAction identified by actionId if it exists.  <a href="#a60ebf274d7e9dac67f6221e3b6e4db6b">More...</a><br /></td></tr>
 <tr class="separator:a60ebf274d7e9dac67f6221e3b6e4db6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f8e5855128cde0231e5735dbbe54e13"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_input_manager.html#a8f8e5855128cde0231e5735dbbe54e13">getContexts</a> ()</td></tr>
-<tr class="memdesc:a8f8e5855128cde0231e5735dbbe54e13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets all the contexts currently used by the <a class="el" href="classobe_1_1_input_1_1_input_manager.html" title="Class used to manage KeyClass and KeyboardAction . ">InputManager</a>.  <a href="#a8f8e5855128cde0231e5735dbbe54e13">More...</a><br /></td></tr>
+<tr class="memdesc:a8f8e5855128cde0231e5735dbbe54e13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets all the contexts currently used by the <a class="el" href="classobe_1_1_input_1_1_input_manager.html" title="Class used to manage KeyClass and KeyboardAction {InputManager}. ">InputManager</a>.  <a href="#a8f8e5855128cde0231e5735dbbe54e13">More...</a><br /></td></tr>
 <tr class="separator:a8f8e5855128cde0231e5735dbbe54e13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0d3df98daaf9c2e09208876504a3655"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_input_manager.html#af0d3df98daaf9c2e09208876504a3655">clear</a> ()</td></tr>
 <tr class="memdesc:af0d3df98daaf9c2e09208876504a3655"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears all Actions.  <a href="#af0d3df98daaf9c2e09208876504a3655">More...</a><br /></td></tr>
@@ -112,18 +114,57 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a043ab7f367b87dbd8dd1b1804e0494d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_input_manager.html#a043ab7f367b87dbd8dd1b1804e0494d4">setContext</a> (const std::string &amp;context)</td></tr>
 <tr class="memdesc:a043ab7f367b87dbd8dd1b1804e0494d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cleans all the contexts and adds a new one.  <a href="#a043ab7f367b87dbd8dd1b1804e0494d4">More...</a><br /></td></tr>
 <tr class="separator:a043ab7f367b87dbd8dd1b1804e0494d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2eb44d200745787de06b22e831a56ca5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_input_manager.html#a2eb44d200745787de06b22e831a56ca5">setEnabled</a> (bool state)</td></tr>
-<tr class="memdesc:a2eb44d200745787de06b22e831a56ca5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables or disables the KeyboardManager.  <a href="#a2eb44d200745787de06b22e831a56ca5">More...</a><br /></td></tr>
-<tr class="separator:a2eb44d200745787de06b22e831a56ca5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac19fc83f52179654aa43fc42e471eaf2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_input_manager.html#ac19fc83f52179654aa43fc42e471eaf2">update</a> ()</td></tr>
 <tr class="memdesc:ac19fc83f52179654aa43fc42e471eaf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the KeyboardManager.  <a href="#ac19fc83f52179654aa43fc42e471eaf2">More...</a><br /></td></tr>
 <tr class="separator:ac19fc83f52179654aa43fc42e471eaf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classobe_1_1_types_1_1_registrable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classobe_1_1_types_1_1_registrable')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classobe_1_1_types_1_1_registrable.html">obe::Types::Registrable&lt; InputManager &gt;</a></td></tr>
-<tr class="memitem:ae14c810b245c7d6c6eef267e40190bc6 inherit pub_methods_classobe_1_1_types_1_1_registrable"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_types_1_1_registrable.html#ae14c810b245c7d6c6eef267e40190bc6">Registrable</a> (const std::string &amp;id)</td></tr>
-<tr class="separator:ae14c810b245c7d6c6eef267e40190bc6 inherit pub_methods_classobe_1_1_types_1_1_registrable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7650134e21f574e9ae9fd8e657419a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_input_1_1_input_button.html">InputButton</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_input_manager.html#ae7650134e21f574e9ae9fd8e657419a5">getInput</a> (const std::string &amp;key)</td></tr>
+<tr class="memdesc:ae7650134e21f574e9ae9fd8e657419a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an <a class="el" href="classobe_1_1_input_1_1_input_button.html" title="Class that does represent an Input button {InputButton}. ">InputButton</a> from the given key.  <a href="#ae7650134e21f574e9ae9fd8e657419a5">More...</a><br /></td></tr>
+<tr class="separator:ae7650134e21f574e9ae9fd8e657419a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10ae5e749e459f8451635826e433c8b0"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classobe_1_1_input_1_1_input_button.html">InputButton</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_input_manager.html#a10ae5e749e459f8451635826e433c8b0">getInputs</a> ()</td></tr>
+<tr class="memdesc:a10ae5e749e459f8451635826e433c8b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a list of all InputButtons.  <a href="#a10ae5e749e459f8451635826e433c8b0">More...</a><br /></td></tr>
+<tr class="separator:a10ae5e749e459f8451635826e433c8b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a065732c3cae659bb4102a0d244bc897e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classobe_1_1_input_1_1_input_button.html">InputButton</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_input_manager.html#a065732c3cae659bb4102a0d244bc897e">getInputs</a> (<a class="el" href="namespaceobe_1_1_input.html#a08f2b5990899bb151cc4fedfb35b716b">InputType</a> filter)</td></tr>
+<tr class="memdesc:a065732c3cae659bb4102a0d244bc897e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a list of all InputButtons with a given type.  <a href="#a065732c3cae659bb4102a0d244bc897e">More...</a><br /></td></tr>
+<tr class="separator:a065732c3cae659bb4102a0d244bc897e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45725b1981097e88a96a8d52d57acb99"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classobe_1_1_input_1_1_input_button.html">InputButton</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_input_manager.html#a45725b1981097e88a96a8d52d57acb99">getPressedInputs</a> ()</td></tr>
+<tr class="memdesc:a45725b1981097e88a96a8d52d57acb99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a list of all InputButtons which are pressed.  <a href="#a45725b1981097e88a96a8d52d57acb99">More...</a><br /></td></tr>
+<tr class="separator:a45725b1981097e88a96a8d52d57acb99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addc6a2b7a76417bd3904e4ed737e480c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceobe_1_1_input.html#a6510f2b64040e95dc8ae130d9f798e4e">InputButtonMonitorPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_input_manager.html#addc6a2b7a76417bd3904e4ed737e480c">monitor</a> (const std::string &amp;name)</td></tr>
+<tr class="separator:addc6a2b7a76417bd3904e4ed737e480c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f8dd3b3e4975ba309cbc840c9582e16"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceobe_1_1_input.html#a6510f2b64040e95dc8ae130d9f798e4e">InputButtonMonitorPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_input_manager.html#a1f8dd3b3e4975ba309cbc840c9582e16">monitor</a> (<a class="el" href="classobe_1_1_input_1_1_input_button.html">InputButton</a> &amp;input)</td></tr>
+<tr class="separator:a1f8dd3b3e4975ba309cbc840c9582e16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57eefb58a7f0ae632b569a8e41fe318c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_input_manager.html#a57eefb58a7f0ae632b569a8e41fe318c">requireRefresh</a> ()</td></tr>
+<tr class="separator:a57eefb58a7f0ae632b569a8e41fe318c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c617ce5a1fda5338192e3eef143bf5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceobe_1_1_input.html#a1c1842955adb692b44d0931d423fd697">InputCombination</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_input_manager.html#a8c617ce5a1fda5338192e3eef143bf5b">makeCombination</a> (const std::string &amp;code)</td></tr>
+<tr class="separator:a8c617ce5a1fda5338192e3eef143bf5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classobe_1_1_types_1_1_togglable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classobe_1_1_types_1_1_togglable')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classobe_1_1_types_1_1_togglable.html">obe::Types::Togglable</a></td></tr>
+<tr class="memitem:a32711565a3f76f022345ed8251fe9375 inherit pub_methods_classobe_1_1_types_1_1_togglable"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_types_1_1_togglable.html#a32711565a3f76f022345ed8251fe9375">Togglable</a> (bool enabled)</td></tr>
+<tr class="memdesc:a32711565a3f76f022345ed8251fe9375 inherit pub_methods_classobe_1_1_types_1_1_togglable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor of <a class="el" href="classobe_1_1_types_1_1_togglable.html" title="A Base Class that you can enable or disable. ">Togglable</a> Class.  <a href="classobe_1_1_types_1_1_togglable.html#a32711565a3f76f022345ed8251fe9375">More...</a><br /></td></tr>
+<tr class="separator:a32711565a3f76f022345ed8251fe9375 inherit pub_methods_classobe_1_1_types_1_1_togglable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08322e47c0c94ebd0320c5ab56fa3274 inherit pub_methods_classobe_1_1_types_1_1_togglable"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_types_1_1_togglable.html#a08322e47c0c94ebd0320c5ab56fa3274">setEnabled</a> (bool state)</td></tr>
+<tr class="memdesc:a08322e47c0c94ebd0320c5ab56fa3274 inherit pub_methods_classobe_1_1_types_1_1_togglable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the state of the <a class="el" href="classobe_1_1_types_1_1_togglable.html" title="A Base Class that you can enable or disable. ">Togglable</a>.  <a href="classobe_1_1_types_1_1_togglable.html#a08322e47c0c94ebd0320c5ab56fa3274">More...</a><br /></td></tr>
+<tr class="separator:a08322e47c0c94ebd0320c5ab56fa3274 inherit pub_methods_classobe_1_1_types_1_1_togglable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17b7791a118f1612ad7805b90745f0dd inherit pub_methods_classobe_1_1_types_1_1_togglable"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_types_1_1_togglable.html#a17b7791a118f1612ad7805b90745f0dd">toggle</a> ()</td></tr>
+<tr class="memdesc:a17b7791a118f1612ad7805b90745f0dd inherit pub_methods_classobe_1_1_types_1_1_togglable"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classobe_1_1_types_1_1_togglable.html" title="A Base Class that you can enable or disable. ">Togglable</a> disables if it was enabled and enables if it wasn't.  <a href="classobe_1_1_types_1_1_togglable.html#a17b7791a118f1612ad7805b90745f0dd">More...</a><br /></td></tr>
+<tr class="separator:a17b7791a118f1612ad7805b90745f0dd inherit pub_methods_classobe_1_1_types_1_1_togglable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a585deda7e0476f2eabca4642006f1dcb inherit pub_methods_classobe_1_1_types_1_1_togglable"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_types_1_1_togglable.html#a585deda7e0476f2eabca4642006f1dcb">enable</a> ()</td></tr>
+<tr class="memdesc:a585deda7e0476f2eabca4642006f1dcb inherit pub_methods_classobe_1_1_types_1_1_togglable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable the <a class="el" href="classobe_1_1_types_1_1_togglable.html" title="A Base Class that you can enable or disable. ">Togglable</a>.  <a href="classobe_1_1_types_1_1_togglable.html#a585deda7e0476f2eabca4642006f1dcb">More...</a><br /></td></tr>
+<tr class="separator:a585deda7e0476f2eabca4642006f1dcb inherit pub_methods_classobe_1_1_types_1_1_togglable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a609f06170810a0e6a13c607f2e3a66fb inherit pub_methods_classobe_1_1_types_1_1_togglable"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_types_1_1_togglable.html#a609f06170810a0e6a13c607f2e3a66fb">disable</a> ()</td></tr>
+<tr class="memdesc:a609f06170810a0e6a13c607f2e3a66fb inherit pub_methods_classobe_1_1_types_1_1_togglable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable the <a class="el" href="classobe_1_1_types_1_1_togglable.html" title="A Base Class that you can enable or disable. ">Togglable</a>.  <a href="classobe_1_1_types_1_1_togglable.html#a609f06170810a0e6a13c607f2e3a66fb">More...</a><br /></td></tr>
+<tr class="separator:a609f06170810a0e6a13c607f2e3a66fb inherit pub_methods_classobe_1_1_types_1_1_togglable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a887c8fc8bee8a68364c1025377799c9d inherit pub_methods_classobe_1_1_types_1_1_togglable"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_types_1_1_togglable.html#a887c8fc8bee8a68364c1025377799c9d">isEnabled</a> () const</td></tr>
+<tr class="memdesc:a887c8fc8bee8a68364c1025377799c9d inherit pub_methods_classobe_1_1_types_1_1_togglable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get if the <a class="el" href="classobe_1_1_types_1_1_togglable.html" title="A Base Class that you can enable or disable. ">Togglable</a> is enabled or not.  <a href="classobe_1_1_types_1_1_togglable.html#a887c8fc8bee8a68364c1025377799c9d">More...</a><br /></td></tr>
+<tr class="separator:a887c8fc8bee8a68364c1025377799c9d inherit pub_methods_classobe_1_1_types_1_1_togglable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_attribs_classobe_1_1_types_1_1_togglable"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classobe_1_1_types_1_1_togglable')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classobe_1_1_types_1_1_togglable.html">obe::Types::Togglable</a></td></tr>
+<tr class="memitem:a0b6d2568bd265c6978b94bfacdda78c2 inherit pro_attribs_classobe_1_1_types_1_1_togglable"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_types_1_1_togglable.html#a0b6d2568bd265c6978b94bfacdda78c2">m_enabled</a></td></tr>
+<tr class="separator:a0b6d2568bd265c6978b94bfacdda78c2 inherit pro_attribs_classobe_1_1_types_1_1_togglable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Class used to manage KeyClass and KeyboardAction . </p>
+<div class="textblock"><p>Class used to manage KeyClass and KeyboardAction {<a class="el" href="classobe_1_1_input_1_1_input_manager.html" title="Class used to manage KeyClass and KeyboardAction {InputManager}. ">InputManager</a>}. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a842339f4b94c2570ab4ab164130f3d58"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a842339f4b94c2570ab4ab164130f3d58">&#9670;&nbsp;</a></span>InputManager()</h2>
@@ -164,7 +205,7 @@ Public Member Functions</h2></td></tr>
 <p>Get if a KeyboardAction exists. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">actionId</td><td>Id of the KeyboardAction to check the existance </td></tr>
+    <tr><td class="paramname">actionId</td><td>Id of the KeyboardAction to check the existence </td></tr>
   </table>
   </dd>
 </dl>
@@ -305,8 +346,175 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Gets all the contexts currently used by the <a class="el" href="classobe_1_1_input_1_1_input_manager.html" title="Class used to manage KeyClass and KeyboardAction . ">InputManager</a>. </p>
-<dl class="section return"><dt>Returns</dt><dd>A std::vector of std::string containing all the contexts used by the <a class="el" href="classobe_1_1_input_1_1_input_manager.html" title="Class used to manage KeyClass and KeyboardAction . ">InputManager</a> </dd></dl>
+<p>Gets all the contexts currently used by the <a class="el" href="classobe_1_1_input_1_1_input_manager.html" title="Class used to manage KeyClass and KeyboardAction {InputManager}. ">InputManager</a>. </p>
+<dl class="section return"><dt>Returns</dt><dd>A std::vector of std::string containing all the contexts used by the <a class="el" href="classobe_1_1_input_1_1_input_manager.html" title="Class used to manage KeyClass and KeyboardAction {InputManager}. ">InputManager</a> </dd></dl>
+
+</div>
+</div>
+<a id="ae7650134e21f574e9ae9fd8e657419a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7650134e21f574e9ae9fd8e657419a5">&#9670;&nbsp;</a></span>getInput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classobe_1_1_input_1_1_input_button.html">InputButton</a> &amp; obe::Input::InputManager::getInput </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get an <a class="el" href="classobe_1_1_input_1_1_input_button.html" title="Class that does represent an Input button {InputButton}. ">InputButton</a> from the given key. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>Name of the <a class="el" href="classobe_1_1_input_1_1_input_button.html" title="Class that does represent an Input button {InputButton}. ">InputButton</a> you want to get </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the <a class="el" href="classobe_1_1_input_1_1_input_button.html" title="Class that does represent an Input button {InputButton}. ">InputButton</a> with the given name </dd></dl>
+
+</div>
+</div>
+<a id="a10ae5e749e459f8451635826e433c8b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10ae5e749e459f8451635826e433c8b0">&#9670;&nbsp;</a></span>getInputs() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="classobe_1_1_input_1_1_input_button.html">InputButton</a> * &gt; obe::Input::InputManager::getInputs </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get a list of all InputButtons. </p>
+<dl class="section return"><dt>Returns</dt><dd>A list of pointers to all InputButtons </dd></dl>
+
+</div>
+</div>
+<a id="a065732c3cae659bb4102a0d244bc897e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a065732c3cae659bb4102a0d244bc897e">&#9670;&nbsp;</a></span>getInputs() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="classobe_1_1_input_1_1_input_button.html">InputButton</a> * &gt; obe::Input::InputManager::getInputs </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceobe_1_1_input.html#a08f2b5990899bb151cc4fedfb35b716b">InputType</a>&#160;</td>
+          <td class="paramname"><em>filter</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get a list of all InputButtons with a given type. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filter</td><td>Type the InputButtons you want to get </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A list of pointers to all InputButtons with given type </dd></dl>
+
+</div>
+</div>
+<a id="a45725b1981097e88a96a8d52d57acb99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45725b1981097e88a96a8d52d57acb99">&#9670;&nbsp;</a></span>getPressedInputs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="classobe_1_1_input_1_1_input_button.html">InputButton</a> * &gt; obe::Input::InputManager::getPressedInputs </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get a list of all InputButtons which are pressed. </p>
+<dl class="section return"><dt>Returns</dt><dd>A list of pointers to all InputButtons which are pressed </dd></dl>
+
+</div>
+</div>
+<a id="a8b64845802c7574d580a97388640fd3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b64845802c7574d580a97388640fd3d">&#9670;&nbsp;</a></span>init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::Input::InputManager::init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_triggers_1_1_trigger_manager.html">Triggers::TriggerManager</a> &amp;&#160;</td>
+          <td class="paramname"><em>triggers</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8c617ce5a1fda5338192e3eef143bf5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c617ce5a1fda5338192e3eef143bf5b">&#9670;&nbsp;</a></span>makeCombination()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceobe_1_1_input.html#a1c1842955adb692b44d0931d423fd697">InputCombination</a> obe::Input::InputManager::makeCombination </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>code</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>TODO: Fix this nobind  </p>
+
+</div>
+</div>
+<a id="addc6a2b7a76417bd3904e4ed737e480c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addc6a2b7a76417bd3904e4ed737e480c">&#9670;&nbsp;</a></span>monitor() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceobe_1_1_input.html#a6510f2b64040e95dc8ae130d9f798e4e">InputButtonMonitorPtr</a> obe::Input::InputManager::monitor </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1f8dd3b3e4975ba309cbc840c9582e16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f8dd3b3e4975ba309cbc840c9582e16">&#9670;&nbsp;</a></span>monitor() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceobe_1_1_input.html#a6510f2b64040e95dc8ae130d9f798e4e">InputButtonMonitorPtr</a> obe::Input::InputManager::monitor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_input_1_1_input_button.html">InputButton</a> &amp;&#160;</td>
+          <td class="paramname"><em>input</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -333,7 +541,24 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>A reference to the <a class="el" href="classobe_1_1_input_1_1_input_manager.html" title="Class used to manage KeyClass and KeyboardAction . ">InputManager</a> (to chain calls) </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the <a class="el" href="classobe_1_1_input_1_1_input_manager.html" title="Class used to manage KeyClass and KeyboardAction {InputManager}. ">InputManager</a> (to chain calls) </dd></dl>
+
+</div>
+</div>
+<a id="a57eefb58a7f0ae632b569a8e41fe318c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57eefb58a7f0ae632b569a8e41fe318c">&#9670;&nbsp;</a></span>requireRefresh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::Input::InputManager::requireRefresh </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -363,32 +588,6 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a2eb44d200745787de06b22e831a56ca5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2eb44d200745787de06b22e831a56ca5">&#9670;&nbsp;</a></span>setEnabled()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void obe::Input::InputManager::setEnabled </td>
-          <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>state</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Enables or disables the KeyboardManager. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">state</td><td>true if the KeyboardManager should be enabled, false otherwise </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
 <a id="ac19fc83f52179654aa43fc42e471eaf2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac19fc83f52179654aa43fc42e471eaf2">&#9670;&nbsp;</a></span>update()</h2>
 
@@ -410,6 +609,7 @@ Public Member Functions</h2></td></tr>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>sources/include/Core/Input/<a class="el" href="_input_manager_8hpp_source.html">InputManager.hpp</a></li>
+<li>sources/src/Core/Input/<a class="el" href="_input_initializer_8cpp.html">InputInitializer.cpp</a></li>
 <li>sources/src/Core/Input/<a class="el" href="_input_manager_8cpp.html">InputManager.cpp</a></li>
 </ul>
 </div><!-- contents -->

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['levelspritehandlepointtype',['LevelSpriteHandlePointType',['../namespaceobe_1_1_graphics.html#a8684a50b5bc9047d610684ecf33656be',1,'obe::Graphics']]]
+  ['loadpolicy',['LoadPolicy',['../namespaceobe_1_1_audio.html#a4a1126924a2bccd7f101a4fad31b901e',1,'obe::Audio']]]
 ];

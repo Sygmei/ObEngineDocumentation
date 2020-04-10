@@ -73,25 +73,53 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>A Base Class that represents a vili serializable object .  
+<p>A Base Class that represents a vili serializable object.  
  <a href="classobe_1_1_types_1_1_serializable.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_serializable_8hpp_source.html">Serializable.hpp</a>&gt;</code></p>
 
-<p>Inherited by <a class="el" href="classobe_1_1_component_1_1_component_base.html">obe::Component::ComponentBase</a>, <a class="el" href="classobe_1_1_graphics_1_1_shader.html">obe::Graphics::Shader</a>, <a class="el" href="classobe_1_1_scene_1_1_lua_component.html">obe::Scene::LuaComponent</a>, and <a class="el" href="classobe_1_1_scene_1_1_t_x_scene.html">obe::Scene::TXScene</a>.</p>
+<p>Inherited by <a class="el" href="classobe_1_1_component_1_1_component_base.html">obe::Component::ComponentBase</a>, and <a class="el" href="classobe_1_1_graphics_1_1_shader.html">obe::Graphics::Shader</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:add3c9624aa338c7e9383c418acfe9bb2"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_types_1_1_serializable.html#add3c9624aa338c7e9383c418acfe9bb2">~Serializable</a> ()=default</td></tr>
+<tr class="separator:add3c9624aa338c7e9383c418acfe9bb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc5cde9485f774ae82bfce3be48c1f14"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_types_1_1_serializable.html#acc5cde9485f774ae82bfce3be48c1f14">dump</a> (vili::ComplexNode &amp;target) const =0</td></tr>
-<tr class="memdesc:acc5cde9485f774ae82bfce3be48c1f14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dumps the content of the <a class="el" href="classobe_1_1_types_1_1_serializable.html" title="A Base Class that represents a vili serializable object . ">Serializable</a> object to a ComplexNode.  <a href="#acc5cde9485f774ae82bfce3be48c1f14">More...</a><br /></td></tr>
+<tr class="memdesc:acc5cde9485f774ae82bfce3be48c1f14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dumps the content of the <a class="el" href="classobe_1_1_types_1_1_serializable.html" title="A Base Class that represents a vili serializable object. ">Serializable</a> object to a ComplexNode.  <a href="#acc5cde9485f774ae82bfce3be48c1f14">More...</a><br /></td></tr>
 <tr class="separator:acc5cde9485f774ae82bfce3be48c1f14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab491f63bef30ad4b69b3df4ddc3bdd40"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_types_1_1_serializable.html#ab491f63bef30ad4b69b3df4ddc3bdd40">load</a> (vili::ComplexNode &amp;data)=0</td></tr>
 <tr class="memdesc:ab491f63bef30ad4b69b3df4ddc3bdd40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads an object from a ComplexNode.  <a href="#ab491f63bef30ad4b69b3df4ddc3bdd40">More...</a><br /></td></tr>
 <tr class="separator:ab491f63bef30ad4b69b3df4ddc3bdd40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A Base Class that represents a vili serializable object . </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<div class="textblock"><p>A Base Class that represents a vili serializable object. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="add3c9624aa338c7e9383c418acfe9bb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add3c9624aa338c7e9383c418acfe9bb2">&#9670;&nbsp;</a></span>~Serializable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual obe::Types::Serializable::~Serializable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="acc5cde9485f774ae82bfce3be48c1f14"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acc5cde9485f774ae82bfce3be48c1f14">&#9670;&nbsp;</a></span>dump()</h2>
 
@@ -116,7 +144,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Dumps the content of the <a class="el" href="classobe_1_1_types_1_1_serializable.html" title="A Base Class that represents a vili serializable object . ">Serializable</a> object to a ComplexNode. </p>
+<p>Dumps the content of the <a class="el" href="classobe_1_1_types_1_1_serializable.html" title="A Base Class that represents a vili serializable object. ">Serializable</a> object to a ComplexNode. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">target</td><td>ComplexNode where to serialize the object </td></tr>
@@ -124,7 +152,7 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a2fb861632438bb30a73a7d3019f5b1ae">obe::Collision::PolygonalCollider</a>, <a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html#afce8ce4ae3c762c69823c39aaf4b02a3">obe::Graphics::LevelSprite</a>, <a class="el" href="classobe_1_1_scene_1_1_t_x_scene.html#a865b4142c202ba3273e773fa935e275e">obe::Scene::TXScene</a>, <a class="el" href="classobe_1_1_scene_1_1_lua_component.html#a9cb0b0357a9971bcca617d86c217bf56">obe::Scene::LuaComponent</a>, <a class="el" href="classobe_1_1_component_1_1_component.html#a770c19f1cb1287d559ad5803eb1039e1">obe::Component::Component&lt; T &gt;</a>, <a class="el" href="classobe_1_1_component_1_1_component.html#a770c19f1cb1287d559ad5803eb1039e1">obe::Component::Component&lt; PolygonalCollider &gt;</a>, <a class="el" href="classobe_1_1_component_1_1_component.html#a770c19f1cb1287d559ad5803eb1039e1">obe::Component::Component&lt; LevelSprite &gt;</a>, <a class="el" href="classobe_1_1_component_1_1_component_base.html#a17094ac5b91b308bad23da3545f9fa10">obe::Component::ComponentBase</a>, and <a class="el" href="classobe_1_1_graphics_1_1_shader.html#a8c1df255eb946398ff597559c985e122">obe::Graphics::Shader</a>.</p>
+<p>Implemented in <a class="el" href="classobe_1_1_graphics_1_1_sprite.html#a69ea644e671e397fbd5b2b473523da25">obe::Graphics::Sprite</a>, <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a2fb861632438bb30a73a7d3019f5b1ae">obe::Collision::PolygonalCollider</a>, <a class="el" href="classobe_1_1_component_1_1_component.html#a770c19f1cb1287d559ad5803eb1039e1">obe::Component::Component&lt; T &gt;</a>, <a class="el" href="classobe_1_1_component_1_1_component.html#a770c19f1cb1287d559ad5803eb1039e1">obe::Component::Component&lt; PolygonalCollider &gt;</a>, <a class="el" href="classobe_1_1_component_1_1_component.html#a770c19f1cb1287d559ad5803eb1039e1">obe::Component::Component&lt; Sprite &gt;</a>, <a class="el" href="classobe_1_1_graphics_1_1_shader.html#a8c1df255eb946398ff597559c985e122">obe::Graphics::Shader</a>, and <a class="el" href="classobe_1_1_component_1_1_component_base.html#a17094ac5b91b308bad23da3545f9fa10">obe::Component::ComponentBase</a>.</p>
 
 </div>
 </div>
@@ -160,7 +188,7 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="classobe_1_1_graphics_1_1_level_sprite.html#aaabc8751abbebb674f089344717b3d8c">obe::Graphics::LevelSprite</a>, <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a5fc6e419e7b6721e53dc8c727a086bc7">obe::Collision::PolygonalCollider</a>, <a class="el" href="classobe_1_1_scene_1_1_t_x_scene.html#a4b636711d07f553d30ef08f40c785adc">obe::Scene::TXScene</a>, <a class="el" href="classobe_1_1_scene_1_1_lua_component.html#ab2a922d12271cb0961553afc12365ee0">obe::Scene::LuaComponent</a>, <a class="el" href="classobe_1_1_component_1_1_component.html#a429f0bb0674cacdbb957f9553ef37c3a">obe::Component::Component&lt; T &gt;</a>, <a class="el" href="classobe_1_1_component_1_1_component.html#a429f0bb0674cacdbb957f9553ef37c3a">obe::Component::Component&lt; PolygonalCollider &gt;</a>, <a class="el" href="classobe_1_1_component_1_1_component.html#a429f0bb0674cacdbb957f9553ef37c3a">obe::Component::Component&lt; LevelSprite &gt;</a>, <a class="el" href="classobe_1_1_graphics_1_1_shader.html#aa17c194840860abfa0c5d5ed43ab8c29">obe::Graphics::Shader</a>, and <a class="el" href="classobe_1_1_component_1_1_component_base.html#a67546565557d4fab153bb0a949e406ee">obe::Component::ComponentBase</a>.</p>
+<p>Implemented in <a class="el" href="classobe_1_1_graphics_1_1_sprite.html#a7739ca345f9bc27a88317eb16f9b4a67">obe::Graphics::Sprite</a>, <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a5fc6e419e7b6721e53dc8c727a086bc7">obe::Collision::PolygonalCollider</a>, <a class="el" href="classobe_1_1_component_1_1_component.html#a429f0bb0674cacdbb957f9553ef37c3a">obe::Component::Component&lt; T &gt;</a>, <a class="el" href="classobe_1_1_component_1_1_component.html#a429f0bb0674cacdbb957f9553ef37c3a">obe::Component::Component&lt; PolygonalCollider &gt;</a>, <a class="el" href="classobe_1_1_component_1_1_component.html#a429f0bb0674cacdbb957f9553ef37c3a">obe::Component::Component&lt; Sprite &gt;</a>, <a class="el" href="classobe_1_1_graphics_1_1_shader.html#aa17c194840860abfa0c5d5ed43ab8c29">obe::Graphics::Shader</a>, and <a class="el" href="classobe_1_1_component_1_1_component_base.html#a67546565557d4fab153bb0a949e406ee">obe::Component::ComponentBase</a>.</p>
 
 </div>
 </div>

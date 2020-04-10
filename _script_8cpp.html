@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ObEngine: sources/src/Core/Script/Script.cpp File Reference</title>
+<title>ObEngine: sources/src/Core/Bindings/Script/Script.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_08d237fc27d4ecd563f71c5d52f2fecc.html">sources</a></li><li class="navelem"><a class="el" href="dir_370a05bc919a3b485116f307abacd69c.html">src</a></li><li class="navelem"><a class="el" href="dir_a01383027d29596cf4ed417727025e41.html">Core</a></li><li class="navelem"><a class="el" href="dir_f723e0aec8ca56be3d458be7736d5f29.html">Script</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_08d237fc27d4ecd563f71c5d52f2fecc.html">sources</a></li><li class="navelem"><a class="el" href="dir_370a05bc919a3b485116f307abacd69c.html">src</a></li><li class="navelem"><a class="el" href="dir_a01383027d29596cf4ed417727025e41.html">Core</a></li><li class="navelem"><a class="el" href="dir_3a415b9a12a4259c17e3781637911ee4.html">Bindings</a></li><li class="navelem"><a class="el" href="dir_6a87657c390ff5f09188c85618dd1cdd.html">Script</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -72,30 +72,22 @@ $(function() {
 <div class="title">Script.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="_vili_8hpp_source.html">vili/Vili.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_bindings_8hpp_source.html">Bindings/Bindings.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_polygonal_collider_8hpp_source.html">Collision/PolygonalCollider.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_canvas_8hpp_source.html">Graphics/Canvas.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_input_manager_8hpp_source.html">Input/InputManager.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_script_8hpp_source.html">Script/Script.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_cursor_8hpp_source.html">System/Cursor.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_trigger_group_8hpp_source.html">Triggers/TriggerGroup.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_trigger_database_8hpp_source.html">Triggers/TriggerDatabase.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_type_utils_8hpp_source.html">Utils/TypeUtils.hpp</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="_script_8hpp_source.html">Bindings/Script/Script.hpp</a>&gt;</code><br />
+<code>#include &lt;Scene/Scene.hpp&gt;</code><br />
+<code>#include &lt;<a class="el" href="_game_object_8hpp_source.html">Script/GameObject.hpp</a>&gt;</code><br />
+<code>#include &lt;sol/sol.hpp&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespaceobe"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe.html">obe</a></td></tr>
-<tr class="memdesc:namespaceobe"><td class="mdescLeft">&#160;</td><td class="mdescRight">The wonderful ObEngine's namespace ! <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespaceobe_1_1_script"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html">obe::Script</a></td></tr>
-<tr class="memdesc:namespaceobe_1_1_script"><td class="mdescLeft">&#160;</td><td class="mdescRight">Classes and Functions about Scripting support. <br /></td></tr>
+<tr class="memitem:namespaceobe_1_1_script_1_1_bindings"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script_1_1_bindings.html">obe::Script::Bindings</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a93f11dc0cdd5fc4a7ff54cb89f54c877"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script.html#a93f11dc0cdd5fc4a7ff54cb89f54c877">obe::Script::loadHook</a> (kaguya::State *lua, std::string hookname)</td></tr>
-<tr class="separator:a93f11dc0cdd5fc4a7ff54cb89f54c877"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae44e684497a52483c415029cf35fe9eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script_1_1_bindings.html#ae44e684497a52483c415029cf35fe9eb">obe::Script::Bindings::LoadClassGameObject</a> (sol::state_view state)</td></tr>
+<tr class="separator:ae44e684497a52483c415029cf35fe9eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a305ee79609acd4d09449cbcd30f68e33"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script_1_1_bindings.html#a305ee79609acd4d09449cbcd30f68e33">obe::Script::Bindings::LoadClassGameObjectDatabase</a> (sol::state_view state)</td></tr>
+<tr class="separator:a305ee79609acd4d09449cbcd30f68e33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

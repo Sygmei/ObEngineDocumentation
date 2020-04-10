@@ -1,5 +1,26 @@
 var searchData=
 [
-  ['nulltexture',['NullTexture',['../classobe_1_1_graphics_1_1_resource_manager.html#a96705ce7260dba30e77e9dde886a2c2c',1,'obe::Graphics::ResourceManager']]],
-  ['numbers',['Numbers',['../namespaceobe_1_1_utils_1_1_string.html#ad3b00b18b04258a57a9f5d7477225bc6',1,'obe::Utils::String']]]
+  ['lavender',['Lavender',['../classobe_1_1_graphics_1_1_color.html#a7b13602af90afec68e6c587351f3f708',1,'obe::Graphics::Color']]],
+  ['lavenderblush',['LavenderBlush',['../classobe_1_1_graphics_1_1_color.html#a1ff4d8567434986bb460ff94ca346e76',1,'obe::Graphics::Color']]],
+  ['lawngreen',['LawnGreen',['../classobe_1_1_graphics_1_1_color.html#a8df3e1b47baeb2f3f3c1634f0d7e3fca',1,'obe::Graphics::Color']]],
+  ['layer',['layer',['../classobe_1_1_graphics_1_1_canvas_1_1_canvas_element.html#a0d177150be0a14d3a28bf95a5ee98dc3',1,'obe::Graphics::Canvas::CanvasElement']]],
+  ['left',['Left',['../classobe_1_1_transform_1_1_referential.html#a48107363d083e0d29b472fb3f713b74c',1,'obe::Transform::Referential']]],
+  ['lemonchiffon',['LemonChiffon',['../classobe_1_1_graphics_1_1_color.html#aa8eb2000435763ddd9d31bbf79fa3bb0',1,'obe::Graphics::Color']]],
+  ['lightblue',['LightBlue',['../classobe_1_1_graphics_1_1_color.html#a63195d180c170f8d571865947d2e99ce',1,'obe::Graphics::Color']]],
+  ['lightcoral',['LightCoral',['../classobe_1_1_graphics_1_1_color.html#a4b119aa8f2c4749dc6c99dc8c67c586e',1,'obe::Graphics::Color']]],
+  ['lightcyan',['LightCyan',['../classobe_1_1_graphics_1_1_color.html#adb6ee01eee61fdd6d7b14a8efef1dcd2',1,'obe::Graphics::Color']]],
+  ['lightgoldenrodyellow',['LightGoldenrodYellow',['../classobe_1_1_graphics_1_1_color.html#a0286818e26ec20eb6095435e9d3fe78f',1,'obe::Graphics::Color']]],
+  ['lightgray',['LightGray',['../classobe_1_1_graphics_1_1_color.html#a42e9b2ec2d85031b670f06293d92e545',1,'obe::Graphics::Color']]],
+  ['lightgreen',['LightGreen',['../classobe_1_1_graphics_1_1_color.html#a99f6006c36c1ce402f19f864f2d258a4',1,'obe::Graphics::Color']]],
+  ['lightpink',['LightPink',['../classobe_1_1_graphics_1_1_color.html#aa7460401352d7979242d8b936251b19f',1,'obe::Graphics::Color']]],
+  ['lightsalmon',['LightSalmon',['../classobe_1_1_graphics_1_1_color.html#a67411488f187deb563ec1ec0c16b6abb',1,'obe::Graphics::Color']]],
+  ['lightseagreen',['LightSeaGreen',['../classobe_1_1_graphics_1_1_color.html#ad7231750b6da6a7c1910d3f96ad485fa',1,'obe::Graphics::Color']]],
+  ['lightskyblue',['LightSkyBlue',['../classobe_1_1_graphics_1_1_color.html#a4dc37e110426d7c9b1d02524036ebdc9',1,'obe::Graphics::Color']]],
+  ['lightslategray',['LightSlateGray',['../classobe_1_1_graphics_1_1_color.html#a9133c33e581a1f5b1220497f083f819f',1,'obe::Graphics::Color']]],
+  ['lightsteelblue',['LightSteelBlue',['../classobe_1_1_graphics_1_1_color.html#a104b7143d03d441f72d6160c4d365549',1,'obe::Graphics::Color']]],
+  ['lightyellow',['LightYellow',['../classobe_1_1_graphics_1_1_color.html#a6f2a394bf627ec1a7dfb59d55f7e7d62',1,'obe::Graphics::Color']]],
+  ['lime',['Lime',['../classobe_1_1_graphics_1_1_color.html#a060682b42e90739a67e54ac10e37a9b1',1,'obe::Graphics::Color']]],
+  ['limegreen',['LimeGreen',['../classobe_1_1_graphics_1_1_color.html#ada63225ff930c8e4bfaadd18e18e0388',1,'obe::Graphics::Color']]],
+  ['linen',['Linen',['../classobe_1_1_graphics_1_1_color.html#af108302e71171f028a5528225f79604f',1,'obe::Graphics::Color']]],
+  ['log',['Log',['../namespaceobe_1_1_debug.html#a8a6b3d902a5a6a62b027657ff40c8083',1,'obe::Debug']]]
 ];

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ObEngine: sources/extlibs/build/vili/src/vili/Types.cpp File Reference</title>
+<title>ObEngine: sources/src/Core/Bindings/Types/Types.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_08d237fc27d4ecd563f71c5d52f2fecc.html">sources</a></li><li class="navelem"><a class="el" href="dir_9b331d2d0052487c6edf12623846e798.html">extlibs</a></li><li class="navelem"><a class="el" href="dir_7dd2520ffae72edebcd09af32e869889.html">build</a></li><li class="navelem"><a class="el" href="dir_eb6a417a3b00a63e136b5778a71f5a08.html">vili</a></li><li class="navelem"><a class="el" href="dir_f396d0b60334e45fcf57a5a6c253ec4f.html">src</a></li><li class="navelem"><a class="el" href="dir_99e5605c38299e8e0c738650b5cd2e8a.html">vili</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_08d237fc27d4ecd563f71c5d52f2fecc.html">sources</a></li><li class="navelem"><a class="el" href="dir_370a05bc919a3b485116f307abacd69c.html">src</a></li><li class="navelem"><a class="el" href="dir_a01383027d29596cf4ed417727025e41.html">Core</a></li><li class="navelem"><a class="el" href="dir_3a415b9a12a4259c17e3781637911ee4.html">Bindings</a></li><li class="navelem"><a class="el" href="dir_86c3b6c2370903745855669ef9d294fe.html">Types</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -72,40 +72,30 @@ $(function() {
 <div class="title">Types.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="_types_8hpp_source.html">vili/Types.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_functions_8hpp_source.html">Functions.hpp</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="_types_8hpp_source.html">Bindings/Types/Types.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_identifiable_8hpp_source.html">Types/Identifiable.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_selectable_8hpp_source.html">Types/Selectable.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_serializable_8hpp_source.html">Types/Serializable.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_togglable_8hpp_source.html">Types/Togglable.hpp</a>&gt;</code><br />
+<code>#include &lt;sol/sol.hpp&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespacevili"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacevili.html">vili</a></td></tr>
-<tr class="memdesc:namespacevili"><td class="mdescLeft">&#160;</td><td class="mdescRight">A nice and readable data format language ! <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespacevili_1_1_types"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacevili_1_1_types.html">vili::Types</a></td></tr>
+<tr class="memitem:namespaceobe_1_1_types_1_1_bindings"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_types_1_1_bindings.html">obe::Types::Bindings</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a7cdb1ea27c60493caa850384245e82bb"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacevili_1_1_types.html#a7cdb1ea27c60493caa850384245e82bb">vili::Types::getDefaultValueForType</a> (DataType type)</td></tr>
-<tr class="memdesc:a7cdb1ea27c60493caa850384245e82bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the default value for the given DataType.  <a href="namespacevili_1_1_types.html#a7cdb1ea27c60493caa850384245e82bb">More...</a><br /></td></tr>
-<tr class="separator:a7cdb1ea27c60493caa850384245e82bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a954a0d867af2b4d9b5aba4a5e9ce3603"><td class="memItemLeft" align="right" valign="top">DataType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacevili_1_1_types.html#a954a0d867af2b4d9b5aba4a5e9ce3603">vili::Types::getVarType</a> (const std::string &amp;var)</td></tr>
-<tr class="memdesc:a954a0d867af2b4d9b5aba4a5e9ce3603"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines the DataType of a string representation of the value.  <a href="namespacevili_1_1_types.html#a954a0d867af2b4d9b5aba4a5e9ce3603">More...</a><br /></td></tr>
-<tr class="separator:a954a0d867af2b4d9b5aba4a5e9ce3603"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6324b643c68c77f1021dfa45ae76a15"><td class="memItemLeft" align="right" valign="top">DataType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacevili_1_1_types.html#ac6324b643c68c77f1021dfa45ae76a15">vili::Types::stringToDataType</a> (const std::string &amp;type)</td></tr>
-<tr class="memdesc:ac6324b643c68c77f1021dfa45ae76a15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a std::string to the appropriated DataType.  <a href="namespacevili_1_1_types.html#ac6324b643c68c77f1021dfa45ae76a15">More...</a><br /></td></tr>
-<tr class="separator:ac6324b643c68c77f1021dfa45ae76a15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac195a27b2ff3164cfb8aeba0222fad03"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacevili_1_1_types.html#ac195a27b2ff3164cfb8aeba0222fad03">vili::Types::dataTypeToString</a> (DataType type)</td></tr>
-<tr class="memdesc:ac195a27b2ff3164cfb8aeba0222fad03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a DataType to its name (in a std::string)  <a href="namespacevili_1_1_types.html#ac195a27b2ff3164cfb8aeba0222fad03">More...</a><br /></td></tr>
-<tr class="separator:ac195a27b2ff3164cfb8aeba0222fad03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7949c98113e814fa11c200a6ad402e59"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacevili_1_1_types.html#a7949c98113e814fa11c200a6ad402e59">vili::Types::nodeTypeToString</a> (NodeType type)</td></tr>
-<tr class="memdesc:a7949c98113e814fa11c200a6ad402e59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a NodeType to its name (in a std::string)  <a href="namespacevili_1_1_types.html#a7949c98113e814fa11c200a6ad402e59">More...</a><br /></td></tr>
-<tr class="separator:a7949c98113e814fa11c200a6ad402e59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0a08c57bb4f117a2f2f136f5b2f6f9f"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacevili.html#ae0a08c57bb4f117a2f2f136f5b2f6f9f">vili::operator&lt;&lt;</a> (std::ostream &amp;os, const NodeType &amp;m)</td></tr>
-<tr class="memdesc:ae0a08c57bb4f117a2f2f136f5b2f6f9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints a NodeType to a stream.  <a href="namespacevili.html#ae0a08c57bb4f117a2f2f136f5b2f6f9f">More...</a><br /></td></tr>
-<tr class="separator:ae0a08c57bb4f117a2f2f136f5b2f6f9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0850d896943972223a5e6f374c619f43"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacevili.html#a0850d896943972223a5e6f374c619f43">vili::operator&lt;&lt;</a> (std::ostream &amp;os, const DataType &amp;m)</td></tr>
-<tr class="memdesc:a0850d896943972223a5e6f374c619f43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints a DataType to a stream.  <a href="namespacevili.html#a0850d896943972223a5e6f374c619f43">More...</a><br /></td></tr>
-<tr class="separator:a0850d896943972223a5e6f374c619f43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45a4407dd52015ec8ff496bc09f69824"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_types_1_1_bindings.html#a45a4407dd52015ec8ff496bc09f69824">obe::Types::Bindings::LoadClassIdentifiable</a> (sol::state_view state)</td></tr>
+<tr class="separator:a45a4407dd52015ec8ff496bc09f69824"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d0fc76aaa169b556a8877e0d2f7f8c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_types_1_1_bindings.html#a3d0fc76aaa169b556a8877e0d2f7f8c1">obe::Types::Bindings::LoadClassProtectedIdentifiable</a> (sol::state_view state)</td></tr>
+<tr class="separator:a3d0fc76aaa169b556a8877e0d2f7f8c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18cc2ec21ba976a66e95fa5c4c80383f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_types_1_1_bindings.html#a18cc2ec21ba976a66e95fa5c4c80383f">obe::Types::Bindings::LoadClassSelectable</a> (sol::state_view state)</td></tr>
+<tr class="separator:a18cc2ec21ba976a66e95fa5c4c80383f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1324cfd6b3e40e8e714a58d107addef4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_types_1_1_bindings.html#a1324cfd6b3e40e8e714a58d107addef4">obe::Types::Bindings::LoadClassSerializable</a> (sol::state_view state)</td></tr>
+<tr class="separator:a1324cfd6b3e40e8e714a58d107addef4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9c8e6deb67daae5ca05bf2d800518b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_types_1_1_bindings.html#af9c8e6deb67daae5ca05bf2d800518b6">obe::Types::Bindings::LoadClassTogglable</a> (sol::state_view state)</td></tr>
+<tr class="separator:af9c8e6deb67daae5ca05bf2d800518b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

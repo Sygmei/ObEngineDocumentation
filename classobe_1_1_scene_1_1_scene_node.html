@@ -73,42 +73,64 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>A <a class="el" href="classobe_1_1_scene_1_1_scene_node.html" title="A SceneNode holds objects herited from Movable class and &quot;links&quot; their position. ">SceneNode</a> holds objects herited from Movable class and "links" their position.  
+<p>A <a class="el" href="classobe_1_1_scene_1_1_scene_node.html" title="A SceneNode holds objects inherited from Movable class and &quot;links&quot; their position. ">SceneNode</a> holds objects inherited from Movable class and "links" their position.  
  <a href="classobe_1_1_scene_1_1_scene_node.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_scene_node_8hpp_source.html">SceneNode.hpp</a>&gt;</code></p>
 
-<p>Inherits <a class="el" href="classobe_1_1_transform_1_1_movable.html">obe::Transform::Movable</a>.</p>
+<p>Inherits <a class="el" href="classobe_1_1_transform_1_1_movable.html">obe::Transform::Movable</a>, and <a class="el" href="classobe_1_1_types_1_1_selectable.html">obe::Types::Selectable</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae38e5560872312d1eff02240fbe33da2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene_node.html#ae38e5560872312d1eff02240fbe33da2">addChild</a> (Movable *child)</td></tr>
-<tr class="memdesc:ae38e5560872312d1eff02240fbe33da2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a child to the <a class="el" href="classobe_1_1_scene_1_1_scene_node.html" title="A SceneNode holds objects herited from Movable class and &quot;links&quot; their position. ">SceneNode</a>.  <a href="#ae38e5560872312d1eff02240fbe33da2">More...</a><br /></td></tr>
-<tr class="separator:ae38e5560872312d1eff02240fbe33da2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76ca3614e466942b54e30645552d38ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene_node.html#a76ca3614e466942b54e30645552d38ab">addChild</a> (Movable &amp;child)</td></tr>
+<tr class="memdesc:a76ca3614e466942b54e30645552d38ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a child to the <a class="el" href="classobe_1_1_scene_1_1_scene_node.html" title="A SceneNode holds objects inherited from Movable class and &quot;links&quot; their position. ">SceneNode</a>.  <a href="#a76ca3614e466942b54e30645552d38ab">More...</a><br /></td></tr>
+<tr class="separator:a76ca3614e466942b54e30645552d38ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6fbc24f9332d7d9875971cb7a10b483"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene_node.html#ad6fbc24f9332d7d9875971cb7a10b483">setPosition</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;position) override</td></tr>
-<tr class="memdesc:ad6fbc24f9332d7d9875971cb7a10b483"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the position of the <a class="el" href="classobe_1_1_scene_1_1_scene_node.html" title="A SceneNode holds objects herited from Movable class and &quot;links&quot; their position. ">SceneNode</a> and all of its children using an UnitVector.  <a href="#ad6fbc24f9332d7d9875971cb7a10b483">More...</a><br /></td></tr>
+<tr class="memdesc:ad6fbc24f9332d7d9875971cb7a10b483"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the position of the <a class="el" href="classobe_1_1_scene_1_1_scene_node.html" title="A SceneNode holds objects inherited from Movable class and &quot;links&quot; their position. ">SceneNode</a> and all of its children using an UnitVector.  <a href="#ad6fbc24f9332d7d9875971cb7a10b483">More...</a><br /></td></tr>
 <tr class="separator:ad6fbc24f9332d7d9875971cb7a10b483"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b440ff692d067da071d9b689a2a0693"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene_node.html#a7b440ff692d067da071d9b689a2a0693">move</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;position) override</td></tr>
-<tr class="memdesc:a7b440ff692d067da071d9b689a2a0693"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves the <a class="el" href="classobe_1_1_scene_1_1_scene_node.html" title="A SceneNode holds objects herited from Movable class and &quot;links&quot; their position. ">SceneNode</a> (Adds the given position to the current one) and all of its children.  <a href="#a7b440ff692d067da071d9b689a2a0693">More...</a><br /></td></tr>
+<tr class="memdesc:a7b440ff692d067da071d9b689a2a0693"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves the <a class="el" href="classobe_1_1_scene_1_1_scene_node.html" title="A SceneNode holds objects inherited from Movable class and &quot;links&quot; their position. ">SceneNode</a> (Adds the given position to the current one) and all of its children.  <a href="#a7b440ff692d067da071d9b689a2a0693">More...</a><br /></td></tr>
 <tr class="separator:a7b440ff692d067da071d9b689a2a0693"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classobe_1_1_transform_1_1_movable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classobe_1_1_transform_1_1_movable')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classobe_1_1_transform_1_1_movable.html">obe::Transform::Movable</a></td></tr>
 <tr class="memitem:a7e89720c6b0002e0668ab6862518015b inherit pub_methods_classobe_1_1_transform_1_1_movable"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_movable.html#a7e89720c6b0002e0668ab6862518015b">~Movable</a> ()=default</td></tr>
 <tr class="separator:a7e89720c6b0002e0668ab6862518015b inherit pub_methods_classobe_1_1_transform_1_1_movable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ceef9dcdc75f05f0b89173030dbd7c2 inherit pub_methods_classobe_1_1_transform_1_1_movable"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">UnitVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_movable.html#a5ceef9dcdc75f05f0b89173030dbd7c2">getPosition</a> () const</td></tr>
-<tr class="memdesc:a5ceef9dcdc75f05f0b89173030dbd7c2 inherit pub_methods_classobe_1_1_transform_1_1_movable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Position of the <a class="el" href="classobe_1_1_transform_1_1_movable.html">Movable</a>.  <a href="classobe_1_1_transform_1_1_movable.html#a5ceef9dcdc75f05f0b89173030dbd7c2">More...</a><br /></td></tr>
+<tr class="memdesc:a5ceef9dcdc75f05f0b89173030dbd7c2 inherit pub_methods_classobe_1_1_transform_1_1_movable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Position of the <a class="el" href="classobe_1_1_transform_1_1_movable.html" title="A class which implements position and basic methods to manipulate it. ">Movable</a>.  <a href="classobe_1_1_transform_1_1_movable.html#a5ceef9dcdc75f05f0b89173030dbd7c2">More...</a><br /></td></tr>
 <tr class="separator:a5ceef9dcdc75f05f0b89173030dbd7c2 inherit pub_methods_classobe_1_1_transform_1_1_movable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classobe_1_1_types_1_1_selectable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classobe_1_1_types_1_1_selectable')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classobe_1_1_types_1_1_selectable.html">obe::Types::Selectable</a></td></tr>
+<tr class="memitem:a5da8a60b2721b78d41944d8fd76d8a75 inherit pub_methods_classobe_1_1_types_1_1_selectable"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_types_1_1_selectable.html#a5da8a60b2721b78d41944d8fd76d8a75">Selectable</a> (bool selected=false)</td></tr>
+<tr class="memdesc:a5da8a60b2721b78d41944d8fd76d8a75 inherit pub_methods_classobe_1_1_types_1_1_selectable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor of <a class="el" href="classobe_1_1_types_1_1_selectable.html" title="A Base Class that you can select or unselect. ">Selectable</a> Class.  <a href="classobe_1_1_types_1_1_selectable.html#a5da8a60b2721b78d41944d8fd76d8a75">More...</a><br /></td></tr>
+<tr class="separator:a5da8a60b2721b78d41944d8fd76d8a75 inherit pub_methods_classobe_1_1_types_1_1_selectable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6509bfcbf860ab53ab88ff4633ca1512 inherit pub_methods_classobe_1_1_types_1_1_selectable"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_types_1_1_selectable.html#a6509bfcbf860ab53ab88ff4633ca1512">setSelected</a> (bool selected)</td></tr>
+<tr class="memdesc:a6509bfcbf860ab53ab88ff4633ca1512 inherit pub_methods_classobe_1_1_types_1_1_selectable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the state of the <a class="el" href="classobe_1_1_types_1_1_selectable.html" title="A Base Class that you can select or unselect. ">Selectable</a>.  <a href="classobe_1_1_types_1_1_selectable.html#a6509bfcbf860ab53ab88ff4633ca1512">More...</a><br /></td></tr>
+<tr class="separator:a6509bfcbf860ab53ab88ff4633ca1512 inherit pub_methods_classobe_1_1_types_1_1_selectable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae151bd12d316aaaf340ac8cc0ace5332 inherit pub_methods_classobe_1_1_types_1_1_selectable"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_types_1_1_selectable.html#ae151bd12d316aaaf340ac8cc0ace5332">toggleSelected</a> ()</td></tr>
+<tr class="memdesc:ae151bd12d316aaaf340ac8cc0ace5332 inherit pub_methods_classobe_1_1_types_1_1_selectable"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classobe_1_1_types_1_1_selectable.html" title="A Base Class that you can select or unselect. ">Selectable</a> becomes unselected if it was selected and selected if it was not.  <a href="classobe_1_1_types_1_1_selectable.html#ae151bd12d316aaaf340ac8cc0ace5332">More...</a><br /></td></tr>
+<tr class="separator:ae151bd12d316aaaf340ac8cc0ace5332 inherit pub_methods_classobe_1_1_types_1_1_selectable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31c0468af5671e587843023e6b3a8aae inherit pub_methods_classobe_1_1_types_1_1_selectable"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_types_1_1_selectable.html#a31c0468af5671e587843023e6b3a8aae">select</a> ()</td></tr>
+<tr class="memdesc:a31c0468af5671e587843023e6b3a8aae inherit pub_methods_classobe_1_1_types_1_1_selectable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Selects the <a class="el" href="classobe_1_1_types_1_1_selectable.html" title="A Base Class that you can select or unselect. ">Selectable</a>.  <a href="classobe_1_1_types_1_1_selectable.html#a31c0468af5671e587843023e6b3a8aae">More...</a><br /></td></tr>
+<tr class="separator:a31c0468af5671e587843023e6b3a8aae inherit pub_methods_classobe_1_1_types_1_1_selectable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeba113ee09952ced0b365c00efd22cd6 inherit pub_methods_classobe_1_1_types_1_1_selectable"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_types_1_1_selectable.html#aeba113ee09952ced0b365c00efd22cd6">unselect</a> ()</td></tr>
+<tr class="memdesc:aeba113ee09952ced0b365c00efd22cd6 inherit pub_methods_classobe_1_1_types_1_1_selectable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unselect the <a class="el" href="classobe_1_1_types_1_1_selectable.html" title="A Base Class that you can select or unselect. ">Selectable</a>.  <a href="classobe_1_1_types_1_1_selectable.html#aeba113ee09952ced0b365c00efd22cd6">More...</a><br /></td></tr>
+<tr class="separator:aeba113ee09952ced0b365c00efd22cd6 inherit pub_methods_classobe_1_1_types_1_1_selectable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b6c76b676f1f18e6bddd0f1c9c999dd inherit pub_methods_classobe_1_1_types_1_1_selectable"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_types_1_1_selectable.html#a0b6c76b676f1f18e6bddd0f1c9c999dd">isSelected</a> () const</td></tr>
+<tr class="memdesc:a0b6c76b676f1f18e6bddd0f1c9c999dd inherit pub_methods_classobe_1_1_types_1_1_selectable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get if the <a class="el" href="classobe_1_1_types_1_1_selectable.html" title="A Base Class that you can select or unselect. ">Selectable</a> is selected or not.  <a href="classobe_1_1_types_1_1_selectable.html#a0b6c76b676f1f18e6bddd0f1c9c999dd">More...</a><br /></td></tr>
+<tr class="separator:a0b6c76b676f1f18e6bddd0f1c9c999dd inherit pub_methods_classobe_1_1_types_1_1_selectable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_attribs_classobe_1_1_transform_1_1_movable"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classobe_1_1_transform_1_1_movable')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classobe_1_1_transform_1_1_movable.html">obe::Transform::Movable</a></td></tr>
 <tr class="memitem:a399fa7096b3ffae13d4f14877a384d95 inherit pro_attribs_classobe_1_1_transform_1_1_movable"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">UnitVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_movable.html#a399fa7096b3ffae13d4f14877a384d95">m_position</a></td></tr>
 <tr class="separator:a399fa7096b3ffae13d4f14877a384d95 inherit pro_attribs_classobe_1_1_transform_1_1_movable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classobe_1_1_types_1_1_selectable"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classobe_1_1_types_1_1_selectable')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classobe_1_1_types_1_1_selectable.html">obe::Types::Selectable</a></td></tr>
+<tr class="memitem:a545d01e57ca0e206b09be64e6aba7842 inherit pro_attribs_classobe_1_1_types_1_1_selectable"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_types_1_1_selectable.html#a545d01e57ca0e206b09be64e6aba7842">m_selected</a></td></tr>
+<tr class="separator:a545d01e57ca0e206b09be64e6aba7842 inherit pro_attribs_classobe_1_1_types_1_1_selectable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A <a class="el" href="classobe_1_1_scene_1_1_scene_node.html" title="A SceneNode holds objects herited from Movable class and &quot;links&quot; their position. ">SceneNode</a> holds objects herited from Movable class and "links" their position. </p>
+<div class="textblock"><p>A <a class="el" href="classobe_1_1_scene_1_1_scene_node.html" title="A SceneNode holds objects inherited from Movable class and &quot;links&quot; their position. ">SceneNode</a> holds objects inherited from Movable class and "links" their position. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="ae38e5560872312d1eff02240fbe33da2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae38e5560872312d1eff02240fbe33da2">&#9670;&nbsp;</a></span>addChild()</h2>
+<a id="a76ca3614e466942b54e30645552d38ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76ca3614e466942b54e30645552d38ab">&#9670;&nbsp;</a></span>addChild()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -116,17 +138,17 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void obe::Scene::SceneNode::addChild </td>
           <td>(</td>
-          <td class="paramtype">Movable *&#160;</td>
+          <td class="paramtype">Movable &amp;&#160;</td>
           <td class="paramname"><em>child</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Adds a child to the <a class="el" href="classobe_1_1_scene_1_1_scene_node.html" title="A SceneNode holds objects herited from Movable class and &quot;links&quot; their position. ">SceneNode</a>. </p>
+<p>Adds a child to the <a class="el" href="classobe_1_1_scene_1_1_scene_node.html" title="A SceneNode holds objects inherited from Movable class and &quot;links&quot; their position. ">SceneNode</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">child</td><td>Pointer to the new <a class="el" href="classobe_1_1_scene_1_1_scene_node.html" title="A SceneNode holds objects herited from Movable class and &quot;links&quot; their position. ">SceneNode</a> child </td></tr>
+    <tr><td class="paramname">child</td><td>Pointer to the new <a class="el" href="classobe_1_1_scene_1_1_scene_node.html" title="A SceneNode holds objects inherited from Movable class and &quot;links&quot; their position. ">SceneNode</a> child </td></tr>
   </table>
   </dd>
 </dl>
@@ -157,7 +179,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Moves the <a class="el" href="classobe_1_1_scene_1_1_scene_node.html" title="A SceneNode holds objects herited from Movable class and &quot;links&quot; their position. ">SceneNode</a> (Adds the given position to the current one) and all of its children. </p>
+<p>Moves the <a class="el" href="classobe_1_1_scene_1_1_scene_node.html" title="A SceneNode holds objects inherited from Movable class and &quot;links&quot; their position. ">SceneNode</a> (Adds the given position to the current one) and all of its children. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">position</td><td>Position to add to the current Position </td></tr>
@@ -193,10 +215,10 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Set the position of the <a class="el" href="classobe_1_1_scene_1_1_scene_node.html" title="A SceneNode holds objects herited from Movable class and &quot;links&quot; their position. ">SceneNode</a> and all of its children using an UnitVector. </p>
+<p>Set the position of the <a class="el" href="classobe_1_1_scene_1_1_scene_node.html" title="A SceneNode holds objects inherited from Movable class and &quot;links&quot; their position. ">SceneNode</a> and all of its children using an UnitVector. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">position</td><td>Position to affect to the <a class="el" href="classobe_1_1_scene_1_1_scene_node.html" title="A SceneNode holds objects herited from Movable class and &quot;links&quot; their position. ">SceneNode</a> and all of its children </td></tr>
+    <tr><td class="paramname">position</td><td>Position to affect to the <a class="el" href="classobe_1_1_scene_1_1_scene_node.html" title="A SceneNode holds objects inherited from Movable class and &quot;links&quot; their position. ">SceneNode</a> and all of its children </td></tr>
   </table>
   </dd>
 </dl>

@@ -68,13 +68,15 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Path.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;vili/ErrorHandler.hpp&gt;</code><br />
 <code>#include &lt;<a class="el" href="_logger_8hpp_source.html">Debug/Logger.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_system_2_loaders_8hpp_source.html">System/Loaders.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_mountable_path_8hpp_source.html">System/MountablePath.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_file_utils_8hpp_source.html">Utils/FileUtils.hpp</a>&gt;</code><br />
 </div>
@@ -83,13 +85,12 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_path.html">obe::System::Path</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class used to manipulate paths and dynamically load resources (Based on multiple mounted paths) .  <a href="classobe_1_1_system_1_1_path.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class used to manipulate paths and dynamically load resources (Based on multiple mounted paths) {<a class="el" href="classobe_1_1_system_1_1_path.html" title="Class used to manipulate paths and dynamically load resources (Based on multiple mounted paths) {Path...">Path</a>}.  <a href="classobe_1_1_system_1_1_path.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceobe_1_1_system"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system.html">obe::System</a></td></tr>
-<tr class="memdesc:namespaceobe_1_1_system"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespaceobe_1_1_system.html" title="System Classes and Functions. ">System</a> Classes and Functions. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
@@ -99,7 +100,71 @@ Enumerations</h2></td></tr>
 <a class="el" href="namespaceobe_1_1_system.html#a694fe83b30a254b5c66650c9dc3bb497a0b27918290ff5323bea1e3b78a9cf04e">obe::System::PathType::File</a>
  }</td></tr>
 <tr class="separator:a694fe83b30a254b5c66650c9dc3bb497"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a1f5e6ca825f5eb458358a397d264974c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_system_1_1_path.html">obe::System::Path</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_path_8hpp.html#a1f5e6ca825f5eb458358a397d264974c">operator&quot;&quot; _path</a> (const char *str, std::size_t len)</td></tr>
+<tr class="separator:a1f5e6ca825f5eb458358a397d264974c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cc9c5a203aa4801ff07d99074d0b040"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_path_8hpp.html#a1cc9c5a203aa4801ff07d99074d0b040">operator&quot;&quot; _fs</a> (const char *str, std::size_t len)</td></tr>
+<tr class="separator:a1cc9c5a203aa4801ff07d99074d0b040"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a1cc9c5a203aa4801ff07d99074d0b040"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cc9c5a203aa4801ff07d99074d0b040">&#9670;&nbsp;</a></span>operator"" _fs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string operator&quot;&quot; _fs </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1f5e6ca825f5eb458358a397d264974c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f5e6ca825f5eb458358a397d264974c">&#9670;&nbsp;</a></span>operator"" _path()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classobe_1_1_system_1_1_path.html">obe::System::Path</a> operator&quot;&quot; _path </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

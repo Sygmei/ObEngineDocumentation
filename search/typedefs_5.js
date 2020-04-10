@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['timeunit',['TimeUnit',['../namespaceobe_1_1_time.html#ab88d6d21f1fefc3c7953b923420ae790',1,'obe::Time']]],
-  ['triggergroupptr',['TriggerGroupPtr',['../namespaceobe_1_1_triggers.html#ae1c47fabff190bbe8f6989fe11e8ad93',1,'obe::Triggers']]]
+  ['oncollidecallback',['OnCollideCallback',['../namespaceobe_1_1_collision.html#a163348101bcbfd6640cf4a1cc483e1d0',1,'obe::Collision']]],
+  ['onsceneloadcallback',['OnSceneLoadCallback',['../namespaceobe_1_1_scene.html#a0f6c2eb1dcb715de5970e3f682593598',1,'obe::Scene']]]
 ];

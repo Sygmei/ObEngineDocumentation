@@ -1,6 +1,24 @@
 var searchData=
 [
-  ['v_5falign',['v_align',['../classobe_1_1_graphics_1_1_canvas_1_1_text.html#a4e539b257b55058c4527497efb07506d',1,'obe::Graphics::Canvas::Text']]],
-  ['view',['View',['../classobe_1_1_transform_1_1_unit_vector.html#a8b5cc0c5d6b22650a1b6a2c26a77f737',1,'obe::Transform::UnitVector']]],
-  ['visible',['visible',['../classobe_1_1_graphics_1_1_canvas_1_1_canvas_element.html#adaa596b06a2a7e1fcdc55d7e2ff581c1',1,'obe::Graphics::Canvas::CanvasElement']]]
+  ['saddlebrown',['SaddleBrown',['../classobe_1_1_graphics_1_1_color.html#aaead824e204beb38cbfea590ac56946c',1,'obe::Graphics::Color']]],
+  ['salmon',['Salmon',['../classobe_1_1_graphics_1_1_color.html#ae68d5f176baf32c8a62e438f55346988',1,'obe::Graphics::Color']]],
+  ['sandybrown',['SandyBrown',['../classobe_1_1_graphics_1_1_color.html#ac58895acd954b72aca39faf45af8734f',1,'obe::Graphics::Color']]],
+  ['screen',['Screen',['../classobe_1_1_transform_1_1_unit_vector.html#a74c76dd1bc2c0e3ac83b3d17e3886024',1,'obe::Transform::UnitVector']]],
+  ['seagreen',['SeaGreen',['../classobe_1_1_graphics_1_1_color.html#a1b79f03a9b13c2fbc34833b7b3b69966',1,'obe::Graphics::Color']]],
+  ['seashell',['SeaShell',['../classobe_1_1_graphics_1_1_color.html#a94a8a255a5a292f227ff849a4f18b9d1',1,'obe::Graphics::Color']]],
+  ['second',['second',['../classobe_1_1_transform_1_1_polygon_segment.html#ad6d43ad98892763828d9338679d2de59',1,'obe::Transform::PolygonSegment']]],
+  ['seconds',['seconds',['../namespaceobe_1_1_time.html#ab3a9057cebd4694d0dc306453f4d84a3',1,'obe::Time']]],
+  ['shape',['shape',['../classobe_1_1_graphics_1_1_canvas_1_1_rectangle.html#a74a29365041bcf40fd5b22b3478f0ee1',1,'obe::Graphics::Canvas::Rectangle::shape()'],['../classobe_1_1_graphics_1_1_canvas_1_1_text.html#a8fc264fa23d5a19d9254c7e1be082a13',1,'obe::Graphics::Canvas::Text::shape()'],['../classobe_1_1_graphics_1_1_canvas_1_1_circle.html#ae8c844099c845f259072ffdfbf56262c',1,'obe::Graphics::Canvas::Circle::shape()'],['../classobe_1_1_graphics_1_1_canvas_1_1_polygon.html#aecf979edb3d657d02a4a2687bbee739b',1,'obe::Graphics::Canvas::Polygon::shape()'],['../classobe_1_1_graphics_1_1_shapes_1_1_rectangle.html#adec3cc1f0873ff023ab2cc019491ed61',1,'obe::Graphics::Shapes::Rectangle::shape()'],['../classobe_1_1_graphics_1_1_shapes_1_1_circle.html#aadc76e2fa6c84a0fd4805844c6cfa208',1,'obe::Graphics::Shapes::Circle::shape()'],['../classobe_1_1_graphics_1_1_shapes_1_1_polygon.html#a21ad257d5381141476d83de8826e14c6',1,'obe::Graphics::Shapes::Polygon::shape()'],['../classobe_1_1_graphics_1_1_shapes_1_1_text.html#a872928d5b5f21590d3d7b728abdc9bdb',1,'obe::Graphics::Shapes::Text::shape()']]],
+  ['sienna',['Sienna',['../classobe_1_1_graphics_1_1_color.html#aa9763dc956f8cf51a59b103d6a01dadb',1,'obe::Graphics::Color']]],
+  ['silver',['Silver',['../classobe_1_1_graphics_1_1_color.html#affbf6841e83b5be1f57490ef1e94e2e8',1,'obe::Graphics::Color']]],
+  ['size',['size',['../classobe_1_1_graphics_1_1_canvas_1_1_rectangle.html#a576b9be91899d8a4103e7333f16efc4a',1,'obe::Graphics::Canvas::Rectangle']]],
+  ['skyblue',['SkyBlue',['../classobe_1_1_graphics_1_1_color.html#aaab4b90d4fd464bd1453a548010e6897',1,'obe::Graphics::Color']]],
+  ['slateblue',['SlateBlue',['../classobe_1_1_graphics_1_1_color.html#ac8ead8c5fbfdf710dd714cec5df30c5a',1,'obe::Graphics::Color']]],
+  ['slategray',['SlateGray',['../classobe_1_1_graphics_1_1_color.html#a1c976cb374c47e361dd4da543b3468ee',1,'obe::Graphics::Color']]],
+  ['snow',['Snow',['../classobe_1_1_graphics_1_1_color.html#a76a258311ac549f71bc9bd119815b976',1,'obe::Graphics::Color']]],
+  ['springgreen',['SpringGreen',['../classobe_1_1_graphics_1_1_color.html#aaee88ac3ace9a8e8908b4fc764f4333c',1,'obe::Graphics::Color']]],
+  ['sprite',['sprite',['../classobe_1_1_graphics_1_1_canvas_1_1_image.html#a64f8d6d869e332088f3c76d881ade22f',1,'obe::Graphics::Canvas::Image']]],
+  ['steelblue',['SteelBlue',['../classobe_1_1_graphics_1_1_color.html#a2cd556d26d944ea342fa6ca8ff660a25',1,'obe::Graphics::Color']]],
+  ['string',['string',['../classobe_1_1_graphics_1_1_text.html#a1aee768b4d53e6c5fb943e8c8b9dd054',1,'obe::Graphics::Text']]],
+  ['style',['style',['../classobe_1_1_graphics_1_1_text.html#ae88bfc38c2ba1344f4df6b06ee7970d3',1,'obe::Graphics::Text']]]
 ];

@@ -68,22 +68,22 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">BindingTree.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;functional&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
-<code>#include &lt;kaguya/kaguya.hpp&gt;</code><br />
 <code>#include &lt;<a class="el" href="_identifiable_8hpp_source.html">Types/Identifiable.hpp</a>&gt;</code><br />
+<code>#include &lt;sol/sol.hpp&gt;</code><br />
 </div>
 <p><a href="_binding_tree_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_bindings_1_1_binding_tree.html">obe::Bindings::BindingTree</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds and indexes all the CXX <a class="el" href="namespaceobe_1_1_bindings.html" title="Bind C++ Classes and Functions to Lua VMs. ">Bindings</a> for Lua.  <a href="classobe_1_1_bindings_1_1_binding_tree.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds and indexes all the CXX <a class="el" href="namespaceobe_1_1_bindings_1_1_bindings.html">Bindings</a> for Lua.  <a href="classobe_1_1_bindings_1_1_binding_tree.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -92,10 +92,10 @@ Namespaces</h2></td></tr>
 <tr class="memdesc:namespaceobe_1_1_bindings"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bind C++ Classes and Functions to Lua VMs. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a4e49614337fb974c5744081896b8cb21"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(kaguya::State *)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings.html#a4e49614337fb974c5744081896b8cb21">obe::Bindings::InitTreeNodeAsTable</a> (const std::string &amp;nodeName)</td></tr>
-<tr class="separator:a4e49614337fb974c5744081896b8cb21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a8fba4ce2127bcf452599bafb0b564030"><td class="memItemLeft" align="right" valign="top">std::function&lt; void(sol::state_view)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings.html#a8fba4ce2127bcf452599bafb0b564030">obe::Bindings::InitTreeNodeAsTable</a> (const std::string &amp;nodeName)</td></tr>
+<tr class="separator:a8fba4ce2127bcf452599bafb0b564030"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

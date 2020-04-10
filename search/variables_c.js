@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['radius',['radius',['../classobe_1_1_graphics_1_1_canvas_1_1_circle.html#a1cab57f8fa41dbe8defbc120d032a270',1,'obe::Graphics::Canvas::Circle::radius()'],['../classobe_1_1_graphics_1_1_level_sprite_handle_point.html#abcf46fa4c4c66f874daff39fc1b7f5c4',1,'obe::Graphics::LevelSpriteHandlePoint::radius()']]],
-  ['rd',['rd',['../namespaceobe_1_1_utils_1_1_math.html#aea98e6fdb5d6faaf67214b54ee5b5369',1,'obe::Utils::Math']]],
-  ['referentials',['Referentials',['../classobe_1_1_transform_1_1_referential.html#acd227e802b958651d19281960decbefb',1,'obe::Transform::Referential']]],
-  ['requirerefresh',['RequireRefresh',['../namespaceobe_1_1_input_1_1_monitors.html#ace510ad5e8d60e0a5b08defa61e2f507',1,'obe::Input::Monitors']]],
-  ['right',['Right',['../classobe_1_1_transform_1_1_referential.html#ae6931c9061e0fe0a74ec8278b82f3901',1,'obe::Transform::Referential']]]
+  ['navajowhite',['NavajoWhite',['../classobe_1_1_graphics_1_1_color.html#a0bbb93462386638a2ff4e29f567e9ef6',1,'obe::Graphics::Color']]],
+  ['navy',['Navy',['../classobe_1_1_graphics_1_1_color.html#a7b9f53c0b4f53a1408cfc798ed75d767',1,'obe::Graphics::Color']]],
+  ['nulltexture',['NullTexture',['../namespaceobe_1_1_graphics.html#af48770bf77fa688125970e64c508de4a',1,'obe::Graphics']]],
+  ['numbers',['Numbers',['../namespaceobe_1_1_utils_1_1_string.html#ad3b00b18b04258a57a9f5d7477225bc6',1,'obe::Utils::String']]]
 ];
