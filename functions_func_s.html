@@ -65,15 +65,25 @@ $(function() {
 
 <h3><a id="index_s"></a>- s -</h3><ul>
 <li>scale()
-: <a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_shape.html#aaae07de613f3e441c07826fd46a62148">obe::Graphics::Shapes::Shape&lt; T &gt;</a>
-, <a class="el" href="classobe_1_1_scene_1_1_camera.html#a7d4d3304ffefed782b9b5aaaf6f29d19">obe::Scene::Camera</a>
-, <a class="el" href="classobe_1_1_transform_1_1_rect.html#a0a754086366969e803ca8487c8ffc5ad">obe::Transform::Rect</a>
+: <a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_base_shape.html#a49813d4a2d70fc1f495f5439dc866413">obe::Graphics::Shapes::BaseShape&lt; T &gt;</a>
+, <a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_shape.html#aaae07de613f3e441c07826fd46a62148">obe::Graphics::Shapes::Shape&lt; T &gt;</a>
+, <a class="el" href="classobe_1_1_scene_1_1_camera.html#ab988ae048321266a39d0cdb21b1ef803">obe::Scene::Camera</a>
+, <a class="el" href="classobe_1_1_transform_1_1_rect.html#af3158226a7e91c43cfb8a057e2230ad7">obe::Transform::Rect</a>
 </li>
 <li>Scene()
 : <a class="el" href="classobe_1_1_scene_1_1_scene.html#afd7f6a9d675a7e98bc1242acb916f320">obe::Scene::Scene</a>
 </li>
+<li>SceneOnLoadCallbackError()
+: <a class="el" href="classobe_1_1_scene_1_1_exceptions_1_1_scene_on_load_callback_error.html#af3b0c27dae1d9afb1a8a6a824fd2a87b">obe::Scene::Exceptions::SceneOnLoadCallbackError</a>
+</li>
+<li>SceneScriptLoadingError()
+: <a class="el" href="classobe_1_1_scene_1_1_exceptions_1_1_scene_script_loading_error.html#ab410477e618499552c28e05d77d70b0e">obe::Scene::Exceptions::SceneScriptLoadingError</a>
+</li>
 <li>schedule()
 : <a class="el" href="classobe_1_1_triggers_1_1_trigger_manager.html#a2201e792af807a290d6d75dafc0d56da">obe::Triggers::TriggerManager</a>
+</li>
+<li>ScriptFileNotFound()
+: <a class="el" href="classobe_1_1_script_1_1_exceptions_1_1_script_file_not_found.html#a5d97906e71d8ed9a590c3639e0428b9a">obe::Script::Exceptions::ScriptFileNotFound</a>
 </li>
 <li>select()
 : <a class="el" href="classobe_1_1_types_1_1_selectable.html#a31c0468af5671e587843023e6b3a8aae">obe::Types::Selectable</a>
@@ -88,7 +98,8 @@ $(function() {
 : <a class="el" href="classobe_1_1_script_1_1_game_object.html#acc50a6b9d4f4d1a6acc93dda1eb62488">obe::Script::GameObject</a>
 </li>
 <li>set()
-: <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html#af3867f780ceba4d23046a85314bfa077">obe::Transform::UnitVector</a>
+: <a class="el" href="classobe_1_1_system_1_1_path.html#a4a07dacb177b9250ed4eba041b6c2bfa">obe::System::Path</a>
+, <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html#a84f0b6ea8584542519423fb3a9454956">obe::Transform::UnitVector</a>
 , <a class="el" href="structobe_1_1_types_1_1_flag_set.html#aa3bed34526c5f634b7ec3906d079a8ae">obe::Types::FlagSet&lt; T &gt;</a>
 </li>
 <li>setAcceleration()
@@ -98,7 +109,7 @@ $(function() {
 : <a class="el" href="classobe_1_1_collision_1_1_trajectory.html#a1620ef89c03519226e8e30cd5ad7ab5a">obe::Collision::Trajectory</a>
 </li>
 <li>setAntiAliasing()
-: <a class="el" href="classobe_1_1_animation_1_1_animation.html#a3d06c11952a167fe97ada924aff00d80">obe::Animation::Animation</a>
+: <a class="el" href="classobe_1_1_animation_1_1_animation.html#a5e589ea99ed22e26399eece0e392549d">obe::Animation::Animation</a>
 , <a class="el" href="classobe_1_1_graphics_1_1_sprite.html#a71d9338216ad9f623cc97ebd293ee728">obe::Graphics::Sprite</a>
 , <a class="el" href="classobe_1_1_graphics_1_1_texture.html#ac4e30928751a22c4a2744ddbc960008d">obe::Graphics::Texture</a>
 </li>
@@ -125,7 +136,7 @@ $(function() {
 : <a class="el" href="classobe_1_1_input_1_1_input_manager.html#a043ab7f367b87dbd8dd1b1804e0494d4">obe::Input::InputManager</a>
 </li>
 <li>setDelay()
-: <a class="el" href="classobe_1_1_animation_1_1_animation_group.html#ada44940949134e66f1f5de24b1597fe3">obe::Animation::AnimationGroup</a>
+: <a class="el" href="classobe_1_1_animation_1_1_animation_group.html#a9dae3edfa0cca0d602cb8679217200a6">obe::Animation::AnimationGroup</a>
 </li>
 <li>setEnabled()
 : <a class="el" href="classobe_1_1_types_1_1_togglable.html#a08322e47c0c94ebd0320c5ab56fa3274">obe::Types::Togglable</a>
@@ -169,13 +180,17 @@ $(function() {
 : <a class="el" href="classobe_1_1_audio_1_1_sound.html#a3f1810756196d274082c39e9a9af36a7">obe::Audio::Sound</a>
 </li>
 <li>setLoops()
-: <a class="el" href="classobe_1_1_animation_1_1_animation_group.html#a0cc6802d5c8d83998bb9d6a93cf14ef6">obe::Animation::AnimationGroup</a>
+: <a class="el" href="classobe_1_1_animation_1_1_animation_group.html#af1981e36bfd00b511f5679c5aa8901c8">obe::Animation::AnimationGroup</a>
+</li>
+<li>setMouseCursorVisible()
+: <a class="el" href="classobe_1_1_system_1_1_window.html#aa8a97c2f3c2213553eaf8e1aeca37377">obe::System::Window</a>
 </li>
 <li>setOffset()
 : <a class="el" href="classobe_1_1_audio_1_1_sound.html#a1e9aa720d68960385cd4f2979433b5c5">obe::Audio::Sound</a>
 </li>
 <li>setOrigin()
-: <a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_shape.html#aee95b5482119a01c9c1befed47b9cee6">obe::Graphics::Shapes::Shape&lt; T &gt;</a>
+: <a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_base_shape.html#a538709de8f842cf56af1de3ae42d434c">obe::Graphics::Shapes::BaseShape&lt; T &gt;</a>
+, <a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_shape.html#aee95b5482119a01c9c1befed47b9cee6">obe::Graphics::Shapes::Shape&lt; T &gt;</a>
 </li>
 <li>setOutlineColor()
 : <a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_shape.html#a07968defb137671387798969c549d751">obe::Graphics::Shapes::Shape&lt; T &gt;</a>
@@ -188,7 +203,7 @@ $(function() {
 , <a class="el" href="classobe_1_1_graphics_1_1_sprite.html#abcddaabadcf673802341e4988e99430b">obe::Graphics::Sprite</a>
 </li>
 <li>setPaused()
-: <a class="el" href="classobe_1_1_animation_1_1_animator.html#add4d45415f670de94c92ca8b29728bdc">obe::Animation::Animator</a>
+: <a class="el" href="classobe_1_1_animation_1_1_animator.html#a75daeb1a8b316dadff38db324b57e7f0">obe::Animation::Animator</a>
 </li>
 <li>setPermanent()
 : <a class="el" href="classobe_1_1_script_1_1_game_object.html#a20c1377c8e14cdc54bdf59c9f2a027e9">obe::Script::GameObject</a>
@@ -197,16 +212,18 @@ $(function() {
 : <a class="el" href="classobe_1_1_audio_1_1_sound.html#ad2c395dd7673c5e53ab3913ed20b2618">obe::Audio::Sound</a>
 </li>
 <li>setPointPosition()
-: <a class="el" href="classobe_1_1_transform_1_1_rect.html#ae7cfaad1840bb44c5dbe91f726ec923b">obe::Transform::Rect</a>
+: <a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_polygon.html#a400c7db818216add8fe506ee192e108f">obe::Graphics::Shapes::Polygon</a>
+, <a class="el" href="classobe_1_1_transform_1_1_rect.html#a2f28a32ffc7f72485271fdf1840ad8f8">obe::Transform::Rect</a>
 </li>
 <li>setPosition()
-: <a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_shape.html#a6577703b8ea627c2b8ec5b3e9f88aeae">obe::Graphics::Shapes::Shape&lt; T &gt;</a>
-, <a class="el" href="classobe_1_1_scene_1_1_camera.html#a72ab6b2dc9dc53109b31a6cdfd8f4ae8">obe::Scene::Camera</a>
+: <a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_base_shape.html#afa551fd444d88c599909ddd9a353e9b4">obe::Graphics::Shapes::BaseShape&lt; T &gt;</a>
+, <a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_shape.html#a6577703b8ea627c2b8ec5b3e9f88aeae">obe::Graphics::Shapes::Shape&lt; T &gt;</a>
+, <a class="el" href="classobe_1_1_scene_1_1_camera.html#abcc68e748307fccee586bb53e89308d8">obe::Scene::Camera</a>
 , <a class="el" href="classobe_1_1_scene_1_1_scene_node.html#ad6fbc24f9332d7d9875971cb7a10b483">obe::Scene::SceneNode</a>
 , <a class="el" href="classobe_1_1_system_1_1_cursor.html#ae621fa93dc252bfa71de57c960557ec5">obe::System::Cursor</a>
 , <a class="el" href="classobe_1_1_transform_1_1_movable.html#a4a3d50eb7f24d9dcbaaf7c6499787ddd">obe::Transform::Movable</a>
 , <a class="el" href="classobe_1_1_transform_1_1_polygon.html#a4a9b194e6b9b5f5f811b082a2856b0f1">obe::Transform::Polygon</a>
-, <a class="el" href="classobe_1_1_transform_1_1_rect.html#a54c50a34efbd3087c16bb8c1a30a05f4">obe::Transform::Rect</a>
+, <a class="el" href="classobe_1_1_transform_1_1_rect.html#a03669a9a292d7163ebcde327757caa15">obe::Transform::Rect</a>
 </li>
 <li>setPositionFromCentroid()
 : <a class="el" href="classobe_1_1_transform_1_1_polygon.html#a6a77b96a3ddcc3a27879302dd55d8505">obe::Transform::Polygon</a>
@@ -230,7 +247,8 @@ $(function() {
 : <a class="el" href="classobe_1_1_graphics_1_1_texture.html#ab7d5f0cabb949df005bb80ce376a34c7">obe::Graphics::Texture</a>
 </li>
 <li>setRotation()
-: <a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_shape.html#a62a7f8804b6d087b088d9aa45dc45e97">obe::Graphics::Shapes::Shape&lt; T &gt;</a>
+: <a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_base_shape.html#a1451d1955af4e02dc9abd7e83c2c7fd4">obe::Graphics::Shapes::BaseShape&lt; T &gt;</a>
+, <a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_shape.html#a62a7f8804b6d087b088d9aa45dc45e97">obe::Graphics::Shapes::Shape&lt; T &gt;</a>
 , <a class="el" href="classobe_1_1_graphics_1_1_sprite.html#acf05536297513597ca4e4777ef43ce80">obe::Graphics::Sprite</a>
 , <a class="el" href="classobe_1_1_transform_1_1_polygon.html#abd8682077720a886708d96ad525337cf">obe::Transform::Polygon</a>
 , <a class="el" href="classobe_1_1_transform_1_1_rect.html#ac9a0ee89fd9c1ac4aba87c6c3d0a0c1a">obe::Transform::Rect</a>
@@ -239,7 +257,8 @@ $(function() {
 : <a class="el" href="classobe_1_1_graphics_1_1_sprite.html#ad3a6b43e81d1d7f159af820a0c2e6ca2">obe::Graphics::Sprite</a>
 </li>
 <li>setScale()
-: <a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_shape.html#a99a7c96adf251f46e4ebfa5057164081">obe::Graphics::Shapes::Shape&lt; T &gt;</a>
+: <a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_base_shape.html#a0e641074e08278fd6dfabb912b8a4d3f">obe::Graphics::Shapes::BaseShape&lt; T &gt;</a>
+, <a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_shape.html#a99a7c96adf251f46e4ebfa5057164081">obe::Graphics::Shapes::Shape&lt; T &gt;</a>
 </li>
 <li>setScalingOrigin()
 : <a class="el" href="classobe_1_1_graphics_1_1_sprite.html#a1857f6c9c67e7e93d5e8133f7c5a45cc">obe::Graphics::Sprite</a>
@@ -252,9 +271,9 @@ $(function() {
 </li>
 <li>setSize()
 : <a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_rectangle.html#a33c64a88f25cacbe268a080570aaf738">obe::Graphics::Shapes::Rectangle</a>
-, <a class="el" href="classobe_1_1_scene_1_1_camera.html#a37437689878090600250541a3e9cb2ac">obe::Scene::Camera</a>
+, <a class="el" href="classobe_1_1_scene_1_1_camera.html#ae2e62db22e9864eb862f8c1b3a054232">obe::Scene::Camera</a>
 , <a class="el" href="classobe_1_1_system_1_1_window.html#a662c28d54d27648a6cf70ca3d53a620f">obe::System::Window</a>
-, <a class="el" href="classobe_1_1_transform_1_1_rect.html#addddacf271b2ebb0f05c1ceb9e1bb3eb">obe::Transform::Rect</a>
+, <a class="el" href="classobe_1_1_transform_1_1_rect.html#a0fcbcefd9aa1c1bbb735705c79db3f4e">obe::Transform::Rect</a>
 </li>
 <li>setSpeed()
 : <a class="el" href="classobe_1_1_collision_1_1_trajectory.html#a49b3f03b522acabc9d4e5c211f9ffaf5">obe::Collision::Trajectory</a>
@@ -272,10 +291,12 @@ $(function() {
 : <a class="el" href="classobe_1_1_animation_1_1_animator.html#a5dd10bef6982b407c8b76c087d6a59b4">obe::Animation::Animator</a>
 </li>
 <li>setTexture()
-: <a class="el" href="classobe_1_1_graphics_1_1_sprite.html#a754bff13bf9ecffa38ab1a4158286581">obe::Graphics::Sprite</a>
+: <a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_shape.html#ac85147181869dc509c93d2c1c7467e3f">obe::Graphics::Shapes::Shape&lt; T &gt;</a>
+, <a class="el" href="classobe_1_1_graphics_1_1_sprite.html#a754bff13bf9ecffa38ab1a4158286581">obe::Graphics::Sprite</a>
 </li>
 <li>setTextureRect()
-: <a class="el" href="classobe_1_1_graphics_1_1_sprite.html#a00e1480ae66f6953c3398687738a87f7">obe::Graphics::Sprite</a>
+: <a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_shape.html#a9277e022bf9e9b3033f27e3533729483">obe::Graphics::Shapes::Shape&lt; T &gt;</a>
+, <a class="el" href="classobe_1_1_graphics_1_1_sprite.html#a00e1480ae66f6953c3398687738a87f7">obe::Graphics::Sprite</a>
 </li>
 <li>setTitle()
 : <a class="el" href="classobe_1_1_system_1_1_window.html#ac9b19474f369ca542f0967f2927f8140">obe::System::Window</a>
@@ -324,6 +345,9 @@ $(function() {
 <li>size()
 : <a class="el" href="structobe_1_1_types_1_1_flag_set.html#a0f1dcea333a0b0f547df842253b888db">obe::Types::FlagSet&lt; T &gt;</a>
 </li>
+<li>Sort()
+: <a class="el" href="classobe_1_1_system_1_1_mountable_path.html#a4c27cc82c350e8a929cc5ddf196a4ed9">obe::System::MountablePath</a>
+</li>
 <li>Sound()
 : <a class="el" href="classobe_1_1_audio_1_1_sound.html#a41af9003ee3ad132e382ca78fb8b1172">obe::Audio::Sound</a>
 </li>
@@ -331,15 +355,21 @@ $(function() {
 : <a class="el" href="classobe_1_1_graphics_1_1_sprite.html#a2677c36410a3d77fcfb0bfa5cf7caf5d">obe::Graphics::Sprite</a>
 </li>
 <li>SpriteHandlePoint()
-: <a class="el" href="classobe_1_1_graphics_1_1_sprite_handle_point.html#ab6f6e4379bb2a541d9d0ae05b3cbc743">obe::Graphics::SpriteHandlePoint</a>
+: <a class="el" href="classobe_1_1_graphics_1_1_sprite_handle_point.html#a967f2fcb6f31aea7de9044f37d6dfd16">obe::Graphics::SpriteHandlePoint</a>
 </li>
 <li>start()
 : <a class="el" href="classobe_1_1_time_1_1_chronometer.html#a96dd78036b9f9215e4a842f8bec75cb3">obe::Time::Chronometer</a>
+</li>
+<li>step()
+: <a class="el" href="classobe_1_1_animation_1_1_value_tweening.html#abd24cb3daa3adb2f954a5f497592d161">obe::Animation::ValueTweening</a>
 </li>
 <li>stop()
 : <a class="el" href="classobe_1_1_audio_1_1_sound.html#aefb3d29a765d5b599c2522db94738da0">obe::Audio::Sound</a>
 , <a class="el" href="classobe_1_1_time_1_1_chronometer.html#a02e89f044e1d43c78145ea878324dc3f">obe::Time::Chronometer</a>
 , <a class="el" href="classobe_1_1_triggers_1_1_callback_scheduler.html#a679b6086d32a8af09f9cbfc285c2c964">obe::Triggers::CallbackScheduler</a>
+</li>
+<li>StringPaths()
+: <a class="el" href="classobe_1_1_system_1_1_mountable_path.html#a26b7ffc70d719e74bacace892dc70121">obe::System::MountablePath</a>
 </li>
 <li>success()
 : <a class="el" href="classobe_1_1_system_1_1_loader_multiple_result.html#a56b274ca02fca7af5ddff3dff5dff6d7">obe::System::LoaderMultipleResult</a>

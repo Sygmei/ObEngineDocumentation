@@ -68,7 +68,8 @@ $(function() {
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">obe::Scene Namespace Reference</div>  </div>
 </div><!--header-->
@@ -77,6 +78,8 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceobe_1_1_scene_1_1_bindings"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_scene_1_1_bindings.html">Bindings</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespaceobe_1_1_scene_1_1_exceptions"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_scene_1_1_exceptions.html">Exceptions</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -93,21 +96,93 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a0f6c2eb1dcb715de5970e3f682593598"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_scene.html#a0f6c2eb1dcb715de5970e3f682593598">OnSceneLoadCallback</a> = std::function&lt; void(const std::string &amp;)&gt;</td></tr>
-<tr class="separator:a0f6c2eb1dcb715de5970e3f682593598"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81b3b69227fbe7819b8660270f6cc12a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_scene.html#a81b3b69227fbe7819b8660270f6cc12a">OnSceneLoadCallback</a> = sol::protected_function</td></tr>
+<tr class="separator:a81b3b69227fbe7819b8660270f6cc12a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a7987c35ee1201b554339ef571ffc54d7"><td class="memItemLeft" align="right" valign="top">sol::table&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_scene.html#a7987c35ee1201b554339ef571ffc54d7">sceneGetGameObjectProxy</a> (<a class="el" href="classobe_1_1_scene_1_1_scene.html">Scene</a> *self, const std::string &amp;id)</td></tr>
+<tr class="separator:a7987c35ee1201b554339ef571ffc54d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c71c9219bf2e998e7fa506a406b4cb6"><td class="memItemLeft" align="right" valign="top">sol::function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_scene.html#a0c71c9219bf2e998e7fa506a406b4cb6">sceneCreateGameObjectProxy</a> (<a class="el" href="classobe_1_1_scene_1_1_scene.html">Scene</a> *self, const std::string &amp;obj, const std::string &amp;id=&quot;&quot;)</td></tr>
+<tr class="separator:a0c71c9219bf2e998e7fa506a406b4cb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
-<a id="a0f6c2eb1dcb715de5970e3f682593598"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f6c2eb1dcb715de5970e3f682593598">&#9670;&nbsp;</a></span>OnSceneLoadCallback</h2>
+<a id="a81b3b69227fbe7819b8660270f6cc12a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81b3b69227fbe7819b8660270f6cc12a">&#9670;&nbsp;</a></span>OnSceneLoadCallback</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespaceobe_1_1_scene.html#a0f6c2eb1dcb715de5970e3f682593598">obe::Scene::OnSceneLoadCallback</a> = typedef std::function&lt;void(const std::string&amp;)&gt;</td>
+          <td class="memname">using <a class="el" href="namespaceobe_1_1_scene.html#a81b3b69227fbe7819b8660270f6cc12a">obe::Scene::OnSceneLoadCallback</a> = typedef sol::protected_function</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a0c71c9219bf2e998e7fa506a406b4cb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c71c9219bf2e998e7fa506a406b4cb6">&#9670;&nbsp;</a></span>sceneCreateGameObjectProxy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">sol::function obe::Scene::sceneCreateGameObjectProxy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_scene_1_1_scene.html">Scene</a> *&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>obj</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>id</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>{<a class="el" href="classobe_1_1_scene_1_1_scene.html#af6f00d6b3ac7626869ddf442dcc013e2" title="Creates a new GameObject. ">obe::Scene::Scene::createGameObject</a>} </p>
+
+</div>
+</div>
+<a id="a7987c35ee1201b554339ef571ffc54d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7987c35ee1201b554339ef571ffc54d7">&#9670;&nbsp;</a></span>sceneGetGameObjectProxy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">sol::table obe::Scene::sceneGetGameObjectProxy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_scene_1_1_scene.html">Scene</a> *&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>{<a class="el" href="classobe_1_1_scene_1_1_scene.html#a9cb5a303af338252061779a83edf6cc0" title="Get a GameObject by Id (Raises an exception if not found) ">obe::Scene::Scene::getGameObject</a>} </p>
 
 </div>
 </div>

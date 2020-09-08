@@ -68,7 +68,8 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Canvas.hpp File Reference</div>  </div>
 </div><!--header-->
@@ -78,6 +79,7 @@ $(function() {
 <code>#include &lt;SFML/Graphics/RenderTexture.hpp&gt;</code><br />
 <code>#include &lt;sfe/RichText.hpp&gt;</code><br />
 <code>#include &lt;<a class="el" href="_logger_8hpp_source.html">Debug/Logger.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_graphics_2_exceptions_8hpp_source.html">Graphics/Exceptions.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_graphics_2_shapes_8hpp_source.html">Graphics/Shapes.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_sprite_8hpp_source.html">Graphics/Sprite.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_text_8hpp_source.html">Graphics/Text.hpp</a>&gt;</code><br />
@@ -109,8 +111,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_polygon.html">obe::Graphics::Canvas::Polygon</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A <a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas.html" title="A Canvas where you can draw CanvasElements {Canvas} {Lib/Internal/Canvas.lua}. ">Canvas</a> <a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_polygon.html" title="A Canvas Polygon. ">Polygon</a>.  <a href="classobe_1_1_graphics_1_1_canvas_1_1_polygon.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_image.html">obe::Graphics::Canvas::Image</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A <a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas.html" title="A Canvas where you can draw CanvasElements {Canvas} {Lib/Internal/Canvas.lua}. ">Canvas</a> <a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_image.html" title="A Canvas Image. ">Image</a>.  <a href="classobe_1_1_graphics_1_1_canvas_1_1_image.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_bezier.html">obe::Graphics::Canvas::Bezier</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A <a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas.html" title="A Canvas where you can draw CanvasElements {Canvas} {Lib/Internal/Canvas.lua}. ">Canvas</a> <a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_bezier.html" title="A Canvas Bezier Curve. ">Bezier</a> Curve.  <a href="classobe_1_1_graphics_1_1_canvas_1_1_bezier.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas.html">obe::Graphics::Canvas::Canvas</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A <a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas.html" title="A Canvas where you can draw CanvasElements {Canvas} {Lib/Internal/Canvas.lua}. ">Canvas</a> where you can draw CanvasElements {<a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas.html" title="A Canvas where you can draw CanvasElements {Canvas} {Lib/Internal/Canvas.lua}. ">Canvas</a>} {Lib/Internal/Canvas.lua}.  <a href="classobe_1_1_graphics_1_1_canvas_1_1_canvas.html#details">More...</a><br /></td></tr>
@@ -131,7 +133,7 @@ Enumerations</h2></td></tr>
 <br />
 &#160;&#160;<a class="el" href="namespaceobe_1_1_graphics_1_1_canvas.html#aaaee5924f85afded701c731eab80e38ca30954d90085f6eaaf5817917fc5fecb3">obe::Graphics::Canvas::CanvasElementType::Circle</a>, 
 <a class="el" href="namespaceobe_1_1_graphics_1_1_canvas.html#aaaee5924f85afded701c731eab80e38ca4c0a11247d92f73fb84baa51e37a3263">obe::Graphics::Canvas::CanvasElementType::Polygon</a>, 
-<a class="el" href="namespaceobe_1_1_graphics_1_1_canvas.html#aaaee5924f85afded701c731eab80e38ca51f2b7b14433aa22c67d1f4fc18943cd">obe::Graphics::Canvas::CanvasElementType::Sprite</a>
+<a class="el" href="namespaceobe_1_1_graphics_1_1_canvas.html#aaaee5924f85afded701c731eab80e38ca31aa08a905ffdb74542a88cb7320c69d">obe::Graphics::Canvas::CanvasElementType::Bezier</a>
 <br />
  }<tr class="memdesc:aaaee5924f85afded701c731eab80e38c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of the CanvasElement, used for identification {Canvas.Type}.  <a href="namespaceobe_1_1_graphics_1_1_canvas.html#aaaee5924f85afded701c731eab80e38c">More...</a><br /></td></tr>
 </td></tr>
@@ -148,6 +150,13 @@ Enumerations</h2></td></tr>
  }<tr class="memdesc:a29dc8f6b18199a7e1325e386637d6e0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vertical alignment of Text {Canvas.TextAlignment.Vertical}.  <a href="namespaceobe_1_1_graphics_1_1_canvas.html#a29dc8f6b18199a7e1325e386637d6e0e">More...</a><br /></td></tr>
 </td></tr>
 <tr class="separator:a29dc8f6b18199a7e1325e386637d6e0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ac4c6bcf04ed34b2ee05f08e617b9f479"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_graphics_1_1_canvas.html#ac4c6bcf04ed34b2ee05f08e617b9f479">obe::Graphics::Canvas::canvasElementTypeToString</a> (CanvasElementType type)</td></tr>
+<tr class="separator:ac4c6bcf04ed34b2ee05f08e617b9f479"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bea6079fbd13164af8ebef6ef74d5ef"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_graphics_1_1_canvas.html#a5bea6079fbd13164af8ebef6ef74d5ef">obe::Graphics::Canvas::operator&lt;&lt;</a> (std::ostream &amp;os, CanvasElementType type)</td></tr>
+<tr class="separator:a5bea6079fbd13164af8ebef6ef74d5ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

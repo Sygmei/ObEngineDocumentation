@@ -126,6 +126,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a7aa2a2dbb48482e8961ba0dcb6bc60b4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_utils_1_1_string.html#a7aa2a2dbb48482e8961ba0dcb6bc60b4">endsWith</a> (const std::string &amp;string, const std::string &amp;search)</td></tr>
 <tr class="memdesc:a7aa2a2dbb48482e8961ba0dcb6bc60b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if "string" ends with "search".  <a href="#a7aa2a2dbb48482e8961ba0dcb6bc60b4">More...</a><br /></td></tr>
 <tr class="separator:a7aa2a2dbb48482e8961ba0dcb6bc60b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73b5886c0e8872018935b720c3d01a24"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_utils_1_1_string.html#a73b5886c0e8872018935b720c3d01a24">distance</a> (std::string_view source, std::string_view target)</td></tr>
+<tr class="separator:a73b5886c0e8872018935b720c3d01a24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0d807536c508ed45a92ccab2d3f174f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_utils_1_1_string.html#ae0d807536c508ed45a92ccab2d3f174f">sortByDistance</a> (const std::string &amp;source, const std::vector&lt; std::string &gt; &amp;words, std::size_t limit=0)</td></tr>
+<tr class="separator:ae0d807536c508ed45a92ccab2d3f174f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2f6190ec5a541b2c8adbbbf43e53e9e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_utils_1_1_string.html#ad2f6190ec5a541b2c8adbbbf43e53e9e">quote</a> (const std::string &amp;source)</td></tr>
+<tr class="separator:ad2f6190ec5a541b2c8adbbbf43e53e9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -174,6 +180,34 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the string contains search, false otherwise </dd></dl>
+
+</div>
+</div>
+<a id="a73b5886c0e8872018935b720c3d01a24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73b5886c0e8872018935b720c3d01a24">&#9670;&nbsp;</a></span>distance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::size_t obe::Utils::String::distance </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>target</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -464,6 +498,24 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="ad2f6190ec5a541b2c8adbbbf43e53e9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2f6190ec5a541b2c8adbbbf43e53e9e">&#9670;&nbsp;</a></span>quote()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string obe::Utils::String::quote </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>source</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ad648e63a60e1fce71a321037fbee4e30"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad648e63a60e1fce71a321037fbee4e30">&#9670;&nbsp;</a></span>replace()</h2>
 
@@ -550,6 +602,40 @@ Variables</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="ae0d807536c508ed45a92ccab2d3f174f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0d807536c508ed45a92ccab2d3f174f">&#9670;&nbsp;</a></span>sortByDistance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::string &gt; obe::Utils::String::sortByDistance </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>words</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>limit</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

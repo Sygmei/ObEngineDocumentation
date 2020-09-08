@@ -105,9 +105,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac88d9b295acd255a40ebfaa7e20ec346"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_input_manager.html#ac88d9b295acd255a40ebfaa7e20ec346">clearContexts</a> ()</td></tr>
 <tr class="memdesc:ac88d9b295acd255a40ebfaa7e20ec346"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear all contexts the KeyboardManager is using.  <a href="#ac88d9b295acd255a40ebfaa7e20ec346">More...</a><br /></td></tr>
 <tr class="separator:ac88d9b295acd255a40ebfaa7e20ec346"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf10d43635b0d5c29bbb4839d083e150"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_input_manager.html#adf10d43635b0d5c29bbb4839d083e150">configure</a> (vili::ComplexNode &amp;config)</td></tr>
-<tr class="memdesc:adf10d43635b0d5c29bbb4839d083e150"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure KeyboardAction from a vili configuration file.  <a href="#adf10d43635b0d5c29bbb4839d083e150">More...</a><br /></td></tr>
-<tr class="separator:adf10d43635b0d5c29bbb4839d083e150"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac53f501620549c878afaf08f9742573e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_input_manager.html#ac53f501620549c878afaf08f9742573e">configure</a> (vili::node &amp;config)</td></tr>
+<tr class="memdesc:ac53f501620549c878afaf08f9742573e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure KeyboardAction from a vili configuration file.  <a href="#ac53f501620549c878afaf08f9742573e">More...</a><br /></td></tr>
+<tr class="separator:ac53f501620549c878afaf08f9742573e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6cb95c98b488b77d16d90db431ab208"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_input_1_1_input_manager.html">InputManager</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_input_1_1_input_manager.html#af6cb95c98b488b77d16d90db431ab208">removeContext</a> (const std::string &amp;context)</td></tr>
 <tr class="memdesc:af6cb95c98b488b77d16d90db431ab208"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a context in use.  <a href="#af6cb95c98b488b77d16d90db431ab208">More...</a><br /></td></tr>
 <tr class="separator:af6cb95c98b488b77d16d90db431ab208"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -159,6 +159,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_methods_classobe_1_1_types_1_1_togglable"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classobe_1_1_types_1_1_togglable')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classobe_1_1_types_1_1_togglable.html">obe::Types::Togglable</a></td></tr>
+<tr class="memitem:af7d9033228a0fd3cd29f27328324738a inherit pro_methods_classobe_1_1_types_1_1_togglable"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_types_1_1_togglable.html#af7d9033228a0fd3cd29f27328324738a">onStateChange</a> ()</td></tr>
+<tr class="separator:af7d9033228a0fd3cd29f27328324738a inherit pro_methods_classobe_1_1_types_1_1_togglable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classobe_1_1_types_1_1_togglable"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classobe_1_1_types_1_1_togglable')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classobe_1_1_types_1_1_togglable.html">obe::Types::Togglable</a></td></tr>
 <tr class="memitem:a0b6d2568bd265c6978b94bfacdda78c2 inherit pro_attribs_classobe_1_1_types_1_1_togglable"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_types_1_1_togglable.html#a0b6d2568bd265c6978b94bfacdda78c2">m_enabled</a></td></tr>
 <tr class="separator:a0b6d2568bd265c6978b94bfacdda78c2 inherit pro_attribs_classobe_1_1_types_1_1_togglable"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -278,8 +281,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="adf10d43635b0d5c29bbb4839d083e150"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf10d43635b0d5c29bbb4839d083e150">&#9670;&nbsp;</a></span>configure()</h2>
+<a id="ac53f501620549c878afaf08f9742573e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac53f501620549c878afaf08f9742573e">&#9670;&nbsp;</a></span>configure()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -287,7 +290,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void obe::Input::InputManager::configure </td>
           <td>(</td>
-          <td class="paramtype">vili::ComplexNode &amp;&#160;</td>
+          <td class="paramtype">vili::node &amp;&#160;</td>
           <td class="paramname"><em>config</em></td><td>)</td>
           <td></td>
         </tr>

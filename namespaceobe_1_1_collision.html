@@ -83,6 +83,9 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_collision_data.html">CollisionData</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Struct containing data of a collision applied to a collider {<a class="el" href="classobe_1_1_collision_1_1_collision_data.html" title="Struct containing data of a collision applied to a collider {CollisionData}. ">CollisionData</a>}.  <a href="classobe_1_1_collision_1_1_collision_data.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">PolygonalCollider</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class used for all Collisions in the engine, it's a Polygon containing n points {<a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html" title="Class used for all Collisions in the engine, it&#39;s a Polygon containing n points {PolygonalCollider}. ">PolygonalCollider</a>}.  <a href="classobe_1_1_collision_1_1_polygonal_collider.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -95,8 +98,8 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a163348101bcbfd6640cf4a1cc483e1d0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_collision.html#a163348101bcbfd6640cf4a1cc483e1d0">OnCollideCallback</a> = std::function&lt; void(<a class="el" href="classobe_1_1_collision_1_1_trajectory.html">Trajectory</a> &amp;, <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>, <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>)&gt;</td></tr>
-<tr class="separator:a163348101bcbfd6640cf4a1cc483e1d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d8c546d25774c1481e95ea9a7a9ac40"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_collision.html#a5d8c546d25774c1481e95ea9a7a9ac40">OnCollideCallback</a> = std::function&lt; void(<a class="el" href="classobe_1_1_collision_1_1_trajectory.html">Trajectory</a> &amp;, <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>, <a class="el" href="classobe_1_1_collision_1_1_collision_data.html">Collision::CollisionData</a>)&gt;</td></tr>
+<tr class="separator:a5d8c546d25774c1481e95ea9a7a9ac40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa541a29e48c86a81c418122097e53df7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_collision.html#aa541a29e48c86a81c418122097e53df7">TrajectoryCheckFunction</a> = std::function&lt; void(<a class="el" href="classobe_1_1_collision_1_1_trajectory.html">Trajectory</a> &amp;, <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;, <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">PolygonalCollider</a> *)&gt;</td></tr>
 <tr class="separator:aa541a29e48c86a81c418122097e53df7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -121,14 +124,14 @@ Functions</h2></td></tr>
 <tr class="separator:a4daa26271a0ffa0ff48dfc07190ff569"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
-<a id="a163348101bcbfd6640cf4a1cc483e1d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a163348101bcbfd6640cf4a1cc483e1d0">&#9670;&nbsp;</a></span>OnCollideCallback</h2>
+<a id="a5d8c546d25774c1481e95ea9a7a9ac40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d8c546d25774c1481e95ea9a7a9ac40">&#9670;&nbsp;</a></span>OnCollideCallback</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespaceobe_1_1_collision.html#a163348101bcbfd6640cf4a1cc483e1d0">obe::Collision::OnCollideCallback</a> = typedef std::function&lt;void(<a class="el" href="classobe_1_1_collision_1_1_trajectory.html">Trajectory</a>&amp;, <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>, <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>)&gt;</td>
+          <td class="memname">using <a class="el" href="namespaceobe_1_1_collision.html#a5d8c546d25774c1481e95ea9a7a9ac40">obe::Collision::OnCollideCallback</a> = typedef std::function&lt;void(<a class="el" href="classobe_1_1_collision_1_1_trajectory.html">Trajectory</a>&amp;, <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>, <a class="el" href="classobe_1_1_collision_1_1_collision_data.html">Collision::CollisionData</a>)&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">

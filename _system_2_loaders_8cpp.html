@@ -72,8 +72,10 @@ $(function() {
 <div class="title">Loaders.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="_system_2_loaders_8hpp_source.html">System/Loaders.hpp</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="_logger_8hpp_source.html">Debug/Logger.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_system_2_loaders_8hpp_source.html">System/Loaders.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_file_utils_8hpp_source.html">Utils/FileUtils.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="parser_8hpp_source.html">vili/parser/parser.hpp</a>&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -87,8 +89,8 @@ Namespaces</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:acaa50ff2c47f85bff2283442e1803b01"><td class="memItemLeft" align="right" valign="top">Loader&lt; Graphics::Texture &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system_1_1_loaders.html#acaa50ff2c47f85bff2283442e1803b01">obe::System::Loaders::textureLoader</a> ([](sf::Texture &amp;obj, const std::string &amp;path) -&gt; bool { return obj.loadFromFile(path);})</td></tr>
 <tr class="separator:acaa50ff2c47f85bff2283442e1803b01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a7ac508f9728a1b71bc04b88610566a"><td class="memItemLeft" align="right" valign="top">Loader&lt; vili::ViliParser &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system_1_1_loaders.html#a4a7ac508f9728a1b71bc04b88610566a">obe::System::Loaders::dataLoader</a> ([](vili::ViliParser &amp;obj, const std::string &amp;path) -&gt; bool { return obj.parseFile(path);})</td></tr>
-<tr class="separator:a4a7ac508f9728a1b71bc04b88610566a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92f1096101e7bfb2305900bc49ca5fa6"><td class="memItemLeft" align="right" valign="top">Loader&lt; vili::node &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system_1_1_loaders.html#a92f1096101e7bfb2305900bc49ca5fa6">obe::System::Loaders::dataLoader</a> ([](vili::node &amp;obj, const std::string &amp;path) -&gt; bool { try { vili::node data=vili::parser::from_file(path);obj.merge(data);return true;} catch(vili::exceptions::base_exception &amp;e) { Debug::Log-&gt;error(e.what());return false;} })</td></tr>
+<tr class="separator:a92f1096101e7bfb2305900bc49ca5fa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3928b20f934dac54c15ca473472e891"><td class="memItemLeft" align="right" valign="top">Loader&lt; Graphics::Font &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system_1_1_loaders.html#aa3928b20f934dac54c15ca473472e891">obe::System::Loaders::fontLoader</a> ([](Graphics::Font &amp;obj, const std::string &amp;path) -&gt; bool { return obj.loadFromFile(path);})</td></tr>
 <tr class="separator:aa3928b20f934dac54c15ca473472e891"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71c0a7bb91eb66acfb45be5e07a0bf90"><td class="memItemLeft" align="right" valign="top">Loader&lt; std::vector&lt; std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system_1_1_loaders.html#a71c0a7bb91eb66acfb45be5e07a0bf90">obe::System::Loaders::dirPathLoader</a> ([](std::vector&lt; std::string &gt; &amp;obj, const std::string &amp;path) -&gt; bool { if(Utils::File::directoryExists(path)) { std::vector&lt; std::string &gt; newPaths=Utils::File::getDirectoryList(path);obj.insert(obj.end(), newPaths.begin(), newPaths.end());return true;} else { return false;} })</td></tr>

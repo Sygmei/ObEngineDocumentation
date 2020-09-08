@@ -68,7 +68,8 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Scene.hpp File Reference</div>  </div>
 </div><!--header-->
@@ -77,8 +78,9 @@ $(function() {
 <code>#include &lt;<a class="el" href="_sprite_8hpp_source.html">Graphics/Sprite.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_camera_8hpp_source.html">Scene/Camera.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_scene_node_8hpp_source.html">Scene/SceneNode.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_game_object_8hpp_source.html">Script/GameObject.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_script_2_game_object_8hpp_source.html">Script/GameObject.hpp</a>&gt;</code><br />
 <code>#include &lt;sol/sol.hpp&gt;</code><br />
+<code>#include &lt;vili/node.hpp&gt;</code><br />
 </div>
 <p><a href="_scene_2_scene_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -99,8 +101,15 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a0f6c2eb1dcb715de5970e3f682593598"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_scene.html#a0f6c2eb1dcb715de5970e3f682593598">obe::Scene::OnSceneLoadCallback</a> = std::function&lt; void(const std::string &amp;)&gt;</td></tr>
-<tr class="separator:a0f6c2eb1dcb715de5970e3f682593598"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81b3b69227fbe7819b8660270f6cc12a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_scene.html#a81b3b69227fbe7819b8660270f6cc12a">obe::Scene::OnSceneLoadCallback</a> = sol::protected_function</td></tr>
+<tr class="separator:a81b3b69227fbe7819b8660270f6cc12a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a7987c35ee1201b554339ef571ffc54d7"><td class="memItemLeft" align="right" valign="top">sol::table&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_scene.html#a7987c35ee1201b554339ef571ffc54d7">obe::Scene::sceneGetGameObjectProxy</a> (Scene *self, const std::string &amp;id)</td></tr>
+<tr class="separator:a7987c35ee1201b554339ef571ffc54d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c71c9219bf2e998e7fa506a406b4cb6"><td class="memItemLeft" align="right" valign="top">sol::function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_scene.html#a0c71c9219bf2e998e7fa506a406b4cb6">obe::Scene::sceneCreateGameObjectProxy</a> (Scene *self, const std::string &amp;obj, const std::string &amp;id=&quot;&quot;)</td></tr>
+<tr class="separator:a0c71c9219bf2e998e7fa506a406b4cb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

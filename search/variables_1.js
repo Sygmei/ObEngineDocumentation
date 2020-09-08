@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['b',['b',['../classobe_1_1_graphics_1_1_color.html#ac968dd6307d4f60c82de964d632ff46d',1,'obe::Graphics::Color']]],
+  ['b',['b',['../classobe_1_1_graphics_1_1_color.html#a150e5e75f273f1692414ee68801251bc',1,'obe::Graphics::Color']]],
   ['basepath',['basePath',['../classobe_1_1_system_1_1_mountable_path.html#af1a76cd5e86c3672e5b30308572beb6b',1,'obe::System::MountablePath']]],
   ['beige',['Beige',['../classobe_1_1_graphics_1_1_color.html#a12d477e5fb3615cf8ea3d44d1a14d8ab',1,'obe::Graphics::Color']]],
   ['bindtree',['BindTree',['../namespaceobe_1_1_bindings.html#a15780908404946464b647896b6e35f97',1,'obe::Bindings']]],

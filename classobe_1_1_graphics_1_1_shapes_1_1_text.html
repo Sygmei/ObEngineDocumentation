@@ -79,7 +79,7 @@ $(function() {
 
 <p><code>#include &lt;<a class="el" href="_graphics_2_shapes_8hpp_source.html">Shapes.hpp</a>&gt;</code></p>
 
-<p>Inherits <a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_shape.html">obe::Graphics::Shapes::Shape&lt; Text &gt;</a>.</p>
+<p>Inherits <a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_base_shape.html">obe::Graphics::Shapes::BaseShape&lt; Text &gt;</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -105,49 +105,35 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a329a92e7209c448278b462c17dd14172"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefc00236ed5debabf94f4221184ab08e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_text.html#aefc00236ed5debabf94f4221184ab08e">setCharacterSize</a> (unsigned int size)</td></tr>
 <tr class="separator:aefc00236ed5debabf94f4221184ab08e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_shape.html">obe::Graphics::Shapes::Shape&lt; Text &gt;</a></td></tr>
-<tr class="memitem:a6577703b8ea627c2b8ec5b3e9f88aeae inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_shape.html#a6577703b8ea627c2b8ec5b3e9f88aeae">setPosition</a> (<a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> position)</td></tr>
-<tr class="separator:a6577703b8ea627c2b8ec5b3e9f88aeae inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a333f84414055f295dacf8675e8d0588d inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_shape.html#a333f84414055f295dacf8675e8d0588d">setFillColor</a> (const <a class="el" href="classobe_1_1_graphics_1_1_color.html">Color</a> &amp;color)</td></tr>
-<tr class="separator:a333f84414055f295dacf8675e8d0588d inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07968defb137671387798969c549d751 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_shape.html#a07968defb137671387798969c549d751">setOutlineColor</a> (const <a class="el" href="classobe_1_1_graphics_1_1_color.html">Color</a> &amp;color)</td></tr>
-<tr class="separator:a07968defb137671387798969c549d751 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f21aa126256a9e3c57ce697146d3016 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_shape.html#a7f21aa126256a9e3c57ce697146d3016">setOutlineThickness</a> (float thickness)</td></tr>
-<tr class="separator:a7f21aa126256a9e3c57ce697146d3016 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39cdea01107998c8915734432ae48585 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classobe_1_1_graphics_1_1_color.html">Color</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_shape.html#a39cdea01107998c8915734432ae48585">getFillColor</a> () const</td></tr>
-<tr class="separator:a39cdea01107998c8915734432ae48585 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab024bc7ab55dcfc89e36a5530e98311e inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classobe_1_1_graphics_1_1_color.html">Color</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_shape.html#ab024bc7ab55dcfc89e36a5530e98311e">getOutlineColor</a> () const</td></tr>
-<tr class="separator:ab024bc7ab55dcfc89e36a5530e98311e inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0689b46d6a23b4b1bdbbd6a48c1d626a inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_shape.html#a0689b46d6a23b4b1bdbbd6a48c1d626a">getOutlineThickness</a> () const</td></tr>
-<tr class="separator:a0689b46d6a23b4b1bdbbd6a48c1d626a inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa36ee74f158da3bbe26d41592c3a662 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_shape.html#afa36ee74f158da3bbe26d41592c3a662">getPointCount</a> () const</td></tr>
-<tr class="separator:afa36ee74f158da3bbe26d41592c3a662 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37451af291b991011f33c8f45587545c inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_shape.html#a37451af291b991011f33c8f45587545c">getPoint</a> (std::size_t index) const</td></tr>
-<tr class="separator:a37451af291b991011f33c8f45587545c inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8194fe21a1dcee291110061838ac9bb4 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_shape.html#a8194fe21a1dcee291110061838ac9bb4">getLocalBounds</a> () const</td></tr>
-<tr class="separator:a8194fe21a1dcee291110061838ac9bb4 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cf58ee2babb8def03e57b2560aec869 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_shape.html#a8cf58ee2babb8def03e57b2560aec869">getGlobalBounds</a> () const</td></tr>
-<tr class="separator:a8cf58ee2babb8def03e57b2560aec869 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62a7f8804b6d087b088d9aa45dc45e97 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_shape.html#a62a7f8804b6d087b088d9aa45dc45e97">setRotation</a> (float angle)</td></tr>
-<tr class="separator:a62a7f8804b6d087b088d9aa45dc45e97 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99a7c96adf251f46e4ebfa5057164081 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_shape.html#a99a7c96adf251f46e4ebfa5057164081">setScale</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;factors)</td></tr>
-<tr class="separator:a99a7c96adf251f46e4ebfa5057164081 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee95b5482119a01c9c1befed47b9cee6 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_shape.html#aee95b5482119a01c9c1befed47b9cee6">setOrigin</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;origin)</td></tr>
-<tr class="separator:aee95b5482119a01c9c1befed47b9cee6 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85be46822df1fbbd55a42c84b46843ec inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_shape.html#a85be46822df1fbbd55a42c84b46843ec">getPosition</a> () const</td></tr>
-<tr class="separator:a85be46822df1fbbd55a42c84b46843ec inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c4ae4b30de051931d595e2068220d5d inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_shape.html#a6c4ae4b30de051931d595e2068220d5d">getRotation</a> () const</td></tr>
-<tr class="separator:a6c4ae4b30de051931d595e2068220d5d inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98bbbbd6ca301c9011229d7ba5e2f161 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_shape.html#a98bbbbd6ca301c9011229d7ba5e2f161">getScale</a> () const</td></tr>
-<tr class="separator:a98bbbbd6ca301c9011229d7ba5e2f161 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a1735cc54005c7eeb815d98cd360e16 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_shape.html#a0a1735cc54005c7eeb815d98cd360e16">getOrigin</a> () const</td></tr>
-<tr class="separator:a0a1735cc54005c7eeb815d98cd360e16 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b8e12d2d93dc63f2edaf35444d9b958 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_shape.html#a8b8e12d2d93dc63f2edaf35444d9b958">move</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;offset)</td></tr>
-<tr class="separator:a8b8e12d2d93dc63f2edaf35444d9b958 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a750bea79f98fcc0eb9f2ca3166a0eb74 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_shape.html#a750bea79f98fcc0eb9f2ca3166a0eb74">rotate</a> (float angle)</td></tr>
-<tr class="separator:a750bea79f98fcc0eb9f2ca3166a0eb74 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaae07de613f3e441c07826fd46a62148 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_shape.html#aaae07de613f3e441c07826fd46a62148">scale</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;factor)</td></tr>
-<tr class="separator:aaae07de613f3e441c07826fd46a62148 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaffffb8402bc6d98f7d349101ce3c387"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_text.html#aaffffb8402bc6d98f7d349101ce3c387">draw</a> (sf::RenderTarget &amp;target, sf::RenderStates states) const override</td></tr>
+<tr class="separator:aaffffb8402bc6d98f7d349101ce3c387"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_base_shape"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_base_shape')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_base_shape.html">obe::Graphics::Shapes::BaseShape&lt; Text &gt;</a></td></tr>
+<tr class="memitem:afa551fd444d88c599909ddd9a353e9b4 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_base_shape"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_base_shape.html#afa551fd444d88c599909ddd9a353e9b4">setPosition</a> (<a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> position)</td></tr>
+<tr class="separator:afa551fd444d88c599909ddd9a353e9b4 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_base_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a8610484056c676f43e6923d99d1348 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_base_shape"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_base_shape.html#a4a8610484056c676f43e6923d99d1348">getLocalBounds</a> () const</td></tr>
+<tr class="separator:a4a8610484056c676f43e6923d99d1348 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_base_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc17720b4f9b269a9f4d0dcaa8b1d207 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_base_shape"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_rect.html">Transform::Rect</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_base_shape.html#abc17720b4f9b269a9f4d0dcaa8b1d207">getGlobalBounds</a> () const</td></tr>
+<tr class="separator:abc17720b4f9b269a9f4d0dcaa8b1d207 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_base_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1451d1955af4e02dc9abd7e83c2c7fd4 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_base_shape"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_base_shape.html#a1451d1955af4e02dc9abd7e83c2c7fd4">setRotation</a> (float angle)</td></tr>
+<tr class="separator:a1451d1955af4e02dc9abd7e83c2c7fd4 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_base_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e641074e08278fd6dfabb912b8a4d3f inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_base_shape"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_base_shape.html#a0e641074e08278fd6dfabb912b8a4d3f">setScale</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;factors)</td></tr>
+<tr class="separator:a0e641074e08278fd6dfabb912b8a4d3f inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_base_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a538709de8f842cf56af1de3ae42d434c inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_base_shape"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_base_shape.html#a538709de8f842cf56af1de3ae42d434c">setOrigin</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;origin)</td></tr>
+<tr class="separator:a538709de8f842cf56af1de3ae42d434c inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_base_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a091cf65ba9c4faa527d6617ec956687f inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_base_shape"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_base_shape.html#a091cf65ba9c4faa527d6617ec956687f">getPosition</a> () const</td></tr>
+<tr class="separator:a091cf65ba9c4faa527d6617ec956687f inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_base_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7456148a7af1d38be31aa32853d7a8c7 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_base_shape"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_base_shape.html#a7456148a7af1d38be31aa32853d7a8c7">getRotation</a> () const</td></tr>
+<tr class="separator:a7456148a7af1d38be31aa32853d7a8c7 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_base_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7697dda4ae170794138dd86ff686f04 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_base_shape"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_base_shape.html#ac7697dda4ae170794138dd86ff686f04">getScale</a> () const</td></tr>
+<tr class="separator:ac7697dda4ae170794138dd86ff686f04 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_base_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60396c3868b5fb8486c2978bbe837ec7 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_base_shape"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_base_shape.html#a60396c3868b5fb8486c2978bbe837ec7">getOrigin</a> () const</td></tr>
+<tr class="separator:a60396c3868b5fb8486c2978bbe837ec7 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_base_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b94589b5c82dc44eb06ac51a2400d5c inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_base_shape"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_base_shape.html#a9b94589b5c82dc44eb06ac51a2400d5c">move</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;offset)</td></tr>
+<tr class="separator:a9b94589b5c82dc44eb06ac51a2400d5c inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_base_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e4ad052ada2645181b49f751d60f881 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_base_shape"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_base_shape.html#a7e4ad052ada2645181b49f751d60f881">rotate</a> (float angle)</td></tr>
+<tr class="separator:a7e4ad052ada2645181b49f751d60f881 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_base_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49813d4a2d70fc1f495f5439dc866413 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_base_shape"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_base_shape.html#a49813d4a2d70fc1f495f5439dc866413">scale</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;factor)</td></tr>
+<tr class="separator:a49813d4a2d70fc1f495f5439dc866413 inherit pub_methods_classobe_1_1_graphics_1_1_shapes_1_1_base_shape"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -251,6 +237,44 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaffffb8402bc6d98f7d349101ce3c387"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaffffb8402bc6d98f7d349101ce3c387">&#9670;&nbsp;</a></span>draw()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::Graphics::Shapes::Text::draw </td>
+          <td>(</td>
+          <td class="paramtype">sf::RenderTarget &amp;&#160;</td>
+          <td class="paramname"><em>target</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">sf::RenderStates&#160;</td>
+          <td class="paramname"><em>states</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="classobe_1_1_graphics_1_1_shapes_1_1_base_shape.html#a0a1da1d9e328b3b89e53de78307ca8dc">obe::Graphics::Shapes::BaseShape&lt; Text &gt;</a>.</p>
 
 </div>
 </div>

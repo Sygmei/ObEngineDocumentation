@@ -99,9 +99,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7e3705c190a0ef6b79f5ba4e08c44eef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas.html#a7e3705c190a0ef6b79f5ba4e08c44eef">remove</a> (const std::string &amp;id)</td></tr>
 <tr class="memdesc:a7e3705c190a0ef6b79f5ba4e08c44eef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a <a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas_element.html" title="A Drawable Canvas Element. ">CanvasElement</a> from the <a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas.html" title="A Canvas where you can draw CanvasElements {Canvas} {Lib/Internal/Canvas.lua}. ">Canvas</a>.  <a href="#a7e3705c190a0ef6b79f5ba4e08c44eef">More...</a><br /></td></tr>
 <tr class="separator:a7e3705c190a0ef6b79f5ba4e08c44eef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acfd30c4f66e02463812f7a98549786f8"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classobe_1_1_graphics_1_1_texture.html">Graphics::Texture</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas.html#acfd30c4f66e02463812f7a98549786f8">getTexture</a> () const</td></tr>
-<tr class="memdesc:acfd30c4f66e02463812f7a98549786f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current <a class="el" href="classobe_1_1_graphics_1_1_texture.html">Texture</a> of the <a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas.html" title="A Canvas where you can draw CanvasElements {Canvas} {Lib/Internal/Canvas.lua}. ">Canvas</a>.  <a href="#acfd30c4f66e02463812f7a98549786f8">More...</a><br /></td></tr>
-<tr class="separator:acfd30c4f66e02463812f7a98549786f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e455d3f59cccdb3748dea3591df0290"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_graphics_1_1_texture.html">Texture</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas.html#a6e455d3f59cccdb3748dea3591df0290">getTexture</a> () const</td></tr>
+<tr class="memdesc:a6e455d3f59cccdb3748dea3591df0290"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current <a class="el" href="classobe_1_1_graphics_1_1_texture.html">Texture</a> of the <a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas.html" title="A Canvas where you can draw CanvasElements {Canvas} {Lib/Internal/Canvas.lua}. ">Canvas</a>.  <a href="#a6e455d3f59cccdb3748dea3591df0290">More...</a><br /></td></tr>
+<tr class="separator:a6e455d3f59cccdb3748dea3591df0290"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4719dcfe601247764da2f36f6c9b8e67"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas.html#a4719dcfe601247764da2f36f6c9b8e67">requiresSort</a> ()</td></tr>
 <tr class="memdesc:a4719dcfe601247764da2f36f6c9b8e67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ask the <a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas.html" title="A Canvas where you can draw CanvasElements {Canvas} {Lib/Internal/Canvas.lua}. ">Canvas</a> to sort elements for the next rendering.  <a href="#a4719dcfe601247764da2f36f6c9b8e67">More...</a><br /></td></tr>
 <tr class="separator:a4719dcfe601247764da2f36f6c9b8e67"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -186,8 +186,14 @@ template&lt;class T &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>a pointer to the newly created <a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas_element.html" title="A Drawable Canvas Element. ">CanvasElement</a></dd></dl>
-<p>{<a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_line.html" title="A Canvas Line. ">Line</a>, T=<a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_line.html" title="A Canvas Line. ">obe::Graphics::Canvas::Line</a>} {<a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_rectangle.html" title="A Canvas Rectangle. ">Rectangle</a>, T=<a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_rectangle.html" title="A Canvas Rectangle. ">obe::Graphics::Canvas::Rectangle</a>} {<a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_text.html" title="A Canvas Text. ">Text</a>, T=<a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_text.html" title="A Canvas Text. ">obe::Graphics::Canvas::Text</a>} {<a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_circle.html" title="A Canvas Circle. ">Circle</a>, T=<a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_circle.html" title="A Canvas Circle. ">obe::Graphics::Canvas::Circle</a>} {<a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_polygon.html" title="A Canvas Polygon. ">Polygon</a>, T=<a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_polygon.html" title="A Canvas Polygon. ">obe::Graphics::Canvas::Polygon</a>} {<a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_image.html" title="A Canvas Image. ">Image</a>, T=<a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_image.html" title="A Canvas Image. ">obe::Graphics::Canvas::Image</a>}  </p>
+<dl class="section return"><dt>Returns</dt><dd>a pointer to the newly created <a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas_element.html" title="A Drawable Canvas Element. ">CanvasElement</a> </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">CanvasElementAlreadyExists</td><td>if an element with the given id already exists in the <a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_canvas.html" title="A Canvas where you can draw CanvasElements {Canvas} {Lib/Internal/Canvas.lua}. ">Canvas</a></td></tr>
+  </table>
+  </dd>
+</dl>
+<p>{<a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_line.html" title="A Canvas Line. ">Line</a>, T=<a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_line.html" title="A Canvas Line. ">obe::Graphics::Canvas::Line</a>} {<a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_rectangle.html" title="A Canvas Rectangle. ">Rectangle</a>, T=<a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_rectangle.html" title="A Canvas Rectangle. ">obe::Graphics::Canvas::Rectangle</a>} {<a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_text.html" title="A Canvas Text. ">Text</a>, T=<a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_text.html" title="A Canvas Text. ">obe::Graphics::Canvas::Text</a>} {<a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_circle.html" title="A Canvas Circle. ">Circle</a>, T=<a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_circle.html" title="A Canvas Circle. ">obe::Graphics::Canvas::Circle</a>} {<a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_polygon.html" title="A Canvas Polygon. ">Polygon</a>, T=<a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_polygon.html" title="A Canvas Polygon. ">obe::Graphics::Canvas::Polygon</a>} {<a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_bezier.html" title="A Canvas Bezier Curve. ">Bezier</a>, T=<a class="el" href="classobe_1_1_graphics_1_1_canvas_1_1_bezier.html" title="A Canvas Bezier Curve. ">obe::Graphics::Canvas::Bezier</a>}  </p>
 
 </div>
 </div>
@@ -237,14 +243,14 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="acfd30c4f66e02463812f7a98549786f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acfd30c4f66e02463812f7a98549786f8">&#9670;&nbsp;</a></span>getTexture()</h2>
+<a id="a6e455d3f59cccdb3748dea3591df0290"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e455d3f59cccdb3748dea3591df0290">&#9670;&nbsp;</a></span>getTexture()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classobe_1_1_graphics_1_1_texture.html">Graphics::Texture</a> &amp; obe::Graphics::Canvas::Canvas::getTexture </td>
+          <td class="memname"><a class="el" href="classobe_1_1_graphics_1_1_texture.html">Texture</a> obe::Graphics::Canvas::Canvas::getTexture </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>

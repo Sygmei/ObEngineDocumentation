@@ -96,12 +96,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8ae3e20aeecf8cd91f180793b4b97e02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17085a5a0230ed0737004ff4798872c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_component_1_1_component.html#a17085a5a0230ed0737004ff4798872c1">inject</a> (unsigned int envIndex) override</td></tr>
 <tr class="separator:a17085a5a0230ed0737004ff4798872c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a770c19f1cb1287d559ad5803eb1039e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_component_1_1_component.html#a770c19f1cb1287d559ad5803eb1039e1">dump</a> (vili::ComplexNode &amp;target) const override=0</td></tr>
-<tr class="memdesc:a770c19f1cb1287d559ad5803eb1039e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dumps the content of the Serializable object to a ComplexNode.  <a href="#a770c19f1cb1287d559ad5803eb1039e1">More...</a><br /></td></tr>
-<tr class="separator:a770c19f1cb1287d559ad5803eb1039e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a429f0bb0674cacdbb957f9553ef37c3a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_component_1_1_component.html#a429f0bb0674cacdbb957f9553ef37c3a">load</a> (vili::ComplexNode &amp;data) override=0</td></tr>
-<tr class="memdesc:a429f0bb0674cacdbb957f9553ef37c3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads an object from a ComplexNode.  <a href="#a429f0bb0674cacdbb957f9553ef37c3a">More...</a><br /></td></tr>
-<tr class="separator:a429f0bb0674cacdbb957f9553ef37c3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd04db15966e37e04a26eabf01f3b24a"><td class="memItemLeft" align="right" valign="top">vili::node&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_component_1_1_component.html#afd04db15966e37e04a26eabf01f3b24a">dump</a> () const override=0</td></tr>
+<tr class="memdesc:afd04db15966e37e04a26eabf01f3b24a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dumps the content of the Serializable object to a ComplexNode.  <a href="#afd04db15966e37e04a26eabf01f3b24a">More...</a><br /></td></tr>
+<tr class="separator:afd04db15966e37e04a26eabf01f3b24a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05e61b8aaa1b309d6a63877fc4bf2766"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_component_1_1_component.html#a05e61b8aaa1b309d6a63877fc4bf2766">load</a> (vili::node &amp;data) override=0</td></tr>
+<tr class="memdesc:a05e61b8aaa1b309d6a63877fc4bf2766"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads an object from a ComplexNode.  <a href="#a05e61b8aaa1b309d6a63877fc4bf2766">More...</a><br /></td></tr>
+<tr class="separator:a05e61b8aaa1b309d6a63877fc4bf2766"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70bb027cc940fec2a7baff72be154683"><td class="memItemLeft" align="right" valign="top">std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_component_1_1_component.html#a70bb027cc940fec2a7baff72be154683">type</a> () const override</td></tr>
 <tr class="separator:a70bb027cc940fec2a7baff72be154683"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classobe_1_1_component_1_1_component_base"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classobe_1_1_component_1_1_component_base')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classobe_1_1_component_1_1_component_base.html">obe::Component::ComponentBase</a></td></tr>
@@ -239,8 +239,8 @@ template&lt;class T &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a770c19f1cb1287d559ad5803eb1039e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a770c19f1cb1287d559ad5803eb1039e1">&#9670;&nbsp;</a></span>dump()</h2>
+<a id="afd04db15966e37e04a26eabf01f3b24a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd04db15966e37e04a26eabf01f3b24a">&#9670;&nbsp;</a></span>dump()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -251,10 +251,9 @@ template&lt;class T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classobe_1_1_component_1_1_component.html">obe::Component::Component</a>&lt; T &gt;::dump </td>
+          <td class="memname">vili::node <a class="el" href="classobe_1_1_component_1_1_component.html">obe::Component::Component</a>&lt; T &gt;::dump </td>
           <td>(</td>
-          <td class="paramtype">vili::ComplexNode &amp;&#160;</td>
-          <td class="paramname"><em>target</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -266,16 +265,10 @@ template&lt;class T&gt; </div>
 </div><div class="memdoc">
 
 <p>Dumps the content of the Serializable object to a ComplexNode. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">target</td><td>ComplexNode where to serialize the object </td></tr>
-  </table>
-  </dd>
-</dl>
 
-<p>Implements <a class="el" href="classobe_1_1_component_1_1_component_base.html#a17094ac5b91b308bad23da3545f9fa10">obe::Component::ComponentBase</a>.</p>
+<p>Implements <a class="el" href="classobe_1_1_component_1_1_component_base.html#a31a3babc1da0874bbbb24014e1bd82cc">obe::Component::ComponentBase</a>.</p>
 
-<p>Implemented in <a class="el" href="classobe_1_1_graphics_1_1_sprite.html#a69ea644e671e397fbd5b2b473523da25">obe::Graphics::Sprite</a>, and <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a2fb861632438bb30a73a7d3019f5b1ae">obe::Collision::PolygonalCollider</a>.</p>
+<p>Implemented in <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a63e619ef0374930bee9d1d5494a1ad9c">obe::Collision::PolygonalCollider</a>, and <a class="el" href="classobe_1_1_graphics_1_1_sprite.html#a9fb4ad00787174ea929f07ac613d3197">obe::Graphics::Sprite</a>.</p>
 
 </div>
 </div>
@@ -309,8 +302,8 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="a429f0bb0674cacdbb957f9553ef37c3a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a429f0bb0674cacdbb957f9553ef37c3a">&#9670;&nbsp;</a></span>load()</h2>
+<a id="a05e61b8aaa1b309d6a63877fc4bf2766"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05e61b8aaa1b309d6a63877fc4bf2766">&#9670;&nbsp;</a></span>load()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -323,7 +316,7 @@ template&lt;class T&gt; </div>
         <tr>
           <td class="memname">void <a class="el" href="classobe_1_1_component_1_1_component.html">obe::Component::Component</a>&lt; T &gt;::load </td>
           <td>(</td>
-          <td class="paramtype">vili::ComplexNode &amp;&#160;</td>
+          <td class="paramtype">vili::node &amp;&#160;</td>
           <td class="paramname"><em>data</em></td><td>)</td>
           <td></td>
         </tr>
@@ -343,9 +336,9 @@ template&lt;class T&gt; </div>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="classobe_1_1_component_1_1_component_base.html#a67546565557d4fab153bb0a949e406ee">obe::Component::ComponentBase</a>.</p>
+<p>Implements <a class="el" href="classobe_1_1_component_1_1_component_base.html#a796901c1942e16b1b162981c44f78059">obe::Component::ComponentBase</a>.</p>
 
-<p>Implemented in <a class="el" href="classobe_1_1_graphics_1_1_sprite.html#a7739ca345f9bc27a88317eb16f9b4a67">obe::Graphics::Sprite</a>, and <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a5fc6e419e7b6721e53dc8c727a086bc7">obe::Collision::PolygonalCollider</a>.</p>
+<p>Implemented in <a class="el" href="classobe_1_1_graphics_1_1_sprite.html#a61ee63a26573266b6fa36187c6137b43">obe::Graphics::Sprite</a>, and <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#aae041291432a0232f34f6854ea7cb5c4">obe::Collision::PolygonalCollider</a>.</p>
 
 </div>
 </div>

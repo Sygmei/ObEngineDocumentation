@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ObEngine: sources/src/Core/Bindings/Transform/Transform.cpp File Reference</title>
+<title>ObEngine: sources/src/Core/Bindings/obe/Transform/Transform.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_08d237fc27d4ecd563f71c5d52f2fecc.html">sources</a></li><li class="navelem"><a class="el" href="dir_370a05bc919a3b485116f307abacd69c.html">src</a></li><li class="navelem"><a class="el" href="dir_a01383027d29596cf4ed417727025e41.html">Core</a></li><li class="navelem"><a class="el" href="dir_3a415b9a12a4259c17e3781637911ee4.html">Bindings</a></li><li class="navelem"><a class="el" href="dir_4f32f457fb2eb6a1efbd055573e3cf9a.html">Transform</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_08d237fc27d4ecd563f71c5d52f2fecc.html">sources</a></li><li class="navelem"><a class="el" href="dir_370a05bc919a3b485116f307abacd69c.html">src</a></li><li class="navelem"><a class="el" href="dir_a01383027d29596cf4ed417727025e41.html">Core</a></li><li class="navelem"><a class="el" href="dir_3a415b9a12a4259c17e3781637911ee4.html">Bindings</a></li><li class="navelem"><a class="el" href="dir_f4b9591fd00d3a68de0f9680c8cae818.html">obe</a></li><li class="navelem"><a class="el" href="dir_aaf8b84d212408428466c782f7212a24.html">Transform</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -72,7 +72,7 @@ $(function() {
 <div class="title">Transform.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="_transform_8hpp_source.html">Bindings/Transform/Transform.hpp</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="_transform_8hpp_source.html">Bindings/obe/Transform/Transform.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_matrix2_d_8hpp_source.html">Transform/Matrix2D.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_movable_8hpp_source.html">Transform/Movable.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_polygon_8hpp_source.html">Transform/Polygon.hpp</a>&gt;</code><br />
@@ -81,7 +81,7 @@ $(function() {
 <code>#include &lt;<a class="el" href="_unit_based_object_8hpp_source.html">Transform/UnitBasedObject.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_unit_vector_8hpp_source.html">Transform/UnitVector.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_units_8hpp_source.html">Transform/Units.hpp</a>&gt;</code><br />
-<code>#include &lt;sol/sol.hpp&gt;</code><br />
+<code>#include &lt;<a class="el" href="_bindings_2_config_8hpp_source.html">Bindings/Config.hpp</a>&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -90,6 +90,10 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a2b98ab6426e936dd77c7e80e10026c79"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_transform_1_1_bindings.html#a2b98ab6426e936dd77c7e80e10026c79">obe::Transform::Bindings::LoadEnumRelativePositionFrom</a> (sol::state_view state)</td></tr>
+<tr class="separator:a2b98ab6426e936dd77c7e80e10026c79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0c46b741b2b8f0bf34cebaae6e74083"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_transform_1_1_bindings.html#ad0c46b741b2b8f0bf34cebaae6e74083">obe::Transform::Bindings::LoadEnumFlipAxis</a> (sol::state_view state)</td></tr>
+<tr class="separator:ad0c46b741b2b8f0bf34cebaae6e74083"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3cc1e066cf402dd04e946a6bc2c74417"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_transform_1_1_bindings.html#a3cc1e066cf402dd04e946a6bc2c74417">obe::Transform::Bindings::LoadEnumUnits</a> (sol::state_view state)</td></tr>
 <tr class="separator:a3cc1e066cf402dd04e946a6bc2c74417"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6642c68295a4c1aa51877c8b77bca576"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_transform_1_1_bindings.html#a6642c68295a4c1aa51877c8b77bca576">obe::Transform::Bindings::LoadClassMatrix2D</a> (sol::state_view state)</td></tr>

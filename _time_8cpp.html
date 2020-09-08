@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ObEngine: sources/src/Core/Bindings/Time/Time.cpp File Reference</title>
+<title>ObEngine: sources/src/Core/Bindings/obe/Time/Time.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_08d237fc27d4ecd563f71c5d52f2fecc.html">sources</a></li><li class="navelem"><a class="el" href="dir_370a05bc919a3b485116f307abacd69c.html">src</a></li><li class="navelem"><a class="el" href="dir_a01383027d29596cf4ed417727025e41.html">Core</a></li><li class="navelem"><a class="el" href="dir_3a415b9a12a4259c17e3781637911ee4.html">Bindings</a></li><li class="navelem"><a class="el" href="dir_566be0b8976ef275b0bc2e8b90bf8235.html">Time</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_08d237fc27d4ecd563f71c5d52f2fecc.html">sources</a></li><li class="navelem"><a class="el" href="dir_370a05bc919a3b485116f307abacd69c.html">src</a></li><li class="navelem"><a class="el" href="dir_a01383027d29596cf4ed417727025e41.html">Core</a></li><li class="navelem"><a class="el" href="dir_3a415b9a12a4259c17e3781637911ee4.html">Bindings</a></li><li class="navelem"><a class="el" href="dir_f4b9591fd00d3a68de0f9680c8cae818.html">obe</a></li><li class="navelem"><a class="el" href="dir_85bf010d4c886990d40dd8cdfe84bab8.html">Time</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -72,12 +72,12 @@ $(function() {
 <div class="title">Time.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="_time_8hpp_source.html">Bindings/Time/Time.hpp</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="_time_8hpp_source.html">Bindings/obe/Time/Time.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_chronometer_8hpp_source.html">Time/Chronometer.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_framerate_counter_8hpp_source.html">Time/FramerateCounter.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_framerate_manager_8hpp_source.html">Time/FramerateManager.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_time_utils_8hpp_source.html">Time/TimeUtils.hpp</a>&gt;</code><br />
-<code>#include &lt;sol/sol.hpp&gt;</code><br />
+<code>#include &lt;<a class="el" href="_bindings_2_config_8hpp_source.html">Bindings/Config.hpp</a>&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -92,12 +92,22 @@ Functions</h2></td></tr>
 <tr class="separator:aba7f62e47f1cbeb40be03a597ea516c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb13d9f265c0f3380678f658765267f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_time_1_1_bindings.html#acb13d9f265c0f3380678f658765267f5">obe::Time::Bindings::LoadClassFramerateManager</a> (sol::state_view state)</td></tr>
 <tr class="separator:acb13d9f265c0f3380678f658765267f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37281d0ced2df1c497cb3be633f340e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_time_1_1_bindings.html#a37281d0ced2df1c497cb3be633f340e2">obe::Time::Bindings::LoadFunctionEpochAsMilliseconds</a> (sol::state_view state)</td></tr>
-<tr class="separator:a37281d0ced2df1c497cb3be633f340e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac15de13a445cca035cc6360897b7a39b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_time_1_1_bindings.html#ac15de13a445cca035cc6360897b7a39b">obe::Time::Bindings::LoadFunctionEpochAsMicroseconds</a> (sol::state_view state)</td></tr>
-<tr class="separator:ac15de13a445cca035cc6360897b7a39b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6079000f4480ee9d69a6cf2ce91fc8e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_time_1_1_bindings.html#ae6079000f4480ee9d69a6cf2ce91fc8e">obe::Time::Bindings::LoadTimeUnits</a> (sol::state_view state)</td></tr>
-<tr class="separator:ae6079000f4480ee9d69a6cf2ce91fc8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a043a269300355948864a76b194a4bdf4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_time_1_1_bindings.html#a043a269300355948864a76b194a4bdf4">obe::Time::Bindings::LoadFunctionEpoch</a> (sol::state_view state)</td></tr>
+<tr class="separator:a043a269300355948864a76b194a4bdf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9811b584c859431dda55ce889a1c622f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_time_1_1_bindings.html#a9811b584c859431dda55ce889a1c622f">obe::Time::Bindings::LoadGlobalSeconds</a> (sol::state_view state)</td></tr>
+<tr class="separator:a9811b584c859431dda55ce889a1c622f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fb32106b924c9fe109f765c62671dfa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_time_1_1_bindings.html#a4fb32106b924c9fe109f765c62671dfa">obe::Time::Bindings::LoadGlobalMilliseconds</a> (sol::state_view state)</td></tr>
+<tr class="separator:a4fb32106b924c9fe109f765c62671dfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab35fe6a5a6787cf4ac5f2fedb3988c93"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_time_1_1_bindings.html#ab35fe6a5a6787cf4ac5f2fedb3988c93">obe::Time::Bindings::LoadGlobalMicroseconds</a> (sol::state_view state)</td></tr>
+<tr class="separator:ab35fe6a5a6787cf4ac5f2fedb3988c93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb51a20ec77f340df1e590315a731521"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_time_1_1_bindings.html#abb51a20ec77f340df1e590315a731521">obe::Time::Bindings::LoadGlobalMinutes</a> (sol::state_view state)</td></tr>
+<tr class="separator:abb51a20ec77f340df1e590315a731521"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f73af17370e1a2980d5f116cc6ce8a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_time_1_1_bindings.html#a1f73af17370e1a2980d5f116cc6ce8a6">obe::Time::Bindings::LoadGlobalHours</a> (sol::state_view state)</td></tr>
+<tr class="separator:a1f73af17370e1a2980d5f116cc6ce8a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbb876b48834eaf6ce333aec27f35bea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_time_1_1_bindings.html#acbb876b48834eaf6ce333aec27f35bea">obe::Time::Bindings::LoadGlobalDays</a> (sol::state_view state)</td></tr>
+<tr class="separator:acbb876b48834eaf6ce333aec27f35bea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1a70f065f4f9007f90ed891e7ec6699"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_time_1_1_bindings.html#aa1a70f065f4f9007f90ed891e7ec6699">obe::Time::Bindings::LoadGlobalWeeks</a> (sol::state_view state)</td></tr>
+<tr class="separator:aa1a70f065f4f9007f90ed891e7ec6699"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

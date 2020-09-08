@@ -8,6 +8,7 @@ var searchData=
   ['seashell',['SeaShell',['../classobe_1_1_graphics_1_1_color.html#a94a8a255a5a292f227ff849a4f18b9d1',1,'obe::Graphics::Color']]],
   ['second',['second',['../classobe_1_1_transform_1_1_polygon_segment.html#ad6d43ad98892763828d9338679d2de59',1,'obe::Transform::PolygonSegment']]],
   ['seconds',['seconds',['../namespaceobe_1_1_time.html#ab3a9057cebd4694d0dc306453f4d84a3',1,'obe::Time']]],
+  ['set_5fanimation_5fcommand',['set_animation_command',['../namespaceobe_1_1_config_1_1_templates.html#adcb5f266af48f59f4a7ad3faeaf2974f',1,'obe::Config::Templates']]],
   ['shape',['shape',['../classobe_1_1_graphics_1_1_canvas_1_1_rectangle.html#a74a29365041bcf40fd5b22b3478f0ee1',1,'obe::Graphics::Canvas::Rectangle::shape()'],['../classobe_1_1_graphics_1_1_canvas_1_1_text.html#a8fc264fa23d5a19d9254c7e1be082a13',1,'obe::Graphics::Canvas::Text::shape()'],['../classobe_1_1_graphics_1_1_canvas_1_1_circle.html#ae8c844099c845f259072ffdfbf56262c',1,'obe::Graphics::Canvas::Circle::shape()'],['../classobe_1_1_graphics_1_1_canvas_1_1_polygon.html#aecf979edb3d657d02a4a2687bbee739b',1,'obe::Graphics::Canvas::Polygon::shape()'],['../classobe_1_1_graphics_1_1_shapes_1_1_rectangle.html#adec3cc1f0873ff023ab2cc019491ed61',1,'obe::Graphics::Shapes::Rectangle::shape()'],['../classobe_1_1_graphics_1_1_shapes_1_1_circle.html#aadc76e2fa6c84a0fd4805844c6cfa208',1,'obe::Graphics::Shapes::Circle::shape()'],['../classobe_1_1_graphics_1_1_shapes_1_1_polygon.html#a21ad257d5381141476d83de8826e14c6',1,'obe::Graphics::Shapes::Polygon::shape()'],['../classobe_1_1_graphics_1_1_shapes_1_1_text.html#a872928d5b5f21590d3d7b728abdc9bdb',1,'obe::Graphics::Shapes::Text::shape()']]],
   ['sienna',['Sienna',['../classobe_1_1_graphics_1_1_color.html#aa9763dc956f8cf51a59b103d6a01dadb',1,'obe::Graphics::Color']]],
   ['silver',['Silver',['../classobe_1_1_graphics_1_1_color.html#affbf6841e83b5be1f57490ef1e94e2e8',1,'obe::Graphics::Color']]],
@@ -17,8 +18,7 @@ var searchData=
   ['slategray',['SlateGray',['../classobe_1_1_graphics_1_1_color.html#a1c976cb374c47e361dd4da543b3468ee',1,'obe::Graphics::Color']]],
   ['snow',['Snow',['../classobe_1_1_graphics_1_1_color.html#a76a258311ac549f71bc9bd119815b976',1,'obe::Graphics::Color']]],
   ['springgreen',['SpringGreen',['../classobe_1_1_graphics_1_1_color.html#aaee88ac3ace9a8e8908b4fc764f4333c',1,'obe::Graphics::Color']]],
-  ['sprite',['sprite',['../classobe_1_1_graphics_1_1_canvas_1_1_image.html#a64f8d6d869e332088f3c76d881ade22f',1,'obe::Graphics::Canvas::Image']]],
   ['steelblue',['SteelBlue',['../classobe_1_1_graphics_1_1_color.html#a2cd556d26d944ea342fa6ca8ff660a25',1,'obe::Graphics::Color']]],
-  ['string',['string',['../classobe_1_1_graphics_1_1_text.html#a1aee768b4d53e6c5fb943e8c8b9dd054',1,'obe::Graphics::Text']]],
+  ['string',['string',['../classobe_1_1_graphics_1_1_text.html#ac5cd62dd03b867990a0956d4032062e4',1,'obe::Graphics::Text']]],
   ['style',['style',['../classobe_1_1_graphics_1_1_text.html#ae88bfc38c2ba1344f4df6b06ee7970d3',1,'obe::Graphics::Text']]]
 ];

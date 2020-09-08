@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['inputbuttonstate',['InputButtonState',['../namespaceobe_1_1_input.html#a7c34dc018f96813bc8b63f4c9c6cbc47',1,'obe::Input']]],
-  ['inputtype',['InputType',['../namespaceobe_1_1_input.html#a08f2b5990899bb151cc4fedfb35b716b',1,'obe::Input']]]
+  ['easingtype',['EasingType',['../namespaceobe_1_1_animation_1_1_easing.html#aa521ae9f06441caea51b76a43e85c6ad',1,'obe::Animation::Easing']]]
 ];

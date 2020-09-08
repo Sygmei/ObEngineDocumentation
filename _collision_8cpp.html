@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ObEngine: sources/src/Core/Bindings/Collision/Collision.cpp File Reference</title>
+<title>ObEngine: sources/src/Core/Bindings/obe/Collision/Collision.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_08d237fc27d4ecd563f71c5d52f2fecc.html">sources</a></li><li class="navelem"><a class="el" href="dir_370a05bc919a3b485116f307abacd69c.html">src</a></li><li class="navelem"><a class="el" href="dir_a01383027d29596cf4ed417727025e41.html">Core</a></li><li class="navelem"><a class="el" href="dir_3a415b9a12a4259c17e3781637911ee4.html">Bindings</a></li><li class="navelem"><a class="el" href="dir_049b7a6f8b664a5965185ff0198c996d.html">Collision</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_08d237fc27d4ecd563f71c5d52f2fecc.html">sources</a></li><li class="navelem"><a class="el" href="dir_370a05bc919a3b485116f307abacd69c.html">src</a></li><li class="navelem"><a class="el" href="dir_a01383027d29596cf4ed417727025e41.html">Core</a></li><li class="navelem"><a class="el" href="dir_3a415b9a12a4259c17e3781637911ee4.html">Bindings</a></li><li class="navelem"><a class="el" href="dir_f4b9591fd00d3a68de0f9680c8cae818.html">obe</a></li><li class="navelem"><a class="el" href="dir_06dae4413d91a84413cc28b0fdb43775.html">Collision</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -72,11 +72,11 @@ $(function() {
 <div class="title">Collision.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="_collision_8hpp_source.html">Bindings/Collision/Collision.hpp</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="_collision_8hpp_source.html">Bindings/obe/Collision/Collision.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_polygonal_collider_8hpp_source.html">Collision/PolygonalCollider.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_trajectory_8hpp_source.html">Collision/Trajectory.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_trajectory_node_8hpp_source.html">Collision/TrajectoryNode.hpp</a>&gt;</code><br />
-<code>#include &lt;sol/sol.hpp&gt;</code><br />
+<code>#include &lt;<a class="el" href="_bindings_2_config_8hpp_source.html">Bindings/Config.hpp</a>&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -87,6 +87,8 @@ Namespaces</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a863fb123bc3e40b612054e1e9e704439"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_collision_1_1_bindings.html#a863fb123bc3e40b612054e1e9e704439">obe::Collision::Bindings::LoadEnumColliderTagType</a> (sol::state_view state)</td></tr>
 <tr class="separator:a863fb123bc3e40b612054e1e9e704439"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a8cb556644e04ca4c35f215bbf71165"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_collision_1_1_bindings.html#a5a8cb556644e04ca4c35f215bbf71165">obe::Collision::Bindings::LoadClassCollisionData</a> (sol::state_view state)</td></tr>
+<tr class="separator:a5a8cb556644e04ca4c35f215bbf71165"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ce33ba33af5a05e7e2ccf0182214d90"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_collision_1_1_bindings.html#a0ce33ba33af5a05e7e2ccf0182214d90">obe::Collision::Bindings::LoadClassPolygonalCollider</a> (sol::state_view state)</td></tr>
 <tr class="separator:a0ce33ba33af5a05e7e2ccf0182214d90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2feb8d5789510fe3b0f18c1893ce75f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_collision_1_1_bindings.html#ac2feb8d5789510fe3b0f18c1893ce75f">obe::Collision::Bindings::LoadClassTrajectory</a> (sol::state_view state)</td></tr>

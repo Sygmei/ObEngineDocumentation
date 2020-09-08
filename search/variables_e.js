@@ -11,15 +11,17 @@ var searchData=
   ['papayawhip',['PapayaWhip',['../classobe_1_1_graphics_1_1_color.html#a999fd30cd3ca39c8a58ab8dced07f785',1,'obe::Graphics::Color']]],
   ['parallax',['Parallax',['../namespaceobe_1_1_graphics.html#adc3fce3752e4ddd30545ca38faae2acb',1,'obe::Graphics']]],
   ['parent',['parent',['../classobe_1_1_graphics_1_1_canvas_1_1_canvas_element.html#a22136f1891f27b904d3dce7f17e25c8f',1,'obe::Graphics::Canvas::CanvasElement']]],
-  ['path',['path',['../classobe_1_1_graphics_1_1_canvas_1_1_image.html#af4f14663fbe9ef8621de7107da57948c',1,'obe::Graphics::Canvas::Image']]],
   ['pathtype',['pathType',['../classobe_1_1_system_1_1_mountable_path.html#a6ea4a9837c3c984a6ecc9583d6950095',1,'obe::System::MountablePath']]],
   ['peachpuff',['PeachPuff',['../classobe_1_1_graphics_1_1_color.html#a86757739bd94025d70cbb6a5bd00e344',1,'obe::Graphics::Color']]],
   ['peru',['Peru',['../classobe_1_1_graphics_1_1_color.html#a2ccce959c7d5642048f66c8a6256a1bd',1,'obe::Graphics::Color']]],
   ['pink',['Pink',['../classobe_1_1_graphics_1_1_color.html#a87276c3a6375524d5816008f3e4cee12',1,'obe::Graphics::Color']]],
+  ['play_5fgroup_5fcommand',['play_group_command',['../namespaceobe_1_1_config_1_1_templates.html#a10cc0e7efaab041a00b9b39904e626ac',1,'obe::Config::Templates']]],
   ['plum',['Plum',['../classobe_1_1_graphics_1_1_color.html#af87b15ddb07ac3422296cc56d8e36918',1,'obe::Graphics::Color']]],
+  ['points',['points',['../classobe_1_1_graphics_1_1_canvas_1_1_bezier.html#a3623adee281f4100d4376ac6ebe20408',1,'obe::Graphics::Canvas::Bezier']]],
   ['pool',['Pool',['../classobe_1_1_component_1_1_component.html#a5473d167a0b173e20fc98db98f6465a0',1,'obe::Component::Component']]],
   ['position',['position',['../classobe_1_1_graphics_1_1_canvas_1_1_canvas_positionable.html#ad2fffcedf668af427cb469374810e019',1,'obe::Graphics::Canvas::CanvasPositionable::position()'],['../namespaceobe_1_1_graphics.html#aeea9a7151560a41b682500e740a4af7e',1,'obe::Graphics::Position()']]],
   ['powderblue',['PowderBlue',['../classobe_1_1_graphics_1_1_color.html#a18684af1bad6a933c390677c2b339d00',1,'obe::Graphics::Color']]],
+  ['precision',['precision',['../classobe_1_1_graphics_1_1_canvas_1_1_bezier.html#afab543b49b7b1a34fd85e7d82e15f979',1,'obe::Graphics::Canvas::Bezier']]],
   ['priority',['priority',['../classobe_1_1_system_1_1_mountable_path.html#a03a316ab0d1de40c3cab5aeef0acd724',1,'obe::System::MountablePath']]],
   ['purple',['Purple',['../classobe_1_1_graphics_1_1_color.html#acd85a8d79204d08dfbb4e9e290271253',1,'obe::Graphics::Color']]]
 ];

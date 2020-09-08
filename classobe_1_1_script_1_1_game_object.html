@@ -68,7 +68,6 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="classobe_1_1_script_1_1_game_object-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -79,9 +78,9 @@ $(function() {
 <p>A <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> is a set of Components used in the <a class="el" href="namespaceobe_1_1_scene.html">Scene</a>.  
  <a href="classobe_1_1_script_1_1_game_object.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="_game_object_8hpp_source.html">GameObject.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="_script_2_game_object_8hpp_source.html">GameObject.hpp</a>&gt;</code></p>
 
-<p>Inherits <a class="el" href="classobe_1_1_types_1_1_identifiable.html">obe::Types::Identifiable</a>.</p>
+<p>Inherits <a class="el" href="classobe_1_1_types_1_1_identifiable.html">obe::Types::Identifiable</a>, and <a class="el" href="classobe_1_1_types_1_1_serializable.html">obe::Types::Serializable</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -112,15 +111,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae173975b262b3a84cf03384a64f56bf3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_game_object.html#ae173975b262b3a84cf03384a64f56bf3">setUpdateState</a> (bool state)</td></tr>
 <tr class="memdesc:ae173975b262b3a84cf03384a64f56bf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets if the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> should be otherwise or not.  <a href="#ae173975b262b3a84cf03384a64f56bf3">More...</a><br /></td></tr>
 <tr class="separator:ae173975b262b3a84cf03384a64f56bf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2b8ba9574629c7e39ea652d21ecf689"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_animation_1_1_animator.html">Animation::Animator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_game_object.html#ad2b8ba9574629c7e39ea652d21ecf689">getAnimator</a> ()</td></tr>
-<tr class="memdesc:ad2b8ba9574629c7e39ea652d21ecf689"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Animator <a class="el" href="namespaceobe_1_1_component.html">Component</a> of the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> (Raises ObEngine.Script.GameObject.NoAnimator if no Animator <a class="el" href="namespaceobe_1_1_component.html">Component</a>)  <a href="#ad2b8ba9574629c7e39ea652d21ecf689">More...</a><br /></td></tr>
-<tr class="separator:ad2b8ba9574629c7e39ea652d21ecf689"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca1430f9e35c541924606b04e964f180"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">Collision::PolygonalCollider</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_game_object.html#aca1430f9e35c541924606b04e964f180">getCollider</a> ()</td></tr>
-<tr class="memdesc:aca1430f9e35c541924606b04e964f180"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Collider <a class="el" href="namespaceobe_1_1_component.html">Component</a> of the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> (Raises ObEngine.Script.GameObject.NoCollider if no Collider <a class="el" href="namespaceobe_1_1_component.html">Component</a>)  <a href="#aca1430f9e35c541924606b04e964f180">More...</a><br /></td></tr>
-<tr class="separator:aca1430f9e35c541924606b04e964f180"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a127c3d3aa81ba6ebed8ea4b189d6bf20"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_graphics_1_1_sprite.html">Graphics::Sprite</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_game_object.html#a127c3d3aa81ba6ebed8ea4b189d6bf20">getSprite</a> ()</td></tr>
-<tr class="memdesc:a127c3d3aa81ba6ebed8ea4b189d6bf20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Sprite <a class="el" href="namespaceobe_1_1_component.html">Component</a> of the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> (Raises ObEngine.Script.GameObject.NoSprite if no Sprite <a class="el" href="namespaceobe_1_1_component.html">Component</a>)  <a href="#a127c3d3aa81ba6ebed8ea4b189d6bf20">More...</a><br /></td></tr>
-<tr class="separator:a127c3d3aa81ba6ebed8ea4b189d6bf20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ea343933b9a9a7731511676913c31b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_animation_1_1_animator.html">Animation::Animator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_game_object.html#a2ea343933b9a9a7731511676913c31b2">getAnimator</a> () const</td></tr>
+<tr class="memdesc:a2ea343933b9a9a7731511676913c31b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Animator <a class="el" href="namespaceobe_1_1_component.html">Component</a> of the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> (Raises ObEngine.Script.GameObject.NoAnimator if no Animator <a class="el" href="namespaceobe_1_1_component.html">Component</a>)  <a href="#a2ea343933b9a9a7731511676913c31b2">More...</a><br /></td></tr>
+<tr class="separator:a2ea343933b9a9a7731511676913c31b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c0c81088a80f842e2ce6e50b7eb5b70"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">Collision::PolygonalCollider</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_game_object.html#a6c0c81088a80f842e2ce6e50b7eb5b70">getCollider</a> () const</td></tr>
+<tr class="memdesc:a6c0c81088a80f842e2ce6e50b7eb5b70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Collider <a class="el" href="namespaceobe_1_1_component.html">Component</a> of the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> (Raises ObEngine.Script.GameObject.NoCollider if no Collider <a class="el" href="namespaceobe_1_1_component.html">Component</a>)  <a href="#a6c0c81088a80f842e2ce6e50b7eb5b70">More...</a><br /></td></tr>
+<tr class="separator:a6c0c81088a80f842e2ce6e50b7eb5b70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8866654772306501a414c0a79db1823"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_graphics_1_1_sprite.html">Graphics::Sprite</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_game_object.html#ae8866654772306501a414c0a79db1823">getSprite</a> () const</td></tr>
+<tr class="memdesc:ae8866654772306501a414c0a79db1823"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Sprite <a class="el" href="namespaceobe_1_1_component.html">Component</a> of the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> (Raises ObEngine.Script.GameObject.NoSprite if no Sprite <a class="el" href="namespaceobe_1_1_component.html">Component</a>)  <a href="#ae8866654772306501a414c0a79db1823">More...</a><br /></td></tr>
+<tr class="separator:ae8866654772306501a414c0a79db1823"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e891934b0846528993054f9fe86323a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_scene_1_1_scene_node.html">Scene::SceneNode</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_game_object.html#a6e891934b0846528993054f9fe86323a">getSceneNode</a> ()</td></tr>
 <tr class="memdesc:a6e891934b0846528993054f9fe86323a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the <a class="el" href="namespaceobe_1_1_scene.html">Scene</a> Node of the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> (SceneNode that can manipulate the position of all <a class="el" href="namespaceobe_1_1_scene.html">Scene</a> Components)  <a href="#a6e891934b0846528993054f9fe86323a">More...</a><br /></td></tr>
 <tr class="separator:a6e891934b0846528993054f9fe86323a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -142,9 +141,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a79f16b8df7ba88796a6e60b4a2157ec3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_game_object.html#a79f16b8df7ba88796a6e60b4a2157ec3">registerTrigger</a> (std::weak_ptr&lt; <a class="el" href="classobe_1_1_triggers_1_1_trigger.html">Triggers::Trigger</a> &gt; trg, const std::string &amp;callbackName)</td></tr>
 <tr class="memdesc:a79f16b8df7ba88796a6e60b4a2157ec3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a Trigger in the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a>.  <a href="#a79f16b8df7ba88796a6e60b4a2157ec3">More...</a><br /></td></tr>
 <tr class="separator:a79f16b8df7ba88796a6e60b4a2157ec3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a154697f1d89e5ee3e54db5dd70056a9c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_game_object.html#a154697f1d89e5ee3e54db5dd70056a9c">loadGameObject</a> (<a class="el" href="classobe_1_1_scene_1_1_scene.html">Scene::Scene</a> &amp;scene, vili::ComplexNode &amp;obj, <a class="el" href="classobe_1_1_engine_1_1_resource_manager.html">Engine::ResourceManager</a> *resources=nullptr)</td></tr>
-<tr class="memdesc:a154697f1d89e5ee3e54db5dd70056a9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> through the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> Definition File.  <a href="#a154697f1d89e5ee3e54db5dd70056a9c">More...</a><br /></td></tr>
-<tr class="separator:a154697f1d89e5ee3e54db5dd70056a9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad111b0d8790de8ce7cc31f9f1a6ca2cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_game_object.html#ad111b0d8790de8ce7cc31f9f1a6ca2cc">loadGameObject</a> (<a class="el" href="classobe_1_1_scene_1_1_scene.html">Scene::Scene</a> &amp;scene, vili::node &amp;obj, <a class="el" href="classobe_1_1_engine_1_1_resource_manager.html">Engine::ResourceManager</a> *resources=nullptr)</td></tr>
+<tr class="memdesc:ad111b0d8790de8ce7cc31f9f1a6ca2cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> through the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> Definition File.  <a href="#ad111b0d8790de8ce7cc31f9f1a6ca2cc">More...</a><br /></td></tr>
+<tr class="separator:ad111b0d8790de8ce7cc31f9f1a6ca2cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad76738aa49f61cfb0be4f69168214c75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_game_object.html#ad76738aa49f61cfb0be4f69168214c75">update</a> ()</td></tr>
 <tr class="memdesc:ad76738aa49f61cfb0be4f69168214c75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a>.  <a href="#ad76738aa49f61cfb0be4f69168214c75">More...</a><br /></td></tr>
 <tr class="separator:ad76738aa49f61cfb0be4f69168214c75"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -170,6 +169,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a78695eab98c3c91f544440617aaabba3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a432ea8fa80e6ccaf3e754df799bea69c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_game_object.html#a432ea8fa80e6ccaf3e754df799bea69c">setState</a> (bool state)</td></tr>
 <tr class="separator:a432ea8fa80e6ccaf3e754df799bea69c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c7c5e59ec626ec760fa666c2a682118"><td class="memItemLeft" align="right" valign="top">vili::node&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_game_object.html#a6c7c5e59ec626ec760fa666c2a682118">dump</a> () const override</td></tr>
+<tr class="memdesc:a6c7c5e59ec626ec760fa666c2a682118"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dumps the content of the Serializable object to a ComplexNode.  <a href="#a6c7c5e59ec626ec760fa666c2a682118">More...</a><br /></td></tr>
+<tr class="separator:a6c7c5e59ec626ec760fa666c2a682118"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24d0da69ebbefcdd242cb5b88cfb6b11"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_game_object.html#a24d0da69ebbefcdd242cb5b88cfb6b11">load</a> (vili::node &amp;data) override</td></tr>
+<tr class="memdesc:a24d0da69ebbefcdd242cb5b88cfb6b11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads an object from a ComplexNode.  <a href="#a24d0da69ebbefcdd242cb5b88cfb6b11">More...</a><br /></td></tr>
+<tr class="separator:a24d0da69ebbefcdd242cb5b88cfb6b11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classobe_1_1_types_1_1_identifiable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classobe_1_1_types_1_1_identifiable')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classobe_1_1_types_1_1_identifiable.html">obe::Types::Identifiable</a></td></tr>
 <tr class="memitem:a60998c1fa478c49f46371e54a18b5401 inherit pub_methods_classobe_1_1_types_1_1_identifiable"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_types_1_1_identifiable.html#a60998c1fa478c49f46371e54a18b5401">~Identifiable</a> ()=default</td></tr>
 <tr class="separator:a60998c1fa478c49f46371e54a18b5401 inherit pub_methods_classobe_1_1_types_1_1_identifiable"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -182,17 +187,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7b4411691b5570068092e00542fd679a inherit pub_methods_classobe_1_1_types_1_1_identifiable"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_types_1_1_identifiable.html#a7b4411691b5570068092e00542fd679a">getId</a> () const</td></tr>
 <tr class="memdesc:a7b4411691b5570068092e00542fd679a inherit pub_methods_classobe_1_1_types_1_1_identifiable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the id of the <a class="el" href="classobe_1_1_types_1_1_identifiable.html" title="A Base class that does carry an unique identifier for a given category (Sprites / Colliders etc...">Identifiable</a>.  <a href="classobe_1_1_types_1_1_identifiable.html#a7b4411691b5570068092e00542fd679a">More...</a><br /></td></tr>
 <tr class="separator:a7b4411691b5570068092e00542fd679a inherit pub_methods_classobe_1_1_types_1_1_identifiable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classobe_1_1_types_1_1_serializable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classobe_1_1_types_1_1_serializable')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classobe_1_1_types_1_1_serializable.html">obe::Types::Serializable</a></td></tr>
+<tr class="memitem:add3c9624aa338c7e9383c418acfe9bb2 inherit pub_methods_classobe_1_1_types_1_1_serializable"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_types_1_1_serializable.html#add3c9624aa338c7e9383c418acfe9bb2">~Serializable</a> ()=default</td></tr>
+<tr class="separator:add3c9624aa338c7e9383c418acfe9bb2 inherit pub_methods_classobe_1_1_types_1_1_serializable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a3c2e467359f6c87a83a7a2973aad3cca"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_game_object.html#a3c2e467359f6c87a83a7a2973aad3cca">deletable</a> = false</td></tr>
 <tr class="memdesc:a3c2e467359f6c87a83a7a2973aad3cca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete State of the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> (false = not deleted)  <a href="#a3c2e467359f6c87a83a7a2973aad3cca">More...</a><br /></td></tr>
 <tr class="separator:a3c2e467359f6c87a83a7a2973aad3cca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:abb1d8b7919db452329dba1d20d5a6228"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; unsigned int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_game_object.html#abb1d8b7919db452329dba1d20d5a6228">AllEnvs</a></td></tr>
-<tr class="separator:abb1d8b7919db452329dba1d20d5a6228"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -404,6 +407,35 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a6c7c5e59ec626ec760fa666c2a682118"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c7c5e59ec626ec760fa666c2a682118">&#9670;&nbsp;</a></span>dump()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">vili::node obe::Script::GameObject::dump </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Dumps the content of the Serializable object to a ComplexNode. </p>
+
+<p>Implements <a class="el" href="classobe_1_1_types_1_1_serializable.html#a57f08f6a5ecaad5a80847e27e090ca1b">obe::Types::Serializable</a>.</p>
+
+</div>
+</div>
 <a id="adca954f24f1d70c84a76682aedc3d194"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adca954f24f1d70c84a76682aedc3d194">&#9670;&nbsp;</a></span>exec()</h2>
 
@@ -430,8 +462,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="ad2b8ba9574629c7e39ea652d21ecf689"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2b8ba9574629c7e39ea652d21ecf689">&#9670;&nbsp;</a></span>getAnimator()</h2>
+<a id="a2ea343933b9a9a7731511676913c31b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ea343933b9a9a7731511676913c31b2">&#9670;&nbsp;</a></span>getAnimator()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -440,7 +472,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname"><a class="el" href="classobe_1_1_animation_1_1_animator.html">Animation::Animator</a> &amp; obe::Script::GameObject::getAnimator </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -450,8 +482,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="aca1430f9e35c541924606b04e964f180"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca1430f9e35c541924606b04e964f180">&#9670;&nbsp;</a></span>getCollider()</h2>
+<a id="a6c0c81088a80f842e2ce6e50b7eb5b70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c0c81088a80f842e2ce6e50b7eb5b70">&#9670;&nbsp;</a></span>getCollider()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -460,7 +492,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">Collision::PolygonalCollider</a> &amp; obe::Script::GameObject::getCollider </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -527,8 +559,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a127c3d3aa81ba6ebed8ea4b189d6bf20"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a127c3d3aa81ba6ebed8ea4b189d6bf20">&#9670;&nbsp;</a></span>getSprite()</h2>
+<a id="ae8866654772306501a414c0a79db1823"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8866654772306501a414c0a79db1823">&#9670;&nbsp;</a></span>getSprite()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -537,7 +569,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname"><a class="el" href="classobe_1_1_graphics_1_1_sprite.html">Graphics::Sprite</a> &amp; obe::Script::GameObject::getSprite </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -626,8 +658,44 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a154697f1d89e5ee3e54db5dd70056a9c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a154697f1d89e5ee3e54db5dd70056a9c">&#9670;&nbsp;</a></span>loadGameObject()</h2>
+<a id="a24d0da69ebbefcdd242cb5b88cfb6b11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24d0da69ebbefcdd242cb5b88cfb6b11">&#9670;&nbsp;</a></span>load()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::Script::GameObject::load </td>
+          <td>(</td>
+          <td class="paramtype">vili::node &amp;&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Loads an object from a ComplexNode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td>ComplexNode containing the data of the object </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="classobe_1_1_types_1_1_serializable.html#a0606fb7c0265905b741e82d4df37e42f">obe::Types::Serializable</a>.</p>
+
+</div>
+</div>
+<a id="ad111b0d8790de8ce7cc31f9f1a6ca2cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad111b0d8790de8ce7cc31f9f1a6ca2cc">&#9670;&nbsp;</a></span>loadGameObject()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -641,7 +709,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">vili::ComplexNode &amp;&#160;</td>
+          <td class="paramtype">vili::node &amp;&#160;</td>
           <td class="paramname"><em>obj</em>, </td>
         </tr>
         <tr>
@@ -662,7 +730,7 @@ Additional Inherited Members</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">scene</td><td><a class="el" href="namespaceobe_1_1_scene.html">Scene</a> reference to create components </td></tr>
-    <tr><td class="paramname">obj</td><td>Vili ComplexNode containing the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> components </td></tr>
+    <tr><td class="paramname">obj</td><td>Vili Node containing the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> components </td></tr>
     <tr><td class="paramname">resources</td><td>pointer to the ResourceManager </td></tr>
   </table>
   </dd>
@@ -987,28 +1055,6 @@ template&lt;typename U &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="abb1d8b7919db452329dba1d20d5a6228"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb1d8b7919db452329dba1d20d5a6228">&#9670;&nbsp;</a></span>AllEnvs</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt; unsigned int &gt; obe::Script::GameObject::AllEnvs</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a3c2e467359f6c87a83a7a2973aad3cca"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3c2e467359f6c87a83a7a2973aad3cca">&#9670;&nbsp;</a></span>deletable</h2>
 
@@ -1026,8 +1072,8 @@ template&lt;typename U &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>sources/include/Core/Script/<a class="el" href="_game_object_8hpp_source.html">GameObject.hpp</a></li>
-<li>sources/src/Core/Script/<a class="el" href="_game_object_8cpp.html">GameObject.cpp</a></li>
+<li>sources/include/Core/Script/<a class="el" href="_script_2_game_object_8hpp_source.html">GameObject.hpp</a></li>
+<li>sources/src/Core/Script/<a class="el" href="_script_2_game_object_8cpp.html">GameObject.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

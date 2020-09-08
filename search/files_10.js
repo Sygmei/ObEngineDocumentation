@@ -8,6 +8,6 @@ var searchData=
   ['unitstructures_2ehpp',['UnitStructures.hpp',['../_unit_structures_8hpp.html',1,'']]],
   ['unitvector_2ecpp',['UnitVector.cpp',['../_unit_vector_8cpp.html',1,'']]],
   ['unitvector_2ehpp',['UnitVector.hpp',['../_unit_vector_8hpp.html',1,'']]],
-  ['utils_2ecpp',['Utils.cpp',['../_graphics_2_utils_2_utils_8cpp.html',1,'(Global Namespace)'],['../_utils_2_utils_8cpp.html',1,'(Global Namespace)']]],
-  ['utils_2ehpp',['Utils.hpp',['../_graphics_2_utils_2_utils_8hpp.html',1,'(Global Namespace)'],['../_utils_2_utils_8hpp.html',1,'(Global Namespace)']]]
+  ['utils_2ecpp',['Utils.cpp',['../_utils_8cpp.html',1,'']]],
+  ['utils_2ehpp',['Utils.hpp',['../_utils_8hpp.html',1,'']]]
 ];

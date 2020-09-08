@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['pathtype',['PathType',['../namespaceobe_1_1_system.html#a694fe83b30a254b5c66650c9dc3bb497',1,'obe::System']]]
+  ['loadpolicy',['LoadPolicy',['../namespaceobe_1_1_audio.html#a4a1126924a2bccd7f101a4fad31b901e',1,'obe::Audio']]]
 ];

@@ -80,6 +80,8 @@ $(function() {
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceobe_1_1_transform_1_1_bindings"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_transform_1_1_bindings.html">Bindings</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespaceobe_1_1_transform_1_1_exceptions"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_transform_1_1_exceptions.html">Exceptions</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -116,13 +118,23 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a65e7247d682e372d7fbbeaf1e0d8d199"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_transform.html#a65e7247d682e372d7fbbeaf1e0d8d199">point_index_t</a> = unsigned int</td></tr>
-<tr class="separator:a65e7247d682e372d7fbbeaf1e0d8d199"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3fe8c5275029ee4b3906b76e317c4a5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_transform.html#af3fe8c5275029ee4b3906b76e317c4a5">point_index_t</a> = std::size_t</td></tr>
+<tr class="separator:af3fe8c5275029ee4b3906b76e317c4a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5b5091c1816c086da63030772bd2681"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_transform.html#ac5b5091c1816c086da63030772bd2681">PolygonPath</a> = std::vector&lt; std::unique_ptr&lt; <a class="el" href="classobe_1_1_transform_1_1_polygon_point.html">PolygonPoint</a> &gt; &gt;</td></tr>
 <tr class="separator:ac5b5091c1816c086da63030772bd2681"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
+<tr class="memitem:ab0f5037840f99b2f45127eecfcefb44c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_transform.html#ab0f5037840f99b2f45127eecfcefb44c">RelativePositionFrom</a> { <a class="el" href="namespaceobe_1_1_transform.html#ab0f5037840f99b2f45127eecfcefb44ca6029cd951d965ccedf0ed3e3c1ea55ee">RelativePositionFrom::Point0</a>, 
+<a class="el" href="namespaceobe_1_1_transform.html#ab0f5037840f99b2f45127eecfcefb44ca9b49197cf2fea5efc68ef8a88489e1b6">RelativePositionFrom::Centroid</a>
+ }</td></tr>
+<tr class="separator:ab0f5037840f99b2f45127eecfcefb44c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7f53d31a2b7ac6511f9b457ad3cd799"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_transform.html#ac7f53d31a2b7ac6511f9b457ad3cd799">FlipAxis</a> { <a class="el" href="namespaceobe_1_1_transform.html#ac7f53d31a2b7ac6511f9b457ad3cd799ac1b5fa03ecdb95d4a45dd1c40b02527f">FlipAxis::Horizontal</a>, 
+<a class="el" href="namespaceobe_1_1_transform.html#ac7f53d31a2b7ac6511f9b457ad3cd799a06ce2a25e5d12c166a36f654dbea6012">FlipAxis::Vertical</a>, 
+<a class="el" href="namespaceobe_1_1_transform.html#ac7f53d31a2b7ac6511f9b457ad3cd799a130c5b3473c57faa76e2a1c54e26f88e">FlipAxis::Both</a>
+ }<tr class="memdesc:ac7f53d31a2b7ac6511f9b457ad3cd799"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enum which contains value to indicate which kind of flip you want to perform on a Referential.  <a href="namespaceobe_1_1_transform.html#ac7f53d31a2b7ac6511f9b457ad3cd799">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:ac7f53d31a2b7ac6511f9b457ad3cd799"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3495f3b4a510af422097f9340fe3a3c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_transform.html#af3495f3b4a510af422097f9340fe3a3c">Units</a> { <br />
 &#160;&#160;<a class="el" href="namespaceobe_1_1_transform.html#af3495f3b4a510af422097f9340fe3a3caa567f88ad914a20062bee9abc1f71504">Units::ViewPercentage</a>, 
 <a class="el" href="namespaceobe_1_1_transform.html#af3495f3b4a510af422097f9340fe3a3ca9bd0b7cd58d57b76a14917584c69a2b1">Units::ViewPixels</a>, 
@@ -166,14 +178,14 @@ Functions</h2></td></tr>
 <tr class="separator:a33072f9a5956da10acf400ac936ea825"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
-<a id="a65e7247d682e372d7fbbeaf1e0d8d199"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65e7247d682e372d7fbbeaf1e0d8d199">&#9670;&nbsp;</a></span>point_index_t</h2>
+<a id="af3fe8c5275029ee4b3906b76e317c4a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3fe8c5275029ee4b3906b76e317c4a5">&#9670;&nbsp;</a></span>point_index_t</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespaceobe_1_1_transform.html#a65e7247d682e372d7fbbeaf1e0d8d199">obe::Transform::point_index_t</a> = typedef unsigned int</td>
+          <td class="memname">using <a class="el" href="namespaceobe_1_1_transform.html#af3fe8c5275029ee4b3906b76e317c4a5">obe::Transform::point_index_t</a> = typedef std::size_t</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -195,6 +207,61 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="ac7f53d31a2b7ac6511f9b457ad3cd799"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7f53d31a2b7ac6511f9b457ad3cd799">&#9670;&nbsp;</a></span>FlipAxis</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespaceobe_1_1_transform.html#ac7f53d31a2b7ac6511f9b457ad3cd799">obe::Transform::FlipAxis</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Enum which contains value to indicate which kind of flip you want to perform on a <a class="el" href="classobe_1_1_transform_1_1_referential.html" title="Set or Get Position using Referentials. ">Referential</a>. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac7f53d31a2b7ac6511f9b457ad3cd799ac1b5fa03ecdb95d4a45dd1c40b02527f"></a>Horizontal&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac7f53d31a2b7ac6511f9b457ad3cd799a06ce2a25e5d12c166a36f654dbea6012"></a>Vertical&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac7f53d31a2b7ac6511f9b457ad3cd799a130c5b3473c57faa76e2a1c54e26f88e"></a>Both&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="ab0f5037840f99b2f45127eecfcefb44c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0f5037840f99b2f45127eecfcefb44c">&#9670;&nbsp;</a></span>RelativePositionFrom</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespaceobe_1_1_transform.html#ab0f5037840f99b2f45127eecfcefb44c">obe::Transform::RelativePositionFrom</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab0f5037840f99b2f45127eecfcefb44ca6029cd951d965ccedf0ed3e3c1ea55ee"></a>Point0&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab0f5037840f99b2f45127eecfcefb44ca9b49197cf2fea5efc68ef8a88489e1b6"></a>Centroid&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <a id="af3495f3b4a510af422097f9340fe3a3c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af3495f3b4a510af422097f9340fe3a3c">&#9670;&nbsp;</a></span>Units</h2>
 

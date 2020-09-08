@@ -17,7 +17,7 @@ var searchData=
   ['darkslategray',['DarkSlateGray',['../classobe_1_1_graphics_1_1_color.html#ae6ee119e35136c0b36d6047349a62da7',1,'obe::Graphics::Color']]],
   ['darkturquoise',['DarkTurquoise',['../classobe_1_1_graphics_1_1_color.html#a16a70e71629fe3ead7d2789c7881ab36',1,'obe::Graphics::Color']]],
   ['darkviolet',['DarkViolet',['../classobe_1_1_graphics_1_1_color.html#a7b017f26bb1e8adbc81c372f2d7b8577',1,'obe::Graphics::Color']]],
-  ['dataloader',['dataLoader',['../namespaceobe_1_1_system_1_1_loaders.html#a64953b7866342d7f4869fe1cbeb11177',1,'obe::System::Loaders']]],
+  ['dataloader',['dataLoader',['../namespaceobe_1_1_system_1_1_loaders.html#a52608c8eca208e02a656159ed63bdec1',1,'obe::System::Loaders']]],
   ['days',['days',['../namespaceobe_1_1_time.html#a9d7f1d6705ad7b8123404e738664e370',1,'obe::Time']]],
   ['deeppink',['DeepPink',['../classobe_1_1_graphics_1_1_color.html#a03ba9012f6c12d66d1c00fabfae347cf',1,'obe::Graphics::Color']]],
   ['deepskyblue',['DeepSkyBlue',['../classobe_1_1_graphics_1_1_color.html#aa57d6ff2ab7719e032ed88a8faf53d33',1,'obe::Graphics::Color']]],

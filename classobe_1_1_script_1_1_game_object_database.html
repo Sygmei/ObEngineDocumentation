@@ -76,19 +76,19 @@ $(function() {
 <p>Manages and caches <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> definition files and Requirements.  
  <a href="classobe_1_1_script_1_1_game_object_database.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="_game_object_8hpp_source.html">GameObject.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="_script_2_game_object_8hpp_source.html">GameObject.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a731774150034a4d3fcf35a12b4c4484c"><td class="memItemLeft" align="right" valign="top">static vili::ComplexNode *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_game_object_database.html#a731774150034a4d3fcf35a12b4c4484c">GetRequirementsForGameObject</a> (const std::string &amp;type)</td></tr>
-<tr class="memdesc:a731774150034a4d3fcf35a12b4c4484c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Requires ComplexNode of the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a>.  <a href="#a731774150034a4d3fcf35a12b4c4484c">More...</a><br /></td></tr>
-<tr class="separator:a731774150034a4d3fcf35a12b4c4484c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a023795e90b492f57a14ed7b59e1f9346"><td class="memItemLeft" align="right" valign="top">static vili::ComplexNode *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_game_object_database.html#a023795e90b492f57a14ed7b59e1f9346">GetDefinitionForGameObject</a> (const std::string &amp;type)</td></tr>
-<tr class="memdesc:a023795e90b492f57a14ed7b59e1f9346"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the ObjectDefinition ComplexNode of the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a>.  <a href="#a023795e90b492f57a14ed7b59e1f9346">More...</a><br /></td></tr>
-<tr class="separator:a023795e90b492f57a14ed7b59e1f9346"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45d5ef4488ea0b26d5ddf3e6449cfa25"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_game_object_database.html#a45d5ef4488ea0b26d5ddf3e6449cfa25">ApplyRequirements</a> (sol::environment environment, vili::ComplexNode &amp;requires)</td></tr>
-<tr class="memdesc:a45d5ef4488ea0b26d5ddf3e6449cfa25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies the Requirements to a <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> using a Requires ComplexNode.  <a href="#a45d5ef4488ea0b26d5ddf3e6449cfa25">More...</a><br /></td></tr>
-<tr class="separator:a45d5ef4488ea0b26d5ddf3e6449cfa25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80ae0194800137db34e8a5963ef6f879"><td class="memItemLeft" align="right" valign="top">static vili::node&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_game_object_database.html#a80ae0194800137db34e8a5963ef6f879">GetRequirementsForGameObject</a> (const std::string &amp;type)</td></tr>
+<tr class="memdesc:a80ae0194800137db34e8a5963ef6f879"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Requires ComplexNode of the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a>.  <a href="#a80ae0194800137db34e8a5963ef6f879">More...</a><br /></td></tr>
+<tr class="separator:a80ae0194800137db34e8a5963ef6f879"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a972922006b81fb486cc5db3432134252"><td class="memItemLeft" align="right" valign="top">static vili::node&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_game_object_database.html#a972922006b81fb486cc5db3432134252">GetDefinitionForGameObject</a> (const std::string &amp;type)</td></tr>
+<tr class="memdesc:a972922006b81fb486cc5db3432134252"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the ObjectDefinition ComplexNode of the <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a>.  <a href="#a972922006b81fb486cc5db3432134252">More...</a><br /></td></tr>
+<tr class="separator:a972922006b81fb486cc5db3432134252"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a805808282a00617aff9a870284282a79"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_game_object_database.html#a805808282a00617aff9a870284282a79">ApplyRequirements</a> (sol::environment environment, vili::node &amp;requires)</td></tr>
+<tr class="memdesc:a805808282a00617aff9a870284282a79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies the Requirements to a <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> using a Requires ComplexNode.  <a href="#a805808282a00617aff9a870284282a79">More...</a><br /></td></tr>
+<tr class="separator:a805808282a00617aff9a870284282a79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5676ed3e267b40d0606277fa7d8ccb74"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_script_1_1_game_object_database.html#a5676ed3e267b40d0606277fa7d8ccb74">Clear</a> ()</td></tr>
 <tr class="memdesc:a5676ed3e267b40d0606277fa7d8ccb74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the <a class="el" href="classobe_1_1_script_1_1_game_object_database.html" title="Manages and caches GameObject definition files and Requirements. ">GameObjectDatabase</a> (cache reload)  <a href="#a5676ed3e267b40d0606277fa7d8ccb74">More...</a><br /></td></tr>
 <tr class="separator:a5676ed3e267b40d0606277fa7d8ccb74"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -96,8 +96,8 @@ Static Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Manages and caches <a class="el" href="classobe_1_1_script_1_1_game_object.html" title="A GameObject is a set of Components used in the Scene. ">GameObject</a> definition files and Requirements. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a45d5ef4488ea0b26d5ddf3e6449cfa25"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a45d5ef4488ea0b26d5ddf3e6449cfa25">&#9670;&nbsp;</a></span>ApplyRequirements()</h2>
+<a id="a805808282a00617aff9a870284282a79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a805808282a00617aff9a870284282a79">&#9670;&nbsp;</a></span>ApplyRequirements()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -114,7 +114,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">vili::ComplexNode &amp;&#160;</td>
+          <td class="paramtype">vili::node &amp;&#160;</td>
           <td class="paramname"><em>requires</em>&#160;</td>
         </tr>
         <tr>
@@ -168,8 +168,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a023795e90b492f57a14ed7b59e1f9346"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a023795e90b492f57a14ed7b59e1f9346">&#9670;&nbsp;</a></span>GetDefinitionForGameObject()</h2>
+<a id="a972922006b81fb486cc5db3432134252"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a972922006b81fb486cc5db3432134252">&#9670;&nbsp;</a></span>GetDefinitionForGameObject()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -178,7 +178,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">vili::ComplexNode * obe::Script::GameObjectDatabase::GetDefinitionForGameObject </td>
+          <td class="memname">vili::node obe::Script::GameObjectDatabase::GetDefinitionForGameObject </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>type</em></td><td>)</td>
@@ -203,8 +203,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a731774150034a4d3fcf35a12b4c4484c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a731774150034a4d3fcf35a12b4c4484c">&#9670;&nbsp;</a></span>GetRequirementsForGameObject()</h2>
+<a id="a80ae0194800137db34e8a5963ef6f879"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80ae0194800137db34e8a5963ef6f879">&#9670;&nbsp;</a></span>GetRequirementsForGameObject()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -213,7 +213,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">vili::ComplexNode * obe::Script::GameObjectDatabase::GetRequirementsForGameObject </td>
+          <td class="memname">vili::node obe::Script::GameObjectDatabase::GetRequirementsForGameObject </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>type</em></td><td>)</td>
@@ -239,8 +239,8 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>sources/include/Core/Script/<a class="el" href="_game_object_8hpp_source.html">GameObject.hpp</a></li>
-<li>sources/src/Core/Script/<a class="el" href="_game_object_8cpp.html">GameObject.cpp</a></li>
+<li>sources/include/Core/Script/<a class="el" href="_script_2_game_object_8hpp_source.html">GameObject.hpp</a></li>
+<li>sources/src/Core/Script/<a class="el" href="_script_2_game_object_8cpp.html">GameObject.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

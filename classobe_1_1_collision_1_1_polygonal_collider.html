@@ -92,8 +92,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aabf77866c60bc6bfc0f2e58113b8bfcb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#aabf77866c60bc6bfc0f2e58113b8bfcb">clearTags</a> (<a class="el" href="namespaceobe_1_1_collision.html#aa8080687fb294144f0bc8de1423b3f3d">ColliderTagType</a> tagType)</td></tr>
 <tr class="memdesc:aabf77866c60bc6bfc0f2e58113b8bfcb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears Tags of the Collider.  <a href="#aabf77866c60bc6bfc0f2e58113b8bfcb">More...</a><br /></td></tr>
 <tr class="separator:aabf77866c60bc6bfc0f2e58113b8bfcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c271a2c1f591d295ff28955f76c22d5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a1c271a2c1f591d295ff28955f76c22d5">doesCollide</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;offset) const</td></tr>
-<tr class="separator:a1c271a2c1f591d295ff28955f76c22d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a450350bdcf1103bd4dca5ca600c38dc8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_collision_1_1_collision_data.html">CollisionData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a450350bdcf1103bd4dca5ca600c38dc8">doesCollide</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;offset) const</td></tr>
+<tr class="memdesc:a450350bdcf1103bd4dca5ca600c38dc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the collider is intersecting other colliders.  <a href="#a450350bdcf1103bd4dca5ca600c38dc8">More...</a><br /></td></tr>
+<tr class="separator:a450350bdcf1103bd4dca5ca600c38dc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c73cded2d03fa6d0f97d574fb7e62e5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a3c73cded2d03fa6d0f97d574fb7e62e5">doesCollide</a> (<a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">PolygonalCollider</a> &amp;collider, const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;offset) const</td></tr>
 <tr class="memdesc:a3c73cded2d03fa6d0f97d574fb7e62e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if two polygons are intersecting.  <a href="#a3c73cded2d03fa6d0f97d574fb7e62e5">More...</a><br /></td></tr>
 <tr class="separator:a3c73cded2d03fa6d0f97d574fb7e62e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -103,24 +104,24 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6646b18d123f329646d7b92bbc153cc4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a6646b18d123f329646d7b92bbc153cc4">doesHaveTag</a> (<a class="el" href="namespaceobe_1_1_collision.html#aa8080687fb294144f0bc8de1423b3f3d">ColliderTagType</a> tagType, const std::string &amp;tag)</td></tr>
 <tr class="memdesc:a6646b18d123f329646d7b92bbc153cc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the Collider contains a Tag.  <a href="#a6646b18d123f329646d7b92bbc153cc4">More...</a><br /></td></tr>
 <tr class="separator:a6646b18d123f329646d7b92bbc153cc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2fb861632438bb30a73a7d3019f5b1ae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a2fb861632438bb30a73a7d3019f5b1ae">dump</a> (vili::ComplexNode &amp;target) const override</td></tr>
-<tr class="memdesc:a2fb861632438bb30a73a7d3019f5b1ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dumps the content of the <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html" title="Class used for all Collisions in the engine, it&#39;s a Polygon containing n points {PolygonalCollider}. ">PolygonalCollider</a> to a ComplexNode.  <a href="#a2fb861632438bb30a73a7d3019f5b1ae">More...</a><br /></td></tr>
-<tr class="separator:a2fb861632438bb30a73a7d3019f5b1ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63e619ef0374930bee9d1d5494a1ad9c"><td class="memItemLeft" align="right" valign="top">vili::node&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a63e619ef0374930bee9d1d5494a1ad9c">dump</a> () const override</td></tr>
+<tr class="memdesc:a63e619ef0374930bee9d1d5494a1ad9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dumps the content of the <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html" title="Class used for all Collisions in the engine, it&#39;s a Polygon containing n points {PolygonalCollider}. ">PolygonalCollider</a> to a ComplexNode.  <a href="#a63e619ef0374930bee9d1d5494a1ad9c">More...</a><br /></td></tr>
+<tr class="separator:a63e619ef0374930bee9d1d5494a1ad9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46ffe2117a3a0e102317525a66205923"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a46ffe2117a3a0e102317525a66205923">getAllTags</a> (<a class="el" href="namespaceobe_1_1_collision.html#aa8080687fb294144f0bc8de1423b3f3d">ColliderTagType</a> tagType) const</td></tr>
 <tr class="memdesc:a46ffe2117a3a0e102317525a66205923"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets all the Tags from one of the Lists.  <a href="#a46ffe2117a3a0e102317525a66205923">More...</a><br /></td></tr>
 <tr class="separator:a46ffe2117a3a0e102317525a66205923"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a854283780bf3c431f2b7d7413881829e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a854283780bf3c431f2b7d7413881829e">getMaximumDistanceBeforeCollision</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;offset) const</td></tr>
-<tr class="memdesc:a854283780bf3c431f2b7d7413881829e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Maximum distance before <a class="el" href="namespaceobe_1_1_collision.html">Collision</a> in all the Colliders of the <a class="el" href="namespaceobe_1_1_scene.html">Scene</a>.  <a href="#a854283780bf3c431f2b7d7413881829e">More...</a><br /></td></tr>
-<tr class="separator:a854283780bf3c431f2b7d7413881829e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac91fd4b6594979c7e29376f0e3201cc7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_collision_1_1_collision_data.html">CollisionData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#ac91fd4b6594979c7e29376f0e3201cc7">getMaximumDistanceBeforeCollision</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;offset) const</td></tr>
+<tr class="memdesc:ac91fd4b6594979c7e29376f0e3201cc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Maximum distance before <a class="el" href="namespaceobe_1_1_collision.html">Collision</a> in all the Colliders of the <a class="el" href="namespaceobe_1_1_scene.html">Scene</a>.  <a href="#ac91fd4b6594979c7e29376f0e3201cc7">More...</a><br /></td></tr>
+<tr class="separator:ac91fd4b6594979c7e29376f0e3201cc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a685895eee0b1f1b5bc1fba64797ead42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a685895eee0b1f1b5bc1fba64797ead42">getMaximumDistanceBeforeCollision</a> (<a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html">PolygonalCollider</a> &amp;collider, const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;offset) const</td></tr>
 <tr class="memdesc:a685895eee0b1f1b5bc1fba64797ead42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Maximum distance before <a class="el" href="namespaceobe_1_1_collision.html">Collision</a> with a specific Collider.  <a href="#a685895eee0b1f1b5bc1fba64797ead42">More...</a><br /></td></tr>
 <tr class="separator:a685895eee0b1f1b5bc1fba64797ead42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af55a0221f56047788b7610b2d8a94c3d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#af55a0221f56047788b7610b2d8a94c3d">getParentId</a> () const</td></tr>
 <tr class="memdesc:af55a0221f56047788b7610b2d8a94c3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Id of the parent of the Collider (When used in a GameObject)  <a href="#af55a0221f56047788b7610b2d8a94c3d">More...</a><br /></td></tr>
 <tr class="separator:af55a0221f56047788b7610b2d8a94c3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5fc6e419e7b6721e53dc8c727a086bc7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a5fc6e419e7b6721e53dc8c727a086bc7">load</a> (vili::ComplexNode &amp;data) override</td></tr>
-<tr class="memdesc:a5fc6e419e7b6721e53dc8c727a086bc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html" title="Class used for all Collisions in the engine, it&#39;s a Polygon containing n points {PolygonalCollider}. ">PolygonalCollider</a> from a ComplexNode.  <a href="#a5fc6e419e7b6721e53dc8c727a086bc7">More...</a><br /></td></tr>
-<tr class="separator:a5fc6e419e7b6721e53dc8c727a086bc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae041291432a0232f34f6854ea7cb5c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#aae041291432a0232f34f6854ea7cb5c4">load</a> (vili::node &amp;data) override</td></tr>
+<tr class="memdesc:aae041291432a0232f34f6854ea7cb5c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the <a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html" title="Class used for all Collisions in the engine, it&#39;s a Polygon containing n points {PolygonalCollider}. ">PolygonalCollider</a> from a ComplexNode.  <a href="#aae041291432a0232f34f6854ea7cb5c4">More...</a><br /></td></tr>
+<tr class="separator:aae041291432a0232f34f6854ea7cb5c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a972819e978772fbcf1ec3b25ddb124a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_collision_1_1_polygonal_collider.html#a972819e978772fbcf1ec3b25ddb124a8">removeTag</a> (<a class="el" href="namespaceobe_1_1_collision.html#aa8080687fb294144f0bc8de1423b3f3d">ColliderTagType</a> tagType, const std::string &amp;tag)</td></tr>
 <tr class="memdesc:a972819e978772fbcf1ec3b25ddb124a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a Tag of the Collider.  <a href="#a972819e978772fbcf1ec3b25ddb124a8">More...</a><br /></td></tr>
 <tr class="separator:a972819e978772fbcf1ec3b25ddb124a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -136,7 +137,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a10e115a5a428f3e4a4d1544d118efa96 inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_polygon_segment.html">PolygonSegment</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_polygon.html#a10e115a5a428f3e4a4d1544d118efa96">findClosestSegment</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;position)</td></tr>
 <tr class="memdesc:a10e115a5a428f3e4a4d1544d118efa96 inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the closest Line from the given Position.  <a href="classobe_1_1_transform_1_1_polygon.html#a10e115a5a428f3e4a4d1544d118efa96">More...</a><br /></td></tr>
 <tr class="separator:a10e115a5a428f3e4a4d1544d118efa96 inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec33dcc03b25d1fd4dd52f8e9c179ce5 inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_polygon_point.html">PolygonPoint</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_polygon.html#aec33dcc03b25d1fd4dd52f8e9c179ce5">findClosestPoint</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;position, bool neighbor=false, const std::vector&lt; <a class="el" href="namespaceobe_1_1_transform.html#a65e7247d682e372d7fbbeaf1e0d8d199">point_index_t</a> &gt; &amp;excludedPoints={})</td></tr>
+<tr class="memitem:aec33dcc03b25d1fd4dd52f8e9c179ce5 inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_polygon_point.html">PolygonPoint</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_polygon.html#aec33dcc03b25d1fd4dd52f8e9c179ce5">findClosestPoint</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;position, bool neighbor=false, const std::vector&lt; <a class="el" href="namespaceobe_1_1_transform.html#af3fe8c5275029ee4b3906b76e317c4a5">point_index_t</a> &gt; &amp;excludedPoints={})</td></tr>
 <tr class="memdesc:aec33dcc03b25d1fd4dd52f8e9c179ce5 inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the closest Point from the given Position(x, y)  <a href="classobe_1_1_transform_1_1_polygon.html#aec33dcc03b25d1fd4dd52f8e9c179ce5">More...</a><br /></td></tr>
 <tr class="separator:aec33dcc03b25d1fd4dd52f8e9c179ce5 inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45d1ed96692ef31981222c600f30224b inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceobe_1_1_transform.html#ac5b5091c1816c086da63030772bd2681">PolygonPath</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_polygon.html#a45d1ed96692ef31981222c600f30224b">getAllPoints</a> ()</td></tr>
@@ -145,16 +146,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a95ff646861dffcb542539aeb9b4d0c4f inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_polygon.html#a95ff646861dffcb542539aeb9b4d0c4f">getCentroid</a> () const</td></tr>
 <tr class="memdesc:a95ff646861dffcb542539aeb9b4d0c4f inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the position of the Master Point (centroid) of the <a class="el" href="classobe_1_1_transform_1_1_polygon.html" title="Class used for all Collisions in the engine, it&#39;s a Polygon containing n points {Polygon}. ">Polygon</a>.  <a href="classobe_1_1_transform_1_1_polygon.html#a95ff646861dffcb542539aeb9b4d0c4f">More...</a><br /></td></tr>
 <tr class="separator:a95ff646861dffcb542539aeb9b4d0c4f inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70ba20d490fd5d1c80a43399d182feba inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_polygon.html#a70ba20d490fd5d1c80a43399d182feba">getPointsAmount</a> () const</td></tr>
-<tr class="memdesc:a70ba20d490fd5d1c80a43399d182feba inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of points in the <a class="el" href="classobe_1_1_transform_1_1_polygon.html" title="Class used for all Collisions in the engine, it&#39;s a Polygon containing n points {Polygon}. ">Polygon</a>.  <a href="classobe_1_1_transform_1_1_polygon.html#a70ba20d490fd5d1c80a43399d182feba">More...</a><br /></td></tr>
-<tr class="separator:a70ba20d490fd5d1c80a43399d182feba inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae86e63331217216b5420de70a3ee4322 inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_polygon.html#ae86e63331217216b5420de70a3ee4322">getPointsAmount</a> () const</td></tr>
+<tr class="memdesc:ae86e63331217216b5420de70a3ee4322 inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of points in the <a class="el" href="classobe_1_1_transform_1_1_polygon.html" title="Class used for all Collisions in the engine, it&#39;s a Polygon containing n points {Polygon}. ">Polygon</a>.  <a href="classobe_1_1_transform_1_1_polygon.html#ae86e63331217216b5420de70a3ee4322">More...</a><br /></td></tr>
+<tr class="separator:ae86e63331217216b5420de70a3ee4322 inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a638f94e00961bf3dcbb2ea9c17a3bda5 inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_polygon.html#a638f94e00961bf3dcbb2ea9c17a3bda5">getPosition</a> () const override</td></tr>
 <tr class="memdesc:a638f94e00961bf3dcbb2ea9c17a3bda5 inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Position of the first point (index 0) of the <a class="el" href="classobe_1_1_transform_1_1_polygon.html" title="Class used for all Collisions in the engine, it&#39;s a Polygon containing n points {Polygon}. ">Polygon</a>.  <a href="classobe_1_1_transform_1_1_polygon.html#a638f94e00961bf3dcbb2ea9c17a3bda5">More...</a><br /></td></tr>
 <tr class="separator:a638f94e00961bf3dcbb2ea9c17a3bda5 inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42007b749fb615cc2f58b183a184c68c inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_polygon.html#a42007b749fb615cc2f58b183a184c68c">getRotation</a> () const</td></tr>
 <tr class="memdesc:a42007b749fb615cc2f58b183a184c68c inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the current angle of the PolygonalCollider.  <a href="classobe_1_1_transform_1_1_polygon.html#a42007b749fb615cc2f58b183a184c68c">More...</a><br /></td></tr>
 <tr class="separator:a42007b749fb615cc2f58b183a184c68c inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a304f9b55cbd65b57fb3f9f769dfa5d7e inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_polygon_segment.html">PolygonSegment</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_polygon.html#a304f9b55cbd65b57fb3f9f769dfa5d7e">getSegment</a> (<a class="el" href="namespaceobe_1_1_transform.html#a65e7247d682e372d7fbbeaf1e0d8d199">point_index_t</a> segment)</td></tr>
+<tr class="memitem:a304f9b55cbd65b57fb3f9f769dfa5d7e inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_polygon_segment.html">PolygonSegment</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_polygon.html#a304f9b55cbd65b57fb3f9f769dfa5d7e">getSegment</a> (<a class="el" href="namespaceobe_1_1_transform.html#af3fe8c5275029ee4b3906b76e317c4a5">point_index_t</a> segment)</td></tr>
 <tr class="memdesc:a304f9b55cbd65b57fb3f9f769dfa5d7e inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the segment of the <a class="el" href="classobe_1_1_transform_1_1_polygon.html" title="Class used for all Collisions in the engine, it&#39;s a Polygon containing n points {Polygon}. ">Polygon</a> at index segment.  <a href="classobe_1_1_transform_1_1_polygon.html#a304f9b55cbd65b57fb3f9f769dfa5d7e">More...</a><br /></td></tr>
 <tr class="separator:a304f9b55cbd65b57fb3f9f769dfa5d7e inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e8a5b9d130e1fea6ce5d4d6f3b27d41 inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="classobe_1_1_transform_1_1_polygon_segment.html">PolygonSegment</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_polygon.html#a2e8a5b9d130e1fea6ce5d4d6f3b27d41">getSegmentContainingPoint</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;position, double tolerance=<a class="el" href="classobe_1_1_transform_1_1_polygon.html#a1e525dafde5440fa66668e92958fc2e0">DefaultTolerance</a>)</td></tr>
@@ -180,9 +181,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:abd8682077720a886708d96ad525337cf inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a77b96a3ddcc3a27879302dd55d8505 inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_polygon.html#a6a77b96a3ddcc3a27879302dd55d8505">setPositionFromCentroid</a> (const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;position)</td></tr>
 <tr class="separator:a6a77b96a3ddcc3a27879302dd55d8505 inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46338ead2bc5464fa2c51f078eb94da4 inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_polygon_point.html">PolygonPoint</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_polygon.html#a46338ead2bc5464fa2c51f078eb94da4">operator[]</a> (<a class="el" href="namespaceobe_1_1_transform.html#a65e7247d682e372d7fbbeaf1e0d8d199">point_index_t</a> i)</td></tr>
+<tr class="memitem:a46338ead2bc5464fa2c51f078eb94da4 inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_polygon_point.html">PolygonPoint</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_polygon.html#a46338ead2bc5464fa2c51f078eb94da4">operator[]</a> (<a class="el" href="namespaceobe_1_1_transform.html#af3fe8c5275029ee4b3906b76e317c4a5">point_index_t</a> i)</td></tr>
 <tr class="separator:a46338ead2bc5464fa2c51f078eb94da4 inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad64b7c3eb99c8e6a58ec0e3c4f648700 inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_polygon_point.html">PolygonPoint</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_polygon.html#ad64b7c3eb99c8e6a58ec0e3c4f648700">get</a> (<a class="el" href="namespaceobe_1_1_transform.html#a65e7247d682e372d7fbbeaf1e0d8d199">point_index_t</a> i)</td></tr>
+<tr class="memitem:ad64b7c3eb99c8e6a58ec0e3c4f648700 inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_polygon_point.html">PolygonPoint</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_polygon.html#ad64b7c3eb99c8e6a58ec0e3c4f648700">get</a> (<a class="el" href="namespaceobe_1_1_transform.html#af3fe8c5275029ee4b3906b76e317c4a5">point_index_t</a> i)</td></tr>
 <tr class="separator:ad64b7c3eb99c8e6a58ec0e3c4f648700 inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b74dd9fba73b5b70fe439b0c7b64a7d inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_transform_1_1_rect.html">Rect</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_transform_1_1_polygon.html#a2b74dd9fba73b5b70fe439b0c7b64a7d">getBoundingBox</a> () const</td></tr>
 <tr class="separator:a2b74dd9fba73b5b70fe439b0c7b64a7d inherit pub_methods_classobe_1_1_transform_1_1_polygon"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -403,14 +404,14 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a1c271a2c1f591d295ff28955f76c22d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c271a2c1f591d295ff28955f76c22d5">&#9670;&nbsp;</a></span>doesCollide() <span class="overload">[1/2]</span></h2>
+<a id="a450350bdcf1103bd4dca5ca600c38dc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a450350bdcf1103bd4dca5ca600c38dc8">&#9670;&nbsp;</a></span>doesCollide() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool obe::Collision::PolygonalCollider::doesCollide </td>
+          <td class="memname"><a class="el" href="classobe_1_1_collision_1_1_collision_data.html">CollisionData</a> obe::Collision::PolygonalCollider::doesCollide </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
           <td class="paramname"><em>offset</em></td><td>)</td>
@@ -418,6 +419,15 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Checks if the collider is intersecting other colliders. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">offset</td><td>The offset to apply to the source collider </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classobe_1_1_collision_1_1_collision_data.html" title="Struct containing data of a collision applied to a collider {CollisionData}. ">CollisionData</a> containing intersected colliders (offset doesn't change) </dd></dl>
 
 </div>
 </div>
@@ -535,8 +545,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a2fb861632438bb30a73a7d3019f5b1ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2fb861632438bb30a73a7d3019f5b1ae">&#9670;&nbsp;</a></span>dump()</h2>
+<a id="a63e619ef0374930bee9d1d5494a1ad9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63e619ef0374930bee9d1d5494a1ad9c">&#9670;&nbsp;</a></span>dump()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -545,10 +555,9 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void obe::Collision::PolygonalCollider::dump </td>
+          <td class="memname">vili::node obe::Collision::PolygonalCollider::dump </td>
           <td>(</td>
-          <td class="paramtype">vili::ComplexNode &amp;&#160;</td>
-          <td class="paramname"><em>target</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -567,7 +576,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="classobe_1_1_component_1_1_component.html#a770c19f1cb1287d559ad5803eb1039e1">obe::Component::Component&lt; PolygonalCollider &gt;</a>.</p>
+<p>Implements <a class="el" href="classobe_1_1_component_1_1_component.html#afd04db15966e37e04a26eabf01f3b24a">obe::Component::Component&lt; PolygonalCollider &gt;</a>.</p>
 
 </div>
 </div>
@@ -598,14 +607,14 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a854283780bf3c431f2b7d7413881829e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a854283780bf3c431f2b7d7413881829e">&#9670;&nbsp;</a></span>getMaximumDistanceBeforeCollision() <span class="overload">[1/2]</span></h2>
+<a id="ac91fd4b6594979c7e29376f0e3201cc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac91fd4b6594979c7e29376f0e3201cc7">&#9670;&nbsp;</a></span>getMaximumDistanceBeforeCollision() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> obe::Collision::PolygonalCollider::getMaximumDistanceBeforeCollision </td>
+          <td class="memname"><a class="el" href="classobe_1_1_collision_1_1_collision_data.html">CollisionData</a> obe::Collision::PolygonalCollider::getMaximumDistanceBeforeCollision </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classobe_1_1_transform_1_1_unit_vector.html">Transform::UnitVector</a> &amp;&#160;</td>
           <td class="paramname"><em>offset</em></td><td>)</td>
@@ -621,7 +630,7 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>The maximum distance the Collider can travel before colliding </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classobe_1_1_collision_1_1_collision_data.html" title="Struct containing data of a collision applied to a collider {CollisionData}. ">CollisionData</a> struct containing the other colliders that had been met and the maximum distance the collider can travel before colliding </dd></dl>
 
 </div>
 </div>
@@ -683,8 +692,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a5fc6e419e7b6721e53dc8c727a086bc7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5fc6e419e7b6721e53dc8c727a086bc7">&#9670;&nbsp;</a></span>load()</h2>
+<a id="aae041291432a0232f34f6854ea7cb5c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae041291432a0232f34f6854ea7cb5c4">&#9670;&nbsp;</a></span>load()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -695,7 +704,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void obe::Collision::PolygonalCollider::load </td>
           <td>(</td>
-          <td class="paramtype">vili::ComplexNode &amp;&#160;</td>
+          <td class="paramtype">vili::node &amp;&#160;</td>
           <td class="paramname"><em>data</em></td><td>)</td>
           <td></td>
         </tr>
@@ -715,7 +724,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="classobe_1_1_component_1_1_component.html#a429f0bb0674cacdbb957f9553ef37c3a">obe::Component::Component&lt; PolygonalCollider &gt;</a>.</p>
+<p>Implements <a class="el" href="classobe_1_1_component_1_1_component.html#a05e61b8aaa1b309d6a63877fc4bf2766">obe::Component::Component&lt; PolygonalCollider &gt;</a>.</p>
 
 </div>
 </div>

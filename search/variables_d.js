@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['offset',['offset',['../classobe_1_1_collision_1_1_collision_data.html#a9af23196940ef5f7955cdb41971ad9d0',1,'obe::Collision::CollisionData']]],
   ['oldlace',['OldLace',['../classobe_1_1_graphics_1_1_color.html#a73608c3844db9e01a8eaae3a143877a0',1,'obe::Graphics::Color']]],
   ['olive',['Olive',['../classobe_1_1_graphics_1_1_color.html#aca98063cf3e2dc37cb7d18cc01d2a9b4',1,'obe::Graphics::Color']]],
   ['olivedrab',['OliveDrab',['../classobe_1_1_graphics_1_1_color.html#a2f15c14cffecaf80386c7b743920672a',1,'obe::Graphics::Color']]],

@@ -67,6 +67,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="classobe_1_1_system_1_1_mountable_path-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -84,6 +85,29 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a68427282df916caf382e792babe7914b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_mountable_path.html#a68427282df916caf382e792babe7914b">MountablePath</a> (<a class="el" href="namespaceobe_1_1_system.html#a049a6c20e2d373ae7154568ed843050b">MountablePathType</a> <a class="el" href="classobe_1_1_system_1_1_mountable_path.html#a6ea4a9837c3c984a6ecc9583d6950095">pathType</a>, const std::string &amp;<a class="el" href="classobe_1_1_system_1_1_mountable_path.html#af1a76cd5e86c3672e5b30308572beb6b">basePath</a>, unsigned int <a class="el" href="classobe_1_1_system_1_1_mountable_path.html#a03a316ab0d1de40c3cab5aeef0acd724">priority</a>=0)</td></tr>
 <tr class="memdesc:a68427282df916caf382e792babe7914b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor of <a class="el" href="classobe_1_1_system_1_1_mountable_path.html" title="Class used to encapsulate mounted Paths. ">MountablePath</a>.  <a href="#a68427282df916caf382e792babe7914b">More...</a><br /></td></tr>
 <tr class="separator:a68427282df916caf382e792babe7914b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bc0b63b89217dda34d6e29506f10bb2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_mountable_path.html#a0bc0b63b89217dda34d6e29506f10bb2">operator==</a> (const <a class="el" href="classobe_1_1_system_1_1_mountable_path.html">MountablePath</a> &amp;other) const</td></tr>
+<tr class="separator:a0bc0b63b89217dda34d6e29506f10bb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a8d1c9b605fae5fafe7fef596c6a9fa58"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_mountable_path.html#a8d1c9b605fae5fafe7fef596c6a9fa58">LoadMountFile</a> ()</td></tr>
+<tr class="memdesc:a8d1c9b605fae5fafe7fef596c6a9fa58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function called to Mount all Paths using 'Mount.vili' file.  <a href="#a8d1c9b605fae5fafe7fef596c6a9fa58">More...</a><br /></td></tr>
+<tr class="separator:a8d1c9b605fae5fafe7fef596c6a9fa58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedf946927128aac843a2249424994760"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_mountable_path.html#aedf946927128aac843a2249424994760">Mount</a> (<a class="el" href="classobe_1_1_system_1_1_mountable_path.html">MountablePath</a> path)</td></tr>
+<tr class="memdesc:aedf946927128aac843a2249424994760"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a <a class="el" href="classobe_1_1_system_1_1_path.html" title="Class used to manipulate paths and dynamically load resources (Based on multiple mounted paths) {Path...">Path</a> to Mounted Paths.  <a href="#aedf946927128aac843a2249424994760">More...</a><br /></td></tr>
+<tr class="separator:aedf946927128aac843a2249424994760"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cca23cdb661d53e1b825c02e2f60bda"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_mountable_path.html#a8cca23cdb661d53e1b825c02e2f60bda">Unmount</a> (<a class="el" href="classobe_1_1_system_1_1_mountable_path.html">MountablePath</a> path)</td></tr>
+<tr class="memdesc:a8cca23cdb661d53e1b825c02e2f60bda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a <a class="el" href="classobe_1_1_system_1_1_path.html" title="Class used to manipulate paths and dynamically load resources (Based on multiple mounted paths) {Path...">Path</a> from Mounted Paths.  <a href="#a8cca23cdb661d53e1b825c02e2f60bda">More...</a><br /></td></tr>
+<tr class="separator:a8cca23cdb661d53e1b825c02e2f60bda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43eccf6919c032f7b5849a08e1f2f4f0"><td class="memItemLeft" align="right" valign="top">static const std::vector&lt; <a class="el" href="classobe_1_1_system_1_1_mountable_path.html">MountablePath</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_mountable_path.html#a43eccf6919c032f7b5849a08e1f2f4f0">Paths</a> ()</td></tr>
+<tr class="memdesc:a43eccf6919c032f7b5849a08e1f2f4f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">All the Mounted Paths.  <a href="#a43eccf6919c032f7b5849a08e1f2f4f0">More...</a><br /></td></tr>
+<tr class="separator:a43eccf6919c032f7b5849a08e1f2f4f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26b7ffc70d719e74bacace892dc70121"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_mountable_path.html#a26b7ffc70d719e74bacace892dc70121">StringPaths</a> ()</td></tr>
+<tr class="memdesc:a26b7ffc70d719e74bacace892dc70121"><td class="mdescLeft">&#160;</td><td class="mdescRight">All the Mounted Paths as strings.  <a href="#a26b7ffc70d719e74bacace892dc70121">More...</a><br /></td></tr>
+<tr class="separator:a26b7ffc70d719e74bacace892dc70121"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c27cc82c350e8a929cc5ddf196a4ed9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_mountable_path.html#a4c27cc82c350e8a929cc5ddf196a4ed9">Sort</a> ()</td></tr>
+<tr class="memdesc:a4c27cc82c350e8a929cc5ddf196a4ed9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort the mounted paths based on their priorities.  <a href="#a4c27cc82c350e8a929cc5ddf196a4ed9">More...</a><br /></td></tr>
+<tr class="separator:a4c27cc82c350e8a929cc5ddf196a4ed9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -138,6 +162,201 @@ Public Attributes</h2></td></tr>
     <tr><td class="paramname">pathType</td><td>Type of the mounted path </td></tr>
     <tr><td class="paramname">basePath</td><td><a class="el" href="classobe_1_1_system_1_1_path.html" title="Class used to manipulate paths and dynamically load resources (Based on multiple mounted paths) {Path...">Path</a> to the mounted path </td></tr>
     <tr><td class="paramname">priority</td><td>Priority of the mounted path </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a8d1c9b605fae5fafe7fef596c6a9fa58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d1c9b605fae5fafe7fef596c6a9fa58">&#9670;&nbsp;</a></span>LoadMountFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::System::MountablePath::LoadMountFile </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Function called to Mount all Paths using 'Mount.vili' file. </p>
+
+</div>
+</div>
+<a id="aedf946927128aac843a2249424994760"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedf946927128aac843a2249424994760">&#9670;&nbsp;</a></span>Mount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::System::MountablePath::Mount </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_system_1_1_mountable_path.html">MountablePath</a>&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add a <a class="el" href="classobe_1_1_system_1_1_path.html" title="Class used to manipulate paths and dynamically load resources (Based on multiple mounted paths) {Path...">Path</a> to Mounted Paths. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td><a class="el" href="classobe_1_1_system_1_1_path.html" title="Class used to manipulate paths and dynamically load resources (Based on multiple mounted paths) {Path...">Path</a> to mount </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a0bc0b63b89217dda34d6e29506f10bb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bc0b63b89217dda34d6e29506f10bb2">&#9670;&nbsp;</a></span>operator==()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool obe::System::MountablePath::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classobe_1_1_system_1_1_mountable_path.html">MountablePath</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a43eccf6919c032f7b5849a08e1f2f4f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43eccf6919c032f7b5849a08e1f2f4f0">&#9670;&nbsp;</a></span>Paths()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::vector&lt; <a class="el" href="classobe_1_1_system_1_1_mountable_path.html">MountablePath</a> &gt; &amp; obe::System::MountablePath::Paths </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>All the Mounted Paths. </p>
+
+</div>
+</div>
+<a id="a4c27cc82c350e8a929cc5ddf196a4ed9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c27cc82c350e8a929cc5ddf196a4ed9">&#9670;&nbsp;</a></span>Sort()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::System::MountablePath::Sort </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sort the mounted paths based on their priorities. </p>
+
+</div>
+</div>
+<a id="a26b7ffc70d719e74bacace892dc70121"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26b7ffc70d719e74bacace892dc70121">&#9670;&nbsp;</a></span>StringPaths()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::string &gt; obe::System::MountablePath::StringPaths </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>All the Mounted Paths as strings. </p>
+
+</div>
+</div>
+<a id="a8cca23cdb661d53e1b825c02e2f60bda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cca23cdb661d53e1b825c02e2f60bda">&#9670;&nbsp;</a></span>Unmount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obe::System::MountablePath::Unmount </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classobe_1_1_system_1_1_mountable_path.html">MountablePath</a>&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Remove a <a class="el" href="classobe_1_1_system_1_1_path.html" title="Class used to manipulate paths and dynamically load resources (Based on multiple mounted paths) {Path...">Path</a> from Mounted Paths. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td><a class="el" href="classobe_1_1_system_1_1_path.html" title="Class used to manipulate paths and dynamically load resources (Based on multiple mounted paths) {Path...">Path</a> to unmount </td></tr>
   </table>
   </dd>
 </dl>
