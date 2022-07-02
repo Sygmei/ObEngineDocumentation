@@ -68,35 +68,85 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">MountablePath.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;string&gt;</code><br />
+<code>#include &lt;string_view&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 </div>
 <p><a href="_mountable_path_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_mountable_path.html">obe::System::MountablePath</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class used to encapsulate mounted Paths.  <a href="classobe_1_1_system_1_1_mountable_path.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1system_1_1_mountable_path.html">obe::system::MountablePath</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class used to encapsulate mounted Paths.  <a href="classobe_1_1system_1_1_mountable_path.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespaceobe_1_1_system"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system.html">obe::System</a></td></tr>
+<tr class="memitem:namespaceobe_1_1system"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1system.html">obe::system</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespaceobe_1_1system_1_1prefixes"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1system_1_1prefixes.html">obe::system::prefixes</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespaceobe_1_1system_1_1priorities"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1system_1_1priorities.html">obe::system::priorities</a></td></tr>
+<tr class="memdesc:namespaceobe_1_1system_1_1priorities"><td class="mdescLeft">&#160;</td><td class="mdescRight">contains default priorities of mounts <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a5f9f241083159cca71ede3b270475738"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1system.html#a5f9f241083159cca71ede3b270475738">obe::system::MountList</a> = std::vector&lt; std::shared_ptr&lt; MountablePath &gt; &gt;</td></tr>
+<tr class="separator:a5f9f241083159cca71ede3b270475738"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a049a6c20e2d373ae7154568ed843050b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system.html#a049a6c20e2d373ae7154568ed843050b">obe::System::MountablePathType</a> { <a class="el" href="namespaceobe_1_1_system.html#a049a6c20e2d373ae7154568ed843050baac70412e939d72a9234cdebb1af5867b">obe::System::MountablePathType::Path</a>, 
-<a class="el" href="namespaceobe_1_1_system.html#a049a6c20e2d373ae7154568ed843050ba209802fb858e2c83205027dbbb5d9e6c">obe::System::MountablePathType::Package</a>, 
-<a class="el" href="namespaceobe_1_1_system.html#a049a6c20e2d373ae7154568ed843050ba03a21915504df93cf5dba0636080f62e">obe::System::MountablePathType::Workspace</a>
- }<tr class="memdesc:a049a6c20e2d373ae7154568ed843050b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the source of a mounted path {MountablePathType}.  <a href="namespaceobe_1_1_system.html#a049a6c20e2d373ae7154568ed843050b">More...</a><br /></td></tr>
+<tr class="memitem:ac1c00e52b523f5ab593e9d19b5777f04"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1system.html#ac1c00e52b523f5ab593e9d19b5777f04">obe::system::MountablePathType</a> { <a class="el" href="namespaceobe_1_1system.html#ac1c00e52b523f5ab593e9d19b5777f04aac70412e939d72a9234cdebb1af5867b">obe::system::MountablePathType::Path</a>, 
+<a class="el" href="namespaceobe_1_1system.html#ac1c00e52b523f5ab593e9d19b5777f04a209802fb858e2c83205027dbbb5d9e6c">obe::system::MountablePathType::Package</a>, 
+<a class="el" href="namespaceobe_1_1system.html#ac1c00e52b523f5ab593e9d19b5777f04a9e727fdd3aec8274f46685441900280d">obe::system::MountablePathType::Project</a>
+ }<tr class="memdesc:ac1c00e52b523f5ab593e9d19b5777f04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the source of a mounted path.  <a href="namespaceobe_1_1system.html#ac1c00e52b523f5ab593e9d19b5777f04">More...</a><br /></td></tr>
 </td></tr>
-<tr class="separator:a049a6c20e2d373ae7154568ed843050b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:ac1c00e52b523f5ab593e9d19b5777f04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d3094a5c4777f1c494346a2c03bcf15"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1system.html#a7d3094a5c4777f1c494346a2c03bcf15">obe::system::SamePrefixPolicy</a> { <a class="el" href="namespaceobe_1_1system.html#a7d3094a5c4777f1c494346a2c03bcf15abd43e477d77a9486562d44ba5b73e366">obe::system::SamePrefixPolicy::KeepBoth</a>, 
+<a class="el" href="namespaceobe_1_1system.html#a7d3094a5c4777f1c494346a2c03bcf15a72ef2b9b6965d078e3c7f95487a82d1c">obe::system::SamePrefixPolicy::Skip</a>, 
+<a class="el" href="namespaceobe_1_1system.html#a7d3094a5c4777f1c494346a2c03bcf15a0ebe6df8a3ac338e0512acc741823fdb">obe::system::SamePrefixPolicy::Replace</a>
+ }<tr class="memdesc:a7d3094a5c4777f1c494346a2c03bcf15"><td class="mdescLeft">&#160;</td><td class="mdescRight">action to take whenever two MountablePath with the same prefix are mounted  <a href="namespaceobe_1_1system.html#a7d3094a5c4777f1c494346a2c03bcf15">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:a7d3094a5c4777f1c494346a2c03bcf15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:abfca5bb1984a190482049bd516f9c9de"><td class="memItemLeft" align="right" valign="top">constexpr std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1system_1_1prefixes.html#abfca5bb1984a190482049bd516f9c9de">obe::system::prefixes::obe</a> = &quot;obe&quot;</td></tr>
+<tr class="separator:abfca5bb1984a190482049bd516f9c9de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65d15dae3a1e255cfafc5e5641ee3380"><td class="memItemLeft" align="right" valign="top">constexpr std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1system_1_1prefixes.html#a65d15dae3a1e255cfafc5e5641ee3380">obe::system::prefixes::cwd</a> = &quot;cwd&quot;</td></tr>
+<tr class="separator:a65d15dae3a1e255cfafc5e5641ee3380"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a800cab55c04595e819e0fcd0d0e16766"><td class="memItemLeft" align="right" valign="top">constexpr std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1system_1_1prefixes.html#a800cab55c04595e819e0fcd0d0e16766">obe::system::prefixes::exe</a> = &quot;exe&quot;</td></tr>
+<tr class="separator:a800cab55c04595e819e0fcd0d0e16766"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58a17363876653798686d9110a42871a"><td class="memItemLeft" align="right" valign="top">constexpr std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1system_1_1prefixes.html#a58a17363876653798686d9110a42871a">obe::system::prefixes::cfg</a> = &quot;cfg&quot;</td></tr>
+<tr class="separator:a58a17363876653798686d9110a42871a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aece1426ea388529b302d3be21f27e82c"><td class="memItemLeft" align="right" valign="top">constexpr std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1system_1_1prefixes.html#aece1426ea388529b302d3be21f27e82c">obe::system::prefixes::mount</a> = &quot;mount&quot;</td></tr>
+<tr class="separator:aece1426ea388529b302d3be21f27e82c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1648d1a96290819c7b28095b55464e4b"><td class="memItemLeft" align="right" valign="top">constexpr std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1system_1_1prefixes.html#a1648d1a96290819c7b28095b55464e4b">obe::system::prefixes::extlibs</a> = &quot;extlibs&quot;</td></tr>
+<tr class="separator:a1648d1a96290819c7b28095b55464e4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7a8050dcd8da293c696a8ac43848b8c"><td class="memItemLeft" align="right" valign="top">constexpr std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1system_1_1prefixes.html#ae7a8050dcd8da293c696a8ac43848b8c">obe::system::prefixes::root</a> = &quot;root&quot;</td></tr>
+<tr class="separator:ae7a8050dcd8da293c696a8ac43848b8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb737e75e914e0ff3256b1084cf50d50"><td class="memItemLeft" align="right" valign="top">constexpr std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1system_1_1prefixes.html#adb737e75e914e0ff3256b1084cf50d50">obe::system::prefixes::game</a> = &quot;game&quot;</td></tr>
+<tr class="separator:adb737e75e914e0ff3256b1084cf50d50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5efa8a99145a288a6125f8fa55bb2e1"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1system_1_1priorities.html#ae5efa8a99145a288a6125f8fa55bb2e1">obe::system::priorities::high</a> = 5</td></tr>
+<tr class="separator:ae5efa8a99145a288a6125f8fa55bb2e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf7cfa31df89d8492f82840e9a4ee438"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1system_1_1priorities.html#acf7cfa31df89d8492f82840e9a4ee438">obe::system::priorities::projectmount</a> = 4</td></tr>
+<tr class="separator:acf7cfa31df89d8492f82840e9a4ee438"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac647b4af489123f0f656052a7fad3f41"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1system_1_1priorities.html#ac647b4af489123f0f656052a7fad3f41">obe::system::priorities::project</a> = 3</td></tr>
+<tr class="separator:ac647b4af489123f0f656052a7fad3f41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e8ccd7b9ca4d6af2b385a69a1f20ec4"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1system_1_1priorities.html#a9e8ccd7b9ca4d6af2b385a69a1f20ec4">obe::system::priorities::mount</a> = 2</td></tr>
+<tr class="separator:a9e8ccd7b9ca4d6af2b385a69a1f20ec4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a541a4b837a431729a0e8437ada85605d"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1system_1_1priorities.html#a541a4b837a431729a0e8437ada85605d">obe::system::priorities::defaults</a> = 1</td></tr>
+<tr class="separator:a541a4b837a431729a0e8437ada85605d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6efd4f1533dec56f524396a45dee729e"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1system_1_1priorities.html#a6efd4f1533dec56f524396a45dee729e">obe::system::priorities::low</a> = 0</td></tr>
+<tr class="separator:a6efd4f1533dec56f524396a45dee729e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

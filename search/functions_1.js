@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['bezier',['Bezier',['../classobe_1_1_graphics_1_1_canvas_1_1_bezier.html#ad30a790782e1f00bf99204caaef39705',1,'obe::Graphics::Canvas::Bezier']]],
-  ['bindingtree',['BindingTree',['../classobe_1_1_bindings_1_1_binding_tree.html#a3912411ecbc60cb641f6e7d95ee175b3',1,'obe::Bindings::BindingTree::BindingTree(BindingTree *parent, const std::string &amp;id, std::function&lt; void(sol::state_view)&gt; lib)'],['../classobe_1_1_bindings_1_1_binding_tree.html#adcc05dd9bfb246cf6a4bad56f535b03c',1,'obe::Bindings::BindingTree::BindingTree(BindingTree *parent, const std::string &amp;id)'],['../classobe_1_1_bindings_1_1_binding_tree.html#a2b540e53c23943b63cb5b0dc65830972',1,'obe::Bindings::BindingTree::BindingTree(const std::string &amp;id)']]],
-  ['bindingtreenodenotfound',['BindingTreeNodeNotFound',['../classobe_1_1_bindings_1_1_exceptions_1_1_binding_tree_node_not_found.html#a4b30912d763454f116ee21c0ca4959d1',1,'obe::Bindings::Exceptions::BindingTreeNodeNotFound']]],
-  ['bootscriptexecutionerror',['BootScriptExecutionError',['../classobe_1_1_engine_1_1_exceptions_1_1_boot_script_execution_error.html#a9e9a37cabc915e4908cfb5c9605631fd',1,'obe::Engine::Exceptions::BootScriptExecutionError']]],
-  ['bootscriptloadingerror',['BootScriptLoadingError',['../classobe_1_1_engine_1_1_exceptions_1_1_boot_script_loading_error.html#a8492391a25f6b26c2b7a4c146baedc0e',1,'obe::Engine::Exceptions::BootScriptLoadingError']]],
-  ['bootscriptmissing',['BootScriptMissing',['../classobe_1_1_engine_1_1_exceptions_1_1_boot_script_missing.html#a291ec95f6a901f0eb318abc1d4a6fb85',1,'obe::Engine::Exceptions::BootScriptMissing']]]
+  ['baseexception',['BaseException',['../classobe_1_1_base_exception.html#a349aa7ca4537ee7bbcde8c7bdccb859a',1,'obe::BaseException::BaseException()=default'],['../classobe_1_1_base_exception.html#a6be5b6cecfc30a3689a033df56e84d01',1,'obe::BaseException::BaseException(const std::exception &amp;e) noexcept']]],
+  ['bezier',['Bezier',['../classobe_1_1graphics_1_1canvas_1_1_bezier.html#a23de27bfef654c20a011441e17eb3d1c',1,'obe::graphics::canvas::Bezier']]],
+  ['bootscriptexecutionerror',['BootScriptExecutionError',['../classobe_1_1engine_1_1exceptions_1_1_boot_script_execution_error.html#a8a25b59a1c15b0074476db6d38c70dfe',1,'obe::engine::exceptions::BootScriptExecutionError']]],
+  ['bootscriptloadingerror',['BootScriptLoadingError',['../classobe_1_1engine_1_1exceptions_1_1_boot_script_loading_error.html#a84bb97ac07ac8bc334967cb87efdc5fa',1,'obe::engine::exceptions::BootScriptLoadingError']]],
+  ['bootscriptmissing',['BootScriptMissing',['../classobe_1_1engine_1_1exceptions_1_1_boot_script_missing.html#a32ef5734f9488f6437c18bed14325760',1,'obe::engine::exceptions::BootScriptMissing']]],
+  ['build',['build',['../classobe_1_1tiles_1_1_tile_layer.html#a4566e9ad6027352c2e416d772c68c76a',1,'obe::tiles::TileLayer']]]
 ];

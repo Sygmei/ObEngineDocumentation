@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ObEngine: sources/include/Core/Triggers/CallbackScheduler.hpp File Reference</title>
+<title>ObEngine: sources/include/Core/Event/CallbackScheduler.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_08d237fc27d4ecd563f71c5d52f2fecc.html">sources</a></li><li class="navelem"><a class="el" href="dir_da0f06c86f1c908881a669eb19c3ce89.html">include</a></li><li class="navelem"><a class="el" href="dir_cbaa0c83958b92456d92d99a1af8e596.html">Core</a></li><li class="navelem"><a class="el" href="dir_25ba656a0b6054a93d7b8c683e209e0b.html">Triggers</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_08d237fc27d4ecd563f71c5d52f2fecc.html">sources</a></li><li class="navelem"><a class="el" href="dir_da0f06c86f1c908881a669eb19c3ce89.html">include</a></li><li class="navelem"><a class="el" href="dir_cbaa0c83958b92456d92d99a1af8e596.html">Core</a></li><li class="navelem"><a class="el" href="dir_3d5846f001af72c462314e31a2ac9cc9.html">Event</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -81,26 +81,26 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_triggers_1_1_callback_scheduler.html">obe::Triggers::CallbackScheduler</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1event_1_1_callback_scheduler.html">obe::event::CallbackScheduler</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespaceobe_1_1_triggers"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_triggers.html">obe::Triggers</a></td></tr>
+<tr class="memitem:namespaceobe_1_1event"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1event.html">obe::event</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a84f3b6576ce9a4440e47c3cb03f0aa55"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_triggers.html#a84f3b6576ce9a4440e47c3cb03f0aa55">obe::Triggers::Callback</a> = std::function&lt; void()&gt;</td></tr>
-<tr class="separator:a84f3b6576ce9a4440e47c3cb03f0aa55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a106c49b02cd7a6816ce2908014dd1b68"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1event.html#a106c49b02cd7a6816ce2908014dd1b68">obe::event::Callback</a> = std::function&lt; void()&gt;</td></tr>
+<tr class="separator:a106c49b02cd7a6816ce2908014dd1b68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a3ec55d483b7903d22fa2b895b634ba46"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_triggers.html#a3ec55d483b7903d22fa2b895b634ba46">obe::Triggers::CallbackSchedulerState</a> { <a class="el" href="namespaceobe_1_1_triggers.html#a3ec55d483b7903d22fa2b895b634ba46a2dbec34a65724db94f81e8533ee18192">obe::Triggers::CallbackSchedulerState::Standby</a>, 
-<a class="el" href="namespaceobe_1_1_triggers.html#a3ec55d483b7903d22fa2b895b634ba46ae7d31fc0602fb2ede144d18cdffd816b">obe::Triggers::CallbackSchedulerState::Ready</a>, 
-<a class="el" href="namespaceobe_1_1_triggers.html#a3ec55d483b7903d22fa2b895b634ba46af92965e2c8a7afb3c1b9a5c09a263636">obe::Triggers::CallbackSchedulerState::Done</a>
+<tr class="memitem:ae9e1c94bcef6261da581d93f26707e0b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1event.html#ae9e1c94bcef6261da581d93f26707e0b">obe::event::CallbackSchedulerState</a> { <a class="el" href="namespaceobe_1_1event.html#ae9e1c94bcef6261da581d93f26707e0ba2dbec34a65724db94f81e8533ee18192">obe::event::CallbackSchedulerState::Standby</a>, 
+<a class="el" href="namespaceobe_1_1event.html#ae9e1c94bcef6261da581d93f26707e0bae7d31fc0602fb2ede144d18cdffd816b">obe::event::CallbackSchedulerState::Ready</a>, 
+<a class="el" href="namespaceobe_1_1event.html#ae9e1c94bcef6261da581d93f26707e0baf92965e2c8a7afb3c1b9a5c09a263636">obe::event::CallbackSchedulerState::Done</a>
  }</td></tr>
-<tr class="separator:a3ec55d483b7903d22fa2b895b634ba46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:ae9e1c94bcef6261da581d93f26707e0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

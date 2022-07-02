@@ -74,28 +74,29 @@ $(function() {
 <div class="contents">
 <div class="textblock"><code>#include &lt;SFML/Graphics/CircleShape.hpp&gt;</code><br />
 <code>#include &lt;<a class="el" href="_draw_utils_8hpp_source.html">Graphics/DrawUtils.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_system_2_window_8hpp_source.html">System/Window.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_render_target_8hpp_source.html">Graphics/RenderTarget.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_unit_vector_8hpp_source.html">Transform/UnitVector.hpp</a>&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespaceobe_1_1_graphics_1_1_utils"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_graphics_1_1_utils.html">obe::Graphics::Utils</a></td></tr>
-<tr class="memdesc:namespaceobe_1_1_graphics_1_1_utils"><td class="mdescLeft">&#160;</td><td class="mdescRight">Some useful <a class="el" href="namespaceobe_1_1_graphics.html">Graphics</a> functions. <br /></td></tr>
+<tr class="memitem:namespaceobe_1_1graphics_1_1utils"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1graphics_1_1utils.html">obe::graphics::utils</a></td></tr>
+<tr class="memdesc:namespaceobe_1_1graphics_1_1utils"><td class="mdescLeft">&#160;</td><td class="mdescRight">Some useful Graphics functions. {<a class="el" href="_render_target_8hpp.html">Graphics/RenderTarget.hpp</a>}. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ac97b7e28ad88af5b852616cebd50c551"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ac97b7e28ad88af5b852616cebd50c551"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_graphics_1_1_utils.html#ac97b7e28ad88af5b852616cebd50c551">obe::Graphics::Utils::findOptionOrDefault</a> (const DrawPolygonOptions &amp;options, const char *key, T defaultValue)</td></tr>
-<tr class="separator:ac97b7e28ad88af5b852616cebd50c551"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9fa5fc4b2e0a2b0eaa3d4c774db38f1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_graphics_1_1_utils.html#a9fa5fc4b2e0a2b0eaa3d4c774db38f1a">obe::Graphics::Utils::drawPoint</a> (RenderTarget surface, int x, int y, float radius, const Color &amp;color)</td></tr>
-<tr class="memdesc:a9fa5fc4b2e0a2b0eaa3d4c774db38f1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a Point.  <a href="namespaceobe_1_1_graphics_1_1_utils.html#a9fa5fc4b2e0a2b0eaa3d4c774db38f1a">More...</a><br /></td></tr>
-<tr class="separator:a9fa5fc4b2e0a2b0eaa3d4c774db38f1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa441c4529e8f4c6e490b1c12b78d3c62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_graphics_1_1_utils.html#aa441c4529e8f4c6e490b1c12b78d3c62">obe::Graphics::Utils::drawLine</a> (RenderTarget surface, int x1, int y1, int x2, int y2, int thickness, const Color &amp;color)</td></tr>
-<tr class="memdesc:aa441c4529e8f4c6e490b1c12b78d3c62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a Line.  <a href="namespaceobe_1_1_graphics_1_1_utils.html#aa441c4529e8f4c6e490b1c12b78d3c62">More...</a><br /></td></tr>
-<tr class="separator:aa441c4529e8f4c6e490b1c12b78d3c62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43c3ec1e0b5e425f9b947db4e78b2511"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_graphics_1_1_utils.html#a43c3ec1e0b5e425f9b947db4e78b2511">obe::Graphics::Utils::drawPolygon</a> (RenderTarget surface, std::vector&lt; Transform::UnitVector &gt; &amp;points, const DrawPolygonOptions &amp;options)</td></tr>
-<tr class="memdesc:a43c3ec1e0b5e425f9b947db4e78b2511"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a Polygon.  <a href="namespaceobe_1_1_graphics_1_1_utils.html#a43c3ec1e0b5e425f9b947db4e78b2511">More...</a><br /></td></tr>
-<tr class="separator:a43c3ec1e0b5e425f9b947db4e78b2511"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6dc8e576c277b367f79970c6adbf3eda"><td class="memTemplParams" colspan="2">template&lt;typename Key , typename Value &gt; </td></tr>
+<tr class="memitem:a6dc8e576c277b367f79970c6adbf3eda"><td class="memTemplItemLeft" align="right" valign="top">const Value &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1graphics_1_1utils.html#a6dc8e576c277b367f79970c6adbf3eda">obe::graphics::utils::get_key_or</a> (const std::unordered_map&lt; Key, Value &gt; &amp;m, const Key &amp;key, const Value &amp;default_value)</td></tr>
+<tr class="separator:a6dc8e576c277b367f79970c6adbf3eda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8b3100db1195f39dfb124d30255e73d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1graphics_1_1utils.html#ac8b3100db1195f39dfb124d30255e73d">obe::graphics::utils::draw_point</a> (RenderTarget surface, int x, int y, float radius, const Color &amp;color)</td></tr>
+<tr class="memdesc:ac8b3100db1195f39dfb124d30255e73d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a Point.  <a href="namespaceobe_1_1graphics_1_1utils.html#ac8b3100db1195f39dfb124d30255e73d">More...</a><br /></td></tr>
+<tr class="separator:ac8b3100db1195f39dfb124d30255e73d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae13af0d8123d86d2ae63a45bc62512fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1graphics_1_1utils.html#ae13af0d8123d86d2ae63a45bc62512fd">obe::graphics::utils::draw_line</a> (RenderTarget surface, int x1, int y1, int x2, int y2, int thickness, const Color &amp;color)</td></tr>
+<tr class="memdesc:ae13af0d8123d86d2ae63a45bc62512fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a Line.  <a href="namespaceobe_1_1graphics_1_1utils.html#ae13af0d8123d86d2ae63a45bc62512fd">More...</a><br /></td></tr>
+<tr class="separator:ae13af0d8123d86d2ae63a45bc62512fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46c6999794b92e1f234f178a4d6caeec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1graphics_1_1utils.html#a46c6999794b92e1f234f178a4d6caeec">obe::graphics::utils::draw_polygon</a> (RenderTarget surface, const std::vector&lt; transform::UnitVector &gt; &amp;points, const DrawPolygonOptions &amp;options)</td></tr>
+<tr class="memdesc:a46c6999794b92e1f234f178a4d6caeec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws a Polygon.  <a href="namespaceobe_1_1graphics_1_1utils.html#a46c6999794b92e1f234f178a4d6caeec">More...</a><br /></td></tr>
+<tr class="separator:a46c6999794b92e1f234f178a4d6caeec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

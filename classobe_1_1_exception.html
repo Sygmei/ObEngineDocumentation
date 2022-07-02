@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ObEngine: obe::Exception Class Reference</title>
+<title>ObEngine: obe::Exception&lt; ExceptionType &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -69,90 +69,74 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classobe_1_1_exception-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">obe::Exception Class Reference</div>  </div>
+<div class="title">obe::Exception&lt; ExceptionType &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="_exception_8hpp_source.html">Exception.hpp</a>&gt;</code></p>
 
-<p>Inherits exception.</p>
-
-<p>Inherited by <a class="el" href="classobe_1_1_animation_1_1_exceptions_1_1_animation_group_texture_index_overflow.html">obe::Animation::Exceptions::AnimationGroupTextureIndexOverflow</a>, <a class="el" href="classobe_1_1_animation_1_1_exceptions_1_1_animation_texture_index_overflow.html">obe::Animation::Exceptions::AnimationTextureIndexOverflow</a>, <a class="el" href="classobe_1_1_animation_1_1_exceptions_1_1_invalid_animation_file.html">obe::Animation::Exceptions::InvalidAnimationFile</a>, <a class="el" href="classobe_1_1_animation_1_1_exceptions_1_1_missing_animation_property.html">obe::Animation::Exceptions::MissingAnimationProperty</a>, <a class="el" href="classobe_1_1_animation_1_1_exceptions_1_1_no_selected_animation.html">obe::Animation::Exceptions::NoSelectedAnimation</a>, <a class="el" href="classobe_1_1_animation_1_1_exceptions_1_1_no_selected_animation_group.html">obe::Animation::Exceptions::NoSelectedAnimationGroup</a>, <a class="el" href="classobe_1_1_animation_1_1_exceptions_1_1_unknown_animation.html">obe::Animation::Exceptions::UnknownAnimation</a>, <a class="el" href="classobe_1_1_animation_1_1_exceptions_1_1_unknown_animation_command.html">obe::Animation::Exceptions::UnknownAnimationCommand</a>, <a class="el" href="classobe_1_1_animation_1_1_exceptions_1_1_unknown_animation_group.html">obe::Animation::Exceptions::UnknownAnimationGroup</a>, <a class="el" href="classobe_1_1_animation_1_1_exceptions_1_1_unknown_animation_play_mode.html">obe::Animation::Exceptions::UnknownAnimationPlayMode</a>, <a class="el" href="classobe_1_1_animation_1_1_exceptions_1_1_unknown_easing_from_enum.html">obe::Animation::Exceptions::UnknownEasingFromEnum</a>, <a class="el" href="classobe_1_1_animation_1_1_exceptions_1_1_unknown_easing_from_string.html">obe::Animation::Exceptions::UnknownEasingFromString</a>, <a class="el" href="classobe_1_1_audio_1_1_exceptions_1_1_audio_file_not_found.html">obe::Audio::Exceptions::AudioFileNotFound</a>, <a class="el" href="classobe_1_1_bindings_1_1_exceptions_1_1_binding_tree_node_not_found.html">obe::Bindings::Exceptions::BindingTreeNodeNotFound</a>, <a class="el" href="classobe_1_1_component_1_1_exceptions_1_1_component_id_already_taken.html">obe::Component::Exceptions::ComponentIdAlreadyTaken</a>, <a class="el" href="classobe_1_1_config_1_1_exceptions_1_1_invalid_version_format.html">obe::Config::Exceptions::InvalidVersionFormat</a>, <a class="el" href="classobe_1_1_engine_1_1_exceptions_1_1_boot_script_execution_error.html">obe::Engine::Exceptions::BootScriptExecutionError</a>, <a class="el" href="classobe_1_1_engine_1_1_exceptions_1_1_boot_script_loading_error.html">obe::Engine::Exceptions::BootScriptLoadingError</a>, <a class="el" href="classobe_1_1_engine_1_1_exceptions_1_1_boot_script_missing.html">obe::Engine::Exceptions::BootScriptMissing</a>, <a class="el" href="classobe_1_1_engine_1_1_exceptions_1_1_font_not_found.html">obe::Engine::Exceptions::FontNotFound</a>, <a class="el" href="classobe_1_1_engine_1_1_exceptions_1_1_texture_not_found.html">obe::Engine::Exceptions::TextureNotFound</a>, <a class="el" href="classobe_1_1_engine_1_1_exceptions_1_1_unitialized_engine.html">obe::Engine::Exceptions::UnitializedEngine</a>, <a class="el" href="classobe_1_1_graphics_1_1_exceptions_1_1_canvas_element_already_exists.html">obe::Graphics::Exceptions::CanvasElementAlreadyExists</a>, <a class="el" href="classobe_1_1_graphics_1_1_exceptions_1_1_image_file_not_found.html">obe::Graphics::Exceptions::ImageFileNotFound</a>, <a class="el" href="classobe_1_1_graphics_1_1_exceptions_1_1_invalid_color_name.html">obe::Graphics::Exceptions::InvalidColorName</a>, <a class="el" href="classobe_1_1_graphics_1_1_exceptions_1_1_invalid_sprite_color_type.html">obe::Graphics::Exceptions::InvalidSpriteColorType</a>, <a class="el" href="classobe_1_1_graphics_1_1_exceptions_1_1_read_only_texture.html">obe::Graphics::Exceptions::ReadOnlyTexture</a>, <a class="el" href="classobe_1_1_input_1_1_exceptions_1_1_input_button_already_in_combination.html">obe::Input::Exceptions::InputButtonAlreadyInCombination</a>, <a class="el" href="classobe_1_1_input_1_1_exceptions_1_1_input_button_invalid_operation.html">obe::Input::Exceptions::InputButtonInvalidOperation</a>, <a class="el" href="classobe_1_1_input_1_1_exceptions_1_1_invalid_input_button_state.html">obe::Input::Exceptions::InvalidInputButtonState</a>, <a class="el" href="classobe_1_1_input_1_1_exceptions_1_1_invalid_input_combination_code.html">obe::Input::Exceptions::InvalidInputCombinationCode</a>, <a class="el" href="classobe_1_1_input_1_1_exceptions_1_1_invalid_input_type_enum_value.html">obe::Input::Exceptions::InvalidInputTypeEnumValue</a>, <a class="el" href="classobe_1_1_input_1_1_exceptions_1_1_unknown_input_action.html">obe::Input::Exceptions::UnknownInputAction</a>, <a class="el" href="classobe_1_1_input_1_1_exceptions_1_1_unknown_input_button.html">obe::Input::Exceptions::UnknownInputButton</a>, <a class="el" href="classobe_1_1_scene_1_1_exceptions_1_1_child_not_in_scene_node.html">obe::Scene::Exceptions::ChildNotInSceneNode</a>, <a class="el" href="classobe_1_1_scene_1_1_exceptions_1_1_game_object_already_exists.html">obe::Scene::Exceptions::GameObjectAlreadyExists</a>, <a class="el" href="classobe_1_1_scene_1_1_exceptions_1_1_missing_scene_file_block.html">obe::Scene::Exceptions::MissingSceneFileBlock</a>, <a class="el" href="classobe_1_1_scene_1_1_exceptions_1_1_scene_on_load_callback_error.html">obe::Scene::Exceptions::SceneOnLoadCallbackError</a>, <a class="el" href="classobe_1_1_scene_1_1_exceptions_1_1_scene_script_loading_error.html">obe::Scene::Exceptions::SceneScriptLoadingError</a>, <a class="el" href="classobe_1_1_scene_1_1_exceptions_1_1_unknown_collider.html">obe::Scene::Exceptions::UnknownCollider</a>, <a class="el" href="classobe_1_1_scene_1_1_exceptions_1_1_unknown_game_object.html">obe::Scene::Exceptions::UnknownGameObject</a>, <a class="el" href="classobe_1_1_scene_1_1_exceptions_1_1_unknown_sprite.html">obe::Scene::Exceptions::UnknownSprite</a>, <a class="el" href="classobe_1_1_script_1_1_exceptions_1_1_no_such_component.html">obe::Script::Exceptions::NoSuchComponent</a>, <a class="el" href="classobe_1_1_script_1_1_exceptions_1_1_object_definition_block_not_found.html">obe::Script::Exceptions::ObjectDefinitionBlockNotFound</a>, <a class="el" href="classobe_1_1_script_1_1_exceptions_1_1_object_definition_not_found.html">obe::Script::Exceptions::ObjectDefinitionNotFound</a>, <a class="el" href="classobe_1_1_script_1_1_exceptions_1_1_script_file_not_found.html">obe::Script::Exceptions::ScriptFileNotFound</a>, <a class="el" href="classobe_1_1_script_1_1_exceptions_1_1_wrong_source_attribute_type.html">obe::Script::Exceptions::WrongSourceAttributeType</a>, <a class="el" href="classobe_1_1_system_1_1_exceptions_1_1_invalid_mouse_button_enum_value.html">obe::System::Exceptions::InvalidMouseButtonEnumValue</a>, <a class="el" href="classobe_1_1_system_1_1_exceptions_1_1_mountable_path_index_overflow.html">obe::System::Exceptions::MountablePathIndexOverflow</a>, <a class="el" href="classobe_1_1_system_1_1_exceptions_1_1_mount_file_missing.html">obe::System::Exceptions::MountFileMissing</a>, <a class="el" href="classobe_1_1_system_1_1_exceptions_1_1_package_already_installed.html">obe::System::Exceptions::PackageAlreadyInstalled</a>, <a class="el" href="classobe_1_1_system_1_1_exceptions_1_1_package_file_not_found.html">obe::System::Exceptions::PackageFileNotFound</a>, <a class="el" href="classobe_1_1_system_1_1_exceptions_1_1_resource_not_found.html">obe::System::Exceptions::ResourceNotFound</a>, <a class="el" href="classobe_1_1_system_1_1_exceptions_1_1_unknown_package.html">obe::System::Exceptions::UnknownPackage</a>, <a class="el" href="classobe_1_1_system_1_1_exceptions_1_1_unknown_workspace.html">obe::System::Exceptions::UnknownWorkspace</a>, <a class="el" href="classobe_1_1_transform_1_1_exceptions_1_1_invalid_units_enum_value.html">obe::Transform::Exceptions::InvalidUnitsEnumValue</a>, <a class="el" href="classobe_1_1_transform_1_1_exceptions_1_1_polygon_not_enough_points.html">obe::Transform::Exceptions::PolygonNotEnoughPoints</a>, <a class="el" href="classobe_1_1_transform_1_1_exceptions_1_1_polygon_point_index_overflow.html">obe::Transform::Exceptions::PolygonPointIndexOverflow</a>, <a class="el" href="classobe_1_1_transform_1_1_exceptions_1_1_unknown_referential.html">obe::Transform::Exceptions::UnknownReferential</a>, <a class="el" href="classobe_1_1_transform_1_1_exceptions_1_1_unknown_unit.html">obe::Transform::Exceptions::UnknownUnit</a>, <a class="el" href="classobe_1_1_triggers_1_1_exceptions_1_1_callback_creation_error.html">obe::Triggers::Exceptions::CallbackCreationError</a>, <a class="el" href="classobe_1_1_triggers_1_1_exceptions_1_1_trigger_execution_error.html">obe::Triggers::Exceptions::TriggerExecutionError</a>, <a class="el" href="classobe_1_1_triggers_1_1_exceptions_1_1_trigger_group_already_exists.html">obe::Triggers::Exceptions::TriggerGroupAlreadyExists</a>, <a class="el" href="classobe_1_1_triggers_1_1_exceptions_1_1_trigger_group_not_joinable.html">obe::Triggers::Exceptions::TriggerGroupNotJoinable</a>, <a class="el" href="classobe_1_1_triggers_1_1_exceptions_1_1_trigger_namespace_already_exists.html">obe::Triggers::Exceptions::TriggerNamespaceAlreadyExists</a>, <a class="el" href="classobe_1_1_triggers_1_1_exceptions_1_1_unknown_trigger.html">obe::Triggers::Exceptions::UnknownTrigger</a>, <a class="el" href="classobe_1_1_triggers_1_1_exceptions_1_1_unknown_trigger_group.html">obe::Triggers::Exceptions::UnknownTriggerGroup</a>, and <a class="el" href="classobe_1_1_triggers_1_1_exceptions_1_1_unknown_trigger_namespace.html">obe::Triggers::Exceptions::UnknownTriggerNamespace</a>.</p>
+<p>Inherits <a class="el" href="classobe_1_1_base_exception.html">obe::BaseException</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad6b9f349fe1bbeef237e39daa542676d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_exception.html#ad6b9f349fe1bbeef237e39daa542676d">Exception</a> (const <a class="el" href="classobe_1_1_exception.html">Exception</a> &amp;e) noexcept</td></tr>
-<tr class="separator:ad6b9f349fe1bbeef237e39daa542676d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e63fed5b45a138115c58d7631d5d79b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_exception.html#a9e63fed5b45a138115c58d7631d5d79b">Exception</a> (std::string id, <a class="el" href="classobe_1_1_debug_info.html">DebugInfo</a> info)</td></tr>
-<tr class="separator:a9e63fed5b45a138115c58d7631d5d79b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7160a812e90db87645de59280f9802f4"><td class="memTemplParams" colspan="2">template&lt;class... Args&gt; </td></tr>
-<tr class="memitem:a7160a812e90db87645de59280f9802f4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classobe_1_1_exception.html#a7160a812e90db87645de59280f9802f4">error</a> (Args &amp;&amp;... args)</td></tr>
-<tr class="separator:a7160a812e90db87645de59280f9802f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada957209d17cb5182ca003da1ef75f73"><td class="memTemplParams" colspan="2">template&lt;class... Args&gt; </td></tr>
-<tr class="memitem:ada957209d17cb5182ca003da1ef75f73"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classobe_1_1_exception.html#ada957209d17cb5182ca003da1ef75f73">hint</a> (Args &amp;&amp;... args)</td></tr>
-<tr class="separator:ada957209d17cb5182ca003da1ef75f73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b26f8d2698835104a4bc6a78b341f71"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_exception.html#a7b26f8d2698835104a4bc6a78b341f71">what</a> () const noexcept override</td></tr>
-<tr class="separator:a7b26f8d2698835104a4bc6a78b341f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08c5fba73303ad6cccbf16ed0341db66"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_exception.html">Exception</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_exception.html#a08c5fba73303ad6cccbf16ed0341db66">nest</a> (const std::exception &amp;exception)</td></tr>
-<tr class="separator:a08c5fba73303ad6cccbf16ed0341db66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad17ade53c7f709b924ce49ffa7c94c91"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_exception.html#ad17ade53c7f709b924ce49ffa7c94c91">Exception</a> (<a class="el" href="classobe_1_1_debug_info.html">DebugInfo</a> info)</td></tr>
+<tr class="separator:ad17ade53c7f709b924ce49ffa7c94c91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23f3f0c8d9933a7d2fbdf26f0e281c4a"><td class="memItemLeft" align="right" valign="top">ExceptionType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_exception.html#a23f3f0c8d9933a7d2fbdf26f0e281c4a">nest</a> (const std::exception &amp;exception)</td></tr>
+<tr class="separator:a23f3f0c8d9933a7d2fbdf26f0e281c4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8692662e1be0e7c2ac3bff6d12ee774f"><td class="memItemLeft" align="right" valign="top">ExceptionType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_exception.html#a8692662e1be0e7c2ac3bff6d12ee774f">nest</a> (const <a class="el" href="classobe_1_1_base_exception.html">BaseException</a> &amp;exception)</td></tr>
+<tr class="separator:a8692662e1be0e7c2ac3bff6d12ee774f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classobe_1_1_base_exception"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classobe_1_1_base_exception')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classobe_1_1_base_exception.html">obe::BaseException</a></td></tr>
+<tr class="memitem:a349aa7ca4537ee7bbcde8c7bdccb859a inherit pub_methods_classobe_1_1_base_exception"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_base_exception.html#a349aa7ca4537ee7bbcde8c7bdccb859a">BaseException</a> ()=default</td></tr>
+<tr class="separator:a349aa7ca4537ee7bbcde8c7bdccb859a inherit pub_methods_classobe_1_1_base_exception"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6be5b6cecfc30a3689a033df56e84d01 inherit pub_methods_classobe_1_1_base_exception"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_base_exception.html#a6be5b6cecfc30a3689a033df56e84d01">BaseException</a> (const std::exception &amp;e) noexcept</td></tr>
+<tr class="separator:a6be5b6cecfc30a3689a033df56e84d01 inherit pub_methods_classobe_1_1_base_exception"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ae1e389587256ae1cec5b9b49c2ca7b inherit pub_methods_classobe_1_1_base_exception"><td class="memTemplParams" colspan="2">template&lt;class... Args&gt; </td></tr>
+<tr class="memitem:a9ae1e389587256ae1cec5b9b49c2ca7b inherit pub_methods_classobe_1_1_base_exception"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classobe_1_1_base_exception.html#a9ae1e389587256ae1cec5b9b49c2ca7b">error</a> (fmt::format_string&lt; Args... &gt; message, Args &amp;&amp;... args)</td></tr>
+<tr class="separator:a9ae1e389587256ae1cec5b9b49c2ca7b inherit pub_methods_classobe_1_1_base_exception"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59047b639caa04a00cf5c2c9e25a3783 inherit pub_methods_classobe_1_1_base_exception"><td class="memTemplParams" colspan="2">template&lt;class... Args&gt; </td></tr>
+<tr class="memitem:a59047b639caa04a00cf5c2c9e25a3783 inherit pub_methods_classobe_1_1_base_exception"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classobe_1_1_base_exception.html#a59047b639caa04a00cf5c2c9e25a3783">hint</a> (fmt::format_string&lt; Args... &gt; message, Args &amp;&amp;... args)</td></tr>
+<tr class="separator:a59047b639caa04a00cf5c2c9e25a3783 inherit pub_methods_classobe_1_1_base_exception"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80f7e3364f13dfdc2fb04eefce41e1bb inherit pub_methods_classobe_1_1_base_exception"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_base_exception.html#a80f7e3364f13dfdc2fb04eefce41e1bb">what</a> () const noexcept override</td></tr>
+<tr class="separator:a80f7e3364f13dfdc2fb04eefce41e1bb inherit pub_methods_classobe_1_1_base_exception"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acadfd8b1e333dd80fb767fe4b2978909 inherit pub_methods_classobe_1_1_base_exception"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::runtime_error &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_base_exception.html#acadfd8b1e333dd80fb767fe4b2978909">traceback</a> () const</td></tr>
+<tr class="separator:acadfd8b1e333dd80fb767fe4b2978909 inherit pub_methods_classobe_1_1_base_exception"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_methods_classobe_1_1_base_exception"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classobe_1_1_base_exception')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classobe_1_1_base_exception.html">obe::BaseException</a></td></tr>
+<tr class="memitem:aee2c84bdaab77329aa15392d50337dfb inherit pro_methods_classobe_1_1_base_exception"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_base_exception.html#aee2c84bdaab77329aa15392d50337dfb">nest_in_place</a> (const std::exception &amp;exception)</td></tr>
+<tr class="separator:aee2c84bdaab77329aa15392d50337dfb inherit pro_methods_classobe_1_1_base_exception"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbb650f4f2c77aca36095f8aa066516a inherit pro_methods_classobe_1_1_base_exception"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_base_exception.html#abbb650f4f2c77aca36095f8aa066516a">nest_in_place</a> (const <a class="el" href="classobe_1_1_base_exception.html">BaseException</a> &amp;exception)</td></tr>
+<tr class="separator:abbb650f4f2c77aca36095f8aa066516a inherit pro_methods_classobe_1_1_base_exception"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classobe_1_1_base_exception"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classobe_1_1_base_exception')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classobe_1_1_base_exception.html">obe::BaseException</a></td></tr>
+<tr class="memitem:aa474276cfc8bf38139ba8ae1942feda8 inherit pro_attribs_classobe_1_1_base_exception"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_base_exception.html#aa474276cfc8bf38139ba8ae1942feda8">m_message</a></td></tr>
+<tr class="separator:aa474276cfc8bf38139ba8ae1942feda8 inherit pro_attribs_classobe_1_1_base_exception"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2782df395dd1899e891b57c0f21d155b inherit pro_attribs_classobe_1_1_base_exception"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::runtime_error &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_base_exception.html#a2782df395dd1899e891b57c0f21d155b">m_traceback</a></td></tr>
+<tr class="separator:a2782df395dd1899e891b57c0f21d155b inherit pro_attribs_classobe_1_1_base_exception"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ad6b9f349fe1bbeef237e39daa542676d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6b9f349fe1bbeef237e39daa542676d">&#9670;&nbsp;</a></span>Exception() <span class="overload">[1/2]</span></h2>
+<a id="ad17ade53c7f709b924ce49ffa7c94c91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad17ade53c7f709b924ce49ffa7c94c91">&#9670;&nbsp;</a></span>Exception()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class ExceptionType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">obe::Exception::Exception </td>
+          <td class="memname"><a class="el" href="classobe_1_1_exception.html">obe::Exception</a>&lt; ExceptionType &gt;::<a class="el" href="classobe_1_1_exception.html">Exception</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classobe_1_1_exception.html">Exception</a> &amp;&#160;</td>
-          <td class="paramname"><em>e</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9e63fed5b45a138115c58d7631d5d79b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e63fed5b45a138115c58d7631d5d79b">&#9670;&nbsp;</a></span>Exception() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">obe::Exception::Exception </td>
-          <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>id</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype"><a class="el" href="classobe_1_1_debug_info.html">DebugInfo</a>&#160;</td>
-          <td class="paramname"><em>info</em>&#160;</td>
-        </tr>
-        <tr>
+          <td class="paramname"><em>info</em></td><td>)</td>
           <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -160,109 +144,42 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a7160a812e90db87645de59280f9802f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7160a812e90db87645de59280f9802f4">&#9670;&nbsp;</a></span>error()</h2>
+<a id="a23f3f0c8d9933a7d2fbdf26f0e281c4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23f3f0c8d9933a7d2fbdf26f0e281c4a">&#9670;&nbsp;</a></span>nest() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class... Args&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
+template&lt;class ExceptionType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void obe::Exception::error </td>
-          <td>(</td>
-          <td class="paramtype">Args &amp;&amp;...&#160;</td>
-          <td class="paramname"><em>args</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ada957209d17cb5182ca003da1ef75f73"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada957209d17cb5182ca003da1ef75f73">&#9670;&nbsp;</a></span>hint()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class... Args&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void obe::Exception::hint </td>
-          <td>(</td>
-          <td class="paramtype">Args &amp;&amp;...&#160;</td>
-          <td class="paramname"><em>args</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a08c5fba73303ad6cccbf16ed0341db66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08c5fba73303ad6cccbf16ed0341db66">&#9670;&nbsp;</a></span>nest()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classobe_1_1_exception.html">Exception</a> obe::Exception::nest </td>
+          <td class="memname">ExceptionType <a class="el" href="classobe_1_1_exception.html">obe::Exception</a>&lt; ExceptionType &gt;::nest </td>
           <td>(</td>
           <td class="paramtype">const std::exception &amp;&#160;</td>
           <td class="paramname"><em>exception</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a7b26f8d2698835104a4bc6a78b341f71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b26f8d2698835104a4bc6a78b341f71">&#9670;&nbsp;</a></span>what()</h2>
+<a id="a8692662e1be0e7c2ac3bff6d12ee774f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8692662e1be0e7c2ac3bff6d12ee774f">&#9670;&nbsp;</a></span>nest() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
+<div class="memtemplate">
+template&lt;class ExceptionType &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">const char * obe::Exception::what </td>
+          <td class="memname">ExceptionType <a class="el" href="classobe_1_1_exception.html">obe::Exception</a>&lt; ExceptionType &gt;::nest </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td class="paramtype">const <a class="el" href="classobe_1_1_base_exception.html">BaseException</a>&lt; ExceptionType &gt; &amp;&#160;</td>
+          <td class="paramname"><em>exception</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>

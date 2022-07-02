@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['navajowhite',['NavajoWhite',['../classobe_1_1_graphics_1_1_color.html#a0bbb93462386638a2ff4e29f567e9ef6',1,'obe::Graphics::Color']]],
-  ['navy',['Navy',['../classobe_1_1_graphics_1_1_color.html#a7b9f53c0b4f53a1408cfc798ed75d767',1,'obe::Graphics::Color']]],
-  ['numbers',['Numbers',['../namespaceobe_1_1_utils_1_1_string.html#ad3b00b18b04258a57a9f5d7477225bc6',1,'obe::Utils::String']]]
+  ['navajowhite',['NavajoWhite',['../classobe_1_1graphics_1_1_color.html#a4f0e63033d40129f4a7a9c149b46dbe5',1,'obe::graphics::Color']]],
+  ['navy',['Navy',['../classobe_1_1graphics_1_1_color.html#a7edf9a4f3a1b85b5a5a8047932e9c469',1,'obe::graphics::Color']]],
+  ['numbers',['Numbers',['../namespaceobe_1_1utils_1_1string.html#ae6676fbb317f54902e40256c144f5662',1,'obe::utils::string']]]
 ];

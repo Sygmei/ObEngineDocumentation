@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['oncollidecallback',['OnCollideCallback',['../namespaceobe_1_1_collision.html#a5d8c546d25774c1481e95ea9a7a9ac40',1,'obe::Collision']]],
-  ['onsceneloadcallback',['OnSceneLoadCallback',['../namespaceobe_1_1_scene.html#a81b3b69227fbe7819b8660270f6cc12a',1,'obe::Scene']]]
+  ['logger',['Logger',['../namespaceobe_1_1debug.html#a1db40b7a6e16b3441cd28bb1495cc50d',1,'obe::debug']]],
+  ['loglevelmeta',['LogLevelMeta',['../namespaceobe_1_1debug.html#ae0fe647c54a40adc2299df58fcbba9f9',1,'obe::debug']]]
 ];

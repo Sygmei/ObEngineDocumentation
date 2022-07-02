@@ -74,42 +74,57 @@ $(function() {
 <div class="title">Scene.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="_polygonal_collider_8hpp_source.html">Collision/PolygonalCollider.hpp</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;unordered_set&gt;</code><br />
+<code>#include &lt;sol/sol.hpp&gt;</code><br />
+<code>#include &lt;vili/node.hpp&gt;</code><br />
+<code>#include &lt;<a class="el" href="_polygonal_collider_8hpp_source.html">Collision/PolygonalCollider.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_resource_manager_8hpp_source.html">Engine/ResourceManager.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_event_group_8hpp_source.html">Event/EventGroup.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_event_namespace_8hpp_source.html">Event/EventNamespace.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_sprite_8hpp_source.html">Graphics/Sprite.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_camera_8hpp_source.html">Scene/Camera.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_scene_node_8hpp_source.html">Scene/SceneNode.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_script_2_game_object_8hpp_source.html">Script/GameObject.hpp</a>&gt;</code><br />
-<code>#include &lt;sol/sol.hpp&gt;</code><br />
-<code>#include &lt;vili/node.hpp&gt;</code><br />
+<code>#include &lt;<a class="el" href="_game_object_8hpp_source.html">Script/GameObject.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_tiles_2_scene_8hpp_source.html">Tiles/Scene.hpp</a>&gt;</code><br />
 </div>
 <p><a href="_scene_2_scene_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_scene_1_1_scene.html">obe::Scene::Scene</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classobe_1_1_scene_1_1_scene.html" title="The Scene class is a container of all the game elements. ">Scene</a> class is a container of all the game elements.  <a href="classobe_1_1_scene_1_1_scene.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structobe_1_1events_1_1_scene_1_1_loaded.html">obe::events::Scene::Loaded</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structobe_1_1scene_1_1_scene_render_options.html">obe::scene::SceneRenderOptions</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1scene_1_1_scene.html">obe::scene::Scene</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classobe_1_1scene_1_1_scene.html" title="The Scene class is a container of all the game elements. ">Scene</a> class is a container of all the game elements.  <a href="classobe_1_1scene_1_1_scene.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceobe"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe.html">obe</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespaceobe_1_1_system"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system.html">obe::System</a></td></tr>
+<tr class="memitem:namespaceobe_1_1system"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1system.html">obe::system</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespaceobe_1_1_scene"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_scene.html">obe::Scene</a></td></tr>
+<tr class="memitem:namespaceobe_1_1events"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1events.html">obe::events</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespaceobe_1_1events_1_1_scene"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1events_1_1_scene.html">obe::events::Scene</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespaceobe_1_1scene"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1scene.html">obe::scene</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a81b3b69227fbe7819b8660270f6cc12a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_scene.html#a81b3b69227fbe7819b8660270f6cc12a">obe::Scene::OnSceneLoadCallback</a> = sol::protected_function</td></tr>
-<tr class="separator:a81b3b69227fbe7819b8660270f6cc12a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a522a008c29b570aa1d4b6ab62d4d018a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1scene.html#a522a008c29b570aa1d4b6ab62d4d018a">obe::scene::OnSceneLoadCallback</a> = sol::protected_function</td></tr>
+<tr class="separator:a522a008c29b570aa1d4b6ab62d4d018a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a7987c35ee1201b554339ef571ffc54d7"><td class="memItemLeft" align="right" valign="top">sol::table&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_scene.html#a7987c35ee1201b554339ef571ffc54d7">obe::Scene::sceneGetGameObjectProxy</a> (Scene *self, const std::string &amp;id)</td></tr>
-<tr class="separator:a7987c35ee1201b554339ef571ffc54d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c71c9219bf2e998e7fa506a406b4cb6"><td class="memItemLeft" align="right" valign="top">sol::function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_scene.html#a0c71c9219bf2e998e7fa506a406b4cb6">obe::Scene::sceneCreateGameObjectProxy</a> (Scene *self, const std::string &amp;obj, const std::string &amp;id=&quot;&quot;)</td></tr>
-<tr class="separator:a0c71c9219bf2e998e7fa506a406b4cb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcb75f5bcbf0133619ebb75521eda667"><td class="memItemLeft" align="right" valign="top">sol::table&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1scene.html#adcb75f5bcbf0133619ebb75521eda667">obe::scene::scene_get_game_object_proxy</a> (const Scene *self, const std::string &amp;id)</td></tr>
+<tr class="separator:adcb75f5bcbf0133619ebb75521eda667"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b69b7dfdff955c5669a465e343a49fa"><td class="memItemLeft" align="right" valign="top">sol::function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1scene.html#a4b69b7dfdff955c5669a465e343a49fa">obe::scene::scene_create_game_object_proxy</a> (Scene *self, const std::string &amp;object_type, const std::string &amp;id=&quot;&quot;)</td></tr>
+<tr class="separator:a4b69b7dfdff955c5669a465e343a49fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a335809771644e11997ad58ed3a9c75b2"><td class="memItemLeft" align="right" valign="top">sol::nested&lt; std::vector&lt; sol::table &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1scene.html#a335809771644e11997ad58ed3a9c75b2">obe::scene::scene_get_all_game_objects_proxy</a> (const Scene *self, const std::string &amp;object_type=&quot;&quot;)</td></tr>
+<tr class="separator:a335809771644e11997ad58ed3a9c75b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

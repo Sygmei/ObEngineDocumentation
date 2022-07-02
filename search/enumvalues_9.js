@@ -1,9 +1,5 @@
 var searchData=
 [
-  ['last_5f_5f',['LAST__',['../namespaceobe_1_1_input.html#a7c34dc018f96813bc8b63f4c9c6cbc47a63771ed343ccc8223f958e0f52690144',1,'obe::Input']]],
-  ['left',['Left',['../namespaceobe_1_1_graphics_1_1_canvas.html#a31c8524a089c9e6700928d6662557d5ea945d5e233cf7d6240f6b783b36a374ff',1,'obe::Graphics::Canvas']]],
-  ['less',['Less',['../namespaceobe_1_1_input.html#a739b0d533914447340fb64a916ad060fa1cfdf0e8d0c87a228c1f40d9bee7888b',1,'obe::Input']]],
-  ['line',['Line',['../namespaceobe_1_1_graphics_1_1_canvas.html#aaaee5924f85afded701c731eab80e38ca4803e6b9e63dabf04de980788d6a13c4',1,'obe::Graphics::Canvas']]],
-  ['linear',['Linear',['../namespaceobe_1_1_animation_1_1_easing.html#aa521ae9f06441caea51b76a43e85c6ada32a843da6ea40ab3b17a3421ccdf671b',1,'obe::Animation::Easing']]],
-  ['loop',['Loop',['../namespaceobe_1_1_animation.html#a346c6729e9af989f6b063e6086637fbba89d7b10cb4238977d2b523dfd9ea7745',1,'obe::Animation']]]
+  ['keepboth',['KeepBoth',['../namespaceobe_1_1system.html#a7d3094a5c4777f1c494346a2c03bcf15abd43e477d77a9486562d44ba5b73e366',1,'obe::system']]],
+  ['keepratio',['KeepRatio',['../namespaceobe_1_1animation.html#a7bf0fb84ae6fe89e58290d5bde106533aca9d23a1b57f145185d7489d8a36a198',1,'obe::animation']]]
 ];

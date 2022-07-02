@@ -67,6 +67,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
@@ -75,36 +77,59 @@ $(function() {
 <div class="contents">
 <div class="textblock"><code>#include &lt;fmt/ostream.h&gt;</code><br />
 <code>#include &lt;spdlog/spdlog.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="_smart_enum_8hpp_source.html">Types/SmartEnum.hpp</a>&gt;</code><br />
 </div>
 <p><a href="_logger_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespaceobe_1_1_debug"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_debug.html">obe::Debug</a></td></tr>
+<tr class="memitem:namespaceobe_1_1debug"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1debug.html">obe::debug</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a1db40b7a6e16b3441cd28bb1495cc50d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1debug.html#a1db40b7a6e16b3441cd28bb1495cc50d">obe::debug::Logger</a> = std::shared_ptr&lt; spdlog::logger &gt;</td></tr>
+<tr class="separator:a1db40b7a6e16b3441cd28bb1495cc50d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0fe647c54a40adc2299df58fcbba9f9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1debug.html#ae0fe647c54a40adc2299df58fcbba9f9">obe::debug::LogLevelMeta</a> = types::SmartEnum&lt; LogLevel &gt;</td></tr>
+<tr class="separator:ae0fe647c54a40adc2299df58fcbba9f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a045aa5656335cdada8ce1371a3a0d90d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1debug.html#a045aa5656335cdada8ce1371a3a0d90d">obe::debug::LogLevel</a> { <br />
+&#160;&#160;<a class="el" href="namespaceobe_1_1debug.html#a045aa5656335cdada8ce1371a3a0d90dadd4ec0ac4e58f7c32a01244ae91150b1">obe::debug::LogLevel::Trace</a>, 
+<a class="el" href="namespaceobe_1_1debug.html#a045aa5656335cdada8ce1371a3a0d90daa603905470e2a5b8c13e96b579ef0dba">obe::debug::LogLevel::Debug</a>, 
+<a class="el" href="namespaceobe_1_1debug.html#a045aa5656335cdada8ce1371a3a0d90da4059b0251f66a18cb56f544728796875">obe::debug::LogLevel::Info</a>, 
+<a class="el" href="namespaceobe_1_1debug.html#a045aa5656335cdada8ce1371a3a0d90da56525ae64d370c0b448ac0d60710ef17">obe::debug::LogLevel::Warn</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespaceobe_1_1debug.html#a045aa5656335cdada8ce1371a3a0d90da902b0d55fddef6f8d651fe1035b7d4bd">obe::debug::LogLevel::Error</a>, 
+<a class="el" href="namespaceobe_1_1debug.html#a045aa5656335cdada8ce1371a3a0d90da278d01e5af56273bae1bb99a98b370cd">obe::debug::LogLevel::Critical</a>, 
+<a class="el" href="namespaceobe_1_1debug.html#a045aa5656335cdada8ce1371a3a0d90dad15305d7a4e34e02489c74a5ef542f36">obe::debug::LogLevel::Off</a>
+<br />
+ }</td></tr>
+<tr class="separator:a045aa5656335cdada8ce1371a3a0d90d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a410aebf0bd73d9e0e2d625a0e5b1ade9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_debug.html#a410aebf0bd73d9e0e2d625a0e5b1ade9">obe::Debug::InitLogger</a> ()</td></tr>
-<tr class="memdesc:a410aebf0bd73d9e0e2d625a0e5b1ade9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the Logger.  <a href="namespaceobe_1_1_debug.html#a410aebf0bd73d9e0e2d625a0e5b1ade9">More...</a><br /></td></tr>
-<tr class="separator:a410aebf0bd73d9e0e2d625a0e5b1ade9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ffd187f399775f824361630b055cf4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_debug.html#a6ffd187f399775f824361630b055cf4c">obe::Debug::trace</a> (const std::string &amp;content)</td></tr>
-<tr class="separator:a6ffd187f399775f824361630b055cf4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab11762a21f56811f4014772e60c485ae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_debug.html#ab11762a21f56811f4014772e60c485ae">obe::Debug::debug</a> (const std::string &amp;content)</td></tr>
-<tr class="separator:ab11762a21f56811f4014772e60c485ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa8cd4e224ea6fb1d866f9b497d014e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_debug.html#aaa8cd4e224ea6fb1d866f9b497d014e5">obe::Debug::info</a> (const std::string &amp;content)</td></tr>
-<tr class="separator:aaa8cd4e224ea6fb1d866f9b497d014e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53d972274ac2d1f2d255965f335b2214"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_debug.html#a53d972274ac2d1f2d255965f335b2214">obe::Debug::warn</a> (const std::string &amp;content)</td></tr>
-<tr class="separator:a53d972274ac2d1f2d255965f335b2214"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4261d0009585bb60c2c1036fd620106d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_debug.html#a4261d0009585bb60c2c1036fd620106d">obe::Debug::error</a> (const std::string &amp;content)</td></tr>
-<tr class="separator:a4261d0009585bb60c2c1036fd620106d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc2b0f92af8103d0cf2d90d456af3743"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_debug.html#adc2b0f92af8103d0cf2d90d456af3743">obe::Debug::critical</a> (const std::string &amp;content)</td></tr>
-<tr class="separator:adc2b0f92af8103d0cf2d90d456af3743"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad96edb98cda6e4331f9f5d3cdfa1f0e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1debug.html#ad96edb98cda6e4331f9f5d3cdfa1f0e6">obe::debug::init_logger</a> ()</td></tr>
+<tr class="memdesc:ad96edb98cda6e4331f9f5d3cdfa1f0e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the Logger.  <a href="namespaceobe_1_1debug.html#ad96edb98cda6e4331f9f5d3cdfa1f0e6">More...</a><br /></td></tr>
+<tr class="separator:ad96edb98cda6e4331f9f5d3cdfa1f0e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab28973e53d20c76010f911187705ebef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1debug.html#ab28973e53d20c76010f911187705ebef">obe::debug::trace</a> (const std::string &amp;content)</td></tr>
+<tr class="separator:ab28973e53d20c76010f911187705ebef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97636715bf2ba2b32ecd89f8b569a1b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1debug.html#a97636715bf2ba2b32ecd89f8b569a1b5">obe::debug::debug</a> (const std::string &amp;content)</td></tr>
+<tr class="separator:a97636715bf2ba2b32ecd89f8b569a1b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6185ebb16057a0fee71b40ad2ffd06c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1debug.html#a6185ebb16057a0fee71b40ad2ffd06c8">obe::debug::info</a> (const std::string &amp;content)</td></tr>
+<tr class="separator:a6185ebb16057a0fee71b40ad2ffd06c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6388504fd4fc48d543809ae5c36b25ae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1debug.html#a6388504fd4fc48d543809ae5c36b25ae">obe::debug::warn</a> (const std::string &amp;content)</td></tr>
+<tr class="separator:a6388504fd4fc48d543809ae5c36b25ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4ea5ee8a6f0578112be56a163c3edbd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1debug.html#aa4ea5ee8a6f0578112be56a163c3edbd">obe::debug::error</a> (const std::string &amp;content)</td></tr>
+<tr class="separator:aa4ea5ee8a6f0578112be56a163c3edbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac43f1f9eb655ba6000a34df0ea449d90"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1debug.html#ac43f1f9eb655ba6000a34df0ea449d90">obe::debug::critical</a> (const std::string &amp;content)</td></tr>
+<tr class="separator:ac43f1f9eb655ba6000a34df0ea449d90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a8a6b3d902a5a6a62b027657ff40c8083"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; spdlog::logger &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_debug.html#a8a6b3d902a5a6a62b027657ff40c8083">obe::Debug::Log</a></td></tr>
-<tr class="separator:a8a6b3d902a5a6a62b027657ff40c8083"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a136961d72e4d2b8b662144effca2354e"><td class="memItemLeft" align="right" valign="top">Logger&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1debug.html#a136961d72e4d2b8b662144effca2354e">obe::debug::Log</a></td></tr>
+<tr class="separator:a136961d72e4d2b8b662144effca2354e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

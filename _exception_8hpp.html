@@ -68,15 +68,15 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a>  </div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Exception.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;exception&gt;</code><br />
-<code>#include &lt;optional&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
-<code>#include &lt;fmt/format.h&gt;</code><br />
+<code>#include &lt;fmt/core.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="_string_utils_8hpp_source.html">Utils/StringUtils.hpp</a>&gt;</code><br />
 </div>
 <p><a href="_exception_8hpp_source.html">Go to the source code of this file.</a></p>
@@ -84,8 +84,11 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_debug_info.html">obe::DebugInfo</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">wrapper class containing informations about the place that threw an exception  <a href="classobe_1_1_debug_info.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_exception.html">obe::Exception</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_base_exception.html">obe::BaseException</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_exception.html">obe::Exception&lt; ExceptionType &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -99,6 +102,12 @@ Macros</h2></td></tr>
 <tr class="separator:a58e39f02e86fa4486fca32ffe94a30c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba8402e70ad658a4118e61a9638e9b5d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_exception_8hpp.html#aba8402e70ad658a4118e61a9638e9b5d">EXC_INFO</a>&#160;&#160;&#160;<a class="el" href="_exception_8hpp.html#a58e39f02e86fa4486fca32ffe94a30c6">EXC_INFO_WRAPPER</a>()</td></tr>
 <tr class="separator:aba8402e70ad658a4118e61a9638e9b5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ac62c15f840394075ee87ab39f2c9e137"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ac62c15f840394075ee87ab39f2c9e137"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceobe.html#ac62c15f840394075ee87ab39f2c9e137">obe::get_type_name</a> () -&gt; std::string_view</td></tr>
+<tr class="separator:ac62c15f840394075ee87ab39f2c9e137"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="aba8402e70ad658a4118e61a9638e9b5d"></a>

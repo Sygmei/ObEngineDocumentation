@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo_mini.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ObEngine
-   &#160;<span id="projectnumber">0.3</span>
+   &#160;<span id="projectnumber">0.4</span>
    </div>
    <div id="projectbrief">2D Game Engine with Lua Scripting made on top of SFML !</div>
   </td>
@@ -68,14 +68,18 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle">
 <div class="title">Window.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;string&gt;</code><br />
+<code>#include &lt;SFML/Graphics/Image.hpp&gt;</code><br />
+<code>#include &lt;SFML/Graphics/RenderTexture.hpp&gt;</code><br />
 <code>#include &lt;SFML/Graphics/RenderWindow.hpp&gt;</code><br />
 <code>#include &lt;SFML/Window/Event.hpp&gt;</code><br />
+<code>#include &lt;vili/node.hpp&gt;</code><br />
 <code>#include &lt;<a class="el" href="_color_8hpp_source.html">Graphics/Color.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_render_target_8hpp_source.html">Graphics/RenderTarget.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_unit_vector_8hpp_source.html">Transform/UnitVector.hpp</a>&gt;</code><br />
@@ -84,20 +88,42 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_system_1_1_window.html">obe::System::Window</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1system_1_1_window.html">obe::system::Window</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespaceobe_1_1_system"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system.html">obe::System</a></td></tr>
+<tr class="memitem:namespaceobe_1_1system"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1system.html">obe::system</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:addfb9ce40be7cda899712e9da54cfc85"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1system.html#addfb9ce40be7cda899712e9da54cfc85">obe::system::StretchModeMeta</a> = types::SmartEnum&lt; StretchMode &gt;</td></tr>
+<tr class="separator:addfb9ce40be7cda899712e9da54cfc85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c6f29016aa6ec94f146d049ded2e2d0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1system.html#a5c6f29016aa6ec94f146d049ded2e2d0">obe::system::WindowSizeMeta</a> = types::SmartEnum&lt; WindowSize &gt;</td></tr>
+<tr class="separator:a5c6f29016aa6ec94f146d049ded2e2d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a575246d6c02185d141e36dd51c37c547"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1system.html#a575246d6c02185d141e36dd51c37c547">obe::system::RenderSizeMeta</a> = types::SmartEnum&lt; RenderSize &gt;</td></tr>
+<tr class="separator:a575246d6c02185d141e36dd51c37c547"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:adddc1b1eefc4e9b4306c9c85651cc1cd"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system.html#adddc1b1eefc4e9b4306c9c85651cc1cd">obe::System::WindowContext</a> { <a class="el" href="namespaceobe_1_1_system.html#adddc1b1eefc4e9b4306c9c85651cc1cdafcedd4fb0dc69bbb898cb8d66087628c">obe::System::WindowContext::GameWindow</a>, 
-<a class="el" href="namespaceobe_1_1_system.html#adddc1b1eefc4e9b4306c9c85651cc1cdab782deb16aa9349a4f3ca19891012f68">obe::System::WindowContext::EditorWindow</a>
+<tr class="memitem:a4629e106f8ca65a58bd588128016120a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1system.html#a4629e106f8ca65a58bd588128016120a">obe::system::WindowContext</a> { <a class="el" href="namespaceobe_1_1system.html#a4629e106f8ca65a58bd588128016120aafcedd4fb0dc69bbb898cb8d66087628c">obe::system::WindowContext::GameWindow</a>, 
+<a class="el" href="namespaceobe_1_1system.html#a4629e106f8ca65a58bd588128016120aab782deb16aa9349a4f3ca19891012f68">obe::system::WindowContext::EditorWindow</a>
  }</td></tr>
-<tr class="separator:adddc1b1eefc4e9b4306c9c85651cc1cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a4629e106f8ca65a58bd588128016120a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3ca83022aa4466a190d7698ddc56353"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1system.html#ad3ca83022aa4466a190d7698ddc56353">obe::system::StretchMode</a> { <a class="el" href="namespaceobe_1_1system.html#ad3ca83022aa4466a190d7698ddc56353a6adf97f83acf6453d4a6a4b1070f3754">obe::system::StretchMode::None</a>, 
+<a class="el" href="namespaceobe_1_1system.html#ad3ca83022aa4466a190d7698ddc56353a4f1f6016fc9f3f2353c0cc7c67b292bd">obe::system::StretchMode::Center</a>, 
+<a class="el" href="namespaceobe_1_1system.html#ad3ca83022aa4466a190d7698ddc56353afbb09a82eafab60150d0996e8fe46560">obe::system::StretchMode::Stretch</a>, 
+<a class="el" href="namespaceobe_1_1system.html#ad3ca83022aa4466a190d7698ddc56353a01e49ee7364d951a3d1bdea7dd3a1b7b">obe::system::StretchMode::Fit</a>
+ }</td></tr>
+<tr class="separator:ad3ca83022aa4466a190d7698ddc56353"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6bdf4e8182d7d7b4c409ba89f3bc112"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1system.html#ac6bdf4e8182d7d7b4c409ba89f3bc112">obe::system::WindowSize</a> { <a class="el" href="namespaceobe_1_1system.html#ac6bdf4e8182d7d7b4c409ba89f3bc112a2fc3359e12b2a9104121dcf04246f6a0">obe::system::WindowSize::Screen</a>
+ }</td></tr>
+<tr class="separator:ac6bdf4e8182d7d7b4c409ba89f3bc112"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a57fdc577b98ac5bf20a7156ced52e0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1system.html#a5a57fdc577b98ac5bf20a7156ced52e0">obe::system::RenderSize</a> { <a class="el" href="namespaceobe_1_1system.html#a5a57fdc577b98ac5bf20a7156ced52e0ac89686a387d2b12b3c729ce35a0bcb5b">obe::system::RenderSize::Window</a>, 
+<a class="el" href="namespaceobe_1_1system.html#a5a57fdc577b98ac5bf20a7156ced52e0a2fc3359e12b2a9104121dcf04246f6a0">obe::system::RenderSize::Screen</a>
+ }</td></tr>
+<tr class="separator:a5a57fdc577b98ac5bf20a7156ced52e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

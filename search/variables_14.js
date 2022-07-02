@@ -1,9 +1,8 @@
 var searchData=
 [
-  ['w',['w',['../structobe_1_1_transform_1_1_view_struct.html#a8541f4e27c9f0ea0fc19203eeebd57cf',1,'obe::Transform::ViewStruct::w()'],['../structobe_1_1_transform_1_1_screen_struct.html#a2a8cc2bff19054692b73fad1599444b5',1,'obe::Transform::ScreenStruct::w()']]],
-  ['wait_5fcommand',['wait_command',['../namespaceobe_1_1_config_1_1_templates.html#ac90f8cfc34143e3fb0a79f4c12216daf',1,'obe::Config::Templates']]],
-  ['weeks',['weeks',['../namespaceobe_1_1_time.html#a32f1f0413e8b0dc7df1fbb17dffda2a6',1,'obe::Time']]],
-  ['wheat',['Wheat',['../classobe_1_1_graphics_1_1_color.html#a1eca6fdea14b270090ab39f584024e36',1,'obe::Graphics::Color']]],
-  ['white',['White',['../classobe_1_1_graphics_1_1_color.html#a830b18eae6c96f294a7930b528c0f6ca',1,'obe::Graphics::Color']]],
-  ['whitesmoke',['WhiteSmoke',['../classobe_1_1_graphics_1_1_color.html#a9141533c8459f58601021e7ccec36aec',1,'obe::Graphics::Color']]]
+  ['v',['V',['../structobe_1_1graphics_1_1_hsv.html#ac43ff25ae2c4f0c89285a08587d75970',1,'obe::graphics::Hsv']]],
+  ['v_5falign',['v_align',['../classobe_1_1graphics_1_1canvas_1_1_text.html#a064ea8fc36690f72f9e484cfbf2e60b4',1,'obe::graphics::canvas::Text']]],
+  ['view',['View',['../classobe_1_1transform_1_1_unit_vector.html#a1b16ff16752c738c23e1e1fbfd1ba0e0',1,'obe::transform::UnitVector']]],
+  ['violet',['Violet',['../classobe_1_1graphics_1_1_color.html#af728030a34630c55621653d8e98b826f',1,'obe::graphics::Color']]],
+  ['visible',['visible',['../classobe_1_1graphics_1_1canvas_1_1_canvas_element.html#ab8a23fb813ace3d867b7dbc8a980920b',1,'obe::graphics::canvas::CanvasElement']]]
 ];

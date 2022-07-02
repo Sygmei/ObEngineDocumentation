@@ -72,30 +72,35 @@ $(function() {
 <div class="title">Path.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="_path_8hpp_source.html">System/Path.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_string_utils_8hpp_source.html">Utils/StringUtils.hpp</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="_logger_8hpp_source.html">Debug/Logger.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_path_8hpp_source.html">System/Path.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_file_utils_8hpp_source.html">Utils/FileUtils.hpp</a>&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespaceobe_1_1_system"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_system.html">obe::System</a></td></tr>
+<tr class="memitem:namespaceobe_1_1system"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1system.html">obe::system</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a1f5e6ca825f5eb458358a397d264974c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1_system_1_1_path.html">obe::System::Path</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_path_8cpp.html#a1f5e6ca825f5eb458358a397d264974c">operator&quot;&quot; _path</a> (const char *str, std::size_t len)</td></tr>
-<tr class="separator:a1f5e6ca825f5eb458358a397d264974c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c7a85cb4a6e5bbb59a344998bae07f7"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1system.html#a6c7a85cb4a6e5bbb59a344998bae07f7">obe::system::split_path_and_prefix</a> (const std::string &amp;path, bool warn_on_missing_prefix=true)</td></tr>
+<tr class="separator:a6c7a85cb4a6e5bbb59a344998bae07f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0b9bf8afa68f6c6ae01474bd13ea4ff"><td class="memItemLeft" align="right" valign="top">MountList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1system.html#ac0b9bf8afa68f6c6ae01474bd13ea4ff">obe::system::filter_mountable_paths_with_prefix</a> (const MountList &amp;mounts, const std::string &amp;prefix)</td></tr>
+<tr class="separator:ac0b9bf8afa68f6c6ae01474bd13ea4ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abeca4138ec1a0a79d28b51a1605e5204"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classobe_1_1system_1_1_path.html">obe::system::Path</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_path_8cpp.html#abeca4138ec1a0a79d28b51a1605e5204">operator&quot;&quot; _path</a> (const char *str, std::size_t len)</td></tr>
+<tr class="separator:abeca4138ec1a0a79d28b51a1605e5204"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7d200d6b5d7ffef642ea7dc2b5c1bc6"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_path_8cpp.html#ad7d200d6b5d7ffef642ea7dc2b5c1bc6">operator&quot;&quot;_fs</a> (const char *str, std::size_t len)</td></tr>
 <tr class="separator:ad7d200d6b5d7ffef642ea7dc2b5c1bc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a1f5e6ca825f5eb458358a397d264974c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f5e6ca825f5eb458358a397d264974c">&#9670;&nbsp;</a></span>operator"" _path()</h2>
+<a id="abeca4138ec1a0a79d28b51a1605e5204"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abeca4138ec1a0a79d28b51a1605e5204">&#9670;&nbsp;</a></span>operator"" _path()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classobe_1_1_system_1_1_path.html">obe::System::Path</a> operator&quot;&quot; _path </td>
+          <td class="memname"><a class="el" href="classobe_1_1system_1_1_path.html">obe::system::Path</a> operator&quot;&quot; _path </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>str</em>, </td>

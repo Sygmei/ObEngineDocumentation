@@ -68,6 +68,7 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Color.hpp File Reference</div>  </div>
@@ -75,24 +76,40 @@ $(function() {
 <div class="contents">
 <div class="textblock"><code>#include &lt;string&gt;</code><br />
 <code>#include &lt;SFML/Graphics/Color.hpp&gt;</code><br />
+<code>#include &lt;<a class="el" href="_serializable_8hpp_source.html">Types/Serializable.hpp</a>&gt;</code><br />
 </div>
 <p><a href="_color_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1_graphics_1_1_color.html">obe::Graphics::Color</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to handle colors {<a class="el" href="classobe_1_1_graphics_1_1_color.html" title="A class to handle colors {Color}. ">Color</a>}.  <a href="classobe_1_1_graphics_1_1_color.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1animation_1_1_tween_impl.html">obe::animation::TweenImpl&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structobe_1_1graphics_1_1_hsv.html">obe::graphics::Hsv</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classobe_1_1graphics_1_1_color.html">obe::graphics::Color</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to handle colors.  <a href="classobe_1_1graphics_1_1_color.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespaceobe_1_1_graphics"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_graphics.html">obe::Graphics</a></td></tr>
+<tr class="memitem:namespaceobe_1_1animation"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1animation.html">obe::animation</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespaceobe_1_1graphics"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1graphics.html">obe::graphics</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a3e9cb9d31484eec5deb3767175bb1ad6"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1graphics.html#a3e9cb9d31484eec5deb3767175bb1ad6">obe::graphics::ColorType</a> { <a class="el" href="namespaceobe_1_1graphics.html#a3e9cb9d31484eec5deb3767175bb1ad6a38b4b6bc36857d1d806c9c7731f34823">obe::graphics::ColorType::Rgba</a>, 
+<a class="el" href="namespaceobe_1_1graphics.html#a3e9cb9d31484eec5deb3767175bb1ad6a9800007af5491f32bc878735c0a20e09">obe::graphics::ColorType::Hsv</a>, 
+<a class="el" href="namespaceobe_1_1graphics.html#a3e9cb9d31484eec5deb3767175bb1ad6a92640bd72988395b326c888614f8937a">obe::graphics::ColorType::Hex</a>, 
+<a class="el" href="namespaceobe_1_1graphics.html#a3e9cb9d31484eec5deb3767175bb1ad6afcc4d9630923df8325f4162502f81e05">obe::graphics::ColorType::ColorName</a>
+ }</td></tr>
+<tr class="separator:a3e9cb9d31484eec5deb3767175bb1ad6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:af4d5fd3ed3e8eb05441d3cf03c067855"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_graphics.html#af4d5fd3ed3e8eb05441d3cf03c067855">obe::Graphics::operator&lt;&lt;</a> (std::ostream &amp;os, const Color &amp;color)</td></tr>
-<tr class="separator:af4d5fd3ed3e8eb05441d3cf03c067855"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2573585294782feaa2d9dbd5d4d0ac6"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1graphics.html#aa2573585294782feaa2d9dbd5d4d0ac6">obe::graphics::operator&lt;&lt;</a> (std::ostream &amp;os, const Color &amp;color)</td></tr>
+<tr class="separator:aa2573585294782feaa2d9dbd5d4d0ac6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

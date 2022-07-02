@@ -72,71 +72,74 @@ $(function() {
 <div class="title">index.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="_binding_tree_8hpp_source.html">Bindings/BindingTree.hpp</a>&gt;</code><br />
-<code>#include &lt;Bindings/Bindings.hpp&gt;</code><br />
-<code>#include &lt;<a class="el" href="_bindings_2_config_8hpp_source.html">Bindings/Config.hpp</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="_bindings_2_config_8hpp_source.html">Bindings/Config.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_bindings_2_exceptions_8hpp_source.html">Bindings/Exceptions.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_bindings_2obe_2_animation_2_animation_8hpp_source.html">Bindings/obe/Animation/Animation.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_bindings_2obe_2_animation_2_easing_2_easing_8hpp_source.html">Bindings/obe/Animation/Easing/Easing.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_bindings_2obe_2_animation_2_exceptions_2_exceptions_8hpp_source.html">Bindings/obe/Animation/Exceptions/Exceptions.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_audio_8hpp_source.html">Bindings/obe/Audio/Audio.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_bindings_2obe_2_audio_2_exceptions_2_exceptions_8hpp_source.html">Bindings/obe/Audio/Exceptions/Exceptions.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="obe_2_bindings_2_bindings_8hpp_source.html">Bindings/obe/Bindings/Bindings.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_collision_8hpp_source.html">Bindings/obe/Collision/Collision.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_bindings_2obe_2_component_2_component_8hpp_source.html">Bindings/obe/Component/Component.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_bindings_2obe_2_component_2_exceptions_2_exceptions_8hpp_source.html">Bindings/obe/Component/Exceptions/Exceptions.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_bindings_2obe_2_config_2_config_8hpp_source.html">Bindings/obe/Config/Config.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_templates_8hpp_source.html">Bindings/obe/Config/Templates/Templates.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_debug_8hpp_source.html">Bindings/obe/Debug/Debug.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_bindings_2obe_2_engine_2_engine_8hpp_source.html">Bindings/obe/Engine/Engine.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_bindings_2obe_2_engine_2_exceptions_2_exceptions_8hpp_source.html">Bindings/obe/Engine/Exceptions/Exceptions.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_bindings_2obe_2_graphics_2_canvas_2_canvas_8hpp_source.html">Bindings/obe/Graphics/Canvas/Canvas.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_bindings_2obe_2_graphics_2_exceptions_2_exceptions_8hpp_source.html">Bindings/obe/Graphics/Exceptions/Exceptions.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_graphics_8hpp_source.html">Bindings/obe/Graphics/Graphics.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_bindings_2obe_2_graphics_2_shapes_2_shapes_8hpp_source.html">Bindings/obe/Graphics/Shapes/Shapes.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_utils_8hpp_source.html">Bindings/obe/Graphics/Utils/Utils.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_bindings_2obe_2_input_2_exceptions_2_exceptions_8hpp_source.html">Bindings/obe/Input/Exceptions/Exceptions.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_input_8hpp_source.html">Bindings/obe/Input/Input.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_network_8hpp_source.html">Bindings/obe/Network/Network.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_bindings_2obe_2_scene_2_exceptions_2_exceptions_8hpp_source.html">Bindings/obe/Scene/Exceptions/Exceptions.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_bindings_2obe_2_scene_2_scene_8hpp_source.html">Bindings/obe/Scene/Scene.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_bindings_2obe_2_script_2_exceptions_2_exceptions_8hpp_source.html">Bindings/obe/Script/Exceptions/Exceptions.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_script_8hpp_source.html">Bindings/obe/Script/Script.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_bindings_2obe_2_script_2_vili_lua_bridge_2_vili_lua_bridge_8hpp_source.html">Bindings/obe/Script/ViliLuaBridge/ViliLuaBridge.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_constraints_8hpp_source.html">Bindings/obe/System/Constraints/Constraints.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_bindings_2obe_2_system_2_exceptions_2_exceptions_8hpp_source.html">Bindings/obe/System/Exceptions/Exceptions.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_bindings_2obe_2_system_2_loaders_2_loaders_8hpp_source.html">Bindings/obe/System/Loaders/Loaders.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_bindings_2obe_2_system_2_package_2_package_8hpp_source.html">Bindings/obe/System/Package/Package.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_system_8hpp_source.html">Bindings/obe/System/System.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_bindings_2obe_2_system_2_workspace_2_workspace_8hpp_source.html">Bindings/obe/System/Workspace/Workspace.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_time_8hpp_source.html">Bindings/obe/Time/Time.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_bindings_2obe_2_transform_2_exceptions_2_exceptions_8hpp_source.html">Bindings/obe/Transform/Exceptions/Exceptions.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_transform_8hpp_source.html">Bindings/obe/Transform/Transform.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_bindings_2obe_2_triggers_2_exceptions_2_exceptions_8hpp_source.html">Bindings/obe/Triggers/Exceptions/Exceptions.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_triggers_8hpp_source.html">Bindings/obe/Triggers/Triggers.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_types_8hpp_source.html">Bindings/obe/Types/Types.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_exec_8hpp_source.html">Bindings/obe/Utils/Exec/Exec.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_file_8hpp_source.html">Bindings/obe/Utils/File/File.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_math_8hpp_source.html">Bindings/obe/Utils/Math/Math.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="obe_2_utils_2_string_2_string_8hpp_source.html">Bindings/obe/Utils/String/String.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_vector_8hpp_source.html">Bindings/obe/Utils/Vector/Vector.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="obe_8hpp_source.html">Bindings/obe/obe.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_bindings_2vili_2exceptions_2_exceptions_8hpp_source.html">Bindings/vili/exceptions/exceptions.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="parser_8hpp_source.html">Bindings/vili/parser/parser.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="vili_2utils_2string_2_string_8hpp_source.html">Bindings/vili/utils/string/string.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="vili_8hpp_source.html">Bindings/vili/vili.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_patches_8hpp_source.html">Bindings/Patches.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_obe_8hpp_source.html">Bindings/obe/Obe.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_bindings_2obe_2animation_2_animation_8hpp_source.html">Bindings/obe/animation/Animation.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_bindings_2obe_2animation_2easing_2_easing_8hpp_source.html">Bindings/obe/animation/easing/Easing.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_bindings_2obe_2animation_2schemas_2_schemas_8hpp_source.html">Bindings/obe/animation/schemas/Schemas.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_audio_8hpp_source.html">Bindings/obe/audio/Audio.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_bindings_8hpp_source.html">Bindings/obe/bindings/Bindings.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_collision_8hpp_source.html">Bindings/obe/collision/Collision.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_bindings_2obe_2component_2_component_8hpp_source.html">Bindings/obe/component/Component.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_bindings_2obe_2config_2_config_8hpp_source.html">Bindings/obe/config/Config.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_bindings_2obe_2config_2validators_2_validators_8hpp_source.html">Bindings/obe/config/validators/Validators.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_debug_8hpp_source.html">Bindings/obe/debug/Debug.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_bindings_2obe_2debug_2render_2_render_8hpp_source.html">Bindings/obe/debug/render/Render.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_bindings_2obe_2engine_2_engine_8hpp_source.html">Bindings/obe/engine/Engine.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_bindings_2obe_2event_2_event_8hpp_source.html">Bindings/obe/event/Event.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_actions_8hpp_source.html">Bindings/obe/events/Actions/Actions.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_bindings_2obe_2events_2_cursor_2_cursor_8hpp_source.html">Bindings/obe/events/Cursor/Cursor.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_events_8hpp_source.html">Bindings/obe/events/Events.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_core_2_bindings_2obe_2events_2_game_2_game_8hpp_source.html">Bindings/obe/events/Game/Game.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_keys_8hpp_source.html">Bindings/obe/events/Keys/Keys.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="events_2_network_2_network_8hpp_source.html">Bindings/obe/events/Network/Network.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_bindings_2obe_2events_2_scene_2_scene_8hpp_source.html">Bindings/obe/events/Scene/Scene.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_graphics_8hpp_source.html">Bindings/obe/graphics/Graphics.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_bindings_2obe_2graphics_2canvas_2_canvas_8hpp_source.html">Bindings/obe/graphics/canvas/Canvas.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_bindings_2obe_2graphics_2shapes_2_shapes_8hpp_source.html">Bindings/obe/graphics/shapes/Shapes.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="obe_2graphics_2utils_2_utils_8hpp_source.html">Bindings/obe/graphics/utils/Utils.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_input_8hpp_source.html">Bindings/obe/input/Input.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="network_2_network_8hpp_source.html">Bindings/obe/network/Network.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_bindings_2obe_2scene_2_scene_8hpp_source.html">Bindings/obe/scene/Scene.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_helpers_8hpp_source.html">Bindings/obe/script/Helpers/Helpers.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_script_8hpp_source.html">Bindings/obe/script/Script.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_bindings_2obe_2script_2vili__lua__bridge_2_vili_lua_bridge_8hpp_source.html">Bindings/obe/script/vili_lua_bridge/ViliLuaBridge.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_system_8hpp_source.html">Bindings/obe/system/System.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_constraints_8hpp_source.html">Bindings/obe/system/constraints/Constraints.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_bindings_2obe_2system_2package_2_package_8hpp_source.html">Bindings/obe/system/package/Package.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="prefixes_2_prefixes_8hpp_source.html">Bindings/obe/system/prefixes/Prefixes.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_priorities_8hpp_source.html">Bindings/obe/system/priorities/Priorities.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="project_2_prefixes_2_prefixes_8hpp_source.html">Bindings/obe/system/project/Prefixes/Prefixes.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_bindings_2obe_2system_2project_2_project_8hpp_source.html">Bindings/obe/system/project/Project.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_tiles_8hpp_source.html">Bindings/obe/tiles/Tiles.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_time_8hpp_source.html">Bindings/obe/time/Time.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_transform_8hpp_source.html">Bindings/obe/transform/Transform.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_types_8hpp_source.html">Bindings/obe/types/Types.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="obe_2utils_2_utils_8hpp_source.html">Bindings/obe/utils/Utils.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_exec_8hpp_source.html">Bindings/obe/utils/exec/Exec.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_file_8hpp_source.html">Bindings/obe/utils/file/File.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_math_8hpp_source.html">Bindings/obe/utils/math/Math.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="obe_2utils_2string_2_string_8hpp_source.html">Bindings/obe/utils/string/String.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_vector_8hpp_source.html">Bindings/obe/utils/vector/Vector.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_vili_8hpp_source.html">Bindings/vili/Vili.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_parser_8hpp_source.html">Bindings/vili/parser/Parser.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_rules_8hpp_source.html">Bindings/vili/parser/rules/Rules.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="vili_2utils_2_utils_8hpp_source.html">Bindings/vili/utils/Utils.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="vili_2utils_2string_2_string_8hpp_source.html">Bindings/vili/utils/string/String.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_writer_8hpp_source.html">Bindings/vili/writer/Writer.hpp</a>&gt;</code><br />
 <code>#include &lt;sol/sol.hpp&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespaceobe_1_1_bindings"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings.html">obe::Bindings</a></td></tr>
-<tr class="memdesc:namespaceobe_1_1_bindings"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bind C++ Classes and Functions to Lua VMs. <br /></td></tr>
+<tr class="memitem:namespaceobe_1_1bindings"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1bindings.html">obe::bindings</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a956aa529dc89b48794d27041a6e6c440"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_bindings.html#a956aa529dc89b48794d27041a6e6c440">obe::Bindings::IndexAllBindings</a> (sol::state_view state)</td></tr>
-<tr class="separator:a956aa529dc89b48794d27041a6e6c440"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed9229d0eea3398333d512830e251942"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1bindings.html#aed9229d0eea3398333d512830e251942">obe::bindings::index_core_bindings</a> (sol::state_view state)</td></tr>
+<tr class="separator:aed9229d0eea3398333d512830e251942"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

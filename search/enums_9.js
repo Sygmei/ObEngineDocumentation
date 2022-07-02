@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['soundstatus',['SoundStatus',['../namespaceobe_1_1_audio.html#a59dec0d0e6f19722516c42b38250d62e',1,'obe::Audio']]],
-  ['spritehandlepointtype',['SpriteHandlePointType',['../namespaceobe_1_1_graphics.html#a93a6584a59cd4569e845f9bc5263647d',1,'obe::Graphics']]]
+  ['sameprefixpolicy',['SamePrefixPolicy',['../namespaceobe_1_1system.html#a7d3094a5c4777f1c494346a2c03bcf15',1,'obe::system']]],
+  ['soundstatus',['SoundStatus',['../namespaceobe_1_1audio.html#a2ab8f9e4e249bc73d18f9993074ba87a',1,'obe::audio']]],
+  ['spritehandlepointtype',['SpriteHandlePointType',['../namespaceobe_1_1graphics.html#a5ecd9fd394d19a2df97b2a4e4e8843bb',1,'obe::graphics']]],
+  ['stretchmode',['StretchMode',['../namespaceobe_1_1system.html#ad3ca83022aa4466a190d7698ddc56353',1,'obe::system']]]
 ];

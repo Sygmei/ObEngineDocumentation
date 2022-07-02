@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ObEngine: sources/src/Core/Bindings/obe/Script/Script.cpp File Reference</title>
+<title>ObEngine: sources/src/Core/Bindings/obe/script/Script.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_08d237fc27d4ecd563f71c5d52f2fecc.html">sources</a></li><li class="navelem"><a class="el" href="dir_370a05bc919a3b485116f307abacd69c.html">src</a></li><li class="navelem"><a class="el" href="dir_a01383027d29596cf4ed417727025e41.html">Core</a></li><li class="navelem"><a class="el" href="dir_3a415b9a12a4259c17e3781637911ee4.html">Bindings</a></li><li class="navelem"><a class="el" href="dir_f4b9591fd00d3a68de0f9680c8cae818.html">obe</a></li><li class="navelem"><a class="el" href="dir_caa4c14940b6f3f80059592fad9feb37.html">Script</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_08d237fc27d4ecd563f71c5d52f2fecc.html">sources</a></li><li class="navelem"><a class="el" href="dir_370a05bc919a3b485116f307abacd69c.html">src</a></li><li class="navelem"><a class="el" href="dir_a01383027d29596cf4ed417727025e41.html">Core</a></li><li class="navelem"><a class="el" href="dir_3a415b9a12a4259c17e3781637911ee4.html">Bindings</a></li><li class="navelem"><a class="el" href="dir_f4b9591fd00d3a68de0f9680c8cae818.html">obe</a></li><li class="navelem"><a class="el" href="dir_83a0708a3c4e66cf4bf6ce82554ab33f.html">script</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -72,22 +72,32 @@ $(function() {
 <div class="title">Script.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="_script_8hpp_source.html">Bindings/obe/Script/Script.hpp</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="_script_8hpp_source.html">Bindings/obe/script/Script.hpp</a>&gt;</code><br />
 <code>#include &lt;Scene/Scene.hpp&gt;</code><br />
-<code>#include &lt;<a class="el" href="_script_2_game_object_8hpp_source.html">Script/GameObject.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_game_object_8hpp_source.html">Script/GameObject.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_lua_state_8hpp_source.html">Script/LuaState.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_scripting_8hpp_source.html">Script/Scripting.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_bindings_2_config_8hpp_source.html">Bindings/Config.hpp</a>&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespaceobe_1_1_script_1_1_bindings"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script_1_1_bindings.html">obe::Script::Bindings</a></td></tr>
+<tr class="memitem:namespaceobe_1_1script_1_1bindings"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1script_1_1bindings.html">obe::script::bindings</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae44e684497a52483c415029cf35fe9eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script_1_1_bindings.html#ae44e684497a52483c415029cf35fe9eb">obe::Script::Bindings::LoadClassGameObject</a> (sol::state_view state)</td></tr>
-<tr class="separator:ae44e684497a52483c415029cf35fe9eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a305ee79609acd4d09449cbcd30f68e33"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1_script_1_1_bindings.html#a305ee79609acd4d09449cbcd30f68e33">obe::Script::Bindings::LoadClassGameObjectDatabase</a> (sol::state_view state)</td></tr>
-<tr class="separator:a305ee79609acd4d09449cbcd30f68e33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60ff6fa1c48b83237ea12bedf8c2f5e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1script_1_1bindings.html#a60ff6fa1c48b83237ea12bedf8c2f5e9">obe::script::bindings::load_enum_environment_target</a> (sol::state_view state)</td></tr>
+<tr class="separator:a60ff6fa1c48b83237ea12bedf8c2f5e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abaa697e457e750021c9ca22551da0fd7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1script_1_1bindings.html#abaa697e457e750021c9ca22551da0fd7">obe::script::bindings::load_class_game_object</a> (sol::state_view state)</td></tr>
+<tr class="separator:abaa697e457e750021c9ca22551da0fd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1512631a08ef8da84926eaafb131fc70"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1script_1_1bindings.html#a1512631a08ef8da84926eaafb131fc70">obe::script::bindings::load_class_game_object_database</a> (sol::state_view state)</td></tr>
+<tr class="separator:a1512631a08ef8da84926eaafb131fc70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99cb597ab42e7334f112426ae6088b44"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1script_1_1bindings.html#a99cb597ab42e7334f112426ae6088b44">obe::script::bindings::load_class_lua_state</a> (sol::state_view state)</td></tr>
+<tr class="separator:a99cb597ab42e7334f112426ae6088b44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c54f8466e22529924f508fccd16896e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1script_1_1bindings.html#a6c54f8466e22529924f508fccd16896e">obe::script::bindings::load_function_sol_call_status_to_string</a> (sol::state_view state)</td></tr>
+<tr class="separator:a6c54f8466e22529924f508fccd16896e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa132017b86d071988050ecffbdbbe75c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceobe_1_1script_1_1bindings.html#aa132017b86d071988050ecffbdbbe75c">obe::script::bindings::load_function_safe_lua_call</a> (sol::state_view state)</td></tr>
+<tr class="separator:aa132017b86d071988050ecffbdbbe75c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
