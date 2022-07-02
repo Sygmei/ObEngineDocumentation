@@ -94,6 +94,7 @@ var searchData=
   ['sprite',['Sprite',['../classobe_1_1_graphics_1_1_sprite.html#a2677c36410a3d77fcfb0bfa5cf7caf5d',1,'obe::Graphics::Sprite']]],
   ['spritehandlepoint',['SpriteHandlePoint',['../classobe_1_1_graphics_1_1_sprite_handle_point.html#a967f2fcb6f31aea7de9044f37d6dfd16',1,'obe::Graphics::SpriteHandlePoint::SpriteHandlePoint(Sprite &amp;parent, Transform::Referential ref)'],['../classobe_1_1_graphics_1_1_sprite_handle_point.html#ab6f6e4379bb2a541d9d0ae05b3cbc743',1,'obe::Graphics::SpriteHandlePoint::SpriteHandlePoint(Sprite &amp;parent)']]],
   ['start',['start',['../classobe_1_1_time_1_1_chronometer.html#a96dd78036b9f9215e4a842f8bec75cb3',1,'obe::Time::Chronometer']]],
+  ['started',['started',['../classobe_1_1_time_1_1_chronometer.html#a0b83861fac7f0bf1b2ef8b79500601dd',1,'obe::Time::Chronometer']]],
   ['startgame',['startGame',['../namespaceobe_1_1_modes.html#a5f4a1008892030350b06282b8dee1a89',1,'obe::Modes']]],
   ['startswith',['startsWith',['../namespaceobe_1_1_utils_1_1_string.html#a131f999c03f01b9c5074495b443c210d',1,'obe::Utils::String']]],
   ['step',['step',['../classobe_1_1_animation_1_1_value_tweening.html#abd24cb3daa3adb2f954a5f497592d161',1,'obe::Animation::ValueTweening']]],

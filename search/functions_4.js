@@ -8,7 +8,7 @@ var searchData=
   ['epoch',['epoch',['../namespaceobe_1_1_time.html#a95e88180d324f58dcede547441c518d7',1,'obe::Time']]],
   ['error',['error',['../classobe_1_1_exception.html#a7160a812e90db87645de59280f9802f4',1,'obe::Exception::error()'],['../namespaceobe_1_1_debug.html#a4261d0009585bb60c2c1036fd620106d',1,'obe::Debug::error()']]],
   ['every',['every',['../classobe_1_1_triggers_1_1_callback_scheduler.html#ac318b3240cab8b99e754a14dae6da601',1,'obe::Triggers::CallbackScheduler']]],
-  ['exception',['Exception',['../classobe_1_1_exception.html#a9e63fed5b45a138115c58d7631d5d79b',1,'obe::Exception']]],
+  ['exception',['Exception',['../classobe_1_1_exception.html#ad6b9f349fe1bbeef237e39daa542676d',1,'obe::Exception::Exception(const Exception &amp;e) noexcept'],['../classobe_1_1_exception.html#a9e63fed5b45a138115c58d7631d5d79b',1,'obe::Exception::Exception(std::string id, DebugInfo info)']]],
   ['exec',['exec',['../classobe_1_1_script_1_1_game_object.html#adca954f24f1d70c84a76682aedc3d194',1,'obe::Script::GameObject']]],
   ['execute',['execute',['../classobe_1_1_triggers_1_1_trigger.html#a76a376d3aa78e78e556e83d47a6ca177',1,'obe::Triggers::Trigger']]],
   ['exists',['exists',['../classobe_1_1_bindings_1_1_binding_tree.html#aee1b95444575e106c46e13bf399bf454',1,'obe::Bindings::BindingTree']]],

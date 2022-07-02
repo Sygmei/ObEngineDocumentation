@@ -142,6 +142,7 @@ var searchData=
   ['spritehandlepointtype',['SpriteHandlePointType',['../namespaceobe_1_1_graphics.html#a93a6584a59cd4569e845f9bc5263647d',1,'obe::Graphics']]],
   ['standby',['Standby',['../namespaceobe_1_1_triggers.html#a3ec55d483b7903d22fa2b895b634ba46a2dbec34a65724db94f81e8533ee18192',1,'obe::Triggers']]],
   ['start',['start',['../classobe_1_1_time_1_1_chronometer.html#a96dd78036b9f9215e4a842f8bec75cb3',1,'obe::Time::Chronometer']]],
+  ['started',['started',['../classobe_1_1_time_1_1_chronometer.html#a0b83861fac7f0bf1b2ef8b79500601dd',1,'obe::Time::Chronometer']]],
   ['startgame',['startGame',['../namespaceobe_1_1_modes.html#a5f4a1008892030350b06282b8dee1a89',1,'obe::Modes']]],
   ['startswith',['startsWith',['../namespaceobe_1_1_utils_1_1_string.html#a131f999c03f01b9c5074495b443c210d',1,'obe::Utils::String']]],
   ['steelblue',['SteelBlue',['../classobe_1_1_graphics_1_1_color.html#a2cd556d26d944ea342fa6ca8ff660a25',1,'obe::Graphics::Color']]],
